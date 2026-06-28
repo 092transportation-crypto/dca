@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://dcalimos.com/</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>/dca-limos-logo.png</image:loc>
+      <image:title>DCA Limos - Premium Maryland Airport Transportation</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://dcalimos.com/services</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dcalimos.com/fleet</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dcalimos.com/booking</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://dcalimos.com/about</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dcalimos.com/contact</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dcalimos.com/blog</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Landing pages: Airports -->
+  <url><loc>https://dcalimos.com/limo/dca-airport-limo</loc><lastmod>2025-12-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://dcalimos.com/limo/bwi-airport-limo</loc><lastmod>2025-12-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://dcalimos.com/limo/dulles-airport-limo</loc><lastmod>2025-12-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+
+  <!-- Landing pages: Services -->
+  <url><loc>https://dcalimos.com/limo/wedding-limo-service</loc><lastmod>2025-12-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://dcalimos.com/limo/prom-limo-service</loc><lastmod>2025-12-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://dcalimos.com/limo/corporate-car-service</loc><lastmod>2025-12-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://dcalimos.com/limo/sports-game-day-limo</loc><lastmod>2025-12-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+
+  <!-- Landing pages: Cities -->
+  <url><loc>https://dcalimos.com/limo/annapolis-limo-service</loc><lastmod>2025-12-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://dcalimos.com/limo/baltimore-limo-service</loc><lastmod>2025-12-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://dcalimos.com/limo/bethesda-limo-service</loc><lastmod>2025-12-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://dcalimos.com/limo/silver-spring-limo-service</loc><lastmod>2025-12-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dcalimos.com/limo/rockville-limo-service</loc><lastmod>2025-12-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dcalimos.com/limo/columbia-limo-service</loc><lastmod>2025-12-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dcalimos.com/limo/frederick-limo-service</loc><lastmod>2025-12-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://dcalimos.com/limo/hanover-limo-service</loc><lastmod>2025-12-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+</urlset>

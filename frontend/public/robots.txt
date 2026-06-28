@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dcalimos.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Block admin and private paths (none currently)
+# Disallow: /admin/
