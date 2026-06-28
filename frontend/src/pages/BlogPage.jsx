@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Calendar, Clock, User, ArrowRight } from 'lucide-react';
+import { BLOG_POSTS } from '@/data/blogPosts';
 
 const BlogPage = () => {
   useEffect(() => {
@@ -13,6 +14,17 @@ const BlogPage = () => {
   }, []);
 
   const blogPosts = [
+    // Newest, data-driven posts (each has its own /blog/<slug> page)
+    ...BLOG_POSTS.map((p) => ({
+      slug: p.slug,
+      title: p.title,
+      excerpt: p.excerpt,
+      image: p.image,
+      author: p.author,
+      date: p.date,
+      readTime: p.readTime,
+      category: p.category,
+    })),
     {
       slug: 'ultimate-guide-dca-airport-transportation',
       title: 'The Ultimate Guide to DCA Airport Transportation: What Every Traveler Needs to Know',
