@@ -284,7 +284,7 @@ const FleetPage = () => {
               className="bg-white border-2 border-black text-black hover:bg-black hover:text-white font-bold text-base sm:text-lg px-10 sm:px-12 py-6 sm:py-7 w-full sm:w-auto"
               data-testid="fleet-cta-call-button"
             >
-              <a href="tel:+16674000092">
+              <a href="tel:+18776790100">
                 Call for Details
               </a>
             </Button>

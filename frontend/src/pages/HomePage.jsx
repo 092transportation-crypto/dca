@@ -105,9 +105,9 @@ const HomePage = () => {
                 className="bg-white/10 backdrop-blur-sm border-2 border-white text-white hover:bg-white hover:text-black font-bold text-base sm:text-lg px-8 sm:px-10 py-6 sm:py-7 transition-all w-full sm:w-auto"
                 data-testid="hero-call-button"
               >
-                <a href="tel:+16674000092" className="flex items-center justify-center space-x-2">
+                <a href="tel:+18776790100" className="flex items-center justify-center space-x-2">
                   <Phone className="h-5 w-5" />
-                  <span>+1 (667) 400-0092</span>
+                  <span>+1 (877) 679-0100</span>
                 </a>
               </Button>
             </div>
@@ -312,7 +312,7 @@ const HomePage = () => {
                   className="bg-amber-500 text-black hover:bg-amber-400 font-bold"
                   data-testid="service-areas-contact-button"
                 >
-                  <a href="tel:+16674000092" className="flex items-center gap-2">
+                  <a href="tel:+18776790100" className="flex items-center gap-2">
                     <Phone className="h-4 w-4" />
                     Call to Confirm Coverage
                   </a>
@@ -469,7 +469,7 @@ const HomePage = () => {
               className="bg-white border-2 border-black text-black hover:bg-black hover:text-white font-bold text-base sm:text-lg px-10 sm:px-12 py-6 sm:py-7 w-full sm:w-auto"
               data-testid="cta-call-button"
             >
-              <a href="tel:+16674000092" className="flex items-center justify-center space-x-2">
+              <a href="tel:+18776790100" className="flex items-center justify-center space-x-2">
                 <Phone className="h-5 w-5" />
                 <span>Call Us</span>
               </a>

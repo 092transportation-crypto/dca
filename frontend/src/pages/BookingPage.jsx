@@ -75,7 +75,7 @@ const BookingPage = () => {
         throw new Error('Submission failed');
       }
     } catch (err) {
-      toast.error("Couldn't send your request. Please call (667) 400-0092 instead.");
+      toast.error("Couldn't send your request. Please call (877) 679-0100 instead.");
     } finally {
       setSubmitting(false);
     }
@@ -160,7 +160,7 @@ const BookingPage = () => {
                           value={form.phone}
                           onChange={handleChange}
                           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition"
-                          placeholder="(667) 400-0092"
+                          placeholder="(877) 679-0100"
                           data-testid="quote-input-phone"
                         />
                       </div>
@@ -283,11 +283,11 @@ const BookingPage = () => {
                     <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-1">Or Call 24/7</h2>
                     <p className="text-sm text-gray-600 mb-2">Talk to our concierge instantly.</p>
                     <a
-                      href="tel:+16674000092"
+                      href="tel:+18776790100"
                       className="text-xl sm:text-2xl font-bold text-amber-600 hover:text-amber-700 transition-colors"
                       data-testid="booking-phone-link"
                     >
-                      +1 (667) 400-0092
+                      +1 (877) 679-0100
                     </a>
                   </div>
                 </div>

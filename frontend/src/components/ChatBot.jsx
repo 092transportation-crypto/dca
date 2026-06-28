@@ -61,7 +61,7 @@ const ChatBot = () => {
     } catch (error) {
       setMessages(prev => [...prev, { 
         role: 'assistant', 
-        content: "I apologize, but I'm having trouble connecting. Please call us at (667) 400-0092 for immediate assistance." 
+        content: "I apologize, but I'm having trouble connecting. Please call us at (877) 679-0100 for immediate assistance." 
       }]);
     } finally {
       setIsLoading(false);
@@ -203,7 +203,7 @@ const ChatBot = () => {
               </Button>
             </div>
             <p className="text-xs text-gray-400 text-center mt-2">
-              Call <a href="tel:+16674000092" className="text-amber-600 hover:underline">(667) 400-0092</a> for immediate help
+              Call <a href="tel:+18776790100" className="text-amber-600 hover:underline">(877) 679-0100</a> for immediate help
             </p>
           </div>
         </div>

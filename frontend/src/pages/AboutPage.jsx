@@ -202,8 +202,8 @@ const AboutPage = () => {
               className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white font-bold text-base sm:text-lg px-10 sm:px-12 py-6 sm:py-7 w-full sm:w-auto"
               data-testid="about-cta-call-button"
             >
-              <a href="tel:+16674000092">
-                Call +1 (667) 400-0092
+              <a href="tel:+18776790100">
+                Call +1 (877) 679-0100
               </a>
             </Button>
           </div>

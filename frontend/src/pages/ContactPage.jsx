@@ -10,10 +10,10 @@ import { Toaster } from '@/components/ui/sonner';
 
 const ContactPage = () => {
   useEffect(() => {
-    document.title = "Contact DCA Limo | 24/7 Airport Transportation & Car Service | Call (667) 400-0092 | Washington DC, MD, VA";
+    document.title = "Contact DCA Limo | 24/7 Airport Transportation & Car Service | Call (877) 679-0100 | Washington DC, MD, VA";
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
-      metaDesc.setAttribute('content', 'Contact DCA Limo for 24/7 airport transportation and luxury car service. Call (667) 400-0092 or email info@dcalimos.com. Serving Washington DC, Maryland & Virginia.');
+      metaDesc.setAttribute('content', 'Contact DCA Limo for 24/7 airport transportation and luxury car service. Call (877) 679-0100 or email info@dcalimos.com. Serving Washington DC, Maryland & Virginia.');
     }
   }, []);
 
@@ -81,8 +81,8 @@ const ContactPage = () => {
                   <Phone className="h-8 w-8" />
                 </div>
                 <h3 className="text-2xl font-bold mb-3 text-gray-900">24/7 Phone Service</h3>
-                <a href="tel:+16674000092" className="text-2xl font-bold text-amber-600 hover:text-gray-700 block mb-3">
-                  +1 (667) 400-0092
+                <a href="tel:+18776790100" className="text-2xl font-bold text-amber-600 hover:text-gray-700 block mb-3">
+                  +1 (877) 679-0100
                 </a>
                 <p className="text-amber-600">Always available for immediate bookings and assistance</p>
               </CardContent>
@@ -252,9 +252,9 @@ const ContactPage = () => {
                     className="w-full bg-black hover:bg-gray-900 text-white font-bold text-lg py-7 shadow-xl"
                     data-testid="quick-call-button"
                   >
-                    <a href="tel:+16674000092" className="flex items-center justify-center space-x-3">
+                    <a href="tel:+18776790100" className="flex items-center justify-center space-x-3">
                       <Phone className="h-6 w-6" />
-                      <span>Call +1 (667) 400-0092</span>
+                      <span>Call +1 (877) 679-0100</span>
                     </a>
                   </Button>
                 </CardContent>

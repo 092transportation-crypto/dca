@@ -25,9 +25,9 @@ const Header = () => {
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center text-xs sm:text-sm">
             <div className="flex items-center space-x-3 sm:space-x-6">
-              <a href="tel:+16674000092" className="flex items-center space-x-2 hover:opacity-80 transition-opacity font-semibold">
+              <a href="tel:+18776790100" className="flex items-center space-x-2 hover:opacity-80 transition-opacity font-semibold">
                 <Phone className="h-3 w-3 sm:h-4 sm:w-4" />
-                <span className="hidden sm:inline">+1 (667) 400-0092</span>
+                <span className="hidden sm:inline">+1 (877) 679-0100</span>
                 <span className="sm:hidden">Call Now</span>
               </a>
               <a href="mailto:info@dcalimos.com" className="flex items-center space-x-2 hover:opacity-80 transition-opacity font-semibold">
