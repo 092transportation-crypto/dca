@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dcalimos.com/sitemap.xml
+Sitemap: https://www.dcalimos.com/sitemap.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1
