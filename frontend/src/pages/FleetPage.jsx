@@ -13,118 +13,89 @@ const FleetPage = () => {
     }
   }, []);
 
+  // Same categories, vehicles, and order as bwichauffeur.com.
+  // "First Class Sedan" and "Van" each contain two vehicles.
   const vehicles = [
     {
-      name: 'Business Sedan',
-      tagline: 'Mercedes-Benz E-Class',
-      capacity: '3 Passengers',
-      luggage: '2 Bags',
+      category: 'Business Sedan',
+      name: 'Mercedes-Benz E-Class 2025',
       image: '/images/mercedes-eclass.jpg',
-      features: [
-        'Mercedes-Benz E-Class',
-        'Premium leather interior',
-        'Executive comfort',
-        'Wi-Fi available',
-        'USB charging ports',
-        'Professional uniformed chauffeur',
-      ],
-      description: 'Our Business Sedan features the elegant Mercedes E-Class. Ideal for corporate travel, client meetings, and professionals who demand sophistication and reliability.',
+      passengers: '3',
+      luggage: '2',
+      description:
+        'The perfect business sedan for airport transfers and corporate travel. Refined elegance meets cutting-edge technology.',
     },
     {
-      name: 'First Class Sedan',
-      tagline: 'BMW 7 Series · Mercedes S-Class',
-      capacity: '3 Passengers',
-      luggage: '2 Bags',
+      category: 'First Class Sedan',
+      name: 'BMW 7 Series',
       image: '/images/bmw-7series.jpg',
-      features: [
-        'BMW 7 Series & Mercedes-Benz S-Class',
-        'Ultimate luxury interior',
-        'Rear executive seating',
-        'Premium sound system',
-        'Climate-controlled seats',
-        'VIP treatment guaranteed',
-      ],
-      description: 'Experience the pinnacle of automotive luxury with our First Class fleet — the BMW 7 Series and Mercedes S-Class. Flagship sedans delivering uncompromising comfort for executives and VIPs.',
+      passengers: '3',
+      luggage: '2',
+      description:
+        'Where performance meets pure luxury. The ultimate first class sedan for discerning travelers.',
     },
     {
-      name: 'Midsize SUV',
-      tagline: 'Lincoln Nautilus',
-      capacity: '3 Passengers',
-      luggage: '4 Bags',
+      category: 'First Class Sedan',
+      name: 'Mercedes-Benz S-Class',
+      image: '/images/mercedes-sclass.jpg',
+      passengers: '3',
+      luggage: '2',
+      description:
+        'The pinnacle of sedan luxury. First-class experience for those who accept nothing less.',
+    },
+    {
+      category: 'Midsize SUV',
+      name: 'Lincoln Nautilus',
       image: '/images/lincoln-nautilus.jpg',
-      features: [
-        'Lincoln Nautilus',
-        'Elevated ride comfort',
-        'Extra luggage room',
-        'Panoramic visibility',
-        'Quiet, refined cabin',
-        'Perfect for airport travel',
-      ],
-      description: 'The Lincoln Nautilus blends sedan comfort with SUV practicality — extra luggage space and a smooth, quiet ride that makes it a favorite for airport transfers.',
+      passengers: '3',
+      luggage: '4',
+      description:
+        'The perfect balance of comfort and practicality for families and travelers with extra luggage.',
     },
     {
-      name: 'Luxury SUV',
-      tagline: 'Chevrolet Suburban',
-      capacity: '5 Passengers',
-      luggage: '5 Bags',
+      category: 'Luxury SUV',
+      name: 'Chevrolet Suburban',
       image: '/images/chevy-suburban.jpg',
-      features: [
-        'Chevrolet Suburban',
-        'Full-size interior space',
-        'Generous luggage capacity',
-        'Family and group friendly',
-        'All-weather capability',
-        'Executive black-car finish',
-      ],
-      description: 'Our Chevrolet Suburban carries up to five passengers with all their luggage in full-size comfort — the dependable choice for families, groups, and security details.',
+      passengers: '5',
+      luggage: '5',
+      description:
+        'Maximum space without compromising luxury. Ideal for larger groups and extended journeys.',
     },
     {
-      name: 'Premium SUV',
-      tagline: 'Cadillac Escalade',
-      capacity: '6 Passengers',
-      luggage: '5 Bags',
+      category: 'Premium SUV',
+      name: 'Cadillac Escalade',
       image: '/images/cadillac-escalade.jpg',
-      features: [
-        'Cadillac Escalade',
-        'Spacious luxury interior',
-        'Extra luggage capacity',
-        'Premium entertainment',
-        'All-weather capability',
-        'Perfect for groups',
-      ],
-      description: 'The iconic Cadillac Escalade combines commanding presence with exceptional comfort. Ideal for families, small groups, or anyone who needs extra space without sacrificing luxury.',
+      passengers: '6',
+      luggage: '5',
+      description:
+        "America's premier luxury SUV. Commanding presence with superior comfort for families and groups.",
     },
     {
-      name: 'Van',
-      tagline: 'Mercedes Sprinter Shuttle · Sprinter Executive',
-      capacity: '13 Passengers',
-      luggage: '13 Bags',
+      category: 'Van',
+      name: 'Mercedes Sprinter Shuttle',
+      image: '/images/mercedes-sprinter-shuttle.jpg',
+      passengers: '13',
+      luggage: '13',
+      description:
+        'Comfortable group transportation for airport runs, corporate events, and group outings. Spacious and reliable for larger parties.',
+    },
+    {
+      category: 'Van',
+      name: 'Mercedes Sprinter Executive',
       image: '/images/mercedes-sprinter-executive.jpg',
-      features: [
-        'Mercedes Sprinter Shuttle & Executive',
-        'Large group capacity',
-        'Ample luggage space',
-        'Standing room available',
-        'Corporate event ready',
-        'Airport group transfers',
-      ],
-      description: 'Our Mercedes Sprinter Shuttle and Executive vans are the ultimate solution for large groups, corporate events, and airport transfers — seating for up to 13 passengers with generous luggage capacity.',
+      passengers: '13',
+      luggage: '13',
+      description:
+        'Premium executive van with upgraded interior, captain chairs, and luxury amenities. Perfect for corporate groups who demand comfort.',
     },
     {
-      name: 'Limo',
-      tagline: 'Mercedes Sprinter Limo',
-      capacity: '13 Passengers',
-      luggage: '13 Bags',
+      category: 'Limo',
+      name: 'Mercedes Sprinter Limo',
       image: '/images/mercedes-sprinter-limo.jpg',
-      features: [
-        'Mercedes Sprinter Limo',
-        'Limo-style lounge seating',
-        'Ambient lighting',
-        'Premium entertainment system',
-        'Celebration ready',
-        'Weddings, proms & nights out',
-      ],
-      description: 'The Mercedes Sprinter Limo brings lounge-style seating, ambient lighting, and a premium entertainment system — the celebration vehicle for weddings, proms, and unforgettable nights out.',
+      passengers: '13',
+      luggage: '13',
+      description:
+        'The ultimate stretch limo experience in a Sprinter. Perfect for weddings, proms, and special occasions that deserve a grand entrance.',
     },
   ];
 
@@ -150,73 +121,81 @@ const FleetPage = () => {
         </div>
       </section>
 
-      {/* Fleet Showcase */}
-      <section className="py-12 sm:py-20 lg:py-24" data-testid="fleet-showcase-section">
+      {/* Fleet Showcase — black & gold card grid, same structure as bwichauffeur */}
+      <section className="py-12 sm:py-20 lg:py-24 bg-black" data-testid="fleet-showcase-section">
         <div className="container mx-auto px-4">
-          {vehicles.map((vehicle, index) => (
-            <div 
-              key={index} 
-              className={`mb-16 sm:mb-20 lg:mb-24 ${index !== vehicles.length - 1 ? 'pb-16 sm:pb-20 lg:pb-24 border-b-2 border-gray-200' : ''}`}
-              data-testid={`vehicle-${index}`}
-            >
-              <div className={`grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center`}>
-                <div className={`${index % 2 === 1 ? 'lg:order-2' : ''} order-2 lg:order-none`}>
-                  <div className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl group bg-gray-900">
-                    <img
-                      src={vehicle.image}
-                      alt={`${vehicle.name} — ${vehicle.tagline}`}
-                      loading="lazy"
-                      className="w-full h-48 sm:h-64 lg:h-80 object-cover group-hover:scale-105 transition-transform duration-500"
-                    />
-                    <div className="absolute top-4 sm:top-6 left-4 sm:left-6">
-                      <div className="bg-amber-500 text-black px-3 py-1.5 sm:px-4 sm:py-2 text-xs sm:text-sm font-bold">
-                        {vehicle.tagline}
-                      </div>
-                    </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {vehicles.map((vehicle, index) => (
+              <Card
+                key={index}
+                className="bg-gradient-to-br from-gray-900 to-black border-amber-500/20 hover:border-amber-500/60 overflow-hidden group transition-all duration-300 hover:shadow-2xl hover:shadow-amber-500/20 flex flex-col"
+                data-testid={`vehicle-${index}`}
+              >
+                {/* Vehicle Image */}
+                <div className="relative h-64 overflow-hidden bg-gray-900">
+                  <img
+                    src={vehicle.image}
+                    alt={`${vehicle.name} — ${vehicle.category} chauffeur vehicle, seats ${vehicle.passengers}`}
+                    loading="lazy"
+                    decoding="async"
+                    width="800"
+                    height="600"
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none" />
+                  <div className="absolute bottom-4 left-4 right-4">
+                    <h3 className="text-2xl font-bold text-white drop-shadow-lg">{vehicle.name}</h3>
                   </div>
                 </div>
-                <div className={`${index % 2 === 1 ? 'lg:order-1' : ''} order-1 lg:order-none`}>
-                  <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 text-gray-900">{vehicle.name}</h2>
-                  <div className="flex gap-4 sm:gap-8 mb-4 sm:mb-6 pb-4 sm:pb-6 border-b-2 border-gray-200">
-                    <div className="flex items-center gap-2">
-                      <Users className="h-5 w-5 text-amber-500" />
-                      <div>
-                        <p className="text-xs sm:text-sm text-gray-500 uppercase tracking-wider">Capacity</p>
-                        <p className="text-base sm:text-lg font-bold text-gray-900">{vehicle.capacity}</p>
-                      </div>
+
+                <CardContent className="p-6 flex flex-col flex-1">
+                  {/* Gold category label */}
+                  <span className="text-amber-400 text-xs font-bold uppercase tracking-widest mb-2">
+                    {vehicle.category}
+                  </span>
+
+                  {/* Vehicle name */}
+                  <h3 className="text-xl font-bold text-white mb-4">{vehicle.name}</h3>
+
+                  {/* Passengers + luggage with icons */}
+                  <div className="flex items-center justify-between mb-4 pb-4 border-b border-gray-800">
+                    <div className="flex items-center space-x-2">
+                      <Users className="h-5 w-5 text-amber-400" />
+                      <span className="text-white font-medium">{vehicle.passengers} Passengers</span>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <Briefcase className="h-5 w-5 text-amber-500" />
-                      <div>
-                        <p className="text-xs sm:text-sm text-gray-500 uppercase tracking-wider">Luggage</p>
-                        <p className="text-base sm:text-lg font-bold text-gray-900">{vehicle.luggage}</p>
-                      </div>
+                    <div className="flex items-center space-x-2">
+                      <Briefcase className="h-5 w-5 text-amber-400" />
+                      <span className="text-white font-medium">{vehicle.luggage} Bags</span>
                     </div>
                   </div>
-                  <p className="text-base sm:text-lg lg:text-xl text-gray-700 mb-6 sm:mb-8 leading-relaxed">{vehicle.description}</p>
-                  <h3 className="font-bold text-base sm:text-lg mb-3 sm:mb-4 text-gray-900 uppercase tracking-wider">Premium Features:</h3>
-                  <div className="grid grid-cols-1 gap-2 sm:gap-3 mb-8 sm:mb-10">
-                    {vehicle.features.map((feature, idx) => (
-                      <div key={idx} className="flex items-center space-x-3 bg-gray-50 p-3 sm:p-4 rounded-lg">
-                        <CheckCircle className="h-5 w-5 sm:h-6 sm:w-6 text-amber-500 flex-shrink-0" />
-                        <span className="text-sm sm:text-base text-gray-800 font-medium">{feature}</span>
-                      </div>
-                    ))}
-                  </div>
-                  <Button 
-                    asChild 
-                    size="lg" 
-                    className="bg-amber-500 hover:bg-amber-600 text-black font-bold text-base sm:text-lg px-8 sm:px-10 py-5 sm:py-6 shadow-lg w-full sm:w-auto"
+
+                  {/* Description */}
+                  <p className="text-gray-400 mb-6 text-sm flex-1">{vehicle.description}</p>
+
+                  {/* Book Now button */}
+                  <Button
+                    asChild
+                    className="w-full bg-amber-500 hover:bg-amber-600 text-black font-bold shadow-lg"
                     data-testid={`vehicle-book-button-${index}`}
                   >
-                    <Link to="/booking">
-                      Reserve This Vehicle
+                    <Link to="/booking" aria-label={`Book the ${vehicle.name}`}>
+                      Book Now
                     </Link>
                   </Button>
-                </div>
-              </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          {/* Trust message */}
+          <div className="mt-16 text-center">
+            <div className="inline-flex items-center space-x-2 bg-amber-500/10 border border-amber-500/30 rounded-full px-6 py-3">
+              <Star className="h-5 w-5 text-amber-400" />
+              <span className="text-gray-300">
+                All vehicles are fully licensed, insured, and professionally maintained
+              </span>
             </div>
-          ))}
+          </div>
         </div>
       </section>
 
