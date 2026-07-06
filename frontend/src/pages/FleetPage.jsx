@@ -15,27 +15,11 @@ const FleetPage = () => {
 
   const vehicles = [
     {
-      name: 'Economy Class',
-      tagline: 'Affordable Comfort',
+      name: 'Business Sedan',
+      tagline: 'Mercedes-Benz E-Class',
       capacity: '3 Passengers',
       luggage: '2 Bags',
-      image: 'https://92limo.com/wp-content/uploads/2025/07/economy-class-removebg-preview-300x179.png',
-      features: [
-        'Comfortable seating',
-        'Climate control',
-        'Professional chauffeur',
-        'Affordable rates',
-        'Clean and maintained',
-        'On-time guarantee',
-      ],
-      description: 'Our Economy Class vehicles offer reliable and comfortable transportation at affordable rates. Perfect for solo travelers or small groups looking for quality service without the premium price tag.',
-    },
-    {
-      name: 'Business Class',
-      tagline: 'Mercedes E-Class',
-      capacity: '3 Passengers',
-      luggage: '2 Bags',
-      image: 'https://92limo.com/wp-content/uploads/2025/06/mercedes-e-class-removebg-preview-300x138.png',
+      image: '/images/mercedes-eclass.jpg',
       features: [
         'Mercedes-Benz E-Class',
         'Premium leather interior',
@@ -44,30 +28,62 @@ const FleetPage = () => {
         'USB charging ports',
         'Professional uniformed chauffeur',
       ],
-      description: 'Step up to our Business Class with the elegant Mercedes E-Class. Ideal for corporate travel, client meetings, and professionals who demand sophistication and reliability.',
+      description: 'Our Business Sedan features the elegant Mercedes E-Class. Ideal for corporate travel, client meetings, and professionals who demand sophistication and reliability.',
     },
     {
-      name: 'First Class',
-      tagline: 'Mercedes S-Class',
+      name: 'First Class Sedan',
+      tagline: 'BMW 7 Series · Mercedes S-Class',
       capacity: '3 Passengers',
       luggage: '2 Bags',
-      image: 'https://92limo.com/wp-content/uploads/2025/06/mercedes-s-class-300x186.png',
+      image: '/images/bmw-7series.jpg',
       features: [
-        'Mercedes-Benz S-Class',
+        'BMW 7 Series & Mercedes-Benz S-Class',
         'Ultimate luxury interior',
         'Rear executive seating',
         'Premium sound system',
         'Climate-controlled seats',
         'VIP treatment guaranteed',
       ],
-      description: 'Experience the pinnacle of automotive luxury with our First Class Mercedes S-Class. The flagship sedan delivers uncompromising comfort for executives and VIPs who expect nothing but the best.',
+      description: 'Experience the pinnacle of automotive luxury with our First Class fleet — the BMW 7 Series and Mercedes S-Class. Flagship sedans delivering uncompromising comfort for executives and VIPs.',
+    },
+    {
+      name: 'Midsize SUV',
+      tagline: 'Lincoln Nautilus',
+      capacity: '3 Passengers',
+      luggage: '4 Bags',
+      image: '/images/lincoln-nautilus.jpg',
+      features: [
+        'Lincoln Nautilus',
+        'Elevated ride comfort',
+        'Extra luggage room',
+        'Panoramic visibility',
+        'Quiet, refined cabin',
+        'Perfect for airport travel',
+      ],
+      description: 'The Lincoln Nautilus blends sedan comfort with SUV practicality — extra luggage space and a smooth, quiet ride that makes it a favorite for airport transfers.',
+    },
+    {
+      name: 'Luxury SUV',
+      tagline: 'Chevrolet Suburban',
+      capacity: '5 Passengers',
+      luggage: '5 Bags',
+      image: '/images/chevy-suburban.jpg',
+      features: [
+        'Chevrolet Suburban',
+        'Full-size interior space',
+        'Generous luggage capacity',
+        'Family and group friendly',
+        'All-weather capability',
+        'Executive black-car finish',
+      ],
+      description: 'Our Chevrolet Suburban carries up to five passengers with all their luggage in full-size comfort — the dependable choice for families, groups, and security details.',
     },
     {
       name: 'Premium SUV',
       tagline: 'Cadillac Escalade',
-      capacity: '5 Passengers',
+      capacity: '6 Passengers',
       luggage: '5 Bags',
-      image: 'https://92limo.com/wp-content/uploads/2025/06/cadillac-escalade-300x169.png',
+      image: '/images/cadillac-escalade.jpg',
       features: [
         'Cadillac Escalade',
         'Spacious luxury interior',
@@ -79,20 +95,36 @@ const FleetPage = () => {
       description: 'The iconic Cadillac Escalade combines commanding presence with exceptional comfort. Ideal for families, small groups, or anyone who needs extra space without sacrificing luxury.',
     },
     {
-      name: 'Sprinter Van',
-      tagline: 'Mercedes Sprinter',
+      name: 'Van',
+      tagline: 'Mercedes Sprinter Shuttle · Sprinter Executive',
       capacity: '13 Passengers',
-      luggage: '12 Bags',
-      image: 'https://92limo.com/wp-content/uploads/2025/06/mercedes-sprinter-300x200.png',
+      luggage: '13 Bags',
+      image: '/images/mercedes-sprinter-executive.jpg',
       features: [
-        'Mercedes-Benz Sprinter',
+        'Mercedes Sprinter Shuttle & Executive',
         'Large group capacity',
         'Ample luggage space',
         'Standing room available',
         'Corporate event ready',
         'Airport group transfers',
       ],
-      description: 'Our Mercedes Sprinter Van is the ultimate solution for large groups, corporate events, and airport transfers. Comfortable seating for up to 13 passengers with generous luggage capacity.',
+      description: 'Our Mercedes Sprinter Shuttle and Executive vans are the ultimate solution for large groups, corporate events, and airport transfers — seating for up to 13 passengers with generous luggage capacity.',
+    },
+    {
+      name: 'Limo',
+      tagline: 'Mercedes Sprinter Limo',
+      capacity: '13 Passengers',
+      luggage: '13 Bags',
+      image: '/images/mercedes-sprinter-limo.jpg',
+      features: [
+        'Mercedes Sprinter Limo',
+        'Limo-style lounge seating',
+        'Ambient lighting',
+        'Premium entertainment system',
+        'Celebration ready',
+        'Weddings, proms & nights out',
+      ],
+      description: 'The Mercedes Sprinter Limo brings lounge-style seating, ambient lighting, and a premium entertainment system — the celebration vehicle for weddings, proms, and unforgettable nights out.',
     },
   ];
 
@@ -102,7 +134,7 @@ const FleetPage = () => {
       <section 
         className="relative py-16 sm:py-24 lg:py-32 bg-cover bg-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(https://92limo.com/wp-content/uploads/2025/06/mercedes-s-class-300x186.png)',
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(/images/mercedes-sclass.jpg)',
           backgroundColor: '#111'
         }}
         data-testid="fleet-hero"
@@ -129,11 +161,12 @@ const FleetPage = () => {
             >
               <div className={`grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center`}>
                 <div className={`${index % 2 === 1 ? 'lg:order-2' : ''} order-2 lg:order-none`}>
-                  <div className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl group bg-gradient-to-br from-gray-100 to-gray-200 p-8">
-                    <img 
-                      src={vehicle.image} 
-                      alt={vehicle.name}
-                      className="w-full h-48 sm:h-64 lg:h-80 object-contain group-hover:scale-105 transition-transform duration-500"
+                  <div className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl group bg-gray-900">
+                    <img
+                      src={vehicle.image}
+                      alt={`${vehicle.name} — ${vehicle.tagline}`}
+                      loading="lazy"
+                      className="w-full h-48 sm:h-64 lg:h-80 object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute top-4 sm:top-6 left-4 sm:left-6">
                       <div className="bg-amber-500 text-black px-3 py-1.5 sm:px-4 sm:py-2 text-xs sm:text-sm font-bold">
@@ -222,12 +255,15 @@ const FleetPage = () => {
           <div className="text-center mb-8">
             <h3 className="text-xl sm:text-2xl font-bold text-gray-900">Our Fleet Brands</h3>
           </div>
-          <div className="flex flex-wrap justify-center items-center gap-8 sm:gap-12">
-            <img src="https://92limo.com/wp-content/uploads/2025/06/mercedes-benz-logo.png" alt="Mercedes-Benz" className="h-12 sm:h-16 object-contain opacity-70 hover:opacity-100 transition-opacity" />
-            <img src="https://92limo.com/wp-content/uploads/2025/06/cadillac-logo.png" alt="Cadillac" className="h-12 sm:h-16 object-contain opacity-70 hover:opacity-100 transition-opacity" />
-            <img src="https://92limo.com/wp-content/uploads/2025/06/lincoln-logo.png" alt="Lincoln" className="h-12 sm:h-16 object-contain opacity-70 hover:opacity-100 transition-opacity" />
-            <img src="https://92limo.com/wp-content/uploads/2025/06/ford-logo.png" alt="Ford" className="h-12 sm:h-16 object-contain opacity-70 hover:opacity-100 transition-opacity" />
-            <img src="https://92limo.com/wp-content/uploads/2025/06/chevrolet-logo.png" alt="Chevrolet" className="h-12 sm:h-16 object-contain opacity-70 hover:opacity-100 transition-opacity" />
+          <div className="flex flex-wrap justify-center items-center gap-6 sm:gap-10">
+            {['Mercedes-Benz', 'BMW', 'Cadillac', 'Lincoln', 'Chevrolet'].map((brand) => (
+              <span
+                key={brand}
+                className="text-lg sm:text-2xl font-bold tracking-wide text-gray-400 hover:text-gray-700 transition-colors"
+              >
+                {brand}
+              </span>
+            ))}
           </div>
         </div>
       </section>
