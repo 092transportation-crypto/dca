@@ -19,7 +19,7 @@ const FleetPage = () => {
     {
       category: 'Business Sedan',
       name: 'Mercedes-Benz E-Class 2025',
-      image: '/images/mercedes-eclass.jpg',
+      image: '/images/mercedes-e-class.jpg',
       passengers: '3',
       luggage: '2',
       description:
@@ -28,7 +28,7 @@ const FleetPage = () => {
     {
       category: 'First Class Sedan',
       name: 'BMW 7 Series',
-      image: '/images/bmw-7series.jpg',
+      image: '/images/bmw-7-series.jpg',
       passengers: '3',
       luggage: '2',
       description:
@@ -73,7 +73,7 @@ const FleetPage = () => {
     {
       category: 'Van',
       name: 'Mercedes Sprinter Shuttle',
-      image: '/images/mercedes-sprinter-shuttle.jpg',
+      image: '/images/sprinter-shuttle-seats.jpg',
       passengers: '13',
       luggage: '13',
       description:
@@ -82,7 +82,7 @@ const FleetPage = () => {
     {
       category: 'Van',
       name: 'Mercedes Sprinter Executive',
-      image: '/images/mercedes-sprinter-executive.jpg',
+      image: '/images/mercedes-sprinter.jpg',
       passengers: '13',
       luggage: '13',
       description:
@@ -91,7 +91,7 @@ const FleetPage = () => {
     {
       category: 'Limo',
       name: 'Mercedes Sprinter Limo',
-      image: '/images/mercedes-sprinter-limo.jpg',
+      image: '/images/limousine.jpg',
       passengers: '13',
       luggage: '13',
       description:
