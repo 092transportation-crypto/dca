@@ -12,7 +12,7 @@ Build a professional, modern, and trustworthy website for DCA Limo (previously b
 - Third-party booking integration (mylimobiz.com widget)
 - Service areas showcase based on user-provided location data
 - Contact email: info@dclimos.com
-- Phone: +1 (667) 400-0092
+- Phone: +1 (877) 609-1919
 
 ## Tech Stack
 - **Frontend:** React, Tailwind CSS, React Router, Shadcn/UI

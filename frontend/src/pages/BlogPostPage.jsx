@@ -6,8 +6,8 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { findBlogPost, BLOG_POSTS } from '@/data/blogPosts';
 
-const PHONE_DISPLAY = '(877) 679-0100';
-const PHONE_TEL = 'tel:+18776790100';
+const PHONE_DISPLAY = '(877) 609-1919';
+const PHONE_TEL = 'tel:+18776091919';
 
 // Legacy article shown for older slugs that predate the data-driven system.
 const LEGACY_POST = {

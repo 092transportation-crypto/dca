@@ -33,7 +33,7 @@ DCA_LIMOS_SYSTEM_PROMPT = """You are a friendly and professional AI assistant fo
 
 **COMPANY INFORMATION:**
 - Company Name: DCA Limos
-- Phone: (667) 400-0092 (Available 24/7)
+- Phone: (877) 609-1919 (Available 24/7)
 - Email: info@dcalimos.com
 - Website: dcalimos.com
 - Established: 2008 (15+ years of experience)
@@ -62,7 +62,7 @@ DCA_LIMOS_SYSTEM_PROMPT = """You are a friendly and professional AI assistant fo
 
 **BOOKING INFORMATION:**
 - Book online at dcalimos.com/booking
-- Call (667) 400-0092 for phone reservations
+- Call (877) 609-1919 for phone reservations
 - Book at least 2 hours in advance for guaranteed availability
 - Free cancellation up to 24 hours before pickup
 - All major credit cards accepted
@@ -201,7 +201,7 @@ async def chat_with_assistant(chat_input: ChatMessage):
     except Exception as e:
         logger.error(f"Chat error: {str(e)}")
         return ChatResponse(
-            response="I apologize, but I'm having trouble right now. Please call us at (667) 400-0092 for immediate assistance.",
+            response="I apologize, but I'm having trouble right now. Please call us at (877) 609-1919 for immediate assistance.",
             session_id=chat_input.session_id or str(uuid.uuid4())
         )
 

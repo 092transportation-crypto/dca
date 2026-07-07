@@ -12,7 +12,7 @@ export const BLOG_POSTS = [
     title: 'DCA Airport Car Service vs Uber in 2026: An Honest Cost & Reliability Comparison',
     metaTitle: 'DCA Car Service vs Uber 2026 | Real Cost Comparison',
     metaDesc:
-      'DCA airport car service vs Uber in 2026 — real prices, surge math, and hidden costs compared. See when a flat-rate chauffeur actually beats rideshare. Call (877) 679-0100.',
+      'DCA airport car service vs Uber in 2026 — real prices, surge math, and hidden costs compared. See when a flat-rate chauffeur actually beats rideshare. Call (877) 609-1919.',
     excerpt:
       'Is a flat-rate DCA car service really worth it over Uber in 2026? We break down the real prices, surge pricing, and hidden costs — and exactly when each option wins.',
     image: IMG_EXEC,
@@ -56,7 +56,7 @@ export const BLOG_POSTS = [
       <p>You have a 7 a.m. flight, so you need to leave by 5:15 a.m. You open the app: one driver, 12 minutes away. You request; he cancels. You re-book into a 2.2x surge. Your $30 ride is now $66, and it is 5:20 with no car. The chauffeur version: you booked the night before at a flat rate, your driver is outside at 5:10 as promised, and you reach the terminal calm and on time. The flat rate is not a splurge here — it is the removal of risk on the trip where risk is most expensive.</p>
 
       <h2>The bottom line for 2026</h2>
-      <p>Uber is cheapest when conditions are perfect. A flat-rate DCA car service is cheaper — and dramatically less stressful — the moment conditions are not. Since airport travel lives in the imperfect conditions, most travelers who run the real numbers book a chauffeur for the trips that matter and save rideshare for casual hops. Want the exact flat rate for your route? <a href="/booking">Request a quote</a> or call (877) 679-0100, 24/7.</p>
+      <p>Uber is cheapest when conditions are perfect. A flat-rate DCA car service is cheaper — and dramatically less stressful — the moment conditions are not. Since airport travel lives in the imperfect conditions, most travelers who run the real numbers book a chauffeur for the trips that matter and save rideshare for casual hops. Want the exact flat rate for your route? <a href="/booking">Request a quote</a> or call (877) 609-1919, 24/7.</p>
     `,
     faqs: [
       {
@@ -82,7 +82,7 @@ export const BLOG_POSTS = [
     title: 'How to Choose the Best Black Car Service at DCA Airport (2026 Guide)',
     metaTitle: 'Best Black Car Service at DCA Airport (2026) | How to Choose',
     metaDesc:
-      'How to pick the best black car service at DCA Airport in 2026 — the 7 things that actually matter, from flat-rate pricing to flight tracking and fleet quality. Call (877) 679-0100.',
+      'How to pick the best black car service at DCA Airport in 2026 — the 7 things that actually matter, from flat-rate pricing to flight tracking and fleet quality. Call (877) 609-1919.',
     excerpt:
       'Not all DCA black car services are equal. Here are the seven things that separate the best Reagan National car service from the rest — and how to vet one before you book.',
     image: IMG_AIRPORT,
@@ -124,7 +124,7 @@ export const BLOG_POSTS = [
       </ul>
 
       <h2>Why travelers choose DCA Limos</h2>
-      <p>We built our service around exactly these standards: flat-rate pricing with no surge, automatic flight tracking, a late-model Mercedes fleet, meet-and-greet at baggage claim, full licensing and insurance, and live 24/7 dispatch. Whether it is a solo executive transfer, a <a href="/dca-to-washington-dc">DCA to Washington DC</a> run, or a group in a Sprinter van, the standard does not change. <a href="/booking">Reserve your DCA black car here</a> or call (877) 679-0100.</p>
+      <p>We built our service around exactly these standards: flat-rate pricing with no surge, automatic flight tracking, a late-model Mercedes fleet, meet-and-greet at baggage claim, full licensing and insurance, and live 24/7 dispatch. Whether it is a solo executive transfer, a <a href="/dca-to-washington-dc">DCA to Washington DC</a> run, or a group in a Sprinter van, the standard does not change. <a href="/booking">Reserve your DCA black car here</a> or call (877) 609-1919.</p>
     `,
     faqs: [
       {
@@ -150,7 +150,7 @@ export const BLOG_POSTS = [
     title: 'Reagan National Airport (DCA) Ground Transportation Guide for 2026',
     metaTitle: 'Reagan National (DCA) Transportation Guide 2026 | Pickup, Tips & Options',
     metaDesc:
-      'Complete 2026 guide to Reagan National (DCA) ground transportation — terminals, pickup zones, Metro, taxi, rideshare, and car service compared. Call (877) 679-0100.',
+      'Complete 2026 guide to Reagan National (DCA) ground transportation — terminals, pickup zones, Metro, taxi, rideshare, and car service compared. Call (877) 609-1919.',
     excerpt:
       'Everything you need to know about getting to and from Reagan National in 2026 — terminal layout, exact pickup zones, and an honest comparison of every transportation option.',
     image: IMG_AIRPORT,
@@ -193,7 +193,7 @@ export const BLOG_POSTS = [
       <p>Reagan National is the gateway to the entire DMV. Our most-requested transfers include <a href="/dca-to-washington-dc">DCA to Washington DC</a>, <a href="/dca-to-arlington">DCA to Arlington</a>, <a href="/dca-to-alexandria">DCA to Alexandria</a>, <a href="/dca-to-bethesda">DCA to Bethesda</a>, and inter-airport runs like <a href="/dca-to-dulles">DCA to Dulles</a> and <a href="/dca-to-bwi">DCA to BWI</a>.</p>
 
       <h2>Ready to book your DCA transfer?</h2>
-      <p>Skip the rideshare lottery and the taxi line. <a href="/booking">Reserve a flat-rate DCA transfer</a> with flight tracking, a professional chauffeur, and a late-model vehicle, or call (877) 679-0100 — we answer 24/7.</p>
+      <p>Skip the rideshare lottery and the taxi line. <a href="/booking">Reserve a flat-rate DCA transfer</a> with flight tracking, a professional chauffeur, and a late-model vehicle, or call (877) 609-1919 — we answer 24/7.</p>
     `,
     faqs: [
       {
@@ -219,7 +219,7 @@ export const BLOG_POSTS = [
     title: 'DCA to DC Flat-Rate Car Service: One Price, No Surge, No Surprises',
     metaTitle: 'DCA to DC Flat-Rate Car Service 2026 | From $65, No Surge',
     metaDesc:
-      'DCA to Washington DC flat-rate car service in 2026 from $65 — tolls and flight tracking included, no surge, no meter. Capitol Hill, K Street, Georgetown. Call (877) 679-0100.',
+      'DCA to Washington DC flat-rate car service in 2026 from $65 — tolls and flight tracking included, no surge, no meter. Capitol Hill, K Street, Georgetown. Call (877) 609-1919.',
     excerpt:
       'Why a flat rate beats a meter or surge fare on the short DCA-to-DC run — what is included, real 2026 pricing, and the neighborhoods we serve.',
     image: IMG_AIRPORT,
@@ -252,12 +252,12 @@ export const BLOG_POSTS = [
       <p>Flat-rate planning pays off on the return, too. We monitor your departure time and back-calculate when to leave your DC address with a sensible security buffer, leaving earlier when rush hour demands it so you are never rushing through the terminal. Book the round trip together and the whole day is handled on one predictable price.</p>
 
       <h2>Book your DCA to DC transfer</h2>
-      <p>Lock in one price for the whole trip — no surge, no meter, no surprises. <a href="/booking">Reserve your DCA to DC car service here</a> or call (877) 679-0100, 24/7. Flat rate, flight-tracked, professional chauffeur, every time.</p>
+      <p>Lock in one price for the whole trip — no surge, no meter, no surprises. <a href="/booking">Reserve your DCA to DC car service here</a> or call (877) 609-1919, 24/7. Flat rate, flight-tracked, professional chauffeur, every time.</p>
     `,
     faqs: [
       {
         q: 'How much is a flat-rate car service from DCA to DC?',
-        a: 'Our DCA to Washington DC flat rate starts at $65 in a luxury sedan, including tolls, fuel, and flight-tracking wait time. SUVs and Sprinter vans are priced accordingly. Call (877) 679-0100 for an exact quote.',
+        a: 'Our DCA to Washington DC flat rate starts at $65 in a luxury sedan, including tolls, fuel, and flight-tracking wait time. SUVs and Sprinter vans are priced accordingly. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'How long does the DCA to downtown DC drive take?',
@@ -278,7 +278,7 @@ export const BLOG_POSTS = [
     title: 'Corporate Car Service at DCA Airport: A Guide for DC-Area Businesses',
     metaTitle: 'Corporate Car Service DCA Airport 2026 | Executive Travel Guide',
     metaDesc:
-      'Corporate car service at DCA Airport — dedicated chauffeurs, monthly billing, flight tracking, and discreet executive travel across the DMV. Call (877) 679-0100.',
+      'Corporate car service at DCA Airport — dedicated chauffeurs, monthly billing, flight tracking, and discreet executive travel across the DMV. Call (877) 609-1919.',
     excerpt:
       'What a real corporate car service program looks like at Reagan National — billing, account management, dedicated chauffeurs, and the details that make executive travel just work.',
     image: IMG_EXEC,
@@ -316,7 +316,7 @@ export const BLOG_POSTS = [
       </ol>
 
       <h2>How to set up a corporate account</h2>
-      <p>It takes about 15 minutes. We learn your travel patterns, you provide a billing contact and net-15 or net-30 preference, we assign an account manager, and dispatch begins. There is no setup fee and no minimum — most clients start with a few trips a month and grow, unlocking volume pricing as monthly spend increases. <a href="/booking">Request your first trip here</a> or call (877) 679-0100 to talk to our corporate team.</p>
+      <p>It takes about 15 minutes. We learn your travel patterns, you provide a billing contact and net-15 or net-30 preference, we assign an account manager, and dispatch begins. There is no setup fee and no minimum — most clients start with a few trips a month and grow, unlocking volume pricing as monthly spend increases. <a href="/booking">Request your first trip here</a> or call (877) 609-1919 to talk to our corporate team.</p>
     `,
     faqs: [
       {
@@ -333,7 +333,7 @@ export const BLOG_POSTS = [
       },
       {
         q: 'Can you handle government and cleared-personnel travel?',
-        a: 'Yes. We work with government contractors and offer discreet, documented transportation with professional chauffeurs experienced in the expectations of DC-area government and Pentagon-adjacent travel. Call (877) 679-0100 to discuss requirements.',
+        a: 'Yes. We work with government contractors and offer discreet, documented transportation with professional chauffeurs experienced in the expectations of DC-area government and Pentagon-adjacent travel. Call (877) 609-1919 to discuss requirements.',
       },
     ],
   },

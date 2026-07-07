@@ -10,12 +10,11 @@ export const ROUTE_PAGES = [
     slug: 'dca-to-washington-dc',
     destination: 'Washington, DC',
     h1: 'DCA Airport to Washington DC Car Service',
-    metaTitle: 'DCA Airport to Washington DC Car Service | Flat Rate from $65',
+    metaTitle: 'DCA Airport to Washington DC Car Service | Flat-Rate Chauffeur Service',
     metaDesc:
-      'Reliable DCA Airport to Washington DC car service. Flat-rate luxury chauffeur, flight tracking, 24/7. Capitol Hill, Georgetown, K Street, downtown. Call (877) 679-0100.',
+      'Reliable DCA Airport to Washington DC car service. Flat-rate luxury chauffeur, flight tracking, 24/7. Capitol Hill, Georgetown, K Street, downtown. Call (877) 609-1919.',
     distance: '3 miles',
     driveTime: '10–20 minutes',
-    flatRateFrom: 65,
     heroImage: HERO_IMAGE,
     intro:
       'Ronald Reagan Washington National Airport (DCA) sits just three miles from downtown Washington, DC, making it the most convenient gateway to the nation’s capital. DCA Limos turns that proximity into a genuinely effortless arrival: your chauffeur tracks your flight, meets you at baggage claim, and has you at your Capitol Hill hotel, K Street office, or Georgetown townhouse in well under half an hour — with a flat rate locked in before you ever land.',
@@ -49,7 +48,7 @@ export const ROUTE_PAGES = [
       },
     ],
     highlights: [
-      'Flat rate from $65 — no surge, no surprise tolls',
+      'Flat-rate pricing — no surge, no surprise tolls',
       'Real-time flight tracking with complimentary wait time',
       'Meet-and-greet at DCA baggage claim',
       'Government, contractor & embassy travel accommodated',
@@ -58,7 +57,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much does a car service from DCA to Washington DC cost?',
-        a: 'Our DCA to Washington DC flat rate starts at $65 in a luxury sedan, including tolls, fuel, and the chauffeur. Final pricing depends on vehicle type and your exact drop-off. Call (877) 679-0100 or book online for an exact quote.',
+        a: 'Our DCA to Washington DC flat rate starts at $65 in a luxury sedan, including tolls, fuel, and the chauffeur. Final pricing depends on vehicle type and your exact drop-off. Call (877) 609-1919 or book online for an exact quote.',
       },
       {
         q: 'How long does it take to get from DCA to downtown DC?',
@@ -79,12 +78,11 @@ export const ROUTE_PAGES = [
     slug: 'dca-to-bethesda',
     destination: 'Bethesda, MD',
     h1: 'DCA Airport to Bethesda MD Car Service',
-    metaTitle: 'DCA Airport to Bethesda MD Car Service | Flat Rate from $95',
+    metaTitle: 'DCA Airport to Bethesda MD Car Service | Flat-Rate Chauffeur Service',
     metaDesc:
-      'DCA Airport to Bethesda MD car service — flat-rate luxury chauffeur, NIH and Walter Reed savvy, flight tracking, 24/7. Call (877) 679-0100 to book.',
+      'DCA Airport to Bethesda MD car service — flat-rate luxury chauffeur, NIH and Walter Reed savvy, flight tracking, 24/7. Call (877) 609-1919 to book.',
     distance: '12 miles',
     driveTime: '25–40 minutes',
-    flatRateFrom: 95,
     heroImage: HERO_IMAGE,
     intro:
       'Bethesda is one of the most-requested DCA destinations we serve — home to the National Institutes of Health (NIH), Walter Reed National Military Medical Center, and one of the densest clusters of biotech, legal, and consulting firms in the country. DCA Limos provides calm, predictable transfers from Reagan National to Bethesda, whether you are a patient arriving for treatment, an executive heading to a downtown Bethesda meeting, or a family coming home. From the moment you book to the moment you reach your door, every detail is handled by a professional chauffeur who runs this route week in and week out.',
@@ -118,7 +116,7 @@ export const ROUTE_PAGES = [
       },
     ],
     highlights: [
-      'Flat rate from $95 — no surge pricing, ever',
+      'Flat-rate pricing — no surge pricing, ever',
       'NIH & Walter Reed entrance and protocol familiarity',
       'Gentle, patient service for medical travelers',
       'Quiet Mercedes sedans ideal for working in transit',
@@ -127,7 +125,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car from DCA to Bethesda?',
-        a: 'Our DCA to Bethesda flat rate starts at $95 in a luxury sedan, including tolls and fuel. SUVs and Sprinter vans are priced accordingly. Call (877) 679-0100 for an exact quote.',
+        a: 'Our DCA to Bethesda flat rate starts at $95 in a luxury sedan, including tolls and fuel. SUVs and Sprinter vans are priced accordingly. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'How long is the drive from DCA to Bethesda?',
@@ -148,12 +146,11 @@ export const ROUTE_PAGES = [
     slug: 'dca-to-arlington',
     destination: 'Arlington, VA',
     h1: 'DCA Airport to Arlington VA Car Service',
-    metaTitle: 'DCA Airport to Arlington VA Car Service | Flat Rate from $55',
+    metaTitle: 'DCA Airport to Arlington VA Car Service | Flat-Rate Chauffeur Service',
     metaDesc:
-      'DCA Airport to Arlington VA car service — minutes from Reagan National. Flat-rate chauffeur to Crystal City, Pentagon City, Rosslyn, Ballston. Call (877) 679-0100.',
+      'DCA Airport to Arlington VA car service — minutes from Reagan National. Flat-rate chauffeur to Crystal City, Pentagon City, Rosslyn, Ballston. Call (877) 609-1919.',
     distance: '4 miles',
     driveTime: '10–20 minutes',
-    flatRateFrom: 55,
     heroImage: HERO_IMAGE,
     intro:
       'Arlington is practically next door to Reagan National — most of the county is a 10 to 20 minute drive from the terminal — which makes a pre-arranged chauffeur the smartest way to avoid the rideshare scramble for such a short, high-frequency trip. DCA Limos serves all of Arlington, from Crystal City and Pentagon City to Rosslyn, Ballston, Clarendon, and Courthouse, with flat-rate pricing that starts at just $55.',
@@ -187,7 +184,7 @@ export const ROUTE_PAGES = [
       },
     ],
     highlights: [
-      'Flat rate from $55 — our shortest, most popular route',
+      'Flat-rate pricing — our shortest, most popular route',
       'Pentagon, Crystal City & National Landing expertise',
       'Discreet service for government and defense travelers',
       'Door-to-door to Rosslyn, Ballston, Clarendon & Courthouse',
@@ -196,7 +193,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car service from DCA to Arlington?',
-        a: 'Our DCA to Arlington flat rate starts at $55 in a luxury sedan, including tolls and fuel. It is one of our shortest and most economical routes. Call (877) 679-0100 for an exact quote.',
+        a: 'Our DCA to Arlington flat rate starts at $55 in a luxury sedan, including tolls and fuel. It is one of our shortest and most economical routes. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'How far is Arlington from DCA?',
@@ -217,12 +214,11 @@ export const ROUTE_PAGES = [
     slug: 'dca-to-alexandria',
     destination: 'Alexandria, VA',
     h1: 'DCA Airport to Alexandria VA Car Service',
-    metaTitle: 'DCA Airport to Alexandria VA Car Service | Flat Rate from $65',
+    metaTitle: 'DCA Airport to Alexandria VA Car Service | Flat-Rate Chauffeur Service',
     metaDesc:
-      'DCA Airport to Alexandria VA car service — flat-rate chauffeur to Old Town, the Patent Office, and waterfront. Flight tracking, 24/7. Call (877) 679-0100.',
+      'DCA Airport to Alexandria VA car service — flat-rate chauffeur to Old Town, the Patent Office, and waterfront. Flight tracking, 24/7. Call (877) 609-1919.',
     distance: '6 miles',
     driveTime: '15–25 minutes',
-    flatRateFrom: 65,
     heroImage: HERO_IMAGE,
     intro:
       'Just south of Reagan National along the George Washington Parkway, Alexandria pairs historic Old Town charm with a major federal and business presence. DCA Limos provides flat-rate luxury transfers from DCA to all of Alexandria — the cobblestone streets and waterfront hotels of Old Town, the U.S. Patent and Trademark Office, the Eisenhower Avenue corridor, and the residential neighborhoods of Del Ray and the West End.',
@@ -256,7 +252,7 @@ export const ROUTE_PAGES = [
       },
     ],
     highlights: [
-      'Flat rate from $65 — no surge, all-inclusive',
+      'Flat-rate pricing — no surge, all-inclusive',
       'Old Town, waterfront & King Street drop-off expertise',
       'Patent Office and federal Alexandria coverage',
       'Scenic GW Parkway route along the Potomac',
@@ -265,7 +261,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much does DCA to Alexandria cost?',
-        a: 'Our DCA to Alexandria flat rate starts at $65 in a luxury sedan, including tolls and fuel. SUVs and vans are available for groups. Call (877) 679-0100 for an exact quote.',
+        a: 'Our DCA to Alexandria flat rate starts at $65 in a luxury sedan, including tolls and fuel. SUVs and vans are available for groups. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'How long is the drive from DCA to Old Town Alexandria?',
@@ -286,12 +282,11 @@ export const ROUTE_PAGES = [
     slug: 'dca-to-annapolis',
     destination: 'Annapolis, MD',
     h1: 'DCA Airport to Annapolis MD Car Service',
-    metaTitle: 'DCA Airport to Annapolis MD Car Service | Flat Rate from $145',
+    metaTitle: 'DCA Airport to Annapolis MD Car Service | Flat-Rate Chauffeur Service',
     metaDesc:
-      'DCA Airport to Annapolis MD car service — flat-rate chauffeur to the Naval Academy, State House, and waterfront. USNA-savvy, flight tracking. Call (877) 679-0100.',
+      'DCA Airport to Annapolis MD car service — flat-rate chauffeur to the Naval Academy, State House, and waterfront. USNA-savvy, flight tracking. Call (877) 609-1919.',
     distance: '35 miles',
     driveTime: '45–60 minutes',
-    flatRateFrom: 145,
     heroImage: HERO_IMAGE,
     intro:
       'Annapolis — Maryland’s capital, home of the United States Naval Academy, and the sailing capital of the Chesapeake — is about 35 miles and an hour from Reagan National. DCA Limos makes the trip effortless with flat-rate luxury transfers for Naval Academy families, State House visitors, boat-show attendees, and travelers heading to the historic downtown and waterfront inns. Every transfer includes real-time flight tracking, a meet-and-greet at baggage claim, and a locked flat rate with no surprises along the way.',
@@ -325,7 +320,7 @@ export const ROUTE_PAGES = [
       },
     ],
     highlights: [
-      'Flat rate from $145 — no surge, all tolls included',
+      'Flat-rate pricing — no surge, all tolls included',
       'USNA gate and Commissioning Week expertise',
       'State House and legislative-session transfers',
       'Multi-vehicle coordination for graduation parties',
@@ -334,7 +329,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car service from DCA to Annapolis?',
-        a: 'Our DCA to Annapolis flat rate starts at $145 in a luxury sedan, including all tolls and fuel. SUVs and Sprinter vans are priced for larger groups. Call (877) 679-0100 for an exact quote.',
+        a: 'Our DCA to Annapolis flat rate starts at $145 in a luxury sedan, including all tolls and fuel. SUVs and Sprinter vans are priced for larger groups. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'How long does it take to drive from DCA to Annapolis?',
@@ -355,12 +350,11 @@ export const ROUTE_PAGES = [
     slug: 'dca-to-baltimore',
     destination: 'Baltimore, MD',
     h1: 'DCA Airport to Baltimore MD Car Service',
-    metaTitle: 'DCA Airport to Baltimore MD Car Service | Flat Rate from $165',
+    metaTitle: 'DCA Airport to Baltimore MD Car Service | Flat-Rate Chauffeur Service',
     metaDesc:
-      'DCA Airport to Baltimore MD car service — flat-rate chauffeur to the Inner Harbor, Johns Hopkins, Fells Point, and cruise port. Flight tracking, 24/7. Call (877) 679-0100.',
+      'DCA Airport to Baltimore MD car service — flat-rate chauffeur to the Inner Harbor, Johns Hopkins, Fells Point, and cruise port. Flight tracking, 24/7. Call (877) 609-1919.',
     distance: '40 miles',
     driveTime: '50–70 minutes',
-    flatRateFrom: 165,
     heroImage: HERO_IMAGE,
     intro:
       'Baltimore is about 40 miles north of Reagan National, and DCA Limos makes the inter-city transfer comfortable and predictable. Whether you are headed to the Inner Harbor for a conference, Johns Hopkins for medical or university business, Fells Point and Federal Hill for a weekend, or the Port of Baltimore for a cruise, our flat-rate chauffeur service gets you there without the stress of a long rideshare or the uncertainty of a taxi meter.',
@@ -394,7 +388,7 @@ export const ROUTE_PAGES = [
       },
     ],
     highlights: [
-      'Flat rate from $165 — locked, no meter, no surge',
+      'Flat-rate pricing — locked, no meter, no surge',
       'Inner Harbor, Johns Hopkins & downtown coverage',
       'Port of Baltimore cruise transfers with luggage help',
       'Productive, quiet ride for business travelers',
@@ -403,7 +397,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much does DCA to Baltimore car service cost?',
-        a: 'Our DCA to Baltimore flat rate starts at $165 in a luxury sedan, including tolls and fuel. SUVs and Sprinter vans are available for groups and cruise travel. Call (877) 679-0100 for an exact quote.',
+        a: 'Our DCA to Baltimore flat rate starts at $165 in a luxury sedan, including tolls and fuel. SUVs and Sprinter vans are available for groups and cruise travel. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'How long is the drive from DCA to Baltimore?',
@@ -424,12 +418,11 @@ export const ROUTE_PAGES = [
     slug: 'dca-to-dulles',
     destination: 'Dulles Airport (IAD)',
     h1: 'DCA to Dulles (IAD) Airport Transfer Service',
-    metaTitle: 'DCA to Dulles (IAD) Airport Transfer | Flat Rate from $145',
+    metaTitle: 'DCA to Dulles (IAD) Airport Transfer | Flat-Rate Chauffeur Service',
     metaDesc:
-      'DCA to Dulles (IAD) airport transfer service — flat-rate chauffeur for tight connections between Reagan National and Dulles International. Flight tracking, 24/7. Call (877) 679-0100.',
+      'DCA to Dulles (IAD) airport transfer service — flat-rate chauffeur for tight connections between Reagan National and Dulles International. Flight tracking, 24/7. Call (877) 609-1919.',
     distance: '30 miles',
     driveTime: '45–60 minutes',
-    flatRateFrom: 145,
     heroImage: HERO_IMAGE,
     intro:
       'Connecting between Washington’s two main airports — Reagan National (DCA) and Washington Dulles International (IAD) — is one of the more stressful transfers in the region, and exactly the kind of trip where a professional chauffeur earns their keep. DCA Limos provides flat-rate inter-airport transfers with flight tracking on both ends, so a tight connection or a delayed inbound never turns into a missed departure.',
@@ -463,7 +456,7 @@ export const ROUTE_PAGES = [
       },
     ],
     highlights: [
-      'Flat rate from $145 — Dulles Toll Road included',
+      'Flat-rate pricing — Dulles Toll Road included',
       'Flight tracking on both DCA arrival and IAD departure',
       'Realistic security buffer built into every transfer',
       'Fast handling of post-delay airport re-bookings',
@@ -472,7 +465,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a transfer from DCA to Dulles?',
-        a: 'Our DCA to Dulles (IAD) flat rate starts at $145 in a luxury sedan, including tolls (the Dulles Toll Road) and fuel. Call (877) 679-0100 for an exact quote.',
+        a: 'Our DCA to Dulles (IAD) flat rate starts at $145 in a luxury sedan, including tolls (the Dulles Toll Road) and fuel. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'How long does the DCA to Dulles drive take?',
@@ -493,12 +486,11 @@ export const ROUTE_PAGES = [
     slug: 'dca-to-bwi',
     destination: 'BWI Airport',
     h1: 'DCA to BWI Airport Transfer Service',
-    metaTitle: 'DCA to BWI Airport Transfer | Flat Rate from $145',
+    metaTitle: 'DCA to BWI Airport Transfer | Flat-Rate Chauffeur Service',
     metaDesc:
-      'DCA to BWI airport transfer service — flat-rate chauffeur between Reagan National and Baltimore-Washington International. Flight tracking, 24/7. Call (877) 679-0100.',
+      'DCA to BWI airport transfer service — flat-rate chauffeur between Reagan National and Baltimore-Washington International. Flight tracking, 24/7. Call (877) 609-1919.',
     distance: '35 miles',
     driveTime: '45–60 minutes',
-    flatRateFrom: 145,
     heroImage: HERO_IMAGE,
     intro:
       'When your itinerary splits across Reagan National (DCA) and Baltimore-Washington International (BWI), DCA Limos provides a smooth, flat-rate inter-airport transfer with flight tracking on both ends. It is about 35 miles between the two airports, and our chauffeurs make the connection reliable even when the Baltimore-Washington Parkway or I-95 is busy. With our base just minutes from BWI, we know that airport and its approaches better than any out-of-area service.',
@@ -532,7 +524,7 @@ export const ROUTE_PAGES = [
       },
     ],
     highlights: [
-      'Flat rate from $145 — locked, no surge',
+      'Flat-rate pricing — locked, no surge',
       'Flight tracking on both DCA arrival and BWI departure',
       'Hanover, MD base — minutes from BWI',
       'Security buffer built in for on-time departures',
@@ -541,7 +533,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a DCA to BWI transfer?',
-        a: 'Our DCA to BWI flat rate starts at $145 in a luxury sedan, including tolls and fuel. SUVs and Sprinter vans are available for groups. Call (877) 679-0100 for an exact quote.',
+        a: 'Our DCA to BWI flat rate starts at $145 in a luxury sedan, including tolls and fuel. SUVs and Sprinter vans are available for groups. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'How long does DCA to BWI take?',
@@ -562,12 +554,11 @@ export const ROUTE_PAGES = [
     slug: 'dca-to-rockville',
     destination: 'Rockville, MD',
     h1: 'DCA Airport to Rockville MD Car Service',
-    metaTitle: 'DCA Airport to Rockville MD Car Service | Flat Rate from $115',
+    metaTitle: 'DCA Airport to Rockville MD Car Service | Flat-Rate Chauffeur Service',
     metaDesc:
-      'DCA Airport to Rockville MD car service — flat-rate chauffeur for the I-270 biotech corridor, Rockville Town Center, and Montgomery County. 24/7. Call (877) 679-0100.',
+      'DCA Airport to Rockville MD car service — flat-rate chauffeur for the I-270 biotech corridor, Rockville Town Center, and Montgomery County. 24/7. Call (877) 609-1919.',
     distance: '20 miles',
     driveTime: '35–50 minutes',
-    flatRateFrom: 115,
     heroImage: HERO_IMAGE,
     intro:
       'Rockville — the Montgomery County seat and a hub of the I-270 biotech and technology corridor — is about 20 miles from Reagan National. DCA Limos provides flat-rate luxury transfers to Rockville Town Center, the life-sciences campuses along the I-270 corridor, the county government complex, and the surrounding communities of North Bethesda, Potomac, and Gaithersburg. Whether you are a scientist arriving for work at a corridor lab, an executive heading to a Town Center office, or a resident returning from a trip, our chauffeurs deliver the same punctual, door-to-door service, with flight tracking and a meet-and-greet included on every airport pickup.',
@@ -601,7 +592,7 @@ export const ROUTE_PAGES = [
       },
     ],
     highlights: [
-      'Flat rate from $115 — no surge, all-inclusive',
+      'Flat-rate pricing — no surge, all-inclusive',
       'I-270 biotech corridor and office-park expertise',
       'Quiet Mercedes sedans for working in transit',
       'Corporate accounts with monthly invoicing',
@@ -610,7 +601,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car service from DCA to Rockville?',
-        a: 'Our DCA to Rockville flat rate starts at $115 in a luxury sedan, including tolls and fuel. SUVs and Sprinter vans are priced for groups. Call (877) 679-0100 for an exact quote.',
+        a: 'Our DCA to Rockville flat rate starts at $115 in a luxury sedan, including tolls and fuel. SUVs and Sprinter vans are priced for groups. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'How long is the drive from DCA to Rockville?',
@@ -622,7 +613,7 @@ export const ROUTE_PAGES = [
       },
       {
         q: 'Do you offer corporate accounts?',
-        a: 'We do. Corporate clients get consolidated monthly invoicing, dedicated dispatch, and consistent chauffeurs. Call (877) 679-0100 to set up an account.',
+        a: 'We do. Corporate clients get consolidated monthly invoicing, dedicated dispatch, and consistent chauffeurs. Call (877) 609-1919 to set up an account.',
       },
     ],
     nearby: ['dca-to-bethesda', 'dca-to-tysons', 'dca-to-washington-dc'],
@@ -631,12 +622,11 @@ export const ROUTE_PAGES = [
     slug: 'dca-to-tysons',
     destination: 'Tysons Corner, VA',
     h1: 'DCA Airport to Tysons Corner VA Car Service',
-    metaTitle: 'DCA Airport to Tysons Corner VA Car Service | Flat Rate from $95',
+    metaTitle: 'DCA Airport to Tysons Corner VA Car Service | Flat-Rate Chauffeur Service',
     metaDesc:
-      'DCA Airport to Tysons Corner VA car service — flat-rate chauffeur to Tysons offices, hotels, and malls. Corporate-friendly, flight tracking, 24/7. Call (877) 679-0100.',
+      'DCA Airport to Tysons Corner VA car service — flat-rate chauffeur to Tysons offices, hotels, and malls. Corporate-friendly, flight tracking, 24/7. Call (877) 609-1919.',
     distance: '13 miles',
     driveTime: '25–40 minutes',
-    flatRateFrom: 95,
     heroImage: HERO_IMAGE,
     intro:
       'Tysons Corner has grown from a shopping destination into one of the largest business districts in the country — a skyline of corporate headquarters, hotels, and high-rise residences anchored by Tysons Corner Center and Tysons Galleria. DCA Limos provides flat-rate luxury transfers from Reagan National to all of Tysons, serving the executives, consultants, and visitors who pass through this Northern Virginia hub. Each transfer includes flight tracking, a meet-and-greet at baggage claim, and a locked flat rate that never surges.',
@@ -670,7 +660,7 @@ export const ROUTE_PAGES = [
       },
     ],
     highlights: [
-      'Flat rate from $95 — no surge, all-inclusive',
+      'Flat-rate pricing — no surge, all-inclusive',
       'Corporate HQ and convention-hotel expertise',
       'Door-to-door drop-off, not the nearest garage',
       'Professional image for client-facing arrivals',
@@ -679,7 +669,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car service from DCA to Tysons Corner?',
-        a: 'Our DCA to Tysons flat rate starts at $95 in a luxury sedan, including tolls and fuel. SUVs and Sprinter vans are available for groups. Call (877) 679-0100 for an exact quote.',
+        a: 'Our DCA to Tysons flat rate starts at $95 in a luxury sedan, including tolls and fuel. SUVs and Sprinter vans are available for groups. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'How long is the drive from DCA to Tysons?',

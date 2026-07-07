@@ -5,8 +5,8 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { findRoutePage, ROUTE_PAGES } from '@/data/routePages';
 
-const PHONE_DISPLAY = '(877) 679-0100';
-const PHONE_TEL = 'tel:+18776790100';
+const PHONE_DISPLAY = '(877) 609-1919';
+const PHONE_TEL = 'tel:+18776091919';
 
 const RoutePage = ({ slug: slugProp }) => {
   const params = useParams();
@@ -51,15 +51,8 @@ const RoutePage = ({ slug: slugProp }) => {
           provider: {
             '@type': 'LocalBusiness',
             name: 'DCA Limos',
-            telephone: '+1-877-679-0100',
+            telephone: '+1-877-609-1919',
             url: 'https://dcalimos.com',
-            priceRange: '$$',
-          },
-          offers: {
-            '@type': 'Offer',
-            price: String(data.flatRateFrom),
-            priceCurrency: 'USD',
-            description: `Flat-rate DCA to ${data.destination} car service from $${data.flatRateFrom}`,
           },
         },
         {
@@ -145,8 +138,8 @@ const RoutePage = ({ slug: slugProp }) => {
               <p className="text-white font-bold text-lg">{data.driveTime}</p>
             </div>
             <div className="bg-white/5 border border-white/10 rounded-lg p-4">
-              <div className="flex items-center gap-2 text-amber-400 text-xs uppercase tracking-widest mb-1"><DollarSign className="h-3.5 w-3.5" /> Flat Rate</div>
-              <p className="text-white font-bold text-lg">from ${data.flatRateFrom}</p>
+              <div className="flex items-center gap-2 text-amber-400 text-xs uppercase tracking-widest mb-1"><DollarSign className="h-3.5 w-3.5" /> Pricing</div>
+              <p className="text-white font-bold text-lg">Free Quote</p>
             </div>
             <div className="bg-white/5 border border-white/10 rounded-lg p-4">
               <div className="flex items-center gap-2 text-amber-400 text-xs uppercase tracking-widest mb-1"><Star className="h-3.5 w-3.5" /> Availability</div>
@@ -189,8 +182,8 @@ const RoutePage = ({ slug: slugProp }) => {
               <Card className="border-2 border-amber-500 shadow-xl sticky top-28">
                 <CardContent className="p-6 sm:p-8">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Book DCA → {data.destination}</h3>
-                  <p className="text-sm text-gray-600 mb-1">Flat rate from</p>
-                  <p className="text-3xl font-bold text-amber-600 mb-5">${data.flatRateFrom}</p>
+                  <p className="text-base font-semibold text-gray-900 mb-1">Contact us for pricing</p>
+                  <p className="text-sm text-gray-600 mb-5">Get a fast, exact quote for your route and vehicle.</p>
                   <Link to="/booking" className="block">
                     <Button className="w-full bg-amber-500 hover:bg-amber-400 text-black font-bold py-6 text-base mb-3" data-testid="route-sidebar-book">
                       Get a Free Quote
@@ -251,7 +244,7 @@ const RoutePage = ({ slug: slugProp }) => {
                     <CardContent className="p-5 sm:p-6">
                       <span className="text-xs text-amber-600 font-semibold uppercase tracking-wider">Airport Transfer</span>
                       <h3 className="text-lg font-bold text-gray-900 mt-1 mb-2 group-hover:text-amber-600 transition-colors">DCA → {r.destination}</h3>
-                      <p className="text-sm text-gray-600">{r.driveTime} · from ${r.flatRateFrom}</p>
+                      <p className="text-sm text-gray-600">{r.driveTime} · {r.distance}</p>
                       <div className="mt-4 inline-flex items-center gap-1 text-amber-600 font-semibold text-sm">
                         View route <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
                       </div>
@@ -276,7 +269,7 @@ const RoutePage = ({ slug: slugProp }) => {
             Book your <span className="text-amber-400">DCA to {data.destination}</span> ride today
           </h2>
           <p className="text-base sm:text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Flat rate from ${data.flatRateFrom}. Flight tracked, professionally chauffeured, and guaranteed — free cancellation up to 24 hours before pickup.
+            Flight tracked, professionally chauffeured, and guaranteed — free cancellation up to 24 hours before pickup. Contact us for a free, exact quote.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link to="/booking">

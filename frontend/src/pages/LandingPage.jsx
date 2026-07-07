@@ -57,13 +57,13 @@ const LandingPage = () => {
                 Get a Free Quote <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
             </Link>
-            <a href="tel:+18776790100">
+            <a href="tel:+18776091919">
               <Button
                 variant="outline"
                 className="border-2 border-amber-500 text-amber-400 hover:bg-amber-500 hover:text-black font-bold text-base sm:text-lg px-8 py-6 w-full sm:w-auto"
                 data-testid="landing-cta-call"
               >
-                <Phone className="mr-2 h-5 w-5" /> (877) 679-0100
+                <Phone className="mr-2 h-5 w-5" /> (877) 609-1919
               </Button>
             </a>
           </div>
@@ -108,9 +108,9 @@ const LandingPage = () => {
                       Get a Free Quote
                     </Button>
                   </Link>
-                  <a href="tel:+18776790100" className="block">
+                  <a href="tel:+18776091919" className="block">
                     <Button variant="outline" className="w-full border-gray-300 hover:bg-gray-50 font-semibold py-6 text-base" data-testid="landing-sidebar-call">
-                      <Phone className="mr-2 h-4 w-4" /> (877) 679-0100
+                      <Phone className="mr-2 h-4 w-4" /> (877) 609-1919
                     </Button>
                   </a>
                   <div className="mt-6 pt-6 border-t border-gray-200 space-y-2 text-sm text-gray-600">
@@ -188,9 +188,9 @@ const LandingPage = () => {
                 <Calendar className="mr-2 h-5 w-5" /> Get a Free Quote
               </Button>
             </Link>
-            <a href="tel:+18776790100">
+            <a href="tel:+18776091919">
               <Button variant="outline" className="border-2 border-amber-500 text-amber-400 hover:bg-amber-500 hover:text-black font-bold text-base sm:text-lg px-8 py-6 w-full sm:w-auto" data-testid="landing-final-call">
-                <Phone className="mr-2 h-5 w-5" /> Call (877) 679-0100
+                <Phone className="mr-2 h-5 w-5" /> Call (877) 609-1919
               </Button>
             </a>
           </div>

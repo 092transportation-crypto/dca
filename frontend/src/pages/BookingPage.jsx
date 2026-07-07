@@ -75,7 +75,7 @@ const BookingPage = () => {
         throw new Error('Submission failed');
       }
     } catch (err) {
-      toast.error("Couldn't send your request. Please call (877) 679-0100 instead.");
+      toast.error("Couldn't send your request. Please call (877) 609-1919 instead.");
     } finally {
       setSubmitting(false);
     }
@@ -160,7 +160,7 @@ const BookingPage = () => {
                           value={form.phone}
                           onChange={handleChange}
                           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition"
-                          placeholder="(877) 679-0100"
+                          placeholder="(877) 609-1919"
                           data-testid="quote-input-phone"
                         />
                       </div>
@@ -283,11 +283,11 @@ const BookingPage = () => {
                     <h2 className="text-lg sm:text-xl font-bold text-gray-900 mb-1">Or Call 24/7</h2>
                     <p className="text-sm text-gray-600 mb-2">Talk to our concierge instantly.</p>
                     <a
-                      href="tel:+18776790100"
+                      href="tel:+18776091919"
                       className="text-xl sm:text-2xl font-bold text-amber-600 hover:text-amber-700 transition-colors"
                       data-testid="booking-phone-link"
                     >
-                      +1 (877) 679-0100
+                      +1 (877) 609-1919
                     </a>
                   </div>
                 </div>

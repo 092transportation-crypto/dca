@@ -5,13 +5,13 @@ This is your **off-site backlink action plan**. The on-site SEO, internal links,
 **Consistent NAP (Name / Address / Phone) — use this EXACT copy everywhere:**
 
 - **Business Name:** DCA Limos
-- **Phone:** (667) 400-0092
+- **Phone:** (877) 609-1919
 - **Email:** info@dcalimos.com
 - **Website:** https://dcalimos.com
 - **Address:** Hanover, MD 21076 (or whichever MD address you want to list)
 - **Hours:** 24/7
 - **Category:** Limousine Service / Airport Shuttle Service / Chauffeur Service
-- **Short Description (≤160 chars):** DCA Limos offers 24/7 luxury airport transfers, corporate car service & wedding limos throughout Maryland, DC & Virginia. Book at (667) 400-0092.
+- **Short Description (≤160 chars):** DCA Limos offers 24/7 luxury airport transfers, corporate car service & wedding limos throughout Maryland, DC & Virginia. Book at (877) 609-1919.
 - **Long Description:** DCA Limos is Maryland's premier luxury transportation provider, serving Annapolis, Baltimore, Bethesda, and the entire DMV since 2008. We specialize in airport transfers to BWI, DCA, and Dulles, corporate car service, wedding limousines, and executive chauffeur service. Our fleet includes Mercedes sedans, Cadillac Escalades, and Sprinter vans. Licensed, insured, and DOT-certified.
 
 ---

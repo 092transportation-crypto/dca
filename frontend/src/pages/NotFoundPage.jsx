@@ -69,11 +69,11 @@ const NotFoundPage = () => {
         <div className="mt-8">
           <p className="text-gray-400 mb-2">Need immediate assistance?</p>
           <a 
-            href="tel:+18776790100" 
+            href="tel:+18776091919" 
             className="inline-flex items-center gap-2 text-amber-500 hover:text-amber-400 font-bold text-xl transition-colors"
           >
             <Phone className="h-5 w-5" />
-            +1 (877) 679-0100
+            +1 (877) 609-1919
           </a>
         </div>
       </div>
