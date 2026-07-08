@@ -15,7 +15,7 @@ const LandingPage = () => {
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) metaDesc.setAttribute('content', data.metaDesc);
     const canonical = document.querySelector('link[rel="canonical"]');
-    const href = `https://dcalimos.com/limo/${data.slug}`;
+    const href = `https://www.dcalimos.com/limo/${data.slug}`;
     if (canonical) {
       canonical.setAttribute('href', href);
     } else {

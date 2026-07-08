@@ -15,7 +15,7 @@ const RoutePage = ({ slug: slugProp }) => {
 
   useEffect(() => {
     if (!data) return;
-    const canonicalHref = `https://dcalimos.com/${data.slug}`;
+    const canonicalHref = `https://www.dcalimos.com/${data.slug}`;
 
     document.title = data.metaTitle;
 
@@ -52,13 +52,13 @@ const RoutePage = ({ slug: slugProp }) => {
             '@type': 'LocalBusiness',
             name: 'DCA Limos',
             telephone: '+1-877-609-1919',
-            url: 'https://dcalimos.com',
+            url: 'https://www.dcalimos.com',
           },
         },
         {
           '@type': 'BreadcrumbList',
           itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://dcalimos.com/' },
+            { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.dcalimos.com/' },
             { '@type': 'ListItem', position: 2, name: data.h1, item: canonicalHref },
           ],
         },

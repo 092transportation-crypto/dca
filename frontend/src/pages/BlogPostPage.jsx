@@ -36,7 +36,7 @@ const BlogPostPage = () => {
   const blogPost = findBlogPost(slug) || LEGACY_POST;
 
   useEffect(() => {
-    const canonicalHref = `https://dcalimos.com/blog/${blogPost.slug}`;
+    const canonicalHref = `https://www.dcalimos.com/blog/${blogPost.slug}`;
     document.title = blogPost.metaTitle || blogPost.title;
 
     const metaDesc = document.querySelector('meta[name="description"]');
@@ -60,7 +60,7 @@ const BlogPostPage = () => {
         author: { '@type': 'Person', name: blogPost.author },
         datePublished: blogPost.date,
         image: blogPost.image,
-        publisher: { '@type': 'Organization', name: 'DCA Limos', url: 'https://dcalimos.com' },
+        publisher: { '@type': 'Organization', name: 'DCA Limos', url: 'https://www.dcalimos.com' },
         mainEntityOfPage: canonicalHref,
       },
     ];
