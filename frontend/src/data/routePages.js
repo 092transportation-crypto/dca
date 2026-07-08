@@ -686,6 +686,592 @@ export const ROUTE_PAGES = [
     ],
     nearby: ['dca-to-arlington', 'dca-to-dulles', 'dca-to-rockville'],
   },
+
+  {
+    slug: "dca-to-northern-virginia",
+    destination: "Northern Virginia",
+    h1: "DCA Airport to Northern Virginia Car Service",
+    metaTitle: "DCA to Northern Virginia | Flat Rate Car Service from $55",
+    metaDesc:
+      "Flat-rate car service from DCA across Northern Virginia — Arlington to Loudoun, price locked before you land. Book online or call (877) 609-1919.",
+    distance: "5–35 miles",
+    driveTime: "10–60 minutes",
+    heroImage: HERO_IMAGE,
+    intro:
+      "Reagan National is Northern Virginia's home airport, and DCA Limos is the flat-rate chauffeur service that covers all of it. Whether you are heading to a Rosslyn high-rise, a Tysons headquarters, a Reston tech campus, or a quiet cul-de-sac in Fairfax Station, your chauffeur tracks the flight, meets you at baggage claim, and drives a price that was locked before you ever boarded.",
+    sections: [
+      {
+        h2: "One service for every NoVA destination",
+        paragraphs: [
+          "Northern Virginia is not one place — it is a string of very different destinations connected by some of the busiest roads in America. A trip to Crystal City is a ten-minute hop; a run out to Ashburn crosses three toll systems and two rush-hour choke points. We quote each destination as its own flat rate, so you always know the exact cost to your exact address: Arlington from $55, McLean from $85, Fairfax from $95, Reston from $115, and Loudoun County quoted on request.",
+          "Our chauffeurs drive these corridors every day. They know when the GW Parkway beats I-395, when the Dulles Toll Road is worth it, and which office parks hide their visitor entrances. That local fluency is the difference between an arrival that runs itself and one you have to manage from the back seat.",
+        ],
+      },
+      {
+        h2: "Built for government, defense, and tech travel",
+        paragraphs: [
+          "Northern Virginia runs on federal and contractor travel, and so do we. We routinely carry travelers to the Pentagon, Fort Belvoir, Quantico-area offices, and the cleared-contractor campuses along Route 28 — with the documentation, punctuality, and discretion that official travel demands.",
+          "Corporate accounts get priority dispatch, consolidated billing, and a single point of contact. If your team flies into DCA weekly, one email sets up a program where every traveler gets the same vehicle standard and the same locked rates.",
+        ],
+      },
+      {
+        h2: "Flat rates in both directions, 24/7",
+        paragraphs: [
+          "Every Northern Virginia transfer is quoted as one flat, all-inclusive price — tolls, fuel, and chauffeur included, with no surge on rainy Fridays or event weekends. Early departures out of NoVA work the same way in reverse: your chauffeur arrives at your door with buffer time already built in for security lines at Reagan National.",
+          "Sedans suit solo business travelers; SUVs carry families with luggage; Sprinter vans keep groups of up to thirteen together. Whatever the vehicle, the rate is locked at booking and the service runs around the clock, every day of the year.",
+        ],
+      },
+      {
+        h2: "Planning your Northern Virginia arrival",
+        paragraphs: [
+          "A little planning makes any NoVA arrival smoother. If your schedule is tight, tell us the meeting time rather than just the flight time \u2014 we will time the pickup and route so you walk in with margin, not adrenaline. If you are landing during the afternoon rush, expect the 4-to-7 p.m. window to add fifteen or twenty minutes to the outer destinations like Reston and Herndon; our quotes already assume realistic traffic, not fantasy drive times.",
+          "Travelers with flexible plans sometimes ask which airport is best for Northern Virginia. The honest answer: DCA wins for Arlington, Alexandria, McLean, and anywhere inside the Beltway; Dulles wins west of Reston. Either way, our flat-rate coverage means the transfer cost is known before you choose the fare \u2014 book the flight that suits your schedule and let us handle the ground game.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much is car service from DCA to Northern Virginia?",
+        a: "It depends on the destination: Arlington starts at $55, McLean at $85, Fairfax at $95, and Reston at $115 — all flat, all-inclusive rates with tolls and fuel included. Call (877) 609-1919 for an exact quote to your address.",
+      },
+      {
+        q: "Do you cover all of Northern Virginia from DCA?",
+        a: "Yes — Arlington, Alexandria, Falls Church, McLean, Tysons, Vienna, Fairfax, Reston, Herndon, and out to Ashburn and Leesburg in Loudoun County. If it is in NoVA, we quote it flat.",
+      },
+      {
+        q: "Can you handle government or contractor billing?",
+        a: "Yes. We regularly support federal, military, and cleared-contractor travel and can provide the documentation and receipts official trips require.",
+      },
+      {
+        q: "Is the rate the same during rush hour?",
+        a: "Yes. Your flat rate is locked when you book — Beltway traffic, weather, and event surges never change the price.",
+      },
+      {
+        q: "What vehicles are available for NoVA transfers?",
+        a: "Luxury sedans for solo and business travel, Cadillac Escalade and Suburban SUVs for families with luggage, and thirteen-passenger Mercedes Sprinter vans for groups \u2014 every vehicle chauffeur-driven, detailed before pickup, and quoted at one flat rate.",
+      },
+    ],
+  },
+  {
+    slug: "dca-to-fairfax",
+    destination: "Fairfax, VA",
+    h1: "DCA Airport to Fairfax Car Service",
+    metaTitle: "DCA to Fairfax | Flat Rate Car Service from $95",
+    metaDesc:
+      "Flat $95 car service from DCA to Fairfax, VA — flight tracking, pro chauffeur, no surge on I-66. Book online or call (877) 609-1919.",
+    distance: "18 miles",
+    driveTime: "30–45 minutes",
+    heroImage: HERO_IMAGE,
+    intro:
+      "The run from Reagan National to Fairfax crosses the full width of Northern Virginia's traffic — I-395, the Beltway interchange, and I-66's express-lane maze. DCA Limos turns it into a fixed-price, chauffeur-driven ride: flight tracked, bags handled, and a flat $95 locked in before you land.",
+    sections: [
+      {
+        h2: "Why Fairfax travelers book a flat rate",
+        paragraphs: [
+          "I-66 is the wildcard on this route. Its dynamic express-lane tolls can swing from pocket change to more than the cost of this entire transfer, and rideshare pricing swings with them. Our flat rate absorbs all of it — tolls, fuel, and the chauffeur are included, so an accident on the Beltway costs you nothing extra.",
+          "Your chauffeur tracks your inbound flight and adjusts the pickup automatically. Land early and the car is already staged; land late and nobody is charging you waiting fees. From baggage claim to your door in Fairfax, the trip runs on your schedule, not the meter's.",
+        ],
+      },
+      {
+        h2: "Where we take you in Fairfax",
+        paragraphs: [
+          "We serve every corner of the Fairfax area: George Mason University and its Eagle Bank Arena, the Fairfax County Government Center, Inova Fairfax Hospital, Old Town Fairfax, Fair Oaks Mall and its surrounding office parks, and the residential neighborhoods from Fairfax Station to Fair Lakes.",
+          "GMU families use us for move-in weekends, graduations, and campus visits; patients and families rely on us for Inova appointments; and commuting executives keep us on speed dial for early flights out of DCA. Every drop-off is door-to-door — never a pin two blocks away.",
+        ],
+      },
+      {
+        h2: "Vehicles and group options",
+        paragraphs: [
+          "Solo travelers ride in a Mercedes-class luxury sedan. Families heading home with a semester's worth of luggage take an Escalade or Suburban. For wedding parties at Fairfax venues or corporate groups visiting the government center, our Mercedes Sprinter vans seat up to thirteen with room for every bag.",
+          "Whatever the vehicle, the promise is identical: a professional, background-checked chauffeur, a spotless interior, and one flat price agreed before the trip begins. Returns to DCA include buffer time for security so you are never sprinting to a gate.",
+        ],
+      },
+      {
+        h2: "Making the most of the trip",
+        paragraphs: [
+          "If your visit centers on George Mason, build fifteen extra minutes into event days \u2014 Eagle Bank Arena concerts and graduation weekends flood the Braddock Road exits, and our chauffeurs stage early to beat the closures. For Inova Fairfax trips, tell us which pavilion you need; the campus is large and the right entrance saves a long indoor walk.",
+          "Business travelers connecting several NoVA stops in one day often switch from a one-way transfer to hourly service \u2014 the same chauffeur and vehicle stay with you from Fairfax to Tysons to a Reston dinner and back to DCA. It is usually cheaper than three separate rides and eliminates every wait in between. Call (877) 609-1919 and we will price both options for your itinerary.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much is a car from DCA to Fairfax?",
+        a: "Flat rate from $95 in a luxury sedan — I-66 express tolls, fuel, and chauffeur included. SUVs and Sprinter vans are quoted flat as well. Call (877) 609-1919 for an exact price.",
+      },
+      {
+        q: "How long does DCA to Fairfax take?",
+        a: "Usually 30–45 minutes for the 18-mile trip, depending on I-66 and Beltway conditions. Your chauffeur routes around slowdowns in real time.",
+      },
+      {
+        q: "Do you serve George Mason University?",
+        a: "Yes — campus drop-offs and pickups, move-in weekends, graduations, and Eagle Bank Arena events are all routine for us.",
+      },
+      {
+        q: "Can I book a dawn pickup from Fairfax to DCA?",
+        a: "Absolutely. We run 24/7, and early-morning airport runs are our specialty — your chauffeur arrives with security-line buffer time already planned.",
+      },
+      {
+        q: "Do you offer round trips from Fairfax to DCA?",
+        a: "Yes \u2014 booking both legs together locks both rates at once and schedules your return pickup automatically with security buffer built in. Most GMU families and weekly business travelers book round trips by default.",
+      },
+    ],
+  },
+  {
+    slug: "dca-to-mclean",
+    destination: "McLean, VA",
+    h1: "DCA Airport to McLean Car Service",
+    metaTitle: "DCA to McLean | Flat Rate Car Service from $85",
+    metaDesc:
+      "Flat $85 car service from DCA to McLean, VA — GW Parkway route, flight tracking, discreet pro chauffeurs. Book online or call (877) 609-1919.",
+    distance: "12 miles",
+    driveTime: "20–30 minutes",
+    heroImage: HERO_IMAGE,
+    intro:
+      "McLean sits just twelve miles up the George Washington Parkway from Reagan National, but its residents expect more from those twelve miles than a rideshare can deliver. DCA Limos provides the discreet, flat-rate chauffeur service McLean is used to: $85 locked at booking, a tracked flight, and a professional at the wheel.",
+    sections: [
+      {
+        h2: "The Parkway route, driven properly",
+        paragraphs: [
+          "On a clear morning, the GW Parkway from DCA to McLean is one of the prettiest airport runs in America — the Potomac on one side, parkland on the other, and Chain Bridge Road delivering you into town in twenty minutes. When the Parkway jams, our chauffeurs pivot to Route 123 or the Beltway without being asked.",
+          "That judgment matters more in McLean than almost anywhere: many trips here run on tight calendars — a Capital One board meeting, a school pickup at Potomac School, a flight connection with no slack. Your chauffeur's job is to make the drive the most predictable part of the day.",
+        ],
+      },
+      {
+        h2: "Serving McLean, Langley, and Tysons' doorstep",
+        paragraphs: [
+          "We cover every McLean address: the downtown business district, Langley and its government campuses, the estate neighborhoods off Georgetown Pike, Salona Village, and the corporate towers where McLean meets Tysons — Capital One Center, Hilton headquarters, and the Booz Allen campus among them.",
+          "Discretion is standard. Our chauffeurs are background-checked professionals accustomed to executive, diplomatic, and high-profile passengers; conversations stay in the car, and arrivals stay punctual.",
+        ],
+      },
+      {
+        h2: "Flat pricing for a premium address",
+        paragraphs: [
+          "The flat $85 sedan rate includes fuel, any tolls, and the chauffeur — no surge when it rains, no premium during Tysons rush hour. Escalades and Suburbans carry families and extra luggage; Sprinter vans handle group moves for corporate events at Capital One Hall.",
+          "Returns to DCA are timed around real traffic, not guesses: your chauffeur watches conditions on the Parkway and 123 and arrives early enough that security at Reagan National is never a gamble.",
+        ],
+      },
+      {
+        h2: "Local knowledge that pays off",
+        paragraphs: [
+          "McLean trips reward a driver who knows the area's rhythms. School-run hours around Potomac School and Langley High make Georgetown Pike crawl between 7:30 and 9 a.m.; our chauffeurs route around it without being asked. Evening events at Capital One Hall release a thousand cars into Tysons at once \u2014 we stage pickups a block clear of the garage queue so you are moving while others are still parked.",
+          "Many McLean clients graduate from single transfers to a standing arrangement: the same chauffeur for every DCA run, the same vehicle standard, one monthly invoice. If your household or office flies weekly, one call to (877) 609-1919 sets it up and the airport simply stops being a logistics problem.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much is car service from DCA to McLean?",
+        a: "A flat $85 in a luxury sedan, all-inclusive — fuel, tolls, and chauffeur. Larger vehicles are quoted flat as well. Call (877) 609-1919 for an exact quote.",
+      },
+      {
+        q: "How long is the drive from DCA to McLean?",
+        a: "About 20–30 minutes for the 12-mile trip via the GW Parkway, with Route 123 and Beltway alternates when the Parkway slows.",
+      },
+      {
+        q: "Do you serve Capital One Center and Tysons-side offices?",
+        a: "Yes — Capital One Center, Capital One Hall, and the corporate corridor where McLean meets Tysons are all standard drop-offs.",
+      },
+      {
+        q: "Is the service discreet enough for executive travel?",
+        a: "Yes. Our chauffeurs regularly carry executives and public figures — professional, punctual, and private is the default, not an upgrade.",
+      },
+      {
+        q: "Can you handle last-minute McLean pickups?",
+        a: "We accommodate same-day requests whenever a vehicle is available, and McLean's proximity to our staging areas makes short-notice coverage better here than almost anywhere. For guaranteed availability, book by the evening before and call (877) 609-1919 for anything urgent.",
+      },
+    ],
+  },
+  {
+    slug: "dca-to-reston",
+    destination: "Reston, VA",
+    h1: "DCA Airport to Reston Car Service",
+    metaTitle: "DCA to Reston | Flat Rate Car Service from $115",
+    metaDesc:
+      "Flat $115 car service from DCA to Reston, VA — Toll Road included, flight tracking, pro chauffeurs 24/7. Book online or call (877) 609-1919.",
+    distance: "22 miles",
+    driveTime: "30–45 minutes",
+    heroImage: HERO_IMAGE,
+    intro:
+      "Reston is the heart of the Dulles tech corridor, and plenty of its travelers still fly through Reagan National for the shorter security lines and closer-in departures. DCA Limos bridges the 22-mile gap with a flat $115 chauffeured transfer — Dulles Toll Road included, flight tracked, and no surge ever.",
+    sections: [
+      {
+        h2: "Toll Road math, solved",
+        paragraphs: [
+          "The fastest way from DCA to Reston stacks tolls: I-395, the Beltway, then the Dulles Toll Road. Rideshares pass every one of those charges through — plus surge — so the quoted price and the final receipt rarely match. Our flat rate bakes it all in. The $115 you book is the $115 you pay, whether you land at noon on a Tuesday or 11 p.m. before a holiday.",
+          "Your chauffeur monitors the flight from wheels-up, adjusts for early arrivals and delays automatically, and meets you at baggage claim with a name sign. Complimentary wait time means a slow bag carousel never becomes a billing event.",
+        ],
+      },
+      {
+        h2: "Every Reston destination, door to door",
+        paragraphs: [
+          "Reston Town Center anchors most business trips — its offices, the Hyatt Regency, and the restaurants around the plaza — and we deliver to the exact building entrance. We also cover the tech campuses along Sunrise Valley and Sunset Hills Drive, the Wiehle-Reston and Reston Town Center Metro stations, and every residential cluster from Lake Anne to South Lakes.",
+          "Google, Microsoft, Volkswagen of America, and a long list of cleared contractors keep offices here; their visitors and recruits are a large share of our Reston passengers. Corporate accounts get priority dispatch and consolidated monthly billing.",
+        ],
+      },
+      {
+        h2: "Groups, families, and round trips",
+        paragraphs: [
+          "A sedan fits the solo consultant; an Escalade or Suburban fits the relocating family and their luggage; a Sprinter van moves a thirteen-person project team in one vehicle. Round-trip bookings lock both legs at once, which most weekly commuters find the simplest way to run their travel.",
+          "Every trip runs 24/7 with a background-checked professional chauffeur, a detailed vehicle, and one all-inclusive price agreed before pickup.",
+        ],
+      },
+      {
+        h2: "Timing tips for the Toll Road",
+        paragraphs: [
+          "The Dulles Toll Road is at its worst westbound from 4 to 6:30 p.m. and eastbound from 7 to 9 a.m. \u2014 if your schedule allows, flights that land midday make the DCA-to-Reston run twenty minutes faster. When you cannot choose, we can: our chauffeurs weigh the Toll Road against Route 7 in real time and take whichever is actually moving.",
+          "Conference travelers heading to Reston Town Center should note that hotel drop-offs during big events can queue at the plaza entrance; we use the side approaches and get you to the lobby door minutes earlier. And if your trip pairs a Reston meeting with a Dulles departure, ask about a combined itinerary \u2014 we will run both legs on one booking with one flat combined rate.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much is a car from DCA to Reston?",
+        a: "A flat $115 in a luxury sedan — Dulles Toll Road, all other tolls, fuel, and chauffeur included. Call (877) 609-1919 for SUV and Sprinter quotes.",
+      },
+      {
+        q: "How long does DCA to Reston take?",
+        a: "Typically 30–45 minutes for the 22 miles, depending on Beltway and Toll Road conditions. Your chauffeur reroutes in real time when traffic builds.",
+      },
+      {
+        q: "Do you drop off at Reston Town Center?",
+        a: "Yes — exact-entrance drop-offs at Reston Town Center offices, the Hyatt Regency, and the surrounding campuses are our most common Reston stops.",
+      },
+      {
+        q: "Why not just fly into Dulles for Reston?",
+        a: "Many travelers prefer DCA's shorter lines and better flight times. With a flat-rate transfer covering the Toll Road, DCA is often the faster door-to-door option.",
+      },
+      {
+        q: "Do you offer hourly service for multi-stop Reston days?",
+        a: "Yes. If your day strings together meetings in Reston, Tysons, and Herndon, an hourly chauffeur keeps the same vehicle with you throughout \u2014 usually cheaper than three separate transfers and with zero waiting between stops.",
+      },
+    ],
+  },
+  {
+    slug: "dca-to-herndon",
+    destination: "Herndon, VA",
+    h1: "DCA Airport to Herndon Car Service",
+    metaTitle: "DCA to Herndon | Flat Rate Car Service from $125",
+    metaDesc:
+      "Flat $125 car service from DCA to Herndon, VA — tolls included, flight tracking, 24/7 pro chauffeurs. Book online or call (877) 609-1919.",
+    distance: "25 miles",
+    driveTime: "35–50 minutes",
+    heroImage: HERO_IMAGE,
+    intro:
+      "Herndon sits at the far end of the Dulles Toll Road, deep in data-center and defense country — and its travelers know exactly what a bad airport transfer costs a working day. DCA Limos runs the 25 miles from Reagan National as a flat $125 chauffeured trip: tolls included, flight tracked, price locked.",
+    sections: [
+      {
+        h2: "The long Toll Road run, made predictable",
+        paragraphs: [
+          "Of all the NoVA routes from DCA, Herndon accumulates the most variables: I-395 out of the airport, the Beltway interchange, the full length of the Dulles Toll Road, and the last-mile grid around Herndon Parkway. Every variable is our problem, not yours — the flat rate covers all tolls and the chauffeur handles all routing.",
+          "Flight tracking is standard in both directions. Inbound, your chauffeur is staged when you clear baggage claim; outbound, pickups are timed against live traffic so a Toll Road slowdown never turns into a missed flight.",
+        ],
+      },
+      {
+        h2: "Herndon's tech and government corridor",
+        paragraphs: [
+          "We serve the full Herndon footprint: the historic downtown and its Friday-night music scene, the office parks along Spring Street and Herndon Parkway, the data-center campuses pushing toward Sterling, and the hotel cluster serving Dulles-corridor business travel.",
+          "Amazon Web Services, Northrop Grumman, and a dense band of cleared contractors operate here, and their visiting engineers and executives make up much of our Herndon traffic. We handle recruiting visits, multi-day project stays, and recurring weekly commutes with equal ease — corporate accounts consolidate it all onto one invoice.",
+        ],
+      },
+      {
+        h2: "Vehicles for every trip profile",
+        paragraphs: [
+          "The flat $125 sedan rate suits the solo traveler with a laptop bag. Families and longer stays step up to an Escalade or Suburban for the luggage room. Project teams and event groups ride together in a Mercedes Sprinter — thirteen seats, thirteen bags, one vehicle, one price.",
+          "Every option comes with the same fundamentals: a professional chauffeur, a spotless late-model vehicle, 24/7 availability, and a rate that does not move after you book it.",
+        ],
+      },
+      {
+        h2: "Why travelers pair DCA with Herndon",
+        paragraphs: [
+          "It seems counterintuitive to fly into Reagan National when Dulles is fifteen minutes from Herndon \u2014 yet a large share of our Herndon passengers do exactly that. DCA offers more nonstop options to close-in East Coast cities, shorter security lines, and often cheaper fares; with a flat-rate transfer absorbing the longer drive, the total trip frequently comes out ahead.",
+          "For multi-day project stays, consider booking your return at the same time as your arrival \u2014 both legs lock at today's rate, and your departure pickup is timed automatically against live Toll Road conditions. Teams rotating staff weekly through the Herndon campuses can consolidate every ride onto a corporate account with one invoice; call (877) 609-1919 and we will set it up in a day.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much is car service from DCA to Herndon?",
+        a: "A flat $125 in a luxury sedan — every toll, fuel, and the chauffeur included. SUVs and Sprinter vans are quoted flat too. Call (877) 609-1919 for exact pricing.",
+      },
+      {
+        q: "How long is the drive from DCA to Herndon?",
+        a: "Plan on 35–50 minutes for the 25 miles, depending on Beltway and Dulles Toll Road traffic. Your chauffeur adjusts the route in real time.",
+      },
+      {
+        q: "Do you serve the Herndon data-center and AWS corridor?",
+        a: "Yes — the office and data-center campuses along Herndon Parkway, Spring Street, and toward Sterling are regular destinations for us.",
+      },
+      {
+        q: "Can I set up recurring weekly transfers?",
+        a: "Yes. Weekly commuters and corporate accounts get priority scheduling, the same locked rates, and one consolidated invoice. Call (877) 609-1919 to set it up.",
+      },
+      {
+        q: "What if my flight into DCA is delayed at night?",
+        a: "Nothing changes. We track the flight, the pickup adjusts automatically, and 24/7 dispatch means a midnight arrival gets the same staged chauffeur as a noon one \u2014 with no late-night surcharge.",
+      },
+    ],
+  },
+  {
+    slug: "dca-to-fredericksburg",
+    destination: "Fredericksburg, VA",
+    h1: "DCA Airport to Fredericksburg Car Service",
+    metaTitle: "DCA to Fredericksburg | Flat Rate Car Service from $185",
+    metaDesc:
+      "Flat $185 car service from DCA to Fredericksburg, VA — no I-95 surprises, flight tracking, pro chauffeurs. Book online or call (877) 609-1919.",
+    distance: "50 miles",
+    driveTime: "60–90 minutes",
+    heroImage: HERO_IMAGE,
+    intro:
+      "Fifty miles of I-95 separate Reagan National from Fredericksburg — the most congested corridor on the East Coast. DCA Limos makes it a fixed-price, chauffeur-driven trip: a flat $185 with express-lane tolls included, a tracked flight, and a driver who has run this highway thousands of times.",
+    sections: [
+      {
+        h2: "I-95 without the gamble",
+        paragraphs: [
+          "Nobody quotes a reliable rideshare price for a 50-mile run down I-95, and the express-lane tolls alone can swing by forty dollars depending on the hour. Our flat rate ends the gamble: $185 covers the vehicle, the chauffeur, fuel, and every toll — whether the lanes are free-flowing or the whole corridor is crawling past Quantico.",
+          "Your chauffeur makes the express-lane call in real time based on live pricing and traffic, which routinely saves half an hour on afternoon runs. You ride, work, or sleep; the highway is somebody else's problem.",
+        ],
+      },
+      {
+        h2: "Serving Fredericksburg and the I-95 corridor",
+        paragraphs: [
+          "We cover the city itself — the historic downtown, the University of Mary Washington, Mary Washington Hospital, and Central Park's retail sprawl — plus the wider region: Stafford, Spotsylvania, Massaponax, and the commuter neighborhoods that fill the corridor.",
+          "Quantico sits directly on the route, and Marine Corps families, contractors, and TBS graduations account for a steady share of our Fredericksburg traffic. We also carry UMW families for move-ins and commencement, and leisure travelers connecting to the region's Civil War battlefields.",
+        ],
+      },
+      {
+        h2: "Long-distance comfort, both directions",
+        paragraphs: [
+          "An hour-plus on I-95 is where vehicle quality stops being a luxury. Our sedans and SUVs are late-model, quiet, and detailed before every trip — a rolling office or a rolling nap, your choice. Families and groups take a Suburban, an Escalade, or a thirteen-seat Sprinter and keep everyone together.",
+          "Northbound pickups in Fredericksburg are timed with generous I-95 buffer, so a crash at Occoquan never turns into a missed flight at Reagan National. We run 24/7, including the 4 a.m. departures this corridor is famous for.",
+        ],
+      },
+      {
+        h2: "Know before you ride the corridor",
+        paragraphs: [
+          "The I-95 express lanes reverse direction \u2014 southbound in the evening, northbound in the morning \u2014 and that single fact decides whether your trip takes an hour or two. Our chauffeurs plan around the reversal schedule, which is why an experienced driver beats a navigation app on this corridor almost every time.",
+          "If your travel touches Quantico, carry your base credentials and tell us your gate; we drop at the visitor center or the gate itself, whichever your access allows. UMW families booking move-in or commencement weekends should reserve a week or more ahead \u2014 those dates sell out our SUVs first. And for northbound departures, we recommend pickups no later than three hours before boarding on weekday afternoons; we will confirm the exact time with live traffic the day before.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much is a car from DCA to Fredericksburg?",
+        a: "A flat $185 in a luxury sedan — I-95 express-lane tolls, fuel, and the chauffeur all included. Call (877) 609-1919 for SUV and Sprinter van pricing.",
+      },
+      {
+        q: "How long does DCA to Fredericksburg take?",
+        a: "Typically 60–90 minutes depending on I-95. Your chauffeur uses live traffic and express-lane pricing to pick the fastest realistic route.",
+      },
+      {
+        q: "Do you serve Quantico on this route?",
+        a: "Yes — Quantico sits right on the corridor, and base-adjacent pickups and drop-offs for military families, graduations, and contractors are routine.",
+      },
+      {
+        q: "Can you handle a 4 a.m. pickup to catch an early DCA flight?",
+        a: "Absolutely. We operate 24/7, and pre-dawn I-95 runs are among our most common Fredericksburg bookings — buffer time is built in automatically.",
+      },
+      {
+        q: "Do you serve Stafford and Spotsylvania too?",
+        a: "Yes \u2014 the whole corridor. Stafford, Spotsylvania, Massaponax, and the commuter neighborhoods off every I-95 exit between Quantico and Fredericksburg are quoted as flat-rate destinations. Call (877) 609-1919 with your address for an exact price.",
+      },
+    ],
+  },
+  {
+    slug: "dca-to-ocean-city-md",
+    destination: "Ocean City, MD",
+    h1: "DCA Airport to Ocean City Car Service",
+    metaTitle: "DCA to Ocean City MD | Flat Rate Car Service from $375",
+    metaDesc:
+      "Flat $375 car service from DCA to Ocean City, MD — Bay Bridge included, door-to-condo, no surge. Book online or call (877) 609-1919.",
+    distance: "150 miles",
+    driveTime: "2.75–3.25 hours",
+    heroImage: HERO_IMAGE,
+    intro:
+      "Flying into Reagan National for an Ocean City vacation leaves one problem: 150 miles of US-50, the Bay Bridge, and Eastern Shore traffic between you and the sand. DCA Limos solves it with a flat $375 chauffeured transfer — door to condo, luggage handled, Bay Bridge tolls included, and zero July surge.",
+    sections: [
+      {
+        h2: "The beach run, minus the driving",
+        paragraphs: [
+          "Every Marylander knows what summer Saturdays do to US-50: backups at the Bay Bridge, crawling traffic through Kent Island, and a final slog up Coastal Highway. In our car, that is three hours of someone else's problem — you nap, the kids watch a movie, and the cooler stays cold in the cargo area.",
+          "The flat rate is the point. Rideshares rarely accept a 150-mile trip at all, and when they do, the price is a lottery. Our $375 sedan rate is locked at booking — bridge tolls, fuel, and chauffeur included — whether you travel on a quiet Tuesday or the Friday before the Fourth.",
+        ],
+      },
+      {
+        h2: "Door-to-door on both ends",
+        paragraphs: [
+          "Your chauffeur meets you at DCA baggage claim, loads every bag and beach chair, and delivers you to your exact address — a boardwalk hotel, a Coastal Highway high-rise condo, a bayside rental in West Ocean City, or on to Fenwick and Bethany just across the Delaware line.",
+          "Return trips run the same way in reverse: a scheduled pickup at your building's front door, timed with Bay Bridge buffer so the drive back never threatens the flight home. Book the round trip at once and both legs are locked together.",
+        ],
+      },
+      {
+        h2: "Groups, golf trips, and senior week",
+        paragraphs: [
+          "Beach travel is group travel. Our Suburbans and Escalades carry five or six with serious luggage; our Mercedes Sprinter vans carry up to thirteen — the whole family reunion, the golf foursome (clubs included), or a bachelorette crew — in one vehicle at one flat price that beats three separate rideshares every time.",
+          "Parents also trust us for supervised senior-week drop-offs and pickups: a professional, background-checked chauffeur, a fixed schedule, and confirmation when the ride is complete.",
+        ],
+      },
+      {
+        h2: "Beach-trip logistics, handled",
+        paragraphs: [
+          "A few details make a three-hour beach transfer effortless. Tell us your rental's check-in time and we will pace the trip so you are not waiting in a parking lot with a car full of groceries \u2014 or we will drop you at the Gold Coast or 94th Street stores en route so you arrive stocked. Traveling with small children? Car seats and boosters are available on request at no charge.",
+          "Homebound, the classic mistake is underestimating Sunday afternoon at the Bay Bridge. We schedule return pickups with live-traffic buffer and adjust the night before if the forecast or the bridge cameras look ugly. If your dates are flexible, a Monday-to-Friday stay saves both bridge time and hotel money \u2014 and the flat transfer rate stays identical whichever days you choose.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much is a car from DCA to Ocean City, MD?",
+        a: "A flat $375 in a luxury sedan, including Bay Bridge tolls, fuel, and the chauffeur. SUVs and thirteen-passenger Sprinter vans are quoted flat for groups. Call (877) 609-1919.",
+      },
+      {
+        q: "How long does the trip take?",
+        a: "About 2.75–3.25 hours depending on Bay Bridge and Route 50 traffic. Your chauffeur times summer runs around known backup windows.",
+      },
+      {
+        q: "Do you charge more on summer weekends?",
+        a: "No. The flat rate is the same on a July Saturday as a January Tuesday — no surge, no seasonal premium.",
+      },
+      {
+        q: "Can you take our whole group with beach gear?",
+        a: "Yes. Sprinter vans seat up to thirteen with room for luggage, coolers, and chairs — everyone rides together at one price.",
+      },
+      {
+        q: "Do you also serve Bethany Beach and Fenwick Island?",
+        a: "Yes \u2014 the Delaware beaches sit just past Ocean City and we quote them as flat-rate destinations too. Tell us your exact rental address and the quote covers door-to-door, bridge tolls included.",
+      },
+    ],
+  },
+  {
+    slug: "dca-to-columbia-md",
+    destination: "Columbia, MD",
+    h1: "DCA Airport to Columbia Car Service",
+    metaTitle: "DCA to Columbia MD | Flat Rate Car Service from $115",
+    metaDesc:
+      "Flat $115 car service from DCA to Columbia, MD — flight tracking, pro chauffeurs, no surge on the Parkway. Book online or call (877) 609-1919.",
+    distance: "30 miles",
+    driveTime: "40–55 minutes",
+    heroImage: HERO_IMAGE,
+    intro:
+      "Columbia sits almost exactly between Washington and Baltimore, which means its travelers can fly out of any of three airports — and plenty choose Reagan National for its flight selection. DCA Limos covers the 30-mile gap with a flat $115 chauffeured transfer: flight tracked, Parkway traffic managed, price locked.",
+    sections: [
+      {
+        h2: "The smart route between DCA and Howard County",
+        paragraphs: [
+          "The run from Reagan National to Columbia stacks three of the region's moodiest roads: the 14th Street Bridge, the BW Parkway, and MD-32 through Fort Meade country. Our chauffeurs read them in real time — swapping to I-95 or Route 29 when the Parkway stalls — so the 40-minute drive stays a 40-minute drive.",
+          "Flight tracking means your pickup adjusts itself. Land twenty minutes early and the car is waiting; sit on the tarmac for an hour and nobody charges you a cent of waiting time.",
+        ],
+      },
+      {
+        h2: "Every Columbia village, every business address",
+        paragraphs: [
+          "We deliver door-to-door across all of Columbia: the lakefront offices downtown, Merriweather Post Pavilion and the Merriweather District, Howard County General Hospital, the Gateway business corridor, and every residential village from Wilde Lake to River Hill.",
+          "Columbia's employers — from Howard Hughes' downtown development to the cyber and defense firms clustered near Fort Meade — generate steady visitor traffic, and we handle their recruits, consultants, and executives with corporate-account billing and priority dispatch. Hotel pickups at the Merriweather Lakehouse, Sheraton Columbia, and the downtown Marriott are exact-entrance, and recurring weekly itineraries can be set up on a single account with one call.",
+        ],
+      },
+      {
+        h2: "Concerts, families, and flat pricing",
+        paragraphs: [
+          "Merriweather Post Pavilion nights are a specialty: we drop you at the gate and stage your pickup so you skip the lot chaos entirely. Families use our SUVs for vacation departures; groups take a Sprinter and ride thirteen-strong to weddings, galas, and games.",
+          "Whatever the occasion, the structure is identical — one flat, all-inclusive rate with tolls, fuel, and chauffeur included, quoted before you book and immune to traffic, weather, and surge.",
+        ],
+      },
+      {
+        h2: "Getting the timing right",
+        paragraphs: [
+          "Columbia's position between two cities means its traffic flows both ways: mornings crawl toward Washington, evenings crawl back. Flights that land between 10 a.m. and 3 p.m. make this the easiest transfer in our network \u2014 barely forty minutes door-to-door. When you must travel at rush, our chauffeurs weigh the Parkway against I-95 and US-29 in real time, and the flat rate means the slower drive never costs you more.",
+          "Concert-goers should book Merriweather transfers as round trips: gate drop-off before the show and a staged pickup on Little Patuxent Parkway afterward, clear of the lot queue. For Fort Meade and cyber-corridor visitors, we handle gate logistics and provide the ride documentation contractors need \u2014 one call to (877) 609-1919 covers the details.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much is car service from DCA to Columbia?",
+        a: "A flat $115 in a luxury sedan, all-inclusive. SUVs and Sprinter vans for families and groups are quoted flat as well. Call (877) 609-1919 for an exact quote.",
+      },
+      {
+        q: "How long does DCA to Columbia take?",
+        a: "Usually 40–55 minutes for the 30 miles via the BW Parkway and MD-32, with I-95 and US-29 as live alternates.",
+      },
+      {
+        q: "Do you do Merriweather Post Pavilion concert runs?",
+        a: "Yes — gate drop-offs and staged post-show pickups are routine, so you never sit in the venue lot queue.",
+      },
+      {
+        q: "Is BWI a better airport for Columbia?",
+        a: "BWI is closer, but many Columbia travelers fly DCA for route selection. We serve both at flat rates, so choose the flight — the transfer is handled either way.",
+      },
+      {
+        q: "Can you pick up from all Columbia villages?",
+        a: "Yes \u2014 Wilde Lake, Harper's Choice, River Hill, Owen Brown, Long Reach, and every other village get the same door-to-door service and the same flat rate. Your exact address is confirmed at booking.",
+      },
+    ],
+  },
+  {
+    slug: "dca-to-silver-spring",
+    destination: "Silver Spring, MD",
+    h1: "DCA Airport to Silver Spring Car Service",
+    metaTitle: "DCA to Silver Spring | Flat Rate Car Service from $95",
+    metaDesc:
+      "Flat $95 car service from DCA to Silver Spring, MD — flight tracking, pro chauffeurs, no Beltway surge. Book online or call (877) 609-1919.",
+    distance: "12 miles",
+    driveTime: "25–40 minutes",
+    heroImage: HERO_IMAGE,
+    intro:
+      "Silver Spring is barely a dozen miles from Reagan National, but those miles cross the heart of the District — and DC crosstown traffic is where cheap rides go to die. DCA Limos runs the route as a flat $95 chauffeured transfer: flight tracked, crosstown routing handled, and a price that never surges.",
+    sections: [
+      {
+        h2: "Crosstown without the chaos",
+        paragraphs: [
+          "There is no single best way from DCA to Silver Spring — 16th Street, North Capitol, or the full Beltway loop each win at different hours. Our chauffeurs make that call with live traffic in front of them, which is exactly the judgment a surge-priced rideshare has no incentive to exercise.",
+          "The flat $95 covers everything: fuel, any tolls, and a professional chauffeur who meets you at baggage claim, handles the luggage, and delivers you to your exact door in twenty-five to forty minutes.",
+        ],
+      },
+      {
+        h2: "Downtown Silver Spring to Four Corners",
+        paragraphs: [
+          "We serve the whole Silver Spring map: the downtown core around the Fillmore and the transit center, the Discovery and NOAA campuses, Holy Cross Hospital, the FDA's White Oak headquarters, and the neighborhoods — Woodside, Four Corners, Wheaton's edge, and Takoma Park next door.",
+          "Federal and health-sector travel drives much of this route. FDA visitors, NOAA scientists, and Holy Cross patients and families all get the same treatment: exact-entrance drop-offs, documented receipts, and pickups timed to the minute.",
+        ],
+      },
+      {
+        h2: "Reliable in both directions, around the clock",
+        paragraphs: [
+          "Outbound, your chauffeur arrives with buffer time computed from live crosstown conditions — early enough that Reagan National security is comfortable, never so early you waste an hour at the gate. Inbound, complimentary wait time absorbs slow bags and customs lines.",
+          "Sedans handle the daily business run; SUVs take families with luggage; Sprinter vans move groups of up to thirteen for events at the Fillmore or the civic building. One flat price every time, 24 hours a day.",
+        ],
+      },
+      {
+        h2: "Route notes from our chauffeurs",
+        paragraphs: [
+          "The DCA-to-Silver Spring run is short enough that route choice is everything. Middays, 16th Street straight up through the District is unbeatable; at rush hour the Beltway loop through Bethesda often wins despite the extra miles; late nights, North Capitol flies. Our chauffeurs make that call with live data \u2014 the difference is routinely fifteen minutes on a trip this size.",
+          "Federal visitors should note that FDA White Oak sits well east of downtown Silver Spring \u2014 closer to fifteen miles from DCA \u2014 and we quote it as the same flat-rate zone, so there is no surprise on the invoice. Heading the other way for an early flight, we recommend pickups seventy-five minutes before boarding for TSA PreCheck travelers and ninety without; we confirm the exact time the evening before based on next-morning traffic patterns.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much is a car from DCA to Silver Spring?",
+        a: "A flat $95 in a luxury sedan, all-inclusive — fuel, tolls, and chauffeur. Larger vehicles are quoted flat as well. Call (877) 609-1919 for exact pricing.",
+      },
+      {
+        q: "How long does DCA to Silver Spring take?",
+        a: "Usually 25–40 minutes for the 12 miles, depending on District crosstown traffic. Your chauffeur picks the best route in real time.",
+      },
+      {
+        q: "Do you serve the FDA White Oak campus?",
+        a: "Yes — FDA White Oak, the Discovery and NOAA buildings, and Holy Cross Hospital are all regular exact-entrance drop-offs.",
+      },
+      {
+        q: "Is there surge pricing during rush hour?",
+        a: "Never. The $95 flat rate is identical at 8 a.m. on a rainy Monday and 2 p.m. on a quiet Sunday.",
+      },
+      {
+        q: "Do you serve Takoma Park and Wheaton as well?",
+        a: "Yes \u2014 Takoma Park, Wheaton, Four Corners, and White Oak all fall in the same flat-rate zone as downtown Silver Spring. One call to (877) 609-1919 confirms your exact address and locks the price.",
+      },
+    ],
+  },
 ];
 
 export function findRoutePage(slug) {

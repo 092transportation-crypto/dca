@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/dca-to-bwi-airport", "destination": "/dca-to-bwi", "permanent": true }
+  ]
+}
