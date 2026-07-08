@@ -70,7 +70,7 @@ const LandingPage = () => {
 
           {/* Trust strip */}
           <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-gray-300">
-            <div className="flex items-center gap-2"><Star className="h-4 w-4 text-amber-400 fill-amber-400" /> 4.9/5 from 50,000+ rides</div>
+            <div className="flex items-center gap-2"><Star className="h-4 w-4 text-amber-400 fill-amber-400" /> Licensed & Insured Maryland Carrier</div>
             <div className="flex items-center gap-2"><Clock className="h-4 w-4 text-amber-400" /> 24/7 dispatch</div>
             <div className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-amber-400" /> Licensed & insured</div>
           </div>

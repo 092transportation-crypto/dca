@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Phone, Calendar, MapPin, Clock, Car, CheckCircle2, Loader2 } from 'lucide-react';
@@ -34,10 +35,10 @@ const BookingPage = () => {
   const [submitted, setSubmitted] = useState(false);
 
   useEffect(() => {
-    document.title = "Book Limo Online | Get a Free Quote | DCA Limos Maryland";
+    document.title = "Book DCA Airport Car Service | Instant Quote";
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
-      metaDesc.setAttribute('content', 'Get a free quote for DCA Limos. Reserve airport transportation, corporate car service, wedding limos & more. Fast response guaranteed. Maryland, DC & Virginia.');
+      metaDesc.setAttribute('content', 'Book DCA airport car service in minutes — instant flat-rate quote, no surge, 24/7 chauffeurs across DC, MD & VA. Reserve online or call (877) 609-1919.');
     }
   }, []);
 
@@ -347,6 +348,16 @@ const BookingPage = () => {
               </li>
             ))}
           </ul>
+        </div>
+      </div>
+
+      {/* Explore more — internal links */}
+      <div className="container mx-auto px-4 pb-12">
+        <div className="max-w-3xl mx-auto text-center text-sm sm:text-base text-gray-600 border-t border-gray-200 pt-8">
+          Explore DCA Limos: <Link to="/fleet" className="text-amber-600 hover:underline font-semibold">our luxury fleet</Link>,{' '}
+          <Link to="/services" className="text-amber-600 hover:underline font-semibold">all services</Link>,{' '}
+          <Link to="/dca-to-washington-dc" className="text-amber-600 hover:underline font-semibold">DCA to DC rates</Link>, or{' '}
+          <Link to="/contact" className="text-amber-600 hover:underline font-semibold">contact our team</Link>.
         </div>
       </div>
     </div>

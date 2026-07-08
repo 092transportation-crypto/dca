@@ -6,10 +6,10 @@ import { CheckCircle, Shield, Award, Star, Users, Briefcase } from 'lucide-react
 
 const FleetPage = () => {
   useEffect(() => {
-    document.title = "Luxury Fleet | Mercedes E-Class, S-Class, Cadillac Escalade, Sprinter Van | DCA Limo Washington DC";
+    document.title = "Luxury Fleet | Mercedes, BMW & Cadillac | DCA Limos";
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
-      metaDesc.setAttribute('content', 'Explore DCA Limo\'s luxury fleet: Mercedes E-Class, S-Class, Cadillac Escalade SUV, and Sprinter Vans. Professional chauffeurs, immaculate vehicles for airport transfers and events in DC, MD, VA.');
+      metaDesc.setAttribute('content', 'See the DCA Limos fleet — Mercedes, BMW 7 Series, Escalade & Sprinter vans, all chauffeur-driven. Pick your vehicle and book online in minutes.');
     }
   }, []);
 
@@ -306,6 +306,16 @@ const FleetPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Explore more — internal links */}
+      <div className="container mx-auto px-4 pb-12">
+        <div className="max-w-3xl mx-auto text-center text-sm sm:text-base text-gray-600 border-t border-gray-200 pt-8">
+          Explore DCA Limos: <Link to="/services" className="text-amber-600 hover:underline font-semibold">all services</Link>,{' '}
+          <Link to="/about" className="text-amber-600 hover:underline font-semibold">about us</Link>,{' '}
+          <Link to="/dca-to-washington-dc" className="text-amber-600 hover:underline font-semibold">DCA to DC rates</Link>, or{' '}
+          <Link to="/booking" className="text-amber-600 hover:underline font-semibold">book your ride online</Link>.
+        </div>
+      </div>
     </div>
   );
 };

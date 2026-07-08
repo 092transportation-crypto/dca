@@ -2,17 +2,64 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { Shield, Clock, Award, Users, CheckCircle, Star, Phone, Car, Briefcase, PartyPopper } from 'lucide-react';
+import { CheckCircle, Star, Phone, Car, Briefcase, PartyPopper } from 'lucide-react';
+
+const HOME_FAQS = [
+  {
+    q: 'How much does a car service from DCA cost?',
+    a: 'Flat rates start at $55 to Arlington, $65 to downtown DC, $95 to Bethesda, $145 to Annapolis, and $165 to Baltimore — tolls, fuel, and chauffeur included. The price is locked when you book, with no surge.',
+  },
+  {
+    q: 'Where does my chauffeur meet me at Reagan National?',
+    a: 'Your chauffeur tracks your flight and meets you at baggage claim with a name sign, or curbside if you prefer. Wait time for delayed flights is built in at no charge.',
+  },
+  {
+    q: 'Is DCA car service available 24/7?',
+    a: 'Yes. We operate around the clock, every day of the year — 5 a.m. departures and midnight arrivals get the same reliable service.',
+  },
+  {
+    q: 'How far in advance should I book a DCA pickup?',
+    a: 'We recommend booking at least 24 hours ahead to guarantee your vehicle. Same-day requests are welcome when availability allows — call (877) 609-1919.',
+  },
+  {
+    q: 'Do you serve BWI and Dulles too?',
+    a: 'Yes. Besides Reagan National, we run flat-rate transfers to and from BWI Marshall and Dulles International, plus inter-airport connections.',
+  },
+];
 
 const HomePage = () => {
   useEffect(() => {
-    document.title = "DCA Limos – Luxury Airport Chauffeur Service";
+    document.title = "DCA Limo Service | Flat Rate Car Service Reagan National";
     // Update meta description
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
-      metaDesc.setAttribute('content', 'DCA Limos provides 24/7 premium airport transportation, corporate car service, and luxury limo rentals in Washington DC, Maryland & Virginia. Professional chauffeurs, Mercedes fleet, best rates. Book online now!');
+      metaDesc.setAttribute('content', 'Flat-rate DCA airport car service — no surge, flight tracking, pro chauffeurs 24/7 across DC, MD & VA. See rates from $55 and book online in minutes.');
     }
+    // FAQPage structured data
+    const schema = {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: HOME_FAQS.map((f) => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    };
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.id = 'home-faq-schema';
+    script.text = JSON.stringify(schema);
+    document.head.appendChild(script);
+    return () => document.getElementById('home-faq-schema')?.remove();
   }, []);
+
+  const pricingRows = [
+    { to: 'Washington, DC', price: 65, time: '10–20 min', link: '/dca-to-washington-dc' },
+    { to: 'Arlington, VA', price: 55, time: '10–15 min', link: '/dca-to-arlington' },
+    { to: 'Bethesda, MD', price: 95, time: '25–40 min', link: '/dca-to-bethesda' },
+    { to: 'Annapolis, MD', price: 145, time: '45–60 min', link: '/dca-to-annapolis' },
+    { to: 'Baltimore, MD', price: 165, time: '50–70 min', link: '/dca-to-baltimore' },
+  ];
   const services = [
     {
       title: 'Airport Transportation',
@@ -37,29 +84,6 @@ const HomePage = () => {
     },
   ];
 
-  const features = [
-    {
-      icon: <Shield className="h-8 w-8" />,
-      title: 'Fully Licensed & Insured',
-      description: 'DOT certified, commercially licensed, and comprehensively insured for your complete peace of mind.',
-    },
-    {
-      icon: <Clock className="h-8 w-8" />,
-      title: '99% On-Time Guarantee',
-      description: 'Real-time flight tracking and route optimization ensure punctual service every single time.',
-    },
-    {
-      icon: <Award className="h-8 w-8" />,
-      title: 'Professional Chauffeurs',
-      description: 'Background-checked, professionally trained drivers with an average of 10+ years experience.',
-    },
-    {
-      icon: <Users className="h-8 w-8" />,
-      title: '24/7 Concierge Service',
-      description: 'Round-the-clock customer support and booking assistance. We\'re always here when you need us.',
-    },
-  ];
-
   return (
     <div className="min-h-screen bg-white" data-testid="home-page">
       {/* Hero Section */}
@@ -76,13 +100,13 @@ const HomePage = () => {
           <div className="max-w-4xl text-white">
             <div className="mb-4 sm:mb-6">
               <span className="inline-block bg-amber-500 text-black px-3 py-1.5 sm:px-4 sm:py-2 text-xs sm:text-sm font-bold tracking-wider uppercase">
-                Premier Airport Transportation Since 2008
+                Licensed &amp; Insured Maryland Carrier
               </span>
             </div>
             <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight" data-testid="hero-title">
-              Premium Airport Limo &amp;
+              DCA Airport Car Service
               <br />
-              <span className="text-amber-400">Car Service in Washington DC</span>
+              <span className="text-amber-400">Flat Rates — No Surge, Ever</span>
             </h1>
             <p className="text-base sm:text-xl lg:text-2xl mb-6 sm:mb-8 text-gray-200 leading-relaxed max-w-2xl" data-testid="hero-subtitle">
               24/7 luxury airport transportation, executive car service &amp; limousine rentals serving DCA, BWI, Dulles &amp; the entire DMV area. Professional chauffeurs, Mercedes fleet, best rates guaranteed.
@@ -120,22 +144,70 @@ const HomePage = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-8 text-center">
             <div>
-              <div className="text-2xl sm:text-4xl font-bold text-amber-400 mb-1">15+</div>
-              <div className="text-xs sm:text-sm uppercase tracking-wider text-gray-300">Years in Business</div>
+              <div className="text-xl sm:text-3xl font-bold text-amber-400 mb-1">Licensed</div>
+              <div className="text-xs sm:text-sm uppercase tracking-wider text-gray-300">&amp; Insured Maryland Carrier</div>
             </div>
             <div>
-              <div className="text-2xl sm:text-4xl font-bold text-amber-400 mb-1">50K+</div>
-              <div className="text-xs sm:text-sm uppercase tracking-wider text-gray-300">Satisfied Clients</div>
+              <div className="text-xl sm:text-3xl font-bold text-amber-400 mb-1">Professional</div>
+              <div className="text-xs sm:text-sm uppercase tracking-wider text-gray-300">DMV Transportation</div>
             </div>
             <div>
-              <div className="text-2xl sm:text-4xl font-bold text-amber-400 mb-1">99%</div>
-              <div className="text-xs sm:text-sm uppercase tracking-wider text-gray-300">On-Time Rate</div>
+              <div className="text-xl sm:text-3xl font-bold text-amber-400 mb-1">Flat Rates</div>
+              <div className="text-xs sm:text-sm uppercase tracking-wider text-gray-300">No Surge Pricing</div>
             </div>
             <div>
-              <div className="text-2xl sm:text-4xl font-bold text-amber-400 mb-1">24/7</div>
+              <div className="text-xl sm:text-3xl font-bold text-amber-400 mb-1">24/7</div>
               <div className="text-xs sm:text-sm uppercase tracking-wider text-gray-300">Available</div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Flat-Rate Pricing Table */}
+      <section className="py-12 sm:py-20 bg-white" data-testid="pricing-table-section">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8 sm:mb-12">
+            <span className="text-amber-600 font-semibold text-xs sm:text-sm uppercase tracking-wider mb-2 sm:mb-3 block">Transparent Pricing</span>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-gray-900 px-4">Flat Rates from Reagan National</h2>
+            <p className="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
+              The price you see is the price you pay — tolls, fuel, and chauffeur included. No surge, no meter.
+            </p>
+          </div>
+          <div className="max-w-3xl mx-auto overflow-x-auto">
+            <table className="w-full border-collapse bg-white rounded-xl overflow-hidden shadow-xl">
+              <thead>
+                <tr className="bg-gray-900 text-white">
+                  <th className="text-left px-4 sm:px-6 py-4 text-sm sm:text-base font-bold uppercase tracking-wider">Route</th>
+                  <th className="text-left px-4 sm:px-6 py-4 text-sm sm:text-base font-bold uppercase tracking-wider">Drive Time</th>
+                  <th className="text-left px-4 sm:px-6 py-4 text-sm sm:text-base font-bold uppercase tracking-wider">Starting Rate</th>
+                  <th className="px-4 sm:px-6 py-4"></th>
+                </tr>
+              </thead>
+              <tbody>
+                {pricingRows.map((row, i) => (
+                  <tr key={row.link} className={i % 2 ? 'bg-gray-50' : 'bg-white'} data-testid={`pricing-row-${i}`}>
+                    <td className="px-4 sm:px-6 py-4 font-semibold text-gray-900">
+                      <Link to={row.link} className="hover:text-amber-600 transition-colors">
+                        DCA → {row.to}
+                      </Link>
+                    </td>
+                    <td className="px-4 sm:px-6 py-4 text-gray-600">{row.time}</td>
+                    <td className="px-4 sm:px-6 py-4 text-amber-600 font-bold text-lg">${row.price}</td>
+                    <td className="px-4 sm:px-6 py-4 text-right">
+                      <Button asChild size="sm" className="bg-amber-500 hover:bg-amber-600 text-black font-bold">
+                        <Link to="/booking">Book</Link>
+                      </Button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-center text-sm text-gray-500 mt-4">
+            Sedan rates shown. SUVs and Sprinter vans available —{' '}
+            <Link to="/fleet" className="text-amber-600 hover:underline font-semibold">see the fleet</Link> or{' '}
+            <Link to="/booking" className="text-amber-600 hover:underline font-semibold">get an instant quote</Link>.
+          </p>
         </div>
       </section>
 
@@ -190,22 +262,28 @@ const HomePage = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-10 sm:mb-16">
             <span className="text-amber-400 font-semibold text-xs sm:text-sm uppercase tracking-wider mb-2 sm:mb-3 block">Why Choose Us</span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 px-4">The DCA Limo Difference</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 px-4">Why Choose DCA Limos</h2>
             <p className="text-base sm:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed px-4">
-              Setting the gold standard for professional <Link to="/services" className="text-amber-400 hover:underline">transportation services</Link> in the Washington DC metropolitan area. <Link to="/about" className="text-amber-400 hover:underline">Learn more about us</Link>.
+              Professional <Link to="/services" className="text-amber-400 hover:underline">transportation services</Link> in the Washington DC metropolitan area. <Link to="/about" className="text-amber-400 hover:underline">Learn more about us</Link>.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
-            {features.map((feature, index) => (
-              <div key={index} className="text-center group" data-testid={`feature-${index}`}>
-                <div className="inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 text-black mb-4 sm:mb-6 group-hover:scale-110 transition-transform shadow-lg">
-                  {feature.icon}
+          <ul className="max-w-3xl mx-auto space-y-4 sm:space-y-5" data-testid="why-choose-list">
+            {[
+              { title: 'Flat-rate pricing with no surge', text: 'The rate you book is the rate you pay — tolls, fuel, and chauffeur included, in any weather and at any hour.' },
+              { title: 'Licensed & insured Maryland carrier', text: 'Fully licensed for commercial transportation with comprehensive insurance on every vehicle.' },
+              { title: 'Flight tracking on every airport pickup', text: 'We watch your flight and adjust your pickup automatically — delays never cost you a ride or a fee.' },
+              { title: 'Professional, background-checked chauffeurs', text: 'Trained drivers who know DCA, the District, and the Beltway — and treat your time as the priority.' },
+              { title: '24/7 availability across the DMV', text: 'Early departures, red-eye arrivals, weekends, and holidays — professional DMV transportation, around the clock.' },
+            ].map((item, index) => (
+              <li key={index} className="flex items-start gap-4 bg-white/5 border border-amber-500/20 rounded-xl p-4 sm:p-5" data-testid={`feature-${index}`}>
+                <CheckCircle className="h-6 w-6 text-amber-400 flex-shrink-0 mt-0.5" />
+                <div>
+                  <h3 className="text-base sm:text-lg font-bold text-white">{item.title}</h3>
+                  <p className="text-sm sm:text-base text-gray-400 leading-relaxed">{item.text}</p>
                 </div>
-                <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3">{feature.title}</h3>
-                <p className="text-sm sm:text-base text-gray-400 leading-relaxed px-2">{feature.description}</p>
-              </div>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
 
@@ -444,12 +522,33 @@ const HomePage = () => {
         </div>
       </section>
 
+      {/* FAQ Section */}
+      <section className="py-12 sm:py-20 lg:py-24 bg-gray-50" data-testid="home-faq-section">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8 sm:mb-12">
+            <span className="text-amber-600 font-semibold text-xs sm:text-sm uppercase tracking-wider mb-2 sm:mb-3 block">Good to Know</span>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-gray-900 px-4">DCA Airport Transportation FAQs</h2>
+          </div>
+          <div className="max-w-3xl mx-auto space-y-4">
+            {HOME_FAQS.map((f, i) => (
+              <div key={i} className="bg-white rounded-xl shadow-md p-5 sm:p-6 border-l-4 border-amber-500" data-testid={`home-faq-${i}`}>
+                <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-2">{f.q}</h3>
+                <p className="text-sm sm:text-base text-gray-600 leading-relaxed">{f.a}</p>
+              </div>
+            ))}
+          </div>
+          <p className="text-center text-sm sm:text-base text-gray-600 mt-8">
+            More questions? Visit our <Link to="/contact" className="text-amber-600 hover:underline font-semibold">contact page</Link>, explore <Link to="/services" className="text-amber-600 hover:underline font-semibold">all services</Link>, or <Link to="/booking" className="text-amber-600 hover:underline font-semibold">book your ride now</Link>.
+          </p>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-12 sm:py-20 lg:py-24 bg-gradient-to-r from-amber-500 to-amber-600" data-testid="cta-section">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-black px-4">Ready to Experience Premium Service?</h2>
           <p className="text-base sm:text-xl mb-6 sm:mb-10 text-black max-w-2xl mx-auto leading-relaxed px-4">
-            Join thousands of satisfied clients who trust us for their most important journeys. Book now and discover excellence.
+            Professional DMV transportation with flat rates and a licensed, insured Maryland carrier. Book now and travel with confidence.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center px-4">
             <Button 

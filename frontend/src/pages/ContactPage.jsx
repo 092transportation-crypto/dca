@@ -327,6 +327,16 @@ const ContactPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Explore more — internal links */}
+      <div className="container mx-auto px-4 pb-12">
+        <div className="max-w-3xl mx-auto text-center text-sm sm:text-base text-gray-600 border-t border-gray-200 pt-8">
+          Explore DCA Limos: <Link to="/fleet" className="text-amber-600 hover:underline font-semibold">our luxury fleet</Link>,{' '}
+          <Link to="/services" className="text-amber-600 hover:underline font-semibold">all services</Link>,{' '}
+          <Link to="/dca-to-washington-dc" className="text-amber-600 hover:underline font-semibold">DCA to DC rates</Link>, or{' '}
+          <Link to="/booking" className="text-amber-600 hover:underline font-semibold">book your ride online</Link>.
+        </div>
+      </div>
     </div>
   );
 };

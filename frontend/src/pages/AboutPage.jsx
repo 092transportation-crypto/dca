@@ -6,10 +6,10 @@ import { Shield, Award, Clock, Users, Heart, CheckCircle, Target } from 'lucide-
 
 const AboutPage = () => {
   useEffect(() => {
-    document.title = "About DCA Limo | Trusted Airport Transportation & Luxury Car Service Since 2008 | Washington DC, MD, VA";
+    document.title = "About DCA Limos | Licensed Maryland Car Service";
     const metaDesc = document.querySelector('meta[name="description"]');
     if (metaDesc) {
-      metaDesc.setAttribute('content', 'Learn about DCA Limo - Washington DC\'s most trusted luxury transportation provider since 2008. Professional chauffeurs, 50,000+ satisfied clients, 99% on-time rate. Licensed & insured.');
+      metaDesc.setAttribute('content', 'Meet DCA Limos — a licensed & insured Maryland carrier providing professional DMV transportation with pro chauffeurs, 24/7. Book online or call (877) 609-1919.');
     }
   }, []);
 
@@ -47,8 +47,8 @@ const AboutPage = () => {
   ];
 
   const stats = [
-    { number: '15+', label: 'Years Excellence', icon: '🏆' },
-    { number: '50,000+', label: 'Happy Clients', icon: '😊' },
+    { number: 'Licensed', label: 'Insured Maryland Carrier', icon: '🛡️' },
+    { number: 'DMV', label: 'Professional Transportation', icon: '🚘' },
     { number: '24/7', label: 'Availability', icon: '🕐' },
     { number: '99.2%', label: 'On-Time Rate', icon: '⏱️' },
   ];
@@ -67,7 +67,7 @@ const AboutPage = () => {
           <span className="inline-block bg-amber-500 text-black px-3 py-1.5 sm:px-4 sm:py-2 text-xs sm:text-sm font-bold tracking-wider uppercase mb-4 sm:mb-6">
             About DCA Limo
           </span>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-white px-4">Washington DC's Most Trusted Limo Service Since 2008</h1>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-white px-4">Professional DMV Transportation, Licensed & Insured</h1>
           <p className="text-base sm:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed px-4">
             Premier luxury airport transportation and executive car service provider serving Washington DC, Maryland &amp; Virginia.
           </p>
@@ -92,7 +92,7 @@ const AboutPage = () => {
               </div>
               <div className="flex flex-col justify-center">
                 <p className="text-base sm:text-lg text-gray-700 mb-4 sm:mb-6 leading-relaxed">
-                  Founded in 2008 with a singular vision—to redefine luxury transportation in the Baltimore-Washington corridor. What began as a boutique fleet serving BWI Airport has evolved into the region's most trusted name in <Link to="/services" className="text-amber-600 hover:underline font-semibold">airport transportation</Link> and <Link to="/services" className="text-amber-600 hover:underline font-semibold">executive car service</Link>.
+                  DCA Limos was built with a singular vision—to redefine luxury transportation in the Baltimore-Washington corridor. As a licensed and insured Maryland carrier, we have grown into a trusted name in <Link to="/services" className="text-amber-600 hover:underline font-semibold">airport transportation</Link> and <Link to="/services" className="text-amber-600 hover:underline font-semibold">executive car service</Link>.
                 </p>
                 <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
                   Our growth is built on an unwavering commitment to excellence: <Link to="/fleet" className="text-amber-600 hover:underline font-semibold">impeccably maintained vehicles</Link>, professionally trained chauffeurs, and service that consistently exceeds expectations.
@@ -101,7 +101,7 @@ const AboutPage = () => {
             </div>
             <div className="bg-gray-50 rounded-xl sm:rounded-2xl p-6 sm:p-10 border-l-4 border-amber-500">
               <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
-                Today, we proudly serve thousands of satisfied clients annually—from Fortune 500 executives to families celebrating life's special moments. Our 99.2% on-time rate and consistent five-star reviews reflect our dedication to operational excellence.
+                Today, we serve business and leisure travelers across the DMV—from Fortune 500 executives to families celebrating life's special moments. Our on-time record and consistent five-star reviews reflect our dedication to operational excellence.
               </p>
             </div>
           </div>
@@ -182,7 +182,7 @@ const AboutPage = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-gray-900 px-4">Experience the Excellence</h2>
           <p className="text-base sm:text-xl text-amber-600 mb-8 sm:mb-10 max-w-2xl mx-auto leading-relaxed px-4">
-            Join thousands of satisfied clients who trust us with their most important journeys.
+            Experience professional DMV transportation from a licensed & insured Maryland carrier.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center px-4">
             <Button 

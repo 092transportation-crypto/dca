@@ -10,7 +10,7 @@ export const BLOG_POSTS = [
   {
     slug: 'dca-airport-car-service-vs-uber-2026',
     title: 'DCA Airport Car Service vs Uber in 2026: An Honest Cost & Reliability Comparison',
-    metaTitle: 'DCA Car Service vs Uber 2026 | Real Cost Comparison',
+    metaTitle: 'DCA Car Service vs Uber: Real Costs | DCA Limos',
     metaDesc:
       'DCA airport car service vs Uber in 2026 — real prices, surge math, and hidden costs compared. See when a flat-rate chauffeur actually beats rideshare. Call (877) 609-1919.',
     excerpt:
@@ -80,7 +80,7 @@ export const BLOG_POSTS = [
   {
     slug: 'best-black-car-service-dca-airport',
     title: 'How to Choose the Best Black Car Service at DCA Airport (2026 Guide)',
-    metaTitle: 'Best Black Car Service at DCA Airport (2026) | How to Choose',
+    metaTitle: 'Best Black Car Service at DCA Airport | DCA Limos',
     metaDesc:
       'How to pick the best black car service at DCA Airport in 2026 — the 7 things that actually matter, from flat-rate pricing to flight tracking and fleet quality. Call (877) 609-1919.',
     excerpt:
@@ -148,7 +148,7 @@ export const BLOG_POSTS = [
   {
     slug: 'reagan-national-airport-transportation-guide',
     title: 'Reagan National Airport (DCA) Ground Transportation Guide for 2026',
-    metaTitle: 'Reagan National (DCA) Transportation Guide 2026 | Pickup, Tips & Options',
+    metaTitle: 'Reagan National Transportation Guide | DCA Limos',
     metaDesc:
       'Complete 2026 guide to Reagan National (DCA) ground transportation — terminals, pickup zones, Metro, taxi, rideshare, and car service compared. Call (877) 609-1919.',
     excerpt:
@@ -217,7 +217,7 @@ export const BLOG_POSTS = [
   {
     slug: 'dca-to-dc-flat-rate-car-service',
     title: 'DCA to DC Flat-Rate Car Service: One Price, No Surge, No Surprises',
-    metaTitle: 'DCA to DC Flat-Rate Car Service 2026 | From $65, No Surge',
+    metaTitle: 'DCA to DC Flat Rate Car Service | DCA Limos',
     metaDesc:
       'DCA to Washington DC flat-rate car service in 2026 from $65 — tolls and flight tracking included, no surge, no meter. Capitol Hill, K Street, Georgetown. Call (877) 609-1919.',
     excerpt:
@@ -276,7 +276,7 @@ export const BLOG_POSTS = [
   {
     slug: 'corporate-car-service-dca-airport',
     title: 'Corporate Car Service at DCA Airport: A Guide for DC-Area Businesses',
-    metaTitle: 'Corporate Car Service DCA Airport 2026 | Executive Travel Guide',
+    metaTitle: 'Corporate Car Service at DCA | DCA Limos',
     metaDesc:
       'Corporate car service at DCA Airport — dedicated chauffeurs, monthly billing, flight tracking, and discreet executive travel across the DMV. Call (877) 609-1919.',
     excerpt:

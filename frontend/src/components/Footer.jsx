@@ -31,7 +31,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-sm sm:text-base text-gray-400 leading-relaxed mb-4 sm:mb-6">
-              Maryland's premier luxury transportation service. Licensed, insured, and committed to delivering excellence since 2008.
+              Licensed & insured Maryland carrier providing professional DMV transportation — airport transfers, corporate travel, and events.
             </p>
             <div className="flex space-x-3 sm:space-x-4">
               <a href="https://www.facebook.com/profile.php?id=61587066539463" target="_blank" rel="noopener noreferrer" className="w-9 h-9 sm:w-10 sm:h-10 bg-amber-500 hover:bg-amber-400 rounded-full flex items-center justify-center text-black transition-all" aria-label="Facebook">
@@ -135,7 +135,6 @@ const Footer = () => {
             <a href="https://www.nih.gov/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors">NIH Bethesda</a>
             <a href="https://mva.maryland.gov/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors">Maryland MVA</a>
             <a href="https://www.nlaride.com/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors">National Limousine Assoc.</a>
-            <a href="https://www.bbb.org/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors">BBB</a>
           </div>
         </div>
 
@@ -148,11 +147,11 @@ const Footer = () => {
               </p>
             </div>
             <div className="flex flex-wrap justify-center md:justify-end gap-3 sm:gap-6 text-xs sm:text-sm">
-              <span className="text-amber-400">Licensed & Insured</span>
+              <span className="text-amber-400">Licensed & Insured Maryland Carrier</span>
               <span className="text-gray-600">•</span>
               <span className="text-amber-400">DOT Certified</span>
               <span className="text-gray-600">•</span>
-              <span className="text-amber-400">BBB Accredited</span>
+              <span className="text-amber-400">Professional DMV Transportation</span>
             </div>
           </div>
         </div>

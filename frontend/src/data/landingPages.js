@@ -27,7 +27,7 @@ export const LANDING_PAGES = [
     h1: 'BWI Airport Limo Service',
     metaTitle: 'BWI Airport Limo Service | Baltimore Washington International Car Service',
     metaDesc: 'Top-rated BWI airport limo service. Luxury Mercedes sedans, SUVs & Sprinter vans. 24/7 service to all Maryland, DC & VA destinations. Book online.',
-    hero: 'Premium BWI Thurgood Marshall airport limo service. Trusted by 50,000+ Maryland travelers.',
+    hero: 'Premium BWI Thurgood Marshall airport limo service. Licensed & insured Maryland carrier.',
     image: 'https://images.unsplash.com/photo-1772410466566-3b652ecbf07c?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85',
     intro: 'As specialists in Baltimore-Washington International Thurgood Marshall Airport (BWI) transportation, DCA Limos delivers punctual, luxury transfers throughout Maryland and beyond. Our Hanover, MD base puts us minutes from BWI — guaranteeing the fastest pickups in the region.',
     highlights: [
