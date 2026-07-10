@@ -2,7 +2,8 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { CheckCircle, Star, Phone, Car, Briefcase, PartyPopper } from 'lucide-react';
+import { CheckCircle, Star, Phone, Car, Briefcase, PartyPopper, MapPin, Clock, ArrowRight } from 'lucide-react';
+import { ROUTE_PAGES } from '@/data/routePages';
 
 const HOME_FAQS = [
   {
@@ -208,6 +209,42 @@ const HomePage = () => {
             <Link to="/fleet" className="text-amber-600 hover:underline font-semibold">see the fleet</Link> or{' '}
             <Link to="/booking" className="text-amber-600 hover:underline font-semibold">get an instant quote</Link>.
           </p>
+        </div>
+      </section>
+
+      {/* Popular Routes */}
+      <section className="py-12 sm:py-20 bg-gray-50" data-testid="popular-routes-section">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-8 sm:mb-12">
+            <span className="text-amber-600 font-semibold text-xs sm:text-sm uppercase tracking-wider mb-2 sm:mb-3 block">Popular Routes</span>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-gray-900 px-4">Popular Routes from Reagan National</h2>
+            <p className="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
+              Flat-rate chauffeured transfers from DCA to every major destination in DC, Maryland &amp; Virginia — each with its own guide, pricing, and FAQs.
+            </p>
+          </div>
+          <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
+            {ROUTE_PAGES.map((r) => (
+              <Link key={r.slug} to={`/${r.slug}`} className="group" data-testid={`popular-route-${r.slug}`}>
+                <Card className="border border-gray-200 hover:border-amber-500 hover:shadow-xl transition-all duration-300 h-full">
+                  <CardContent className="p-5 sm:p-6">
+                    <h3 className="text-base sm:text-lg font-bold text-gray-900 mb-2 group-hover:text-amber-600 transition-colors leading-snug">{r.h1}</h3>
+                    <div className="flex items-center gap-4 text-sm text-gray-600">
+                      <span className="flex items-center gap-1"><MapPin className="h-3.5 w-3.5 text-amber-600" /> {r.distance}</span>
+                      <span className="flex items-center gap-1"><Clock className="h-3.5 w-3.5 text-amber-600" /> {r.driveTime}</span>
+                    </div>
+                    <span className="mt-3 inline-flex items-center gap-1 text-amber-600 font-semibold text-sm">
+                      View route &amp; rates <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                    </span>
+                  </CardContent>
+                </Card>
+              </Link>
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Button asChild className="bg-amber-500 hover:bg-amber-400 text-black font-bold px-8 py-6 text-base" data-testid="popular-routes-book-now">
+              <Link to="/booking">Book Now — Lock Your Flat Rate</Link>
+            </Button>
+          </div>
         </div>
       </section>
 
@@ -493,12 +530,12 @@ const HomePage = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mt-6">
               {[
-                { to: '/services', label: 'Annapolis Limo' },
-                { to: '/services', label: 'Baltimore Limo' },
-                { to: '/services', label: 'Bethesda Car Service' },
-                { to: '/services', label: 'BWI Airport Transfer' },
+                { to: '/dca-to-annapolis', label: 'Annapolis Limo' },
+                { to: '/dca-to-baltimore', label: 'Baltimore Limo' },
+                { to: '/dca-to-bethesda', label: 'Bethesda Car Service' },
+                { to: '/dca-to-bwi', label: 'BWI Airport Transfer' },
                 { to: '/services', label: 'DCA Airport Transfer' },
-                { to: '/services', label: 'Dulles Airport Transfer' },
+                { to: '/dca-to-dulles', label: 'Dulles Airport Transfer' },
                 { to: '/services', label: 'Corporate Travel MD' },
                 { to: '/services', label: 'Wedding Limo MD' },
                 { to: '/services', label: 'Prom Limo MD' },

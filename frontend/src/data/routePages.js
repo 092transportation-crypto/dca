@@ -72,7 +72,7 @@ export const ROUTE_PAGES = [
         a: 'Absolutely. We regularly serve corporate, federal-contractor, and embassy clients, with discreet professional chauffeurs and billing and documentation support for official travel.',
       },
     ],
-    nearby: ['dca-to-arlington', 'dca-to-alexandria', 'dca-to-bethesda'],
+    nearby: ['dca-to-arlington', 'dca-to-alexandria', 'dca-to-bethesda', 'dca-to-silver-spring', 'dca-to-northern-virginia'],
   },
   {
     slug: 'dca-to-bethesda',
@@ -140,7 +140,7 @@ export const ROUTE_PAGES = [
         a: 'Yes. Your chauffeur meets you at baggage claim, assists with luggage, and walks you to the vehicle. Flight tracking and complimentary wait time are always included.',
       },
     ],
-    nearby: ['dca-to-rockville', 'dca-to-washington-dc', 'dca-to-tysons'],
+    nearby: ['dca-to-rockville', 'dca-to-washington-dc', 'dca-to-tysons', 'dca-to-silver-spring', 'dca-to-mclean'],
   },
   {
     slug: 'dca-to-arlington',
@@ -208,7 +208,7 @@ export const ROUTE_PAGES = [
         a: 'For early flights, late arrivals, group travel, or any trip where reliability matters, yes. Your car is guaranteed and waiting at a flat rate, with none of the cancellation or surge risk of rideshare.',
       },
     ],
-    nearby: ['dca-to-alexandria', 'dca-to-washington-dc', 'dca-to-tysons'],
+    nearby: ['dca-to-alexandria', 'dca-to-washington-dc', 'dca-to-tysons', 'dca-to-mclean', 'dca-to-fairfax'],
   },
   {
     slug: 'dca-to-alexandria',
@@ -276,7 +276,7 @@ export const ROUTE_PAGES = [
         a: 'Yes, we operate 24/7, 365 days a year, with the same flat rate regardless of time of day and no late-night or holiday surcharges.',
       },
     ],
-    nearby: ['dca-to-arlington', 'dca-to-washington-dc', 'dca-to-baltimore'],
+    nearby: ['dca-to-arlington', 'dca-to-washington-dc', 'dca-to-fairfax', 'dca-to-fredericksburg', 'dca-to-northern-virginia'],
   },
   {
     slug: 'dca-to-annapolis',
@@ -344,7 +344,7 @@ export const ROUTE_PAGES = [
         a: 'Absolutely. Our SUVs seat up to five with luggage and our Sprinter vans handle larger groups and full graduation parties comfortably.',
       },
     ],
-    nearby: ['dca-to-baltimore', 'dca-to-bwi', 'dca-to-washington-dc'],
+    nearby: ['dca-to-baltimore', 'dca-to-bwi', 'dca-to-columbia-md', 'dca-to-ocean-city-md', 'dca-to-washington-dc'],
   },
   {
     slug: 'dca-to-baltimore',
@@ -412,7 +412,7 @@ export const ROUTE_PAGES = [
         a: 'For a 40-mile inter-city trip, almost always. Rideshare rarely quotes reliably for this distance and surges with demand, while our flat rate is locked when you book and includes everything.',
       },
     ],
-    nearby: ['dca-to-bwi', 'dca-to-annapolis', 'dca-to-washington-dc'],
+    nearby: ['dca-to-bwi', 'dca-to-annapolis', 'dca-to-columbia-md', 'dca-to-ocean-city-md', 'dca-to-washington-dc'],
   },
   {
     slug: 'dca-to-dulles',
@@ -480,7 +480,7 @@ export const ROUTE_PAGES = [
         a: 'We track your inbound flight in real time and adjust the pickup automatically. If you are re-booked onto a different Dulles departure, just let dispatch know and we will adapt.',
       },
     ],
-    nearby: ['dca-to-bwi', 'dca-to-tysons', 'dca-to-washington-dc'],
+    nearby: ['dca-to-bwi', 'dca-to-tysons', 'dca-to-reston', 'dca-to-herndon', 'dca-to-washington-dc'],
   },
   {
     slug: 'dca-to-bwi',
@@ -548,7 +548,7 @@ export const ROUTE_PAGES = [
         a: 'Very — our base is in Hanover, Maryland, minutes from BWI, so we know the airport’s terminals, roadways, and curbside flow as well as anyone in the region.',
       },
     ],
-    nearby: ['dca-to-dulles', 'dca-to-baltimore', 'dca-to-annapolis'],
+    nearby: ['dca-to-dulles', 'dca-to-baltimore', 'dca-to-annapolis', 'dca-to-columbia-md', 'dca-to-silver-spring'],
   },
   {
     slug: 'dca-to-rockville',
@@ -616,7 +616,7 @@ export const ROUTE_PAGES = [
         a: 'We do. Corporate clients get consolidated monthly invoicing, dedicated dispatch, and consistent chauffeurs. Call (877) 609-1919 to set up an account.',
       },
     ],
-    nearby: ['dca-to-bethesda', 'dca-to-tysons', 'dca-to-washington-dc'],
+    nearby: ['dca-to-bethesda', 'dca-to-silver-spring', 'dca-to-tysons', 'dca-to-columbia-md', 'dca-to-washington-dc'],
   },
   {
     slug: 'dca-to-tysons',
@@ -684,7 +684,7 @@ export const ROUTE_PAGES = [
         a: 'Absolutely. Our SUVs and Sprinter vans carry teams and their luggage in a single vehicle, and corporate accounts are available with monthly billing and dedicated dispatch.',
       },
     ],
-    nearby: ['dca-to-arlington', 'dca-to-dulles', 'dca-to-rockville'],
+    nearby: ['dca-to-mclean', 'dca-to-arlington', 'dca-to-dulles', 'dca-to-reston', 'dca-to-fairfax'],
   },
 
   {
@@ -751,6 +751,7 @@ export const ROUTE_PAGES = [
         a: "Luxury sedans for solo and business travel, Cadillac Escalade and Suburban SUVs for families with luggage, and thirteen-passenger Mercedes Sprinter vans for groups \u2014 every vehicle chauffeur-driven, detailed before pickup, and quoted at one flat rate.",
       },
     ],
+    nearby: ['dca-to-arlington', 'dca-to-fairfax', 'dca-to-mclean', 'dca-to-reston', 'dca-to-herndon'],
   },
   {
     slug: "dca-to-fairfax",
@@ -816,6 +817,7 @@ export const ROUTE_PAGES = [
         a: "Yes \u2014 booking both legs together locks both rates at once and schedules your return pickup automatically with security buffer built in. Most GMU families and weekly business travelers book round trips by default.",
       },
     ],
+    nearby: ['dca-to-tysons', 'dca-to-mclean', 'dca-to-northern-virginia', 'dca-to-reston', 'dca-to-fredericksburg'],
   },
   {
     slug: "dca-to-mclean",
@@ -881,6 +883,7 @@ export const ROUTE_PAGES = [
         a: "We accommodate same-day requests whenever a vehicle is available, and McLean's proximity to our staging areas makes short-notice coverage better here than almost anywhere. For guaranteed availability, book by the evening before and call (877) 609-1919 for anything urgent.",
       },
     ],
+    nearby: ['dca-to-tysons', 'dca-to-arlington', 'dca-to-northern-virginia', 'dca-to-washington-dc', 'dca-to-bethesda'],
   },
   {
     slug: "dca-to-reston",
@@ -946,6 +949,7 @@ export const ROUTE_PAGES = [
         a: "Yes. If your day strings together meetings in Reston, Tysons, and Herndon, an hourly chauffeur keeps the same vehicle with you throughout \u2014 usually cheaper than three separate transfers and with zero waiting between stops.",
       },
     ],
+    nearby: ['dca-to-herndon', 'dca-to-dulles', 'dca-to-tysons', 'dca-to-mclean', 'dca-to-northern-virginia'],
   },
   {
     slug: "dca-to-herndon",
@@ -1011,6 +1015,7 @@ export const ROUTE_PAGES = [
         a: "Nothing changes. We track the flight, the pickup adjusts automatically, and 24/7 dispatch means a midnight arrival gets the same staged chauffeur as a noon one \u2014 with no late-night surcharge.",
       },
     ],
+    nearby: ['dca-to-reston', 'dca-to-dulles', 'dca-to-tysons', 'dca-to-fairfax', 'dca-to-northern-virginia'],
   },
   {
     slug: "dca-to-fredericksburg",
@@ -1076,6 +1081,7 @@ export const ROUTE_PAGES = [
         a: "Yes \u2014 the whole corridor. Stafford, Spotsylvania, Massaponax, and the commuter neighborhoods off every I-95 exit between Quantico and Fredericksburg are quoted as flat-rate destinations. Call (877) 609-1919 with your address for an exact price.",
       },
     ],
+    nearby: ['dca-to-alexandria', 'dca-to-arlington', 'dca-to-fairfax', 'dca-to-northern-virginia', 'dca-to-washington-dc'],
   },
   {
     slug: "dca-to-ocean-city-md",
@@ -1141,6 +1147,7 @@ export const ROUTE_PAGES = [
         a: "Yes \u2014 the Delaware beaches sit just past Ocean City and we quote them as flat-rate destinations too. Tell us your exact rental address and the quote covers door-to-door, bridge tolls included.",
       },
     ],
+    nearby: ['dca-to-annapolis', 'dca-to-baltimore', 'dca-to-bwi', 'dca-to-columbia-md', 'dca-to-washington-dc'],
   },
   {
     slug: "dca-to-columbia-md",
@@ -1206,6 +1213,7 @@ export const ROUTE_PAGES = [
         a: "Yes \u2014 Wilde Lake, Harper's Choice, River Hill, Owen Brown, Long Reach, and every other village get the same door-to-door service and the same flat rate. Your exact address is confirmed at booking.",
       },
     ],
+    nearby: ['dca-to-baltimore', 'dca-to-bwi', 'dca-to-silver-spring', 'dca-to-annapolis', 'dca-to-rockville'],
   },
   {
     slug: "dca-to-silver-spring",
@@ -1271,6 +1279,7 @@ export const ROUTE_PAGES = [
         a: "Yes \u2014 Takoma Park, Wheaton, Four Corners, and White Oak all fall in the same flat-rate zone as downtown Silver Spring. One call to (877) 609-1919 confirms your exact address and locks the price.",
       },
     ],
+    nearby: ['dca-to-bethesda', 'dca-to-rockville', 'dca-to-columbia-md', 'dca-to-washington-dc', 'dca-to-baltimore'],
   },
 ];
 

@@ -1,5 +1,20 @@
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram } from 'lucide-react';
+import { ROUTE_PAGES } from '@/data/routePages';
+
+// Short keyword-rich anchors for the footer blog sitemap.
+const BLOG_FOOTER_LINKS = [
+  { slug: 'dca-airport-car-service-vs-uber-2026', label: 'DCA Car Service vs Uber' },
+  { slug: 'best-black-car-service-dca-airport', label: 'Best Black Car Service at DCA' },
+  { slug: 'reagan-national-airport-transportation-guide', label: 'DCA Ground Transportation Guide' },
+  { slug: 'dca-to-dc-flat-rate-car-service', label: 'DCA to DC Flat-Rate Car Service' },
+  { slug: 'corporate-car-service-dca-airport', label: 'Corporate Car Service at DCA' },
+  { slug: 'dca-airport-to-annapolis-chauffeur-service', label: 'DCA to Annapolis Chauffeur Guide' },
+  { slug: 'reagan-national-airport-limo-cost-2026', label: 'Reagan National Limo Cost' },
+  { slug: 'dca-airport-meet-and-greet-service', label: 'DCA Meet & Greet Service' },
+  { slug: 'best-time-to-book-dca-airport-car-service', label: 'Best Time to Book DCA Car Service' },
+  { slug: 'dca-airport-corporate-travel-guide', label: 'DCA Corporate Travel Guide' },
+];
 
 const TikTokIcon = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4 sm:h-5 sm:w-5">
@@ -56,6 +71,7 @@ const Footer = () => {
               <li><Link to="/about" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span>→</span><span>About Us</span></Link></li>
               <li><Link to="/blog" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span>→</span><span>Blog</span></Link></li>
               <li><Link to="/contact" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span>→</span><span>Contact</span></Link></li>
+              <li><Link to="/booking" className="text-sm sm:text-base text-amber-400 hover:text-amber-300 font-semibold transition-colors flex items-center space-x-2"><span>→</span><span>Book Now</span></Link></li>
             </ul>
           </div>
 
@@ -102,6 +118,30 @@ const Footer = () => {
                 </div>
               </li>
             </ul>
+          </div>
+        </div>
+
+        {/* DCA Airport Routes */}
+        <div className="border-t border-amber-500/30 pt-8 pb-6 mb-4" data-testid="footer-dca-routes">
+          <h3 className="text-sm sm:text-base font-bold mb-4 text-amber-400 uppercase tracking-wider text-center md:text-left">DCA Airport Routes</h3>
+          <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs sm:text-sm text-gray-400">
+            {ROUTE_PAGES.map((r) => (
+              <Link key={r.slug} to={`/${r.slug}`} className="hover:text-amber-400 transition-colors" data-testid={`footer-route-${r.slug}`}>
+                DCA to {r.destination}
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* From the Blog */}
+        <div className="border-t border-amber-500/30 pt-6 pb-2 mb-4" data-testid="footer-blog-links">
+          <h3 className="text-sm sm:text-base font-bold mb-4 text-amber-400 uppercase tracking-wider text-center md:text-left">From the Blog</h3>
+          <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs sm:text-sm text-gray-400">
+            {BLOG_FOOTER_LINKS.map((p) => (
+              <Link key={p.slug} to={`/blog/${p.slug}`} className="hover:text-amber-400 transition-colors" data-testid={`footer-blog-${p.slug}`}>
+                {p.label}
+              </Link>
+            ))}
           </div>
         </div>
 

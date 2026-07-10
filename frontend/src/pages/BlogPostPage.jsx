@@ -1,10 +1,11 @@
 import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Calendar, Clock, User, ArrowLeft, Phone, Share2, Facebook, Twitter, Linkedin } from 'lucide-react';
+import { Calendar, Clock, User, ArrowLeft, ArrowRight, Phone, Share2, Facebook, Twitter, Linkedin, MapPin } from 'lucide-react';
 import DOMPurify from 'dompurify';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { findBlogPost, BLOG_POSTS } from '@/data/blogPosts';
+import { findRoutePage, ROUTE_PAGES } from '@/data/routePages';
 
 const PHONE_DISPLAY = '(877) 609-1919';
 const PHONE_TEL = 'tel:+18776091919';
@@ -91,6 +92,15 @@ const BlogPostPage = () => {
 
   const relatedPosts = BLOG_POSTS.filter((p) => p.slug !== blogPost.slug).slice(0, 2);
 
+  const recommendedRoutes = (() => {
+    const routes = (blogPost.relatedRoutes || []).map(findRoutePage).filter(Boolean);
+    for (const r of ROUTE_PAGES) {
+      if (routes.length >= 3) break;
+      if (!routes.some((x) => x.slug === r.slug)) routes.push(r);
+    }
+    return routes.slice(0, 3);
+  })();
+
   return (
     <div className="min-h-screen bg-white" data-testid={`blog-post-${blogPost.slug}`}>
       {/* Hero Image */}
@@ -168,6 +178,28 @@ const BlogPostPage = () => {
                       <h3 className="text-lg font-bold text-gray-900 mb-2">{f.q}</h3>
                       <p className="text-gray-700 leading-relaxed">{f.a}</p>
                     </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Recommended Routes */}
+            {recommendedRoutes.length > 0 && (
+              <div className="mt-12 sm:mt-16" data-testid="recommended-routes">
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">Recommended DCA Routes</h2>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-5">
+                  {recommendedRoutes.map((r) => (
+                    <Link key={r.slug} to={`/${r.slug}`} className="group" data-testid={`recommended-route-${r.slug}`}>
+                      <Card className="border border-gray-200 hover:border-amber-500 hover:shadow-xl transition-all duration-300 h-full">
+                        <CardContent className="p-5">
+                          <h3 className="text-base font-bold text-gray-900 mb-2 group-hover:text-amber-600 transition-colors leading-snug">{r.h1}</h3>
+                          <p className="text-sm text-gray-600 flex items-center gap-1"><MapPin className="h-3.5 w-3.5 text-amber-600" /> {r.distance} · {r.driveTime}</p>
+                          <span className="mt-3 inline-flex items-center gap-1 text-amber-600 font-semibold text-sm">
+                            View route &amp; rates <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                          </span>
+                        </CardContent>
+                      </Card>
+                    </Link>
                   ))}
                 </div>
               </div>

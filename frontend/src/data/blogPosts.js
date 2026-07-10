@@ -9,6 +9,7 @@ const IMG_EXEC =
 export const BLOG_POSTS = [
   {
     slug: 'dca-airport-car-service-vs-uber-2026',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-alexandria'],
     title: 'DCA Airport Car Service vs Uber in 2026: An Honest Cost & Reliability Comparison',
     metaTitle: 'DCA Car Service vs Uber: Real Costs | DCA Limos',
     metaDesc:
@@ -79,6 +80,7 @@ export const BLOG_POSTS = [
   },
   {
     slug: 'best-black-car-service-dca-airport',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-tysons', 'dca-to-bethesda'],
     title: 'How to Choose the Best Black Car Service at DCA Airport (2026 Guide)',
     metaTitle: 'Best Black Car Service at DCA Airport | DCA Limos',
     metaDesc:
@@ -147,6 +149,7 @@ export const BLOG_POSTS = [
   },
   {
     slug: 'reagan-national-airport-transportation-guide',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-northern-virginia', 'dca-to-silver-spring'],
     title: 'Reagan National Airport (DCA) Ground Transportation Guide for 2026',
     metaTitle: 'Reagan National Transportation Guide | DCA Limos',
     metaDesc:
@@ -216,6 +219,7 @@ export const BLOG_POSTS = [
   },
   {
     slug: 'dca-to-dc-flat-rate-car-service',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-silver-spring'],
     title: 'DCA to DC Flat-Rate Car Service: One Price, No Surge, No Surprises',
     metaTitle: 'DCA to DC Flat Rate Car Service | DCA Limos',
     metaDesc:
@@ -275,6 +279,7 @@ export const BLOG_POSTS = [
   },
   {
     slug: 'corporate-car-service-dca-airport',
+    relatedRoutes: ['dca-to-tysons', 'dca-to-mclean', 'dca-to-rockville'],
     title: 'Corporate Car Service at DCA Airport: A Guide for DC-Area Businesses',
     metaTitle: 'Corporate Car Service at DCA | DCA Limos',
     metaDesc:
@@ -339,6 +344,7 @@ export const BLOG_POSTS = [
   },
   {
     slug: 'dca-airport-to-annapolis-chauffeur-service',
+    relatedRoutes: ['dca-to-annapolis', 'dca-to-baltimore', 'dca-to-bwi'],
     title: 'DCA Airport to Annapolis Chauffeur Service: The Complete Guide',
     metaTitle: 'DCA to Annapolis Chauffeur Service | DCA Limos',
     metaDesc:
@@ -404,6 +410,7 @@ export const BLOG_POSTS = [
   },
   {
     slug: 'reagan-national-airport-limo-cost-2026',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-dulles', 'dca-to-baltimore'],
     title: 'How Much Does a Limo from Reagan National Cost in 2026? Real Rates',
     metaTitle: 'Reagan National Limo Cost 2026 | DCA Limos',
     metaDesc:
@@ -483,6 +490,7 @@ export const BLOG_POSTS = [
   },
   {
     slug: 'dca-airport-meet-and-greet-service',
+    relatedRoutes: ['dca-to-dulles', 'dca-to-bwi', 'dca-to-washington-dc'],
     title: 'DCA Airport Meet and Greet Service: How It Works and Who Needs It',
     metaTitle: 'DCA Airport Meet & Greet Service | DCA Limos',
     metaDesc:
@@ -560,6 +568,7 @@ export const BLOG_POSTS = [
   },
   {
     slug: 'best-time-to-book-dca-airport-car-service',
+    relatedRoutes: ['dca-to-annapolis', 'dca-to-ocean-city-md', 'dca-to-fredericksburg'],
     title: 'The Best Time to Book Your DCA Airport Car Service (2026 Data)',
     metaTitle: 'Best Time to Book DCA Car Service | DCA Limos',
     metaDesc:
@@ -630,6 +639,7 @@ export const BLOG_POSTS = [
   },
   {
     slug: 'dca-airport-corporate-travel-guide',
+    relatedRoutes: ['dca-to-tysons', 'dca-to-reston', 'dca-to-herndon'],
     title: 'The DCA Airport Corporate Travel Guide: Playbook for DC Businesses',
     metaTitle: 'DCA Corporate Travel Guide 2026 | DCA Limos',
     metaDesc:

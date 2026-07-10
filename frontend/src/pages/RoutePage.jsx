@@ -93,10 +93,10 @@ const RoutePage = ({ slug: slugProp }) => {
       if (r && !seen.has(r.slug)) { out.push(r); seen.add(r.slug); }
     });
     for (const r of ROUTE_PAGES) {
-      if (out.length >= 3) break;
+      if (out.length >= 5) break;
       if (!seen.has(r.slug)) { out.push(r); seen.add(r.slug); }
     }
-    return out.slice(0, 3);
+    return out.slice(0, 5);
   })();
 
   return (
@@ -156,7 +156,7 @@ const RoutePage = ({ slug: slugProp }) => {
             <div className="lg:col-span-3">
               {/* Highlights */}
               <ul className="space-y-3.5 mb-10">
-                {data.highlights.map((h) => (
+                {(data.highlights || []).map((h) => (
                   <li key={h} className="flex items-start gap-3">
                     <span className="mt-1 flex-shrink-0 w-6 h-6 bg-amber-500 rounded-full flex items-center justify-center">
                       <CheckCircle2 className="h-4 w-4 text-black" />
@@ -236,14 +236,14 @@ const RoutePage = ({ slug: slugProp }) => {
       <section className="py-16 sm:py-20 bg-gradient-to-b from-gray-50 to-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-10 text-center">Other popular DCA routes</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-10 text-center">Related DCA Airport Routes</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {relatedRoutes.map((r) => (
                 <Link key={r.slug} to={`/${r.slug}`} className="group" data-testid={`related-route-${r.slug}`}>
                   <Card className="border border-gray-200 hover:border-amber-500 hover:shadow-xl transition-all duration-300 h-full">
                     <CardContent className="p-5 sm:p-6">
                       <span className="text-xs text-amber-600 font-semibold uppercase tracking-wider">Airport Transfer</span>
-                      <h3 className="text-lg font-bold text-gray-900 mt-1 mb-2 group-hover:text-amber-600 transition-colors">DCA → {r.destination}</h3>
+                      <h3 className="text-lg font-bold text-gray-900 mt-1 mb-2 group-hover:text-amber-600 transition-colors">{r.h1}</h3>
                       <p className="text-sm text-gray-600">{r.driveTime} · {r.distance}</p>
                       <div className="mt-4 inline-flex items-center gap-1 text-amber-600 font-semibold text-sm">
                         View route <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
