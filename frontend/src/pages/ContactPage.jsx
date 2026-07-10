@@ -33,9 +33,26 @@ const ContactPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (isSubmitting) return;
     setIsSubmitting(true);
-    
-    setTimeout(() => {
+
+    try {
+      const res = await fetch('/api/quote-requests', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          full_name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          service_type: formData.service || 'General inquiry',
+          additional_details: formData.message,
+          source: 'Contact page',
+        }),
+      });
+      const data = await res.json();
+      if (!res.ok || !data.success) {
+        throw new Error(data.message || `HTTP ${res.status}`);
+      }
       toast.success('Message sent successfully! Our team will contact you within 24 hours.');
       setFormData({
         name: '',
@@ -44,8 +61,11 @@ const ContactPage = () => {
         service: '',
         message: '',
       });
+    } catch (err) {
+      toast.error("Couldn't send your message. Please call (877) 609-1919 instead.");
+    } finally {
       setIsSubmitting(false);
-    }, 1000);
+    }
   };
 
   return (

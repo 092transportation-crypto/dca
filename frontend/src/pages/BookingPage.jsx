@@ -58,11 +58,10 @@ const BookingPage = () => {
 
     setSubmitting(true);
     try {
-      const API_URL = process.env.REACT_APP_BACKEND_URL;
-      const res = await fetch(`${API_URL}/api/quote`, {
+      const res = await fetch('/api/quote-requests', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
+        body: JSON.stringify({ ...form, source: 'Booking page' }),
       });
       if (!res.ok) {
         throw new Error(`HTTP ${res.status}`);
