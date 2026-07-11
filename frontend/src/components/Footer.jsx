@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram } from 'lucide-react';
 import { ROUTE_PAGES } from '@/data/routePages';
+import { EVENT_PAGES } from '@/data/eventPages';
 
 // Short keyword-rich anchors for the footer blog sitemap.
 const BLOG_FOOTER_LINKS = [
@@ -128,6 +129,18 @@ const Footer = () => {
             {ROUTE_PAGES.map((r) => (
               <Link key={r.slug} to={`/${r.slug}`} className="hover:text-amber-400 transition-colors" data-testid={`footer-route-${r.slug}`}>
                 DCA to {r.destination}
+              </Link>
+            ))}
+          </div>
+        </div>
+
+        {/* Event Transportation */}
+        <div className="border-t border-amber-500/30 pt-6 pb-2 mb-4" data-testid="footer-event-links">
+          <h3 className="text-sm sm:text-base font-bold mb-4 text-amber-400 uppercase tracking-wider text-center md:text-left">Event Transportation</h3>
+          <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs sm:text-sm text-gray-400">
+            {EVENT_PAGES.map((e) => (
+              <Link key={e.slug} to={`/${e.slug}`} className="hover:text-amber-400 transition-colors" data-testid={`footer-event-${e.slug}`}>
+                {e.name} Transportation
               </Link>
             ))}
           </div>

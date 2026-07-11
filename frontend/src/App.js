@@ -13,8 +13,10 @@ import BlogPostPage from "@/pages/BlogPostPage";
 import BookingPage from "@/pages/BookingPage";
 import LandingPage from "@/pages/LandingPage";
 import RoutePage from "@/pages/RoutePage";
+import EventPage from "@/pages/EventPage";
 import NotFoundPage from "@/pages/NotFoundPage";
 import { ROUTE_PAGES } from "@/data/routePages";
+import { EVENT_PAGES } from "@/data/eventPages";
 
 function App() {
   return (
@@ -33,6 +35,9 @@ function App() {
           <Route path="/limo/:slug" element={<LandingPage />} />
           {ROUTE_PAGES.map((r) => (
             <Route key={r.slug} path={`/${r.slug}`} element={<RoutePage slug={r.slug} />} />
+          ))}
+          {EVENT_PAGES.map((e) => (
+            <Route key={e.slug} path={`/${e.slug}`} element={<EventPage slug={e.slug} />} />
           ))}
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
