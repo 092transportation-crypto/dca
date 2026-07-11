@@ -11,10 +11,13 @@ const Header = () => {
     { name: 'Home', href: '/' },
     { name: 'Services', href: '/services' },
     { name: 'Fleet', href: '/fleet' },
+    { name: 'Events & Concerts', href: '/concert-transportation' },
     { name: 'About', href: '/about' },
     { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' },
   ];
+
+  const navTestId = (name) => name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 
   const isActive = (path) => location.pathname === path;
 
@@ -68,7 +71,7 @@ const Header = () => {
               <Link
                 key={item.name}
                 to={item.href}
-                data-testid={`nav-link-${item.name.toLowerCase()}`}
+                data-testid={`nav-link-${navTestId(item.name)}`}
                 className={`text-xs lg:text-sm font-bold uppercase tracking-wider transition-colors hover:text-amber-400 relative group ${
                   isActive(item.href) ? 'text-amber-400' : 'text-white'
                 }`}
@@ -116,7 +119,7 @@ const Header = () => {
                 <Link
                   key={item.name}
                   to={item.href}
-                  data-testid={`mobile-nav-link-${item.name.toLowerCase()}`}
+                  data-testid={`mobile-nav-link-${navTestId(item.name)}`}
                   className={`text-base font-bold uppercase tracking-wider px-3 py-3 rounded-md transition-colors ${
                     isActive(item.href)
                       ? 'text-amber-400 bg-gray-800'
