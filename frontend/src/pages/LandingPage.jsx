@@ -86,6 +86,9 @@ const LandingPage = () => {
                 Why choose DCA Limos for {data.category.toLowerCase()}?
               </h2>
               <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-6">{data.intro}</p>
+              {data.seoText && (
+                <p className="text-base text-gray-600 leading-relaxed mb-6">{data.seoText}</p>
+              )}
               <ul className="space-y-3.5">
                 {data.highlights.map((h) => (
                   <li key={h} className="flex items-start gap-3" data-testid="landing-highlight">

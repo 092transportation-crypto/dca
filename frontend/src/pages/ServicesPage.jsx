@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { setPageSeo } from '@/lib/seo';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -6,11 +7,11 @@ import { Plane, Briefcase, PartyPopper, Calendar, CheckCircle } from 'lucide-rea
 
 const ServicesPage = () => {
   useEffect(() => {
-    document.title = "Limo Services | Airport Transportation, Corporate Car Service & Wedding Limo in DC, MD, VA | DCA Limo";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute('content', 'DCA Limo offers premium airport transportation to DCA, BWI & Dulles, corporate car service, wedding limos, and prom transportation in Washington DC, Maryland & Virginia. Book 24/7!');
-    }
+    setPageSeo({
+      title: "Limo & Black Car Chauffeur Services Washington DC | DCA",
+      description: 'DCA Limos offers airport limo, black car service, chauffeur service, corporate & wedding transportation in Washington DC, Maryland & Virginia. Book 24/7!',
+      path: "/services",
+    });
   }, []);
 
   const services = [
@@ -18,7 +19,7 @@ const ServicesPage = () => {
       title: 'Airport Transportation Service',
       icon: <Plane className="h-10 w-10 sm:h-12 sm:w-12" />,
       image: 'https://images.unsplash.com/photo-1772410466566-3b652ecbf07c?crop=entropy&cs=srgb&fm=jpg&w=1200&q=85',
-      description: 'Premier DCA, BWI & Dulles airport transfer service with real-time flight tracking, meet-and-greet, and luggage assistance. Your stress-free journey starts here.',
+      description: 'Premier DCA, BWI & Dulles Airport Transportation Service with real-time flight tracking, meet-and-greet, and luggage assistance — the airport limo service Washington DC travelers rely on for a stress-free journey.',
       features: [
         'Real-time flight tracking for precise pickups',
         'Complimentary meet-and-greet service',
@@ -38,7 +39,7 @@ const ServicesPage = () => {
         'Flexible billing and invoicing options',
         'Multi-stop itinerary coordination',
         'Wi-Fi equipped executive vehicles',
-        'Professional business attire chauffeurs',
+        'Professional business-attire Chauffeur Service',
         'Absolute confidentiality and discretion',
       ],
     },
@@ -88,7 +89,7 @@ const ServicesPage = () => {
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-white px-4">Premium Limo &amp; Car Services in Washington DC, Maryland &amp; Virginia</h1>
           <p className="text-base sm:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed px-4">
-            From airport transportation to corporate travel and wedding limousines, we provide comprehensive, reliable, and luxurious transportation services throughout the DMV area.
+            From airport transportation to corporate travel and wedding limousines, we provide reliable, luxurious, and Comprehensive Transportation Solutions throughout the DMV area.
           </p>
         </div>
       </section>
@@ -222,6 +223,26 @@ const ServicesPage = () => {
               </a>
             </Button>
           </div>
+        </div>
+      </section>
+
+      {/* SEO: service overview */}
+      <section className="py-12 sm:py-16 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-gray-900">Luxury Car Service in Washington DC, Maryland &amp; Virginia</h2>
+          <p className="text-base text-gray-700 leading-relaxed mb-4">
+            DCA Limos is a full-service limousine service offering premium limo services for every occasion. Our chauffeur
+            service in Washington DC covers executive meetings, embassy events, and nights out — with hourly chauffeur
+            service available when your schedule keeps moving. Travelers who prefer a black car service in Washington DC
+            choose us for discreet, professional rides in unmarked luxury sedans, while our DC luxury car service and
+            private car service options cover everything from Georgetown car service dinners to Capitol Hill car service
+            for government and media professionals.
+          </p>
+          <p className="text-base text-gray-700 leading-relaxed">
+            From airport transportation in Washington DC to weddings and corporate roadshows, every trip is one flat,
+            all-inclusive rate with a licensed, insured chauffeur. If you&apos;re searching for dependable car service in
+            Washington DC, book online in minutes or call us 24/7 — luxury car service without the guesswork.
+          </p>
         </div>
       </section>
     </div>

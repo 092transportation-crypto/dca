@@ -10,11 +10,11 @@ import { Toaster } from '@/components/ui/sonner';
 
 const ContactPage = () => {
   useEffect(() => {
-    document.title = "Contact DCA Limo | 24/7 Airport Transportation & Car Service | Call (877) 609-1919 | Washington DC, MD, VA";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute('content', 'Contact DCA Limo for 24/7 airport transportation and luxury car service. Call (877) 609-1919 or email info@dcalimos.com. Serving Washington DC, Maryland & Virginia.');
-    }
+    setPageSeo({
+      title: "Contact DCA Limo | 24/7 Airport Transportation & Car Service | Call (877) 609-1919 | Washington DC, MD, VA",
+      description: 'Contact DCA Limo for 24/7 airport transportation and luxury car service. Call (877) 609-1919 or email info@dcalimos.com. Serving Washington DC, Maryland & Virginia.',
+      path: "/contact",
+    });
   }, []);
 
   const [formData, setFormData] = useState({

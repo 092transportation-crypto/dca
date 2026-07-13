@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { setPageSeo } from '@/lib/seo';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Calendar, Clock, User, ArrowRight } from 'lucide-react';
@@ -6,11 +7,11 @@ import { BLOG_POSTS } from '@/data/blogPosts';
 
 const BlogPage = () => {
   useEffect(() => {
-    document.title = "Blog | Airport Transportation Tips, Limo Service Guides & DC Travel Advice | DCA Limo";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute('content', 'Read expert tips on airport transportation, corporate travel guides, wedding limo planning, and DC area travel advice from DCA Limo\'s transportation specialists.');
-    }
+    setPageSeo({
+      title: "Blog | Airport Transportation Tips, Limo Service Guides & DC Travel Advice | DCA Limo",
+      description: "Read expert tips on airport transportation, corporate travel guides, wedding limo planning, and DC area travel advice from DCA Limo's transportation specialists.",
+      path: "/blog",
+    });
   }, []);
 
   const blogPosts = [

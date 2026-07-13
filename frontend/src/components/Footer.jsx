@@ -31,7 +31,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-3 mb-4 sm:mb-5" data-testid="footer-logo-block">
-              <div className="relative shrink-0">
+              <Link to="/" aria-label="DCA Limos home" className="relative block shrink-0">
                 <span className="absolute inset-0 rounded-full bg-amber-500/30 blur-xl" aria-hidden="true"></span>
                 <span className="absolute inset-0 rounded-full ring-2 ring-amber-400/70" aria-hidden="true"></span>
                 <img 
@@ -39,7 +39,7 @@ const Footer = () => {
                   alt="DCA Limos — Premium Airport & Chauffeur Service" 
                   className="relative h-24 sm:h-28 w-24 sm:w-28 object-cover rounded-full bg-white shadow-[0_0_24px_rgba(245,158,11,0.6)]"
                 />
-              </div>
+              </Link>
               <div className="border-l-2 border-amber-500/50 pl-3" data-testid="footer-slogan">
                 <p className="text-amber-400 font-bold text-xs uppercase tracking-[0.18em] leading-tight">Luxury Airport</p>
                 <p className="text-amber-400 font-bold text-xs uppercase tracking-[0.18em] leading-tight">&amp; Chauffeur Service</p>

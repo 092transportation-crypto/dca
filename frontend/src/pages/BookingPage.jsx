@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { setPageSeo } from '@/lib/seo';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -35,11 +36,11 @@ const BookingPage = () => {
   const [submitted, setSubmitted] = useState(false);
 
   useEffect(() => {
-    document.title = "Book DCA Airport Car Service | Instant Quote";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute('content', 'Book DCA airport car service in minutes — instant flat-rate quote, no surge, 24/7 chauffeurs across DC, MD & VA. Reserve online or call (877) 609-1919.');
-    }
+    setPageSeo({
+      title: "Book DCA Airport Car Service | Instant Quote",
+      description: 'Book DCA airport car service in minutes — instant flat-rate quote, no surge, 24/7 chauffeurs across DC, MD & VA. Reserve online or call (877) 609-1919.',
+      path: "/booking",
+    });
   }, []);
 
   const handleChange = (e) => {

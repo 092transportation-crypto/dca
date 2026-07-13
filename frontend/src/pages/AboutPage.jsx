@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { setPageSeo } from '@/lib/seo';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -6,11 +7,11 @@ import { Shield, Award, Clock, Users, Heart, CheckCircle, Target } from 'lucide-
 
 const AboutPage = () => {
   useEffect(() => {
-    document.title = "About DCA Limos | Licensed Maryland Car Service";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute('content', 'Meet DCA Limos — a licensed & insured Maryland carrier providing professional DMV transportation with pro chauffeurs, 24/7. Book online or call (877) 609-1919.');
-    }
+    setPageSeo({
+      title: "About DCA Limos | Licensed Maryland Car Service",
+      description: 'Meet DCA Limos — a licensed & insured Maryland carrier providing professional DMV transportation with pro chauffeurs, 24/7. Book online or call (877) 609-1919.',
+      path: "/about",
+    });
   }, []);
 
   const values = [

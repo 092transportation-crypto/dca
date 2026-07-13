@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { setPageSeo } from '@/lib/seo';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -30,12 +31,11 @@ const HOME_FAQS = [
 
 const HomePage = () => {
   useEffect(() => {
-    document.title = "DCA Limo Service | Flat Rate Car Service Reagan National";
-    // Update meta description
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute('content', 'Flat-rate DCA airport car service — no surge, flight tracking, pro chauffeurs 24/7 across DC, MD & VA. See rates from $55 and book online in minutes.');
-    }
+    setPageSeo({
+      title: "DCA Limos | Premium Luxury Airport & Chauffeur Services",
+      description: 'DCA Limos: 24/7 luxury airport transportation, corporate car service & limo rentals in Washington DC, Maryland & Virginia. Mercedes fleet, best rates. Book now!',
+      path: "/",
+    });
     // FAQPage structured data
     const schema = {
       '@context': 'https://schema.org',
@@ -331,7 +331,7 @@ const HomePage = () => {
             <span className="text-amber-600 font-semibold text-xs sm:text-sm uppercase tracking-wider mb-2 sm:mb-3 block">Service Coverage</span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-gray-900 px-4">Areas We Serve</h2>
             <p className="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
-              DCA Limo proudly provides 24/7 premium transportation throughout the Washington DC metropolitan area and Anne Arundel County, Maryland.
+              DCA Limo Service proudly provides 24/7 premium transportation throughout the Washington DC metropolitan area and Anne Arundel County, Maryland.
             </p>
           </div>
 

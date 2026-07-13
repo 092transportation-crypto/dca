@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { setPageSeo } from '@/lib/seo';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -6,11 +7,11 @@ import { CheckCircle, Shield, Award, Star, Users, Briefcase } from 'lucide-react
 
 const FleetPage = () => {
   useEffect(() => {
-    document.title = "Luxury Fleet | Mercedes, BMW & Cadillac | DCA Limos";
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc) {
-      metaDesc.setAttribute('content', 'See the DCA Limos fleet — Mercedes, BMW 7 Series, Escalade & Sprinter vans, all chauffeur-driven. Pick your vehicle and book online in minutes.');
-    }
+    setPageSeo({
+      title: "Luxury Fleet | Mercedes, BMW & Cadillac | DCA Limos",
+      description: 'See the DCA Limos fleet — Mercedes, BMW 7 Series, Escalade & Sprinter vans, all chauffeur-driven. Pick your vehicle and book online in minutes.',
+      path: "/fleet",
+    });
   }, []);
 
   // Same categories, vehicles, and order as bwichauffeur.com.
