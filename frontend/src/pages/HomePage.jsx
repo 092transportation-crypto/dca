@@ -9,7 +9,7 @@ import { ROUTE_PAGES } from '@/data/routePages';
 const HOME_FAQS = [
   {
     q: 'How much does a car service from DCA cost?',
-    a: 'Flat rates start at $55 to Arlington, $65 to downtown DC, $95 to Bethesda, $145 to Annapolis, and $165 to Baltimore — tolls, fuel, and chauffeur included. The price is locked when you book, with no surge.',
+    a: 'Every trip is a flat, all-inclusive rate based on your route and vehicle — tolls, fuel, and chauffeur included, with no surge and no meter. Request a free quote online or call (877) 609-1919 and we’ll confirm your exact price in writing before you book.',
   },
   {
     q: 'Where does my chauffeur meet me at Reagan National?',
@@ -54,13 +54,6 @@ const HomePage = () => {
     return () => document.getElementById('home-faq-schema')?.remove();
   }, []);
 
-  const pricingRows = [
-    { to: 'Washington, DC', price: 65, time: '10–20 min', link: '/dca-to-washington-dc' },
-    { to: 'Arlington, VA', price: 55, time: '10–15 min', link: '/dca-to-arlington' },
-    { to: 'Bethesda, MD', price: 95, time: '25–40 min', link: '/dca-to-bethesda' },
-    { to: 'Annapolis, MD', price: 145, time: '45–60 min', link: '/dca-to-annapolis' },
-    { to: 'Baltimore, MD', price: 165, time: '50–70 min', link: '/dca-to-baltimore' },
-  ];
   const services = [
     {
       title: 'Airport Transportation',
@@ -164,51 +157,34 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Flat-Rate Pricing Table */}
-      <section className="py-12 sm:py-20 bg-white" data-testid="pricing-table-section">
+      {/* Get Your Free Quote CTA */}
+      <section className="py-12 sm:py-20 bg-white" data-testid="free-quote-cta-section">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-8 sm:mb-12">
-            <span className="text-amber-600 font-semibold text-xs sm:text-sm uppercase tracking-wider mb-2 sm:mb-3 block">Transparent Pricing</span>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-gray-900 px-4">Flat Rates from Reagan National</h2>
-            <p className="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto px-4">
-              The price you see is the price you pay — tolls, fuel, and chauffeur included. No surge, no meter.
+          <div className="max-w-3xl mx-auto text-center">
+            <span className="text-amber-600 font-semibold text-xs sm:text-sm uppercase tracking-wider mb-2 sm:mb-3 block">Flat-Rate Pricing</span>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-gray-900 px-4">Get Your Free Quote</h2>
+            <p className="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto px-4 mb-8">
+              Every trip is a flat, all-inclusive rate tailored to your route and vehicle — tolls, fuel,
+              and chauffeur included. No surge, no meter, no hidden fees. Call now or request your quote
+              online and we&apos;ll confirm your exact price in writing within 15 minutes.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
+              <Button asChild className="bg-amber-500 hover:bg-amber-400 text-black font-bold px-8 py-6 text-base" data-testid="quote-cta-call">
+                <a href="tel:+18776091919" className="inline-flex items-center gap-2">
+                  <Phone className="h-5 w-5" /> Call (877) 609-1919
+                </a>
+              </Button>
+              <Button asChild variant="outline" className="border-2 border-gray-900 text-gray-900 hover:bg-gray-900 hover:text-white font-bold px-8 py-6 text-base" data-testid="quote-cta-form">
+                <Link to="/booking" className="inline-flex items-center gap-2">
+                  Request a Quote Online <ArrowRight className="h-5 w-5" />
+                </Link>
+              </Button>
+            </div>
+            <p className="text-sm text-gray-500 mt-6">
+              Sedans, SUVs and Sprinter vans available —{' '}
+              <Link to="/fleet" className="text-amber-600 hover:underline font-semibold">see the fleet</Link>.
             </p>
           </div>
-          <div className="max-w-3xl mx-auto overflow-x-auto">
-            <table className="w-full border-collapse bg-white rounded-xl overflow-hidden shadow-xl">
-              <thead>
-                <tr className="bg-gray-900 text-white">
-                  <th className="text-left px-4 sm:px-6 py-4 text-sm sm:text-base font-bold uppercase tracking-wider">Route</th>
-                  <th className="text-left px-4 sm:px-6 py-4 text-sm sm:text-base font-bold uppercase tracking-wider">Drive Time</th>
-                  <th className="text-left px-4 sm:px-6 py-4 text-sm sm:text-base font-bold uppercase tracking-wider">Starting Rate</th>
-                  <th className="px-4 sm:px-6 py-4"></th>
-                </tr>
-              </thead>
-              <tbody>
-                {pricingRows.map((row, i) => (
-                  <tr key={row.link} className={i % 2 ? 'bg-gray-50' : 'bg-white'} data-testid={`pricing-row-${i}`}>
-                    <td className="px-4 sm:px-6 py-4 font-semibold text-gray-900">
-                      <Link to={row.link} className="hover:text-amber-600 transition-colors">
-                        DCA → {row.to}
-                      </Link>
-                    </td>
-                    <td className="px-4 sm:px-6 py-4 text-gray-600">{row.time}</td>
-                    <td className="px-4 sm:px-6 py-4 text-amber-600 font-bold text-lg">${row.price}</td>
-                    <td className="px-4 sm:px-6 py-4 text-right">
-                      <Button asChild size="sm" className="bg-amber-500 hover:bg-amber-600 text-black font-bold">
-                        <Link to="/booking">Book</Link>
-                      </Button>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <p className="text-center text-sm text-gray-500 mt-4">
-            Sedan rates shown. SUVs and Sprinter vans available —{' '}
-            <Link to="/fleet" className="text-amber-600 hover:underline font-semibold">see the fleet</Link> or{' '}
-            <Link to="/booking" className="text-amber-600 hover:underline font-semibold">get an instant quote</Link>.
-          </p>
         </div>
       </section>
 

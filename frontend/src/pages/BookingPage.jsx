@@ -22,7 +22,9 @@ const initialForm = {
   full_name: '',
   email: '',
   phone: '',
+  preferred_contact: 'Phone',
   service_type: '',
+  passengers: '',
   pickup_date: '',
   pickup_time: '',
   pickup_location: '',
@@ -183,6 +185,36 @@ const BookingPage = () => {
                         </select>
                       </div>
                       <div>
+                        <label htmlFor="preferred_contact" className="block text-sm font-semibold text-gray-700 mb-1.5">Preferred Contact</label>
+                        <select
+                          id="preferred_contact"
+                          name="preferred_contact"
+                          value={form.preferred_contact}
+                          onChange={handleChange}
+                          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none bg-white transition"
+                          data-testid="quote-input-preferred-contact"
+                        >
+                          <option value="Phone">Phone</option>
+                          <option value="Email">Email</option>
+                          <option value="Text">Text</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label htmlFor="passengers" className="block text-sm font-semibold text-gray-700 mb-1.5">Passengers</label>
+                        <input
+                          id="passengers"
+                          name="passengers"
+                          type="number"
+                          min="1"
+                          max="14"
+                          value={form.passengers}
+                          onChange={handleChange}
+                          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition"
+                          placeholder="e.g. 3"
+                          data-testid="quote-input-passengers"
+                        />
+                      </div>
+                      <div>
                         <label htmlFor="pickup_date" className="block text-sm font-semibold text-gray-700 mb-1.5">Pickup Date</label>
                         <input
                           id="pickup_date"
@@ -233,7 +265,7 @@ const BookingPage = () => {
                         />
                       </div>
                       <div className="sm:col-span-2">
-                        <label htmlFor="additional_details" className="block text-sm font-semibold text-gray-700 mb-1.5">Additional Details</label>
+                        <label htmlFor="additional_details" className="block text-sm font-semibold text-gray-700 mb-1.5">Notes</label>
                         <textarea
                           id="additional_details"
                           name="additional_details"
@@ -241,7 +273,7 @@ const BookingPage = () => {
                           value={form.additional_details}
                           onChange={handleChange}
                           className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none resize-none transition"
-                          placeholder="Number of passengers, flight number, special requests, return trip, etc."
+                          placeholder="Flight number, luggage count, child seats, return trip, special requests, etc."
                           data-testid="quote-input-details"
                         />
                       </div>
