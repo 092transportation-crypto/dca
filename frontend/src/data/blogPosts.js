@@ -706,6 +706,209 @@ export const BLOG_POSTS = [
       },
     ],
   },
+  {
+    slug: 'best-car-service-reagan-national-airport',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-tysons'],
+    title: 'How to Choose the Best Car Service at Reagan National Airport: A 2026 Checklist',
+    metaTitle: 'Best Car Service at Reagan National (DCA) Airport',
+    metaDesc:
+      'What separates the best car service at Reagan National Airport from the rest? A 7-point checklist: flight tracking, flat rates, real chauffeurs & more.',
+    excerpt:
+      'Dozens of companies claim to be the best car service at Reagan National. Here is the 7-point checklist that actually separates professionals from pretenders — before you hand one your 6 a.m. flight.',
+    image: IMG_AIRPORT,
+    author: 'Sarah Williams',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'July 18, 2026',
+    readTime: '8 min read',
+    category: 'Airport Transportation',
+    content: `
+      <p class="lead">Search "best car service Reagan National Airport" and you will find dozens of companies making identical promises. Most travelers pick one, cross their fingers, and find out at 5 a.m. whether they chose well. There is a better way: judge every company against the seven criteria below before you book. They take five minutes to check and they separate genuine operations from a guy with a sedan and a website.</p>
+
+      <h2>1. Do they track your flight — automatically?</h2>
+      <p>This is the single most important question for airport work. At Reagan National, arrivals shift constantly: ground stops ripple down from New York, summer storms stack the approach over the Potomac, and early landings are as common as late ones. The best operators pull your flight status automatically and adjust the pickup without you lifting a finger. If a company asks you to "text us when you land," that is not a car service — that is a friend with a car, at professional prices.</p>
+
+      <h2>2. Is the rate genuinely flat?</h2>
+      <p>A real flat rate includes tolls, fuel, airport fees, and the chauffeur, and it does not move — not for rush hour, not for rain, not for a cherry-blossom weekend. Ask directly: "Is there any scenario where I pay more than the quote?" The best answer is a flat no with complimentary wait time spelled out. Compare that with surge pricing, where the same ride can triple exactly when you need it most — we broke down that math in our <a href="/blog/dca-airport-car-service-vs-uber-2026">car service vs. Uber comparison</a>.</p>
+
+      <h2>3. Where exactly will they meet you?</h2>
+      <p>DCA's pickup logistics matter more than at most airports because the terminals are compact and the curbside is tightly policed. A professional service offers true meet-and-greet: a chauffeur inside at baggage claim with a name sign, who takes your bags and walks you to a staged vehicle. If the answer is "we'll circle and call you," you will be standing on the curb with your phone out like everyone else — read our <a href="/blog/dca-airport-meet-and-greet-service">meet-and-greet guide</a> for what good looks like.</p>
+
+      <h2>4. Who is actually driving?</h2>
+      <p>The best car services employ or contract professional chauffeurs — background-checked, uniformed, trained on DCA's roadways and the region's traffic patterns. Ask how long their average chauffeur has driven the DC area. Ask whether the same person who confirms your booking dispatches your car. Companies proud of their people answer instantly; companies renting gig drivers change the subject.</p>
+
+      <h2>5. What is the fleet, really?</h2>
+      <p>Look for late-model, executive-class vehicles — Mercedes sedans, full-size SUVs, Sprinter vans for groups — maintained in-house and photographed honestly. A "luxury fleet" that turns out to be a single aging Town Car is the oldest trick in this industry. If your trip is a client pickup or a <a href="/blog/corporate-car-service-reagan-national">corporate run</a>, the vehicle is part of the impression you are paying for.</p>
+
+      <h2>6. Are they built for your whole trip, not just the airport hop?</h2>
+      <p>The best operators cover the full map at flat rates — not just downtown. From Reagan National that means <a href="/dca-to-washington-dc">Washington, DC</a> in minutes, <a href="/dca-to-tysons">Tysons</a> and the tech corridor, <a href="/dca-to-baltimore">Baltimore</a>, <a href="/dca-to-annapolis">Annapolis</a>, and long-haul runs to <a href="/dca-to-richmond-va">Richmond</a> or <a href="/dca-to-philadelphia">Philadelphia</a> when a connection collapses. One account, one standard, every distance.</p>
+
+      <h2>7. Can you reach a human at 4:45 a.m.?</h2>
+      <p>Airport travel happens at brutal hours, and things occasionally go sideways at exactly those hours. Call the company's line before you book — at night, if you want the honest test. A real operation answers 24/7 with a dispatcher who can see your reservation. A voicemail box is a preview of your worst morning.</p>
+
+      <h2>The bottom line</h2>
+      <p>The best car service at Reagan National is not the one with the flashiest website — it is the one that passes all seven checks without hedging. DCA Limos is built to pass them: automatic flight tracking on every booking, true flat rates with tolls and wait time included, baggage-claim meet-and-greet, professional chauffeurs, a late-model Mercedes fleet, flat-rate coverage across the region, and a phone that a human answers around the clock. Put us to the test: <a href="/booking">get a free quote</a> or call (877) 609-1919 — yes, even at 4:45 a.m.</p>
+    `,
+    faqs: [
+      {
+        q: 'What makes a car service at Reagan National "the best"?',
+        a: 'Seven things: automatic flight tracking, genuinely flat all-inclusive rates, baggage-claim meet-and-greet, professional background-checked chauffeurs, a late-model executive fleet, flat-rate coverage of the whole region, and 24/7 live phone support. Any company missing one of these will eventually miss a pickup.',
+      },
+      {
+        q: 'How much does a good car service from DCA cost?',
+        a: 'Flat rates from DCA Limos start at $55–$65 to Arlington, Alexandria, and downtown DC, with the whole region priced flat — tolls, fuel, chauffeur, and wait time included. Call (877) 609-1919 for an exact quote for your route.',
+      },
+      {
+        q: 'Is a car service better than a taxi or rideshare at DCA?',
+        a: 'For time-critical trips, yes. A pre-booked chauffeur is committed to you, tracks your flight, and meets you at baggage claim at a locked price. Taxis and rideshares are fine for casual hops but expose you to lines, surge pricing, and cancellations at the worst moments.',
+      },
+      {
+        q: 'How far in advance should I book a DCA car service?',
+        a: 'A day ahead is ideal; even a few hours is usually fine outside peak periods. For early-morning departures, holiday weeks, and major DC events, book as soon as you have flights — those windows fill first.',
+      },
+      {
+        q: 'Does DCA Limos really answer the phone overnight?',
+        a: 'Yes — (877) 609-1919 is staffed 24/7 by dispatchers who can see and modify your reservation. Red-eye arrivals and 4 a.m. departures are a normal part of the schedule, not an exception.',
+      },
+    ],
+  },
+  {
+    slug: 'dca-airport-early-morning-pickup-tips',
+    relatedRoutes: ['dca-to-arlington', 'dca-to-bethesda', 'dca-to-fairfax'],
+    title: 'Early Morning Pickups at DCA: 9 Tips for Making a 6 a.m. Flight Without Stress',
+    metaTitle: 'DCA Early Morning Pickup: 9 Tips | DCA Limos',
+    metaDesc:
+      'Making a 6 a.m. flight out of DCA? Nine field-tested tips on pickup timing, security lines, rideshare risk, and why the first flights of the day are worth it.',
+    excerpt:
+      'The first bank of flights out of Reagan National rewards early risers with on-time departures — if the ground game works. Nine field-tested tips for the 4 a.m. pickup that actually shows up.',
+    image: IMG_EXEC,
+    author: 'David Thompson',
+    authorBio: 'Former airline operations manager turned travel writer, specializing in the unglamorous logistics that make trips work.',
+    date: 'July 22, 2026',
+    readTime: '8 min read',
+    category: 'Travel Tips',
+    content: `
+      <p class="lead">The 6 a.m. bank out of Reagan National is the best-kept secret in DC travel: the aircraft slept at the gate, the crew is legal and fresh, weather has not built yet, and delays are statistically at their daily minimum. There is exactly one hard part — getting to the airport at 4:45 in the morning. These nine tips come from years of doing it, on both sides of the pickup.</p>
+
+      <h2>1. Book the ride the night before — never the morning of</h2>
+      <p>Pre-dawn is when on-demand transportation is weakest. Driver supply is thin, cancellation rates spike, and a canceled 4:30 a.m. request has no recovery path — the next driver is 25 minutes away and your buffer is gone. Whatever you ride, lock it in the night before with a confirmed pickup time. This is the whole reason pre-booked car services exist; our <a href="/blog/dca-airport-car-service-vs-uber-2026">Uber comparison</a> walks through the 5 a.m. failure math in detail.</p>
+
+      <h2>2. Work backwards from boarding, not departure</h2>
+      <p>A 6:00 departure boards at roughly 5:25. From the curb, budget 10 minutes to reach security, your realistic screening time, and a margin for the walk. For most travelers that means curbside by 4:50–5:05. From Arlington or Alexandria that is a 15-minute ride; from <a href="/dca-to-bethesda">Bethesda</a> or <a href="/dca-to-fairfax">Fairfax</a>, plan 30–40 even at that hour.</p>
+
+      <h2>3. Know when DCA security actually opens</h2>
+      <p>Checkpoint lanes open in stages beginning around 4:00 a.m., and the first wave of a morning bank can stack up before all lanes are running. Arriving at 4:40 for a 6:00 flight is comfortable; arriving at 5:20 is gambling. TSA PreCheck shines at this hour — its lanes open with the checkpoint and move fastest during the early crush.</p>
+
+      <h2>4. Check in and pack the night before, obviously — but really do it</h2>
+      <p>Boarding pass on your phone, bag zipped by the door, outfit laid out. The early pickup that goes wrong is almost never the car's fault — it is ten lost minutes hunting for chargers at 4:30. Set two alarms, put one across the room, and treat the pickup time as a departure time, not a suggestion.</p>
+
+      <h2>5. Confirm the pickup details before you sleep</h2>
+      <p>Good car services confirm the night before with the chauffeur's name, vehicle, and your locked pickup time. Read that message. Confirm the address is right — especially in apartment complexes and hotels with multiple entrances. Thirty seconds of attention at 10 p.m. buys total calm at 4:45 a.m.</p>
+
+      <h2>6. Let the professionals set the buffer</h2>
+      <p>When you book with DCA Limos, we compute the pickup time from your flight, your address, and that morning's actual conditions — not a generic rule of thumb. Pre-dawn roads are empty, but bridge closures and overnight construction on the GW Parkway are real; our dispatchers plan around the overnight closure list, which apps discover only when you are sitting in it.</p>
+
+      <h2>7. Sleep over the night before a brutal departure — sometimes</h2>
+      <p>If you live 50-plus miles out and drew a 6 a.m. international connection, compare a 3:15 a.m. pickup against an airport-adjacent hotel plus a 10-minute transfer. For families especially, the hotel night frequently wins. For everything inside the Beltway, a professional pickup at home beats the hassle every time.</p>
+
+      <h2>8. Groups: one Sprinter beats four alarm clocks</h2>
+      <p>For team travel and family trips, a single <a href="/fleet">Sprinter or SUV</a> picking everyone up in sequence is dramatically more reliable than four separate pre-dawn rides — one vehicle to confirm, one timeline, nobody left refreshing an app in the dark.</p>
+
+      <h2>9. Treat the return leg with the same respect</h2>
+      <p>Red-eyes and first-bank departures often mean late-night or dawn returns later in the week. Book the round trip at once: same flat rate, flight tracking on the inbound, and a chauffeur already assigned when you land groggy. One call to (877) 609-1919 sets up both legs.</p>
+
+      <h2>The takeaway</h2>
+      <p>Early flights out of Reagan National are the most reliable of the day — the risk is entirely on the ground, and it is entirely removable. Pre-book with a professional, let the dispatcher set an honest buffer, be ready when the car arrives, and the 6 a.m. departure becomes the calmest trip you take. <a href="/booking">Book your early pickup online</a> or call (877) 609-1919 — we are awake anyway.</p>
+    `,
+    faqs: [
+      {
+        q: 'What time should I be picked up for a 6 a.m. flight at DCA?',
+        a: 'For most close-in addresses, a 4:45–5:00 a.m. pickup puts you curbside by 5:05 with comfortable margin. From Bethesda, Fairfax, or farther, plan 30–40 minutes of drive time. We compute the exact time from your address and confirm it the night before.',
+      },
+      {
+        q: 'What time does security open at Reagan National?',
+        a: 'Checkpoint lanes begin opening around 4:00 a.m. and staff up in stages. The early bank can queue before all lanes run, so arriving 70–80 minutes before a first-wave departure is the comfortable play, especially without PreCheck.',
+      },
+      {
+        q: 'Is Uber reliable for 4:30 a.m. airport pickups?',
+        a: 'It is the weakest hour for on-demand rides: thin driver supply, elevated cancellations, and surge pricing — with no recovery path if a driver cancels. A pre-booked chauffeur with a confirmed time removes that risk entirely.',
+      },
+      {
+        q: 'Do you charge extra for early-morning or overnight pickups?',
+        a: 'No. DCA Limos flat rates are identical at 4:30 a.m. and 4:30 p.m. — tolls, fuel, chauffeur, and wait time included. Call (877) 609-1919 for your exact rate.',
+      },
+      {
+        q: 'Why are the first flights of the day more reliable?',
+        a: 'The aircraft typically overnighted at the gate, crews start fresh within duty limits, and weather and air-traffic backlogs have not built yet. Delay statistics are at their daily minimum on the first bank — if you make the flight, it almost always leaves on time.',
+      },
+    ],
+  },
+  {
+    slug: 'corporate-car-service-reagan-national',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-tysons', 'dca-to-arlington'],
+    title: 'Corporate Car Service at Reagan National: The Executive Assistant’s Playbook',
+    metaTitle: 'Corporate Car Service at Reagan National | DCA',
+    metaDesc:
+      'The EA’s playbook for corporate car service at Reagan National: account setup, VIP pickups, multi-stop days, and billing that makes travel invisible.',
+    excerpt:
+      'Booking executive travel through Reagan National? This playbook covers what actually matters: account setup, the VIP arrival sequence, multi-stop days, and billing that survives an audit.',
+    image: IMG_EXEC,
+    author: 'Michael Chen',
+    authorBio: 'Transportation industry analyst and frequent DC-area business traveler with 15+ years in executive travel logistics.',
+    date: 'July 27, 2026',
+    readTime: '9 min read',
+    category: 'Corporate Travel',
+    content: `
+      <p class="lead">If you book travel for executives, Reagan National is your most frequent variable: it is the airport closest to the District, the one the C-suite prefers, and the one where a botched pickup is most visible. This playbook covers how experienced executive assistants and travel managers run corporate ground transportation through DCA — the account structure, the arrival sequence, and the failure points to design out.</p>
+
+      <h2>Start with an account, not a booking</h2>
+      <p>The single biggest upgrade is moving from one-off reservations to a corporate account. An account gets you stored traveler profiles (seat preferences, mobile numbers, home and office addresses), a dispatcher who recognizes your company, negotiated flat rates, priority vehicle assignment during crunch periods, and consolidated monthly invoicing instead of a shoebox of receipts. Setup takes one phone call to (877) 609-1919 — have your billing contact and your three most common routes ready.</p>
+
+      <h2>The VIP arrival sequence, done right</h2>
+      <p>Here is what should happen when your principal lands at DCA: the chauffeur has been tracking the tail number since wheels-up, adjusts for the early arrival, and is standing at baggage claim with a discreet name sign twenty minutes before the belt starts. Bags are handled, the vehicle is staged, and the executive is moving toward the meeting within minutes of the jet bridge — no curb, no phone calls, no visible logistics. That sequence is the product you are buying; our <a href="/blog/dca-airport-meet-and-greet-service">meet-and-greet guide</a> details how it works terminal by terminal.</p>
+
+      <h2>Design the day, not the ride</h2>
+      <p>DC business days are multi-stop by nature: land at DCA, board meeting on <a href="/dca-to-washington-dc">K Street</a>, investor lunch in <a href="/dca-to-tysons">Tysons</a>, dinner in Georgetown, red-eye out. Booking each hop separately multiplies failure points. Book it as hourly service instead: one chauffeur and one vehicle stay with the executive all day, the schedule flexes when the 2 p.m. runs long, and the car becomes a mobile office between stops. For three or more stops, hourly usually costs less than the sum of the transfers.</p>
+
+      <h2>Build the failure points out of the itinerary</h2>
+      <ul>
+        <li><strong>The 7 a.m. departure:</strong> never leave it to on-demand apps — pre-book with a confirmed time and a night-before confirmation. Our <a href="/blog/dca-airport-early-morning-pickup-tips">early-morning guide</a> covers the timing math.</li>
+        <li><strong>The delayed inbound:</strong> flight tracking plus complimentary wait time means a two-hour delay costs your executive nothing and costs you zero rebooking calls.</li>
+        <li><strong>The schedule change:</strong> a live dispatcher who can re-sequence a day in one call is worth more than any app. Test this before you commit a roadshow to a vendor.</li>
+        <li><strong>The visible mistake:</strong> wrong entrance, worn vehicle, chatty driver. Professional chauffeurs are briefed on discretion and exact motor-lobby entrances for every major DC hotel and office tower.</li>
+      </ul>
+
+      <h2>Billing that survives finance</h2>
+      <p>Corporate ground transportation lives or dies in the back office. Insist on itemized trip records — date, route, traveler, cost center — delivered as consolidated monthly invoices that map to your expense system. Government and contractor work adds documentation requirements; a service that already handles federal travel will produce compliant records without being asked twice.</p>
+
+      <h2>Roadshows, boards, and recruiting days</h2>
+      <p>The same structure scales to the big set pieces: investor roadshows with minute-level schedules, board meetings where six directors land within an hour of each other, and recruiting days where the candidate’s first impression of your company is the car you sent. Sprinters handle site visits; sedan fleets handle simultaneous arrivals; one coordinator on our side owns the whole grid so your inbox does not.</p>
+
+      <h2>The bottom line</h2>
+      <p>Great corporate ground transportation is invisible: the executive never thinks about it, finance never queries it, and you never fight fires at 6 a.m. That is an operations discipline, not luck — accounts, flight tracking, hourly structures, live dispatch, and clean billing. DCA Limos runs that discipline for companies across the region from our home airport. Set up a corporate account at <a href="/booking">dcalimos.com/booking</a> or call (877) 609-1919 and put your next roadshow on rails.</p>
+    `,
+    faqs: [
+      {
+        q: 'What does a corporate account at DCA Limos include?',
+        a: 'Stored traveler profiles, negotiated flat rates, priority vehicle assignment, a dispatcher who knows your company, and consolidated monthly invoicing with itemized trip records that map to cost centers. Setup is one call to (877) 609-1919.',
+      },
+      {
+        q: 'How do VIP pickups at Reagan National work?',
+        a: 'Your chauffeur tracks the flight, waits at baggage claim with a discreet name sign, handles luggage, and escorts the traveler to a staged executive vehicle. Wait time for delayed flights is complimentary, and the sequence is identical at 6 a.m. and midnight.',
+      },
+      {
+        q: 'Is hourly service better than separate transfers for an executive day?',
+        a: 'For three or more stops, almost always. One chauffeur stays with the executive all day, the schedule flexes in real time, the vehicle works as a mobile office between meetings, and the total is usually below the cost of separate point-to-point trips.',
+      },
+      {
+        q: 'Can you handle a board meeting with many simultaneous arrivals?',
+        a: 'Yes — multi-vehicle coordination is routine. We stage sedans against each inbound flight, one coordinator owns the arrival grid, and directors are moved to the meeting as they land, with live status available to your team.',
+      },
+      {
+        q: 'Do you support government and contractor billing requirements?',
+        a: 'Yes. We regularly serve federal, contractor, and government-adjacent travel with background-checked chauffeurs and itemized documentation that supports audit and compliance requirements.',
+      },
+    ],
+  },
 ];
 
 export function findBlogPost(slug) {

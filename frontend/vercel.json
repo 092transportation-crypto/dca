@@ -1,5 +1,11 @@
 {
   "redirects": [
-    { "source": "/dca-to-bwi-airport", "destination": "/dca-to-bwi", "permanent": true }
+    { "source": "/dca-to-bwi-airport", "destination": "/dca-to-bwi", "permanent": true },
+    { "source": "/dca-to-tysons-corner", "destination": "/dca-to-tysons", "permanent": true },
+    { "source": "/dca-to-mclean-va", "destination": "/dca-to-mclean", "permanent": true },
+    { "source": "/dca-to-reston-va", "destination": "/dca-to-reston", "permanent": true },
+    { "source": "/dca-to-herndon-va", "destination": "/dca-to-herndon", "permanent": true },
+    { "source": "/dca-to-fredericksburg-va", "destination": "/dca-to-fredericksburg", "permanent": true },
+    { "source": "/dca-to-rockville-md", "destination": "/dca-to-rockville", "permanent": true }
   ]
 }

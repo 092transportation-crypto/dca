@@ -1281,6 +1281,152 @@ export const ROUTE_PAGES = [
     ],
     nearby: ['dca-to-bethesda', 'dca-to-rockville', 'dca-to-columbia-md', 'dca-to-washington-dc', 'dca-to-baltimore'],
   },
+  {
+    slug: "dca-to-philadelphia",
+    destination: "Philadelphia, PA",
+    h1: "DCA Airport to Philadelphia Car Service",
+    metaTitle: "DCA to Philadelphia | Flat Rate Car Service $345",
+    metaDesc:
+      "Flat $345 car service from DCA to Philadelphia — flight tracked, I-95 managed by pros, no surge. Sedans, SUVs & Sprinters. Book or call (877) 609-1919.",
+    distance: "140 miles",
+    driveTime: "2.5–3 hours",
+    heroImage: HERO_IMAGE,
+    intro:
+      "When Amtrak is sold out, a connection falls through, or your itinerary simply works better flying into Washington, the run from Reagan National to Philadelphia becomes a real decision — and rideshare is the wrong answer for a 140-mile interstate trip. DCA Limos covers it as a flat $345 chauffeured transfer: your flight tracked, the whole I-95 corridor managed by a professional, and a price locked before you board.",
+    sections: [
+      {
+        h2: "Why travelers drive DCA to Philadelphia",
+        paragraphs: [
+          "It happens more often than you would think: international arrivals that only connect through Washington, canceled regional flights out of PHL, Acela sellouts on conference weeks, and medical or family trips where changing trains with luggage is the last thing anyone needs. In each case the math favors a committed car — one vehicle, one price, door to door, on your schedule instead of a timetable's.",
+          "Rideshare drivers routinely decline interstate runs of this length, and the ones who accept price them dynamically — often $400 or more with surge, in a vehicle you cannot vet. A pre-booked chauffeur removes every variable except the traffic, and managing that is our job.",
+        ],
+      },
+      {
+        h2: "The I-95 corridor, handled by professionals",
+        paragraphs: [
+          "The route stacks the region's hardest miles: the 14th Street Bridge out of DCA, the full Baltimore bypass, the tunnel or the 895 toll decision, the Susquehanna crossing, and Delaware's toll plaza chokepoints before you ever see the Philadelphia skyline. Our chauffeurs run this corridor constantly and make each call — tunnel versus 895, I-95 versus US-40 around an incident — with live data, not guesswork.",
+          "You ride in a late-model Mercedes with Wi-Fi-ready quiet, working the whole way or sleeping the whole way. Tolls, fuel, and the chauffeur are all inside the flat rate, so the meter anxiety of a three-hour drive simply does not exist.",
+        ],
+      },
+      {
+        h2: "Center City, University City, the Main Line, and beyond",
+        paragraphs: [
+          "We deliver door-to-door across greater Philadelphia: Center City hotels and offices, University City and the Penn and Drexel campuses, the hospital district around CHOP and HUP, the sports complex in South Philly, Manayunk, the Main Line towns from Ardmore to Villanova, and Philadelphia International Airport itself for travelers repositioning between airports.",
+          "Corporate travelers use the route for board meetings and multi-city days; families use it for university move-ins and hospital visits; event crowds use SUVs and Sprinters for Eagles games and concerts at the Wells Fargo Center. Whatever the reason, the drop-off is your exact address — never a pin two blocks away.",
+        ],
+      },
+      {
+        h2: "Booking the trip right",
+        paragraphs: [
+          "For a run this long, two details matter. First, book at least a day ahead when you can — it guarantees vehicle commitment and lets us plan the corridor around known construction and game-day traffic. Second, tell us your real appointment time in Philadelphia, not just your landing time; we back-plan the departure with honest I-95 buffers so you arrive composed, not sprinting.",
+          "Round trips and multi-day returns are common on this route and price cleanly as two flat legs. Need the reverse run — Philadelphia down to Reagan National for a departure? Same rate structure, same flight-aware timing, one call to (877) 609-1919.",
+        ],
+      },
+    ],
+    highlights: [
+      "Flat $345 all-inclusive — tolls, fuel & chauffeur included",
+      "Real-time flight tracking with complimentary wait time",
+      "Meet-and-greet at DCA baggage claim",
+      "Door-to-door: Center City, Main Line, PHL & the suburbs",
+      "Sedans, SUVs & Sprinter vans for any group size",
+    ],
+    faqs: [
+      {
+        q: "How much is a car service from DCA to Philadelphia?",
+        a: "A flat $345 in a luxury sedan, all-inclusive — tolls, fuel, and chauffeur. SUVs and Sprinter vans for groups are quoted flat as well. Call (877) 609-1919 for an exact quote for your date.",
+      },
+      {
+        q: "How long does the drive from DCA to Philadelphia take?",
+        a: "Usually 2.5 to 3 hours for the 140 miles via I-95, depending on Baltimore and Delaware traffic. Your chauffeur plans the departure with realistic buffers and adjusts the route in real time.",
+      },
+      {
+        q: "Is a car service better than Amtrak from DC to Philadelphia?",
+        a: "They solve different problems. Amtrak is fast station-to-station; a chauffeured car is door-to-door on your schedule, with no luggage transfers — and for two or more travelers the flat rate is often comparable to walk-up Acela fares.",
+      },
+      {
+        q: "Can you drop off at Philadelphia International Airport (PHL)?",
+        a: "Yes — airport-to-airport repositioning between DCA and PHL is a regular request, especially after cancellations. We track your inbound flight and time the handoff to your PHL departure.",
+      },
+      {
+        q: "Do you do round trips or late-night runs to Philadelphia?",
+        a: "Both. We operate 24/7, so red-eye arrivals and post-event returns are routine, and round trips price as two flat legs with no overnight surcharge. Book online or call (877) 609-1919.",
+      },
+    ],
+    nearby: ['dca-to-baltimore', 'dca-to-bwi', 'dca-to-columbia-md', 'dca-to-annapolis', 'dca-to-washington-dc'],
+  },
+  {
+    slug: "dca-to-richmond-va",
+    destination: "Richmond, VA",
+    h1: "DCA Airport to Richmond VA Car Service",
+    metaTitle: "DCA to Richmond VA | Flat Rate Car Service $295",
+    metaDesc:
+      "Flat $295 car service from DCA to Richmond, VA — flight tracked, I-95 South handled by pros, no surge. Door-to-door statewide. Call (877) 609-1919.",
+    distance: "110 miles",
+    driveTime: "2–2.5 hours",
+    heroImage: HERO_IMAGE,
+    intro:
+      "Richmond travelers fly Reagan National for a simple reason: the flight board. DCA's nonstop network beats RIC's on many routes, and the fare difference often pays for the ground leg. DCA Limos closes that 110-mile gap with a flat $295 chauffeured transfer — flight tracked, I-95 South managed by a professional who runs it weekly, and a locked price that turns Virginia's most unpredictable highway into a fixed cost.",
+    sections: [
+      {
+        h2: "I-95 South is the whole game",
+        paragraphs: [
+          "Everyone who drives between Washington and Richmond knows the truth: the miles are easy, the corridor is not. The Occoquan merge, the Fredericksburg squeeze, and the summer surge toward the Outer Banks can turn two hours into three and a half without warning. Our chauffeurs treat the corridor as a live decision — express lanes when they pay, US-1 or VA-207 around incidents, and departure timing planned against the day's actual pattern rather than hope.",
+          "The flat rate is what makes it painless. Express-lane tolls, fuel, and the chauffeur are all included, so a slow Friday costs you exactly what a clear Tuesday does — and you spend the delay working from the back seat instead of white-knuckling the wheel.",
+        ],
+      },
+      {
+        h2: "Everywhere we go in greater Richmond",
+        paragraphs: [
+          "Door-to-door coverage spans the whole metro: downtown and the Capitol district, the VCU and VCU Medical campuses, Scott's Addition and the Fan, Carytown, the West End business corridor, Short Pump, Midlothian and Chesterfield, Glen Allen and Innsbrook, and Richmond International Airport for travelers repositioning after a cancellation.",
+          "The route runs on business travel — state-government visitors, VCU Health patients and families, Fortune-500 offices in Innsbrook — and on life logistics: university move-ins, weddings in the Fan, and families connecting through DCA's superior flight board. Every trip gets the same exact-address drop-off and corporate-grade documentation when you need it.",
+        ],
+      },
+      {
+        h2: "Which airport should Richmond travelers use?",
+        paragraphs: [
+          "RIC is a fine airport, but its nonstop map is thin on the West Coast and international connections. Flying DCA typically saves a connection — and a connection is an hour or two plus misconnection risk. Add a flat-rate ground leg you can sleep through, and total door-to-door time via DCA is frequently equal or better, with far less that can go wrong.",
+          "We make the ground leg disappear: your chauffeur tracks the flight, meets you at baggage claim with a name sign, and complimentary wait time absorbs slow bags. Land early and the car is already there; land late and nobody is watching a meter.",
+        ],
+      },
+      {
+        h2: "Timing, groups, and round trips",
+        paragraphs: [
+          "The corridor's rhythm is predictable if you respect it: northbound mornings and southbound evenings are the crunch, and summer Fridays southbound are the worst hours of the week. When your schedule allows, target off-peak landings and we will have you in Richmond in barely two hours; when it does not, we build the buffer honestly and the flat rate absorbs the rest.",
+          "Families and groups ride in SUVs and thirteen-passenger Sprinters at flat rates that beat two or three surge-priced rideshares — when rideshare will even accept a 110-mile run. Round trips for weekend visits and multi-day business stays are routine: one call to (877) 609-1919 books both legs.",
+        ],
+      },
+    ],
+    highlights: [
+      "Flat $295 all-inclusive — express-lane tolls & fuel included",
+      "Real-time flight tracking with complimentary wait time",
+      "Meet-and-greet at DCA baggage claim",
+      "Door-to-door across metro Richmond & RIC airport",
+      "Sedans, SUVs & Sprinter vans for any group size",
+    ],
+    faqs: [
+      {
+        q: "How much is a car service from DCA to Richmond?",
+        a: "A flat $295 in a luxury sedan, all-inclusive — express-lane tolls, fuel, and chauffeur included. SUVs and Sprinters are quoted flat as well. Call (877) 609-1919 for an exact quote.",
+      },
+      {
+        q: "How long does DCA to Richmond take?",
+        a: "Typically 2 to 2.5 hours for the 110 miles via I-95 South. Rush hours and summer Fridays run longer, which is why your chauffeur plans the departure against live corridor conditions.",
+      },
+      {
+        q: "Why fly into DCA instead of Richmond International?",
+        a: "DCA's nonstop network is much larger, so flying DCA often saves a connection and misconnection risk. With a flat-rate ground leg you can work or sleep through, total door-to-door time is frequently equal or better.",
+      },
+      {
+        q: "Do you serve Short Pump, Midlothian, and the suburbs?",
+        a: "Yes — Short Pump, Innsbrook, Glen Allen, Midlothian, Chesterfield, and the whole metro are in the same flat-rate zone as downtown. Your exact address is confirmed at booking.",
+      },
+      {
+        q: "Can I book a round trip or a same-day return?",
+        a: "Absolutely. Round trips price as two flat legs, same-day returns are common for business, and we operate 24/7 with no overnight surcharge. Book online or call (877) 609-1919.",
+      },
+    ],
+    nearby: ['dca-to-fredericksburg', 'dca-to-northern-virginia', 'dca-to-alexandria', 'dca-to-fairfax', 'dca-to-washington-dc'],
+  },
 ];
 
 export function findRoutePage(slug) {

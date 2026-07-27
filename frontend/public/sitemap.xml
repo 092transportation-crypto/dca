@@ -87,6 +87,9 @@
   <url><loc>https://www.dcalimos.com/blog/dca-airport-meet-and-greet-service</loc><lastmod>2026-07-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.dcalimos.com/blog/best-time-to-book-dca-airport-car-service</loc><lastmod>2026-07-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://www.dcalimos.com/blog/dca-airport-corporate-travel-guide</loc><lastmod>2026-07-08</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dcalimos.com/blog/best-car-service-reagan-national-airport</loc><lastmod>2026-07-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dcalimos.com/blog/dca-airport-early-morning-pickup-tips</loc><lastmod>2026-07-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.dcalimos.com/blog/corporate-car-service-reagan-national</loc><lastmod>2026-07-27</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url>
     <loc>https://www.dcalimos.com/dca-to-northern-virginia</loc>
     <lastmod>2026-07-08</lastmod>
@@ -138,6 +141,18 @@
   <url>
     <loc>https://www.dcalimos.com/dca-to-silver-spring</loc>
     <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.dcalimos.com/dca-to-philadelphia</loc>
+    <lastmod>2026-07-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.dcalimos.com/dca-to-richmond-va</loc>
+    <lastmod>2026-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
