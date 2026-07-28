@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { CheckCircle, Star, Phone, Car, Briefcase, PartyPopper, MapPin, Clock, ArrowRight } from 'lucide-react';
 import { ROUTE_PAGES } from '@/data/routePages';
+import Awards from '@/components/Awards';
 
 const HOME_FAQS = [
   {
@@ -299,6 +300,9 @@ const HomePage = () => {
           </ul>
         </div>
       </section>
+
+      {/* Awards & Recognition */}
+      <Awards />
 
       {/* Service Areas - Maryland Locations */}
       <section className="py-12 sm:py-20 lg:py-24 bg-gray-50" data-testid="service-areas-section">
