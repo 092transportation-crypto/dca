@@ -76,7 +76,7 @@ const ContactPage = () => {
       <section 
         className="relative py-16 sm:py-24 lg:py-32 bg-cover bg-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(https://images.unsplash.com/photo-1764089859662-7b4773dff85b?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85)'
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/images/executive-sedan.jpg)'
         }}
         data-testid="contact-hero"
       >

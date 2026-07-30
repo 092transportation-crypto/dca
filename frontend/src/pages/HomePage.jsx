@@ -60,21 +60,21 @@ const HomePage = () => {
       title: 'Airport Transportation',
       description: 'Reliable DCA, BWI & Dulles airport transfers with real-time flight tracking and professional meet-and-greet service. Your stress-free journey begins here.',
       icon: <Car className="h-8 w-8" />,
-      image: 'https://images.unsplash.com/photo-1772410466566-3b652ecbf07c?crop=entropy&cs=srgb&fm=jpg&w=1200&q=85',
+      image: '/images/airport-curbside.jpg',
       link: '/services'
     },
     {
       title: 'Corporate Car Service',
       description: 'Executive transportation for business professionals in Washington DC, Maryland & Virginia. Impress clients and arrive on time, every time.',
       icon: <Briefcase className="h-8 w-8" />,
-      image: 'https://images.unsplash.com/photo-1764089859662-7b4773dff85b?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85',
+      image: '/images/executive-sedan.jpg',
       link: '/services'
     },
     {
       title: 'Wedding & Event Limo',
       description: 'Make your special occasions unforgettable with our elegant limousine service. Perfect for weddings, proms, and celebrations.',
       icon: <PartyPopper className="h-8 w-8" />,
-      image: 'https://images.unsplash.com/photo-1764269711580-6ec7ced59b7c?crop=entropy&cs=srgb&fm=jpg&w=1200&q=85',
+      image: '/images/wedding-service.jpg',
       link: '/services'
     },
   ];
@@ -85,7 +85,7 @@ const HomePage = () => {
       <section 
         className="relative h-[500px] sm:h-[600px] lg:h-[700px] bg-cover bg-center bg-no-repeat"
         style={{ 
-          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(https://images.unsplash.com/photo-1764089859662-7b4773dff85b?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85)',
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(/images/executive-sedan.jpg)',
           backgroundPosition: 'center center'
         }}
         data-testid="hero-section"

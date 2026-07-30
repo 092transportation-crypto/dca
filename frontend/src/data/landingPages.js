@@ -10,7 +10,7 @@ export const LANDING_PAGES = [
     metaTitle: 'DCA Airport Limo Service Washington DC | Reagan Airport',
     metaDesc: 'Premium DCA airport limo service to/from Ronald Reagan National Airport. 24/7 luxury chauffeur, flight tracking, Mercedes fleet. Maryland, DC & Virginia.',
     hero: 'Luxury Reagan Airport Limo Service at Reagan National (DCA). On-time guaranteed, real-time flight tracking, professional chauffeurs.',
-    image: 'https://images.unsplash.com/photo-1772410466566-3b652ecbf07c?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85',
+    image: '/images/airport-curbside.jpg',
     intro: 'DCA Limos provides the most reliable DCA Airport Transportation to and from Ronald Reagan Washington National Airport (DCA). Whether you\'re a frequent business traveler or visiting the DC area, our professional DCA Chauffeur Service and luxury Mercedes fleet ensure you arrive on time, every time.',
     seoText: 'Looking for dependable DCA Airport Car Service? DCA Limos specializes in Reagan National Airport Transportation for business and leisure travelers across the region. Our Reagan National Airport limo service pairs licensed, background-checked chauffeurs with a late-model Mercedes fleet, real-time flight monitoring, and guaranteed on-time pickups. Whether you need a one-way DCA transfer, an hourly booking between meetings, or a late-night arrival pickup, every ride is quoted as one flat, all-inclusive rate — no surge pricing, no meters. We serve all of Washington DC, Maryland, and Northern Virginia, with meet-and-greet service at baggage claim and 60 minutes of complimentary wait time on every airport pickup.',
     highlights: [
@@ -29,7 +29,7 @@ export const LANDING_PAGES = [
     metaTitle: 'BWI Airport Limo & Car Service in Baltimore | DCA Limos',
     metaDesc: 'Top-rated BWI airport car service in Maryland. Luxury Mercedes sedans, SUVs & Sprinter vans. 24/7 service to all Maryland, DC & VA destinations. Book online.',
     hero: 'Premium BWI Thurgood Marshall airport limo service. Licensed & insured Maryland carrier.',
-    image: 'https://images.unsplash.com/photo-1772410466566-3b652ecbf07c?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85',
+    image: '/images/airport-curbside.jpg',
     intro: 'As specialists in Baltimore-Washington International Thurgood Marshall Airport (BWI) transportation, DCA Limos delivers punctual, luxury transfers throughout Maryland and beyond. Our Hanover, MD base puts us minutes from BWI — guaranteeing the fastest pickups in the region.',
     seoText: 'Our BWI airport car service is built around one promise: you will never miss a flight or wait at the curb. Based minutes from the terminal, DCA Limos tracks every arrival in real time and adjusts pickups automatically, so delayed flights never mean stranded travelers. Choose a Mercedes sedan for solo business trips, an Escalade for families, or a Sprinter van for groups of up to 14 with luggage. Every BWI transfer is one flat rate covering tolls, taxes, and gratuity, with door-to-door service throughout Maryland, Washington DC, and Virginia — corporate accounts enjoy monthly invoicing and priority dispatch.',
     highlights: [
@@ -48,7 +48,7 @@ export const LANDING_PAGES = [
     metaTitle: 'Dulles Airport Limo Service | IAD Washington | DCA Limos',
     metaDesc: 'Reliable Dulles International (IAD) airport limo service. Luxury Mercedes fleet, flight tracking, 24/7 service to MD, DC & VA. Book your IAD transfer.',
     hero: 'Luxury Dulles International Airport (IAD) car service. Punctual transfers from DC, Maryland & Northern Virginia.',
-    image: 'https://images.unsplash.com/photo-1772410466566-3b652ecbf07c?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85',
+    image: '/images/airport-curbside.jpg',
     intro: 'DCA Limos provides premium Dulles International Airport (IAD) transportation for travelers across the DC, Maryland and Northern Virginia tri-state area. Our chauffeurs know every shortcut, and our fleet of luxury Mercedes vehicles ensures a stress-free start (or end) to your journey.',
     seoText: 'For reliable Dulles airport transportation, travelers throughout the DMV choose DCA Limos. We monitor every IAD arrival in real time, greet you inside the terminal or curbside, and load your luggage into a spotless Mercedes sedan, SUV, or Sprinter van. Our Dulles airport transportation service runs 24/7 with flat, all-inclusive pricing — the quote you approve is the price you pay, whether it\'s an early-morning international departure or a midnight landing. We connect Dulles to Washington DC, Bethesda, Rockville, Annapolis, Baltimore, and every point between, and corporate travelers can add monthly invoicing with a dedicated account manager.',
     highlights: [
@@ -69,7 +69,7 @@ export const LANDING_PAGES = [
     metaTitle: 'Wedding Limo Service Maryland & DC | DCA Limos Bridal Car',
     metaDesc: 'Make your wedding unforgettable with DCA Limos. Luxury Mercedes limos, white Escalade, & Sprinter vans for the bridal party in Maryland, DC & Virginia.',
     hero: 'Your wedding day deserves perfection. Luxury bridal transportation across Maryland, DC & Virginia.',
-    image: 'https://images.unsplash.com/photo-1764269711580-6ec7ced59b7c?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85',
+    image: '/images/wedding-service.jpg',
     intro: 'Your wedding is one of the most important days of your life — and DCA Limos makes sure transportation is one less thing to worry about. From bridal-party Sprinter vans to elegant Mercedes S-Class for the bride and groom, we handle every detail with the care your day deserves.',
     seoText: 'Your Wedding Limo Service should be the easiest decision of the whole celebration. DCA Limos coordinates timing with your planner or venue, decorates on request, and keeps the bridal party moving on schedule from preparations to ceremony to reception. Choose a classic stretch experience, a white Escalade for the couple, or Mercedes Sprinter vans that keep the entire wedding party together. Every wedding package includes a professionally attired chauffeur, bottled water, and a dry run of the route beforehand. We serve weddings across Maryland, Washington DC, and Northern Virginia with transparent flat-rate packages — one quote, everything included, no surprises on your big day.',
     highlights: [
@@ -88,7 +88,7 @@ export const LANDING_PAGES = [
     metaTitle: 'Prom Limo Service Maryland | Graduation Limo Rentals',
     metaDesc: 'Safe, professional, fully chauffeured prom & graduation limo service for Maryland high schools & universities. Luxury Sprinter vans & limousines.',
     hero: 'Make prom night safe AND unforgettable. Trusted chauffeured limos for Maryland & DC high schools.',
-    image: 'https://images.pexels.com/photos/17396143/pexels-photo-17396143.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1600',
+    image: '/images/stretch-limo.jpg',
     intro: 'Parents trust DCA Limos for prom night because we deliver something cheap rentals can\'t: real professional chauffeurs, fully insured luxury vehicles, and 24/7 dispatch in case plans change. Your teen rides in style — and you sleep easy.',
     highlights: [
       'Background-checked, fully licensed chauffeurs (no surprises)',
@@ -106,7 +106,7 @@ export const LANDING_PAGES = [
     metaTitle: 'Corporate Car Service Maryland DC | Executive Transportation',
     metaDesc: 'DCA Limos offers premium corporate car service for executives in DC, Maryland & Virginia. Monthly invoicing, dedicated account manager, 24/7 dispatch. Book now.',
     hero: 'Executive transportation for Maryland businesses. Monthly invoicing, dedicated account managers, zero downtime.',
-    image: 'https://images.unsplash.com/photo-1764089859662-7b4773dff85b?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85',
+    image: '/images/executive-sedan.jpg',
     intro: 'Companies headquartered in Bethesda, Baltimore, Annapolis, DC and the broader DMV region rely on DCA Limos for their corporate transportation needs. We offer monthly invoicing, a dedicated account manager, and the kind of consistent excellence executives expect.',
     highlights: [
       'Dedicated account manager for every corporate account',
@@ -124,7 +124,7 @@ export const LANDING_PAGES = [
     metaTitle: 'Sports Game Day Limo | Ravens Orioles Capitals Wizards Transportation',
     metaDesc: 'Skip the parking nightmare. Luxury limo service to Camden Yards, M&T Bank Stadium, Capital One Arena & more. Group transfers available.',
     hero: 'Skip the parking & traffic. Luxury door-to-door transportation to every major DC/Baltimore stadium.',
-    image: 'https://images.unsplash.com/photo-1764089859662-7b4773dff85b?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85',
+    image: '/images/executive-sedan.jpg',
     intro: 'Game day should be about cheering your team — not finding parking. DCA Limos drops you steps from the entrance at Camden Yards (Orioles), M&T Bank Stadium (Ravens), Capital One Arena (Capitals/Wizards), and FedExField (Commanders). Tailgate, enjoy a drink — we\'ll get everyone home safely.',
     highlights: [
       'Drop-off & pickup at all major DC/Baltimore stadiums',
@@ -144,7 +144,7 @@ export const LANDING_PAGES = [
     metaTitle: 'Annapolis Limo Service | Luxury Car Service in Annapolis MD',
     metaDesc: 'Premium Annapolis MD limo service. Airport transfers (BWI/DCA/IAD), USNA events, weddings, sailing yacht clubs. Mercedes fleet, 24/7.',
     hero: 'Maryland\'s capital deserves capital-class transportation. Luxury Annapolis limo service for every occasion.',
-    image: 'https://images.unsplash.com/photo-1764089859662-7b4773dff85b?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85',
+    image: '/images/executive-sedan.jpg',
     intro: 'From the historic United States Naval Academy to the Annapolis City Dock and the world-class waterfront yacht clubs, DCA Limos provides Maryland\'s capital with the luxury chauffeur service it deserves. We handle USNA Commissioning Week, Naval Academy weddings, government events, and BWI/DCA/IAD airport transfers with white-glove care.',
     highlights: [
       'USNA Commissioning Week & parents weekend specialists',
@@ -162,7 +162,7 @@ export const LANDING_PAGES = [
     metaTitle: 'Baltimore Limo Service | Luxury Car & Chauffeur in Baltimore MD',
     metaDesc: 'Baltimore\'s premier limo service. Inner Harbor, Camden Yards, M&T Bank Stadium, BWI airport. Luxury Mercedes fleet. Book your Charm City ride.',
     hero: 'Charm City\'s premier limousine and chauffeur service. From Inner Harbor to Camden Yards — in style.',
-    image: 'https://images.unsplash.com/photo-1764089859662-7b4773dff85b?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85',
+    image: '/images/executive-sedan.jpg',
     intro: 'Whether it\'s an Orioles game at Camden Yards, a Ravens game at M&T Bank Stadium, a night out in Fells Point, or business at Johns Hopkins Hospital, DCA Limos is Baltimore\'s trusted luxury transportation partner. We cover Inner Harbor, Federal Hill, Canton, Mount Vernon, and every Baltimore neighborhood.',
     highlights: [
       'Game-day transportation to Camden Yards & M&T Bank Stadium',
@@ -180,7 +180,7 @@ export const LANDING_PAGES = [
     metaTitle: 'Bethesda Limo Service | Executive Car Service Bethesda MD',
     metaDesc: 'Executive-grade Bethesda MD limo service. NIH, Walter Reed, downtown Bethesda. Dulles, DCA & BWI airport transfers. Corporate accounts welcome.',
     hero: 'Executive transportation for Bethesda\'s professionals. NIH, Walter Reed, and the entire DMV business corridor.',
-    image: 'https://images.unsplash.com/photo-1764089859662-7b4773dff85b?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85',
+    image: '/images/executive-sedan.jpg',
     intro: 'Professionals at NIH, Walter Reed, Lockheed Martin, and the dozens of federal contractors lining Bethesda\'s I-270 corridor rely on DCA Limos for executive-grade transportation. We deliver airport transfers, client roadshows, and same-day point-to-point service with the discretion executives demand.',
     highlights: [
       'NIH, Walter Reed & federal contractor accounts',
@@ -198,7 +198,7 @@ export const LANDING_PAGES = [
     metaTitle: 'Silver Spring Limo Service | Car Service Silver Spring MD',
     metaDesc: 'Reliable Silver Spring MD limo service. Downtown Silver Spring, Discovery, NOAA. Airport transfers to BWI, DCA, IAD. Book your Mercedes ride.',
     hero: 'Silver Spring\'s premium limousine and executive car service. Downtown Silver Spring to anywhere in the DMV.',
-    image: 'https://images.unsplash.com/photo-1764089859662-7b4773dff85b?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85',
+    image: '/images/executive-sedan.jpg',
     intro: 'Silver Spring is one of Montgomery County\'s most dynamic business and entertainment hubs — home to Discovery, NOAA, AFI Silver, and the buzzing downtown nightlife. DCA Limos provides the area\'s most reliable airport, corporate, and special-event transportation.',
     highlights: [
       'Downtown Silver Spring nightlife packages',
@@ -216,7 +216,7 @@ export const LANDING_PAGES = [
     metaTitle: 'Rockville Limo Service | Luxury Car Service Rockville MD',
     metaDesc: 'Premier Rockville MD limo service. Rockville Pike, Twinbrook, Montgomery College. Airport transfers, weddings, corporate. 24/7 luxury Mercedes.',
     hero: 'Rockville\'s premium luxury transportation. Airport transfers, corporate travel, and special events.',
-    image: 'https://images.unsplash.com/photo-1764089859662-7b4773dff85b?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85',
+    image: '/images/executive-sedan.jpg',
     intro: 'As the seat of Montgomery County, Rockville is one of Maryland\'s most important business centers. DCA Limos serves the Rockville Pike corridor, Twinbrook, Montgomery College, and the Westat & EagleBank Arena event district with luxury chauffeured transportation.',
     highlights: [
       'Rockville Pike & I-270 corridor specialists',
@@ -234,7 +234,7 @@ export const LANDING_PAGES = [
     metaTitle: 'Columbia Limo Service | Luxury Car Service Columbia MD',
     metaDesc: 'Columbia MD\'s top limo service. Merriweather Post Pavilion concerts, BWI airport, weddings & corporate. Mercedes Sprinter & SUVs available.',
     hero: 'Columbia, Maryland\'s premier limo service. From Merriweather Post Pavilion to BWI Airport — in luxury.',
-    image: 'https://images.unsplash.com/photo-1764089859662-7b4773dff85b?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85',
+    image: '/images/executive-sedan.jpg',
     intro: 'Howard County\'s planned community hub, Columbia, is one of Maryland\'s liveliest entertainment destinations. DCA Limos provides Merriweather Post Pavilion concert transportation, BWI airport transfers, and corporate travel for the booming Columbia Gateway business district.',
     highlights: [
       'Merriweather Post Pavilion concert packages',
@@ -252,7 +252,7 @@ export const LANDING_PAGES = [
     metaTitle: 'Frederick Limo Service | Luxury Car Service Frederick MD',
     metaDesc: 'Frederick MD limo service. Historic downtown, wineries, BWI/IAD airport. Wedding limousines, corporate travel & special events. Book online.',
     hero: 'Frederick\'s luxury limousine and chauffeur service. Historic downtown to DC airports — effortlessly.',
-    image: 'https://images.unsplash.com/photo-1764089859662-7b4773dff85b?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85',
+    image: '/images/executive-sedan.jpg',
     intro: 'Frederick combines small-town historic charm with growing wine-country sophistication. DCA Limos serves the historic downtown, the Frederick wineries tour circuit, and the area\'s wedding venues with luxury transportation that matches the destination.',
     highlights: [
       'Frederick wineries & breweries tour packages',
@@ -270,7 +270,7 @@ export const LANDING_PAGES = [
     metaTitle: 'Hanover Limo Service | Limo Service Hanover MD 21076',
     metaDesc: 'Hanover MD 21076 limo service. Steps from BWI airport, Live! Casino Maryland, Arundel Mills. Local rates, 24/7 luxury Mercedes fleet.',
     hero: 'Headquartered in Hanover — your local luxury limo service. Minutes from BWI, Live! Casino & Arundel Mills.',
-    image: 'https://images.unsplash.com/photo-1764089859662-7b4773dff85b?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85',
+    image: '/images/executive-sedan.jpg',
     intro: 'DCA Limos is headquartered in Hanover, MD — minutes from BWI Airport, Live! Casino Maryland, and Arundel Mills. As your local luxury transportation provider, we offer the fastest service rates in Anne Arundel County, no matter where you\'re headed.',
     highlights: [
       'Local Hanover rates — no out-of-area surcharges',

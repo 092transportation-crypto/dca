@@ -4,7 +4,7 @@
 // remember to add the URL to public/sitemap.xml as well.
 
 const HERO_IMAGE =
-  'https://images.unsplash.com/photo-1772410466566-3b652ecbf07c?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85';
+  '/images/airport-curbside.jpg';
 
 export const EVENT_PAGES = [
   {

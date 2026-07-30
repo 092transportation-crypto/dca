@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { toast } from 'sonner';
+import AddressAutocomplete from '@/components/AddressAutocomplete';
 import {
   Send,
   Loader2,
@@ -478,30 +479,30 @@ const InquiryForm = () => {
               </div>
             </motion.div>
 
-            {/* Pickup */}
-            <motion.div variants={itemVariants} className="relative">
-              <input
+            {/* Pickup — z-30 so the suggestions dropdown paints above later fields */}
+            <motion.div variants={itemVariants} className="relative z-30">
+              <AddressAutocomplete
                 id="inq-pickup"
-                data-testid="inquiry-pickup"
-                className={`${inputBase} ${borderCls(invalid.includes('pickup_location'))}`}
-                placeholder="Pickup Location"
+                testId="inquiry-pickup"
+                label="Pickup Location"
                 value={form.pickup_location}
-                onChange={(e) => set('pickup_location', e.target.value)}
+                onChange={(v) => set('pickup_location', v)}
+                inputClassName={`${inputBase} ${borderCls(invalid.includes('pickup_location'))}`}
+                labelClassName={labelBase}
               />
-              <label htmlFor="inq-pickup" className={labelBase}>Pickup Location *</label>
             </motion.div>
 
             {/* Drop-off */}
-            <motion.div variants={itemVariants} className="relative">
-              <input
+            <motion.div variants={itemVariants} className="relative z-20">
+              <AddressAutocomplete
                 id="inq-dropoff"
-                data-testid="inquiry-dropoff"
-                className={`${inputBase} ${borderCls(invalid.includes('dropoff_location'))}`}
-                placeholder="Drop-off Location"
+                testId="inquiry-dropoff"
+                label="Drop-off Location"
                 value={form.dropoff_location}
-                onChange={(e) => set('dropoff_location', e.target.value)}
+                onChange={(v) => set('dropoff_location', v)}
+                inputClassName={`${inputBase} ${borderCls(invalid.includes('dropoff_location'))}`}
+                labelClassName={labelBase}
               />
-              <label htmlFor="inq-dropoff" className={labelBase}>Drop-off Location *</label>
             </motion.div>
 
             {/* Date */}

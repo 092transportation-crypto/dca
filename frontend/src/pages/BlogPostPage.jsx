@@ -14,7 +14,7 @@ const PHONE_TEL = 'tel:+18776091919';
 const LEGACY_POST = {
   slug: 'ultimate-guide-dca-airport-transportation',
   title: 'The Ultimate Guide to DCA Airport Transportation: What Every Traveler Needs to Know',
-  image: 'https://images.unsplash.com/photo-1772410466566-3b652ecbf07c?crop=entropy&cs=srgb&fm=jpg&w=1200&q=85',
+  image: '/images/airport-curbside.jpg',
   author: 'Michael Chen',
   authorBio: 'Transportation industry analyst and frequent business traveler with over 15 years of experience in executive travel logistics.',
   date: 'January 10, 2025',
@@ -60,7 +60,7 @@ const BlogPostPage = () => {
         headline: blogPost.title,
         author: { '@type': 'Person', name: blogPost.author },
         datePublished: blogPost.date,
-        image: blogPost.image,
+        image: new URL(blogPost.image, 'https://www.dcalimos.com').href,
         publisher: { '@type': 'Organization', name: 'DCA Limos', url: 'https://www.dcalimos.com' },
         mainEntityOfPage: canonicalHref,
       },

@@ -60,7 +60,7 @@ const AboutPage = () => {
       <section 
         className="relative py-16 sm:py-24 lg:py-32 bg-cover bg-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(https://images.unsplash.com/photo-1764089859662-7b4773dff85b?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85)'
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/images/executive-sedan.jpg)'
         }}
         data-testid="about-hero"
       >
@@ -86,7 +86,7 @@ const AboutPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 mb-10 sm:mb-16">
               <div>
                 <img 
-                  src="https://images.unsplash.com/photo-1764089859662-7b4773dff85b?crop=entropy&cs=srgb&fm=jpg&w=1600&q=85" 
+                  src="/images/executive-sedan.jpg" 
                   alt="Our Service"
                   className="w-full h-64 sm:h-80 md:h-[400px] object-cover rounded-xl sm:rounded-2xl shadow-xl"
                 />
