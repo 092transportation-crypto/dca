@@ -14,89 +14,79 @@ const FleetPage = () => {
     });
   }, []);
 
-  // Same categories, vehicles, and order as bwichauffeur.com.
-  // "First Class Sedan" and "Van" each contain two vehicles.
+  // The 8 fleet categories, in exact order — kept in sync with 92limo.com.
   const vehicles = [
     {
       category: 'Business Sedan',
-      name: 'Mercedes-Benz E-Class 2025',
+      name: 'Mercedes-Benz E-Class 2023+ or similar',
       image: '/images/mercedes-e-class.jpg',
       passengers: '3',
       luggage: '2',
       description:
-        'The perfect business sedan for airport transfers and corporate travel. Refined elegance meets cutting-edge technology.',
+        'Perfect for solo executives and business travelers. Ideal for airport transfers and corporate travel. Mercedes E-Class or similar.',
     },
     {
       category: 'First Class Sedan',
-      name: 'BMW 7 Series',
+      name: 'BMW 7 Series / Mercedes S-Class 2023+ or similar',
       image: '/images/bmw-7-series.jpg',
       passengers: '3',
       luggage: '2',
       description:
-        'Where performance meets pure luxury. The ultimate first class sedan for discerning travelers.',
-    },
-    {
-      category: 'First Class Sedan',
-      name: 'Mercedes-Benz S-Class',
-      image: '/images/mercedes-sclass.jpg',
-      passengers: '3',
-      luggage: '2',
-      description:
-        'The pinnacle of sedan luxury. First-class experience for those who accept nothing less.',
+        'The pinnacle of sedan luxury for discerning travelers who accept nothing less. BMW 7 Series, Mercedes S-Class or similar.',
     },
     {
       category: 'Midsize SUV',
-      name: 'Lincoln Nautilus',
+      name: 'Lincoln Nautilus 2023+ or similar',
       image: '/images/lincoln-nautilus.jpg',
       passengers: '3',
       luggage: '4',
       description:
-        'The perfect balance of comfort and practicality for families and travelers with extra luggage.',
+        'The perfect balance of comfort and practicality for families and travelers with extra luggage. Lincoln Nautilus or similar.',
     },
     {
       category: 'Luxury SUV',
-      name: 'Chevrolet Suburban',
+      name: 'Chevrolet Suburban 2023+ or similar',
       image: '/images/chevy-suburban.jpg',
       passengers: '5',
       luggage: '5',
       description:
-        'Maximum space without compromising luxury. Ideal for larger groups and extended journeys.',
+        'Maximum space without compromising luxury. Ideal for larger groups and extended journeys. Chevrolet Suburban or similar.',
     },
     {
       category: 'Premium SUV',
-      name: 'Cadillac Escalade',
+      name: 'Cadillac Escalade 2023+ or similar',
       image: '/images/cadillac-escalade.jpg',
       passengers: '6',
       luggage: '5',
       description:
-        "America's premier luxury SUV. Commanding presence with superior comfort for families and groups.",
+        "America's premier luxury SUV with commanding presence. Cadillac Escalade or similar.",
     },
     {
-      category: 'Van',
-      name: 'Mercedes Sprinter Shuttle',
+      category: 'Sprinter Shuttle',
+      name: 'Mercedes Sprinter 2023+ or similar',
       image: '/images/sprinter-shuttle-seats.jpg',
       passengers: '13',
       luggage: '13',
       description:
-        'Comfortable group transportation for airport runs, corporate events, and group outings. Spacious and reliable for larger parties.',
+        'Comfortable group transportation for airport runs, corporate events, and group outings. Mercedes Sprinter or similar.',
     },
     {
-      category: 'Van',
-      name: 'Mercedes Sprinter Executive',
+      category: 'Sprinter Executive',
+      name: 'Mercedes Sprinter 2023+ or similar',
       image: '/images/mercedes-sprinter.jpg',
       passengers: '13',
       luggage: '13',
       description:
-        'Premium executive van with upgraded interior, captain chairs, and luxury amenities. Perfect for corporate groups who demand comfort.',
+        'Premium executive van with upgraded interior and luxury amenities. Perfect for corporate groups. Mercedes Sprinter or similar.',
     },
     {
-      category: 'Limo',
-      name: 'Mercedes Sprinter Limo',
+      category: 'Sprinter Limo',
+      name: 'Mercedes Sprinter Limo 2023+ or similar',
       image: '/images/limousine.jpg',
       passengers: '13',
       luggage: '13',
       description:
-        'The ultimate stretch limo experience in a Sprinter. Perfect for weddings, proms, and special occasions that deserve a grand entrance.',
+        'The ultimate stretch limo experience. Perfect for weddings, proms, and special occasions that deserve a grand entrance.',
     },
   ];
 
@@ -145,7 +135,7 @@ const FleetPage = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent pointer-events-none" />
                   <div className="absolute bottom-4 left-4 right-4">
-                    <h3 className="text-2xl font-bold text-white drop-shadow-lg">{vehicle.name}</h3>
+                    <h3 className="text-2xl font-bold text-white drop-shadow-lg">{vehicle.category}</h3>
                   </div>
                 </div>
 
@@ -156,7 +146,7 @@ const FleetPage = () => {
                   </span>
 
                   {/* Vehicle name */}
-                  <h3 className="text-xl font-bold text-white mb-4">{vehicle.name}</h3>
+                  <h3 className="text-lg font-bold text-white mb-4">{vehicle.name}</h3>
 
                   {/* Passengers + luggage with icons */}
                   <div className="flex items-center justify-between mb-4 pb-4 border-b border-gray-800">
@@ -179,7 +169,7 @@ const FleetPage = () => {
                     className="w-full bg-amber-500 hover:bg-amber-600 text-black font-bold shadow-lg"
                     data-testid={`vehicle-book-button-${index}`}
                   >
-                    <Link to="/booking" aria-label={`Book the ${vehicle.name}`}>
+                    <Link to="/booking" aria-label={`Book the ${vehicle.category}`}>
                       Book Now
                     </Link>
                   </Button>

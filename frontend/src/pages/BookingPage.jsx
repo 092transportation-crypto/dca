@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { setPageSeo } from '@/lib/seo';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
-import { Phone, Calendar, MapPin, Clock, Car } from 'lucide-react';
+import { Phone, Calendar, MapPin, Clock, Car, BadgeDollarSign } from 'lucide-react';
 import { Toaster } from 'sonner';
 import InquiryForm from '@/components/InquiryForm';
 
@@ -28,6 +28,29 @@ const BookingPage = () => {
           <p className="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto">
             Fast response guaranteed. Reserve airport transportation, corporate car service, wedding limos &amp; more across Maryland, DC &amp; Virginia.
           </p>
+        </div>
+
+        {/* Flat-Rate Notice */}
+        <div
+          data-testid="rates-notice"
+          className="max-w-6xl mx-auto mb-8 overflow-hidden rounded-2xl border border-amber-500/40 bg-gradient-to-r from-amber-500/10 via-amber-500/5 to-amber-500/10"
+        >
+          <div className="h-1 w-full bg-gradient-to-r from-amber-500 to-amber-200" aria-hidden="true" />
+          <div className="flex flex-col items-center gap-4 px-6 py-6 text-center sm:flex-row sm:gap-5 sm:px-8 sm:text-left">
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-amber-500 to-amber-200 shadow-lg shadow-amber-500/30">
+              <BadgeDollarSign className="h-6 w-6 text-black" aria-hidden="true" />
+            </div>
+            <div className="min-w-0">
+              <p className="text-base font-bold text-white md:text-lg">
+                Flat-Rate Pricing — <span className="text-amber-400">No Surge, Ever</span>
+              </p>
+              <p className="mt-1 text-sm leading-relaxed text-gray-300">
+                Rates vary by vehicle and distance. Every quote is all-inclusive — tolls,
+                taxes &amp; gratuity. Fill out the form below for your{' '}
+                <span className="font-semibold text-amber-400">free instant quote</span>.
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8">
