@@ -71,6 +71,7 @@ module.exports = async (req, res) => {
     phone: field(body.phone, 40),
     preferred_contact: field(body.preferred_contact, 20),
     service_type: field(body.service_type, 80),
+    flight_number: field(body.flight_number, 40),
     passengers: field(body.passengers, 10),
     pickup_date: field(body.pickup_date, 40),
     pickup_time: field(body.pickup_time, 40),
@@ -98,6 +99,8 @@ module.exports = async (req, res) => {
     ['Email', quote.email],
     ['Preferred Contact', quote.preferred_contact],
     ['Service Type', quote.service_type],
+    // Only present for airport transfers — omit the row entirely otherwise.
+    ...(quote.flight_number ? [['Flight Number', quote.flight_number]] : []),
     ['Pickup Location', quote.pickup_location],
     ['Drop-off Location', quote.dropoff_location],
     ['Date & Time', dateTime],

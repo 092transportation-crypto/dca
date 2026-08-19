@@ -66,6 +66,7 @@ const EMPTY = {
   preferred_contact: '',
   service_type: '',
   vehicle_type: '',
+  flight_number: '',
   pickup_location: '',
   dropoff_location: '',
   pickup_date: '',
@@ -260,6 +261,11 @@ const InquiryForm = () => {
           email: form.email,
           preferred_contact: form.preferred_contact,
           service_type: form.service_type,
+          // Flight number only applies to airport transfers.
+          flight_number:
+            form.service_type === 'Airport Transfer'
+              ? form.flight_number.trim()
+              : '',
           passengers: String(form.passengers),
           pickup_date: form.pickup_date,
           pickup_time: form.pickup_time,
@@ -450,6 +456,27 @@ const InquiryForm = () => {
                 })}
               </div>
             </motion.div>
+
+            {/* Flight number — airport transfers only */}
+            {form.service_type === 'Airport Transfer' && (
+              <motion.div
+                variants={itemVariants}
+                initial={{ opacity: 0, y: -8 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="relative md:col-span-2"
+              >
+                <label htmlFor="inq-flight" className={staticLabel}>Flight Number (optional)</label>
+                <input
+                  id="inq-flight"
+                  data-testid="inquiry-flight-number"
+                  type="text"
+                  placeholder="e.g. AA1234"
+                  className="block w-full min-h-[58px] rounded-xl border border-white/15 bg-white/[0.04] px-4 pt-7 pb-2.5 text-white placeholder:text-gray-500 transition-colors duration-300 focus:outline-none focus:ring-1 focus:ring-amber-500/60 focus:border-amber-500"
+                  value={form.flight_number}
+                  onChange={(e) => set('flight_number', e.target.value)}
+                />
+              </motion.div>
+            )}
 
             {/* Vehicle Type */}
             <motion.div variants={itemVariants} className="md:col-span-2">
