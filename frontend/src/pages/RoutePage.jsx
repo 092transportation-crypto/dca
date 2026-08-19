@@ -236,7 +236,7 @@ const RoutePage = ({ slug: slugProp }) => {
       <section className="py-16 sm:py-20 bg-gradient-to-b from-gray-50 to-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-10 text-center">Related DCA Airport Routes</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-10 text-center">Also Serving These DCA Routes</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {relatedRoutes.map((r) => (
                 <Link key={r.slug} to={`/${r.slug}`} className="group" data-testid={`related-route-${r.slug}`}>

@@ -25,6 +25,14 @@ const HOME_FAQS = [
     a: 'We recommend booking at least 24 hours ahead to guarantee your vehicle. Same-day requests are welcome when availability allows — call (877) 609-1919.',
   },
   {
+    q: 'Do you track flights?',
+    a: 'Yes — every airport pickup includes real-time flight tracking with complimentary wait time. If your flight lands early or hours late, your chauffeur adjusts automatically, so there is never a need to call from the tarmac.',
+  },
+  {
+    q: 'What vehicles do you offer?',
+    a: 'Late-model executive sedans, luxury SUVs like the Cadillac Escalade and Chevrolet Suburban, and Mercedes Sprinter vans for groups. Every vehicle is detailed before your trip and driven by a professional, background-checked chauffeur.',
+  },
+  {
     q: 'Do you serve BWI and Dulles too?',
     a: 'Yes. Besides Reagan National, we run flat-rate transfers to and from BWI Marshall and Dulles International, plus inter-airport connections.',
   },
