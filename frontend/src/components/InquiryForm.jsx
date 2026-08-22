@@ -306,6 +306,7 @@ const InquiryForm = () => {
                   miles: calc.quote.miles,
                   vehicle: calc.quote.vehicle,
                   base_fare: calc.quote.baseFare,
+                  discount: calc.quote.discount,
                   card_fee: calc.quote.cardFee,
                   total: calc.quote.total,
                 },

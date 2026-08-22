@@ -4,6 +4,9 @@
 
 export const CARD_FEE_RATE = 0.03;
 
+// Automatic discount applied to every instant quote, before the card fee.
+export const AUTO_DISCOUNT_RATE = 0.1;
+
 export const PRICING = {
   'Business Sedan': { base: 90, perMile: 2.8, model: 'Mercedes E-Class' },
   'First Class Sedan': { base: 150, perMile: 3.8, model: 'BMW 7 Series / Mercedes S-Class' },
@@ -28,12 +31,17 @@ export function computeQuote(miles, vehicle) {
   const rates = PRICING[vehicle];
   if (!rates || !Number.isFinite(miles) || miles <= 0) return null;
   const baseFare = round2(rates.base + miles * rates.perMile);
-  const cardFee = round2(baseFare * CARD_FEE_RATE);
+  // Every instant quote gets the automatic discount; the card fee is
+  // charged on the discounted fare.
+  const discount = round2(baseFare * AUTO_DISCOUNT_RATE);
+  const discounted = round2(baseFare - discount);
+  const cardFee = round2(discounted * CARD_FEE_RATE);
   return {
     miles: round2(miles),
     vehicle,
     baseFare,
+    discount,
     cardFee,
-    total: round2(baseFare + cardFee),
+    total: round2(discounted + cardFee),
   };
 }
