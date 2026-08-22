@@ -360,7 +360,45 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
     return true;
   };
 
-  const fileBooking = async ({ paidNote, instantQuote, source }) => {
+  // Pricing payload for the notification email. Mirrors exactly what the
+  // quote panel shows: a full breakdown when an instant price was
+  // calculated, otherwise the reason no price was generated.
+  const buildPricing = (serverQuote, paymentIntentId) => {
+    if (customService) {
+      return { mode: "custom", reason: "Hourly / Wedding / Special Event" };
+    }
+    if (!form.vehicle_type) return { mode: "custom", reason: "No vehicle selected" };
+    if (!priceKey) {
+      return { mode: "custom", reason: `${form.vehicle_type} has no instant pricing` };
+    }
+    if (distance.status !== "ready") {
+      return { mode: "custom", reason: "Driving distance could not be calculated" };
+    }
+    const q = serverQuote || quote;
+    if (!q) return { mode: "custom", reason: "No instant price calculated" };
+    if (q.overLimit) {
+      return {
+        mode: "custom",
+        reason: `Trip is ${q.miles} miles (over the ${MAX_MILES}-mile instant-quote limit)`,
+      };
+    }
+    return {
+      mode: "instant",
+      vehicle: priceKey,
+      vehicle_label: form.vehicle_type,
+      miles: q.miles,
+      base_fare: q.baseFare,
+      discount: q.discount,
+      surcharge: q.surcharge,
+      short_notice: q.surcharge > 0,
+      card_fee: q.cardFee,
+      total: q.total,
+      paid: Boolean(paymentIntentId),
+      payment_intent: paymentIntentId || "",
+    };
+  };
+
+  const fileBooking = async ({ paidNote, pricing, source }) => {
     const details = [
       paidNote,
       form.vehicle_type ? `Vehicle preference: ${form.vehicle_type}` : "",
@@ -389,7 +427,7 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
         pickup_location: form.pickup_location,
         dropoff_location: form.dropoff_location,
         additional_details: details,
-        ...(instantQuote ? { instant_quote: instantQuote } : {}),
+        pricing,
         source,
       }),
     });
@@ -442,15 +480,7 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
         try {
           await fileBooking({
             paidNote: `✅ PAID ONLINE via Stripe — $${sq.total.toFixed(2)} charged (${result.paymentIntent.id})`,
-            instantQuote: {
-              miles: sq.miles,
-              vehicle: form.vehicle_type,
-              base_fare: sq.baseFare,
-              discount: sq.discount,
-              surcharge: sq.surcharge,
-              card_fee: sq.cardFee,
-              total: sq.total,
-            },
+            pricing: buildPricing(sq, result.paymentIntent.id),
             source: "Booking page — PAID",
           });
         } catch {
@@ -458,7 +488,7 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
         }
         setPaidDone(true);
       } else {
-        await fileBooking({ paidNote: "", instantQuote: null, source: "Booking page" });
+        await fileBooking({ paidNote: "", pricing: buildPricing(), source: "Booking page" });
         setPaidDone(false);
       }
       setForm(EMPTY);
