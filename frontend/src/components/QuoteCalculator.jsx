@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import AddressAutocomplete from '@/components/AddressAutocomplete';
-import { computeQuote, PRICING, money } from '@/lib/pricing';
+import { computeQuote, PRICING, money, MAX_MILES } from '@/lib/pricing';
 import {
   Calculator,
   Clock,
@@ -26,11 +26,11 @@ const TRIP_TYPES = [
 
 const VEHICLES = [
   { value: 'Business Sedan', icon: Car },
-  { value: 'First Class Sedan', icon: Car },
-  { value: 'Midsize SUV', icon: CarFront },
+  { value: 'Mid-Size SUV', icon: CarFront },
   { value: 'Luxury SUV', icon: CarFront },
   { value: 'Premium SUV', icon: CarFront },
-  { value: 'Sprinter Shuttle', icon: Bus },
+  { value: 'First Class', icon: Car },
+  { value: 'Sprinter Van', icon: Bus },
   { value: 'Sprinter Executive', icon: Bus },
 ];
 
@@ -263,6 +263,11 @@ const QuoteCalculator = () => {
                   We couldn&apos;t calculate that route — submit the form below
                   and we&apos;ll follow up with an exact quote.
                 </p>
+              ) : quote?.overLimit ? (
+                <p className="text-sm text-gray-300" data-testid="calc-over-limit">
+                  For trips over {MAX_MILES} miles, please submit your request
+                  and we&apos;ll send a custom quote.
+                </p>
               ) : !quote ? (
                 <p className="text-sm text-gray-300">
                   Custom pricing for {vehicle} — submit the form below and
@@ -276,14 +281,8 @@ const QuoteCalculator = () => {
                       <dd className="tabnums text-white">{quote.miles} miles</dd>
                     </div>
                     <div className="flex items-center justify-between gap-3">
-                      <dt className="text-gray-400">Base fare — {quote.vehicle}</dt>
+                      <dt className="text-gray-400">Flat rate — {quote.vehicle}</dt>
                       <dd className="tabnums text-white">{money(quote.baseFare)}</dd>
-                    </div>
-                    <div className="flex items-center justify-between gap-3">
-                      <dt className="text-emerald-400">Instant booking discount (10%)</dt>
-                      <dd className="tabnums text-emerald-400" data-testid="calc-discount">
-                        -{money(quote.discount)}
-                      </dd>
                     </div>
                     <div className="flex items-center justify-between gap-3">
                       <dt className="text-gray-400">Card processing fee (3%)</dt>
