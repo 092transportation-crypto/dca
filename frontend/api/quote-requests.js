@@ -71,6 +71,7 @@ module.exports = async (req, res) => {
     phone: field(body.phone, 40),
     preferred_contact: field(body.preferred_contact, 20),
     service_type: field(body.service_type, 80),
+    trip_type: field(body.trip_type, 40),
     flight_number: field(body.flight_number, 40),
     passengers: field(body.passengers, 10),
     pickup_date: field(body.pickup_date, 40),
@@ -88,6 +89,28 @@ module.exports = async (req, res) => {
     });
   }
 
+  // Instant point-to-point estimate shown to the customer on the form —
+  // numbers only, so a malformed payload can't inject content.
+  const iq = typeof body.instant_quote === 'object' && body.instant_quote !== null
+    ? body.instant_quote
+    : null;
+  const num = (v) => (Number.isFinite(Number(v)) ? Number(v) : null);
+  const usd = (v) => `$${v.toFixed(2)}`;
+  const instantQuote = iq
+    ? {
+        miles: num(iq.miles),
+        vehicle: field(iq.vehicle, 40),
+        base_fare: num(iq.base_fare),
+        card_fee: num(iq.card_fee),
+        total: num(iq.total),
+      }
+    : null;
+  const hasInstantQuote =
+    instantQuote &&
+    instantQuote.miles !== null &&
+    instantQuote.base_fare !== null &&
+    instantQuote.total !== null;
+
   const id = crypto.randomUUID();
   const submittedAt = formatSubmittedAt(new Date());
   const dateTime = formatDateTime(quote.pickup_date, quote.pickup_time);
@@ -99,12 +122,27 @@ module.exports = async (req, res) => {
     ['Email', quote.email],
     ['Preferred Contact', quote.preferred_contact],
     ['Service Type', quote.service_type],
+    ...(quote.trip_type ? [['Trip Type', quote.trip_type]] : []),
     // Only present for airport transfers — omit the row entirely otherwise.
     ...(quote.flight_number ? [['Flight Number', quote.flight_number]] : []),
     ['Pickup Location', quote.pickup_location],
     ['Drop-off Location', quote.dropoff_location],
     ['Date & Time', dateTime],
     ['Passengers', quote.passengers],
+    // What the customer was quoted on the form, if an instant price was shown.
+    ...(hasInstantQuote
+      ? [
+          ['Estimated Distance', `${instantQuote.miles} miles`],
+          [
+            'Instant Quote',
+            `${instantQuote.vehicle ? `${instantQuote.vehicle}: ` : ''}${usd(instantQuote.base_fare)}` +
+              (instantQuote.card_fee !== null
+                ? ` + card fee (3%) ${usd(instantQuote.card_fee)}`
+                : '') +
+              ` = TOTAL ${usd(instantQuote.total)}`,
+          ],
+        ]
+      : []),
     ['Notes', quote.additional_details],
   ];
 
