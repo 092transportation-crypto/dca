@@ -6,13 +6,13 @@ export const FLAT_MILES = 9.9;
 export const CARD_FEE_RATE = 0.03;
 
 export const PRICING = {
-  'Business Sedan': { flat: 90, perMile: 3.0, model: 'Mercedes E-Class' },
-  'First Class Sedan': { flat: 180, perMile: 4.2, model: 'BMW 7 Series / Mercedes S-Class' },
-  'Midsize SUV': { flat: 110, perMile: 3.2, model: 'Lincoln Nautilus' },
-  'Luxury SUV': { flat: 130, perMile: 3.5, model: 'Chevrolet Suburban' },
-  'Premium SUV': { flat: 150, perMile: 3.8, model: 'Cadillac Escalade' },
-  'Sprinter Shuttle': { flat: 250, perMile: 5.85, model: 'Mercedes Sprinter' },
-  'Sprinter Executive': { flat: 330, perMile: 6.5, model: 'Mercedes Sprinter' },
+  'Business Sedan': { flat: 90, perMile: 2.8, model: 'Mercedes E-Class' },
+  'First Class Sedan': { flat: 180, perMile: 3.8, model: 'BMW 7 Series / Mercedes S-Class' },
+  'Midsize SUV': { flat: 110, perMile: 3.1, model: 'Lincoln Nautilus' },
+  'Luxury SUV': { flat: 130, perMile: 3.25, model: 'Chevrolet Suburban' },
+  'Premium SUV': { flat: 150, perMile: 3.5, model: 'Cadillac Escalade' },
+  'Sprinter Shuttle': { flat: 250, perMile: 5.0, model: 'Mercedes Sprinter' },
+  'Sprinter Executive': { flat: 330, perMile: 6.0, model: 'Mercedes Sprinter' },
 };
 
 const round2 = (n) => Math.round(n * 100) / 100;
