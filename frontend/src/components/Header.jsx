@@ -31,7 +31,7 @@ const Header = () => {
               <a href="tel:+18776091919" className="flex items-center space-x-2 hover:opacity-80 transition-opacity font-semibold">
                 <Phone className="h-3 w-3 sm:h-4 sm:w-4" />
                 <span className="hidden sm:inline">+1 (877) 609-1919</span>
-                <span className="sm:hidden">Call Now</span>
+                <span className="sm:hidden">(877) 609-1919</span>
               </a>
               <a href="mailto:info@dcalimos.com" className="flex items-center space-x-2 hover:opacity-80 transition-opacity font-semibold">
                 <Mail className="h-3 w-3 sm:h-4 sm:w-4" />
