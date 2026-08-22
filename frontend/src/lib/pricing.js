@@ -5,11 +5,11 @@
 export const CARD_FEE_RATE = 0.03;
 
 export const PRICING = {
-  'Business Sedan': { base: 70, perMile: 2.8, model: 'Mercedes E-Class' },
+  'Business Sedan': { base: 90, perMile: 2.8, model: 'Mercedes E-Class' },
   'First Class Sedan': { base: 150, perMile: 3.8, model: 'BMW 7 Series / Mercedes S-Class' },
-  'Midsize SUV': { base: 85, perMile: 3.0, model: 'Lincoln Nautilus' },
-  'Luxury SUV': { base: 95, perMile: 3.2, model: 'Chevrolet Suburban' },
-  'Premium SUV': { base: 110, perMile: 3.0, model: 'Cadillac Escalade' },
+  'Midsize SUV': { base: 100, perMile: 3.0, model: 'Lincoln Nautilus' },
+  'Luxury SUV': { base: 110, perMile: 3.2, model: 'Chevrolet Suburban' },
+  'Premium SUV': { base: 125, perMile: 3.0, model: 'Cadillac Escalade' },
   'Sprinter Shuttle': { base: 220, perMile: 4.2, model: 'Mercedes Sprinter' },
   'Sprinter Executive': { base: 330, perMile: 4.8, model: 'Mercedes Sprinter' },
 };
