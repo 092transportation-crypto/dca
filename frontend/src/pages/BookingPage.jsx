@@ -5,7 +5,6 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Phone, Calendar, MapPin, Clock, Car, BadgeDollarSign } from 'lucide-react';
 import { Toaster } from 'sonner';
 import InquiryForm from '@/components/InquiryForm';
-import QuoteCalculator from '@/components/QuoteCalculator';
 
 const BookingPage = () => {
   useEffect(() => {
@@ -55,9 +54,8 @@ const BookingPage = () => {
         </div>
 
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8">
-          {/* Instant quote calculator above the inquiry form */}
+          {/* Quote Form */}
           <div className="lg:col-span-2">
-            <QuoteCalculator />
             <InquiryForm />
           </div>
 
