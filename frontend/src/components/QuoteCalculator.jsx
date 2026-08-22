@@ -157,7 +157,7 @@ const QuoteCalculator = () => {
     >
       <div className="h-1 w-full rounded-t-3xl gold-gradient" aria-hidden="true" />
       <div className="p-6 sm:p-8">
-        <div className="mb-5 flex items-center gap-3">
+        <div className="mb-4 flex items-center gap-3">
           <span className="flex h-10 w-10 items-center justify-center rounded-full gold-gradient">
             <Calculator size={18} className="text-black" />
           </span>
@@ -170,6 +170,15 @@ const QuoteCalculator = () => {
             </p>
           </div>
         </div>
+
+        {/* Trust line */}
+        <p
+          data-testid="calc-trust-line"
+          className="mb-5 flex items-center gap-2 rounded-xl border border-amber-500/25 bg-amber-500/[0.06] px-4 py-2.5 text-xs font-semibold text-amber-300 sm:text-sm"
+        >
+          <Clock size={14} className="shrink-0 text-amber-400" />
+          We reply to all quote requests in under 20 minutes.
+        </p>
 
         {/* Trip type */}
         <div className="mb-4 flex flex-wrap gap-2">
