@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import AddressAutocomplete from '@/components/AddressAutocomplete';
+import PayAndBook from '@/components/PayAndBook';
 import { computeQuote, isShortNotice, PRICING, money, MAX_MILES, SHORT_NOTICE_HOURS } from '@/lib/pricing';
 import {
   Calculator,
@@ -357,9 +358,21 @@ const QuoteCalculator = () => {
                   >
                     <ArrowDown size={16} /> Book this trip — details below
                   </motion.button>
+                  <PayAndBook
+                    quote={quote}
+                    meta={{
+                      pickup: pickupTrimmed,
+                      dropoff: dropoffTrimmed,
+                      miles: quote.miles,
+                      vehicle,
+                      pickupDate,
+                      pickupTime,
+                    }}
+                  />
                   <p className="mt-3 text-center text-[11px] leading-relaxed text-gray-500">
-                    All-inclusive estimate — tolls, taxes &amp; gratuity. No
-                    payment is taken now; we confirm after you submit.
+                    All-inclusive flat rate — tolls, taxes &amp; gratuity. Pay
+                    securely now to lock it in, or send the request below and
+                    we&apos;ll confirm your ride either way.
                   </p>
                 </div>
               )}
