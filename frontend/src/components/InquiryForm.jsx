@@ -238,6 +238,8 @@ const InquiryForm = () => {
         ...f,
         pickup_location: d.pickup || f.pickup_location,
         dropoff_location: d.dropoff || f.dropoff_location,
+        pickup_date: d.pickupDate || f.pickup_date,
+        pickup_time: d.pickupTime || f.pickup_time,
         vehicle_type:
           d.tripType === 'Point-to-Point' && d.vehicle ? d.vehicle : f.vehicle_type,
       }));
@@ -307,6 +309,7 @@ const InquiryForm = () => {
                   vehicle: calc.quote.vehicle,
                   base_fare: calc.quote.baseFare,
                   discount: calc.quote.discount,
+                  surcharge: calc.quote.surcharge,
                   card_fee: calc.quote.cardFee,
                   total: calc.quote.total,
                 },

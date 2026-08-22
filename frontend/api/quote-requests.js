@@ -102,6 +102,7 @@ module.exports = async (req, res) => {
         vehicle: field(iq.vehicle, 40),
         base_fare: num(iq.base_fare),
         discount: num(iq.discount),
+        surcharge: num(iq.surcharge),
         card_fee: num(iq.card_fee),
         total: num(iq.total),
       }
@@ -139,6 +140,9 @@ module.exports = async (req, res) => {
             `${instantQuote.vehicle ? `${instantQuote.vehicle}: ` : ''}${usd(instantQuote.base_fare)}` +
               (instantQuote.discount
                 ? ` - discount (10%) ${usd(instantQuote.discount)}`
+                : '') +
+              (instantQuote.surcharge
+                ? ` + short-notice (20%) ${usd(instantQuote.surcharge)}`
                 : '') +
               (instantQuote.card_fee !== null
                 ? ` + card fee (3%) ${usd(instantQuote.card_fee)}`

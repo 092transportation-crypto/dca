@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import AddressAutocomplete from '@/components/AddressAutocomplete';
-import { computeQuote, PRICING, money, MAX_MILES } from '@/lib/pricing';
+import { computeQuote, isShortNotice, PRICING, money, MAX_MILES, SHORT_NOTICE_HOURS } from '@/lib/pricing';
 import {
   Calculator,
   Clock,
@@ -78,6 +78,8 @@ const QuoteCalculator = () => {
   const [vehicle, setVehicle] = useState('Business Sedan');
   const [pickup, setPickup] = useState('');
   const [dropoff, setDropoff] = useState('');
+  const [pickupDate, setPickupDate] = useState('');
+  const [pickupTime, setPickupTime] = useState('');
   // idle | loading | ready | error
   const [distance, setDistance] = useState({ status: 'idle', miles: null });
   const timerRef = useRef(null);
@@ -116,12 +118,17 @@ const QuoteCalculator = () => {
     return () => clearTimeout(timerRef.current);
   }, [tripType, pickupTrimmed, dropoffTrimmed]);
 
+  const shortNotice = useMemo(
+    () => isShortNotice(pickupDate, pickupTime),
+    [pickupDate, pickupTime]
+  );
+
   const quote = useMemo(
     () =>
       tripType === 'Point-to-Point' && distance.status === 'ready'
-        ? computeQuote(distance.miles, vehicle)
+        ? computeQuote(distance.miles, vehicle, shortNotice)
         : null,
-    [tripType, vehicle, distance]
+    [tripType, vehicle, distance, shortNotice]
   );
 
   // Broadcast state so the inquiry form below can attach the quote to its
@@ -132,9 +139,11 @@ const QuoteCalculator = () => {
       vehicle,
       pickup: pickupTrimmed,
       dropoff: dropoffTrimmed,
+      pickupDate,
+      pickupTime,
       quote,
     }),
-    [tripType, vehicle, pickupTrimmed, dropoffTrimmed, quote]
+    [tripType, vehicle, pickupTrimmed, dropoffTrimmed, pickupDate, pickupTime, quote]
   );
   useEffect(() => {
     window.dispatchEvent(new CustomEvent('dca:quote-state', { detail }));
@@ -246,6 +255,36 @@ const QuoteCalculator = () => {
               )}
             </div>
 
+            {/* Pickup date & time — short-notice check */}
+            <div className="mt-4">
+              <span className="mb-2.5 block text-[10px] font-bold uppercase tracking-[0.14em] text-gray-400">
+                Pickup Date &amp; Time
+              </span>
+              <div className="grid grid-cols-2 gap-3 sm:max-w-md">
+                <input
+                  type="date"
+                  data-testid="calc-pickup-date"
+                  aria-label="Pickup date"
+                  style={{ colorScheme: 'dark' }}
+                  value={pickupDate}
+                  onChange={(e) => setPickupDate(e.target.value)}
+                  className="block w-full appearance-none rounded-xl border border-white/15 bg-white/[0.04] px-4 py-3 text-sm text-white transition-colors duration-300 focus:border-amber-500 focus:outline-none focus:ring-1 focus:ring-amber-500/60"
+                />
+                <input
+                  type="time"
+                  data-testid="calc-pickup-time"
+                  aria-label="Pickup time"
+                  style={{ colorScheme: 'dark' }}
+                  value={pickupTime}
+                  onChange={(e) => setPickupTime(e.target.value)}
+                  className="block w-full appearance-none rounded-xl border border-white/15 bg-white/[0.04] px-4 py-3 text-sm text-white transition-colors duration-300 focus:border-amber-500 focus:outline-none focus:ring-1 focus:ring-amber-500/60"
+                />
+              </div>
+              <p className="mt-2 text-[11px] text-gray-500">
+                Pickups within {SHORT_NOTICE_HOURS} hours include a 20% short-notice surcharge.
+              </p>
+            </div>
+
             {/* Price */}
             <div className="mt-5 rounded-2xl border border-amber-500/25 bg-black/40 p-5" data-testid="calc-result">
               {distance.status === 'idle' ? (
@@ -290,6 +329,14 @@ const QuoteCalculator = () => {
                         -{money(quote.discount)}
                       </dd>
                     </div>
+                    {quote.surcharge > 0 && (
+                      <div className="flex items-center justify-between gap-3">
+                        <dt className="text-amber-400">Short-notice surcharge (20%)</dt>
+                        <dd className="tabnums text-amber-400" data-testid="calc-surcharge">
+                          +{money(quote.surcharge)}
+                        </dd>
+                      </div>
+                    )}
                     <div className="flex items-center justify-between gap-3">
                       <dt className="text-gray-400">Card processing fee (3%)</dt>
                       <dd className="tabnums text-white">{money(quote.cardFee)}</dd>
