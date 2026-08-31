@@ -1,13 +1,7 @@
-import { useEffect, useMemo, useRef, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import { toast } from "sonner";
-import { loadStripe } from "@stripe/stripe-js";
-import {
-  Elements,
-  CardElement,
-  useElements,
-  useStripe,
-} from "@stripe/react-stripe-js";
+import { useEffect, useMemo, useRef, useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { toast } from 'sonner';
+import AddressAutocomplete from '@/components/AddressAutocomplete';
 import {
   Send,
   Loader2,
@@ -28,99 +22,63 @@ import {
   ShieldCheck,
   BadgeDollarSign,
   UserCheck,
-  Calculator,
-  Lock,
-} from "lucide-react";
-import AddressAutocomplete from "@/components/AddressAutocomplete";
-import {
-  computeQuote,
-  isShortNotice,
-  money,
-  MAX_MILES,
-  SHORT_NOTICE_HOURS,
-} from "@/lib/pricing";
-
+} from 'lucide-react';
 
 const CONTACT_METHODS = [
-  { value: "Phone", icon: Phone },
-  { value: "Text", icon: MessageSquare },
-  { value: "Email", icon: Mail },
+  { value: 'Phone', icon: Phone },
+  { value: 'Text', icon: MessageSquare },
+  { value: 'Email', icon: Mail },
 ];
 
 const SERVICE_OPTIONS = [
-  { value: "Airport Transfer", icon: Plane },
-  { value: "Corporate", icon: Briefcase },
-  { value: "Wedding", icon: Heart },
-  { value: "Special Event", icon: PartyPopper },
-  { value: "Hourly", icon: Clock },
+  { value: 'Airport Transfer', icon: Plane },
+  { value: 'Corporate', icon: Briefcase },
+  { value: 'Wedding', icon: Heart },
+  { value: 'Special Event', icon: PartyPopper },
+  { value: 'Hourly', icon: Clock },
 ];
 
-// Services that always get a custom quote instead of instant pricing.
-const CUSTOM_QUOTE_SERVICES = ["Hourly", "Wedding", "Special Event"];
-
-// The 8 fleet categories — kept in sync with the Fleet section and 92limo.com.
+// The 8 fleet categories — kept in sync with the Fleet page and 92limo.com.
 const VEHICLE_OPTIONS = [
-  { value: "Business Sedan", icon: Car },
-  { value: "First Class Sedan", icon: Car },
-  { value: "Midsize SUV", icon: CarFront },
-  { value: "Luxury SUV", icon: CarFront },
-  { value: "Premium SUV", icon: CarFront },
-  { value: "Sprinter Shuttle", icon: Bus },
-  { value: "Sprinter Executive", icon: Bus },
-  { value: "Sprinter Limo", icon: Bus },
-];
-
-// Fleet names above -> keys in the mileage-bracket rate table. Vehicles
-// without a mapping (Sprinter Limo) always get the custom-quote flow.
-const PRICE_KEY = {
-  "Business Sedan": "Business Sedan",
-  "First Class Sedan": "First Class",
-  "Midsize SUV": "Mid-Size SUV",
-  "Luxury SUV": "Luxury SUV",
-  "Premium SUV": "Premium SUV",
-  "Sprinter Shuttle": "Sprinter Van",
-  "Sprinter Executive": "Sprinter Executive",
-};
-
-const HEAR_ABOUT_OPTIONS = [
-  "Google Search",
-  "Referral / Word of Mouth",
-  "Social Media",
-  "Repeat Customer",
-  "Other",
+  { value: 'Business Sedan', icon: Car },
+  { value: 'First Class Sedan', icon: Car },
+  { value: 'Midsize SUV', icon: CarFront },
+  { value: 'Luxury SUV', icon: CarFront },
+  { value: 'Premium SUV', icon: CarFront },
+  { value: 'Sprinter Shuttle', icon: Bus },
+  { value: 'Sprinter Executive', icon: Bus },
+  { value: 'Sprinter Limo', icon: Bus },
 ];
 
 const TRUST_BADGES = [
-  { icon: BadgeCheck, label: "MD PSC Carrier No. 6325", sub: "Official Carrier License" },
-  { icon: ShieldCheck, label: "Licensed & Insured", sub: "Fully Certified Fleet" },
-  { icon: Clock, label: "24/7 Available", sub: "Day or Night" },
-  { icon: Plane, label: "Flight Tracking Included", sub: "We Watch Your Arrival" },
-  { icon: BadgeDollarSign, label: "Flat Rates", sub: "No Surge Pricing" },
-  { icon: UserCheck, label: "Professional Chauffeurs", sub: "Vetted & Uniformed" },
+  { icon: BadgeCheck, label: 'MD PSC Carrier No. 6325', sub: 'Official Carrier License' },
+  { icon: ShieldCheck, label: 'Licensed & Insured', sub: 'Fully Certified Fleet' },
+  { icon: Clock, label: '24/7 Available', sub: 'Day or Night' },
+  { icon: Plane, label: 'Flight Tracking Included', sub: 'We Watch Your Arrival' },
+  { icon: BadgeDollarSign, label: 'Flat Rates', sub: 'No Surge Pricing' },
+  { icon: UserCheck, label: 'Professional Chauffeurs', sub: 'Vetted & Uniformed' },
 ];
 
 const EMPTY = {
-  full_name: "",
-  phone: "",
-  email: "",
-  preferred_contact: "",
-  service_type: "",
-  vehicle_type: "",
-  flight_number: "",
-  pickup_location: "",
-  dropoff_location: "",
-  pickup_date: "",
-  pickup_time: "",
+  full_name: '',
+  phone: '',
+  email: '',
+  preferred_contact: '',
+  service_type: '',
+  vehicle_type: '',
+  flight_number: '',
+  pickup_location: '',
+  dropoff_location: '',
+  pickup_date: '',
+  pickup_time: '',
   passengers: 1,
-  hear_about: "",
-  additional_details: "",
-  sms_consent: false,
+  additional_details: '',
 };
 
 // Fields that count toward the completion meter (vehicle/notes optional).
 const PROGRESS_FIELDS = [
-  "full_name", "phone", "email", "preferred_contact",
-  "service_type", "pickup_location", "dropoff_location", "pickup_date", "pickup_time",
+  'full_name', 'phone', 'email', 'preferred_contact', 'service_type',
+  'pickup_location', 'dropoff_location', 'pickup_date', 'pickup_time',
 ];
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -142,33 +100,21 @@ const itemVariants = {
  * rendered by the browser.
  */
 const inputBase =
-  "peer block w-full min-h-[58px] rounded-xl border bg-white/[0.04] px-4 pt-7 pb-2.5 text-white placeholder-transparent transition-colors duration-300 focus:outline-none focus:ring-1 focus:ring-[amber-500/60 focus:border-amber-500";
+  'peer block w-full min-h-[58px] rounded-xl border bg-white/[0.04] px-4 pt-7 pb-2.5 text-white placeholder-transparent transition-colors duration-300 focus:outline-none focus:ring-1 focus:ring-amber-500/60 focus:border-amber-500';
 const labelBase =
-  "pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-sm text-gray-400 transition-all duration-200 " +
-  "peer-focus:top-2.5 peer-focus:translate-y-0 peer-focus:text-[10px] peer-focus:font-bold peer-focus:uppercase peer-focus:tracking-[0.14em] peer-focus:text-amber-400 " +
-  "peer-[:not(:placeholder-shown)]:top-2.5 peer-[:not(:placeholder-shown)]:translate-y-0 peer-[:not(:placeholder-shown)]:text-[10px] peer-[:not(:placeholder-shown)]:font-bold peer-[:not(:placeholder-shown)]:uppercase peer-[:not(:placeholder-shown)]:tracking-[0.14em] peer-[:not(:placeholder-shown)]:text-gray-500";
+  'pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-sm text-gray-400 transition-all duration-200 ' +
+  'peer-focus:top-2.5 peer-focus:translate-y-0 peer-focus:text-[10px] peer-focus:font-bold peer-focus:uppercase peer-focus:tracking-[0.14em] peer-focus:text-amber-400 ' +
+  'peer-[:not(:placeholder-shown)]:top-2.5 peer-[:not(:placeholder-shown)]:translate-y-0 peer-[:not(:placeholder-shown)]:text-[10px] peer-[:not(:placeholder-shown)]:font-bold peer-[:not(:placeholder-shown)]:uppercase peer-[:not(:placeholder-shown)]:tracking-[0.14em] peer-[:not(:placeholder-shown)]:text-gray-500';
 // Native date/time inputs always render a value, so their label is permanently floated.
 const staticLabel =
-  "pointer-events-none absolute left-4 top-2.5 text-[10px] font-bold uppercase tracking-[0.14em] text-gray-500";
+  'pointer-events-none absolute left-4 top-2.5 text-[10px] font-bold uppercase tracking-[0.14em] text-gray-500';
 const groupLabel =
-  "mb-3 block text-[10px] font-bold uppercase tracking-[0.14em] text-gray-400";
+  'mb-3 block text-[10px] font-bold uppercase tracking-[0.14em] text-gray-400';
 
-const borderCls = (invalid) => (invalid ? "border-red-400/70" : "border-white/15");
-
-const CARD_STYLE = {
-  style: {
-    base: {
-      color: "#ffffff",
-      fontSize: "15px",
-      fontFamily: "inherit",
-      "::placeholder": { color: "rgba(255,255,255,0.4)" },
-    },
-    invalid: { color: "#f87171" },
-  },
-};
+const borderCls = (invalid) => (invalid ? 'border-red-400/70' : 'border-white/15');
 
 // Selected state for pill buttons — its own background per button.
-function PillFill({ active, rounded = "rounded-full" }) {
+function PillFill({ active, rounded = 'rounded-full' }) {
   return (
     <AnimatePresence>
       {active && (
@@ -189,7 +135,7 @@ function Particle({ index }) {
   const angle = (index / 22) * Math.PI * 2 + Math.random() * 0.4;
   const dist = 50 + Math.random() * 80;
   const size = 4 + Math.random() * 6;
-  const colors = ["#FCD34D", "#F59E0B", "#D97706", "#FFFFFF", "#F59E0B"];
+  const colors = ['#FCD34D', '#F59E0B', '#D97706', '#FFFFFF', '#F59E0B'];
   return (
     <motion.span
       className="absolute left-1/2 top-1/2 rounded-full"
@@ -201,24 +147,24 @@ function Particle({ index }) {
         scale: [0, 1.2, 0.9],
         opacity: [1, 1, 0],
       }}
-      transition={{ duration: 1 + Math.random() * 0.4, delay: 0.2, ease: "easeOut" }}
+      transition={{ duration: 1 + Math.random() * 0.4, delay: 0.2, ease: 'easeOut' }}
     />
   );
 }
 
 // Thank-you banner shown above the form after a successful submit.
 // The form itself stays mounted (cleared) so the page never looks empty.
-function SuccessBanner({ paid, onDismiss }) {
+function SuccessBanner({ onDismiss }) {
   return (
     <motion.div
       initial={{ opacity: 0, height: 0 }}
-      animate={{ opacity: 1, height: "auto" }}
+      animate={{ opacity: 1, height: 'auto' }}
       exit={{ opacity: 0, height: 0 }}
       transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
       className="overflow-hidden"
       data-testid="inquiry-success"
     >
-      <div className="relative mx-6 mt-6 rounded-2xl border border-[amber-500/50 bg-[amber-500/[0.08] px-6 py-8 text-center sm:mx-10 sm:mt-8">
+      <div className="relative mx-6 mt-6 rounded-2xl border border-amber-500/50 bg-amber-500/[0.08] px-6 py-8 text-center sm:mx-10 sm:mt-8">
         <div className="relative mx-auto mb-4 h-16 w-16">
           {[...Array(22)].map((_, i) => (
             <Particle key={i} index={i} />
@@ -227,7 +173,7 @@ function SuccessBanner({ paid, onDismiss }) {
             className="relative flex h-16 w-16 items-center justify-center rounded-full gold-gradient shadow-[0_0_40px_-8px_rgba(245,158,11,0.8)]"
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
-            transition={{ type: "spring", stiffness: 260, damping: 14, delay: 0.1 }}
+            transition={{ type: 'spring', stiffness: 260, damping: 14, delay: 0.1 }}
           >
             <svg viewBox="0 0 52 52" className="h-8 w-8">
               <motion.path
@@ -239,17 +185,15 @@ function SuccessBanner({ paid, onDismiss }) {
                 strokeLinejoin="round"
                 initial={{ pathLength: 0 }}
                 animate={{ pathLength: 1 }}
-                transition={{ duration: 0.5, delay: 0.3, ease: "easeOut" }}
+                transition={{ duration: 0.5, delay: 0.3, ease: 'easeOut' }}
               />
             </svg>
           </motion.div>
         </div>
-        <h3 className="text-2xl font-bold text-white">
-          {paid ? "Payment Received — You're Booked!" : "Quote Request Received!"}
-        </h3>
+        <h3 className="text-2xl font-bold text-white">Quote Request Received!</h3>
         <p className="mx-auto mt-2 max-w-md text-sm text-gray-300">
-          Our concierge team will contact you within 15 minutes to confirm.
-          Need us sooner? Call{" "}
+          Our concierge team will contact you within 15 minutes with a
+          personalized quote. Need us sooner? Call{' '}
           <a href="tel:+18776091919" className="font-semibold text-amber-400 hover:underline">
             (877) 609-1919
           </a>
@@ -259,7 +203,7 @@ function SuccessBanner({ paid, onDismiss }) {
           type="button"
           onClick={onDismiss}
           data-testid="inquiry-success-dismiss"
-          className="mt-4 rounded-full border border-[amber-500/50 px-5 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-amber-400 transition-colors hover:bg-[amber-500/10"
+          className="mt-4 rounded-full border border-amber-500/50 px-5 py-2 text-xs font-semibold uppercase tracking-[0.12em] text-amber-400 transition-colors hover:bg-amber-500/10"
         >
           Dismiss
         </button>
@@ -268,19 +212,13 @@ function SuccessBanner({ paid, onDismiss }) {
   );
 }
 
-const InnerForm = ({ stripe, elements, stripeReady }) => {
+const InquiryForm = () => {
   const [form, setForm] = useState(EMPTY);
   const [invalid, setInvalid] = useState([]);
   const [loading, setLoading] = useState(false);
   const [done, setDone] = useState(false);
-  const [paidDone, setPaidDone] = useState(false);
   const [shaking, setShaking] = useState(false);
-  const [payError, setPayError] = useState("");
-  // idle | loading | ready | error
-  const [distance, setDistance] = useState({ status: "idle", miles: null });
   const cardRef = useRef(null);
-  const distTimerRef = useRef(null);
-  const lastPairRef = useRef("");
 
   const set = (k, v) => {
     setForm((f) => ({ ...f, [k]: v }));
@@ -292,212 +230,67 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
     return Math.round((filled / PROGRESS_FIELDS.length) * 100);
   }, [form]);
 
-  // ---- Instant quote: driving distance once pickup + drop-off are in ----
-  const pickupTrimmed = form.pickup_location.trim();
-  const dropoffTrimmed = form.dropoff_location.trim();
-  useEffect(() => {
-    if (pickupTrimmed.length < 4 || dropoffTrimmed.length < 4) {
-      lastPairRef.current = "";
-      setDistance({ status: "idle", miles: null });
-      return undefined;
-    }
-    const pair = `${pickupTrimmed}|${dropoffTrimmed}`;
-    if (pair === lastPairRef.current) return undefined;
-    if (distTimerRef.current) clearTimeout(distTimerRef.current);
-    distTimerRef.current = setTimeout(async () => {
-      setDistance({ status: "loading", miles: null });
-      try {
-        const res = await fetch("/api/distance", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ origin: pickupTrimmed, destination: dropoffTrimmed }),
-        });
-        const data = await res.json().catch(() => ({}));
-        if (!res.ok || !data.success) throw new Error(data.message || "failed");
-        lastPairRef.current = pair;
-        setDistance({ status: "ready", miles: data.miles });
-      } catch {
-        lastPairRef.current = "";
-        setDistance({ status: "error", miles: null });
-      }
-    }, 800);
-    return () => clearTimeout(distTimerRef.current);
-  }, [pickupTrimmed, dropoffTrimmed]);
-
-  const customService = CUSTOM_QUOTE_SERVICES.includes(form.service_type);
-  const priceKey = PRICE_KEY[form.vehicle_type];
-  const shortNotice = useMemo(
-    () => isShortNotice(form.pickup_date, form.pickup_time),
-    [form.pickup_date, form.pickup_time]
-  );
-  const quote = useMemo(
-    () =>
-      !customService && priceKey && distance.status === "ready"
-        ? computeQuote(distance.miles, priceKey, shortNotice)
-        : null,
-    [customService, priceKey, distance, shortNotice]
-  );
-  const payable = Boolean(quote && !quote.overLimit && stripeReady);
-
   // Bring the thank-you banner into view when it appears.
   useEffect(() => {
     if (done && cardRef.current) {
-      cardRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+      cardRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
   }, [done]);
 
-  const validate = () => {
+  const submit = async (e) => {
+    e.preventDefault();
     const missing = PROGRESS_FIELDS.filter((k) => !String(form[k]).trim());
-    if (form.email && !EMAIL_RE.test(form.email) && !missing.includes("email")) {
-      missing.push("email");
+    if (form.email && !EMAIL_RE.test(form.email) && !missing.includes('email')) {
+      missing.push('email');
     }
     if (missing.length) {
       setInvalid(missing);
       setShaking(true);
-      toast.error("Please complete the highlighted fields.");
-      return false;
+      toast.error('Please complete the highlighted fields.');
+      return;
     }
-    return true;
-  };
 
-  // Pricing payload for the notification email. Mirrors exactly what the
-  // quote panel shows: a full breakdown when an instant price was
-  // calculated, otherwise the reason no price was generated.
-  const buildPricing = (serverQuote, paymentIntentId) => {
-    if (customService) {
-      return { mode: "custom", reason: "Hourly / Wedding / Special Event" };
-    }
-    if (!form.vehicle_type) return { mode: "custom", reason: "No vehicle selected" };
-    if (!priceKey) {
-      return { mode: "custom", reason: `${form.vehicle_type} has no instant pricing` };
-    }
-    if (distance.status !== "ready") {
-      return { mode: "custom", reason: "Driving distance could not be calculated" };
-    }
-    const q = serverQuote || quote;
-    if (!q) return { mode: "custom", reason: "No instant price calculated" };
-    if (q.overLimit) {
-      return {
-        mode: "custom",
-        reason: `Trip is ${q.miles} miles (over the ${MAX_MILES}-mile instant-quote limit)`,
-      };
-    }
-    return {
-      mode: "instant",
-      vehicle: priceKey,
-      vehicle_label: form.vehicle_type,
-      miles: q.miles,
-      base_fare: q.baseFare,
-      discount: q.discount,
-      surcharge: q.surcharge,
-      short_notice: q.surcharge > 0,
-      card_fee: q.cardFee,
-      total: q.total,
-      paid: Boolean(paymentIntentId),
-      payment_intent: paymentIntentId || "",
-    };
-  };
-
-  const fileBooking = async ({ paidNote, pricing, source }) => {
-    const details = [
-      paidNote,
-      form.vehicle_type ? `Vehicle preference: ${form.vehicle_type}` : "",
-      form.hear_about ? `Heard about us: ${form.hear_about}` : "",
-      form.sms_consent ? "SMS consent: yes" : "",
-      form.additional_details.trim(),
-    ]
-      .filter(Boolean)
-      .join("\n");
-    const res = await fetch("/api/quote-requests", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        full_name: form.full_name,
-        phone: form.phone,
-        email: form.email,
-        preferred_contact: form.preferred_contact,
-        service_type: form.service_type,
-        trip_type: "Point-to-Point",
-        // Flight number only applies to airport transfers.
-        flight_number:
-          form.service_type === "Airport Transfer" ? form.flight_number.trim() : "",
-        passengers: String(form.passengers),
-        pickup_date: form.pickup_date,
-        pickup_time: form.pickup_time,
-        pickup_location: form.pickup_location,
-        dropoff_location: form.dropoff_location,
-        additional_details: details,
-        pricing,
-        source,
-      }),
-    });
-    if (!res.ok) {
-      const err = await res.json().catch(() => ({}));
-      throw new Error(err.message || "Request failed");
-    }
-  };
-
-  const submit = async (e) => {
-    e.preventDefault();
-    if (!validate()) return;
-    setPayError("");
     setLoading(true);
     try {
-      if (payable && stripe && elements) {
-        // ---- Pay & Book Now: charge the exact server-verified total ----
-        const intentRes = await fetch("/api/create-payment-intent", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({
-            miles: quote.miles,
-            vehicle: priceKey,
-            pickup: form.pickup_location,
-            dropoff: form.dropoff_location,
-            pickupDate: form.pickup_date,
-            pickupTime: form.pickup_time,
-          }),
-        });
-        const intent = await intentRes.json().catch(() => ({}));
-        if (!intentRes.ok || !intent.success) {
-          throw new Error(intent.message || "Could not start the payment.");
-        }
-        const result = await stripe.confirmCardPayment(intent.clientSecret, {
-          payment_method: {
-            card: elements.getElement(CardElement),
-            billing_details: {
-              name: form.full_name,
-              email: form.email,
-              phone: form.phone,
-            },
-          },
-        });
-        if (result.error) {
-          setPayError(result.error.message || "Payment failed. Try another card.");
-          setLoading(false);
-          return;
-        }
-        const sq = intent.quote;
-        try {
-          await fileBooking({
-            paidNote: `✅ PAID ONLINE via Stripe — $${sq.total.toFixed(2)} charged (${result.paymentIntent.id})`,
-            pricing: buildPricing(sq, result.paymentIntent.id),
-            source: "Booking page — PAID",
-          });
-        } catch {
-          // Payment already captured — dispatch still sees it in Stripe.
-        }
-        setPaidDone(true);
-      } else {
-        await fileBooking({ paidNote: "", pricing: buildPricing(), source: "Booking page" });
-        setPaidDone(false);
+      const res = await fetch('/api/quote-requests', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          full_name: form.full_name,
+          phone: form.phone,
+          email: form.email,
+          preferred_contact: form.preferred_contact,
+          service_type: form.service_type,
+          // Flight number only applies to airport transfers.
+          flight_number:
+            form.service_type === 'Airport Transfer'
+              ? form.flight_number.trim()
+              : '',
+          passengers: String(form.passengers),
+          pickup_date: form.pickup_date,
+          pickup_time: form.pickup_time,
+          pickup_location: form.pickup_location,
+          dropoff_location: form.dropoff_location,
+          additional_details: [
+            form.vehicle_type ? `Vehicle preference: ${form.vehicle_type}` : '',
+            form.additional_details.trim(),
+          ]
+            .filter(Boolean)
+            .join('\n'),
+          source: 'Booking page',
+        }),
+      });
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        throw new Error(err.message || 'Request failed');
       }
       setForm(EMPTY);
       setInvalid([]);
       setDone(true);
     } catch (err) {
-      toast.error(err.message || "Couldn't send your request. Please call (877) 609-1919 instead.");
+      toast.error("Couldn't send your request. Please call (877) 609-1919 instead.");
       // eslint-disable-next-line no-console
-      console.error("Inquiry submit failed:", err);
+      console.error('Inquiry submit failed:', err);
     } finally {
       setLoading(false);
     }
@@ -510,15 +303,13 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
         className="relative scroll-mt-28 rounded-3xl border border-white/10 bg-gradient-to-b from-white/[0.06] to-black shadow-[0_30px_80px_-30px_rgba(245,158,11,0.35)]"
         initial={{ opacity: 0, y: 32 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: "-80px" }}
+        viewport={{ once: true, margin: '-80px' }}
         transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
       >
         <div className="h-1 w-full rounded-t-3xl gold-gradient" aria-hidden="true" />
 
         <AnimatePresence>
-          {done && (
-            <SuccessBanner key="success" paid={paidDone} onDismiss={() => setDone(false)} />
-          )}
+          {done && <SuccessBanner key="success" onDismiss={() => setDone(false)} />}
         </AnimatePresence>
 
         {/* Progress indicator */}
@@ -533,7 +324,7 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
             <motion.div
               className="h-full gold-gradient"
               animate={{ width: `${progress}%` }}
-              transition={{ type: "spring", stiffness: 120, damping: 20 }}
+              transition={{ type: 'spring', stiffness: 120, damping: 20 }}
             />
           </div>
         </div>
@@ -546,263 +337,61 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
           variants={listVariants}
           initial="hidden"
           whileInView="show"
-          viewport={{ once: true, margin: "-60px" }}
+          viewport={{ once: true, margin: '-60px' }}
           animate={shaking ? { x: [0, -12, 12, -9, 9, -5, 5, 0] } : {}}
           transition={{ duration: 0.5 }}
           onAnimationComplete={() => setShaking(false)}
         >
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
-            {/* 1. Vehicle Type */}
-            <motion.div variants={itemVariants} className="md:col-span-2">
-              <span className={groupLabel}>
-                Vehicle Type
-                <span className="ml-2 normal-case tracking-normal text-gray-500">— pick one for an instant price</span>
-              </span>
-              <div className="flex flex-wrap gap-2">
-                {VEHICLE_OPTIONS.map(({ value, icon: Icon }) => {
-                  const active = form.vehicle_type === value;
-                  return (
-                    <motion.button
-                      key={value}
-                      type="button"
-                      data-testid={`inquiry-vehicle-${value.toLowerCase().replace(/\s+/g, "-")}`}
-                      aria-pressed={active}
-                      whileTap={{ scale: 0.94 }}
-                      onClick={() => set("vehicle_type", active ? "" : value)}
-                      className={`relative flex min-h-[44px] items-center gap-2 rounded-full border px-5 text-sm font-semibold transition-colors duration-300 ${
-                        active
-                          ? "border-transparent text-black"
-                          : "border-white/15 text-gray-300 hover:border-[amber-500/60 hover:text-white"
-                      }`}
-                    >
-                      <PillFill active={active} />
-                      <span className="relative flex items-center gap-2">
-                        <Icon size={15} /> {value}
-                      </span>
-                    </motion.button>
-                  );
-                })}
-              </div>
-            </motion.div>
-
-            {/* 2. Pickup */}
-            <motion.div variants={itemVariants} className="relative z-30">
-              <AddressAutocomplete
-                id="inq-pickup"
-                testId="inquiry-pickup"
-                label="Pickup Location"
-                value={form.pickup_location}
-                onChange={(v) => set("pickup_location", v)}
-                inputClassName={`${inputBase} ${borderCls(invalid.includes("pickup_location"))}`}
-                labelClassName={labelBase}
-              />
-            </motion.div>
-
-            {/* 2. Drop-off */}
-            <motion.div variants={itemVariants} className="relative z-20">
-              <AddressAutocomplete
-                id="inq-dropoff"
-                testId="inquiry-dropoff"
-                label="Drop-off Location"
-                value={form.dropoff_location}
-                onChange={(v) => set("dropoff_location", v)}
-                inputClassName={`${inputBase} ${borderCls(invalid.includes("dropoff_location"))}`}
-                labelClassName={labelBase}
-              />
-            </motion.div>
-
-            {/* 3. Instant quote */}
-            <motion.div variants={itemVariants} className="md:col-span-2">
-              <div
-                className="rounded-2xl border border-[amber-500/25 bg-black/40 p-5"
-                data-testid="inquiry-quote-panel"
-              >
-                <p className="mb-3 flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.14em] text-amber-400">
-                  <Calculator size={14} /> Instant Quote
-                </p>
-                {customService ? (
-                  <p className="text-sm text-gray-300" data-testid="inquiry-quote-custom">
-                    Custom pricing — we&apos;ll follow up with a quote.
-                  </p>
-                ) : !form.vehicle_type ? (
-                  <p className="text-sm text-gray-400">
-                    Select a vehicle above to see your instant price.
-                  </p>
-                ) : !priceKey ? (
-                  <p className="text-sm text-gray-300" data-testid="inquiry-quote-custom">
-                    Custom pricing for {form.vehicle_type} — we&apos;ll
-                    follow up with a quote.
-                  </p>
-                ) : distance.status === "idle" ? (
-                  <p className="text-sm text-gray-400">
-                    Enter your pickup and drop-off locations to see your instant
-                    price.
-                  </p>
-                ) : distance.status === "loading" ? (
-                  <p className="flex items-center gap-2 text-sm text-gray-300">
-                    <Loader2 size={15} className="animate-spin text-amber-400" />
-                    Calculating your route…
-                  </p>
-                ) : distance.status === "error" ? (
-                  <p className="text-sm text-gray-300">
-                    We couldn&apos;t calculate that route — submit your request
-                    and we&apos;ll follow up with an exact quote.
-                  </p>
-                ) : quote?.overLimit ? (
-                  <p className="text-sm text-gray-300" data-testid="inquiry-quote-over-limit">
-                    For trips over {MAX_MILES} miles, please submit your request
-                    and we&apos;ll send a custom quote.
-                  </p>
-                ) : quote ? (
-                  <dl className="space-y-2 text-sm" data-testid="inquiry-quote-breakdown">
-                    <div className="flex items-center justify-between gap-3">
-                      <dt className="text-gray-400">Estimated distance</dt>
-                      <dd className="tabnums text-white">{quote.miles} miles</dd>
-                    </div>
-                    <div className="flex items-center justify-between gap-3">
-                      <dt className="text-gray-400">Flat rate — {form.vehicle_type}</dt>
-                      <dd className="tabnums text-white">{money(quote.baseFare)}</dd>
-                    </div>
-                    <div className="flex items-center justify-between gap-3">
-                      <dt className="text-emerald-400">Instant booking discount (10%)</dt>
-                      <dd className="tabnums text-emerald-400" data-testid="inquiry-quote-discount">
-                        -{money(quote.discount)}
-                      </dd>
-                    </div>
-                    {quote.surcharge > 0 && (
-                      <div className="flex items-center justify-between gap-3">
-                        <dt className="text-amber-400">Short-notice surcharge (20%)</dt>
-                        <dd className="tabnums text-amber-400" data-testid="inquiry-quote-surcharge">
-                          +{money(quote.surcharge)}
-                        </dd>
-                      </div>
-                    )}
-                    <div className="flex items-center justify-between gap-3">
-                      <dt className="text-gray-400">Card processing fee (3%)</dt>
-                      <dd className="tabnums text-white">{money(quote.cardFee)}</dd>
-                    </div>
-                    <div className="flex items-center justify-between gap-3 border-t border-[amber-500/25 pt-2.5">
-                      <dt className="font-bold text-white">Total</dt>
-                      <dd className="tabnums text-xl font-bold text-amber-400" data-testid="inquiry-quote-total">
-                        {money(quote.total)}
-                      </dd>
-                    </div>
-                  </dl>
-                ) : null}
-                {quote && !quote.overLimit && !form.pickup_date && (
-                  <p className="mt-3 text-[11px] text-gray-500">
-                    Pickups within {SHORT_NOTICE_HOURS} hours include a 20%
-                    short-notice surcharge — set your date &amp; time below.
-                  </p>
-                )}
-              </div>
-            </motion.div>
-
-            {/* 4. Service Type */}
-            <motion.div variants={itemVariants} className="md:col-span-2">
-              <span className={groupLabel}>
-                Service Type *
-                {invalid.includes("service_type") && (
-                  <span className="ml-2 normal-case tracking-normal text-red-400">— pick one</span>
-                )}
-              </span>
-              <div className="flex flex-wrap gap-2">
-                {SERVICE_OPTIONS.map(({ value, icon: Icon }) => {
-                  const active = form.service_type === value;
-                  return (
-                    <motion.button
-                      key={value}
-                      type="button"
-                      data-testid={`inquiry-service-${value.toLowerCase().replace(/\s+/g, "-")}`}
-                      aria-pressed={active}
-                      whileTap={{ scale: 0.94 }}
-                      onClick={() => set("service_type", value)}
-                      className={`relative flex min-h-[44px] items-center gap-2 rounded-full border px-5 text-sm font-semibold transition-colors duration-300 ${
-                        active
-                          ? "border-transparent text-black"
-                          : "border-white/15 text-gray-300 hover:border-[amber-500/60 hover:text-white"
-                      }`}
-                    >
-                      <PillFill active={active} />
-                      <span className="relative flex items-center gap-2">
-                        <Icon size={15} /> {value}
-                      </span>
-                    </motion.button>
-                  );
-                })}
-              </div>
-            </motion.div>
-
-            {/* Flight number — airport transfers only */}
-            {form.service_type === "Airport Transfer" && (
-              <motion.div
-                variants={itemVariants}
-                initial={{ opacity: 0, y: -8 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="relative md:col-span-2"
-              >
-                <label htmlFor="inq-flight" className={staticLabel}>Flight Number (optional)</label>
-                <input
-                  id="inq-flight"
-                  data-testid="inquiry-flight-number"
-                  type="text"
-                  placeholder="e.g. AA1234"
-                  className="block w-full min-h-[58px] rounded-xl border border-white/15 bg-white/[0.04] px-4 pt-7 pb-2.5 text-white placeholder:text-gray-500 transition-colors duration-300 focus:outline-none focus:ring-1 focus:ring-[amber-500/60 focus:border-amber-500"
-                  value={form.flight_number}
-                  onChange={(e) => set("flight_number", e.target.value)}
-                />
-              </motion.div>
-            )}
-
-            {/* 5. Full Name */}
+            {/* Full Name */}
             <motion.div variants={itemVariants} className="relative">
               <input
                 id="inq-name"
                 data-testid="inquiry-name"
-                className={`${inputBase} ${borderCls(invalid.includes("full_name"))}`}
+                className={`${inputBase} ${borderCls(invalid.includes('full_name'))}`}
                 placeholder="Full Name"
                 autoComplete="name"
                 value={form.full_name}
-                onChange={(e) => set("full_name", e.target.value)}
+                onChange={(e) => set('full_name', e.target.value)}
               />
               <label htmlFor="inq-name" className={labelBase}>Full Name *</label>
             </motion.div>
 
-            {/* 5. Phone */}
+            {/* Phone */}
             <motion.div variants={itemVariants} className="relative">
               <input
                 id="inq-phone"
                 data-testid="inquiry-phone"
                 type="tel"
-                className={`${inputBase} ${borderCls(invalid.includes("phone"))}`}
+                className={`${inputBase} ${borderCls(invalid.includes('phone'))}`}
                 placeholder="Phone Number"
                 autoComplete="tel"
                 value={form.phone}
-                onChange={(e) => set("phone", e.target.value)}
+                onChange={(e) => set('phone', e.target.value)}
               />
               <label htmlFor="inq-phone" className={labelBase}>Phone Number *</label>
             </motion.div>
 
-            {/* 5. Email */}
+            {/* Email */}
             <motion.div variants={itemVariants} className="relative md:col-span-2">
               <input
                 id="inq-email"
                 data-testid="inquiry-email"
                 type="email"
-                className={`${inputBase} ${borderCls(invalid.includes("email"))}`}
+                className={`${inputBase} ${borderCls(invalid.includes('email'))}`}
                 placeholder="Email Address"
                 autoComplete="email"
                 value={form.email}
-                onChange={(e) => set("email", e.target.value)}
+                onChange={(e) => set('email', e.target.value)}
               />
               <label htmlFor="inq-email" className={labelBase}>Email Address *</label>
             </motion.div>
 
-            {/* 6. Preferred Contact */}
+            {/* Preferred Contact */}
             <motion.div variants={itemVariants} className="md:col-span-2">
               <span className={groupLabel}>
                 Preferred Contact *
-                {invalid.includes("preferred_contact") && (
+                {invalid.includes('preferred_contact') && (
                   <span className="ml-2 normal-case tracking-normal text-red-400">— pick one</span>
                 )}
               </span>
@@ -816,11 +405,11 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
                       data-testid={`inquiry-contact-${value.toLowerCase()}`}
                       aria-pressed={active}
                       whileTap={{ scale: 0.94 }}
-                      onClick={() => set("preferred_contact", value)}
+                      onClick={() => set('preferred_contact', value)}
                       className={`relative flex min-h-[48px] items-center justify-center gap-2 rounded-xl border text-sm font-semibold transition-colors duration-300 ${
                         active
-                          ? "border-transparent text-black"
-                          : "border-white/15 text-gray-300 hover:border-[amber-500/60 hover:text-white"
+                          ? 'border-transparent text-black'
+                          : 'border-white/15 text-gray-300 hover:border-amber-500/60 hover:text-white'
                       }`}
                     >
                       <PillFill active={active} rounded="rounded-xl" />
@@ -833,35 +422,150 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
               </div>
             </motion.div>
 
-            {/* 7. Date */}
+            {/* Service Type */}
+            <motion.div variants={itemVariants} className="md:col-span-2">
+              <span className={groupLabel}>
+                Service Type *
+                {invalid.includes('service_type') && (
+                  <span className="ml-2 normal-case tracking-normal text-red-400">— pick one</span>
+                )}
+              </span>
+              <div className="flex flex-wrap gap-2">
+                {SERVICE_OPTIONS.map(({ value, icon: Icon }) => {
+                  const active = form.service_type === value;
+                  return (
+                    <motion.button
+                      key={value}
+                      type="button"
+                      data-testid={`inquiry-service-${value.toLowerCase().replace(/\s+/g, '-')}`}
+                      aria-pressed={active}
+                      whileTap={{ scale: 0.94 }}
+                      onClick={() => set('service_type', value)}
+                      className={`relative flex min-h-[44px] items-center gap-2 rounded-full border px-5 text-sm font-semibold transition-colors duration-300 ${
+                        active
+                          ? 'border-transparent text-black'
+                          : 'border-white/15 text-gray-300 hover:border-amber-500/60 hover:text-white'
+                      }`}
+                    >
+                      <PillFill active={active} />
+                      <span className="relative flex items-center gap-2">
+                        <Icon size={15} /> {value}
+                      </span>
+                    </motion.button>
+                  );
+                })}
+              </div>
+            </motion.div>
+
+            {/* Flight number — airport transfers only */}
+            {form.service_type === 'Airport Transfer' && (
+              <motion.div
+                variants={itemVariants}
+                initial={{ opacity: 0, y: -8 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="relative md:col-span-2"
+              >
+                <label htmlFor="inq-flight" className={staticLabel}>Flight Number (optional)</label>
+                <input
+                  id="inq-flight"
+                  data-testid="inquiry-flight-number"
+                  type="text"
+                  placeholder="e.g. AA1234"
+                  className="block w-full min-h-[58px] rounded-xl border border-white/15 bg-white/[0.04] px-4 pt-7 pb-2.5 text-white placeholder:text-gray-500 transition-colors duration-300 focus:outline-none focus:ring-1 focus:ring-amber-500/60 focus:border-amber-500"
+                  value={form.flight_number}
+                  onChange={(e) => set('flight_number', e.target.value)}
+                />
+              </motion.div>
+            )}
+
+            {/* Vehicle Type */}
+            <motion.div variants={itemVariants} className="md:col-span-2">
+              <span className={groupLabel}>
+                Vehicle Type
+                <span className="ml-2 normal-case tracking-normal text-gray-500">— optional, tap again to unselect</span>
+              </span>
+              <div className="flex flex-wrap gap-2">
+                {VEHICLE_OPTIONS.map(({ value, icon: Icon }) => {
+                  const active = form.vehicle_type === value;
+                  return (
+                    <motion.button
+                      key={value}
+                      type="button"
+                      data-testid={`inquiry-vehicle-${value.toLowerCase().replace(/\s+/g, '-')}`}
+                      aria-pressed={active}
+                      whileTap={{ scale: 0.94 }}
+                      onClick={() => set('vehicle_type', active ? '' : value)}
+                      className={`relative flex min-h-[44px] items-center gap-2 rounded-full border px-5 text-sm font-semibold transition-colors duration-300 ${
+                        active
+                          ? 'border-transparent text-black'
+                          : 'border-white/15 text-gray-300 hover:border-amber-500/60 hover:text-white'
+                      }`}
+                    >
+                      <PillFill active={active} />
+                      <span className="relative flex items-center gap-2">
+                        <Icon size={15} /> {value}
+                      </span>
+                    </motion.button>
+                  );
+                })}
+              </div>
+            </motion.div>
+
+            {/* Pickup — z-30 so the suggestions dropdown paints above later fields */}
+            <motion.div variants={itemVariants} className="relative z-30">
+              <AddressAutocomplete
+                id="inq-pickup"
+                testId="inquiry-pickup"
+                label="Pickup Location"
+                value={form.pickup_location}
+                onChange={(v) => set('pickup_location', v)}
+                inputClassName={`${inputBase} ${borderCls(invalid.includes('pickup_location'))}`}
+                labelClassName={labelBase}
+              />
+            </motion.div>
+
+            {/* Drop-off */}
+            <motion.div variants={itemVariants} className="relative z-20">
+              <AddressAutocomplete
+                id="inq-dropoff"
+                testId="inquiry-dropoff"
+                label="Drop-off Location"
+                value={form.dropoff_location}
+                onChange={(v) => set('dropoff_location', v)}
+                inputClassName={`${inputBase} ${borderCls(invalid.includes('dropoff_location'))}`}
+                labelClassName={labelBase}
+              />
+            </motion.div>
+
+            {/* Date */}
             <motion.div variants={itemVariants} className="relative">
               <label htmlFor="inq-date" className={staticLabel}>Date *</label>
               <input
                 id="inq-date"
                 data-testid="inquiry-date"
-                type="pickup_date"
-                style={{ colorScheme: "dark" }}
-                className={`block w-full min-h-[58px] appearance-none rounded-xl border bg-white/[0.04] px-4 pt-7 pb-2.5 text-left text-white transition-colors duration-300 focus:outline-none focus:ring-1 focus:ring-[amber-500/60 focus:border-amber-500 ${borderCls(invalid.includes("pickup_date"))}`}
+                type="date"
+                style={{ colorScheme: 'dark' }}
+                className={`block w-full min-h-[58px] appearance-none rounded-xl border bg-white/[0.04] px-4 pt-7 pb-2.5 text-left text-white transition-colors duration-300 focus:outline-none focus:ring-1 focus:ring-amber-500/60 focus:border-amber-500 ${borderCls(invalid.includes('pickup_date'))}`}
                 value={form.pickup_date}
-                onChange={(e) => set("pickup_date", e.target.value)}
+                onChange={(e) => set('pickup_date', e.target.value)}
               />
             </motion.div>
 
-            {/* 7. Time */}
+            {/* Time */}
             <motion.div variants={itemVariants} className="relative">
               <label htmlFor="inq-time" className={staticLabel}>Time *</label>
               <input
                 id="inq-time"
                 data-testid="inquiry-time"
-                type="pickup_time"
-                style={{ colorScheme: "dark" }}
-                className={`block w-full min-h-[58px] appearance-none rounded-xl border bg-white/[0.04] px-4 pt-7 pb-2.5 text-left text-white transition-colors duration-300 focus:outline-none focus:ring-1 focus:ring-[amber-500/60 focus:border-amber-500 ${borderCls(invalid.includes("pickup_time"))}`}
+                type="time"
+                style={{ colorScheme: 'dark' }}
+                className={`block w-full min-h-[58px] appearance-none rounded-xl border bg-white/[0.04] px-4 pt-7 pb-2.5 text-left text-white transition-colors duration-300 focus:outline-none focus:ring-1 focus:ring-amber-500/60 focus:border-amber-500 ${borderCls(invalid.includes('pickup_time'))}`}
                 value={form.pickup_time}
-                onChange={(e) => set("pickup_time", e.target.value)}
+                onChange={(e) => set('pickup_time', e.target.value)}
               />
             </motion.div>
 
-            {/* 8. Passengers stepper — full row so it never crowds neighbors */}
+            {/* Passengers stepper — full row so it never crowds neighbors */}
             <motion.div variants={itemVariants} className="md:col-span-2">
               <div className="flex min-h-[58px] flex-wrap items-center justify-between gap-3 rounded-xl border border-white/15 bg-white/[0.04] px-4 py-2.5">
                 <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-gray-500">
@@ -873,7 +577,7 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
                     aria-label="Fewer passengers"
                     data-testid="inquiry-passengers-minus"
                     whileTap={{ scale: 0.85 }}
-                    onClick={() => set("passengers", Math.max(1, form.passengers - 1))}
+                    onClick={() => set('passengers', Math.max(1, form.passengers - 1))}
                     className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 text-gray-300 transition-colors hover:border-amber-500 hover:text-amber-400"
                   >
                     <Minus size={16} />
@@ -898,7 +602,7 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
                     aria-label="More passengers"
                     data-testid="inquiry-passengers-plus"
                     whileTap={{ scale: 0.85 }}
-                    onClick={() => set("passengers", Math.min(14, form.passengers + 1))}
+                    onClick={() => set('passengers', Math.min(14, form.passengers + 1))}
                     className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 text-gray-300 transition-colors hover:border-amber-500 hover:text-amber-400"
                   >
                     <Plus size={16} />
@@ -907,37 +611,7 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
               </div>
             </motion.div>
 
-            {/* 9. How did you hear about us */}
-            <motion.div variants={itemVariants} className="md:col-span-2">
-              <span className={groupLabel}>
-                How did you hear about us?
-                <span className="ml-2 normal-case tracking-normal text-gray-500">— optional</span>
-              </span>
-              <div className="flex flex-wrap gap-2">
-                {HEAR_ABOUT_OPTIONS.map((value) => {
-                  const active = form.hear_about === value;
-                  return (
-                    <motion.button
-                      key={value}
-                      type="button"
-                      aria-pressed={active}
-                      whileTap={{ scale: 0.94 }}
-                      onClick={() => set("hear_about", active ? "" : value)}
-                      className={`relative flex min-h-[40px] items-center rounded-full border px-4 text-xs font-semibold transition-colors duration-300 sm:text-sm ${
-                        active
-                          ? "border-transparent text-black"
-                          : "border-white/15 text-gray-300 hover:border-[amber-500/60 hover:text-white"
-                      }`}
-                    >
-                      <PillFill active={active} />
-                      <span className="relative">{value}</span>
-                    </motion.button>
-                  );
-                })}
-              </div>
-            </motion.div>
-
-            {/* 10. Notes */}
+            {/* Notes */}
             <motion.div variants={itemVariants} className="relative md:col-span-2">
               <textarea
                 id="inq-notes"
@@ -946,63 +620,22 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
                 className={`${inputBase} resize-none border-white/15`}
                 placeholder="Notes / Special Requests"
                 value={form.additional_details}
-                onChange={(e) => set("notes", e.target.value)}
+                onChange={(e) => set('additional_details', e.target.value)}
               />
               <label
                 htmlFor="inq-notes"
                 className={
-                  "pointer-events-none absolute left-4 top-7 text-sm text-gray-400 transition-all duration-200 " +
-                  "peer-focus:top-2.5 peer-focus:text-[10px] peer-focus:font-bold peer-focus:uppercase peer-focus:tracking-[0.14em] peer-focus:text-amber-400 " +
-                  "peer-[:not(:placeholder-shown)]:top-2.5 peer-[:not(:placeholder-shown)]:text-[10px] peer-[:not(:placeholder-shown)]:font-bold peer-[:not(:placeholder-shown)]:uppercase peer-[:not(:placeholder-shown)]:tracking-[0.14em] peer-[:not(:placeholder-shown)]:text-gray-500"
+                  'pointer-events-none absolute left-4 top-7 text-sm text-gray-400 transition-all duration-200 ' +
+                  'peer-focus:top-2.5 peer-focus:text-[10px] peer-focus:font-bold peer-focus:uppercase peer-focus:tracking-[0.14em] peer-focus:text-amber-400 ' +
+                  'peer-[:not(:placeholder-shown)]:top-2.5 peer-[:not(:placeholder-shown)]:text-[10px] peer-[:not(:placeholder-shown)]:font-bold peer-[:not(:placeholder-shown)]:uppercase peer-[:not(:placeholder-shown)]:tracking-[0.14em] peer-[:not(:placeholder-shown)]:text-gray-500'
                 }
               >
                 Notes / Special Requests
               </label>
             </motion.div>
-
-            {/* 11. SMS consent */}
-            <motion.div variants={itemVariants} className="md:col-span-2">
-              <label className="flex cursor-pointer items-start gap-3">
-                <input
-                  type="checkbox"
-                  data-testid="inquiry-sms-consent"
-                  checked={form.sms_consent}
-                  onChange={(e) => set("sms_consent", e.target.checked)}
-                  className="mt-1 h-4 w-4 shrink-0 cursor-pointer accent-amber-500"
-                />
-                <span className="text-sm leading-relaxed text-gray-400">
-                  By checking this box, you agree to receive SMS messages from DCA Limos
-                  related to Customer Care. Reply STOP to opt out. Message &amp; data rates may apply.
-                </span>
-              </label>
-            </motion.div>
-
-            {/* 12. Card details — only when paying an instant quote */}
-            {payable && (
-              <motion.div
-                variants={itemVariants}
-                initial={{ opacity: 0, y: -8 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="md:col-span-2"
-              >
-                <span className={groupLabel}>Card Details</span>
-                <div className="rounded-xl border border-white/15 bg-white/[0.04] px-4 py-3.5">
-                  <CardElement options={CARD_STYLE} />
-                </div>
-                {payError && (
-                  <p className="mt-2 text-sm text-red-400" data-testid="inquiry-pay-error">
-                    {payError}
-                  </p>
-                )}
-                <p className="mt-2 flex items-center gap-1.5 text-[11px] text-gray-500">
-                  <Lock size={12} /> Secure payment by Stripe — you&apos;ll be
-                  charged exactly {money(quote.total)}.
-                </p>
-              </motion.div>
-            )}
           </div>
 
-          {/* 12. Submit — Pay & Book when an instant price exists, else Request Booking */}
+          {/* Submit */}
           <motion.div variants={itemVariants}>
             <motion.button
               type="submit"
@@ -1014,24 +647,18 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
             >
               {loading ? (
                 <>
-                  <Loader2 size={18} className="animate-spin" />{" "}
-                  {payable ? "Processing payment…" : "Sending…"}
-                </>
-              ) : payable ? (
-                <>
-                  <Lock size={18} /> Pay &amp; Book Now — {money(quote.total)}
+                  <Loader2 size={18} className="animate-spin" /> Sending…
                 </>
               ) : (
                 <>
-                  <Send size={18} /> Request Booking
+                  <Send size={18} /> Get My Free Quote
                 </>
               )}
             </motion.button>
           </motion.div>
 
-          {/* 13. Trust line */}
           <motion.p variants={itemVariants} className="mt-4 text-center text-xs text-gray-500">
-            We respond within 15 minutes. We never share your info.
+            By submitting, you agree to be contacted by DCA Limos. We never share your info.
           </motion.p>
         </motion.form>
       </motion.div>
@@ -1043,15 +670,15 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
         variants={listVariants}
         initial="hidden"
         whileInView="show"
-        viewport={{ once: true, margin: "-40px" }}
+        viewport={{ once: true, margin: '-40px' }}
       >
         {TRUST_BADGES.map(({ icon: Icon, label, sub }) => (
           <motion.li
             key={label}
             variants={itemVariants}
-            className="flex items-center gap-3 rounded-xl border border-[amber-500/25 bg-white/[0.03] px-4 py-3 transition-colors duration-300 hover:border-[amber-500/60"
+            className="flex items-center gap-3 rounded-xl border border-amber-500/25 bg-white/[0.03] px-4 py-3 transition-colors duration-300 hover:border-amber-500/60"
           >
-            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-[amber-500/40 bg-[amber-500/10">
+            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-amber-500/40 bg-amber-500/10">
               <Icon size={17} className="text-amber-400" />
             </span>
             <span className="min-w-0">
@@ -1062,51 +689,6 @@ const InnerForm = ({ stripe, elements, stripeReady }) => {
         ))}
       </motion.ul>
     </div>
-  );
-};
-
-// Bridges the Stripe hooks to the form. MUST be rendered inside <Elements> —
-// calling useStripe/useElements without that context throws and blanks the
-// whole route, which is exactly why InnerForm takes them as props instead.
-const StripeForm = () => {
-  const stripe = useStripe();
-  const elements = useElements();
-  return <InnerForm stripe={stripe} elements={elements} stripeReady />;
-};
-
-// Loads the shared Stripe publishable key so the card field can mount inside
-// the form. If payments aren't configured yet, the form quietly falls back
-// to the request-booking flow.
-const InquiryForm = () => {
-  const [stripePromise, setStripePromise] = useState(null);
-  const [checked, setChecked] = useState(false);
-
-  useEffect(() => {
-    let cancelled = false;
-    fetch("/api/create-payment-intent")
-      .then((r) => (r.ok ? r.json() : Promise.reject(new Error("unavailable"))))
-      .then((data) => {
-        if (!cancelled && data.success && data.publishableKey) {
-          setStripePromise(loadStripe(data.publishableKey));
-        }
-      })
-      .catch(() => {})
-      .finally(() => {
-        if (!cancelled) setChecked(true);
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
-  if (!checked) return null;
-  if (!stripePromise) {
-    return <InnerForm stripe={null} elements={null} stripeReady={false} />;
-  }
-  return (
-    <Elements stripe={stripePromise}>
-      <StripeForm />
-    </Elements>
   );
 };
 
