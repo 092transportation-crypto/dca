@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import { sanitizePhone, isValidPhone } from '@/lib/phone';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent } from '@/components/ui/card';
 import { Phone, Mail, MapPin, Clock, CheckCircle } from 'lucide-react';
@@ -17,23 +18,29 @@ const ContactPage = () => {
     });
   }, []);
 
-  const [formData, setFormData] = useState({
-    name: '',
+  const EMPTY_FORM = {
+    first_name: '',
+    last_name: '',
     email: '',
     phone: '',
     service: '',
     message: '',
-  });
+  };
+  const [formData, setFormData] = useState(EMPTY_FORM);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+    setFormData(prev => ({ ...prev, [name]: name === 'phone' ? sanitizePhone(value) : value }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (isSubmitting) return;
+    if (!isValidPhone(formData.phone)) {
+      toast.error('Please enter a valid phone number (digits only, at least 10).');
+      return;
+    }
     setIsSubmitting(true);
 
     try {
@@ -41,9 +48,11 @@ const ContactPage = () => {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          full_name: formData.name,
+          full_name: `${formData.first_name.trim()} ${formData.last_name.trim()}`.trim(),
+          first_name: formData.first_name.trim(),
+          last_name: formData.last_name.trim(),
           email: formData.email,
-          phone: formData.phone,
+          phone: formData.phone.trim(),
           service_type: formData.service || 'General inquiry',
           additional_details: formData.message,
           source: 'Contact page',
@@ -54,13 +63,7 @@ const ContactPage = () => {
         throw new Error(data.message || `HTTP ${res.status}`);
       }
       toast.success('Message sent successfully! Our team will contact you within 24 hours.');
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        service: '',
-        message: '',
-      });
+      setFormData(EMPTY_FORM);
     } catch (err) {
       toast.error("Couldn't send your message. Please call (877) 609-1919 instead.");
     } finally {
@@ -143,20 +146,59 @@ const ContactPage = () => {
                 <p className="text-lg text-amber-600">Fill out the form below and our team will respond within 24 hours.</p>
               </div>
               <form onSubmit={handleSubmit} className="space-y-6" data-testid="contact-form">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                  <div>
+                    <label htmlFor="first_name" className="block text-sm font-bold mb-2 text-gray-900 uppercase tracking-wider">
+                      First Name *
+                    </label>
+                    <Input
+                      id="first_name"
+                      name="first_name"
+                      type="text"
+                      autoComplete="given-name"
+                      required
+                      value={formData.first_name}
+                      onChange={handleChange}
+                      placeholder="First Name"
+                      className="w-full h-14 text-lg border-2 focus:border-amber-500"
+                      data-testid="contact-form-first-name"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="last_name" className="block text-sm font-bold mb-2 text-gray-900 uppercase tracking-wider">
+                      Last Name *
+                    </label>
+                    <Input
+                      id="last_name"
+                      name="last_name"
+                      type="text"
+                      autoComplete="family-name"
+                      required
+                      value={formData.last_name}
+                      onChange={handleChange}
+                      placeholder="Last Name"
+                      className="w-full h-14 text-lg border-2 focus:border-amber-500"
+                      data-testid="contact-form-last-name"
+                    />
+                  </div>
+                </div>
                 <div>
-                  <label htmlFor="name" className="block text-sm font-bold mb-2 text-gray-900 uppercase tracking-wider">
-                    Full Name *
+                  <label htmlFor="phone" className="block text-sm font-bold mb-2 text-gray-900 uppercase tracking-wider">
+                    Phone Number *
                   </label>
                   <Input
-                    id="name"
-                    name="name"
-                    type="text"
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    inputMode="tel"
+                    pattern="[0-9+()\-.\s]*"
+                    autoComplete="tel"
                     required
-                    value={formData.name}
+                    value={formData.phone}
                     onChange={handleChange}
-                    placeholder="John Smith"
+                    placeholder="Phone Number"
                     className="w-full h-14 text-lg border-2 focus:border-amber-500"
-                    data-testid="contact-form-name"
+                    data-testid="contact-form-phone"
                   />
                 </div>
                 <div>
@@ -173,22 +215,6 @@ const ContactPage = () => {
                     placeholder="john@example.com"
                     className="w-full h-14 text-lg border-2 focus:border-amber-500"
                     data-testid="contact-form-email"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-bold mb-2 text-gray-900 uppercase tracking-wider">
-                    Phone Number *
-                  </label>
-                  <Input
-                    id="phone"
-                    name="phone"
-                    type="tel"
-                    required
-                    value={formData.phone}
-                    onChange={handleChange}
-                    placeholder="(555) 123-4567"
-                    className="w-full h-14 text-lg border-2 focus:border-amber-500"
-                    data-testid="contact-form-phone"
                   />
                 </div>
                 <div>
