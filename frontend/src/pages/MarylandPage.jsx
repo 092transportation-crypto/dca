@@ -44,7 +44,7 @@ const MarylandPage = ({ slug: slugProp }) => {
           telephone: '+1-877-609-1919',
           url: SITE_URL,
           priceRange: '$$',
-          address: { '@type': 'PostalAddress', addressRegion: 'MD', addressCountry: 'US' },
+          address: { '@type': 'PostalAddress', streetAddress: '9836 Lyon Ave', addressLocality: 'Laurel', addressRegion: 'MD', postalCode: '20723', addressCountry: 'US' },
           areaServed: data.schema.areaServed.map((a) => ({ '@type': 'Place', name: a })),
           openingHours: 'Mo-Su 00:00-23:59',
         },

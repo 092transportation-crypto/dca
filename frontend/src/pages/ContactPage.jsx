@@ -115,8 +115,8 @@ const ContactPage = () => {
                 <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-br from-amber-500 to-amber-600 text-black mb-6 shadow-lg">
                   <MapPin className="h-8 w-8" />
                 </div>
-                <h3 className="text-2xl font-bold mb-3 text-gray-900">Service Area</h3>
-                <p className="text-lg font-semibold mb-3 text-gray-900">BWI Airport & Baltimore, MD</p>
+                <h3 className="text-2xl font-bold mb-3 text-gray-900">Our Office</h3>
+                <p className="text-lg font-semibold mb-3 text-gray-900">9836 Lyon Ave, Laurel, MD 20723</p>
                 <p className="text-amber-600">Serving the entire Baltimore-Washington metropolitan area</p>
               </CardContent>
             </Card>

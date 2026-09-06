@@ -107,8 +107,8 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <MapPin className="h-4 w-4 sm:h-5 sm:w-5 text-amber-500 mt-1 flex-shrink-0" />
                 <div>
-                  <span className="text-sm sm:text-base text-gray-300 block">DCA Airport & Washington DC</span>
-                  <span className="text-xs sm:text-sm text-gray-500">DMV Metropolitan Area</span>
+                  <span className="text-sm sm:text-base text-gray-300 block">9836 Lyon Ave, Laurel, MD 20723</span>
+                  <span className="text-xs sm:text-sm text-gray-500">Serving DCA, Washington DC & the DMV</span>
                 </div>
               </li>
               <li className="flex items-start space-x-3">
