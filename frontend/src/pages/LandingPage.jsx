@@ -183,7 +183,7 @@ const LandingPage = () => {
             Book your <span className="text-amber-400">{data.h1.replace(' Service', '').toLowerCase()}</span> today
           </h2>
           <p className="text-base sm:text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Get a quote in under 15 minutes. Free cancellation up to 24 hours before pickup.
+            Get a quote in under 15 minutes. Free cancellation up to 3 hours before pickup for sedans and SUVs, 12 hours for Sprinter vans, limousines and special events.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link to="/booking">

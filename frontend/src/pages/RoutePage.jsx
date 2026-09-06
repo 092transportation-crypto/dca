@@ -269,7 +269,7 @@ const RoutePage = ({ slug: slugProp }) => {
             Book your <span className="text-amber-400">DCA to {data.destination}</span> ride today
           </h2>
           <p className="text-base sm:text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Flight tracked, professionally chauffeured, and guaranteed — free cancellation up to 24 hours before pickup. Contact us for a free, exact quote.
+            Flight tracked, professionally chauffeured, and guaranteed — free cancellation up to 3 hours before pickup for sedans and SUVs (12 hours for Sprinter vans, limousines and special events). Contact us for a free, exact quote.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link to="/booking">

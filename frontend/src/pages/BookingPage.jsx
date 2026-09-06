@@ -124,10 +124,10 @@ const BookingPage = () => {
             {[
               'Book at least 2 hours in advance for guaranteed availability',
               'For airport pickups, provide your flight number for real-time tracking',
-              'Free cancellation up to 24 hours before scheduled pickup',
+              'Free cancellation up to 3 hours before pickup for sedans and SUVs — 12 hours for Sprinter vans, limousines and special events',
               'All major credit cards accepted — secure payment processing',
               'Gratuity and all taxes included in quoted price',
-              '60-minute complimentary wait time on airport pickups',
+              'Complimentary airport wait time: 45 minutes on domestic arrivals, 60 minutes on international',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">
                 <span className="text-amber-400 mt-1">•</span>

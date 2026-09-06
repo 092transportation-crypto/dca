@@ -352,7 +352,7 @@ const ContactPage = () => {
               },
               {
                 q: 'What is your cancellation policy?',
-                a: 'Free cancellation up to 24 hours before scheduled pickup time. Cancellations within 24 hours may incur a cancellation fee. Contact us directly for specific circumstances.'
+                a: 'Sedans and SUVs can be cancelled free of charge up to 3 hours before your scheduled pickup time. Sprinter vans, limousines and special-event bookings can be cancelled free of charge up to 12 hours before pickup. Cancellations inside those windows may incur a cancellation fee — contact us directly for specific circumstances.'
               },
               {
                 q: 'Do you offer corporate accounts?',

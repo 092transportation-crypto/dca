@@ -26,7 +26,11 @@ const HOME_FAQS = [
   },
   {
     q: 'Do you track flights?',
-    a: 'Yes — every airport pickup includes real-time flight tracking with complimentary wait time. If your flight lands early or hours late, your chauffeur adjusts automatically, so there is never a need to call from the tarmac.',
+    a: 'Yes — every airport pickup includes real-time flight tracking with complimentary wait time: 45 minutes on domestic arrivals and 60 minutes on international arrivals. If your flight lands early or hours late, your chauffeur adjusts automatically, so there is never a need to call from the tarmac.',
+  },
+  {
+    q: 'What is your cancellation policy?',
+    a: 'Sedans and SUVs can be cancelled free of charge up to 3 hours before your scheduled pickup time. Sprinter vans, limousines and special-event bookings can be cancelled free of charge up to 12 hours before pickup. Later cancellations may incur a fee.',
   },
   {
     q: 'What vehicles do you offer?',
