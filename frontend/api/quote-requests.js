@@ -42,14 +42,6 @@ function formatDateTime(date, time) {
 }
 
 const usd = (v) => `$${Number(v || 0).toFixed(2)}`;
-const coord = (v) => {
-  if (v === null || v === undefined || v === '') return null;
-  const n = Number(v);
-  return Number.isFinite(n) ? n : null;
-};
-const coordText = (lat, lng) =>
-  lat != null && lng != null ? `${lat.toFixed(5)}, ${lng.toFixed(5)} (https://www.google.com/maps?q=${lat},${lng})` : '';
-
 const CUSTOM_QUOTE_TEXT = 'Custom quote requested — no instant price calculated';
 
 /**
@@ -160,10 +152,6 @@ module.exports = async (req, res) => {
     pickup_time: field(body.pickup_time, 40),
     pickup_location: field(body.pickup_location, 300),
     dropoff_location: field(body.dropoff_location, 300),
-    pickup_lat: coord(body.pickup_lat),
-    pickup_lng: coord(body.pickup_lng),
-    dropoff_lat: coord(body.dropoff_lat),
-    dropoff_lng: coord(body.dropoff_lng),
     additional_details: field(body.additional_details, 2000),
     source: field(body.source, 40) || 'Booking form',
   };
@@ -199,9 +187,7 @@ module.exports = async (req, res) => {
     // Only present for airport transfers — omit the row entirely otherwise.
     ...(quote.flight_number ? [['Flight Number', quote.flight_number]] : []),
     ['Pickup Location', quote.pickup_location],
-    ...(quote.pickup_lat != null ? [['Pickup Coordinates', coordText(quote.pickup_lat, quote.pickup_lng)]] : []),
     ['Drop-off Location', quote.dropoff_location],
-    ...(quote.dropoff_lat != null ? [['Drop-off Coordinates', coordText(quote.dropoff_lat, quote.dropoff_lng)]] : []),
     ['Date & Time', dateTime],
     ['Passengers', quote.passengers],
     // Fare breakdown the customer saw on the form, or the custom-quote line.
