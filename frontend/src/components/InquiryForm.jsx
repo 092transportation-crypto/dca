@@ -71,6 +71,10 @@ const EMPTY = {
   flight_number: '',
   pickup_location: '',
   dropoff_location: '',
+  pickup_lat: null,
+  pickup_lng: null,
+  dropoff_lat: null,
+  dropoff_lng: null,
   pickup_date: '',
   pickup_time: '',
   passengers: 1,
@@ -226,6 +230,8 @@ const InquiryForm = () => {
     setForm((f) => ({ ...f, [k]: v }));
     setInvalid((keys) => keys.filter((key) => key !== k));
   };
+  const setCoords = (which, p) =>
+    setForm((f) => ({ ...f, [`${which}_lat`]: p ? p.lat : null, [`${which}_lng`]: p ? p.lng : null }));
 
   const progress = useMemo(() => {
     const filled = PROGRESS_FIELDS.filter((k) => String(form[k]).trim()).length;
@@ -282,6 +288,10 @@ const InquiryForm = () => {
           pickup_time: form.pickup_time,
           pickup_location: form.pickup_location,
           dropoff_location: form.dropoff_location,
+          pickup_lat: form.pickup_lat,
+          pickup_lng: form.pickup_lng,
+          dropoff_lat: form.dropoff_lat,
+          dropoff_lng: form.dropoff_lng,
           additional_details: [
             form.vehicle_type ? `Vehicle preference: ${form.vehicle_type}` : '',
             form.additional_details.trim(),
@@ -549,6 +559,7 @@ const InquiryForm = () => {
                 label="Pickup Location"
                 value={form.pickup_location}
                 onChange={(v) => set('pickup_location', v)}
+                onSelect={(p) => setCoords('pickup', p)}
                 inputClassName={`${inputBase} ${borderCls(invalid.includes('pickup_location'))}`}
                 labelClassName={labelBase}
               />
@@ -562,6 +573,7 @@ const InquiryForm = () => {
                 label="Drop-off Location"
                 value={form.dropoff_location}
                 onChange={(v) => set('dropoff_location', v)}
+                onSelect={(p) => setCoords('dropoff', p)}
                 inputClassName={`${inputBase} ${borderCls(invalid.includes('dropoff_location'))}`}
                 labelClassName={labelBase}
               />
