@@ -18,6 +18,7 @@ import NotFoundPage from "@/pages/NotFoundPage";
 import { ROUTE_PAGES } from "@/data/routePages";
 import { EVENT_PAGES } from "@/data/eventPages";
 import MarylandPage from "@/pages/MarylandPage";
+import EventRoute from "@/pages/EventRoute";
 import { MARYLAND_PAGES } from "@/data/marylandPages";
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
           {MARYLAND_PAGES.map((p) => (
             <Route key={p.slug} path={`/${p.slug}`} element={<MarylandPage slug={p.slug} />} />
           ))}
+          <Route path="/:slug" element={<EventRoute />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footer />

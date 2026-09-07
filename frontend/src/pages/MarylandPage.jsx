@@ -13,10 +13,10 @@ const STAT_ICONS = [MapPin, Clock, Car, Star];
 
 // Maryland city, route and service landing pages — same layout system as
 // RoutePage; content lives in src/data/marylandPages.js.
-const MarylandPage = ({ slug: slugProp }) => {
+const MarylandPage = ({ slug: slugProp, page: pageProp }) => {
   const params = useParams();
-  const slug = slugProp || params.slug;
-  const data = findMarylandPage(slug);
+  const slug = slugProp || (pageProp && pageProp.slug) || params.slug;
+  const data = pageProp || findMarylandPage(slug);
 
   useEffect(() => {
     if (!data) return;
