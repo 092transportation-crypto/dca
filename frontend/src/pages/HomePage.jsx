@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { setPageSeo } from '@/lib/seo';
+import { setPageSeo, setJsonLd } from '@/lib/seo';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -59,12 +59,8 @@ const HomePage = () => {
         acceptedAnswer: { '@type': 'Answer', text: f.a },
       })),
     };
-    const script = document.createElement('script');
-    script.type = 'application/ld+json';
-    script.id = 'home-faq-schema';
-    script.text = JSON.stringify(schema);
-    document.head.appendChild(script);
-    return () => document.getElementById('home-faq-schema')?.remove();
+    // setJsonLd reuses the prerendered <script id> instead of appending a second FAQPage.
+    return setJsonLd('home-faq-schema', schema);
   }, []);
 
   const services = [
@@ -72,21 +68,21 @@ const HomePage = () => {
       title: 'Airport Transportation',
       description: 'Reliable DCA, BWI & Dulles airport transfers with real-time flight tracking and professional meet-and-greet service. Your stress-free journey begins here.',
       icon: <Car className="h-8 w-8" />,
-      image: '/images/airport-curbside.jpg',
+      image: '/images/airport-curbside.webp',
       link: '/services'
     },
     {
       title: 'Corporate Car Service',
       description: 'Executive transportation for business professionals in Washington DC, Maryland & Virginia. Impress clients and arrive on time, every time.',
       icon: <Briefcase className="h-8 w-8" />,
-      image: '/images/executive-sedan.jpg',
+      image: '/images/executive-sedan.webp',
       link: '/services'
     },
     {
       title: 'Wedding & Event Limo',
       description: 'Make your special occasions unforgettable with our elegant limousine service. Perfect for weddings, proms, and celebrations.',
       icon: <PartyPopper className="h-8 w-8" />,
-      image: '/images/wedding-service.jpg',
+      image: '/images/wedding-service.webp',
       link: '/services'
     },
   ];
@@ -97,7 +93,7 @@ const HomePage = () => {
       <section 
         className="relative h-[500px] sm:h-[600px] lg:h-[700px] bg-cover bg-center bg-no-repeat"
         style={{ 
-          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(/images/executive-sedan.jpg)',
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(/images/executive-sedan.webp)',
           backgroundPosition: 'center center'
         }}
         data-testid="hero-section"

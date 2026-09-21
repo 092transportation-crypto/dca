@@ -2,18 +2,19 @@
 // Each targets a high-intent "<venue> transportation / limo" search.
 // Add a new object and it is picked up by App.js routes and the footer;
 // remember to add the URL to public/sitemap.xml as well.
+import { ensureFiveFaqs } from '@/lib/faqExtras';
 
 const HERO_IMAGE =
-  '/images/airport-curbside.jpg';
+  '/images/airport-curbside.webp';
 
 export const EVENT_PAGES = [
   {
     slug: 'concert-transportation',
     name: 'Concert & Event',
     h1: 'Concert & Event Transportation in DC, Maryland & Virginia',
-    metaTitle: 'Concert Transportation DC, MD & VA | Limo & Car Service | DCA Limos',
+    metaTitle: 'Concert Transportation DC, MD & VA | DCA Limos',
     metaDesc:
-      'Flat-rate limo and car service to Capital One Arena, Nationals Park, FedEx Field, Jiffy Lube Live, Wolf Trap & MGM National Harbor. Book online or call (877) 609-1919.',
+      'Flat-rate limo and car service to Capital One Arena, Nationals Park, FedEx Field, Wolf Trap & MGM National Harbor. Call (877) 609-1919.',
     distance: '3–30 miles',
     driveTime: '10–60 minutes',
     heroImage: HERO_IMAGE,
@@ -271,6 +272,11 @@ export const EVENT_PAGES = [
     related: ['concert-transportation', 'capital-one-arena-transportation', 'nationals-park-transportation'],
   },
 ];
+
+// Every page carries five FAQs (accordion + FAQPage schema).
+EVENT_PAGES.forEach((p) => {
+  p.faqs = ensureFiveFaqs(p.faqs, { slug: p.slug });
+});
 
 export function findEventPage(slug) {
   return EVENT_PAGES.find((p) => p.slug === slug) || null;

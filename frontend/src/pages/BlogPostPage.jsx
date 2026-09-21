@@ -6,6 +6,12 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { findBlogPost, BLOG_POSTS } from '@/data/blogPosts';
 import { findRoutePage, ROUTE_PAGES } from '@/data/routePages';
+import { GUIDES } from '@/data/guides';
+import { ensureFiveFaqs } from '@/lib/faqExtras';
+import NotFoundPage from '@/pages/NotFoundPage';
+
+// Blog posts live at /blog/<slug>; guides (data/guides.js) share this template at /<slug>.
+const postPath = (p) => (GUIDES.includes(p) ? `/${p.slug}` : `/blog/${p.slug}`);
 
 const PHONE_DISPLAY = '(877) 609-1919';
 const PHONE_TEL = 'tel:+18776091919';
@@ -14,15 +20,15 @@ const PHONE_TEL = 'tel:+18776091919';
 const LEGACY_POST = {
   slug: 'ultimate-guide-dca-airport-transportation',
   title: 'The Ultimate Guide to DCA Airport Transportation: What Every Traveler Needs to Know',
-  image: '/images/airport-curbside.jpg',
+  image: '/images/airport-curbside.webp',
   author: 'Michael Chen',
   authorBio: 'Transportation industry analyst and frequent business traveler with over 15 years of experience in executive travel logistics.',
   date: 'January 10, 2025',
   readTime: '12 min read',
   category: 'Airport Transportation',
   metaTitle: 'The Ultimate Guide to DCA Airport Transportation | DCA Limos',
-  metaDesc: 'A complete guide to Ronald Reagan Washington National Airport (DCA) transportation options, tips, and why professional chauffeur service offers unmatched convenience.',
-  faqs: [],
+  metaDesc: 'A complete guide to Reagan National Airport (DCA) transportation — your options, timing tips and when a professional chauffeur makes sense.',
+  faqs: ensureFiveFaqs([], { slug: 'ultimate-guide-dca-airport-transportation' }),
   content: `
     <p class="lead">Ronald Reagan Washington National Airport (DCA) serves millions of travelers annually. Whether you are a business executive rushing to a meeting or a leisure traveler beginning your Washington DC adventure, understanding your transportation options is crucial for a stress-free experience.</p>
     <h2>Understanding DCA Airport</h2>
@@ -32,12 +38,19 @@ const LEGACY_POST = {
   `,
 };
 
-const BlogPostPage = () => {
-  const { slug } = useParams();
-  const blogPost = findBlogPost(slug) || LEGACY_POST;
+const BlogPostPage = ({ guideSlug }) => {
+  const params = useParams();
+  const slug = guideSlug || params.slug;
+  // Unknown slugs used to fall back to the legacy article, which made every
+  // mistyped or retired /blog/ URL a duplicate of it. They 404 now.
+  const found = guideSlug
+    ? GUIDES.find((g) => g.slug === guideSlug)
+    : findBlogPost(slug) || (slug === LEGACY_POST.slug ? LEGACY_POST : null);
+  const blogPost = found || LEGACY_POST;
 
   useEffect(() => {
-    const canonicalHref = `https://www.dcalimos.com/blog/${blogPost.slug}`;
+    if (!found) return undefined;
+    const canonicalHref = `https://www.dcalimos.com${postPath(blogPost)}`;
     document.title = blogPost.metaTitle || blogPost.title;
 
     const metaDesc = document.querySelector('meta[name="description"]');
@@ -88,9 +101,11 @@ const BlogPostPage = () => {
       const s = document.getElementById(SCRIPT_ID);
       if (s) s.remove();
     };
-  }, [blogPost]);
+  }, [blogPost, found]);
 
-  const relatedPosts = BLOG_POSTS.filter((p) => p.slug !== blogPost.slug).slice(0, 2);
+  if (!found) return <NotFoundPage />;
+
+  const relatedPosts = [...(guideSlug ? GUIDES : []), ...BLOG_POSTS].filter((p) => p.slug !== blogPost.slug).slice(0, 2);
 
   const recommendedRoutes = (() => {
     const routes = (blogPost.relatedRoutes || []).map(findRoutePage).filter(Boolean);
@@ -169,6 +184,21 @@ const BlogPostPage = () => {
             </div>
 
             {/* FAQ */}
+            {blogPost.relatedLinks && blogPost.relatedLinks.length > 0 && (
+              <div className="mt-10" data-testid="post-related-links">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">Related Pages</h2>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                  {blogPost.relatedLinks.map((l) => (
+                    <li key={l.to}>
+                      <Link to={l.to} className="block border border-gray-200 hover:border-amber-500 rounded-lg px-4 py-3 text-gray-800 hover:text-amber-600 transition-colors">
+                        {l.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
             {blogPost.faqs && blogPost.faqs.length > 0 && (
               <div className="mt-12 sm:mt-16">
                 <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
@@ -233,7 +263,7 @@ const BlogPostPage = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
                 {relatedPosts.map((post) => (
                   <Card key={post.slug} className="group hover:shadow-xl transition-all border-2 hover:border-amber-500 overflow-hidden">
-                    <Link to={`/blog/${post.slug}`}>
+                    <Link to={postPath(post)}>
                       <div className="relative h-48 overflow-hidden">
                         <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>

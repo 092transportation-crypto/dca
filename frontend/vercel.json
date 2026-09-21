@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "api/sitemap.js": {
+      "includeFiles": "public/sitemap-static.xml"
+    }
+  },
   "redirects": [
     {
       "source": "/dca-to-bwi-airport",
@@ -34,6 +39,51 @@
       "source": "/dca-to-rockville-md",
       "destination": "/dca-to-rockville",
       "permanent": true
+    },
+    {
+      "source": "/capstone-limo-service",
+      "destination": "/cape-st-claire-limo-service",
+      "permanent": true
+    },
+    {
+      "source": "/snopesville-limo-service",
+      "destination": "/sykesville-limo-service",
+      "permanent": true
+    },
+    {
+      "source": "/blog/corporate-transportation-dc-executive-guide",
+      "destination": "/blog/dc-corporate-transportation-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/luxury-wedding-transportation-planning",
+      "destination": "/blog/dc-wedding-transportation-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/chauffeur-vs-rideshare-business-travelers",
+      "destination": "/corporate-car-service-vs-rideshare",
+      "permanent": true
+    },
+    {
+      "source": "/blog/dc-corporate-events-transportation-logistics",
+      "destination": "/blog/dc-corporate-transportation-guide",
+      "permanent": true
+    },
+    {
+      "source": "/blog/luxury-ground-transportation-trends-2025",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/images/:name([^/]+)\\.(jpg|jpeg|png)",
+      "destination": "/images/:name.webp",
+      "permanent": true
+    },
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -43,7 +93,7 @@
     },
     {
       "source": "/((?!api/).*)",
-      "destination": "/index.html"
+      "destination": "/shell.html"
     }
   ]
 }

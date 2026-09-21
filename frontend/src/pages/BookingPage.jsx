@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Phone, Calendar, MapPin, Clock, Car, BadgeDollarSign } from 'lucide-react';
 import { Toaster } from 'sonner';
+import FaqSection from '@/components/FaqSection';
+import { PAGE_FAQS } from '@/data/pageFaqs';
 import InquiryForm from '@/components/InquiryForm';
 
 const BookingPage = () => {
@@ -147,6 +149,7 @@ const BookingPage = () => {
           <Link to="/contact" className="text-amber-400 hover:underline font-semibold">contact our team</Link>.
         </div>
       </div>
+      <FaqSection faqs={PAGE_FAQS['/booking']} />
     </div>
   );
 };

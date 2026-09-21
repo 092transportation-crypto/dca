@@ -3,6 +3,8 @@ import { setPageSeo } from '@/lib/seo';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import FaqSection from '@/components/FaqSection';
+import { PAGE_FAQS } from '@/data/pageFaqs';
 import { Shield, Award, Clock, Users, Heart, CheckCircle, Target } from 'lucide-react';
 
 const AboutPage = () => {
@@ -60,7 +62,7 @@ const AboutPage = () => {
       <section 
         className="relative py-16 sm:py-24 lg:py-32 bg-cover bg-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/images/executive-sedan.jpg)'
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/images/executive-sedan.webp)'
         }}
         data-testid="about-hero"
       >
@@ -86,7 +88,7 @@ const AboutPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 mb-10 sm:mb-16">
               <div>
                 <img 
-                  src="/images/executive-sedan.jpg" 
+                  src="/images/executive-sedan.webp" 
                   alt="Our Service"
                   className="w-full h-64 sm:h-80 md:h-[400px] object-cover rounded-xl sm:rounded-2xl shadow-xl"
                 />
@@ -210,6 +212,7 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
+      <FaqSection faqs={PAGE_FAQS['/about']} />
     </div>
   );
 };

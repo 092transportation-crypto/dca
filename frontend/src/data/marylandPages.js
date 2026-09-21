@@ -1,6 +1,9 @@
 // Maryland SEO landing pages — city, route and service pages.
 // Generated content; each entry drives one page at /<slug>.
 
+import { MARYLAND_BATCH3 } from '@/data/marylandPagesBatch3';
+import { ensureFiveFaqs } from '@/lib/faqExtras';
+
 export const MARYLAND_PAGES = [
   {
     "slug": "rockville-limo-service",
@@ -1603,7 +1606,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -1765,7 +1768,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -1927,7 +1930,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -2413,7 +2416,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -2575,7 +2578,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -2737,7 +2740,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Gibson Island Limo Service",
@@ -2757,7 +2760,7 @@ export const MARYLAND_PAGES = [
     }
   },
   {
-    "slug": "capstone-limo-service",
+    "slug": "cape-st-claire-limo-service",
     "type": "city",
     "name": "Cape St. Claire",
     "badge": "Maryland Cities",
@@ -4199,7 +4202,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "label": "Cape St. Claire Limo Service",
-        "to": "/capstone-limo-service"
+        "to": "/cape-st-claire-limo-service"
       },
       {
         "label": "Navy-Marine Corps Memorial Stadium Transportation",
@@ -4539,7 +4542,7 @@ export const MARYLAND_PAGES = [
     }
   },
   {
-    "slug": "snopesville-limo-service",
+    "slug": "sykesville-limo-service",
     "type": "city",
     "name": "Sykesville",
     "badge": "Maryland Cities",
@@ -8523,7 +8526,7 @@ export const MARYLAND_PAGES = [
     "name": "Navy-Marine Corps Stadium",
     "badge": "Events & Venues",
     "h1": "Navy-Marine Corps Memorial Stadium Car Service & Limo Transportation",
-    "metaTitle": "Navy-Marine Corps Memorial Stadium Transportation | Car Service & Limo",
+    "metaTitle": "Navy-Marine Corps Stadium Transportation | DCA Limos",
     "metaDescription": "Luxury car service to Navy-Marine Corps Memorial Stadium in Annapolis – door drop-off, staged pickup, no parking hassle. Sedans, SUVs. Call (877) 609-1919.",
     "stats": [
       {
@@ -9512,8 +9515,15 @@ export const MARYLAND_PAGES = [
       ],
       "serviceType": "Event transportation"
     }
-  }
+  },
+  // Batch 3 (2026-09-21) lives in its own file.
+  ...MARYLAND_BATCH3,
 ];
+
+// Every page carries five FAQs (accordion + FAQPage schema).
+MARYLAND_PAGES.forEach((p) => {
+  p.faqs = ensureFiveFaqs(p.faqs, { slug: p.slug });
+});
 
 export const MARYLAND_SLUGS = MARYLAND_PAGES.map((p) => p.slug);
 export const findMarylandPage = (slug) => MARYLAND_PAGES.find((p) => p.slug === slug);

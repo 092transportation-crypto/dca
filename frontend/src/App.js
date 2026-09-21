@@ -20,6 +20,9 @@ import { EVENT_PAGES } from "@/data/eventPages";
 import MarylandPage from "@/pages/MarylandPage";
 import EventRoute from "@/pages/EventRoute";
 import { MARYLAND_PAGES } from "@/data/marylandPages";
+import { GUIDES } from "@/data/guides";
+import ServiceAreasPage from "@/pages/ServiceAreasPage";
+import SiteBreadcrumbs from "@/components/SiteBreadcrumbs";
 
 function App() {
   return (
@@ -35,6 +38,10 @@ function App() {
           <Route path="/blog" element={<BlogPage />} />
           <Route path="/blog/:slug" element={<BlogPostPage />} />
           <Route path="/booking" element={<BookingPage />} />
+          <Route path="/service-areas" element={<ServiceAreasPage />} />
+          {GUIDES.map((g) => (
+            <Route key={g.slug} path={`/${g.slug}`} element={<BlogPostPage guideSlug={g.slug} />} />
+          ))}
           <Route path="/limo/:slug" element={<LandingPage />} />
           {ROUTE_PAGES.map((r) => (
             <Route key={r.slug} path={`/${r.slug}`} element={<RoutePage slug={r.slug} />} />
@@ -48,6 +55,7 @@ function App() {
           <Route path="/:slug" element={<EventRoute />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
+        <SiteBreadcrumbs />
         <Footer />
         <ChatBot />
       </BrowserRouter>

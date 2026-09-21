@@ -3,21 +3,25 @@ import { setPageSeo } from '@/lib/seo';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Calendar, Clock, User, ArrowRight } from 'lucide-react';
+import FaqSection from '@/components/FaqSection';
+import { PAGE_FAQS } from '@/data/pageFaqs';
 import { BLOG_POSTS } from '@/data/blogPosts';
+import { GUIDES } from '@/data/guides';
 
 const BlogPage = () => {
   useEffect(() => {
     setPageSeo({
-      title: "Blog | Airport Transportation Tips, Limo Service Guides & DC Travel Advice | DCA Limo",
-      description: "Read expert tips on airport transportation, corporate travel guides, wedding limo planning, and DC area travel advice from DCA Limo's transportation specialists.",
+      title: "Blog | DC Airport & Limo Service Travel Guides | DCA Limos",
+      description: "Airport transportation tips, corporate travel guides, wedding limo planning and DC-area travel advice from the DCA Limos team.",
       path: "/blog",
     });
   }, []);
 
   const blogPosts = [
-    // Newest, data-driven posts (each has its own /blog/<slug> page)
-    ...BLOG_POSTS.map((p) => ({
+    // Guides live at /<slug>; data-driven posts at /blog/<slug>.
+    ...[...GUIDES.map((g) => ({ ...g, to: `/${g.slug}` })), ...BLOG_POSTS].map((p) => ({
       slug: p.slug,
+      to: p.to || `/blog/${p.slug}`,
       title: p.title,
       excerpt: p.excerpt,
       image: p.image,
@@ -30,62 +34,12 @@ const BlogPage = () => {
       slug: 'ultimate-guide-dca-airport-transportation',
       title: 'The Ultimate Guide to DCA Airport Transportation: What Every Traveler Needs to Know',
       excerpt: 'Navigating Ronald Reagan Washington National Airport can be complex. Discover insider tips, transportation options, and why professional chauffeur services offer unmatched convenience for business and leisure travelers alike.',
-      image: '/images/airport-curbside.jpg',
+      image: '/images/airport-curbside.webp',
       author: 'Michael Chen',
       date: 'January 10, 2025',
       readTime: '12 min read',
       category: 'Airport Transportation'
     },
-    {
-      slug: 'corporate-transportation-dc-executive-guide',
-      title: 'Corporate Transportation in Washington DC: An Executive\'s Comprehensive Guide',
-      excerpt: 'In the nation\'s capital, image and punctuality matter. Learn how Fortune 500 companies are leveraging professional transportation services to enhance productivity, impress clients, and streamline executive travel logistics.',
-      image: '/images/executive-sedan.jpg',
-      author: 'Sarah Williams',
-      date: 'January 5, 2025',
-      readTime: '15 min read',
-      category: 'Corporate Travel'
-    },
-    {
-      slug: 'luxury-wedding-transportation-planning',
-      title: 'Planning Perfect Wedding Transportation: A Complete Guide for Couples',
-      excerpt: 'Your wedding day deserves flawless execution. From timeline coordination to vehicle selection, discover how to plan elegant transportation that complements your special day and creates lasting memories.',
-      image: '/images/wedding-service.jpg',
-      author: 'Jennifer Martinez',
-      date: 'December 28, 2024',
-      readTime: '10 min read',
-      category: 'Wedding & Events'
-    },
-    {
-      slug: 'chauffeur-vs-rideshare-business-travelers',
-      title: 'Professional Chauffeur Services vs. Rideshare: What Business Travelers Should Know',
-      excerpt: 'Not all transportation services are created equal. Explore the critical differences between professional chauffeur services and rideshare apps, and why executives increasingly choose dedicated luxury transportation.',
-      image: '/images/executive-sedan.jpg',
-      author: 'David Thompson',
-      date: 'December 20, 2024',
-      readTime: '8 min read',
-      category: 'Business Insights'
-    },
-    {
-      slug: 'dc-corporate-events-transportation-logistics',
-      title: 'Mastering Corporate Event Transportation Logistics in Washington DC',
-      excerpt: 'Successfully coordinating transportation for conferences, galas, and corporate events requires meticulous planning. Learn proven strategies from event professionals who manage high-profile gatherings in the nation\'s capital.',
-      image: '/images/stretch-limo.jpg',
-      author: 'Robert Anderson',
-      date: 'December 15, 2024',
-      readTime: '14 min read',
-      category: 'Event Planning'
-    },
-    {
-      slug: 'luxury-ground-transportation-trends-2025',
-      title: 'Luxury Ground Transportation Trends Shaping 2025: Technology, Sustainability, and Service Excellence',
-      excerpt: 'The transportation industry is evolving rapidly. Discover emerging trends including electric luxury vehicles, AI-powered logistics, enhanced safety protocols, and personalized service innovations transforming the chauffeur experience.',
-      image: '/images/executive-sedan.jpg',
-      author: 'Emily Parker',
-      date: 'December 10, 2024',
-      readTime: '11 min read',
-      category: 'Industry Trends'
-    }
   ];
 
   const categories = ['All', 'Airport Transportation', 'Corporate Travel', 'Wedding & Events', 'Business Insights', 'Event Planning', 'Industry Trends'];
@@ -131,7 +85,7 @@ const BlogPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {blogPosts.map((post, index) => (
               <Card key={index} className="group hover:shadow-2xl transition-all duration-300 border-2 hover:border-amber-500 overflow-hidden">
-                <Link to={`/blog/${post.slug}`}>
+                <Link to={post.to || `/blog/${post.slug}`}>
                   <div className="relative h-48 sm:h-56 overflow-hidden">
                     <img 
                       src={post.image}
@@ -196,6 +150,7 @@ const BlogPage = () => {
           </div>
         </div>
       </section>
+      <FaqSection faqs={PAGE_FAQS['/blog']} />
     </div>
   );
 };

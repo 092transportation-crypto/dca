@@ -3,6 +3,8 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { Phone, Calendar, Car, CheckCircle2, MapPin, Clock, ArrowRight, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import FaqSection from '@/components/FaqSection';
+import { landingFaqs } from '@/data/pageFaqs';
 import { findLandingPage, LANDING_PAGES } from '@/data/landingPages';
 
 const LandingPage = () => {
@@ -199,6 +201,7 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+      <FaqSection faqs={landingFaqs(data)} heading={`${data.h1} FAQs`} />
     </div>
   );
 };

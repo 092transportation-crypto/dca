@@ -1,7 +1,18 @@
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram } from 'lucide-react';
 import { ROUTE_PAGES } from '@/data/routePages';
+import { MARYLAND_PAGES } from '@/data/marylandPages';
+import { LANDING_PAGES } from '@/data/landingPages';
+
 import { EVENT_PAGES } from '@/data/eventPages';
+
+// Footer city names link to that city's own page when one exists.
+const cityHref = (city) => {
+  const md = MARYLAND_PAGES.find((p) => p.type === 'city' && p.name === city);
+  if (md) return `/${md.slug}`;
+  const slug = `${city.toLowerCase().replace(/\s+/g, '-')}-limo-service`;
+  return LANDING_PAGES.some((p) => p.slug === slug) ? `/limo/${slug}` : '/service-areas';
+};
 
 // Short keyword-rich anchors for the footer blog sitemap.
 const BLOG_FOOTER_LINKS = [
@@ -70,6 +81,7 @@ const Footer = () => {
               <li><Link to="/services" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span>→</span><span>Services</span></Link></li>
               <li><Link to="/fleet" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span>→</span><span>Fleet</span></Link></li>
               <li><Link to="/about" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span>→</span><span>About Us</span></Link></li>
+              <li><Link to="/service-areas" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span>→</span><span>Service Areas</span></Link></li>
               <li><Link to="/blog" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span>→</span><span>Blog</span></Link></li>
               <li><Link to="/contact" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span>→</span><span>Contact</span></Link></li>
               <li><Link to="/booking" className="text-sm sm:text-base text-amber-400 hover:text-amber-300 font-semibold transition-colors flex items-center space-x-2"><span>→</span><span>Book Now</span></Link></li>
@@ -80,10 +92,10 @@ const Footer = () => {
           <div>
             <h3 className="text-base sm:text-lg font-bold mb-4 sm:mb-6 text-amber-400 uppercase tracking-wider">Our Services</h3>
             <ul className="space-y-2 sm:space-y-3">
-              <li><Link to="/services" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span className="text-amber-500">•</span><span>Airport Transportation</span></Link></li>
-              <li><Link to="/services" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span className="text-amber-500">•</span><span>Corporate Car Service</span></Link></li>
-              <li><Link to="/services" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span className="text-amber-500">•</span><span>Wedding Limo</span></Link></li>
-              <li><Link to="/services" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span className="text-amber-500">•</span><span>Prom Limo</span></Link></li>
+              <li><Link to="/limo/dca-airport-limo" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span className="text-amber-500">•</span><span>Airport Transportation</span></Link></li>
+              <li><Link to="/limo/corporate-car-service" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span className="text-amber-500">•</span><span>Corporate Car Service</span></Link></li>
+              <li><Link to="/limo/wedding-limo-service" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span className="text-amber-500">•</span><span>Wedding Limo</span></Link></li>
+              <li><Link to="/limo/prom-limo-service" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span className="text-amber-500">•</span><span>Prom Limo</span></Link></li>
               <li><Link to="/booking" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span className="text-amber-500">•</span><span>Book Online</span></Link></li>
             </ul>
           </div>
@@ -165,7 +177,7 @@ const Footer = () => {
             {[
               'Annapolis','Baltimore','Bethesda','Silver Spring','Rockville','Frederick','Gaithersburg','Columbia','Towson','Ellicott City','Laurel','Greenbelt','College Park','Hanover','Linthicum Heights','Odenton','Severna Park','Crofton','Arnold','Pasadena','Glen Burnie','Edgewater','Crownsville','Gambrills','Millersville','Severn'
             ].map((city, i) => (
-              <Link key={i} to="/services" className="hover:text-amber-400 transition-colors" data-testid={`footer-md-city-${i}`}>{city}, MD</Link>
+              <Link key={i} to={cityHref(city)} className="hover:text-amber-400 transition-colors" data-testid={`footer-md-city-${i}`}>{city}, MD</Link>
             ))}
           </div>
         </div>

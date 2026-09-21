@@ -3,6 +3,8 @@ import { setPageSeo } from '@/lib/seo';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import FaqSection from '@/components/FaqSection';
+import { PAGE_FAQS } from '@/data/pageFaqs';
 import { CheckCircle, Shield, Award, Star, Users, Briefcase } from 'lucide-react';
 
 const FleetPage = () => {
@@ -19,7 +21,7 @@ const FleetPage = () => {
     {
       category: 'Business Sedan',
       name: 'Mercedes-Benz E-Class 2023+ or similar',
-      image: '/images/mercedes-e-class.jpg',
+      image: '/images/mercedes-e-class.webp',
       passengers: '3',
       luggage: '2',
       description:
@@ -28,7 +30,7 @@ const FleetPage = () => {
     {
       category: 'First Class Sedan',
       name: 'BMW 7 Series / Mercedes S-Class 2023+ or similar',
-      image: '/images/bmw-7-series.jpg',
+      image: '/images/bmw-7-series.webp',
       passengers: '3',
       luggage: '2',
       description:
@@ -37,7 +39,7 @@ const FleetPage = () => {
     {
       category: 'Midsize SUV',
       name: 'Lincoln Nautilus 2023+ or similar',
-      image: '/images/lincoln-nautilus.jpg',
+      image: '/images/lincoln-nautilus.webp',
       passengers: '3',
       luggage: '4',
       description:
@@ -46,7 +48,7 @@ const FleetPage = () => {
     {
       category: 'Luxury SUV',
       name: 'Chevrolet Suburban 2023+ or similar',
-      image: '/images/chevy-suburban.jpg',
+      image: '/images/chevy-suburban.webp',
       passengers: '5',
       luggage: '5',
       description:
@@ -55,7 +57,7 @@ const FleetPage = () => {
     {
       category: 'Premium SUV',
       name: 'Cadillac Escalade 2023+ or similar',
-      image: '/images/cadillac-escalade.jpg',
+      image: '/images/cadillac-escalade.webp',
       passengers: '6',
       luggage: '5',
       description:
@@ -64,7 +66,7 @@ const FleetPage = () => {
     {
       category: 'Sprinter Shuttle',
       name: 'Mercedes Sprinter 2023+ or similar',
-      image: '/images/sprinter-shuttle-seats.jpg',
+      image: '/images/sprinter-shuttle-seats.webp',
       passengers: '13',
       luggage: '13',
       description:
@@ -73,7 +75,7 @@ const FleetPage = () => {
     {
       category: 'Sprinter Executive',
       name: 'Mercedes Sprinter 2023+ or similar',
-      image: '/images/mercedes-sprinter.jpg',
+      image: '/images/mercedes-sprinter.webp',
       passengers: '13',
       luggage: '13',
       description:
@@ -82,7 +84,7 @@ const FleetPage = () => {
     {
       category: 'Sprinter Limo',
       name: 'Mercedes Sprinter Limo 2023+ or similar',
-      image: '/images/limousine.jpg',
+      image: '/images/limousine.webp',
       passengers: '13',
       luggage: '13',
       description:
@@ -96,7 +98,7 @@ const FleetPage = () => {
       <section 
         className="relative py-16 sm:py-24 lg:py-32 bg-cover bg-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(/images/mercedes-sclass.jpg)',
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(/images/mercedes-sclass.webp)',
           backgroundColor: '#111'
         }}
         data-testid="fleet-hero"
@@ -307,6 +309,7 @@ const FleetPage = () => {
           <Link to="/booking" className="text-amber-600 hover:underline font-semibold">book your ride online</Link>.
         </div>
       </div>
+      <FaqSection faqs={PAGE_FAQS['/fleet']} />
     </div>
   );
 };

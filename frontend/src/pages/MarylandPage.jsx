@@ -8,7 +8,7 @@ import { findMarylandPage } from '@/data/marylandPages';
 const SITE_URL = 'https://www.dcalimos.com';
 const PHONE_DISPLAY = '(877) 609-1919';
 const PHONE_TEL = 'tel:+18776091919';
-const HERO_IMAGE = '/images/airport-curbside.jpg';
+const HERO_IMAGE = '/images/airport-curbside.webp';
 const STAT_ICONS = [MapPin, Clock, Car, Star];
 
 // Maryland city, route and service landing pages — same layout system as
@@ -236,7 +236,7 @@ const MarylandPage = ({ slug: slugProp, page: pageProp }) => {
       <section className="py-16 sm:py-20 bg-gradient-to-b from-gray-50 to-white">
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-10 text-center">Related Maryland Service</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-10 text-center">Related Services &amp; Areas</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
               {data.related.map((r) => (
                 <Link key={r.to} to={r.to} className="group">

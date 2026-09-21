@@ -8,12 +8,15 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Phone, Mail, MapPin, Clock, CheckCircle } from 'lucide-react';
 import { toast } from 'sonner';
 import { Toaster } from '@/components/ui/sonner';
+import FaqSection from '@/components/FaqSection';
+import { PAGE_FAQS } from '@/data/pageFaqs';
+import { setPageSeo } from '@/lib/seo';
 
 const ContactPage = () => {
   useEffect(() => {
     setPageSeo({
-      title: "Contact DCA Limo | 24/7 Airport Transportation & Car Service | Call (877) 609-1919 | Washington DC, MD, VA",
-      description: 'Contact DCA Limo for 24/7 airport transportation and luxury car service. Call (877) 609-1919 or email info@dcalimos.com. Serving Washington DC, Maryland & Virginia.',
+      title: "Contact DCA Limos | 24/7 Car Service | (877) 609-1919",
+      description: 'Contact DCA Limos 24/7 for airport transportation and car service in Washington DC, Maryland & Virginia. Call (877) 609-1919 or email info@dcalimos.com.',
       path: "/contact",
     });
   }, []);
@@ -79,7 +82,7 @@ const ContactPage = () => {
       <section 
         className="relative py-16 sm:py-24 lg:py-32 bg-cover bg-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/images/executive-sedan.jpg)'
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/images/executive-sedan.webp)'
         }}
         data-testid="contact-hero"
       >
@@ -383,6 +386,7 @@ const ContactPage = () => {
           <Link to="/booking" className="text-amber-600 hover:underline font-semibold">book your ride online</Link>.
         </div>
       </div>
+      <FaqSection faqs={PAGE_FAQS['/contact']} />
     </div>
   );
 };

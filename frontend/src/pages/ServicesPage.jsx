@@ -3,6 +3,8 @@ import { setPageSeo } from '@/lib/seo';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import FaqSection from '@/components/FaqSection';
+import { PAGE_FAQS } from '@/data/pageFaqs';
 import { Plane, Briefcase, PartyPopper, Calendar, CheckCircle } from 'lucide-react';
 
 const ServicesPage = () => {
@@ -18,7 +20,7 @@ const ServicesPage = () => {
     {
       title: 'Airport Transportation Service',
       icon: <Plane className="h-10 w-10 sm:h-12 sm:w-12" />,
-      image: '/images/airport-curbside.jpg',
+      image: '/images/airport-curbside.webp',
       description: 'Premier DCA, BWI & Dulles Airport Transportation Service with real-time flight tracking, meet-and-greet, and luggage assistance — the airport limo service Washington DC travelers rely on for a stress-free journey.',
       features: [
         'Real-time flight tracking for precise pickups',
@@ -32,7 +34,7 @@ const ServicesPage = () => {
     {
       title: 'Corporate Car Service',
       icon: <Briefcase className="h-10 w-10 sm:h-12 sm:w-12" />,
-      image: '/images/executive-sedan.jpg',
+      image: '/images/executive-sedan.webp',
       description: 'Executive transportation solutions for business professionals in Washington DC, Maryland & Virginia who demand punctuality, privacy, and professionalism.',
       features: [
         'Dedicated corporate account management',
@@ -46,7 +48,7 @@ const ServicesPage = () => {
     {
       title: 'Wedding Limo Service',
       icon: <PartyPopper className="h-10 w-10 sm:h-12 sm:w-12" />,
-      image: '/images/wedding-service.jpg',
+      image: '/images/wedding-service.webp',
       description: 'Elegant wedding limousine service that transforms your special day into an unforgettable experience. Luxury, style, and sophistication for your big day.',
       features: [
         'Red carpet arrival service',
@@ -60,7 +62,7 @@ const ServicesPage = () => {
     {
       title: 'Prom Limo & Party Transportation',
       icon: <Calendar className="h-10 w-10 sm:h-12 sm:w-12" />,
-      image: '/images/stretch-limo.jpg',
+      image: '/images/stretch-limo.webp',
       description: 'Create lasting memories for birthdays, graduations, anniversaries, and milestone celebrations with our premium fleet.',
       features: [
         'Personalized decoration packages',
@@ -79,7 +81,7 @@ const ServicesPage = () => {
       <section 
         className="relative py-16 sm:py-24 lg:py-32 bg-cover bg-center"
         style={{
-          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/images/executive-sedan.jpg)'
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(/images/executive-sedan.webp)'
         }}
         data-testid="services-hero"
       >
@@ -245,6 +247,7 @@ const ServicesPage = () => {
           </p>
         </div>
       </section>
+      <FaqSection faqs={PAGE_FAQS['/services']} />
     </div>
   );
 };

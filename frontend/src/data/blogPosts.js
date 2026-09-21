@@ -1,10 +1,11 @@
 // DCA Limos blog posts — data-driven. BlogPostPage looks up by slug; BlogPage lists them.
 // Add a new object and it appears in the listing, gets its own /blog/<slug> page, and the sitemap.
+import { ensureFiveFaqs } from '@/lib/faqExtras';
 
 const IMG_AIRPORT =
-  '/images/airport-curbside.jpg';
+  '/images/airport-curbside.webp';
 const IMG_EXEC =
-  '/images/executive-sedan.jpg';
+  '/images/executive-sedan.webp';
 
 export const BLOG_POSTS = [
   {
@@ -13,7 +14,7 @@ export const BLOG_POSTS = [
     title: 'DCA Airport Car Service vs Uber in 2026: An Honest Cost & Reliability Comparison',
     metaTitle: 'DCA Car Service vs Uber: Real Costs | DCA Limos',
     metaDesc:
-      'DCA airport car service vs Uber in 2026 — real prices, surge math, and hidden costs compared. See when a flat-rate chauffeur actually beats rideshare. Call (877) 609-1919.',
+      'DCA airport car service vs Uber in 2026 — real prices, surge math and hidden costs compared. See when a flat-rate chauffeur beats rideshare.',
     excerpt:
       'Is a flat-rate DCA car service really worth it over Uber in 2026? We break down the real prices, surge pricing, and hidden costs — and exactly when each option wins.',
     image: IMG_EXEC,
@@ -84,7 +85,7 @@ export const BLOG_POSTS = [
     title: 'How to Choose the Best Black Car Service at DCA Airport (2026 Guide)',
     metaTitle: 'Best Black Car Service at DCA Airport | DCA Limos',
     metaDesc:
-      'How to pick the best black car service at DCA Airport in 2026 — the 7 things that actually matter, from flat-rate pricing to flight tracking and fleet quality. Call (877) 609-1919.',
+      'How to pick the best black car service at DCA in 2026 — the 7 things that matter, from flat-rate pricing to flight tracking. Call (877) 609-1919.',
     excerpt:
       'Not all DCA black car services are equal. Here are the seven things that separate the best Reagan National car service from the rest — and how to vet one before you book.',
     image: IMG_AIRPORT,
@@ -153,7 +154,7 @@ export const BLOG_POSTS = [
     title: 'Reagan National Airport (DCA) Ground Transportation Guide for 2026',
     metaTitle: 'Reagan National Transportation Guide | DCA Limos',
     metaDesc:
-      'Complete 2026 guide to Reagan National (DCA) ground transportation — terminals, pickup zones, Metro, taxi, rideshare, and car service compared. Call (877) 609-1919.',
+      '2026 guide to Reagan National (DCA) ground transportation — terminals, pickup zones, Metro, taxi, rideshare and car service compared.',
     excerpt:
       'Everything you need to know about getting to and from Reagan National in 2026 — terminal layout, exact pickup zones, and an honest comparison of every transportation option.',
     image: IMG_AIRPORT,
@@ -223,7 +224,7 @@ export const BLOG_POSTS = [
     title: 'DCA to DC Flat-Rate Car Service: One Price, No Surge, No Surprises',
     metaTitle: 'DCA to DC Flat Rate Car Service | DCA Limos',
     metaDesc:
-      'DCA to Washington DC flat-rate car service in 2026 from $65 — tolls and flight tracking included, no surge, no meter. Capitol Hill, K Street, Georgetown. Call (877) 609-1919.',
+      'DCA to Washington DC flat-rate car service in 2026 from $65 — tolls and flight tracking included, no surge, no meter. Call (877) 609-1919.',
     excerpt:
       'Why a flat rate beats a meter or surge fare on the short DCA-to-DC run — what is included, real 2026 pricing, and the neighborhoods we serve.',
     image: IMG_AIRPORT,
@@ -283,7 +284,7 @@ export const BLOG_POSTS = [
     title: 'Corporate Car Service at DCA Airport: A Guide for DC-Area Businesses',
     metaTitle: 'Corporate Car Service at DCA | DCA Limos',
     metaDesc:
-      'Corporate car service at DCA Airport — dedicated chauffeurs, monthly billing, flight tracking, and discreet executive travel across the DMV. Call (877) 609-1919.',
+      'Corporate car service at DCA Airport — dedicated chauffeurs, monthly billing, flight tracking, and discreet executive travel. Call (877) 609-1919.',
     excerpt:
       'What a real corporate car service program looks like at Reagan National — billing, account management, dedicated chauffeurs, and the details that make executive travel just work.',
     image: IMG_EXEC,
@@ -1133,7 +1134,7 @@ export const BLOG_POSTS = [
       'Wedding transportation guide for DC and Northern Virginia — vehicles, guest shuttles, timelines, costs, and booking windows. Call (877) 609-1919.',
     excerpt:
       'From Georgetown ballrooms to Loudoun wine country, wedding transportation in the DC region has its own rules. What to book, when to book it, and the questions that protect your day.',
-    image: '/images/wedding-service.jpg',
+    image: '/images/wedding-service.webp',
     author: 'Sarah Williams',
     authorBio: 'DC-area travel writer covering airports, ground transportation, and the practical side of frequent flying.',
     date: 'August 15, 2026',
@@ -1277,7 +1278,7 @@ export const BLOG_POSTS = [
       'What DCA airport car service really costs in 2026 — sedan, SUV and Sprinter pricing, hourly rates, tipping and what is included. Call (877) 609-1919.',
     excerpt:
       'The complete anatomy of DCA car service pricing in 2026 — what drives the number, how each vehicle class prices, what a real flat rate includes, and five honest ways to pay less.',
-    image: '/images/mercedes-sclass.jpg',
+    image: '/images/mercedes-sclass.webp',
     author: 'Michael Chen',
     authorBio: 'Transportation industry analyst and frequent DC-area business traveler with 15+ years in executive travel logistics.',
     date: 'August 19, 2026',
@@ -1363,7 +1364,7 @@ export const BLOG_POSTS = [
       'Metro, rideshare, taxi or chauffeur? Every way to get from Reagan National to DC compared with real 2026 prices and times. Call (877) 609-1919.',
     excerpt:
       'DCA sits three miles from downtown, so every option is fast on paper. Here is the honest 2026 comparison — Metro, rideshare, taxi, and chauffeur — and which one your specific trip should use.',
-    image: '/images/airport-curbside.jpg',
+    image: '/images/airport-curbside.webp',
     author: 'Sarah Williams',
     authorBio: 'Executive travel consultant specializing in ground transportation for corporate and government clients across the DMV.',
     date: 'August 19, 2026',
@@ -1444,7 +1445,7 @@ export const BLOG_POSTS = [
       'DCA car service to Northern Virginia — flat rates by destination, Pentagon and Tysons travel, pickup logistics and booking tips. Call (877) 609-1919.',
     excerpt:
       'From Crystal City to western Loudoun, here is the working guide to booking DCA car service into Northern Virginia — realistic flat rates by destination, corporate and government travel, and how the pickup actually works.',
-    image: '/images/cadillac-escalade.jpg',
+    image: '/images/cadillac-escalade.webp',
     author: 'David Thompson',
     authorBio: 'Corporate accounts manager at DCA Limos, focused on executive and government ground transportation in the District.',
     date: 'August 20, 2026',
@@ -1524,7 +1525,7 @@ export const BLOG_POSTS = [
       'What to expect from corporate car service in Washington DC — accounts, billing, chauffeur standards, roadshows and compliance. Call (877) 609-1919.',
     excerpt:
       'From the first account call to the monthly invoice — a plain-English walkthrough of how corporate car service actually works in Washington DC, and the standards your company should insist on.',
-    image: '/images/bmw-7-series.jpg',
+    image: '/images/bmw-7-series.webp',
     author: 'David Thompson',
     authorBio: 'Corporate accounts manager at DCA Limos, focused on executive and government ground transportation in the District.',
     date: 'August 20, 2026',
@@ -1592,7 +1593,7 @@ export const BLOG_POSTS = [
       'DCA vs Dulles compared — location, airlines, fares, Metro access and ground transportation, plus when each airport wins. Call (877) 609-1919.',
     excerpt:
       'Three miles from downtown versus twenty-six: the honest comparison of Reagan National and Dulles — routes, fares, ground transportation math, and the deciding factors most travelers weigh wrong.',
-    image: '/images/executive-sedan.jpg',
+    image: '/images/executive-sedan.webp',
     author: 'Michael Chen',
     authorBio: 'Transportation industry analyst and frequent DC-area business traveler with 15+ years in executive travel logistics.',
     date: 'August 20, 2026',
@@ -1665,6 +1666,11 @@ export const BLOG_POSTS = [
     ],
   },
 ];
+
+// Every page carries five FAQs (accordion + FAQPage schema).
+BLOG_POSTS.forEach((p) => {
+  p.faqs = ensureFiveFaqs(p.faqs, { slug: p.slug });
+});
 
 export function findBlogPost(slug) {
   return BLOG_POSTS.find((p) => p.slug === slug) || null;
