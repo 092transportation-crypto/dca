@@ -6,5 +6,7 @@ Sitemap: https://www.dcalimos.com/sitemap.xml
 # Crawl-delay for polite crawling
 Crawl-delay: 1
 
-# Block admin and private paths (none currently)
-# Disallow: /admin/
+# Old WordPress search URLs (/?s=term) — not pages, never index
+Disallow: /*?s=
+Disallow: /*&s=
+Disallow: /search/
