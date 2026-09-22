@@ -17,17 +17,6 @@
       "permanent": true
     },
     {
-      "source": "/",
-      "has": [
-        {
-          "type": "query",
-          "key": "s"
-        }
-      ],
-      "destination": "/",
-      "permanent": true
-    },
-    {
       "source": "/dca-to-bwi-airport",
       "destination": "/dca-to-bwi",
       "permanent": true
