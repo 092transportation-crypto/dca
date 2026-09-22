@@ -4,6 +4,7 @@ import { Phone, Calendar, Car, CheckCircle2, MapPin, Clock, ArrowRight, Star, Do
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { findRoutePage, ROUTE_PAGES } from '@/data/routePages';
+import KeywordSection from '@/components/KeywordSection';
 
 const PHONE_DISPLAY = '(877) 609-1919';
 const PHONE_TEL = 'tel:+18776091919';
@@ -205,6 +206,8 @@ const RoutePage = ({ slug: slugProp }) => {
           </div>
         </div>
       </section>
+
+      <KeywordSection slug={data.slug} place={`DCA to ${data.destination}`} kind="place" />
 
       {/* FAQ */}
       <section className="py-16 sm:py-20 bg-white">

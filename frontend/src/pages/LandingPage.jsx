@@ -6,6 +6,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import FaqSection from '@/components/FaqSection';
 import { landingFaqs } from '@/data/pageFaqs';
 import { findLandingPage, LANDING_PAGES } from '@/data/landingPages';
+import KeywordSection from '@/components/KeywordSection';
 
 const LandingPage = () => {
   const { slug } = useParams();
@@ -201,6 +202,10 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
+      {/* Place-keyed keyword block for city and airport pages (service pages have no place). */}
+      {(data.category === 'Maryland Cities' || data.category === 'Airport Transportation') && (
+        <KeywordSection slug={`limo-${data.slug}`} place={data.h1.replace(/ (Limo|Car|Chauffeur) Service.*$/i, '')} kind="place" />
+      )}
       <FaqSection faqs={landingFaqs(data)} heading={`${data.h1} FAQs`} />
     </div>
   );

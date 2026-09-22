@@ -128,7 +128,7 @@ const FleetPage = () => {
                 <div className="relative h-64 overflow-hidden bg-gray-900">
                   <img
                     src={vehicle.image}
-                    alt={`${vehicle.name} — ${vehicle.category} chauffeur vehicle, seats ${vehicle.passengers}`}
+                    alt={`${vehicle.name} — ${vehicle.category} for DCA airport car service and Washington DC black car service, seats ${vehicle.passengers}`}
                     loading="lazy"
                     decoding="async"
                     width="800"

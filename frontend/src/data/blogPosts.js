@@ -1,6 +1,7 @@
 // DCA Limos blog posts — data-driven. BlogPostPage looks up by slug; BlogPage lists them.
 // Add a new object and it appears in the listing, gets its own /blog/<slug> page, and the sitemap.
 import { ensureFiveFaqs } from '@/lib/faqExtras';
+import { BLOG_POSTS_BATCH2 } from '@/data/blogPostsBatch2';
 
 const IMG_AIRPORT =
   '/images/airport-curbside.webp';
@@ -1671,6 +1672,8 @@ export const BLOG_POSTS = [
 BLOG_POSTS.forEach((p) => {
   p.faqs = ensureFiveFaqs(p.faqs, { slug: p.slug });
 });
+
+BLOG_POSTS.push(...BLOG_POSTS_BATCH2);
 
 export function findBlogPost(slug) {
   return BLOG_POSTS.find((p) => p.slug === slug) || null;

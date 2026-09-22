@@ -4,6 +4,7 @@ import { Phone, Calendar, Car, CheckCircle2, MapPin, Clock, ArrowRight, Star, Us
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { findMarylandPage } from '@/data/marylandPages';
+import KeywordSection from '@/components/KeywordSection';
 
 const SITE_URL = 'https://dcalimos.com';
 const PHONE_DISPLAY = '(877) 609-1919';
@@ -207,6 +208,8 @@ const MarylandPage = ({ slug: slugProp, page: pageProp }) => {
           </div>
         </div>
       </section>
+
+      <KeywordSection slug={data.slug} place={data.name} kind={data.type === "event" ? "event" : "place"} />
 
       {/* FAQ */}
       <section className="py-16 sm:py-20 bg-white">

@@ -2,6 +2,7 @@
 // Generated content; each entry drives one page at /<slug>.
 
 import { MARYLAND_BATCH3 } from '@/data/marylandPagesBatch3';
+import { MARYLAND_BATCH4 } from '@/data/marylandPagesBatch4';
 import { ensureFiveFaqs } from '@/lib/faqExtras';
 
 export const MARYLAND_PAGES = [
@@ -9518,6 +9519,7 @@ export const MARYLAND_PAGES = [
   },
   // Batch 3 (2026-09-21) lives in its own file.
   ...MARYLAND_BATCH3,
+  ...MARYLAND_BATCH4,
 ];
 
 // Every page carries five FAQs (accordion + FAQPage schema).
