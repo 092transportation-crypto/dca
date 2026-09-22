@@ -4,7 +4,7 @@ import { ChevronRight } from 'lucide-react';
 import { setJsonLd } from '@/lib/seo';
 import { breadcrumbTrail, hasOwnBreadcrumbSchema } from '@/lib/breadcrumbs';
 
-const ORIGIN = 'https://www.dcalimos.com';
+const ORIGIN = 'https://dcalimos.com';
 
 // Site-wide breadcrumb bar (mounted once in App, above the footer) plus
 // BreadcrumbList JSON-LD for page types that don't already emit their own.

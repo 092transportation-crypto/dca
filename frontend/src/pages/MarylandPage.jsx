@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { findMarylandPage } from '@/data/marylandPages';
 
-const SITE_URL = 'https://www.dcalimos.com';
+const SITE_URL = 'https://dcalimos.com';
 const PHONE_DISPLAY = '(877) 609-1919';
 const PHONE_TEL = 'tel:+18776091919';
 const HERO_IMAGE = '/images/airport-curbside.webp';

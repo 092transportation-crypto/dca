@@ -1,5 +1,5 @@
 // Per-page SEO: title, description, and canonical (SPA-safe upserts).
-const BASE = "https://www.dcalimos.com";
+const BASE = "https://dcalimos.com";
 
 export function setPageSeo({ title, description, path }) {
   if (title) document.title = title;
