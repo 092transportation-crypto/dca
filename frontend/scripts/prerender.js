@@ -24,7 +24,7 @@ const Module = require("module");
 const ROOT = path.resolve(__dirname, "..");
 const SRC = path.join(ROOT, "src");
 const BUILD_DIR = path.join(ROOT, "build");
-const ORIGIN = "https://www.dcalimos.com";
+const ORIGIN = "https://dcalimos.com";
 
 function installCompiler() {
   const babel = require("@babel/core");

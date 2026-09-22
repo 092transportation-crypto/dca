@@ -50,7 +50,7 @@ const BlogPostPage = ({ guideSlug }) => {
 
   useEffect(() => {
     if (!found) return undefined;
-    const canonicalHref = `https://www.dcalimos.com${postPath(blogPost)}`;
+    const canonicalHref = `https://dcalimos.com${postPath(blogPost)}`;
     document.title = blogPost.metaTitle || blogPost.title;
 
     const metaDesc = document.querySelector('meta[name="description"]');
@@ -73,8 +73,8 @@ const BlogPostPage = ({ guideSlug }) => {
         headline: blogPost.title,
         author: { '@type': 'Person', name: blogPost.author },
         datePublished: blogPost.date,
-        image: new URL(blogPost.image, 'https://www.dcalimos.com').href,
-        publisher: { '@type': 'Organization', name: 'DCA Limos', url: 'https://www.dcalimos.com' },
+        image: new URL(blogPost.image, 'https://dcalimos.com').href,
+        publisher: { '@type': 'Organization', name: 'DCA Limos', url: 'https://dcalimos.com' },
         mainEntityOfPage: canonicalHref,
       },
     ];
