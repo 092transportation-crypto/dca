@@ -4,11 +4,6 @@ import { ensureFiveFaqs } from '@/lib/faqExtras';
 import { BLOG_POSTS_BATCH2 } from '@/data/blogPostsBatch2';
 import { BLOG_POSTS_BATCH3 } from '@/data/blogPostsBatch3';
 
-const IMG_AIRPORT =
-  '/images/airport-curbside.webp';
-const IMG_EXEC =
-  '/images/executive-sedan.webp';
-
 export const BLOG_POSTS = [
   {
     slug: 'dca-airport-car-service-vs-uber-2026',
@@ -19,7 +14,7 @@ export const BLOG_POSTS = [
       'DCA airport car service vs Uber in 2026 — real prices, surge math and hidden costs compared. See when a flat-rate chauffeur beats rideshare.',
     excerpt:
       'Is a flat-rate DCA car service really worth it over Uber in 2026? We break down the real prices, surge pricing, and hidden costs — and exactly when each option wins.',
-    image: IMG_EXEC,
+    image: '/images/blog/scenario-corporate-1.webp',
     author: 'Michael Chen',
     authorBio: 'Transportation industry analyst and frequent DC-area business traveler with 15+ years in executive travel logistics.',
     date: 'January 14, 2026',
@@ -90,7 +85,7 @@ export const BLOG_POSTS = [
       'How to pick the best black car service at DCA in 2026 — the 7 things that matter, from flat-rate pricing to flight tracking. Call (877) 609-1919.',
     excerpt:
       'Not all DCA black car services are equal. Here are the seven things that separate the best Reagan National car service from the rest — and how to vet one before you book.',
-    image: IMG_AIRPORT,
+    image: '/images/blog/scenario-airport-pickup-1.webp',
     author: 'Sarah Williams',
     authorBio: 'Executive travel consultant specializing in ground transportation for corporate and government clients across the DMV.',
     date: 'January 12, 2026',
@@ -159,7 +154,7 @@ export const BLOG_POSTS = [
       '2026 guide to Reagan National (DCA) ground transportation — terminals, pickup zones, Metro, taxi, rideshare and car service compared.',
     excerpt:
       'Everything you need to know about getting to and from Reagan National in 2026 — terminal layout, exact pickup zones, and an honest comparison of every transportation option.',
-    image: IMG_AIRPORT,
+    image: '/images/airport-curbside.webp',
     author: 'Michael Chen',
     authorBio: 'Transportation industry analyst and frequent DC-area business traveler with 15+ years in executive travel logistics.',
     date: 'January 9, 2026',
@@ -229,7 +224,7 @@ export const BLOG_POSTS = [
       'DCA to Washington DC flat-rate car service in 2026 from $65 — tolls and flight tracking included, no surge, no meter. Call (877) 609-1919.',
     excerpt:
       'Why a flat rate beats a meter or surge fare on the short DCA-to-DC run — what is included, real 2026 pricing, and the neighborhoods we serve.',
-    image: IMG_AIRPORT,
+    image: '/images/blog/airport-dropoff.webp',
     author: 'David Thompson',
     authorBio: 'Corporate accounts manager at DCA Limos, focused on executive and government ground transportation in the District.',
     date: 'January 7, 2026',
@@ -289,7 +284,7 @@ export const BLOG_POSTS = [
       'Corporate car service at DCA Airport — dedicated chauffeurs, monthly billing, flight tracking, and discreet executive travel. Call (877) 609-1919.',
     excerpt:
       'What a real corporate car service program looks like at Reagan National — billing, account management, dedicated chauffeurs, and the details that make executive travel just work.',
-    image: IMG_EXEC,
+    image: '/images/executive-sedan.webp',
     author: 'Sarah Williams',
     authorBio: 'Executive travel consultant specializing in ground transportation for corporate and government clients across the DMV.',
     date: 'January 5, 2026',
@@ -354,7 +349,7 @@ export const BLOG_POSTS = [
       'Flat-rate chauffeur service from DCA Airport to Annapolis — $145 all-inclusive with flight tracking. Naval Academy, City Dock, Eastport. Call (877) 609-1919.',
     excerpt:
       'Everything about the DCA-to-Annapolis transfer — the flat $145 rate, the US-50 route, Naval Academy and downtown drop-offs, and why a chauffeur beats rideshare on this trip.',
-    image: IMG_EXEC,
+    image: '/images/blog/landmark-annapolis-1.webp',
     author: 'David Thompson',
     authorBio: 'Corporate accounts manager at DCA Limos, focused on executive and government ground transportation in the District.',
     date: 'July 8, 2026',
@@ -420,7 +415,7 @@ export const BLOG_POSTS = [
       'Reagan National (DCA) limo costs in 2026 — flat rates by route and vehicle, what is included, and how to avoid overpaying. Call (877) 609-1919.',
     excerpt:
       'Real 2026 limo and car service prices from Reagan National — flat rates for every major route, sedan vs SUV vs Sprinter pricing, and exactly what is included.',
-    image: IMG_AIRPORT,
+    image: '/images/blog/airport-tarmac-sunset.webp',
     author: 'Michael Chen',
     authorBio: 'Transportation industry analyst and frequent DC-area business traveler with 15+ years in executive travel logistics.',
     date: 'July 8, 2026',
@@ -500,7 +495,7 @@ export const BLOG_POSTS = [
       'How DCA meet-and-greet works — your chauffeur waits at baggage claim with a name sign, tracks your flight, and handles the bags. Call (877) 609-1919 to book.',
     excerpt:
       'What a meet-and-greet at Reagan National actually looks like — the name sign at baggage claim, flight tracking, luggage help, and the travelers who benefit most.',
-    image: IMG_AIRPORT,
+    image: '/images/blog/scenario-doorman.webp',
     author: 'Sarah Williams',
     authorBio: 'Executive travel consultant specializing in ground transportation for corporate and government clients across the DMV.',
     date: 'July 7, 2026',
@@ -578,7 +573,7 @@ export const BLOG_POSTS = [
       'When to book a DCA airport car service — ideal lead times, the peak DC dates that sell out, and how late is too late for same-day rides. Call (877) 609-1919.',
     excerpt:
       'How far ahead should you book a DCA car service? The ideal lead times by season, the DC dates that sell out fleets, and what to do when you need a car today.',
-    image: IMG_EXEC,
+    image: '/images/blog/scenario-airport-pickup-2.webp',
     author: 'Michael Chen',
     authorBio: 'Transportation industry analyst and frequent DC-area business traveler with 15+ years in executive travel logistics.',
     date: 'July 6, 2026',
@@ -649,7 +644,7 @@ export const BLOG_POSTS = [
       'DCA corporate travel playbook — executive pickups, corporate accounts, direct billing, roadshows, and hourly chauffeur service. Call (877) 609-1919.',
     excerpt:
       'A practical playbook for travel coordinators and executives who move through Reagan National — arranging pickups, corporate accounts, roadshow logistics, and cost control.',
-    image: IMG_EXEC,
+    image: '/images/bmw-7-series.webp',
     author: 'Sarah Williams',
     authorBio: 'Executive travel consultant specializing in ground transportation for corporate and government clients across the DMV.',
     date: 'July 5, 2026',
@@ -718,7 +713,7 @@ export const BLOG_POSTS = [
       'What separates the best car service at Reagan National Airport from the rest? A 7-point checklist: flight tracking, flat rates, real chauffeurs & more.',
     excerpt:
       'Dozens of companies claim to be the best car service at Reagan National. Here is the 7-point checklist that actually separates professionals from pretenders — before you hand one your 6 a.m. flight.',
-    image: IMG_AIRPORT,
+    image: '/images/airport-curbside.webp',
     author: 'Sarah Williams',
     authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
     date: 'July 18, 2026',
@@ -783,7 +778,7 @@ export const BLOG_POSTS = [
       'Making a 6 a.m. flight out of DCA? Nine field-tested tips on pickup timing, security lines, rideshare risk, and why the first flights of the day are worth it.',
     excerpt:
       'The first bank of flights out of Reagan National rewards early risers with on-time departures — if the ground game works. Nine field-tested tips for the 4 a.m. pickup that actually shows up.',
-    image: IMG_EXEC,
+    image: '/images/blog/airport-tarmac-sunset.webp',
     author: 'David Thompson',
     authorBio: 'Former airline operations manager turned travel writer, specializing in the unglamorous logistics that make trips work.',
     date: 'July 22, 2026',
@@ -854,7 +849,7 @@ export const BLOG_POSTS = [
       'The EA’s playbook for corporate car service at Reagan National: account setup, VIP pickups, multi-stop days, and billing that makes travel invisible.',
     excerpt:
       'Booking executive travel through Reagan National? This playbook covers what actually matters: account setup, the VIP arrival sequence, multi-stop days, and billing that survives an audit.',
-    image: IMG_EXEC,
+    image: '/images/blog/scenario-corporate-2.webp',
     author: 'Michael Chen',
     authorBio: 'Transportation industry analyst and frequent DC-area business traveler with 15+ years in executive travel logistics.',
     date: 'July 27, 2026',
@@ -921,7 +916,7 @@ export const BLOG_POSTS = [
       'Ten practical tips for a smooth trip through Reagan National in 2026 — security timing, terminal layout, and smarter ground transport. Call (877) 609-1919.',
     excerpt:
       'Reagan National is the most convenient airport in the region — if you know how to use it. Ten field-tested tips covering security, the terminal, and the smartest way to and from the curb.',
-    image: IMG_AIRPORT,
+    image: '/images/blog/scenario-airport-pickup-1.webp',
     author: 'Sarah Williams',
     authorBio: 'DC-area travel writer covering airports, ground transportation, and the practical side of frequent flying.',
     date: 'August 6, 2026',
@@ -994,7 +989,7 @@ export const BLOG_POSTS = [
       'How DC executives build a corporate ground transportation program — hourly service, roadshows, billing, duty of care. Call (877) 609-1919.',
     excerpt:
       'Beyond the airport run: how DC companies structure executive ground transportation — hourly service, roadshow logistics, consolidated billing, and the duty-of-care case for vetted chauffeurs.',
-    image: IMG_EXEC,
+    image: '/images/blog/landmark-capitol-1.webp',
     author: 'Michael Chen',
     authorBio: 'Transportation industry analyst and frequent DC-area business traveler with 15+ years in executive travel logistics.',
     date: 'August 9, 2026',
@@ -1068,7 +1063,7 @@ export const BLOG_POSTS = [
       'DCA to Northern Virginia compared — Metro, rideshare, and flat-rate chauffeur options with honest drive times by corridor. Call (877) 609-1919.',
     excerpt:
       'Northern Virginia is not one destination — it is five corridors with very different travel math. Here is the honest comparison of Metro, rideshare, and chauffeur service for each.',
-    image: IMG_EXEC,
+    image: '/images/chevrolet-suburban.webp',
     author: 'David Thompson',
     authorBio: 'Ground transportation specialist covering the DC, Maryland, and Virginia corridor for business and leisure travelers.',
     date: 'August 12, 2026',
@@ -1213,7 +1208,7 @@ export const BLOG_POSTS = [
       'Catching a 6 a.m. flight at Reagan National? Security opening times, Metro gaps, and the night-before routine that makes it easy. Call (877) 609-1919.',
     excerpt:
       'The first departure bank at DCA is the best-kept secret in DC travel — if you can get there. The complete playbook for 5 and 6 a.m. flights, from security hours to the night-before routine.',
-    image: IMG_AIRPORT,
+    image: '/images/blog/scenario-airport-pickup-2.webp',
     author: 'David Thompson',
     authorBio: 'Ground transportation specialist covering the DC, Maryland, and Virginia corridor for business and leisure travelers.',
     date: 'August 18, 2026',
@@ -1366,7 +1361,7 @@ export const BLOG_POSTS = [
       'Metro, rideshare, taxi or chauffeur? Every way to get from Reagan National to DC compared with real 2026 prices and times. Call (877) 609-1919.',
     excerpt:
       'DCA sits three miles from downtown, so every option is fast on paper. Here is the honest 2026 comparison — Metro, rideshare, taxi, and chauffeur — and which one your specific trip should use.',
-    image: '/images/airport-curbside.webp',
+    image: '/images/blog/landmark-capitol-2.webp',
     author: 'Sarah Williams',
     authorBio: 'Executive travel consultant specializing in ground transportation for corporate and government clients across the DMV.',
     date: 'August 19, 2026',
@@ -1595,7 +1590,7 @@ export const BLOG_POSTS = [
       'DCA vs Dulles compared — location, airlines, fares, Metro access and ground transportation, plus when each airport wins. Call (877) 609-1919.',
     excerpt:
       'Three miles from downtown versus twenty-six: the honest comparison of Reagan National and Dulles — routes, fares, ground transportation math, and the deciding factors most travelers weigh wrong.',
-    image: '/images/executive-sedan.webp',
+    image: '/images/blog/airport-terminal-glass.webp',
     author: 'Michael Chen',
     authorBio: 'Transportation industry analyst and frequent DC-area business traveler with 15+ years in executive travel logistics.',
     date: 'August 20, 2026',

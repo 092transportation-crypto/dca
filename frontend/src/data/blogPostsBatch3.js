@@ -93,7 +93,7 @@ export const BLOG_POSTS_BATCH3 = [
       'When should you book DCA airport car service? Ideal booking windows for weekday trips, holidays, weddings and major DC events, explained.',
     excerpt:
       'Booking too late costs you vehicle choice and, during peak periods, availability altogether. Here is exactly when to reserve DCA car service for every kind of trip.',
-    image: '/images/executive-sedan.webp',
+    image: '/images/blog/scenario-airport-pickup-1.webp',
     author: 'Sarah Williams',
     authorBio: 'Executive travel consultant specializing in ground transportation for corporate and government clients across the DMV.',
     date: 'September 28, 2026',
@@ -171,7 +171,7 @@ export const BLOG_POSTS_BATCH3 = [
       'A detailed DCA airport limo vs Uber cost breakdown for 2026 — flat rates, surge pricing and hidden fees compared, route by route.',
     excerpt:
       'Sticker price says Uber wins. Run the real numbers across surge, cancellations and group trips, and a flat-rate limo often comes out ahead — here is the actual math.',
-    image: '/images/executive-sedan.webp',
+    image: '/images/blog/scenario-corporate-1.webp',
     author: 'Michael Chen',
     authorBio: 'Transportation industry analyst and frequent DC-area business traveler with 15+ years in executive travel logistics.',
     date: 'September 28, 2026',
@@ -258,7 +258,7 @@ export const BLOG_POSTS_BATCH3 = [
       'Planning wedding transportation across DC, Maryland and Virginia — vehicle choices, timeline, pricing and booking tips from a licensed DMV carrier.',
     excerpt:
       'From the getting-ready pickup to the getaway car, here is how to plan wedding transportation across the DC, Maryland and Virginia wedding circuit.',
-    image: '/images/wedding-service.webp',
+    image: '/images/blog/scenario-wedding-2.webp',
     author: 'Sarah Williams',
     authorBio: 'Executive travel consultant specializing in ground transportation for corporate and government clients across the DMV.',
     date: 'September 28, 2026',
@@ -536,7 +536,7 @@ export const BLOG_POSTS_BATCH3 = [
       'A step-by-step guide to booking a luxury chauffeur in Washington DC — choosing a vehicle, confirming pricing, and what to expect on pickup day.',
     excerpt:
       'Booking a luxury chauffeur is simpler than it sounds once you know what to specify. Here is the exact process, step by step, from quote to pickup.',
-    image: '/images/mercedes-sclass.webp',
+    image: '/images/blog/landmark-capitol-2.webp',
     author: 'Michael Chen',
     authorBio: 'Transportation industry analyst and frequent DC-area business traveler with 15+ years in executive travel logistics.',
     date: 'September 28, 2026',
@@ -639,7 +639,7 @@ export const BLOG_POSTS_BATCH3 = [
       'Traveling with a group in DC, Maryland or Virginia? Compare Sprinter vans, SUVs and stretch limos to find the right fit and fair per-person pricing.',
     excerpt:
       'Group travel needs a different playbook than solo trips. Here is how to size the right vehicle for your DC-area group and keep the per-person cost fair.',
-    image: '/images/mercedes-sprinter.webp',
+    image: '/images/blog/scenario-group-shuttle.webp',
     author: 'Sarah Williams',
     authorBio: 'Executive travel consultant specializing in ground transportation for corporate and government clients across the DMV.',
     date: 'September 28, 2026',
@@ -731,7 +731,7 @@ export const BLOG_POSTS_BATCH3 = [
       'Insider tips for smoother DCA airport transfers — timing, pickup zones, luggage, flight tracking and how to avoid common transfer mistakes.',
     excerpt:
       'Small details make or break an airport transfer. Here are the practical, DCA-specific tips that frequent flyers use to keep pickups smooth every time.',
-    image: '/images/airport-curbside.webp',
+    image: '/images/blog/scenario-airport-pickup-2.webp',
     author: 'Michael Chen',
     authorBio: 'Transportation industry analyst and frequent DC-area business traveler with 15+ years in executive travel logistics.',
     date: 'September 28, 2026',
@@ -831,7 +831,7 @@ export const BLOG_POSTS_BATCH3 = [
       'Black car service vs taxi at Reagan National — compare pricing, vehicle quality, reliability and booking to decide which fits your trip.',
     excerpt:
       'Taxis and black cars solve the same basic problem differently. Here is what actually separates them at DCA — pricing, vehicle quality, and reliability.',
-    image: '/images/mercedes-sclass.webp',
+    image: '/images/blog/scenario-corporate-2.webp',
     author: 'Sarah Williams',
     authorBio: 'Executive travel consultant specializing in ground transportation for corporate and government clients across the DMV.',
     date: 'September 28, 2026',

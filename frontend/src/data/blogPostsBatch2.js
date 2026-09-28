@@ -10,7 +10,7 @@ export const BLOG_POSTS_BATCH2 = [
       'A practical guide to Reagan National arrivals — baggage claim, curbside pickup, meet and greet, and how flight tracking keeps timing on point.',
     excerpt:
       'Reagan National is a small, walkable airport, which makes the pickup simple once you know the layout. Here is exactly what happens between the jet bridge and your car.',
-    image: '/images/executive-sedan.webp',
+    image: '/images/blog/scenario-doorman.webp',
     author: 'DCA Limos Team',
     authorBio: 'The DCA Limos dispatch and chauffeur team, writing from day-to-day experience on these routes.',
     date: 'September 22, 2026',
@@ -62,7 +62,7 @@ export const BLOG_POSTS_BATCH2 = [
       'A month-by-month planning timeline for booking Washington DC wedding transportation — from the first inquiry to the getaway car.',
     excerpt:
       'Wedding transportation is easy to leave until the final weeks and hard to fix once you have. Here is the timeline that keeps DC and Northern Virginia weddings simple.',
-    image: '/images/executive-sedan.webp',
+    image: '/images/blog/scenario-wedding-1.webp',
     author: 'DCA Limos Team',
     authorBio: 'The DCA Limos dispatch and chauffeur team, writing from day-to-day experience on these routes.',
     date: 'September 22, 2026',
@@ -114,7 +114,7 @@ export const BLOG_POSTS_BATCH2 = [
       'Planning a Hill day of meetings for a delegation or lobbying team? Here is how professional car service handles Capitol Hill logistics.',
     excerpt:
       'A day of back-to-back meetings across House and Senate office buildings has its own logistics problem. Here is how a reserved car service is built to solve it.',
-    image: '/images/executive-sedan.webp',
+    image: '/images/blog/landmark-capitol-1.webp',
     author: 'DCA Limos Team',
     authorBio: 'The DCA Limos dispatch and chauffeur team, writing from day-to-day experience on these routes.',
     date: 'September 22, 2026',
@@ -163,7 +163,7 @@ export const BLOG_POSTS_BATCH2 = [
       'A fair comparison of black car service, taxis and rideshare at Reagan National — pricing, reliability and when each option makes sense.',
     excerpt:
       'Three ways to leave Reagan National, three different trade-offs. Here is an honest look at where each one wins, without pretending the others do not have a place.',
-    image: '/images/executive-sedan.webp',
+    image: '/images/blog/scenario-corporate-rain.webp',
     author: 'DCA Limos Team',
     authorBio: 'The DCA Limos dispatch and chauffeur team, writing from day-to-day experience on these routes.',
     date: 'September 22, 2026',
