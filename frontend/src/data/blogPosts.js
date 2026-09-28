@@ -3,6 +3,7 @@
 import { ensureFiveFaqs } from '@/lib/faqExtras';
 import { BLOG_POSTS_BATCH2 } from '@/data/blogPostsBatch2';
 import { BLOG_POSTS_BATCH3 } from '@/data/blogPostsBatch3';
+import { BLOG_POSTS_BATCH4 } from '@/data/blogPostsBatch4';
 
 export const BLOG_POSTS = [
   {
@@ -1667,6 +1668,11 @@ export const BLOG_POSTS = [
 // 2026-09-28 batch: each post ships with 3 FAQs and relies on ensureFiveFaqs
 // below (like the posts above) to top up to five.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH3);
+
+// 2026-09-28 batch 4: 20 new posts (event transportation, wedding planning
+// logistics, corporate hourly service, seasonal/DCA-operational guides).
+// Same ensureFiveFaqs top-up applies.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH4);
 
 // Every page carries five FAQs (accordion + FAQPage schema).
 BLOG_POSTS.forEach((p) => {
