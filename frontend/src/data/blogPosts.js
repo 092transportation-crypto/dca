@@ -4,6 +4,7 @@ import { ensureFiveFaqs } from '@/lib/faqExtras';
 import { BLOG_POSTS_BATCH2 } from '@/data/blogPostsBatch2';
 import { BLOG_POSTS_BATCH3 } from '@/data/blogPostsBatch3';
 import { BLOG_POSTS_BATCH4 } from '@/data/blogPostsBatch4';
+import { BLOG_POSTS_BATCH5 } from '@/data/blogPostsBatch5';
 
 export const BLOG_POSTS = [
   {
@@ -1673,6 +1674,12 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH3);
 // logistics, corporate hourly service, seasonal/DCA-operational guides).
 // Same ensureFiveFaqs top-up applies.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH4);
+
+// 2026-11-30 batch 5: 5 new posts targeting Maryland car-service/limo-service
+// search intent (limo vs car service vs rideshare, multi-airport BWI/DCA/IAD
+// transfers, Maryland wedding planning, Annapolis general + Naval Academy
+// events). Same ensureFiveFaqs top-up applies.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH5);
 
 // Every page carries five FAQs (accordion + FAQPage schema).
 BLOG_POSTS.forEach((p) => {
