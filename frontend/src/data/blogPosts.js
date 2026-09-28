@@ -2,6 +2,7 @@
 // Add a new object and it appears in the listing, gets its own /blog/<slug> page, and the sitemap.
 import { ensureFiveFaqs } from '@/lib/faqExtras';
 import { BLOG_POSTS_BATCH2 } from '@/data/blogPostsBatch2';
+import { BLOG_POSTS_BATCH3 } from '@/data/blogPostsBatch3';
 
 const IMG_AIRPORT =
   '/images/airport-curbside.webp';
@@ -1667,6 +1668,10 @@ export const BLOG_POSTS = [
     ],
   },
 ];
+
+// 2026-09-28 batch: each post ships with 3 FAQs and relies on ensureFiveFaqs
+// below (like the posts above) to top up to five.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH3);
 
 // Every page carries five FAQs (accordion + FAQPage schema).
 BLOG_POSTS.forEach((p) => {
