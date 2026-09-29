@@ -5,6 +5,7 @@ import { BLOG_POSTS_BATCH2 } from '@/data/blogPostsBatch2';
 import { BLOG_POSTS_BATCH3 } from '@/data/blogPostsBatch3';
 import { BLOG_POSTS_BATCH4 } from '@/data/blogPostsBatch4';
 import { BLOG_POSTS_BATCH5 } from '@/data/blogPostsBatch5';
+import { BLOG_POSTS_BATCH6 } from '@/data/blogPostsBatch6';
 
 export const BLOG_POSTS = [
   {
@@ -1680,6 +1681,16 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH4);
 // transfers, Maryland wedding planning, Annapolis general + Naval Academy
 // events). Same ensureFiveFaqs top-up applies.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH5);
+
+// 2026-12-03 batch 6: 20 new posts covering neighborhood/local-market angles
+// (Dupont/Adams Morgan, Bethesda/Chevy Chase, Old Town date night, Rosslyn/
+// Crystal City), vertical client types (law/lobbying firms, medical
+// conferences), seasonal/occasion posts (holiday lights, NYE, July 4th,
+// college move-in), comparisons, consumer-education (contracts, licensing,
+// deposits) and wedding/group sub-angles (barn & vineyard, rehearsal/brunch,
+// multicultural, wine country party bus). Each post ships with its own 5
+// FAQs already; ensureFiveFaqs below is a no-op for this batch.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH6);
 
 // Every page carries five FAQs (accordion + FAQPage schema).
 BLOG_POSTS.forEach((p) => {
