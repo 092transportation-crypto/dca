@@ -467,7 +467,7 @@ const HomePage = () => {
               <ul className="space-y-3 text-sm sm:text-base">
                 <li><a href="https://www.nationalaquarium.org/" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-amber-600 font-medium transition-colors">→ National Aquarium Baltimore</a></li>
                 <li><a href="https://www.merriweathermusic.com/" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-amber-600 font-medium transition-colors">→ Merriweather Post Pavilion</a></li>
-                <li><a href="https://www.marylandlivecasino.com/" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-amber-600 font-medium transition-colors">→ Live! Casino Maryland</a></li>
+                <li><a href="https://maryland.livecasinohotel.com/" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-amber-600 font-medium transition-colors">→ Live! Casino Maryland</a></li>
                 <li><a href="https://www.mlb.com/orioles" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-amber-600 font-medium transition-colors">→ Camden Yards (Orioles)</a></li>
                 <li><a href="https://www.baltimoreravens.com/" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-amber-600 font-medium transition-colors">→ M&amp;T Bank Stadium (Ravens)</a></li>
               </ul>
