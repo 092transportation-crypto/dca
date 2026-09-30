@@ -269,7 +269,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Bethesda to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "Pricing is a single flat, all-inclusive rate tied to your vehicle and pickup address — a sedan usually covers one or two riders, an SUV fits a family with bags. No surge, ever. Call (877) 609-1919 or request a quote online."
       },
       {
         "q": "How long is the ride from Bethesda to DCA, BWI or Dulles?",
@@ -277,7 +277,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Bethesda?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Yes — your chauffeur can meet you at baggage claim holding a name sign and help carry your bags, or wait curbside instead. We track every arriving flight, so wait time is complimentary."
       },
       {
         "q": "Can you handle a wedding or group event in Bethesda?",
@@ -285,7 +285,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Bethesda overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Yes. We run 24/7, 365 days a year — pre-dawn departures and late-night international arrivals included."
       }
     ],
     "related": [
@@ -431,7 +431,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Gaithersburg to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "You get one flat rate covering the whole trip, based on vehicle class and pickup address — sedans for one or two travelers, SUVs for families with luggage. Surge pricing doesn't apply here. Call (877) 609-1919 or get a free online quote."
       },
       {
         "q": "How long is the ride from Gaithersburg to DCA, BWI or Dulles?",
@@ -439,7 +439,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Gaithersburg?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Absolutely. Choose baggage-claim meet and greet with a name sign and luggage help, or a curbside pickup — either way your flight is tracked and the wait time is on us."
       },
       {
         "q": "Can you handle a wedding or group event in Gaithersburg?",
@@ -447,7 +447,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Gaithersburg overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Around the clock, every day of the year — including the earliest departures and the latest international arrivals."
       }
     ],
     "related": [
@@ -755,7 +755,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Bowie to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "Pricing is a single flat, all-inclusive rate tied to your vehicle and pickup address — a sedan usually covers one or two riders, an SUV fits a family with bags. No surge, ever. Call (877) 609-1919 or request a quote online."
       },
       {
         "q": "How long is the ride from Bowie to DCA, BWI or Dulles?",
@@ -763,7 +763,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Bowie?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Yes — your chauffeur can meet you at baggage claim holding a name sign and help carry your bags, or wait curbside instead. We track every arriving flight, so wait time is complimentary."
       },
       {
         "q": "Can you handle a wedding or group event in Bowie?",
@@ -771,7 +771,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Bowie overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Yes. We run 24/7, 365 days a year — pre-dawn departures and late-night international arrivals included."
       }
     ],
     "related": [
@@ -917,7 +917,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Laurel to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "You get one flat rate covering the whole trip, based on vehicle class and pickup address — sedans for one or two travelers, SUVs for families with luggage. Surge pricing doesn't apply here. Call (877) 609-1919 or get a free online quote."
       },
       {
         "q": "How long is the ride from Laurel to DCA, BWI or Dulles?",
@@ -925,7 +925,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Laurel?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Absolutely. Choose baggage-claim meet and greet with a name sign and luggage help, or a curbside pickup — either way your flight is tracked and the wait time is on us."
       },
       {
         "q": "Can you handle a wedding or group event in Laurel?",
@@ -933,7 +933,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Laurel overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Around the clock, every day of the year — including the earliest departures and the latest international arrivals."
       }
     ],
     "related": [
@@ -1241,7 +1241,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Waldorf to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "Pricing is a single flat, all-inclusive rate tied to your vehicle and pickup address — a sedan usually covers one or two riders, an SUV fits a family with bags. No surge, ever. Call (877) 609-1919 or request a quote online."
       },
       {
         "q": "How long is the ride from Waldorf to DCA, BWI or Dulles?",
@@ -1249,7 +1249,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Waldorf?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Yes — your chauffeur can meet you at baggage claim holding a name sign and help carry your bags, or wait curbside instead. We track every arriving flight, so wait time is complimentary."
       },
       {
         "q": "Can you handle a wedding or group event in Waldorf?",
@@ -1257,7 +1257,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Waldorf overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Yes. We run 24/7, 365 days a year — pre-dawn departures and late-night international arrivals included."
       }
     ],
     "related": [
@@ -1403,7 +1403,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Frederick to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "You get one flat rate covering the whole trip, based on vehicle class and pickup address — sedans for one or two travelers, SUVs for families with luggage. Surge pricing doesn't apply here. Call (877) 609-1919 or get a free online quote."
       },
       {
         "q": "How long is the ride from Frederick to DCA, BWI or Dulles?",
@@ -1411,7 +1411,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Frederick?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Absolutely. Choose baggage-claim meet and greet with a name sign and luggage help, or a curbside pickup — either way your flight is tracked and the wait time is on us."
       },
       {
         "q": "Can you handle a wedding or group event in Frederick?",
@@ -1419,7 +1419,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Frederick overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Around the clock, every day of the year — including the earliest departures and the latest international arrivals."
       }
     ],
     "related": [
@@ -1727,7 +1727,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Severna Park to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "Pricing is a single flat, all-inclusive rate tied to your vehicle and pickup address — a sedan usually covers one or two riders, an SUV fits a family with bags. No surge, ever. Call (877) 609-1919 or request a quote online."
       },
       {
         "q": "How long is the ride from Severna Park to DCA, BWI or Dulles?",
@@ -1735,7 +1735,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Severna Park?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Yes — your chauffeur can meet you at baggage claim holding a name sign and help carry your bags, or wait curbside instead. We track every arriving flight, so wait time is complimentary."
       },
       {
         "q": "Can you handle a wedding or group event in Severna Park?",
@@ -1743,7 +1743,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Severna Park overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Yes. We run 24/7, 365 days a year — pre-dawn departures and late-night international arrivals included."
       }
     ],
     "related": [
@@ -1889,7 +1889,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Crofton to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "You get one flat rate covering the whole trip, based on vehicle class and pickup address — sedans for one or two travelers, SUVs for families with luggage. Surge pricing doesn't apply here. Call (877) 609-1919 or get a free online quote."
       },
       {
         "q": "How long is the ride from Crofton to DCA, BWI or Dulles?",
@@ -1897,7 +1897,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Crofton?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Absolutely. Choose baggage-claim meet and greet with a name sign and luggage help, or a curbside pickup — either way your flight is tracked and the wait time is on us."
       },
       {
         "q": "Can you handle a wedding or group event in Crofton?",
@@ -1905,7 +1905,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Crofton overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Around the clock, every day of the year — including the earliest departures and the latest international arrivals."
       }
     ],
     "related": [
@@ -2213,7 +2213,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Germantown to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "Pricing is a single flat, all-inclusive rate tied to your vehicle and pickup address — a sedan usually covers one or two riders, an SUV fits a family with bags. No surge, ever. Call (877) 609-1919 or request a quote online."
       },
       {
         "q": "How long is the ride from Germantown to DCA, BWI or Dulles?",
@@ -2221,7 +2221,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Germantown?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Yes — your chauffeur can meet you at baggage claim holding a name sign and help carry your bags, or wait curbside instead. We track every arriving flight, so wait time is complimentary."
       },
       {
         "q": "Can you handle a wedding or group event in Germantown?",
@@ -2229,7 +2229,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Germantown overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Yes. We run 24/7, 365 days a year — pre-dawn departures and late-night international arrivals included."
       }
     ],
     "related": [
@@ -2375,7 +2375,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Glen Burnie to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "You get one flat rate covering the whole trip, based on vehicle class and pickup address — sedans for one or two travelers, SUVs for families with luggage. Surge pricing doesn't apply here. Call (877) 609-1919 or get a free online quote."
       },
       {
         "q": "How long is the ride from Glen Burnie to DCA, BWI or Dulles?",
@@ -2383,7 +2383,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Glen Burnie?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Absolutely. Choose baggage-claim meet and greet with a name sign and luggage help, or a curbside pickup — either way your flight is tracked and the wait time is on us."
       },
       {
         "q": "Can you handle a wedding or group event in Glen Burnie?",
@@ -2391,7 +2391,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Glen Burnie overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Around the clock, every day of the year — including the earliest departures and the latest international arrivals."
       }
     ],
     "related": [
@@ -2699,7 +2699,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Riva to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "Pricing is a single flat, all-inclusive rate tied to your vehicle and pickup address — a sedan usually covers one or two riders, an SUV fits a family with bags. No surge, ever. Call (877) 609-1919 or request a quote online."
       },
       {
         "q": "How long is the ride from Riva to DCA, BWI or Dulles?",
@@ -2707,7 +2707,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Riva?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Yes — your chauffeur can meet you at baggage claim holding a name sign and help carry your bags, or wait curbside instead. We track every arriving flight, so wait time is complimentary."
       },
       {
         "q": "Can you handle a wedding or group event in Riva?",
@@ -2715,7 +2715,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Riva overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Yes. We run 24/7, 365 days a year — pre-dawn departures and late-night international arrivals included."
       }
     ],
     "related": [
@@ -2861,7 +2861,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Cape St. Claire to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "You get one flat rate covering the whole trip, based on vehicle class and pickup address — sedans for one or two travelers, SUVs for families with luggage. Surge pricing doesn't apply here. Call (877) 609-1919 or get a free online quote."
       },
       {
         "q": "How long is the ride from Cape St. Claire to DCA, BWI or Dulles?",
@@ -2869,7 +2869,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Cape St. Claire?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Absolutely. Choose baggage-claim meet and greet with a name sign and luggage help, or a curbside pickup — either way your flight is tracked and the wait time is on us."
       },
       {
         "q": "Can you handle a wedding or group event in Cape St. Claire?",
@@ -2877,7 +2877,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Cape St. Claire overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Around the clock, every day of the year — including the earliest departures and the latest international arrivals."
       }
     ],
     "related": [
@@ -3185,7 +3185,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Towson to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "Pricing is a single flat, all-inclusive rate tied to your vehicle and pickup address — a sedan usually covers one or two riders, an SUV fits a family with bags. No surge, ever. Call (877) 609-1919 or request a quote online."
       },
       {
         "q": "How long is the ride from Towson to DCA, BWI or Dulles?",
@@ -3193,7 +3193,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Towson?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Yes — your chauffeur can meet you at baggage claim holding a name sign and help carry your bags, or wait curbside instead. We track every arriving flight, so wait time is complimentary."
       },
       {
         "q": "Can you handle a wedding or group event in Towson?",
@@ -3201,7 +3201,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Towson overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Yes. We run 24/7, 365 days a year — pre-dawn departures and late-night international arrivals included."
       }
     ],
     "related": [
@@ -3347,7 +3347,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Timonium to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "You get one flat rate covering the whole trip, based on vehicle class and pickup address — sedans for one or two travelers, SUVs for families with luggage. Surge pricing doesn't apply here. Call (877) 609-1919 or get a free online quote."
       },
       {
         "q": "How long is the ride from Timonium to DCA, BWI or Dulles?",
@@ -3355,7 +3355,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Timonium?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Absolutely. Choose baggage-claim meet and greet with a name sign and luggage help, or a curbside pickup — either way your flight is tracked and the wait time is on us."
       },
       {
         "q": "Can you handle a wedding or group event in Timonium?",
@@ -3363,7 +3363,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Timonium overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Around the clock, every day of the year — including the earliest departures and the latest international arrivals."
       }
     ],
     "related": [
@@ -3671,7 +3671,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Phoenix to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "Pricing is a single flat, all-inclusive rate tied to your vehicle and pickup address — a sedan usually covers one or two riders, an SUV fits a family with bags. No surge, ever. Call (877) 609-1919 or request a quote online."
       },
       {
         "q": "How long is the ride from Phoenix to DCA, BWI or Dulles?",
@@ -3679,7 +3679,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Phoenix?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Yes — your chauffeur can meet you at baggage claim holding a name sign and help carry your bags, or wait curbside instead. We track every arriving flight, so wait time is complimentary."
       },
       {
         "q": "Can you handle a wedding or group event in Phoenix?",
@@ -3687,7 +3687,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Phoenix overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Yes. We run 24/7, 365 days a year — pre-dawn departures and late-night international arrivals included."
       }
     ],
     "related": [
@@ -3833,7 +3833,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from North Bethesda to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "You get one flat rate covering the whole trip, based on vehicle class and pickup address — sedans for one or two travelers, SUVs for families with luggage. Surge pricing doesn't apply here. Call (877) 609-1919 or get a free online quote."
       },
       {
         "q": "How long is the ride from North Bethesda to DCA, BWI or Dulles?",
@@ -3841,7 +3841,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to North Bethesda?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Absolutely. Choose baggage-claim meet and greet with a name sign and luggage help, or a curbside pickup — either way your flight is tracked and the wait time is on us."
       },
       {
         "q": "Can you handle a wedding or group event in North Bethesda?",
@@ -3849,7 +3849,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in North Bethesda overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Around the clock, every day of the year — including the earliest departures and the latest international arrivals."
       }
     ],
     "related": [
@@ -4157,7 +4157,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Gibson Island to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "Pricing is a single flat, all-inclusive rate tied to your vehicle and pickup address — a sedan usually covers one or two riders, an SUV fits a family with bags. No surge, ever. Call (877) 609-1919 or request a quote online."
       },
       {
         "q": "How long is the ride from Gibson Island to DCA, BWI or Dulles?",
@@ -4165,7 +4165,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Gibson Island?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Yes — your chauffeur can meet you at baggage claim holding a name sign and help carry your bags, or wait curbside instead. We track every arriving flight, so wait time is complimentary."
       },
       {
         "q": "Can you handle a wedding or group event in Gibson Island?",
@@ -4173,7 +4173,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Gibson Island overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Yes. We run 24/7, 365 days a year — pre-dawn departures and late-night international arrivals included."
       }
     ],
     "related": [
@@ -4319,7 +4319,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Stevensville to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "You get one flat rate covering the whole trip, based on vehicle class and pickup address — sedans for one or two travelers, SUVs for families with luggage. Surge pricing doesn't apply here. Call (877) 609-1919 or get a free online quote."
       },
       {
         "q": "How long is the ride from Stevensville to DCA, BWI or Dulles?",
@@ -4327,7 +4327,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Stevensville?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Absolutely. Choose baggage-claim meet and greet with a name sign and luggage help, or a curbside pickup — either way your flight is tracked and the wait time is on us."
       },
       {
         "q": "Can you handle a wedding or group event in Stevensville?",
@@ -4335,7 +4335,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Stevensville overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Around the clock, every day of the year — including the earliest departures and the latest international arrivals."
       }
     ],
     "related": [
@@ -4643,7 +4643,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does a car service from Sykesville to Reagan National cost?",
-        "a": "We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically a luxury sedan for one or two travelers and an SUV for families with bags. There is no surge pricing. Call (877) 609-1919 or request a free quote online."
+        "a": "Pricing is a single flat, all-inclusive rate tied to your vehicle and pickup address — a sedan usually covers one or two riders, an SUV fits a family with bags. No surge, ever. Call (877) 609-1919 or request a quote online."
       },
       {
         "q": "How long is the ride from Sykesville to DCA, BWI or Dulles?",
@@ -4651,7 +4651,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you offer meet and greet for arrivals coming back to Sykesville?",
-        "a": "Yes. Your chauffeur can wait inside baggage claim with a personalized sign and help with luggage, or meet you curbside. Every arrival is flight-tracked with complimentary wait time."
+        "a": "Yes — your chauffeur can meet you at baggage claim holding a name sign and help carry your bags, or wait curbside instead. We track every arriving flight, so wait time is complimentary."
       },
       {
         "q": "Can you handle a wedding or group event in Sykesville?",
@@ -4659,7 +4659,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Is DCA Limos available in Sykesville overnight and on holidays?",
-        "a": "Yes — 24 hours a day, 365 days a year, including pre-dawn departures and late-night international arrivals."
+        "a": "Yes. We run 24/7, 365 days a year — pre-dawn departures and late-night international arrivals included."
       }
     ],
     "related": [
@@ -4959,7 +4959,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "What does a car service from BWI to Annapolis cost?",
-        "a": "One flat rate, set by vehicle and exact drop-off, confirmed in writing before you ride — tolls, fuel and gratuity disclosed up front, never surged. Call (877) 609-1919 or request a free quote online."
+        "a": "A single flat rate based on vehicle class and your exact drop-off, confirmed in writing before you travel — tolls, fuel and gratuity spelled out up front, with no surge. Call (877) 609-1919 or request an online quote."
       },
       {
         "q": "How long does BWI to Annapolis take?",
@@ -4967,15 +4967,15 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "What happens if my flight is delayed?",
-        "a": "Nothing on your end. We track the flight and adjust the pickup automatically, with 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international."
+        "a": "Nothing you need to do — we track the flight ourselves and shift the pickup automatically, and you still get 45 minutes free wait time domestically (60 minutes on international arrivals)."
       },
       {
         "q": "Do you run Annapolis back to BWI?",
-        "a": "Yes, 24/7. Book both directions together and we hold the same vehicle class and a combined rate."
+        "a": "Yes — any time, day or night. Reserve the round trip together and we'll lock in the same vehicle class at one combined rate."
       },
       {
         "q": "How many people can you carry?",
-        "a": "Up to three in a sedan, six in an SUV and 14 in a Sprinter van, with luggage. Larger groups ride in multiple coordinated vehicles."
+        "a": "A sedan comfortably fits three with bags, an SUV fits six, and a Sprinter van carries 14. Bigger groups travel in multiple vehicles we coordinate to arrive together."
       }
     ],
     "related": [
@@ -5115,7 +5115,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "What does a car service from BWI to Ocean City cost?",
-        "a": "One flat rate, set by vehicle and exact drop-off, confirmed in writing before you ride — tolls, fuel and gratuity disclosed up front, never surged. Call (877) 609-1919 or request a free quote online."
+        "a": "You'll get one flat, written rate tied to vehicle type and destination before you ever ride — tolls, fuel and gratuity included up front, no surge pricing. Call (877) 609-1919 or request a free quote online."
       },
       {
         "q": "How long does BWI to Ocean City take?",
@@ -5123,15 +5123,15 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "What happens if my flight is delayed?",
-        "a": "Nothing on your end. We track the flight and adjust the pickup automatically, with 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international."
+        "a": "No action needed on your part. Your flight is tracked automatically and the pickup adjusts to match, with 45 minutes of complimentary wait time domestic and 60 minutes international."
       },
       {
         "q": "Do you run Ocean City back to BWI?",
-        "a": "Yes, 24/7. Book both directions together and we hold the same vehicle class and a combined rate."
+        "a": "Yes, around the clock. Booking both legs together keeps the same vehicle class and gives you a single combined rate."
       },
       {
         "q": "How many people can you carry?",
-        "a": "Up to three in a sedan, six in an SUV and 14 in a Sprinter van, with luggage. Larger groups ride in multiple coordinated vehicles."
+        "a": "Sedans hold up to three passengers with luggage, SUVs up to six, Sprinter vans up to 14. For larger parties, we coordinate multiple vehicles so everyone arrives together."
       }
     ],
     "related": [
@@ -5431,7 +5431,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "What does a car service from BWI to Bethesda cost?",
-        "a": "One flat rate, set by vehicle and exact drop-off, confirmed in writing before you ride — tolls, fuel and gratuity disclosed up front, never surged. Call (877) 609-1919 or request a free quote online."
+        "a": "A single flat rate based on vehicle class and your exact drop-off, confirmed in writing before you travel — tolls, fuel and gratuity spelled out up front, with no surge. Call (877) 609-1919 or request an online quote."
       },
       {
         "q": "How long does BWI to Bethesda take?",
@@ -5439,15 +5439,15 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "What happens if my flight is delayed?",
-        "a": "Nothing on your end. We track the flight and adjust the pickup automatically, with 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international."
+        "a": "Nothing you need to do — we track the flight ourselves and shift the pickup automatically, and you still get 45 minutes free wait time domestically (60 minutes on international arrivals)."
       },
       {
         "q": "Do you run Bethesda back to BWI?",
-        "a": "Yes, 24/7. Book both directions together and we hold the same vehicle class and a combined rate."
+        "a": "Yes — any time, day or night. Reserve the round trip together and we'll lock in the same vehicle class at one combined rate."
       },
       {
         "q": "How many people can you carry?",
-        "a": "Up to three in a sedan, six in an SUV and 14 in a Sprinter van, with luggage. Larger groups ride in multiple coordinated vehicles."
+        "a": "A sedan comfortably fits three with bags, an SUV fits six, and a Sprinter van carries 14. Bigger groups travel in multiple vehicles we coordinate to arrive together."
       }
     ],
     "related": [
@@ -5591,7 +5591,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "What does a car service from BWI to Frederick cost?",
-        "a": "One flat rate, set by vehicle and exact drop-off, confirmed in writing before you ride — tolls, fuel and gratuity disclosed up front, never surged. Call (877) 609-1919 or request a free quote online."
+        "a": "You'll get one flat, written rate tied to vehicle type and destination before you ever ride — tolls, fuel and gratuity included up front, no surge pricing. Call (877) 609-1919 or request a free quote online."
       },
       {
         "q": "How long does BWI to Frederick take?",
@@ -5599,15 +5599,15 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "What happens if my flight is delayed?",
-        "a": "Nothing on your end. We track the flight and adjust the pickup automatically, with 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international."
+        "a": "No action needed on your part. Your flight is tracked automatically and the pickup adjusts to match, with 45 minutes of complimentary wait time domestic and 60 minutes international."
       },
       {
         "q": "Do you run Frederick back to BWI?",
-        "a": "Yes, 24/7. Book both directions together and we hold the same vehicle class and a combined rate."
+        "a": "Yes, around the clock. Booking both legs together keeps the same vehicle class and gives you a single combined rate."
       },
       {
         "q": "How many people can you carry?",
-        "a": "Up to three in a sedan, six in an SUV and 14 in a Sprinter van, with luggage. Larger groups ride in multiple coordinated vehicles."
+        "a": "Sedans hold up to three passengers with luggage, SUVs up to six, Sprinter vans up to 14. For larger parties, we coordinate multiple vehicles so everyone arrives together."
       }
     ],
     "related": [
@@ -5903,7 +5903,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "What does a car service from IAD to Bethesda cost?",
-        "a": "One flat rate, set by vehicle and exact drop-off, confirmed in writing before you ride — tolls, fuel and gratuity disclosed up front, never surged. Call (877) 609-1919 or request a free quote online."
+        "a": "A single flat rate based on vehicle class and your exact drop-off, confirmed in writing before you travel — tolls, fuel and gratuity spelled out up front, with no surge. Call (877) 609-1919 or request an online quote."
       },
       {
         "q": "How long does IAD to Bethesda take?",
@@ -5911,15 +5911,15 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "What happens if my flight is delayed?",
-        "a": "Nothing on your end. We track the flight and adjust the pickup automatically, with 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international."
+        "a": "Nothing you need to do — we track the flight ourselves and shift the pickup automatically, and you still get 45 minutes free wait time domestically (60 minutes on international arrivals)."
       },
       {
         "q": "Do you run Bethesda back to IAD?",
-        "a": "Yes, 24/7. Book both directions together and we hold the same vehicle class and a combined rate."
+        "a": "Yes — any time, day or night. Reserve the round trip together and we'll lock in the same vehicle class at one combined rate."
       },
       {
         "q": "How many people can you carry?",
-        "a": "Up to three in a sedan, six in an SUV and 14 in a Sprinter van, with luggage. Larger groups ride in multiple coordinated vehicles."
+        "a": "A sedan comfortably fits three with bags, an SUV fits six, and a Sprinter van carries 14. Bigger groups travel in multiple vehicles we coordinate to arrive together."
       }
     ],
     "related": [
@@ -6059,7 +6059,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "What does a car service from Baltimore to Washington DC cost?",
-        "a": "One flat rate, set by vehicle and exact drop-off, confirmed in writing before you ride — tolls, fuel and gratuity disclosed up front, never surged. Call (877) 609-1919 or request a free quote online."
+        "a": "You'll get one flat, written rate tied to vehicle type and destination before you ever ride — tolls, fuel and gratuity included up front, no surge pricing. Call (877) 609-1919 or request a free quote online."
       },
       {
         "q": "How long does Baltimore to Washington DC take?",
@@ -6071,11 +6071,11 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Do you run Washington DC back to Baltimore?",
-        "a": "Yes, 24/7. Book both directions together and we hold the same vehicle class and a combined rate."
+        "a": "Yes, around the clock. Booking both legs together keeps the same vehicle class and gives you a single combined rate."
       },
       {
         "q": "How many people can you carry?",
-        "a": "Up to three in a sedan, six in an SUV and 14 in a Sprinter van, with luggage. Larger groups ride in multiple coordinated vehicles."
+        "a": "Sedans hold up to three passengers with luggage, SUVs up to six, Sprinter vans up to 14. For larger parties, we coordinate multiple vehicles so everyone arrives together."
       }
     ],
     "related": [
@@ -6371,7 +6371,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "What does a car service from Baltimore to Bethesda cost?",
-        "a": "One flat rate, set by vehicle and exact drop-off, confirmed in writing before you ride — tolls, fuel and gratuity disclosed up front, never surged. Call (877) 609-1919 or request a free quote online."
+        "a": "A single flat rate based on vehicle class and your exact drop-off, confirmed in writing before you travel — tolls, fuel and gratuity spelled out up front, with no surge. Call (877) 609-1919 or request an online quote."
       },
       {
         "q": "How long does Baltimore to Bethesda take?",
@@ -6379,15 +6379,15 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you pick me up at a hotel or office?",
-        "a": "Yes — any address in downtown Baltimore, including the Inner Harbor, Harbor East and Johns Hopkins. We stage early and text when we arrive."
+        "a": "Yes, any downtown Baltimore address — Inner Harbor, Harbor East, Johns Hopkins included. We arrive early and text you the moment we're there."
       },
       {
         "q": "Do you run Bethesda back to Baltimore?",
-        "a": "Yes, 24/7. Book both directions together and we hold the same vehicle class and a combined rate."
+        "a": "Yes — any time, day or night. Reserve the round trip together and we'll lock in the same vehicle class at one combined rate."
       },
       {
         "q": "How many people can you carry?",
-        "a": "Up to three in a sedan, six in an SUV and 14 in a Sprinter van, with luggage. Larger groups ride in multiple coordinated vehicles."
+        "a": "A sedan comfortably fits three with bags, an SUV fits six, and a Sprinter van carries 14. Bigger groups travel in multiple vehicles we coordinate to arrive together."
       }
     ],
     "related": [
@@ -6682,7 +6682,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does maryland corporate car service cost?",
-        "a": "Point-to-point trips are flat rate; multi-stop days are hourly with a minimum. Every quote is confirmed in writing with gratuity and tolls disclosed. Call (877) 609-1919 or request a free quote."
+        "a": "A straight point-to-point ride is flat rate; a multi-stop day is billed hourly with a minimum. Either way, your written quote spells out gratuity and tolls up front. Call (877) 609-1919 or request a free quote."
       },
       {
         "q": "How early should I reserve?",
@@ -6694,7 +6694,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can we add stops during the trip?",
-        "a": "Hourly bookings are designed for it. For flat-rate trips, dispatch can usually add a stop in real time if the chauffeur is not committed elsewhere."
+        "a": "That's exactly what hourly service is built for. On a flat-rate trip, dispatch can often add a stop on the fly as long as your chauffeur isn't already committed to another pickup."
       }
     ],
     "related": [
@@ -6837,7 +6837,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does maryland prom limo cost?",
-        "a": "Point-to-point trips are flat rate; multi-stop days are hourly with a minimum. Every quote is confirmed in writing with gratuity and tolls disclosed. Call (877) 609-1919 or request a free quote."
+        "a": "Single-destination trips are quoted flat; days with multiple stops are hourly with a minimum. Gratuity and tolls are disclosed in your written quote either way. Call (877) 609-1919 or request a quote online."
       },
       {
         "q": "How early should I reserve?",
@@ -6849,7 +6849,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can we add stops during the trip?",
-        "a": "Hourly bookings are designed for it. For flat-rate trips, dispatch can usually add a stop in real time if the chauffeur is not committed elsewhere."
+        "a": "Hourly bookings handle that easily. Even on a flat-rate trip, dispatch can usually work in an extra stop in real time if the chauffeur's schedule allows it."
       }
     ],
     "related": [
@@ -7147,7 +7147,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does maryland wine tour transportation cost?",
-        "a": "Point-to-point trips are flat rate; multi-stop days are hourly with a minimum. Every quote is confirmed in writing with gratuity and tolls disclosed. Call (877) 609-1919 or request a free quote."
+        "a": "A straight point-to-point ride is flat rate; a multi-stop day is billed hourly with a minimum. Either way, your written quote spells out gratuity and tolls up front. Call (877) 609-1919 or request a free quote."
       },
       {
         "q": "How early should I reserve?",
@@ -7159,7 +7159,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can we add stops during the trip?",
-        "a": "Hourly bookings are designed for it. For flat-rate trips, dispatch can usually add a stop in real time if the chauffeur is not committed elsewhere."
+        "a": "That's exactly what hourly service is built for. On a flat-rate trip, dispatch can often add a stop on the fly as long as your chauffeur isn't already committed to another pickup."
       }
     ],
     "related": [
@@ -7302,7 +7302,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "How much does philadelphia airport car service cost?",
-        "a": "Point-to-point trips are flat rate; multi-stop days are hourly with a minimum. Every quote is confirmed in writing with gratuity and tolls disclosed. Call (877) 609-1919 or request a free quote."
+        "a": "Single-destination trips are quoted flat; days with multiple stops are hourly with a minimum. Gratuity and tolls are disclosed in your written quote either way. Call (877) 609-1919 or request a quote online."
       },
       {
         "q": "How early should I reserve?",
@@ -7314,7 +7314,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can we add stops during the trip?",
-        "a": "Hourly bookings are designed for it. For flat-rate trips, dispatch can usually add a stop in real time if the chauffeur is not committed elsewhere."
+        "a": "Hourly bookings handle that easily. Even on a flat-rate trip, dispatch can usually work in an extra stop in real time if the chauffeur's schedule allows it."
       }
     ],
     "related": [
@@ -7635,7 +7635,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How much does CFG Bank Arena transportation cost?",
-        "a": "Point-to-point trips are one flat rate by vehicle and pickup address; if you want the car to wait through the event, we quote an hourly rate with a minimum instead. Either way the price is confirmed before you book and never surges on event night. Call (877) 609-1919 for a quote."
+        "a": "A simple drop-off is one flat rate based on vehicle and pickup address; if you'd rather keep the car waiting through the event, we quote an hourly rate with a minimum instead. Either way, your price is locked in before booking — no event-night surge. Call (877) 609-1919 for a quote."
       },
       {
         "q": "When is CFG Bank Arena busiest?",
@@ -7643,7 +7643,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to CFG Bank Arena?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes — the Cadillac Escalade and Chevrolet Suburban seat six, our Mercedes Sprinter vans carry up to 14, and stretch limousines hold eight. Bigger groups ride in multiple vehicles we coordinate to arrive together."
       },
       {
         "q": "What about parking at CFG Bank Arena?",
@@ -7801,7 +7801,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How much does M&T Bank Stadium transportation cost?",
-        "a": "Point-to-point trips are one flat rate by vehicle and pickup address; if you want the car to wait through the event, we quote an hourly rate with a minimum instead. Either way the price is confirmed before you book and never surges on event night. Call (877) 609-1919 for a quote."
+        "a": "For a one-way trip, it's a flat rate set by vehicle and pickup address; want the car to stay through the event, we'll quote hourly with a minimum instead. The price is confirmed up front and never surges on event night. Call (877) 609-1919 for a quote."
       },
       {
         "q": "When is M&T Bank Stadium busiest?",
@@ -7809,7 +7809,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to M&T Bank Stadium?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Six passengers fit in a Cadillac Escalade or Chevrolet Suburban, 14 in a Mercedes Sprinter van, and eight in a stretch limousine; larger parties travel in coordinated multi-vehicle convoys that arrive together."
       },
       {
         "q": "What about parking at M&T Bank Stadium?",
@@ -8133,7 +8133,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How much does the State Fair transportation cost?",
-        "a": "Point-to-point trips are one flat rate by vehicle and pickup address; if you want the car to wait through the event, we quote an hourly rate with a minimum instead. Either way the price is confirmed before you book and never surges on event night. Call (877) 609-1919 for a quote."
+        "a": "A simple drop-off is one flat rate based on vehicle and pickup address; if you'd rather keep the car waiting through the event, we quote an hourly rate with a minimum instead. Either way, your price is locked in before booking — no event-night surge. Call (877) 609-1919 for a quote."
       },
       {
         "q": "When is the State Fair busiest?",
@@ -8141,7 +8141,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the Maryland State Fair?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes — the Cadillac Escalade and Chevrolet Suburban seat six, our Mercedes Sprinter vans carry up to 14, and stretch limousines hold eight. Bigger groups ride in multiple vehicles we coordinate to arrive together."
       },
       {
         "q": "What about parking at the Maryland State Fair?",
@@ -8299,7 +8299,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How much does Camden Yards transportation cost?",
-        "a": "Point-to-point trips are one flat rate by vehicle and pickup address; if you want the car to wait through the event, we quote an hourly rate with a minimum instead. Either way the price is confirmed before you book and never surges on event night. Call (877) 609-1919 for a quote."
+        "a": "For a one-way trip, it's a flat rate set by vehicle and pickup address; want the car to stay through the event, we'll quote hourly with a minimum instead. The price is confirmed up front and never surges on event night. Call (877) 609-1919 for a quote."
       },
       {
         "q": "When is Camden Yards busiest?",
@@ -8307,7 +8307,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Oriole Park at Camden Yards?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Six passengers fit in a Cadillac Escalade or Chevrolet Suburban, 14 in a Mercedes Sprinter van, and eight in a stretch limousine; larger parties travel in coordinated multi-vehicle convoys that arrive together."
       },
       {
         "q": "What about parking at Oriole Park at Camden Yards?",
@@ -8631,7 +8631,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How much does Navy-Marine Corps Stadium transportation cost?",
-        "a": "Point-to-point trips are one flat rate by vehicle and pickup address; if you want the car to wait through the event, we quote an hourly rate with a minimum instead. Either way the price is confirmed before you book and never surges on event night. Call (877) 609-1919 for a quote."
+        "a": "A simple drop-off is one flat rate based on vehicle and pickup address; if you'd rather keep the car waiting through the event, we quote an hourly rate with a minimum instead. Either way, your price is locked in before booking — no event-night surge. Call (877) 609-1919 for a quote."
       },
       {
         "q": "When is Navy-Marine Corps Stadium busiest?",
@@ -8639,7 +8639,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Navy-Marine Corps Memorial Stadium?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes — the Cadillac Escalade and Chevrolet Suburban seat six, our Mercedes Sprinter vans carry up to 14, and stretch limousines hold eight. Bigger groups ride in multiple vehicles we coordinate to arrive together."
       },
       {
         "q": "What about parking at Navy-Marine Corps Memorial Stadium?",
@@ -8797,7 +8797,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How much does National Harbor transportation cost?",
-        "a": "Point-to-point trips are one flat rate by vehicle and pickup address; if you want the car to wait through the event, we quote an hourly rate with a minimum instead. Either way the price is confirmed before you book and never surges on event night. Call (877) 609-1919 for a quote."
+        "a": "For a one-way trip, it's a flat rate set by vehicle and pickup address; want the car to stay through the event, we'll quote hourly with a minimum instead. The price is confirmed up front and never surges on event night. Call (877) 609-1919 for a quote."
       },
       {
         "q": "When is National Harbor busiest?",
@@ -8805,7 +8805,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to National Harbor?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Six passengers fit in a Cadillac Escalade or Chevrolet Suburban, 14 in a Mercedes Sprinter van, and eight in a stretch limousine; larger parties travel in coordinated multi-vehicle convoys that arrive together."
       },
       {
         "q": "What about parking at National Harbor?",
@@ -9129,7 +9129,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How much does the Annapolis Boat Show transportation cost?",
-        "a": "Point-to-point trips are one flat rate by vehicle and pickup address; if you want the car to wait through the event, we quote an hourly rate with a minimum instead. Either way the price is confirmed before you book and never surges on event night. Call (877) 609-1919 for a quote."
+        "a": "A simple drop-off is one flat rate based on vehicle and pickup address; if you'd rather keep the car waiting through the event, we quote an hourly rate with a minimum instead. Either way, your price is locked in before booking — no event-night surge. Call (877) 609-1919 for a quote."
       },
       {
         "q": "When is the Annapolis Boat Show busiest?",
@@ -9137,7 +9137,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the Annapolis Boat Shows?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes — the Cadillac Escalade and Chevrolet Suburban seat six, our Mercedes Sprinter vans carry up to 14, and stretch limousines hold eight. Bigger groups ride in multiple vehicles we coordinate to arrive together."
       },
       {
         "q": "What about parking at the Annapolis Boat Shows?",
@@ -9295,7 +9295,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How much does the Renaissance Festival transportation cost?",
-        "a": "Point-to-point trips are one flat rate by vehicle and pickup address; if you want the car to wait through the event, we quote an hourly rate with a minimum instead. Either way the price is confirmed before you book and never surges on event night. Call (877) 609-1919 for a quote."
+        "a": "For a one-way trip, it's a flat rate set by vehicle and pickup address; want the car to stay through the event, we'll quote hourly with a minimum instead. The price is confirmed up front and never surges on event night. Call (877) 609-1919 for a quote."
       },
       {
         "q": "When is the Renaissance Festival busiest?",
@@ -9303,7 +9303,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the Maryland Renaissance Festival?",
-        "a": "Yes. Cadillac Escalade and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. Six passengers fit in a Cadillac Escalade or Chevrolet Suburban, 14 in a Mercedes Sprinter van, and eight in a stretch limousine; larger parties travel in coordinated multi-vehicle convoys that arrive together."
       },
       {
         "q": "What about parking at the Maryland Renaissance Festival?",

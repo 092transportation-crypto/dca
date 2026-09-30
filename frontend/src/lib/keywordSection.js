@@ -13,7 +13,7 @@ const POOL = [
     h2: `Limo Service, Car Service and Chauffeur Service ${at}`,
     text: [
       `Whether you search for a ${p} limo service, ${p} car service or a private chauffeur ${at}, the ride is the same: a licensed, background-checked chauffeur in a commercially insured vehicle, with the rate confirmed before you book.`,
-      `${SITE.brand} runs airport transfers to ${SITE.airports}, black car service for business travel, and hourly chauffeur service for weddings, events and nights out — 24 hours a day, 365 days a year.`,
+      `${SITE.brand} runs airport transfers to ${SITE.airports}, black car service for business travel ${at}, and hourly chauffeur service for weddings, events and nights out — 24 hours a day, 365 days a year.`,
     ],
   }),
   (p, at) => ({
@@ -27,7 +27,7 @@ const POOL = [
     h2: `Chauffeur Service ${at}: Airport, Corporate and Special Occasions`,
     text: [
       `A professional chauffeur service ${at} covers more than the airport run. ${SITE.brand} handles corporate car service and roadshows, wedding and prom limo service, and point-to-point black car rides across the region.`,
-      `Airport car service to and from ${SITE.airports} is quoted as a flat rate and confirmed before you ride, with dispatch reachable around the clock at ${SITE.phone}.`,
+      `Airport car service to and from ${SITE.airports} is quoted as a flat rate and confirmed before you ride ${at}, with dispatch reachable around the clock at ${SITE.phone}.`,
     ],
   }),
   (p, at) => ({
