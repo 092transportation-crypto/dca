@@ -1,6 +1,144 @@
 // Root-level guide articles (/<slug>) — same shape as BLOG_POSTS, rendered by BlogPostPage.
 export const GUIDES = [
   {
+    slug: 'holiday-lights-limo-tours-dc-maryland-virginia',
+    relatedRoutes: ['dca-to-annapolis', 'dca-to-washington-dc', 'dca-to-alexandria'],
+    title: 'Holiday Lights Limo Tours Guide: Washington DC, Maryland & Northern Virginia',
+    metaTitle: 'Holiday Lights Limo Tours: DC, MD & VA Guide | DCA Limos',
+    metaDesc:
+      "A chauffeured holiday lights tour guide for the DC area: real displays in DC, Maryland and Northern Virginia, flat-rate pricing, vehicle picks and a vendor checklist.",
+    excerpt:
+      "Every December the DC region lights up, from Georgetown's storefronts to drive-through displays across Maryland and Northern Virginia. Here is how to see the best of it from the back of a reserved car, plus the real displays worth the drive and the questions worth asking before you book.",
+    image: '/images/blog/landmark-capitol-1.webp',
+    author: 'DCA Limos Team',
+    authorBio: 'The DCA Limos dispatch and chauffeur team, writing from day-to-day experience on these routes.',
+    date: 'September 30, 2026',
+    readTime: '14 min read',
+    category: 'Seasonal Guides',
+    content: `
+      <p class="lead">December turns the Washington region into one of the more spread-out holiday-lights destinations on the East Coast. Georgetown's storefronts and National Harbor's waterfront glow within the District itself, while a ring of large drive-through displays runs from Annapolis to Harford County to Prince George's County to Northern Virginia, each open for a few weeks a year and each drawing real crowds on weekend nights. Seeing more than one of these in a single evening, in the cold, in December traffic, is exactly the kind of outing a chauffeured car is built for. This guide covers the real displays worth planning around, how to think about pricing and vehicle choice, how a route actually gets built, and what to ask any transportation company before you hand them your holiday night out.</p>
+
+      <h2>Why a chauffeur beats driving yourself to see holiday lights</h2>
+      <p>Holiday lights touring has a specific shape that plays against the strengths of driving yourself. The displays worth seeing are often thirty to sixty minutes apart, the best viewing happens after dark when the roads are busiest and the visibility is worst, and the people in the car usually include someone who would rather not be the one craning their neck at a dashboard GPS while merging across three lanes of Beltway traffic. Add kids who fall asleep between stops, grandparents who appreciate a warm, steady ride more than a quick one, or a group split across two cars that inevitably gets separated at a complicated interchange, and the case for a single reserved vehicle writes itself.</p>
+      <p>A chauffeured tour also solves the two problems that quietly ruin a lot of self-driven lights nights: parking and pacing. Drive-through displays mean nobody parks at all, so that part takes care of itself, but the walk-through stops and dinner reservations in between still need somewhere to leave a car, and December is when every lot and curb in Georgetown, Old Town and National Harbor fills first. A chauffeur drops the group at the door and either waits or circles back on a schedule you set, rather than you circling the block while everyone else waits in the cold. And because the car stays with you for the whole evening rather than being re-hailed between stops, the pacing is entirely yours: linger at one display, skip another, add a stop nobody planned on the way home, and the plan simply adjusts.</p>
+      <p>None of this requires a special occasion. A tour like this works as a date night, a family outing, an out-of-town visitor's one big DC-area evening, or an office or neighborhood group tradition, and the vehicle choice below scales to whichever of those applies.</p>
+
+      <h2>Real holiday light displays worth the drive</h2>
+      <p>The DC area does not have one central holiday-lights attraction; it has a scattered collection of them, and the best regional tours string two or three together rather than trying to see everything in one night. Dates, hours, admission and ticketing for all of these change from year to year, so treat anything below as a starting point for your own research with each venue closer to your visit, not a confirmed 2026 schedule.</p>
+      <h3>Georgetown and National Harbor (DC area, closest to home base)</h3>
+      <p>Georgetown dresses its storefronts and streetscape for the season every year, and a slow walk down M Street and Wisconsin Avenue, paired with the neighborhood's shopping and restaurants, is a reliable way to open or close an evening without a long drive. Just across the river in Maryland, National Harbor runs its own seasonal waterfront lighting and programming along the Potomac boardwalk, with the ice rink and the Capital Wheel adding to the atmosphere. Both pair naturally with dinner, and both are places where a dropped-off, picked-up arrival beats searching for parking on a December weekend. Our <a href="/blog/national-harbor-mgm-transportation-from-dca">National Harbor transportation guide</a> has more detail on getting to and from the waterfront, and our existing <a href="/blog/dc-holiday-lights-christmas-tree-season-transportation">DC holiday lights and National Christmas Tree season guide</a> covers the Ellipse, ZooLights and the District's own neighborhood displays in depth, so we will not repeat that ground here.</p>
+      <h3>Lights on the Bay at Sandy Point State Park (near Annapolis, MD)</h3>
+      <p>This long-running drive-through display sits inside Sandy Point State Park on the Chesapeake Bay, just off US-50 before the Bay Bridge, a natural stop on the way to or from Annapolis. The format is classic drive-through: your vehicle moves slowly along a lit route through the park while everyone stays warm inside, which makes it a particularly easy stop to add to a Sprinter van tour carrying a larger family group. It typically runs on a seasonal schedule through most of December, with per-vehicle admission charged at the gate; confirm current dates, hours and pricing directly with the park before you go.</p>
+      <h3>Symphony of Lights at Mariner Point Park (Joppa, Harford County, MD)</h3>
+      <p>Run by Harford County, this display is built around a drive-through route synchronized to a dedicated FM radio frequency, so the lights along the water at Mariner Point Park move in time with the holiday music playing in your car. It is one of the more theatrical versions of the drive-through format in the region and sits far enough north and east that it works best as a planned, standalone evening rather than a quick add-on to a DC-based tour. Check the county's current-year schedule and admission before building it into a route.</p>
+      <h3>Winter Lights Festival at Watkins Regional Park (Largo, Prince George's County, MD)</h3>
+      <p>The Maryland-National Capital Park and Planning Commission's Winter Lights Festival at Watkins Regional Park is one of the closer large drive-through options to central DC, which makes it a strong candidate to pair with a Maryland suburb pickup or an evening that also touches National Harbor. The route typically winds through the park's lit displays over several weeks each winter, with per-vehicle pricing at the gate; again, confirm the current season's dates and hours before you plan around them.</p>
+      <h3>Bull Run Festival of Lights at Bull Run Regional Park (Centreville, VA)</h3>
+      <p>For a Northern Virginia-based evening, Bull Run Regional Park's drive-through festival is the comparable option on that side of the region, typically running from mid-November into early January. It is far enough west of the District that it works best as its own evening, or paired with dinner in the Centreville or Manassas area, rather than tacked onto a DC or Maryland-focused tour in the same night.</p>
+      <p>Because these drive-through displays are spread across Annapolis, Harford County, Prince George's County and Centreville, nobody realistically sees all of them in one evening. A well-built tour usually anchors on one large drive-through display and adds a nearby walk-through stop, like Georgetown or National Harbor, rather than chasing distance for its own sake. More on that trade-off below.</p>
+
+      <h2>Flat-rate pricing, not a holiday surcharge</h2>
+      <p>Transportation pricing gets murkier, not clearer, during the holidays. Rideshare apps lean on surge pricing during exactly the high-demand weekend evenings when a lights tour happens, and some seasonal shuttle operators quote a per-stop or per-hour rate that grows once you are already in the car. DCA Limos prices the other way: we operate 24/7, 365 days a year, with the same flat rate regardless of time of day and no late-night or holiday surcharges, and pricing is flat-rate and confirmed before you ride, not estimated and adjusted afterward. For a multi-stop evening with several planned displays and some flexibility built in, that matters more than it does for a single point-to-point ride, because a tour is exactly the kind of trip where a surge-priced or meter-running vendor can turn a pleasant evening into an expensive surprise.</p>
+
+      <h2>Which vehicle fits a holiday lights tour</h2>
+      <p>DCA Limos runs a real, named fleet rather than an unspecified category, and the right pick for a lights tour comes down to group size and how much the evening leans toward a quiet date or a full group outing.</p>
+      <ul>
+        <li><strong>Mercedes-Benz E-Class (Business Sedan)</strong> or the <strong>BMW 7 Series / Mercedes S-Class (First Class Sedan)</strong> suit a couple or two people who want a quiet, comfortable ride between stops, with room for a bit of shopping from a Georgetown stop.</li>
+        <li><strong>Lincoln Nautilus (Midsize SUV)</strong> is a natural fit for a small family, with more cargo room for coats, blankets and the inevitable extra bag of hot chocolate supplies.</li>
+        <li><strong>Chevrolet Suburban (Luxury SUV)</strong> or <strong>Cadillac Escalade (Premium SUV)</strong> handle a larger family or multigenerational group — grandparents, parents and kids — in one vehicle rather than splitting across two cars that can lose each other in the dark.</li>
+        <li><strong>Mercedes Sprinter Shuttle</strong> or <strong>Mercedes Sprinter Executive</strong> keep an office group, extended family or neighborhood group of up to 13 together for the whole tour, which is usually the single biggest upgrade over driving yourselves for a group this size.</li>
+        <li><strong>Mercedes Sprinter Limo</strong> adds a stretch-limousine atmosphere to the same group capacity, a popular choice for a milestone celebration or an especially festive office outing built around the lights.</li>
+      </ul>
+      <p>The <a href="/fleet">fleet page</a> shows each of these with photos and passenger and luggage capacity if you want to compare before calling.</p>
+
+      <h2>Building the route: December traffic, timing and crowds</h2>
+      <p>A lights tour lives or dies on timing more than any other kind of evening we book. December adds its own layer of congestion on top of the region's usual rush hour: holiday shopping traffic downtown and at suburban retail corridors, earlier darkness that pushes evening traffic into the lighting window itself, and occasional weather that slows everything at once. A few practical points shape how we build a route:</p>
+      <ul>
+        <li><strong>Weeknights move faster than weekends.</strong> A Tuesday or Wednesday evening generally clears both the roads and the display lines faster than a Friday or Saturday, when every drive-through display in the region sees its heaviest traffic of the week.</li>
+        <li><strong>Early evening beats late evening for the first stop, late evening can beat early for the last.</strong> Arriving at a popular drive-through display right at opening often means a line forming behind you; arriving well after the dinner-hour crowd has moved through can mean a shorter wait, though some venues close earlier than you'd expect in December, so confirm hours.</li>
+        <li><strong>Pair geography, not just a wish list.</strong> A Georgetown-plus-National Harbor evening works because both sit close to central DC. A Sandy Point-plus-Watkins Regional Park evening works because both sit in the Maryland suburbs on a similar arc. Trying to connect Bull Run in Centreville with Harford County's Symphony of Lights in the same night means crossing the entire region twice and spending most of the evening in the car rather than looking at lights.</li>
+        <li><strong>Build in a real buffer.</strong> A single incident on the Beltway, I-95 or Route 50 can add real time to a December evening drive, and drive-through displays themselves can back up when a tour bus or a slow-moving family ahead of you takes its time. We build that cushion into the schedule rather than promising a tight one.</li>
+      </ul>
+      <p>Because the car and chauffeur stay with your group for the entire evening on an hourly, as-directed booking, none of this has to be locked in weeks ahead. Tell dispatch your rough wish list and we will help sequence it, and the plan can still flex on the night if a display is more crowded than expected or your group wants to linger somewhere longer.</p>
+
+      <h2>Drive-through displays versus walk-through displays</h2>
+      <p>These are genuinely different experiences, and knowing which kind each stop on your list is changes what you need from your vehicle and your evening. A drive-through display, like Lights on the Bay, Symphony of Lights, the Winter Lights Festival or Bull Run, is viewed entirely from inside the vehicle moving slowly along a set route, usually with per-vehicle admission at the gate; nobody gets out, nobody needs a coat heavier than what they wore in the car, and a larger vehicle like a Sprinter van simply means more people enjoying the same single admission together. A walk-through display or shopping-and-lights neighborhood, like Georgetown's storefronts or National Harbor's waterfront, means getting out of the car, walking in the cold for a stretch, and usually stopping for food or shopping along the way, which is where a drop-off-and-collect arrangement earns its keep rather than circling for parking.</p>
+      <p>Most strong regional tours mix the two: a drive-through display as the anchor, since it is low-effort and works for every age and mobility level in a group, paired with one walk-through stop for the part of the evening where people actually want to get out, stretch their legs and eat something. Knowing this distinction before you book also helps you right-size the vehicle — a walk-through-heavy evening benefits from easy, frequent curbside stops, while a drive-through-heavy evening is really about picking the biggest comfortable vehicle for the group and settling in.</p>
+
+      <h2>What to ask any holiday transportation vendor before you book</h2>
+      <p>December is the busiest season of the year for event and group transportation across the region, and it is also when fly-by-night shuttle operators and underinsured drivers show up to meet the demand. A short checklist before you hand over a deposit:</p>
+      <ul>
+        <li><strong>Is pricing flat and confirmed before the ride, or estimated and adjusted afterward?</strong> Ask for the number in writing, not a range.</li>
+        <li><strong>Are chauffeurs licensed and background-checked, and is the vehicle commercially insured?</strong> This is the baseline protection for a vehicle carrying your family or guests, and a legitimate operator will answer this question immediately and specifically.</li>
+        <li><strong>Is dispatch staffed and reachable for the whole evening, not just during business hours?</strong> A multi-stop December tour needs a live person to call if a display is more crowded than expected or the group wants to change the plan.</li>
+        <li><strong>What is the wait-time and cancellation policy?</strong> Get this in writing rather than assuming it matches what you have seen elsewhere.</li>
+        <li><strong>Is the booking hourly and as-directed, or a fixed point-to-point run?</strong> A tour with several stops and flexible timing needs the former; a fixed-route shuttle on someone else's schedule is a different, more rigid product.</li>
+        <li><strong>What vehicle, specifically, is being assigned?</strong> "A van" is not an answer. Ask for the make, model and seating configuration, and compare it against your group size and luggage or stroller needs.</li>
+      </ul>
+      <p>Our own answers: flat-rate pricing confirmed before you ride, licensed and background-checked chauffeurs, commercially insured vehicles, 24/7 dispatch, and a named fleet you can review on the <a href="/fleet">fleet page</a> before you book.</p>
+
+      <h2>Our wait-time and cancellation policy for tour bookings</h2>
+      <p>A holiday lights tour is booked as hourly, as-directed service rather than a single point-to-point transfer, so the usual airport wait-time allowances do not directly apply, but the same philosophy carries over: your chauffeur works to your schedule, not a rigid timetable, and dispatch stays reachable the whole evening if plans shift between stops. If your evening also starts or ends with an airport pickup, for a visiting relative joining the tour, say, airport pickups include 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international arrivals, with all other pickups including 15 minutes. On cancellations, our standard policy is free cancellation up to 3 hours before pickup for sedans and SUVs, and up to 12 hours before pickup for Sprinter vans, limousines and special events — tours booked in a larger Sprinter vehicle fall into that longer window, which is worth knowing if weather or a group's plans are still uncertain when you book.</p>
+
+      <h2>Booking your holiday lights tour</h2>
+      <p>A good holiday lights evening in this region takes a little more coordination than a single reservation, but it does not have to take more than one phone call. Tell dispatch your group size, which displays you are hoping to see, and roughly how long you want the evening to run, and we will help sequence a route that respects the geography and the December traffic rather than fighting it. If you are weighing whether a reserved car is worth it for this particular outing versus driving yourselves, our broader <a href="/why-hire-a-chauffeur">why hire a chauffeur</a> guide and <a href="/uber-vs-limo-service">Uber vs. limo service guide</a> cover the same decision for other kinds of evenings, and the logic holds here too. Reserve on the <a href="/booking">booking page</a>, browse the full <a href="/services">list of services</a> for hourly and as-directed options, review the <a href="/fleet">fleet</a> to pick a vehicle, or call 24/7 dispatch at (877) 609-1919 to talk through a multi-stop plan. If you are coordinating a larger private or corporate holiday event around the tour, our <a href="/contact">contact page</a> is the right place to start that conversation.</p>
+      <p>Based in Laurel, Maryland, DCA Limos also serves nearby <a href="/limo/annapolis-limo-service">Annapolis</a> and the <a href="/georgetown-limo-service">Georgetown</a> area directly, and runs regular transfers such as <a href="/dca-to-annapolis">DCA to Annapolis</a> and <a href="/dca-to-washington-dc">DCA to Washington DC</a> that pair naturally with a holiday lights evening built around either end of the region.</p>
+    `,
+    faqs: [
+      {
+        q: "What are the best holiday light displays near Washington DC to see by chauffeured car?",
+        a: "Within DC itself, Georgetown's storefront lighting and National Harbor's waterfront displays are the easiest to reach without parking stress. Beyond the District, large drive-through displays include Lights on the Bay at Sandy Point State Park near Annapolis, Symphony of Lights at Mariner Point Park in Harford County, the Winter Lights Festival at Watkins Regional Park in Prince George's County, and the Bull Run Festival of Lights in Centreville, Virginia. Confirm each venue's current-year dates and hours before you plan a route.",
+      },
+      {
+        q: "Is a drive-through holiday lights display viewed from inside the vehicle the whole time?",
+        a: "Yes. Drive-through displays like Lights on the Bay, Symphony of Lights, the Winter Lights Festival and Bull Run Festival of Lights are driven through slowly along a set route, with admission typically charged per vehicle at the gate. Everyone stays inside, which makes a larger vehicle like a Sprinter van a good value for a bigger group sharing one admission.",
+      },
+      {
+        q: "Can one evening cover both a drive-through display and a walk-through stop like Georgetown or National Harbor?",
+        a: "Usually, yes, if the two are reasonably close together geographically and the schedule has a real buffer for December traffic. A common pairing is a Maryland drive-through display with a National Harbor or Georgetown walk-through stop. Trying to connect sites on opposite sides of the region, such as Northern Virginia and Harford County, in one night usually means spending most of the evening driving rather than touring.",
+      },
+      {
+        q: "How much does a holiday lights limo tour cost?",
+        a: "DCA Limos prices tours as flat-rate, confirmed before you ride, with no late-night or holiday surcharges regardless of the date or time. The exact rate depends on vehicle choice and the length of the evening, so call dispatch or request a quote on the booking page with your group size and rough plan.",
+      },
+      {
+        q: "What vehicle should I book for a family holiday lights tour?",
+        a: "For two people, the Mercedes-Benz E-Class or BMW 7 Series sedans are comfortable choices. A Lincoln Nautilus suits a small family, while a Chevrolet Suburban or Cadillac Escalade keeps a larger or multigenerational family together in one vehicle. Groups of up to 13, such as an office outing or extended family, fit in a Mercedes Sprinter Shuttle, Sprinter Executive or the stretch-style Sprinter Limo.",
+      },
+      {
+        q: "Do holiday light displays in the DC area have specific open dates every year?",
+        a: "Yes, and they vary from year to year rather than running on a fixed calendar. Most of the drive-through displays mentioned here run for several weeks between mid-November and early January, with specific opening dates, hours and ticket prices set and published by each venue closer to the season. Always confirm directly with the park or venue before building a route around it.",
+      },
+      {
+        q: "Is it worth booking a chauffeur instead of driving to see holiday lights ourselves?",
+        a: "For a multi-stop evening, usually yes. The displays worth seeing are often spread across the region, the best viewing happens after dark during the most congested hours, and a chauffeured car removes both the parking search at walk-through stops and the stress of navigating unfamiliar roads at night. It also lets a group with mixed ages and energy levels move at one shared, unhurried pace.",
+      },
+      {
+        q: "What is DCA Limos' cancellation policy for a holiday lights tour?",
+        a: "Free cancellation up to 3 hours before pickup for sedans and SUVs, and up to 12 hours before pickup for Sprinter vans, limousines and special events. Tours booked in a Sprinter vehicle fall under the longer 12-hour window.",
+      },
+      {
+        q: "What should I ask a transportation company before booking a holiday lights tour?",
+        a: "Ask whether pricing is flat-rate and confirmed in writing before the ride, whether chauffeurs are licensed and background-checked, whether the vehicle is commercially insured, whether dispatch is reachable throughout the evening, whether the booking is hourly and as-directed rather than a fixed shuttle route, and exactly which vehicle will be assigned.",
+      },
+      {
+        q: "Does DCA Limos serve Annapolis and Maryland for holiday lights tours, not just Washington DC?",
+        a: "Yes. DCA Limos is based in Laurel, Maryland, and serves the full DC, Maryland and Northern Virginia region, including Annapolis and the areas around Sandy Point State Park, Harford County and Prince George's County where several of the larger drive-through displays are located.",
+      },
+    ],
+    relatedLinks: [
+      { label: 'DC Holiday Lights & National Christmas Tree Guide', to: '/blog/dc-holiday-lights-christmas-tree-season-transportation' },
+      { label: 'National Harbor Transportation', to: '/blog/national-harbor-mgm-transportation-from-dca' },
+      { label: 'Annapolis Limo Service', to: '/limo/annapolis-limo-service' },
+      { label: 'Georgetown Limo Service', to: '/georgetown-limo-service' },
+      { label: 'DCA to Annapolis', to: '/dca-to-annapolis' },
+      { label: 'Why Hire a Chauffeur', to: '/why-hire-a-chauffeur' },
+      { label: 'Our Fleet', to: '/fleet' },
+      { label: 'Book a Ride', to: '/booking' },
+    ],
+  },
+
+  {
     slug: 'uber-vs-limo-service',
     relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-tysons'],
     title: 'Uber vs. Limo Service in Washington DC: Which One Fits Your Trip?',
