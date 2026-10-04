@@ -130,9 +130,14 @@ module.exports = async (req, res) => {
     return res.status(405).json({ success: false, message: 'Method not allowed' });
   }
 
-  const smtpUser = process.env.SMTP_USER;
-  const smtpPassword = process.env.SMTP_PASSWORD;
-  const recipient = process.env.NOTIFICATION_EMAIL || smtpUser;
+  // Trim stray whitespace/newlines — Gmail app passwords are displayed in
+  // space-separated groups of 4 and are easy to paste with that spacing (or
+  // a trailing newline) still intact, which Gmail's SMTP server rejects with
+  // "535-5.7.8 Username and Password not accepted" even though the
+  // underlying 16-character password is correct.
+  const smtpUser = (process.env.SMTP_USER || '').trim();
+  const smtpPassword = (process.env.SMTP_PASSWORD || '').replace(/\s+/g, '');
+  const recipient = (process.env.NOTIFICATION_EMAIL || smtpUser || '').trim();
   if (!smtpUser || !smtpPassword) {
     console.error('SMTP_USER / SMTP_PASSWORD not configured');
     return res.status(500).json({ success: false, message: 'Email service not configured' });
