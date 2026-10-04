@@ -6,6 +6,7 @@ import { BLOG_POSTS_BATCH3 } from '@/data/blogPostsBatch3';
 import { BLOG_POSTS_BATCH4 } from '@/data/blogPostsBatch4';
 import { BLOG_POSTS_BATCH5 } from '@/data/blogPostsBatch5';
 import { BLOG_POSTS_BATCH6 } from '@/data/blogPostsBatch6';
+import { BLOG_POSTS_BATCH7 } from '@/data/blogPostsBatch7';
 
 export const BLOG_POSTS = [
   {
@@ -1691,6 +1692,12 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH5);
 // multicultural, wine country party bus). Each post ships with its own 5
 // FAQs already; ensureFiveFaqs below is a no-op for this batch.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH6);
+
+// 2026-10-04 batch 7: 20 new posts covering occasion/audience angles not
+// already covered by earlier batches (quinceañera, homecoming, DC civic/
+// seasonal events, hotel B2B, household-occasion topics). Each post ships
+// with its own 5 FAQs already; ensureFiveFaqs below is a no-op for this batch.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH7);
 
 // Every page carries five FAQs (accordion + FAQPage schema).
 BLOG_POSTS.forEach((p) => {
