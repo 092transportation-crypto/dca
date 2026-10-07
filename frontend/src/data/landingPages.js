@@ -1,9 +1,8 @@
-// 15 SEO Landing Pages — each targets a specific city/service/airport keyword cluster.
+// 11 SEO Landing Pages — each targets a specific city/service/airport keyword cluster.
 // Adding a new landing page: drop a new object in this array; routes & sitemap pick it up automatically.
-// NOTE (2026-10-07): the rockville/bethesda/silver-spring/frederick entries below duplicated the
-// richer /<slug> MarylandPage city pages, so they were pulled from public/sitemap-static.xml and
-// given 301 redirects in vercel.json (/limo/<slug> -> /<slug>). They are left in this array only
-// because this file is pending a manual edit to delete those 4 objects outright — TODO: remove them.
+// NOTE (2026-10-07): rockville/bethesda/silver-spring/frederick were removed from this array —
+// they duplicated the richer /<slug> MarylandPage city pages. 301 redirects for /limo/<slug> ->
+// /<slug> live in vercel.json.
 
 export const LANDING_PAGES = [
   // ===== AIRPORTS =====
@@ -178,60 +177,6 @@ export const LANDING_PAGES = [
     relatedCities: ['Towson', 'Ellicott City', 'Glen Burnie', 'Annapolis', 'Columbia'],
   },
   {
-    slug: 'bethesda-limo-service',
-    category: 'Maryland Cities',
-    h1: 'Bethesda Limo Service',
-    metaTitle: 'Bethesda Limo Service | Executive Car Service Bethesda MD',
-    metaDesc: 'Executive-grade Bethesda MD limo service. NIH, Walter Reed, downtown Bethesda. Dulles, DCA & BWI airport transfers. Corporate accounts welcome.',
-    hero: 'Executive transportation for Bethesda\'s professionals. NIH, Walter Reed, and the entire DMV business corridor.',
-    image: '/images/executive-sedan.webp',
-    intro: 'Professionals at NIH, Walter Reed, Lockheed Martin, and the dozens of federal contractors lining Bethesda\'s I-270 corridor rely on DCA Limos for executive-grade transportation. We deliver airport transfers, client roadshows, and same-day point-to-point service with the discretion executives demand.',
-    highlights: [
-      'NIH, Walter Reed & federal contractor accounts',
-      'Direct service to Dulles, DCA & BWI airports',
-      'Discreet executive protocol service',
-      'Multi-stop roadshows & client visits',
-      'Coverage: Bethesda, Chevy Chase, Potomac, North Bethesda',
-    ],
-    relatedCities: ['Silver Spring', 'Rockville', 'Chevy Chase', 'Gaithersburg', 'Potomac'],
-  },
-  {
-    slug: 'silver-spring-limo-service',
-    category: 'Maryland Cities',
-    h1: 'Silver Spring Limo Service',
-    metaTitle: 'Silver Spring Limo & Chauffeur Service | DCA Limos',
-    metaDesc: 'Reliable Silver Spring MD limo service. Downtown Silver Spring, Discovery, NOAA. Airport transfers to BWI, DCA, IAD. Book your Mercedes ride.',
-    hero: 'Silver Spring\'s premium limousine and executive car service. Downtown Silver Spring to anywhere in the DMV.',
-    image: '/images/executive-sedan.webp',
-    intro: 'Silver Spring is one of Montgomery County\'s most dynamic business and entertainment hubs — home to Discovery, NOAA, AFI Silver, and the buzzing downtown nightlife. DCA Limos provides the area\'s most reliable airport, corporate, and special-event transportation.',
-    highlights: [
-      'Downtown Silver Spring nightlife packages',
-      'Discovery & NOAA corporate accounts',
-      'Direct DCA, BWI & IAD airport transfers',
-      'AFI Silver & The Fillmore concert transportation',
-      'Coverage: Silver Spring, Wheaton, Kensington, Takoma Park',
-    ],
-    relatedCities: ['Bethesda', 'Rockville', 'Wheaton', 'Takoma Park', 'College Park'],
-  },
-  {
-    slug: 'rockville-limo-service',
-    category: 'Maryland Cities',
-    h1: 'Rockville Limo Service',
-    metaTitle: 'Rockville Limo Service | Luxury Car Service Rockville MD',
-    metaDesc: 'Premier Rockville MD limo service. Rockville Pike, Twinbrook, Montgomery College. Airport transfers, weddings, corporate. 24/7 luxury Mercedes.',
-    hero: 'Rockville\'s premium luxury transportation. Airport transfers, corporate travel, and special events.',
-    image: '/images/executive-sedan.webp',
-    intro: 'As the seat of Montgomery County, Rockville is one of Maryland\'s most important business centers. DCA Limos serves the Rockville Pike corridor, Twinbrook, Montgomery College, and the Westat & EagleBank Arena event district with luxury chauffeured transportation.',
-    highlights: [
-      'Rockville Pike & I-270 corridor specialists',
-      'Westat & EagleBank Arena event transportation',
-      'BWI, DCA, IAD airport transfers',
-      'Wedding & bar/bat mitzvah specialists',
-      'Corporate monthly accounts available',
-    ],
-    relatedCities: ['Bethesda', 'Gaithersburg', 'Potomac', 'Silver Spring', 'Olney'],
-  },
-  {
     slug: 'columbia-limo-service',
     category: 'Maryland Cities',
     h1: 'Columbia Limo Service',
@@ -248,24 +193,6 @@ export const LANDING_PAGES = [
       'Coverage: Columbia, Ellicott City, Clarksville, Highland',
     ],
     relatedCities: ['Ellicott City', 'Laurel', 'Clarksville', 'Howard County', 'Baltimore'],
-  },
-  {
-    slug: 'frederick-limo-service',
-    category: 'Maryland Cities',
-    h1: 'Frederick Limo Service',
-    metaTitle: 'Frederick Limo Service | Luxury Car Service Frederick MD',
-    metaDesc: 'Frederick MD limo service. Historic downtown, wineries, BWI/IAD airport. Wedding limousines, corporate travel & special events. Book online.',
-    hero: 'Frederick\'s luxury limousine and chauffeur service. Historic downtown to DC airports — effortlessly.',
-    image: '/images/executive-sedan.webp',
-    intro: 'Frederick combines small-town historic charm with growing wine-country sophistication. DCA Limos serves the historic downtown, the Frederick wineries tour circuit, and the area\'s wedding venues with luxury transportation that matches the destination.',
-    highlights: [
-      'Frederick wineries & breweries tour packages',
-      'Historic downtown wedding venue transfers',
-      'BWI & Dulles airport service from Frederick',
-      'Civil War battlefield tour transportation (Antietam, Gettysburg)',
-      'Coverage: Frederick, Mount Airy, New Market, Walkersville',
-    ],
-    relatedCities: ['Mount Airy', 'Gaithersburg', 'Rockville', 'Hagerstown', 'Westminster'],
   },
   {
     slug: 'hanover-limo-service',
