@@ -17,6 +17,26 @@
       "permanent": true
     },
     {
+      "source": "/limo/rockville-limo-service",
+      "destination": "/rockville-limo-service",
+      "permanent": true
+    },
+    {
+      "source": "/limo/bethesda-limo-service",
+      "destination": "/bethesda-limo-service",
+      "permanent": true
+    },
+    {
+      "source": "/limo/silver-spring-limo-service",
+      "destination": "/silver-spring-limo-service",
+      "permanent": true
+    },
+    {
+      "source": "/limo/frederick-limo-service",
+      "destination": "/frederick-limo-service",
+      "permanent": true
+    },
+    {
       "source": "/dca-to-bwi-airport",
       "destination": "/dca-to-bwi",
       "permanent": true

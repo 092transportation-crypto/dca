@@ -12,8 +12,8 @@ export const MARYLAND_PAGES = [
     "name": "Rockville",
     "badge": "Maryland Cities",
     "h1": "Rockville Limo Service & Car Service",
-    "metaTitle": "Rockville Limo Service | Car Service Rockville MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Rockville, MD — Reagan National in 35–50 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Rockville MD Limo | Town Square & EagleBank Arena",
+    "metaDescription": "Limo service in Rockville, MD for Rockville Town Square, Glenview Mansion weddings and EagleBank Arena events. DCA 35–50 min. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -40,15 +40,16 @@ export const MARYLAND_PAGES = [
       "Reagan National, BWI and Dulles transfers from every Rockville address",
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
-      "Chauffeurs who know Rockville Town Square, Glenview Mansion at Rockville Civic Center Park and how to route around the I-270 spur merge at the Beltway",
+      "Chauffeurs who know Rockville Town Square, Glenview Mansion at Rockville Civic Center Park, EagleBank Arena concerts and how to route around the I-270 spur merge at the Beltway",
       "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limos",
-      "Corporate accounts with monthly invoicing for the Nuclear Regulatory Commission and other Rockville employers"
+      "Corporate accounts with monthly invoicing for the Nuclear Regulatory Commission and other Rockville employers",
+      "Bar and bat mitzvah specialists — Sprinter vans and limousines staged for synagogue-to-venue runs across Montgomery County"
     ],
     "sections": [
       {
         "h2": "A chauffeur who actually knows Rockville",
         "paragraphs": [
-          "Rockville is more than a dot on the map to us. Our chauffeurs work I-270, Rockville Pike (MD-355), the Capital Beltway (I-495), Veirs Mill Road (MD-586) and the ICC (MD-200) daily and know the difference between a pickup at Twinbrook and one at Fallsgrove — which entrance, which lane, which detour when the I-270 spur merge at the Beltway and the Rockville Pike crawl between Twinbrook and White Flint backs up. Landmarks like Rockville Town Square, the Montgomery County Circuit Court, Glenview Mansion at Rockville Civic Center Park and Montgomery College's Rockville campus are regular stops.",
+          "Rockville is more than a dot on the map to us. Our chauffeurs work I-270, Rockville Pike (MD-355), the Capital Beltway (I-495), Veirs Mill Road (MD-586) and the ICC (MD-200) daily and know the difference between a pickup at Twinbrook and one at Fallsgrove — which entrance, which lane, which detour when the I-270 spur merge at the Beltway and the Rockville Pike crawl between Twinbrook and White Flint backs up. Landmarks like Rockville Town Square, the Montgomery County Circuit Court, Glenview Mansion at Rockville Civic Center Park, EagleBank Arena and Montgomery College's Rockville campus are regular stops.",
           "We serve the hotels too: the Cambria Hotel Rockville, the Hilton Washington DC/Rockville and the Sheraton Rockville. Visiting executives, wedding guests and families get a chauffeur waiting in the lobby, not a phone call from the parking lot."
         ]
       },
@@ -62,7 +63,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Weddings, corporate travel and nights out in Rockville",
         "paragraphs": [
-          "Our Rockville calendar fills with corporate travel for I-270 biotech firms, court and county-government appointments, Montgomery College events, weddings at Glenview Mansion and nights out at Rockville Town Square. Weddings at Glenview Mansion get a Sprinter or stretch limousine and a chauffeur who has staged there before. Corporate clients from the Nuclear Regulatory Commission, Westat, the Montgomery County government complex and the biotech and health-science firms clustered along Shady Grove Road and the I-270 corridor keep an account for roadshows, board visits and standing commutes. And for a night out, an hourly chauffeur means nobody argues about the drive home."
+          "Our Rockville calendar fills with corporate travel for I-270 biotech firms, court and county-government appointments, Montgomery College events, concerts and family events at EagleBank Arena, weddings at Glenview Mansion and nights out at Rockville Town Square. Weddings at Glenview Mansion get a Sprinter or stretch limousine and a chauffeur who has staged there before, and the same vans handle bar and bat mitzvah parties moving between a Rockville-area synagogue and the reception venue. Corporate clients from the Nuclear Regulatory Commission, Westat, the Montgomery County government complex and the biotech and health-science firms clustered along Shady Grove Road and the I-270 corridor keep an account for roadshows, board visits and standing commutes. And for a night out, an hourly chauffeur means nobody argues about the drive home."
         ]
       }
     ],
@@ -174,8 +175,8 @@ export const MARYLAND_PAGES = [
     "name": "Bethesda",
     "badge": "Maryland Cities",
     "h1": "Bethesda Limo Service & Car Service",
-    "metaTitle": "Bethesda Limo Service | Car Service Bethesda MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Bethesda, MD — Reagan National in 25–40 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Bethesda Car Service | Near NIH & Bethesda Row",
+    "metaDescription": "Executive car service for Bethesda, MD — NIH, Walter Reed and Bethesda Row. Reagan National just 25–40 minutes away. Call (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -204,7 +205,8 @@ export const MARYLAND_PAGES = [
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know the National Institutes of Health campus, Bethesda Row and how to route around the Wisconsin Avenue",
       "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limos",
-      "Corporate accounts with monthly invoicing for NIH and other Bethesda employers"
+      "Corporate accounts with monthly invoicing for NIH and other Bethesda employers",
+      "Discreet protocol service for federal contractor and government-adjacent travel, with chauffeurs who understand a confidential cabin"
     ],
     "sections": [
       {
@@ -224,7 +226,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Weddings, corporate travel and nights out in Bethesda",
         "paragraphs": [
-          "Our Bethesda calendar fills with NIH and Walter Reed visits, Marriott and Lockheed executive travel, Strathmore concerts, Congressional Country Club events and dinners on Bethesda Row. Weddings at the Music Center at Strathmore get a Sprinter or stretch limousine and a chauffeur who has staged there before. Corporate clients from NIH, Walter Reed, Marriott International, Lockheed Martin's Rockledge Drive headquarters and the law, consulting and medical practices around the Bethesda Metro keep an account for roadshows, board visits and standing commutes. And for a night out, an hourly chauffeur means nobody argues about the drive home."
+          "Our Bethesda calendar fills with NIH and Walter Reed visits, Marriott and Lockheed executive travel, Strathmore concerts, Congressional Country Club events and dinners on Bethesda Row. Weddings at the Music Center at Strathmore get a Sprinter or stretch limousine and a chauffeur who has staged there before. Corporate clients from NIH, Walter Reed, Marriott International, Lockheed Martin's Rockledge Drive headquarters and the law, consulting and medical practices around the Bethesda Metro keep an account for roadshows, board visits and standing commutes — several of them federal contractors who specifically ask for a chauffeur who treats the back seat as confidential space and follows a no-conversation-unless-invited protocol. And for a night out, an hourly chauffeur means nobody argues about the drive home."
         ]
       }
     ],
@@ -336,8 +338,8 @@ export const MARYLAND_PAGES = [
     "name": "Gaithersburg",
     "badge": "Maryland Cities",
     "h1": "Gaithersburg Limo Service & Car Service",
-    "metaTitle": "Gaithersburg Limo Service | Car Service Gaithersburg MD",
-    "metaDescription": "Luxury limo & car service in Gaithersburg, MD — Reagan National in 45–60 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Gaithersburg Car Service | Rio Lakefront & Kentlands",
+    "metaDescription": "Car service in Gaithersburg, MD serving Rio Lakefront, Kentlands Market Square and NIST. Reagan National is 45–60 minutes away. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -498,8 +500,8 @@ export const MARYLAND_PAGES = [
     "name": "Silver Spring",
     "badge": "Maryland Cities",
     "h1": "Silver Spring Limo Service & Car Service",
-    "metaTitle": "Silver Spring Limo Service | Car Service Silver Spring MD",
-    "metaDescription": "Luxury limo & car service in Silver Spring, MD — Reagan National in 30–45 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Silver Spring MD Limo | The Fillmore & Discovery HQ",
+    "metaDescription": "Limo service in Silver Spring, MD for Fillmore concerts, Discovery headquarters and NOAA travel. Reagan National 30–45 min. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -528,13 +530,13 @@ export const MARYLAND_PAGES = [
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Downtown Silver Spring on Ellsworth Drive, The Fillmore Silver Spring and how to route around the Colesville Road",
       "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limos",
-      "Corporate accounts with monthly invoicing for NOAA and other Silver Spring employers"
+      "Corporate accounts with monthly invoicing for NOAA, Discovery and other Silver Spring employers"
     ],
     "sections": [
       {
         "h2": "A chauffeur who actually knows Silver Spring",
         "paragraphs": [
-          "Silver Spring is more than a dot on the map to us. Our chauffeurs work the Capital Beltway (I-495), Colesville Road (US-29), Georgia Avenue (MD-97), East-West Highway (MD-410), New Hampshire Avenue (MD-650) and the ICC (MD-200) daily and know the difference between a pickup at Woodside and one at Four Corners — which entrance, which lane, which detour when the Colesville Road and Georgia Avenue merges downtown and the Beltway inner loop between Georgia Avenue and I-95 backs up. Landmarks like Downtown Silver Spring on Ellsworth Drive, the AFI Silver Theatre, The Fillmore Silver Spring and NOAA's headquarters at Silver Spring Metro Center are regular stops.",
+          "Silver Spring is more than a dot on the map to us. Our chauffeurs work the Capital Beltway (I-495), Colesville Road (US-29), Georgia Avenue (MD-97), East-West Highway (MD-410), New Hampshire Avenue (MD-650) and the ICC (MD-200) daily and know the difference between a pickup at Woodside and one at Four Corners — which entrance, which lane, which detour when the Colesville Road and Georgia Avenue merges downtown and the Beltway inner loop between Georgia Avenue and I-95 backs up. Landmarks like Downtown Silver Spring on Ellsworth Drive, the AFI Silver Theatre, The Fillmore Silver Spring, Discovery's headquarters tower and NOAA's headquarters at Silver Spring Metro Center are regular stops.",
           "We serve the hotels too: the Sheraton Silver Spring, the Courtyard Silver Spring Downtown and the Homewood Suites. Visiting executives, wedding guests and families get a chauffeur waiting in the lobby, not a phone call from the parking lot."
         ]
       },
@@ -548,7 +550,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Weddings, corporate travel and nights out in Silver Spring",
         "paragraphs": [
-          "Our Silver Spring calendar fills with FDA and NOAA business travel, Fillmore concerts, AFI film festival weeks, Holy Cross medical visits and Takoma Park and Four Corners family airport runs. Weddings at The Fillmore Silver Spring get a Sprinter or stretch limousine and a chauffeur who has staged there before. Corporate clients from NOAA, the FDA at White Oak, Holy Cross Hospital, the Montgomery County government offices and the media and nonprofit employers downtown keep an account for roadshows, board visits and standing commutes. And for a night out, an hourly chauffeur means nobody argues about the drive home."
+          "Our Silver Spring calendar fills with FDA and NOAA business travel, Discovery executive roadshows, Fillmore concerts, AFI film festival weeks, Holy Cross medical visits and Takoma Park and Four Corners family airport runs. Weddings at The Fillmore Silver Spring get a Sprinter or stretch limousine and a chauffeur who has staged there before. Corporate clients from NOAA, Discovery's downtown headquarters, the FDA at White Oak, Holy Cross Hospital, the Montgomery County government offices and the media and nonprofit employers downtown keep an account for roadshows, board visits and standing commutes. And for a night out, an hourly chauffeur means nobody argues about the drive home."
         ]
       }
     ],
@@ -660,8 +662,8 @@ export const MARYLAND_PAGES = [
     "name": "Bowie",
     "badge": "Maryland Cities",
     "h1": "Bowie Limo Service & Car Service",
-    "metaTitle": "Bowie Limo Service | Luxury Car Service Bowie MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Bowie, MD — Reagan National in 40–55 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Bowie MD Limo | Town Center & Baysox Games",
+    "metaDescription": "Luxury limo service in Bowie, MD for Bowie Town Center, Baysox games at Prince George's Stadium and airport runs. DCA 40–55 min. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -822,8 +824,8 @@ export const MARYLAND_PAGES = [
     "name": "Laurel",
     "badge": "Maryland Cities",
     "h1": "Laurel Limo Service & Car Service",
-    "metaTitle": "Laurel Limo Service | Luxury Car Service Laurel MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Laurel, MD — Reagan National in 35–50 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Laurel MD Limo | Laurel Park & Johns Hopkins APL",
+    "metaDescription": "Limo service in Laurel, MD for Laurel Park racetrack and Johns Hopkins APL commuters. BWI is only 20–25 minutes away. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -984,8 +986,8 @@ export const MARYLAND_PAGES = [
     "name": "Greenbelt",
     "badge": "Maryland Cities",
     "h1": "Greenbelt Limo Service & Car Service",
-    "metaTitle": "Greenbelt Limo Service | Car Service Greenbelt MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Greenbelt, MD — Reagan National in 30–45 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Greenbelt MD Limo | NASA Goddard Corporate Accounts",
+    "metaDescription": "Limo service in Greenbelt, MD for NASA Goddard Space Flight Center staff and Greenbelt Park visitors. Reagan National 30–45 min. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -1146,8 +1148,8 @@ export const MARYLAND_PAGES = [
     "name": "Waldorf",
     "badge": "Maryland Cities",
     "h1": "Waldorf Limo Service & Car Service",
-    "metaTitle": "Waldorf Limo Service | Luxury Car Service Waldorf MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Waldorf, MD — Reagan National in 40–60 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Waldorf MD Car Service | St. Charles Towne Center",
+    "metaDescription": "Car service in Waldorf, MD near St. Charles Towne Center and Charles County government in La Plata. Reagan National 40–60 min away. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -1308,8 +1310,8 @@ export const MARYLAND_PAGES = [
     "name": "Frederick",
     "badge": "Maryland Cities",
     "h1": "Frederick Limo Service & Car Service",
-    "metaTitle": "Frederick Limo Service | Car Service Frederick MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Frederick, MD — Reagan National in 60–80 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Frederick MD Limo | Historic Downtown & Wine Country",
+    "metaDescription": "Limo service in Frederick, MD — Carroll Creek Linear Park, downtown wineries and Civil War battlefield day trips. Reagan National 60–80 min. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -1338,7 +1340,8 @@ export const MARYLAND_PAGES = [
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Carroll Creek Linear Park, Frederick Health Hospital and how to route around the I-270",
       "Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limos",
-      "Corporate accounts with monthly invoicing for Fort Detrick and other Frederick employers"
+      "Corporate accounts with monthly invoicing for Fort Detrick and other Frederick employers",
+      "Day-trip charters to the Antietam and Gettysburg battlefields and the Frederick County wineries and breweries circuit"
     ],
     "sections": [
       {
@@ -1358,7 +1361,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Weddings, corporate travel and nights out in Frederick",
         "paragraphs": [
-          "Our Frederick calendar fills with Fort Detrick and Riverside Research Park business travel, Ceresville Mansion and downtown weddings, Frederick Keys games, wine-country outings to Linganore and Black Ankle and Hood College weekends. Weddings at Ceresville Mansion get a Sprinter or stretch limousine and a chauffeur who has staged there before. Corporate clients from Fort Detrick, Frederick Health, Hood College, the biotech firms of the Riverside Research Park and the county government downtown keep an account for roadshows, board visits and standing commutes. And for a night out, an hourly chauffeur means nobody argues about the drive home."
+          "Our Frederick calendar fills with Fort Detrick and Riverside Research Park business travel, Ceresville Mansion and downtown weddings, Frederick Keys games, wine-and-brewery-country outings to Linganore and Black Ankle, Hood College weekends and half-day history charters out to the Antietam and Gettysburg battlefields. Weddings at Ceresville Mansion get a Sprinter or stretch limousine and a chauffeur who has staged there before. Corporate clients from Fort Detrick, Frederick Health, Hood College, the biotech firms of the Riverside Research Park and the county government downtown keep an account for roadshows, board visits and standing commutes. And for a night out, an hourly chauffeur means nobody argues about the drive home."
         ]
       }
     ],
@@ -1470,8 +1473,8 @@ export const MARYLAND_PAGES = [
     "name": "Odenton",
     "badge": "Maryland Cities",
     "h1": "Odenton Limo Service & Car Service",
-    "metaTitle": "Odenton Limo Service | Luxury Car Service Odenton MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Odenton, MD — Reagan National in 45–60 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Odenton MD Limo | Fort Meade & 15 Min from BWI",
+    "metaDescription": "Limo service in Odenton, MD for Fort Meade/NSA commuters and Piney Orchard Ice Arena. BWI is just 15–20 minutes away. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -1632,8 +1635,8 @@ export const MARYLAND_PAGES = [
     "name": "Severna Park",
     "badge": "Maryland Cities",
     "h1": "Severna Park Limo Service & Car Service",
-    "metaTitle": "Severna Park Limo Service | Car Service Severna Park MD",
-    "metaDescription": "Luxury limo & car service in Severna Park, MD — Reagan National in 50–70 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Severna Park MD Car Service | B&A Trail Area",
+    "metaDescription": "Car service in Severna Park, MD near the Baltimore & Annapolis Trail and Severna Park Marketplace. BWI is just 20–30 minutes away. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -1794,8 +1797,8 @@ export const MARYLAND_PAGES = [
     "name": "Crofton",
     "badge": "Maryland Cities",
     "h1": "Crofton Limo Service & Car Service",
-    "metaTitle": "Crofton Limo Service | Luxury Car Service Crofton MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Crofton, MD — Reagan National in 40–60 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Crofton MD Car Service | Near Fort Meade & BWI",
+    "metaDescription": "Car service in Crofton, MD for Fort Meade/NSA commutes, the Village at Waugh Chapel and BWI runs (25–35 min). Weddings too. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -1956,8 +1959,8 @@ export const MARYLAND_PAGES = [
     "name": "Hyattsville",
     "badge": "Maryland Cities",
     "h1": "Hyattsville Limo Service & Car Service",
-    "metaTitle": "Hyattsville Limo Service | Car Service Hyattsville MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Hyattsville, MD — Reagan National in 20–35 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Hyattsville MD Car Service | Route 1 & UMD Area",
+    "metaDescription": "Car service in Hyattsville, MD covering The Mall at Prince George's, Busboys and Poets and the University of Maryland. DCA 20–35 min. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -2118,8 +2121,8 @@ export const MARYLAND_PAGES = [
     "name": "Germantown",
     "badge": "Maryland Cities",
     "h1": "Germantown Limo Service & Car Service",
-    "metaTitle": "Germantown Limo Service | Car Service Germantown MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Germantown, MD — Reagan National in 50–70 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Germantown MD Limo | BlackRock Arts & Milestone",
+    "metaDescription": "Limo service in Germantown, MD near BlackRock Center for the Arts and Milestone Center. Hughes Network Systems accounts welcome. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -2280,8 +2283,8 @@ export const MARYLAND_PAGES = [
     "name": "Glen Burnie",
     "badge": "Maryland Cities",
     "h1": "Glen Burnie Limo Service & Car Service",
-    "metaTitle": "Glen Burnie Limo Service | Car Service Glen Burnie MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Glen Burnie, MD — Reagan National in 50–70 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Glen Burnie MD Car Service | 10 Minutes from BWI",
+    "metaDescription": "Car service in Glen Burnie, MD — just 10–15 minutes from BWI Airport. Marley Station Mall and the Cromwell light rail covered too. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -2442,8 +2445,8 @@ export const MARYLAND_PAGES = [
     "name": "Arnold",
     "badge": "Maryland Cities",
     "h1": "Arnold Limo Service & Car Service",
-    "metaTitle": "Arnold Limo Service | Luxury Car Service Arnold MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Arnold, MD — Reagan National in 55–75 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Arnold MD Car Service | Near Bay Hills & AACC",
+    "metaDescription": "Chauffeured car service in Arnold, MD, minutes from Bay Hills Golf Club and Anne Arundel Community College. BWI in 30–40 min. Call (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -2604,8 +2607,8 @@ export const MARYLAND_PAGES = [
     "name": "Riva",
     "badge": "Maryland Cities",
     "h1": "Riva Limo Service & Car Service",
-    "metaTitle": "Riva Limo Service | Luxury Car Service Riva MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Riva, MD — Reagan National in 50–70 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Riva MD Car Service | South River Waterfront",
+    "metaDescription": "Car service in Riva, MD for the South River waterfront and the Anne Arundel County government complex on Riva Road. BWI 35–45 min. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -2766,8 +2769,8 @@ export const MARYLAND_PAGES = [
     "name": "Cape St. Claire",
     "badge": "Maryland Cities",
     "h1": "Cape St. Claire Limo Service & Car Service",
-    "metaTitle": "Cape St. Claire Limo Service | Car Service Cape St. Claire MD",
-    "metaDescription": "Luxury limo & car service in Cape St. Claire, MD — Reagan National in 55–75 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Cape St. Claire Car Service | Magothy River Area",
+    "metaDescription": "Car service for Cape St. Claire, MD near the Magothy River and the Bay Bridge. BWI is 30–45 minutes away. Weddings & airport runs. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -2928,8 +2931,8 @@ export const MARYLAND_PAGES = [
     "name": "Clarksville",
     "badge": "Maryland Cities",
     "h1": "Clarksville Limo Service & Car Service",
-    "metaTitle": "Clarksville Limo Service | Car Service Clarksville MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Clarksville, MD — Reagan National in 45–60 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Clarksville MD Limo | Cattail Creek & Howard County",
+    "metaDescription": "Limo service in Clarksville, MD covering Clarksville Commons and Cattail Creek Country Club. BWI just 25–35 minutes away. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -3090,8 +3093,8 @@ export const MARYLAND_PAGES = [
     "name": "Towson",
     "badge": "Maryland Cities",
     "h1": "Towson Limo Service & Car Service",
-    "metaTitle": "Towson Limo Service | Luxury Car Service Towson MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Towson, MD — Reagan National in 60–80 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Towson MD Limo | Town Center & Goucher College",
+    "metaDescription": "Limo service in Towson, MD covering Towson Town Center, Goucher College and Baltimore County government. BWI 25–40 min away. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -3252,8 +3255,8 @@ export const MARYLAND_PAGES = [
     "name": "Timonium",
     "badge": "Maryland Cities",
     "h1": "Timonium Limo Service & Car Service",
-    "metaTitle": "Timonium Limo Service | Car Service Timonium MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Timonium, MD — Reagan National in 65–85 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Timonium MD Car Service | State Fairgrounds Area",
+    "metaDescription": "Car service in Timonium, MD for the Maryland State Fairgrounds and Timonium Business Park commuters. BWI is 30–45 minutes away. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -3414,8 +3417,8 @@ export const MARYLAND_PAGES = [
     "name": "Lutherville",
     "badge": "Maryland Cities",
     "h1": "Lutherville Limo Service & Car Service",
-    "metaTitle": "Lutherville Limo Service | Car Service Lutherville MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Lutherville, MD — Reagan National in 65–85 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Lutherville MD Car Service | Greenspring Station",
+    "metaDescription": "Car service in Lutherville, MD near Greenspring Station's medical practices and the Fire Museum of Maryland. BWI 30–45 minutes away. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -3576,8 +3579,8 @@ export const MARYLAND_PAGES = [
     "name": "Phoenix",
     "badge": "Maryland Cities",
     "h1": "Phoenix Limo Service & Car Service",
-    "metaTitle": "Phoenix Limo Service | Luxury Car Service Phoenix MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Phoenix, MD — Reagan National in 75–95 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Phoenix MD Car Service | Boordy Vineyards Area",
+    "metaDescription": "Car service in Phoenix, MD covering Boordy Vineyards in Hydes and the Hunt Valley corporate corridor. BWI is 40–50 minutes away. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -3738,8 +3741,8 @@ export const MARYLAND_PAGES = [
     "name": "North Bethesda",
     "badge": "Maryland Cities",
     "h1": "North Bethesda Limo Service & Car Service",
-    "metaTitle": "North Bethesda Limo Service | Car Service North Bethesda MD",
-    "metaDescription": "Luxury limo & car service in North Bethesda, MD — Reagan National in 30–45 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "North Bethesda MD Limo | Near Strathmore",
+    "metaDescription": "Limo service in North Bethesda, MD for Music Center at Strathmore events and Nuclear Regulatory Commission travel. DCA 30–45 min. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -3900,8 +3903,8 @@ export const MARYLAND_PAGES = [
     "name": "North Potomac",
     "badge": "Maryland Cities",
     "h1": "North Potomac Limo Service & Car Service",
-    "metaTitle": "North Potomac Limo Service | Car Service North Potomac MD",
-    "metaDescription": "Luxury limo & car service in North Potomac, MD — Reagan National in 45–60 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "North Potomac Car Service | I-270 Biotech Corridor",
+    "metaDescription": "Car service in North Potomac, MD for the I-270 biotech corridor near Muddy Branch Park. Reagan National is 45–60 minutes away. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -4062,8 +4065,8 @@ export const MARYLAND_PAGES = [
     "name": "Gibson Island",
     "badge": "Maryland Cities",
     "h1": "Gibson Island Limo Service & Car Service",
-    "metaTitle": "Gibson Island Limo Service | Car Service Gibson Island MD",
-    "metaDescription": "Luxury limo & car service in Gibson Island, MD — Reagan National in 60–80 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Gibson Island MD Car Service | The Island Club",
+    "metaDescription": "Private car service to and from Gibson Island, MD and the Gibson Island Club. BWI is 25–35 minutes via Mountain Road. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -4224,8 +4227,8 @@ export const MARYLAND_PAGES = [
     "name": "Stevensville",
     "badge": "Maryland Cities",
     "h1": "Stevensville Limo Service & Car Service",
-    "metaTitle": "Stevensville Limo Service | Car Service Stevensville MD",
-    "metaDescription": "Luxury limo & car service in Stevensville, MD — Reagan National in 60–80 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Stevensville MD Car Service | Kent Island & Bay Bridge",
+    "metaDescription": "Car service in Stevensville, MD for the Chesapeake Bay Beach Club and Kent Island Yacht Club. BWI is 40–55 minutes via the Bay Bridge. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -4386,8 +4389,8 @@ export const MARYLAND_PAGES = [
     "name": "Chevy Chase",
     "badge": "Maryland Cities",
     "h1": "Chevy Chase Limo Service & Car Service",
-    "metaTitle": "Chevy Chase Limo Service | Car Service Chevy Chase MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Chevy Chase, MD — Reagan National in 25–40 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Chevy Chase MD Car Service | Friendship Heights Area",
+    "metaDescription": "Chauffeured service for Chevy Chase, MD — Friendship Heights Metro, the Chevy Chase Club and GEICO. Reagan National 25–40 minutes. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -4548,8 +4551,8 @@ export const MARYLAND_PAGES = [
     "name": "Sykesville",
     "badge": "Maryland Cities",
     "h1": "Sykesville Limo Service & Car Service",
-    "metaTitle": "Sykesville Limo Service | Car Service Sykesville MD | DCA Limos",
-    "metaDescription": "Luxury limo & car service in Sykesville, MD — Reagan National in 70–90 minutes, BWI & Dulles too. Weddings, corporate, events. 24/7. Call (877) 609-1919.",
+    "metaTitle": "Sykesville MD Limo | Historic Main St & B&O Depot",
+    "metaDescription": "Limo service in Sykesville, MD near the restored B&O station on Main Street and Piney Run Park. BWI is 40–50 minutes away. (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",

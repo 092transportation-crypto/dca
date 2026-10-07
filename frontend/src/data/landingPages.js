@@ -1,5 +1,9 @@
 // 15 SEO Landing Pages — each targets a specific city/service/airport keyword cluster.
 // Adding a new landing page: drop a new object in this array; routes & sitemap pick it up automatically.
+// NOTE (2026-10-07): the rockville/bethesda/silver-spring/frederick entries below duplicated the
+// richer /<slug> MarylandPage city pages, so they were pulled from public/sitemap-static.xml and
+// given 301 redirects in vercel.json (/limo/<slug> -> /<slug>). They are left in this array only
+// because this file is pending a manual edit to delete those 4 objects outright — TODO: remove them.
 
 export const LANDING_PAGES = [
   // ===== AIRPORTS =====
