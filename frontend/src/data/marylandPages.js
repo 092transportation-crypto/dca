@@ -3,6 +3,7 @@
 
 import { MARYLAND_BATCH3 } from '@/data/marylandPagesBatch3';
 import { MARYLAND_BATCH4 } from '@/data/marylandPagesBatch4';
+import { MARYLAND_BATCH5 } from '@/data/marylandPagesBatch5';
 import { ensureFiveFaqs } from '@/lib/faqExtras';
 
 export const MARYLAND_PAGES = [
@@ -12,8 +13,8 @@ export const MARYLAND_PAGES = [
     "name": "Rockville",
     "badge": "Maryland Cities",
     "h1": "Rockville Limo Service & Car Service",
-    "metaTitle": "Rockville MD Limo | Town Square & EagleBank Arena",
-    "metaDescription": "Limo service in Rockville, MD for Rockville Town Square, Glenview Mansion weddings and EagleBank Arena events. DCA 35–50 min. (877) 609-1919.",
+    "metaTitle": "Rockville MD Limo Service | Town Square & EagleBank",
+    "metaDescription": "Flat-rate limo service in Rockville, MD for Rockville Town Square, Glenview Mansion weddings & EagleBank Arena. DCA 35–50 min. Call (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -175,8 +176,8 @@ export const MARYLAND_PAGES = [
     "name": "Bethesda",
     "badge": "Maryland Cities",
     "h1": "Bethesda Limo Service & Car Service",
-    "metaTitle": "Bethesda Car Service | Near NIH & Bethesda Row",
-    "metaDescription": "Executive car service for Bethesda, MD — NIH, Walter Reed and Bethesda Row. Reagan National just 25–40 minutes away. Call (877) 609-1919.",
+    "metaTitle": "Bethesda MD Limo Service | NIH & Bethesda Row Car",
+    "metaDescription": "Executive limo & car service for Bethesda, MD — NIH, Walter Reed & Bethesda Row, just 25–40 minutes from Reagan National. Call (877) 609-1919 to book.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -8485,6 +8486,10 @@ export const MARYLAND_PAGES = [
     ],
     "related": [
       {
+        "label": "College Park MD Limo Service",
+        "to": "/college-park-md-limo-service"
+      },
+      {
         "label": "Merriweather Post Pavilion Transportation",
         "to": "/merriweather-post-pavilion-transportation"
       },
@@ -9523,6 +9528,11 @@ export const MARYLAND_PAGES = [
   // Batch 3 (2026-09-21) lives in its own file.
   ...MARYLAND_BATCH3,
   ...MARYLAND_BATCH4,
+  // Batch 5 (2026-10-09): 8 new DC-metro/NoVA city pages (Herndon, Clarendon,
+  // Pentagon City, Chantilly, Sterling, Olney, Takoma Park, College Park) +
+  // 6 new real venue pages (Capital One Hall, EagleBank Arena, Arlington
+  // National Cemetery, 9:30 Club, National Cathedral, Union Station).
+  ...MARYLAND_BATCH5,
 ];
 
 // Every page carries five FAQs (accordion + FAQPage schema).

@@ -2,6 +2,7 @@
 // Each targets a high-intent "DCA Airport to <destination>" search.
 // Add a new object and it is picked up by App.js routes and the sitemap.
 import { ensureFiveFaqs } from '@/lib/faqExtras';
+import { ROUTE_PAGES_BATCH2 } from '@/data/routePagesBatch2';
 
 const HERO_IMAGE =
   '/images/airport-curbside.webp';
@@ -2888,6 +2889,9 @@ export const ROUTE_PAGES = [
     ],
     nearby: ['dca-to-dover-de', 'dca-to-salisbury-md', 'dca-to-ocean-city-md', 'dca-to-easton-md', 'dca-to-annapolis'],
   },
+  // Batch 2 (2026-10-09): 6 new routes (Ashburn, Manassas, Leesburg, Vienna,
+  // Gaithersburg, Potomac) lives in its own file.
+  ...ROUTE_PAGES_BATCH2,
 ];
 
 // Every page carries five FAQs (accordion + FAQPage schema).

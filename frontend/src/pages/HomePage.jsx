@@ -45,8 +45,8 @@ const HOME_FAQS = [
 const HomePage = () => {
   useEffect(() => {
     setPageSeo({
-      title: "DCA Limos | Premium Luxury Airport & Chauffeur Services",
-      description: 'DCA Limos: 24/7 luxury airport transportation, corporate car service & limo rentals in Washington DC, Maryland & Virginia. Mercedes fleet, best rates. Book now!',
+      title: "DCA Limos | #1 Reagan National Airport Car Service 24/7",
+      description: 'Flat-rate Reagan National (DCA), Dulles & BWI airport car service plus corporate & wedding limos in DC, MD & VA. Call (877) 609-1919 for a free quote now!',
       path: "/",
     });
     // FAQPage structured data

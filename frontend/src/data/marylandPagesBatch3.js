@@ -7,8 +7,8 @@ export const MARYLAND_BATCH3 = [
     "name": "Arlington",
     "badge": "Virginia Cities",
     "h1": "Arlington, VA Limo Service & Car Service",
-    "metaTitle": "Arlington VA Limo Service | Car Service Near DCA",
-    "metaDescription": "Chauffeured car service in Arlington, VA — Rosslyn, Ballston, Clarendon, Crystal City and the Pentagon, minutes from Reagan National. Call (877) 609-1919.",
+    "metaTitle": "Arlington VA Limo Service | Minutes from Reagan National",
+    "metaDescription": "Chauffeured limo & car service in Arlington, VA — Rosslyn, Ballston, Clarendon, Crystal City & the Pentagon, 10 minutes from DCA. Call (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -140,6 +140,14 @@ export const MARYLAND_BATCH3 = [
         "to": "/falls-church-limo-service"
       },
       {
+        "label": "Pentagon City Limo Service",
+        "to": "/pentagon-city-limo-service"
+      },
+      {
+        "label": "Clarendon Limo Service",
+        "to": "/clarendon-arlington-limo-service"
+      },
+      {
         "label": "Kennedy Center Transportation",
         "to": "/kennedy-center-transportation"
       },
@@ -170,8 +178,8 @@ export const MARYLAND_BATCH3 = [
     "name": "Alexandria",
     "badge": "Virginia Cities",
     "h1": "Alexandria, VA Limo Service & Car Service",
-    "metaTitle": "Alexandria VA Limo Service | Old Town Car Service",
-    "metaDescription": "Limo and car service in Alexandria, VA: Old Town, Carlyle, Del Ray and the West End, with Reagan National next door. Flat rates, 24/7. Call (877) 609-1919.",
+    "metaTitle": "Alexandria VA Limo Service | Old Town, Steps from DCA",
+    "metaDescription": "Limo & car service in Alexandria, VA: Old Town, Carlyle, Del Ray & the West End, with Reagan National next door. Flat rates 24/7. Call (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -333,8 +341,8 @@ export const MARYLAND_BATCH3 = [
     "name": "Tysons",
     "badge": "Virginia Cities",
     "h1": "Tysons Limo Service & Corporate Car Service",
-    "metaTitle": "Tysons Limo Service | Tysons Corner Car Service",
-    "metaDescription": "Executive car service in Tysons, VA for corporate headquarters, hotels and shopping. Dulles and Reagan National transfers, 24/7. Call (877) 609-1919.",
+    "metaTitle": "Tysons Limo Service | Corporate HQs & Tysons Corner",
+    "metaDescription": "Executive car service in Tysons, VA for corporate HQs, hotels & shopping — flat-rate Dulles & Reagan National transfers, 24/7. Call (877) 609-1919.",
     "stats": [
       {
         "label": "To Dulles (IAD)",
@@ -454,6 +462,10 @@ export const MARYLAND_BATCH3 = [
         "to": "/dca-to-tysons"
       },
       {
+        "label": "Capital One Hall Transportation",
+        "to": "/capital-one-hall-tysons-transportation"
+      },
+      {
         "label": "McLean Limo Service",
         "to": "/mclean-limo-service"
       },
@@ -496,8 +508,8 @@ export const MARYLAND_BATCH3 = [
     "name": "McLean",
     "badge": "Virginia Cities",
     "h1": "McLean Limo Service & Private Car Service",
-    "metaTitle": "McLean Limo Service | Private Car Service McLean VA",
-    "metaDescription": "Discreet chauffeured car service in McLean, VA. Reagan National and Dulles transfers, executive travel and evenings in DC. 24/7 — call (877) 609-1919.",
+    "metaTitle": "McLean VA Limo Service | Discreet Executive Car Service",
+    "metaDescription": "Discreet chauffeured car service in McLean, VA with flat-rate Reagan National & Dulles transfers for executive travel. 24/7 — call (877) 609-1919.",
     "stats": [
       {
         "label": "To Reagan (DCA)",
@@ -778,6 +790,10 @@ export const MARYLAND_BATCH3 = [
       {
         "label": "DCA to Herndon",
         "to": "/dca-to-herndon"
+      },
+      {
+        "label": "Herndon Limo Service",
+        "to": "/herndon-limo-service"
       },
       {
         "label": "Tysons Limo Service",

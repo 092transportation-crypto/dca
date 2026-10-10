@@ -10,8 +10,8 @@ import { CheckCircle, Shield, Award, Star, Users, Briefcase } from 'lucide-react
 const FleetPage = () => {
   useEffect(() => {
     setPageSeo({
-      title: "Luxury Fleet | Mercedes, BMW & Cadillac | DCA Limos",
-      description: 'See the DCA Limos fleet — Mercedes, BMW 7 Series, Escalade & Sprinter vans, all chauffeur-driven. Pick your vehicle and book online in minutes.',
+      title: "Luxury Fleet | Mercedes, BMW, Escalade & Sprinter Vans",
+      description: 'Sedans, SUVs, Sprinter vans & stretch limos — chauffeur-driven, late-model and spotless. Call (877) 609-1919 or book your vehicle online in minutes.',
       path: "/fleet",
     });
   }, []);

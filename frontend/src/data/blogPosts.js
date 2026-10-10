@@ -7,6 +7,7 @@ import { BLOG_POSTS_BATCH4 } from '@/data/blogPostsBatch4';
 import { BLOG_POSTS_BATCH5 } from '@/data/blogPostsBatch5';
 import { BLOG_POSTS_BATCH6 } from '@/data/blogPostsBatch6';
 import { BLOG_POSTS_BATCH7 } from '@/data/blogPostsBatch7';
+import { BLOG_POSTS_BATCH8 } from '@/data/blogPostsBatch8';
 
 export const BLOG_POSTS = [
   {
@@ -1698,6 +1699,12 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH6);
 // seasonal events, hotel B2B, household-occasion topics). Each post ships
 // with its own 5 FAQs already; ensureFiveFaqs below is a no-op for this batch.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH7);
+
+// 2026-10-09 batch 8: 3 new posts — a route-specific DCA-to-downtown-DC
+// pricing guide, a DC event-calendar booking-timing guide, and a three-way
+// DCA vs Dulles vs BWI airport comparison. Each ships with 4 FAQs;
+// ensureFiveFaqs below tops every post up to five.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH8);
 
 // Every page carries five FAQs (accordion + FAQPage schema).
 BLOG_POSTS.forEach((p) => {

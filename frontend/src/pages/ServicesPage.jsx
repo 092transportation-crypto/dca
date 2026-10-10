@@ -10,8 +10,8 @@ import { Plane, Briefcase, PartyPopper, Calendar, CheckCircle } from 'lucide-rea
 const ServicesPage = () => {
   useEffect(() => {
     setPageSeo({
-      title: "Limo & Black Car Chauffeur Services Washington DC | DCA",
-      description: 'DCA Limos offers airport limo, black car service, chauffeur service, corporate & wedding transportation in Washington DC, Maryland & Virginia. Book 24/7!',
+      title: "Limo & Black Car Service Washington DC | Flat Rates 24/7",
+      description: 'Airport limo, black car & corporate chauffeur service in Washington DC, Maryland & Virginia — flat rates, no surge. Call (877) 609-1919 for a free quote now!',
       path: "/services",
     });
   }, []);

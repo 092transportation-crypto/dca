@@ -67,9 +67,9 @@ export const MARYLAND_BATCH4 = [
     name: 'DCA Airport Meet and Greet',
     badge: 'Airport Service',
     h1: 'DCA Airport Meet & Greet Car Service',
-    metaTitle: 'DCA Airport Meet and Greet | Chauffeur Inside the Terminal',
+    metaTitle: 'DCA Meet and Greet Service | Chauffeur Waits Inside',
     metaDescription:
-      'Meet and greet car service at Reagan National: your chauffeur waits inside with a name sign, helps with bags and walks you to the car. Call (877) 609-1919.',
+      'Your chauffeur waits inside Reagan National with a name sign, helps with bags & walks you to the car — no curb hunting. Call (877) 609-1919 to book.',
     stats: AIRPORT_STATS,
     intro: [
       'Meet and greet is the difference between finding your ride and being found. With this option a DCA Limos chauffeur comes inside Reagan National, waits at the arrivals level with a name sign, helps with luggage and walks you to a vehicle parked as close to the door as the airport allows. It is the way our clients arrange first-time visitors, older relatives, children traveling alone, executives on a tight schedule and anyone landing after a long day who would rather not read signs.',
@@ -149,9 +149,9 @@ export const MARYLAND_BATCH4 = [
     name: 'DCA Airport Corporate Car Service',
     badge: 'Airport Service',
     h1: 'DCA Airport Corporate Car Service',
-    metaTitle: 'DCA Airport Corporate Car Service | DCA Limos',
+    metaTitle: 'DCA Airport Corporate Car Service | Accounts & Billing',
     metaDescription:
-      'Corporate car service at Reagan National for executives, teams and visiting clients: flight tracking, corporate accounts and monthly invoicing. (877) 609-1919.',
+      'Corporate car service at Reagan National for executives & visiting clients: flight tracking, corporate accounts, monthly invoicing. Call (877) 609-1919.',
     stats: AIRPORT_STATS,
     intro: [
       'Reagan National is the business traveler’s airport. It is minutes from the Pentagon, Crystal City, Capitol Hill and K Street, and the people who fly through it tend to have somewhere to be. DCA Limos provides corporate car service built around that reality: sedans and SUVs that are confirmed the day before, chauffeurs who track the flight and know the office entrances, and a corporate account that turns a month of travel into a single invoice.',
@@ -315,9 +315,9 @@ export const MARYLAND_BATCH4 = [
     name: 'Reagan National Airport Limo Service',
     badge: 'Airport Service',
     h1: 'Reagan National Airport Limo Service',
-    metaTitle: 'Reagan National Airport Limo Service | DCA Limos',
+    metaTitle: 'Reagan National (DCA) Limo Service | Flat Rate, On Time',
     metaDescription:
-      'Limo and chauffeured car service at Reagan National Airport: sedans, SUVs, Sprinters and stretch limos, flat rates and flight tracking. Call (877) 609-1919.',
+      'DCA airport limo service with flight tracking, meet-and-greet & a flat rate locked before you land. Sedans, SUVs, Sprinters & limos. Call (877) 609-1919.',
     stats: AIRPORT_STATS,
     intro: [
       'Ronald Reagan Washington National Airport sits on the Virginia bank of the Potomac, a few minutes from the monuments, and it is the airport most visitors to Washington would choose if they could. DCA Limos is based on serving it. Our chauffeurs drive to and from Reagan National every day, from the first departures to the last arrivals, in sedans, SUVs, Sprinter vans and stretch limousines.',
@@ -398,9 +398,9 @@ export const MARYLAND_BATCH4 = [
     name: 'DCA Airport Hotel Transfers',
     badge: 'Airport Service',
     h1: 'DCA Airport Hotel Transfer Car Service',
-    metaTitle: 'DCA Airport Hotel Transfers | DCA Limos',
+    metaTitle: 'DCA Hotel Transfers | Crystal City & Downtown DC',
     metaDescription:
-      'Chauffeured transfers between Reagan National and hotels in Crystal City, National Landing and downtown DC. Flat rates, flight tracking. Call (877) 609-1919.',
+      'Chauffeured DCA-to-hotel transfers in Crystal City, National Landing & downtown DC — flat rates, flight tracking, 24/7. Call (877) 609-1919 to book.',
     stats: AIRPORT_STATS,
     intro: [
       'Most Reagan National travelers are heading to a hotel, and the hotels are close: a cluster along Crystal Drive and Richmond Highway in Crystal City and National Landing, another in Pentagon City, and the large downtown properties across the river around the Convention Center, Penn Quarter, the West End and Capitol Hill. DCA Limos runs hotel transfers to all of them, in both directions, with flat rates confirmed before you ride.',
@@ -480,9 +480,9 @@ export const MARYLAND_BATCH4 = [
     name: 'DCA Airport Arrival Pickup',
     badge: 'Airport Service',
     h1: 'DCA Airport Arrival Pickup Car Service',
-    metaTitle: 'DCA Airport Arrival Pickup | Where Your Chauffeur Meets You',
+    metaTitle: 'DCA Arrival Pickup Guide | Terminals & Baggage Claim',
     metaDescription:
-      'How arrival pickups work at Reagan National: terminals, baggage claim, where the chauffeur waits, flight tracking and wait time. Call (877) 609-1919.',
+      'Exactly how DCA arrival pickups work: terminals, baggage claim meet points, flight tracking & free wait time. Call (877) 609-1919 to book your ride.',
     stats: AIRPORT_STATS,
     intro: [
       'Landing at Reagan National is simple, and an arrival pickup with DCA Limos is designed to keep it that way. The airport has two terminals, Terminal 1 and Terminal 2, connected by walkways and served by a single roadway system. Your airline determines which terminal you use; your chauffeur already knows and is positioned accordingly before the aircraft reaches the gate.',
@@ -648,9 +648,9 @@ export const MARYLAND_BATCH4 = [
     name: 'Washington DC Corporate Car Service',
     badge: 'Signature Service',
     h1: 'Washington DC Corporate Car Service',
-    metaTitle: 'Washington DC Corporate Car Service | Executive Chauffeurs',
+    metaTitle: 'Washington DC Corporate Car Service | Monthly Invoicing',
     metaDescription:
-      'Corporate car service in Washington DC for executives, law firms, associations and government affairs teams. Accounts, monthly invoicing. Call (877) 609-1919.',
+      'Corporate car service in DC for executives, law firms & government affairs teams — dedicated accounts, monthly invoicing. Call (877) 609-1919 to set up.',
     stats: SERVICE_STATS,
     intro: [
       'Washington runs on meetings, and the meetings are rarely in one place. A morning at a client’s office on K Street, a hearing on Capitol Hill, lunch in Penn Quarter, an afternoon at a federal agency and a flight out of Reagan National is an ordinary day for the people we drive. DCA Limos provides corporate car service that keeps that day on schedule with executive sedans and SUVs, professional chauffeurs and a dispatch desk that answers at any hour.',
@@ -731,9 +731,9 @@ export const MARYLAND_BATCH4 = [
     name: 'Washington DC Black Car Service',
     badge: 'Signature Service',
     h1: 'Washington DC Black Car Service',
-    metaTitle: 'Washington DC Black Car Service | Chauffeured Sedans & SUVs',
+    metaTitle: 'Washington DC Black Car Service | Flat Rate, No Surge',
     metaDescription:
-      'Black car service in Washington DC: licensed chauffeurs, late-model sedans and SUVs, flat rates confirmed before you ride, 24/7 dispatch. Call (877) 609-1919.',
+      'Licensed Washington DC black car service: late-model sedans & SUVs, flat rates confirmed before you ride, 24/7 dispatch. Call (877) 609-1919 to book now.',
     stats: SERVICE_STATS,
     intro: [
       'Black car service is the quiet, dependable version of getting around Washington. A professional chauffeur, a late-model Mercedes-Benz, BMW, Cadillac or Chevrolet, and a price agreed before the car arrives. DCA Limos runs black cars throughout the District and across the river into Northern Virginia and Maryland, for airport transfers, business travel, dinners, theater and any trip where the ride should not be the interesting part of the evening.',
@@ -895,9 +895,9 @@ export const MARYLAND_BATCH4 = [
     name: 'Washington DC Airport Car Service',
     badge: 'Signature Service',
     h1: 'Washington DC Airport Car Service to DCA, Dulles & BWI',
-    metaTitle: 'Washington DC Airport Car Service | DCA Limos',
+    metaTitle: 'Washington DC Airport Car Service | DCA, IAD & BWI',
     metaDescription:
-      'Airport car service from Washington DC to Reagan National, Dulles and BWI: flat rates, flight tracking and 24/7 dispatch. Call (877) 609-1919.',
+      'Flat-rate Washington DC airport car service to Reagan National, Dulles & BWI — flight tracking, 24/7 dispatch, no surge. Call (877) 609-1919 to book.',
     stats: SERVICE_STATS,
     intro: [
       'Washington is served by three airports, and from the District each one is a different kind of trip. Reagan National is just across the river and takes minutes; Dulles is a long drive west along I-66 and the Dulles Access Road; BWI is northeast up the Baltimore-Washington Parkway. DCA Limos drives all three from every neighborhood in the city, with a flat rate confirmed before you ride and a chauffeur at your door at the agreed time.',
