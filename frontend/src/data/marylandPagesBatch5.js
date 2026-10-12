@@ -13,7 +13,7 @@ export const MARYLAND_BATCH5 = [
     h1: 'Herndon Limo Service & Car Service',
     metaTitle: 'Herndon VA Limo Service | Minutes from Dulles',
     metaDescription:
-      'Limo and car service in Herndon, VA — Downtown Herndon, the W&OD Trail and the Dulles tech corridor. Dulles 12–20 min, Reagan National 35–45 min. (877) 609-1919.',
+      'Limo and car service in Herndon, VA — Downtown Herndon, the W&OD Trail and the Dulles tech corridor. Dulles 12–20 min, DCA 35–45 min. Call (877) 609-1919.',
     stats: [
       { label: 'To Dulles (IAD)', value: '7 mi · 12–20 minutes' },
       { label: 'To Reagan (DCA)', value: '22 mi · 35–45 minutes' },
@@ -103,7 +103,7 @@ export const MARYLAND_BATCH5 = [
     h1: 'Clarendon Limo Service & Car Service',
     metaTitle: 'Clarendon Arlington Limo | Car Service Near DCA',
     metaDescription:
-      'Limo and car service in Clarendon, Arlington VA — Market Common, Wilson Blvd nightlife and the Clarendon Metro. Reagan National just 12–20 minutes. (877) 609-1919.',
+      'Limo and car service in Clarendon, Arlington VA — Market Common, Wilson Blvd nightlife and the Metro. Reagan National just 12–20 min. Call (877) 609-1919.',
     stats: [
       { label: 'To Reagan (DCA)', value: '5 mi · 12–20 minutes' },
       { label: 'To Dulles (IAD)', value: '22 mi · 35–45 minutes' },
@@ -283,7 +283,7 @@ export const MARYLAND_BATCH5 = [
     h1: 'Chantilly Limo Service & Car Service',
     metaTitle: 'Chantilly VA Limo Service | Near Dulles Airport',
     metaDescription:
-      'Limo and car service in Chantilly, VA — Udvar-Hazy Center and the Dulles Expo Center, minutes from Dulles International. Reagan National 40–55 min. (877) 609-1919.',
+      'Limo and car service in Chantilly, VA — Udvar-Hazy Center and Dulles Expo Center, minutes from Dulles. DCA 40–55 min. Call (877) 609-1919.',
     stats: [
       { label: 'To Dulles (IAD)', value: '6 mi · 12–18 minutes' },
       { label: 'To Reagan (DCA)', value: '28 mi · 40–55 minutes' },

@@ -36,6 +36,9 @@ export const BLOG_POSTS_BATCH2 = [
 
       <h2>What to Tell Dispatch When You Book</h2>
       <p>Give us your flight number and airline, and whether you want curbside or meet and greet. We track the flight from there. If plans change — an earlier connection, a rebooked flight — call and we will adjust the pickup without starting the reservation over.</p>
+
+      <h2>Finding Your Way Between Terminals</h2>
+      <p>DCA's two terminal buildings — Terminal 1 (the older, smaller building) and Terminal 2 (the larger hub for most major airlines, formed when the former Terminals B and C merged) — are connected by a covered walkway called National Hall, with moving walkways and shops along the way. If your pickup instructions mention a specific terminal, that is where your chauffeur is staged; double-check your boarding pass against it, since a handful of regional carriers still operate out of Terminal 1 while most domestic mainline flights use Terminal 2.</p>
     `,
     faqs: [
       { q: 'Where exactly will my chauffeur be waiting at DCA?', a: 'At the arrivals curb closest to your terminal for curbside service, or inside baggage claim holding a name sign if you add meet and greet.' },
@@ -88,6 +91,9 @@ export const BLOG_POSTS_BATCH2 = [
 
       <h2>Changes and Cancellations</h2>
       <p>Wedding and multi-vehicle special-event bookings can be cancelled at no charge up to 12 hours before the scheduled pickup time. If your timeline shifts closer to the date, call and dispatch will confirm whether it changes the rate before re-confirming.</p>
+
+      <h2>Seasonal Timing Worth Building In</h2>
+      <p>Spring weddings near the Tidal Basin or Georgetown waterfront should budget extra time in late March and April, when cherry-blossom crowds slow Rock Creek Parkway and the roads around the Jefferson Memorial. Fall weekends bring their own congestion around Nationals Park and Audi Field on game days, which can affect a Navy Yard or Capitol Riverfront venue's approach roads. None of this changes the plan — it just means your chauffeur builds a slightly larger buffer into the drive time for that specific weekend, confirmed once the venue and date are locked in rather than guessed at months out.</p>
     `,
     faqs: [
       { q: 'How far ahead should we book DC wedding transportation?', a: 'As early as you can once the date and venue are set — 9 to 12 months out is ideal for peak Saturdays, since Sprinter vans, limousines and multi-vehicle bookings sell out first.' },
@@ -137,6 +143,9 @@ export const BLOG_POSTS_BATCH2 = [
 
       <h2>Booking a Hill Day</h2>
       <p>Tell dispatch your arrival time, the general shape of the day (number of meetings, rough locations), and your group size. We confirm an hourly rate before the day starts, and the vehicle and chauffeur stay with you until you release them.</p>
+
+      <h2>Senate Side vs. House Side Staging</h2>
+      <p>The Senate office buildings — Russell, Dirksen and Hart — sit north of the Capitol along Constitution Avenue, while the House buildings — Cannon, Longworth, Rayburn and the newer O'Neill building — cluster south along Independence Avenue. A delegation with meetings on both sides often benefits from staging the vehicle near Union Station or the Capitol Visitor Center, roughly equidistant from both clusters, rather than committing to one side and backtracking. Tell your chauffeur the rough order of your meetings and they will adjust the staging point as the day moves, and if a meeting runs well over or a member's schedule shifts, a quick text is usually enough to reset the plan without losing your place in the day.</p>
     `,
     faqs: [
       { q: 'Is hourly service better than booking separate rides for each meeting?', a: 'For most Hill days, yes — hourly as-directed service keeps one chauffeur with you and adjusts to meetings running long or short without rebooking each leg.' },
@@ -189,6 +198,9 @@ export const BLOG_POSTS_BATCH2 = [
 
       <h2>The Honest Bottom Line</h2>
       <p>None of the three is universally right. The real question is which trip you are taking, and matching the option to the stakes involved.</p>
+
+      <h2>Where Each Option Actually Picks You Up</h2>
+      <p>At DCA, rideshare pickups are routed to a designated lot a short walk or shuttle ride from the terminal rather than the arrivals curb itself, which adds a few minutes most travelers do not plan for. Taxis queue at a dedicated stand just outside baggage claim. A reserved black car service picks up curbside at the terminal your chauffeur has on file for your flight, or meets you inside at baggage claim if you have added meet and greet — no walk to a satellite lot required.</p>
     `,
     faqs: [
       { q: 'Is black car service always more expensive than rideshare at DCA?', a: 'Not necessarily — rideshare pricing moves with demand, so during surge periods a confirmed flat rate can cost the same or less. The real difference is that the black car rate is known in advance either way.' },

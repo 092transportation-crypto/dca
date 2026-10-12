@@ -7,6 +7,7 @@ import FaqSection from '@/components/FaqSection';
 import { landingFaqs } from '@/data/pageFaqs';
 import { findLandingPage, LANDING_PAGES } from '@/data/landingPages';
 import KeywordSection from '@/components/KeywordSection';
+import { resolveAreaLink } from '@/lib/cityLinks';
 
 const LandingPage = () => {
   const { slug } = useParams();
@@ -131,6 +132,26 @@ const LandingPage = () => {
         </div>
       </section>
 
+      {/* ADDITIONAL LOCAL SECTIONS */}
+      {data.sections && data.sections.length > 0 && (
+        <section className="py-16 sm:py-20 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto space-y-10">
+              {data.sections.map((s) => (
+                <div key={s.h2}>
+                  <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">{s.h2}</h2>
+                  {s.paragraphs.map((p, i) => (
+                    <p key={i} className="text-base sm:text-lg text-gray-700 leading-relaxed mb-4">
+                      {p}
+                    </p>
+                  ))}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* SERVICE AREAS */}
       <section className="py-16 sm:py-20 bg-white">
         <div className="container mx-auto px-4">
@@ -139,11 +160,21 @@ const LandingPage = () => {
             <p className="text-base sm:text-lg text-gray-600">We cover {data.relatedCities.join(', ')} and the entire DMV region.</p>
           </div>
           <div className="max-w-4xl mx-auto flex flex-wrap justify-center gap-2 sm:gap-3">
-            {data.relatedCities.map((c) => (
-              <span key={c} className="inline-flex items-center gap-1.5 px-4 py-2 bg-gray-50 border border-gray-200 rounded-full text-sm sm:text-base text-gray-800 font-medium">
-                <MapPin className="h-4 w-4 text-amber-600" /> {c}
-              </span>
-            ))}
+            {data.relatedCities.map((c) => {
+              const href = resolveAreaLink(c);
+              const pill = (
+                <span className="inline-flex items-center gap-1.5 px-4 py-2 bg-gray-50 border border-gray-200 rounded-full text-sm sm:text-base text-gray-800 font-medium">
+                  <MapPin className="h-4 w-4 text-amber-600" /> {c}
+                </span>
+              );
+              return href ? (
+                <Link key={c} to={href} className="hover:border-amber-500" data-testid={`related-city-${c}`}>
+                  {pill}
+                </Link>
+              ) : (
+                <span key={c}>{pill}</span>
+              );
+            })}
           </div>
         </div>
       </section>

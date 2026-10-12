@@ -6,7 +6,7 @@ export const GUIDES = [
     title: 'Holiday Lights Limo Tours Guide: Washington DC, Maryland & Northern Virginia',
     metaTitle: 'Holiday Lights Limo Tours: DC, MD & VA Guide | DCA Limos',
     metaDesc:
-      "A chauffeured holiday lights tour guide for the DC area: real displays in DC, Maryland and Northern Virginia, flat-rate pricing, vehicle picks and a vendor checklist.",
+      "A chauffeured holiday lights tour guide for DC, Maryland & Northern Virginia: real displays, flat-rate pricing, vehicle picks and a vendor checklist.",
     excerpt:
       "Every December the DC region lights up, from Georgetown's storefronts to drive-through displays across Maryland and Northern Virginia. Here is how to see the best of it from the back of a reserved car, plus the real displays worth the drive and the questions worth asking before you book.",
     image: '/images/blog/landmark-capitol-1.webp',

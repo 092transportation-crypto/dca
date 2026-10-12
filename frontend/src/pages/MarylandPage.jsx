@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { findMarylandPage } from '@/data/marylandPages';
 import KeywordSection from '@/components/KeywordSection';
+import PillarLinks from '@/components/PillarLinks';
 
 const SITE_URL = 'https://dcalimos.com';
 const PHONE_DISPLAY = '(877) 609-1919';
@@ -210,6 +211,7 @@ const MarylandPage = ({ slug: slugProp, page: pageProp }) => {
       </section>
 
       <KeywordSection slug={data.slug} place={data.name} kind={data.type === "event" ? "event" : "place"} />
+      <PillarLinks kind={data.type === "event" ? "event" : "city"} />
 
       {/* FAQ */}
       <section className="py-16 sm:py-20 bg-white">

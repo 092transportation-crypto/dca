@@ -45,8 +45,8 @@ const HOME_FAQS = [
 const HomePage = () => {
   useEffect(() => {
     setPageSeo({
-      title: "DCA Limos | #1 Reagan National Airport Car Service 24/7",
-      description: 'Flat-rate Reagan National (DCA), Dulles & BWI airport car service plus corporate & wedding limos in DC, MD & VA. Call (877) 609-1919 for a free quote now!',
+      title: "DCA Limos | DC, Maryland & Virginia Car Service 24/7",
+      description: 'Chauffeured car service across Washington DC, Maryland & Virginia — airport transfers, corporate travel & wedding limos. Call (877) 609-1919 for a free quote.',
       path: "/",
     });
     // FAQPage structured data
@@ -107,7 +107,7 @@ const HomePage = () => {
               </span>
             </div>
             <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold mb-4 sm:mb-6 leading-tight" data-testid="hero-title">
-              DCA Airport Car Service
+              DC, Maryland &amp; Virginia Car Service
               <br />
               <span className="text-amber-400">Flat Rates — No Surge, Ever</span>
             </h1>

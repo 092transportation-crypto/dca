@@ -258,6 +258,9 @@ export const BLOG_POSTS = [
       <h2>The reverse trip: DC back to DCA</h2>
       <p>Flat-rate planning pays off on the return, too. We monitor your departure time and back-calculate when to leave your DC address with a sensible security buffer, leaving earlier when rush hour demands it so you are never rushing through the terminal. Book the round trip together and the whole day is handled on one predictable price.</p>
 
+      <h2>Which DC neighborhoods take longest from DCA</h2>
+      <p>Not every downtown address is the same three-mile hop. Navy Yard and Capitol Riverfront usually route over the South Capitol Street Bridge and arrive almost as fast as a Capitol Hill drop-off. Georgetown and Foggy Bottom typically run up the GW Parkway and across the Potomac on the Theodore Roosevelt Bridge or Memorial Bridge — both can back up during cherry-blossom season in late March and April, when Tidal Basin crowds spill onto the surrounding streets. Dupont Circle and Adams Morgan add a few extra minutes up 14th Street or Connecticut Avenue. None of this changes your flat rate; it just helps set a realistic departure buffer when timing matters, like a Hill meeting or a dinner reservation.</p>
+
       <h2>Book your DCA to DC transfer</h2>
       <p>Lock in one price for the whole trip — no surge, no meter, no surprises. <a href="/booking">Reserve your DCA to DC car service here</a> or call (877) 609-1919, 24/7. Flat rate, flight-tracked, professional chauffeur, every time.</p>
     `,

@@ -24,6 +24,8 @@
   },
   "scripts": {
     "start": "craco start",
+    "sitemap": "node scripts/generateSitemap.js",
+    "prebuild": "node scripts/generateSitemap.js",
     "build": "craco build",
     "postbuild": "node scripts/prerender.js",
     "test": "craco test"

@@ -23,6 +23,15 @@ export const LANDING_PAGES = [
       'Direct service to Maryland, DC & Northern Virginia',
       'Mercedes E-Class, S-Class, Escalade SUVs & Sprinter vans',
     ],
+    sections: [
+      {
+        h2: 'Finding your chauffeur at DCA',
+        paragraphs: [
+          'Reagan National has two connected terminal buildings — Terminal 1, the older, smaller building, and Terminal 2, the larger hub formed when the former Terminals B and C merged, joined by a covered walkway called National Hall. Your chauffeur stages at the curb or inside baggage claim for whichever terminal your flight uses, confirmed against your boarding pass before you land.',
+          'Departures run the same way in reverse: we back-time your pickup from your flight and DCA\'s recommended arrival window, accounting for traffic on the George Washington Parkway and the short hop across the Memorial or Roosevelt Bridge into the District — usually the most forgiving of the three area airports for timing, since it sits just across the river from downtown.',
+        ],
+      },
+    ],
     relatedCities: ['Annapolis', 'Baltimore', 'Bethesda', 'Silver Spring', 'Rockville'],
   },
   {
@@ -42,6 +51,15 @@ export const LANDING_PAGES = [
       'Curbside or inside meet-and-greet options',
       'Corporate accounts with monthly invoicing available',
     ],
+    sections: [
+      {
+        h2: 'Getting around BWI Marshall',
+        paragraphs: [
+          'BWI uses a single horseshoe-shaped terminal split into Concourses A through E, with Southwest Airlines anchoring the largest share of gates. The airport also connects directly to the BWI Rail Station, served by Amtrak and MARC commuter trains, via a short shuttle — useful context if your itinerary mixes a flight with a rail leg.',
+          'Because our base in Hanover sits just off the BWI access road, we are typically one of the fastest chauffeur companies to respond to a same-day request near the airport, and we route around the I-195/Aviation Boulevard interchange at peak times when it backs up during the morning and evening rush.',
+        ],
+      },
+    ],
     relatedCities: ['Hanover', 'Linthicum', 'Glen Burnie', 'Severn', 'Annapolis'],
   },
   {
@@ -60,6 +78,15 @@ export const LANDING_PAGES = [
       'International arrivals: 60 minutes of complimentary wait time for customs',
       'Corporate-grade chauffeurs in business attire',
       'Group transfers — Sprinter vans available',
+    ],
+    sections: [
+      {
+        h2: 'Navigating Dulles International',
+        paragraphs: [
+          'Dulles is spread across a large footprint, and many gates are reached by AeroTrain or the airport\'s distinctive mobile lounges rather than a short walk, which adds time between touchdown and curbside that first-time visitors often underestimate. We build that extra window into the pickup plan so your chauffeur is not waiting — or you are not waiting on your chauffeur.',
+          'The Silver Line Metro extension now reaches Dulles directly, giving travelers a rail alternative for parts of their trip, but for door-to-door service with luggage, especially with a Sprinter van or multiple bags, a reserved car still beats transferring between rail and a second vehicle. We route via the Dulles Toll Road and the Dulles Access Road to avoid the toll-road traffic that backs up during peak commute hours.',
+        ],
+      },
     ],
     relatedCities: ['Bethesda', 'Rockville', 'Silver Spring', 'Gaithersburg', 'Frederick'],
   },
@@ -82,6 +109,15 @@ export const LANDING_PAGES = [
       'Coordinated bridal party transfers — multiple vehicles',
       'Service to MD, DC & VA wedding venues (Annapolis, Baltimore, DC)',
     ],
+    sections: [
+      {
+        h2: 'Planning your wedding-day timeline',
+        paragraphs: [
+          'We regularly stage at venues like the Historic Inns of Annapolis, Baltimore\'s Belvedere, and DC\'s Meridian House, so your chauffeur usually already knows the loading entrance, the best spot for a "getaway car" shot, and how long the drive to the reception actually takes once photos run long.',
+          'A typical wedding day runs getting-ready pickup, a transfer to the ceremony, optional photo stops, a transfer to the reception, and a dedicated getaway vehicle — share that sequence with dispatch in advance and the vehicle count and hourly block are confirmed well before the big day, with a cancellation window of 12 hours if plans shift.',
+        ],
+      },
+    ],
     relatedCities: ['Annapolis', 'Baltimore', 'Bethesda', 'Frederick', 'Columbia'],
   },
   {
@@ -99,6 +135,16 @@ export const LANDING_PAGES = [
       'Parents-pay-direct option — no awkward teen handoffs',
       'Photo stops included in the itinerary',
       'Service to Naval Academy, UMD, Johns Hopkins, Towson, USNA',
+    ],
+    sections: [
+      {
+        h2: 'A safer prom night for parents and teens',
+        paragraphs: [
+          'We regularly run prom and graduation groups to venues like Martin\'s Crosswinds, the Hyatt Regency Baltimore Inner Harbor, and the beach resorts in Ocean City, with a chauffeur who stays on the confirmed itinerary — including agreed photo stops — rather than improvising a route.',
+          'Parents can pay directly and receive the chauffeur\'s contact information, and because dispatch runs 24/7, a changed pickup time or an extra stop after the dance is a phone call, not a crisis. Every chauffeur on a prom booking is background-checked and briefed on the group\'s schedule before the vehicle leaves the lot.',
+          'Most groups book a Sprinter van so the whole friend group travels together rather than splitting across several personal cars, and many Maryland high schools now ask students to list their transportation plan in advance — a confirmed reservation with a named, licensed chauffeur is the kind of answer administrators and parents are both comfortable signing off on.',
+        ],
+      },
     ],
     relatedCities: ['Annapolis', 'Baltimore', 'Bethesda', 'Towson', 'College Park'],
   },
@@ -118,6 +164,16 @@ export const LANDING_PAGES = [
       'Roadshow & multi-stop itineraries handled seamlessly',
       'Volume discounts for 10+ rides/month',
     ],
+    sections: [
+      {
+        h2: 'Serving Maryland and DC\'s business corridors',
+        paragraphs: [
+          'Our corporate accounts cluster around Bethesda Row and the National Institutes of Health campus, the I-270 biotech corridor running through Rockville and Gaithersburg, and the financial and legal firms near Baltimore\'s Inner Harbor and Charles Street — each with its own parking and loading-zone quirks our chauffeurs already know.',
+          'A roadshow or multi-stop itinerary is booked as one hourly reservation rather than a string of separate rides, so the same chauffeur and vehicle carry your team from a 9 a.m. meeting in Bethesda to an afternoon stop in Baltimore without a handoff or a gap in service.',
+          'Companies that fly executives or clients through DCA, BWI or Dulles frequently pair a corporate account with standing airport transfers, so a visiting board member or client lands to a chauffeur already briefed on the day\'s itinerary rather than a generic airport pickup. A dedicated account manager handles the billing and scheduling details so your travel coordinator is not chasing receipts.',
+        ],
+      },
+    ],
     relatedCities: ['Bethesda', 'Baltimore', 'Annapolis', 'Silver Spring', 'Rockville'],
   },
   {
@@ -135,6 +191,16 @@ export const LANDING_PAGES = [
       'Designated driver service — drink without worry',
       'Pre/post-game stops at restaurants & bars',
       'Season-pass packages for diehard fans',
+    ],
+    sections: [
+      {
+        h2: 'Beating stadium traffic on game day',
+        paragraphs: [
+          'Camden Yards and M&T Bank Stadium share Russell Street as the main approach, which turns into a crawl in the hour before kickoff and again as 40,000-plus fans try to leave at once; the same is true around Capital One Arena\'s Gallery Place/Chinatown block and the Beltway ramps feeding FedExField in Landover.',
+          'A pre-arranged drop-off steps from the gate — and a chauffeur who already knows which loading zone to use for each venue — removes the single biggest frustration of game day: finding, and then leaving, a parking space. Designated-driver bookings are common for tailgates where the group plans to drink.',
+          'We also run season-pass packages for diehard fans who attend most home games, locking in a standing rate rather than rebooking for every matchup, and we coordinate pre- and post-game stops at restaurants and bars near each stadium so the evening does not end the moment the final whistle blows.',
+        ],
+      },
     ],
     relatedCities: ['Baltimore', 'Washington DC', 'Bethesda', 'Annapolis', 'Silver Spring'],
   },
@@ -156,6 +222,17 @@ export const LANDING_PAGES = [
       'BWI, DCA & IAD airport service from Annapolis',
       'Government & MD State House protocol service',
     ],
+    sections: [
+      {
+        h2: 'Navigating Annapolis by water and by road',
+        paragraphs: [
+          'Annapolis sits on a peninsula laced with drawbridges, and the Spa Creek and Eastport bridges can both slow or briefly close for boat traffic, which matters for anyone timing a pickup near City Dock or the Eastport waterfront restaurants. Our chauffeurs build that swing-bridge buffer into the schedule rather than discovering it curbside.',
+          'The Annapolis Boat Shows each spring and fall, USNA Commissioning Week, and State House session days all bring parking restrictions to the historic district around State Circle — a reserved car with a pre-cleared drop-off point is usually faster than circling for street parking during any of them.',
+          'Naval Academy families flying in for Commissioning Week or parents weekend typically land at BWI, DCA or IAD and need a chauffeur who already knows the Academy\'s visitor gates and ceremony-day road closures, and Annapolis weddings at the yacht clubs along Spa Creek often call for a Sprinter van to move the full bridal party between the marina and the reception without a parking search of their own.',
+          'Downtown Annapolis streets around State Circle and Main Street were laid out centuries before modern traffic, which means curb space is genuinely scarce on a busy weekend — a pre-confirmed drop-off point, agreed with your chauffeur before you leave, routinely beats arriving and hoping a spot opens up near City Dock.',
+        ],
+      },
+    ],
     relatedCities: ['Severna Park', 'Arnold', 'Crofton', 'Edgewater', 'Cape St Claire'],
   },
   {
@@ -173,6 +250,16 @@ export const LANDING_PAGES = [
       'Inner Harbor, Fells Point, Federal Hill, Canton coverage',
       'Johns Hopkins Hospital medical transportation',
       'BWI Airport — fastest transfers in the city',
+    ],
+    sections: [
+      {
+        h2: 'Crossing the harbor without the tunnel backup',
+        paragraphs: [
+          'Baltimore\'s two harbor crossings — the Fort McHenry Tunnel (I-95) and the Baltimore Harbor Tunnel (I-895) — both carry tolls and both back up at rush hour, so a chauffeur who knows when to take Russell Street surface roads instead can save real time getting between Inner Harbor, Federal Hill and points south of the water.',
+          'Beyond downtown, we cover neighborhoods visitors rarely think to ask about by name — Hampden\'s shops on 36th Street, Locust Point near the cruise terminal, and the Horseshoe Casino south of Interstate 95 — along with the Johns Hopkins medical campus, where early-morning patient and family transportation is a regular booking.',
+          'Concert transportation to Merriweather Post Pavilion in nearby Columbia is one of our most-requested Baltimore-adjacent bookings in summer, and Ravens and Orioles game days bring the same Russell Street congestion whether the two stadiums are hosting on the same night or separately, which is why we treat that stretch of road as its own planning problem rather than an afterthought.',
+        ],
+      },
     ],
     relatedCities: ['Towson', 'Ellicott City', 'Glen Burnie', 'Annapolis', 'Columbia'],
   },
@@ -192,6 +279,17 @@ export const LANDING_PAGES = [
       'Wedding & event venue transportation',
       'Coverage: Columbia, Ellicott City, Clarksville, Highland',
     ],
+    sections: [
+      {
+        h2: 'A planned community built around its village centers',
+        paragraphs: [
+          'Columbia is laid out as ten self-contained villages around Lake Kittamaqundi and Downtown Columbia, so a pickup address often depends more on which village center you\'re near — Town Center, Wilde Lake, Oakland Mills — than on a single Columbia-wide landmark, and our chauffeurs route accordingly rather than treating the city as one block.',
+          'Merriweather Post Pavilion\'s concert season brings heavy traffic to the Merriweather District\'s restaurant row before and after shows, and Columbia Gateway\'s office parks keep us busy with weekday corporate accounts, including hospital-system travel tied to Howard County General Hospital.',
+          'Because Columbia sits almost exactly between Baltimore and Washington along the Route 29 and I-95 corridor, we also see a steady mix of BWI airport transfers, weekend trips into Baltimore for Orioles or Ravens games, and the occasional run into DC for a wedding or a conference — all from the same Columbia pickup address.',
+          'Lake Kittamaqundi and the paths around Symphony Woods sit right behind the amphitheater, so a Merriweather concert booking often pairs naturally with dinner reservations in Downtown Columbia beforehand; tell dispatch both stops when you book and the same chauffeur handles the whole evening on one reservation.',
+        ],
+      },
+    ],
     relatedCities: ['Ellicott City', 'Laurel', 'Clarksville', 'Howard County', 'Baltimore'],
   },
   {
@@ -209,6 +307,17 @@ export const LANDING_PAGES = [
       'BWI airport — 5-minute response time',
       'NSA Fort Meade corporate accounts',
       'Coverage: Hanover, Linthicum Heights, Glen Burnie, Severn, Odenton',
+    ],
+    sections: [
+      {
+        h2: 'Home turf: Hanover, Arundel Mills and Fort Meade',
+        paragraphs: [
+          'Being based in Hanover means we drive Arundel Mills Boulevard and the Live! Casino Maryland loop daily — one of the largest retail and entertainment complexes in the state — and we know which entrance gets you closest to the casino floor versus the outlet stores without circling the lot.',
+          'Nearby Fort Meade and the National Security Agency campus bring visitor and contractor transportation with their own ID and access protocols; chauffeurs working these accounts are briefed on current gate procedures before the pickup, since requirements can change with little notice.',
+          'Because BWI sits practically next door, Hanover is also where we stage most of our overnight and pre-dawn airport fleet, which is part of why local pickups here tend to see the fastest response time anywhere in Anne Arundel County — a five-minute car is realistic, not a sales line, when the vehicle is already parked a few minutes away.',
+          'Odenton and the MARC Camden Line station round out the neighborhood, and we regularly handle the last-mile leg for rail commuters and visitors arriving by train who still need a chauffeured ride on to a Hanover hotel, an NSA contractor meeting, or an evening at Live! Casino.',
+        ],
+      },
     ],
     relatedCities: ['Linthicum Heights', 'Glen Burnie', 'Severn', 'Odenton', 'Annapolis'],
   },

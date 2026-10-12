@@ -4,6 +4,7 @@
 import { MARYLAND_BATCH3 } from '@/data/marylandPagesBatch3';
 import { MARYLAND_BATCH4 } from '@/data/marylandPagesBatch4';
 import { MARYLAND_BATCH5 } from '@/data/marylandPagesBatch5';
+import { MARYLAND_BATCH6 } from '@/data/marylandPagesBatch6';
 import { ensureFiveFaqs } from '@/lib/faqExtras';
 
 export const MARYLAND_PAGES = [
@@ -6439,7 +6440,7 @@ export const MARYLAND_PAGES = [
     "badge": "Signature Service",
     "h1": "Maryland Wedding Limo Service",
     "metaTitle": "Maryland Wedding Limo | DCA Limos | Luxury Chauffeured Fleet",
-    "metaDescription": "Maryland Wedding Limo by DCA Limos — professional chauffeurs, Mercedes sedans, SUVs, Sprinter vans & stretch limos across Baltimore. Free quotes 24/7 at (877)",
+    "metaDescription": "Maryland Wedding Limo by DCA Limos — professional chauffeurs, Mercedes sedans, SUVs, Sprinter vans & stretch limos across Baltimore. Call (877) 609-1919.",
     "stats": [
       {
         "label": "Coverage",
@@ -6594,7 +6595,7 @@ export const MARYLAND_PAGES = [
     "badge": "Signature Service",
     "h1": "Maryland Corporate Car Service",
     "metaTitle": "Maryland Corporate Car Service | DCA Limos",
-    "metaDescription": "Maryland Corporate Car Service by DCA Limos — professional chauffeurs, Mercedes sedans, SUVs, Sprinter vans & stretch limos across Baltimore. Free quotes 24/7",
+    "metaDescription": "Maryland Corporate Car Service by DCA Limos — chauffeurs, Mercedes sedans, SUVs, Sprinter vans & limos statewide. Call (877) 609-1919 for a free quote.",
     "stats": [
       {
         "label": "Coverage",
@@ -6749,7 +6750,7 @@ export const MARYLAND_PAGES = [
     "badge": "Signature Service",
     "h1": "Maryland Prom Limo Service",
     "metaTitle": "Maryland Prom Limo | DCA Limos | Luxury Chauffeured Fleet",
-    "metaDescription": "Maryland Prom Limo by DCA Limos — professional chauffeurs, Mercedes sedans, SUVs, Sprinter vans & stretch limos across Howard. Free quotes 24/7 at (877) 609-1",
+    "metaDescription": "Maryland Prom Limo by DCA Limos — Mercedes sedans, SUVs, Sprinter vans & stretch limos across Howard County. Call (877) 609-1919 for a free quote.",
     "stats": [
       {
         "label": "Coverage",
@@ -6904,7 +6905,7 @@ export const MARYLAND_PAGES = [
     "badge": "Signature Service",
     "h1": "Maryland Concert Transportation",
     "metaTitle": "Maryland Concert Transportation | DCA Limos",
-    "metaDescription": "Maryland Concert Transportation by DCA Limos — professional chauffeurs, Mercedes sedans, SUVs, Sprinter vans & stretch limos across Columbia. Free quotes 24/7",
+    "metaDescription": "Maryland Concert Transportation by DCA Limos — chauffeured sedans, SUVs & Sprinter vans serving Columbia venues. Call (877) 609-1919 for a free quote.",
     "stats": [
       {
         "label": "Coverage",
@@ -7059,7 +7060,7 @@ export const MARYLAND_PAGES = [
     "badge": "Signature Service",
     "h1": "Maryland Wine Tour Transportation",
     "metaTitle": "Maryland Wine Tour Transportation | DCA Limos",
-    "metaDescription": "Maryland Wine Tour Transportation by DCA Limos — professional chauffeurs, Mercedes sedans, SUVs, Sprinter vans & stretch limos across the Frederick wine trail",
+    "metaDescription": "Maryland Wine Tour Transportation by DCA Limos — chauffeured SUVs & Sprinter vans across the Frederick wine trail. Call (877) 609-1919 for a free quote.",
     "stats": [
       {
         "label": "Coverage",
@@ -7214,7 +7215,7 @@ export const MARYLAND_PAGES = [
     "badge": "Signature Service",
     "h1": "Philadelphia Airport Car Service",
     "metaTitle": "Philadelphia Airport Car Service | DCA Limos",
-    "metaDescription": "Philadelphia Airport Car Service by DCA Limos — professional chauffeurs, Mercedes sedans, SUVs, Sprinter vans & stretch limos across Baltimore. Free quotes 24",
+    "metaDescription": "Philadelphia Airport Car Service by DCA Limos — Mercedes sedans, SUVs & Sprinter vans to/from PHL. Call (877) 609-1919 for a free quote.",
     "stats": [
       {
         "label": "Coverage",
@@ -9533,6 +9534,11 @@ export const MARYLAND_PAGES = [
   // 6 new real venue pages (Capital One Hall, EagleBank Arena, Arlington
   // National Cemetery, 9:30 Club, National Cathedral, Union Station).
   ...MARYLAND_BATCH5,
+  // Batch 6 (2026-10-12 SEO pass): Ellicott City & Upper Marlboro city pages,
+  // Six Flags America / Glenstone Museum / Mount Vernon venue pages, and
+  // Sprinter van rental / stretch limo rental / quinceañera / funeral &
+  // memorial service pages.
+  ...MARYLAND_BATCH6,
 ];
 
 // Every page carries five FAQs (accordion + FAQPage schema).

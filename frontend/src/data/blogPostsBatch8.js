@@ -86,7 +86,7 @@ export const BLOG_POSTS_BATCH8 = [
     readTime: '8 min read',
     category: 'Travel Planning',
     content: `
-      <p class="lead">General advice to "book your airport car service early" is true everywhere, but Washington has its own calendar of specific weeks when demand spikes hard enough to sell out vehicles entirely. This is a season-by-season guide to exactly when to lock in your DCA, Dulles or BWI transfer around the District's biggest travel periods — for a more general look at booking timing year-round, see our <a href="/best-time-to-book-airport-car-service">airport car service planning guide</a>.</p>
+      <p class="lead">General advice to "book your airport car service early" is true everywhere, but Washington has its own calendar of specific weeks when demand spikes hard enough to sell out vehicles entirely. This is a season-by-season guide to exactly when to lock in your DCA, Dulles or BWI transfer around the District's biggest travel periods — for a more general look at booking timing year-round, see our <a href="/blog/best-time-to-book-airport-car-service">airport car service planning guide</a>.</p>
 
       <h2>Late March through mid-April: Cherry Blossom season</h2>
       <p>The National Cherry Blossom Festival floods the Tidal Basin, downtown hotels and DCA itself with visitors for roughly three weeks. Hotel-to-airport and airport-to-hotel transfers book up fast, especially sedans and SUVs for the festival's opening and closing weekends. <strong>Book 3–4 weeks out</strong> for standard transfers and as early as 6 weeks out if your trip lands on a festival weekend.</p>
@@ -171,7 +171,7 @@ export const BLOG_POSTS_BATCH8 = [
         <li><strong>Destination in Tysons, Reston or Loudoun County, or an international/long-haul flight:</strong> choose Dulles.</li>
         <li><strong>Destination in Baltimore or northern Maryland, or a meaningfully cheaper fare on BWI:</strong> choose BWI.</li>
       </ul>
-      <p>Whichever airport your flight search lands you on, we cover all three with the same flat-rate, flight-tracked chauffeur service. See our dedicated <a href="/dca-to-washington-dc">DCA</a>, <a href="/dulles-airport-limo">Dulles</a> and <a href="/bwi-airport-limo">BWI</a> transfer pages, or call (877) 609-1919 to book.</p>
+      <p>Whichever airport your flight search lands you on, we cover all three with the same flat-rate, flight-tracked chauffeur service. See our dedicated <a href="/dca-to-washington-dc">DCA</a>, <a href="/limo/dulles-airport-limo">Dulles</a> and <a href="/limo/bwi-airport-limo">BWI</a> transfer pages, or call (877) 609-1919 to book.</p>
     `,
     faqs: [
       {

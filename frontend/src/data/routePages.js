@@ -3,6 +3,7 @@
 // Add a new object and it is picked up by App.js routes and the sitemap.
 import { ensureFiveFaqs } from '@/lib/faqExtras';
 import { ROUTE_PAGES_BATCH2 } from '@/data/routePagesBatch2';
+import { ROUTE_PAGES_BATCH3 } from '@/data/routePagesBatch3';
 
 const HERO_IMAGE =
   '/images/airport-curbside.webp';
@@ -2892,6 +2893,8 @@ export const ROUTE_PAGES = [
   // Batch 2 (2026-10-09): 6 new routes (Ashburn, Manassas, Leesburg, Vienna,
   // Gaithersburg, Potomac) lives in its own file.
   ...ROUTE_PAGES_BATCH2,
+  // Batch 3 (2026-10-12 SEO pass): DCA to New York City.
+  ...ROUTE_PAGES_BATCH3,
 ];
 
 // Every page carries five FAQs (accordion + FAQPage schema).

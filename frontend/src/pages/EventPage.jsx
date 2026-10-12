@@ -6,6 +6,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { findEventPage, EVENT_PAGES } from '@/data/eventPages';
 import { ROUTE_PAGES } from '@/data/routePages';
 import KeywordSection from '@/components/KeywordSection';
+import PillarLinks from '@/components/PillarLinks';
 
 const PHONE_DISPLAY = '(877) 609-1919';
 const PHONE_TEL = 'tel:+18776091919';
@@ -217,6 +218,7 @@ const EventPage = ({ slug: slugProp }) => {
       </section>
 
       <KeywordSection slug={data.slug} place={data.name} kind="event" />
+      <PillarLinks kind="event" />
 
       {/* FAQ */}
       <section className="py-16 sm:py-20 bg-white">
