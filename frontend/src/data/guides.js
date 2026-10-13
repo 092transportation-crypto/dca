@@ -46,8 +46,7 @@ export const GUIDES = [
         <li><strong>Mercedes-Benz E-Class (Business Sedan)</strong> or the <strong>BMW 7 Series / Mercedes S-Class (First Class Sedan)</strong> suit a couple or two people who want a quiet, comfortable ride between stops, with room for a bit of shopping from a Georgetown stop.</li>
         <li><strong>Lincoln Nautilus (Midsize SUV)</strong> is a natural fit for a small family, with more cargo room for coats, blankets and the inevitable extra bag of hot chocolate supplies.</li>
         <li><strong>Chevrolet Suburban (Luxury SUV)</strong> or <strong>Cadillac Escalade (Premium SUV)</strong> handle a larger family or multigenerational group — grandparents, parents and kids — in one vehicle rather than splitting across two cars that can lose each other in the dark.</li>
-        <li><strong>Mercedes Sprinter Shuttle</strong> or <strong>Mercedes Sprinter Executive</strong> keep an office group, extended family or neighborhood group of up to 13 together for the whole tour, which is usually the single biggest upgrade over driving yourselves for a group this size.</li>
-        <li><strong>Mercedes Sprinter Limo</strong> adds a stretch-limousine atmosphere to the same group capacity, a popular choice for a milestone celebration or an especially festive office outing built around the lights.</li>
+        <li><strong>Mercedes Sprinter Shuttle</strong> or <strong>Mercedes Sprinter Executive</strong> keep an office group, extended family or neighborhood group of up to 13 together for the whole tour, which is usually the single biggest upgrade over driving yourselves for a group this size. The Sprinter Executive adds a stretch-limousine atmosphere to the same group capacity, a popular choice for a milestone celebration or an especially festive office outing built around the lights.</li>
       </ul>
       <p>The <a href="/fleet">fleet page</a> shows each of these with photos and passenger and luggage capacity if you want to compare before calling.</p>
 
@@ -103,7 +102,7 @@ export const GUIDES = [
       },
       {
         q: "What vehicle should I book for a family holiday lights tour?",
-        a: "For two people, the Mercedes-Benz E-Class or BMW 7 Series sedans are comfortable choices. A Lincoln Nautilus suits a small family, while a Chevrolet Suburban or Cadillac Escalade keeps a larger or multigenerational family together in one vehicle. Groups of up to 13, such as an office outing or extended family, fit in a Mercedes Sprinter Shuttle, Sprinter Executive or the stretch-style Sprinter Limo.",
+        a: "For two people, the Mercedes-Benz E-Class or BMW 7 Series sedans are comfortable choices. A Lincoln Nautilus suits a small family, while a Chevrolet Suburban or Cadillac Escalade keeps a larger or multigenerational family together in one vehicle. Groups of up to 13, such as an office outing or extended family, fit in a Mercedes Sprinter Shuttle or the stretch-style Sprinter Executive.",
       },
       {
         q: "Do holiday light displays in the DC area have specific open dates every year?",

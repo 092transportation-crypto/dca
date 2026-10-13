@@ -32,7 +32,7 @@ export const BLOG_POSTS_BATCH7 = [
       <p>Undercounting the court is the single most common mistake families make. A limousine that comfortably seats eight becomes cramped and stressful with ten teenagers in formal wear and a few gift bags. We ask for the exact count of the court, parents, and padrinos riding together before recommending a vehicle, rather than guessing from a rough estimate of "around ten people."</p>
 
       <h2>Choosing the Right Vehicle for the Court</h2>
-      <p>A traditional stretch limousine remains the most requested vehicle for a quinceañera court, both for the look of a full court stepping out together and for the practical bench seating that keeps formal dresses from wrinkling the way a row of separate bucket seats can. For a larger court, or a sweet sixteen with a big friend group, a Mercedes Sprinter limousine seats more people while keeping the same single-arrival, single-exit presentation. For a smaller, closer celebration, a Cadillac Escalade or Chevrolet Suburban gives the honoree and immediate family a more private, no-less-special ride.</p>
+      <p>A traditional stretch limousine remains the most requested vehicle for a quinceañera court, both for the look of a full court stepping out together and for the practical bench seating that keeps formal dresses from wrinkling the way a row of separate bucket seats can. For a larger court, or a sweet sixteen with a big friend group, a Mercedes Sprinter Executive seats more people while keeping the same single-arrival, single-exit presentation. For a smaller, closer celebration, a Cadillac Escalade or Chevrolet Suburban gives the honoree and immediate family a more private, no-less-special ride.</p>
       <p>The deciding factor is almost always the same: count the court and the family members riding together first, then pick the vehicle that seats that exact group with room for dresses and gift bags, rather than picking the most photogenic vehicle and hoping everyone fits.</p>
 
       <h2>Timing the Grand Entrance and Photos</h2>
@@ -63,11 +63,11 @@ export const BLOG_POSTS_BATCH7 = [
       <p>Whether your court is seven couples or your sweet sixteen is a dozen close friends, tell us the exact group and we will recommend the right vehicle rather than the most popular one. <a href="/booking">Request your quote online</a> or call (877) 609-1919 — we answer 24/7, every day of the year.</p>
     `,
     faqs: [
-      { q: 'How many people fit in a limo for a quinceañera court of honor?', a: 'A traditional stretch limousine comfortably seats eight to ten in formal wear; a larger court of fourteen or more (seven damas and seven chambelanes) is usually better served by a Mercedes Sprinter limousine, which keeps the full court together for one arrival.' },
+      { q: 'How many people fit in a limo for a quinceañera court of honor?', a: 'A traditional stretch limousine comfortably seats eight to ten in formal wear; a larger court of fourteen or more (seven damas and seven chambelanes) is usually better served by a Mercedes Sprinter Executive, which keeps the full court together for one arrival.' },
       { q: 'Should we book hourly or a single point-to-point ride?', a: 'Hourly, as-directed service is almost always the better fit, since a quinceañera or sweet sixteen typically includes a religious ceremony, a photo stop, and the reception, often with a return trip at the end of the night.' },
       { q: 'How much buffer time should we build in before the grand entrance?', a: 'We recommend 15 to 20 minutes between arrival and the planned entrance time, enough for final hair and makeup touch-ups and a few photos without the formalwear sitting wrinkled in the vehicle too long.' },
       { q: 'Can parents and padrinos ride in a separate vehicle from the court?', a: 'Yes. Many families book a second sedan or SUV for parents and padrinos so the court has its own vehicle, and we coordinate both vehicles against the same timeline through one dispatcher.' },
-      { q: 'How far in advance should we book a quinceañera or sweet sixteen limo?', a: 'Peak quinceañera and sweet sixteen season (spring and early summer weekends) books out several weeks ahead for stretch limousines and Sprinter limos specifically, so we recommend booking 4-6 weeks out when possible.' },
+      { q: 'How far in advance should we book a quinceañera or sweet sixteen limo?', a: 'Peak quinceañera and sweet sixteen season (spring and early summer weekends) books out several weeks ahead for stretch limousines and Sprinter Executives specifically, so we recommend booking 4-6 weeks out when possible.' },
     ],
     relatedLinks: [
       { to: '/limo/wedding-limo-service', label: 'Wedding Limo Service' },
@@ -104,7 +104,7 @@ export const BLOG_POSTS_BATCH7 = [
       <p>It is also worth asking whether a parent can ride along for part of the pickup, or at minimum receive a text confirmation when the group is picked up and dropped off. Most reputable companies are glad to accommodate either request, and a company that resists a reasonable safety question from a parent is a signal worth paying attention to.</p>
 
       <h2>Sizing the Group and the Vehicle</h2>
-      <p>Homecoming groups usually run smaller than a full prom group — often four to eight couples sharing one vehicle for dinner and the dance. A stretch limousine or a smaller SUV fits most homecoming groups comfortably; a larger friend group of ten or more is better served by a Mercedes Sprinter limo, which keeps everyone together in one vehicle rather than splitting across two cars and two drivers to track.</p>
+      <p>Homecoming groups usually run smaller than a full prom group — often four to eight couples sharing one vehicle for dinner and the dance. A stretch limousine or a smaller SUV fits most homecoming groups comfortably; a larger friend group of ten or more is better served by a Mercedes Sprinter Executive, which keeps everyone together in one vehicle rather than splitting across two cars and two drivers to track.</p>
       <p>Count the exact group, including anyone joining for dinner beforehand who might not be going to the dance itself, and share that number when booking rather than a rough estimate — it is the detail that determines whether the vehicle is comfortable or cramped.</p>
 
       <h2>Setting Expectations for the Night</h2>
@@ -133,7 +133,7 @@ export const BLOG_POSTS_BATCH7 = [
       { q: 'Is homecoming transportation held to the same safety standard as prom?', a: 'Yes. The vehicle, driver licensing, insurance, and background-check standards are identical regardless of how formal the event is — a reserved chauffeur service applies the same vetting to every booking.' },
       { q: 'What questions should I ask before booking a homecoming limo?', a: 'Ask whether the vehicle is company-owned or subcontracted, whether the chauffeur is background-checked and licensed, what the alcohol policy is, and what the cancellation policy covers. A company that answers all four specifically is one you can trust.' },
       { q: 'Can a parent get a text confirmation of pickup and drop-off?', a: 'Most reputable companies, including ours, are glad to send a parent a confirmation text when the group is picked up and again when they are dropped off at home.' },
-      { q: 'What vehicle fits a typical homecoming group?', a: 'A stretch limousine comfortably fits four to eight couples; a larger friend group of ten or more is better served by a Mercedes Sprinter limo, which keeps everyone in one vehicle for the night.' },
+      { q: 'What vehicle fits a typical homecoming group?', a: 'A stretch limousine comfortably fits four to eight couples; a larger friend group of ten or more is better served by a Mercedes Sprinter Executive, which keeps everyone in one vehicle for the night.' },
       { q: 'How far in advance should we book homecoming transportation?', a: 'Two to three weeks ahead is typically enough for homecoming, since it does not compete with the same peak-weekend demand that prom and wedding season create, though booking earlier guarantees your preferred vehicle.' },
     ],
     relatedLinks: [
