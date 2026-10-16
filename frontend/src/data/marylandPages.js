@@ -5,6 +5,7 @@ import { MARYLAND_BATCH3 } from '@/data/marylandPagesBatch3';
 import { MARYLAND_BATCH4 } from '@/data/marylandPagesBatch4';
 import { MARYLAND_BATCH5 } from '@/data/marylandPagesBatch5';
 import { MARYLAND_BATCH6 } from '@/data/marylandPagesBatch6';
+import { MARYLAND_BATCH7 } from '@/data/marylandPagesBatch7';
 import { ensureFiveFaqs } from '@/lib/faqExtras';
 
 export const MARYLAND_PAGES = [
@@ -3211,6 +3212,14 @@ export const MARYLAND_PAGES = [
     ],
     "related": [
       {
+        "label": "Pikesville Limo Service",
+        "to": "/pikesville-limo-service"
+      },
+      {
+        "label": "Owings Mills Limo Service",
+        "to": "/owings-mills-limo-service"
+      },
+      {
         "label": "Timonium Limo Service",
         "to": "/timonium-limo-service"
       },
@@ -4507,6 +4516,10 @@ export const MARYLAND_PAGES = [
     ],
     "related": [
       {
+        "label": "Tenleytown Limo Service",
+        "to": "/tenleytown-dc-limo-service"
+      },
+      {
         "label": "Rockville Limo Service",
         "to": "/rockville-limo-service"
       },
@@ -4761,6 +4774,12 @@ export const MARYLAND_PAGES = [
         ]
       },
       {
+        "h2": "Good to know before you ride",
+        "paragraphs": [
+          "BWI's lower-level arrivals curb gets crowded fast during the Southwest Airlines bank of afternoon landings, so we stage in the dedicated chauffeured-vehicle waiting area rather than circling, and we're at the curb within minutes of your text. On the DC end, Union Station and the Convention Center district close streets without much warning during state visits, protests and large conferences, and the blocks around the Capitol tighten further whenever either chamber is in session — our dispatch tracks the congressional calendar and plans the drop-off accordingly rather than finding out at the barricade. If your trip is a same-day Hill visit or a conference with a hard start time, tell us the appointment time rather than just the flight time, and we'll back-time the pickup to cover both the drive and the security screening most office buildings and hotels now require."
+        ]
+      },
+      {
         "h2": "Pick the right vehicle",
         "paragraphs": [
           "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Cadillac Escalade or Chevrolet Suburban seats six comfortably. Team or wedding party? A Mercedes Sprinter carries 14. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
@@ -4914,6 +4933,12 @@ export const MARYLAND_PAGES = [
         "h2": "The BWI to Annapolis drive, explained",
         "paragraphs": [
           "Starting from BWI's lower-level arrivals area and the Concourse E international hall, the fastest path is I-97 south to US-50 and Rowe Boulevard. Allow 30–45 minutes; on the worst afternoons we add a buffer and tell you in advance. We reroute in real time around Commissioning Week in May rather than sitting in it."
+        ]
+      },
+      {
+        "h2": "Good to know before you ride",
+        "paragraphs": [
+          "Annapolis is a boat town before it is a car town, and that shapes how we schedule a BWI pickup bound for the harbor. Downtown street parking all but disappears during the October boat shows and on Navy football Saturdays, so a chauffeur who drops you at the door of your Main Street hotel or City Dock restaurant rather than circling for a space is worth more there than almost anywhere else we serve. The historic district's brick streets around the State House and Church Circle are narrow and partly one-way, and we know which approach keeps a Sprinter van clear of the tightest turns. If your trip includes a Naval Academy gate — Gate 1 at King George Street is the one most visitors use — tell us in advance, since academy security can add a short wait at the checkpoint that's easy to absorb if we know about it."
         ]
       },
       {
@@ -5549,6 +5574,12 @@ export const MARYLAND_PAGES = [
         ]
       },
       {
+        "h2": "Good to know before you ride",
+        "paragraphs": [
+          "Fort Detrick's badge and screening process at the Nallin Farm and Area B gates can add a few minutes most rideshare drivers aren't prepared for, so our chauffeurs plan the extra time into a drop-off there rather than leaving a visiting researcher stuck at the guard booth. Downtown Frederick's historic district is walkable but tight for a full-size vehicle — Market and Patrick Streets fill with pedestrians on Carroll Creek evenings and during the Frederick Craft Fair and In the Street festival — so we stage on a side street and walk guests the last few steps when that's faster than fighting the block. Wine-country day trips into the Frederick County countryside, and ski weekends north toward Catoctin Mountain, are also common extensions of this route; let dispatch know if the BWI pickup is the start of a longer day rather than a straight drop-off, and we'll quote it as one hourly booking instead of two separate transfers."
+        ]
+      },
+      {
         "h2": "Pick the right vehicle",
         "paragraphs": [
           "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Cadillac Escalade or Chevrolet Suburban seats six comfortably. Team or wedding party? A Mercedes Sprinter carries 14. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
@@ -5702,6 +5733,12 @@ export const MARYLAND_PAGES = [
         "h2": "The IAD to Rockville drive, explained",
         "paragraphs": [
           "Starting from Dulles's international arrivals hall and the Main Terminal baggage claim, the fastest path is the Dulles Toll Road to the Beltway, across the American Legion Bridge and up I-270 to Rockville. Allow 40–55 minutes; on the worst afternoons we add a buffer and tell you in advance. We reroute in real time around the American Legion Bridge merge and the I-270 spur rather than sitting in it."
+        ]
+      },
+      {
+        "h2": "Good to know before you ride",
+        "paragraphs": [
+          "International arrivals at Dulles clear a longer path through immigration and customs than a domestic flight, especially on wide-body arrivals from Europe, the Middle East and Asia that land in clusters in the late afternoon and evening, so we build that extra dwell time into the pickup rather than starting the clock at touchdown. Once you're moving, the American Legion Bridge is the one chokepoint on this run that backs up in both directions well outside normal rush hour — a Beltway incident on the Virginia side can back traffic up onto the Dulles Toll Road itself, and our chauffeurs watch for that and divert onto the Greenway or local roads when it's actually faster. On the Rockville end, Shady Grove Road's biotech campuses run shift changes that add short-lived congestion near the NRC and the Adventist HealthCare Shady Grove campus around 8–9 a.m. and 4–5 p.m., worth knowing if your pickup lands in that window."
         ]
       },
       {
@@ -6017,6 +6054,12 @@ export const MARYLAND_PAGES = [
         ]
       },
       {
+        "h2": "Good to know before you ride",
+        "paragraphs": [
+          "A Baltimore-to-DC trip almost always touches two different event calendars, and we watch both. Camden Yards and M&T Bank Stadium traffic on the Baltimore end can back up I-395 and the Inner Harbor surface streets well before first pitch or kickoff, while Nationals Park and Capital One Arena do the same thing to the DC end on game nights — book a pickup an extra 20–30 minutes early on days when both cities have something going on. For visiting researchers and conference attendees moving between Johns Hopkins and the federal agencies and think tanks clustered around K Street and Massachusetts Avenue, we coordinate same-day round trips as one booking rather than two separate reservations, which keeps the vehicle and rate consistent for both legs. Smithsonian and National Mall traffic restrictions around major events are the other thing to flag when you book, since several Mall-adjacent streets close entirely during peak tourist season and around the Fourth of July and Cherry Blossom Festival."
+        ]
+      },
+      {
         "h2": "Pick the right vehicle",
         "paragraphs": [
           "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Cadillac Escalade or Chevrolet Suburban seats six comfortably. Team or wedding party? A Mercedes Sprinter carries 14. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
@@ -6170,6 +6213,12 @@ export const MARYLAND_PAGES = [
         "h2": "The Baltimore to Annapolis drive, explained",
         "paragraphs": [
           "Starting from the Inner Harbor, Harbor East, Johns Hopkins, Penn Station and Camden Yards, the fastest path is I-97 south to US-50 and Rowe Boulevard. Allow 40–50 minutes; on the worst afternoons we add a buffer and tell you in advance. We reroute in real time around I-97 and MD-100 merges at rush hour and Rowe Boulevard on session days rather than sitting in it."
+        ]
+      },
+      {
+        "h2": "Good to know before you ride",
+        "paragraphs": [
+          "This is one of the most frequently booked short hops on our Maryland calendar, and most of the reasons are predictable if you know Annapolis. General Assembly session, roughly January through April, fills Rowe Boulevard and the streets around the State House with legislators, staffers and lobbyists moving between Baltimore offices and Annapolis hearings on tight schedules, and we build that timing pressure into session-season pickups by default. Outside of session, Naval Academy events — Commissioning Week in May, home football Saturdays in the fall and Army-Navy watch parties — fill the same downtown streets and tighten parking around City Dock and Main Street to nearly nothing. If your trip is a same-day round trip, say so when you book: we hold the vehicle and quote one combined rate rather than treating it as two separate reservations."
         ]
       },
       {
@@ -6485,6 +6534,12 @@ export const MARYLAND_PAGES = [
         ]
       },
       {
+        "h2": "Coordinating with your other wedding vendors",
+        "paragraphs": [
+          "A wedding day timeline only works if transportation lines up with everyone else's schedule, so we ask for the photographer's shot list, the planner's minute-by-minute and the venue's load-in window before we build the chauffeur's run sheet — not just the ceremony and reception addresses. That matters most at venues with a single narrow driveway or a loading dock shared with catering, where a Sprinter van arriving at the wrong moment can back up the whole property. Guest hotel shuttles get the same attention: we build a simple departure schedule keyed to the ceremony start time rather than one continuous loop, so guests are not standing outside a hotel lobby wondering when the next car comes. If the forecast turns, your chauffeur already has a wet-weather version of the plan ready, with closer drop-off points and extra time built in for a first look or photos that move indoors."
+        ]
+      },
+      {
         "h2": "Vehicles for the occasion",
         "paragraphs": [
           "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Cadillac Escalade and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Mix and match across a single booking."
@@ -6637,6 +6692,12 @@ export const MARYLAND_PAGES = [
         "h2": "How the day runs",
         "paragraphs": [
           "We plan the timeline together: airport meets for visiting executives, roadshow days with multiple stops, board dinners, conference shuttles and standing weekly commutes. On the day, dispatch tracks the vehicle, adjusts for weather or traffic and keeps you informed by text. You never have to coordinate a driver from your phone."
+        ]
+      },
+      {
+        "h2": "Corporate accounts and recurring travel",
+        "paragraphs": [
+          "Maryland's biggest employers generate a specific kind of repeat demand — the I-270 biotech corridor between Rockville and Gaithersburg, the Fort Meade and NSA contractor community, Johns Hopkins' Baltimore and Bethesda campuses, and the federal and government-adjacent offices scattered from Greenbelt to Hanover. For companies with a steady stream of this kind of travel, we set up a corporate account with monthly invoicing, a dedicated point of contact at dispatch and standing instructions for recurring routes, so a new hire's first airport pickup or a visiting board member's transfer doesn't require re-explaining your preferences every time. Roadshow days — several meetings across Baltimore, Bethesda and DC in one day — are booked as a single hourly reservation with one chauffeur and vehicle for the whole itinerary, which is almost always both cheaper and less disruptive than a series of separate point-to-point rides."
         ]
       },
       {
@@ -6795,6 +6856,12 @@ export const MARYLAND_PAGES = [
         ]
       },
       {
+        "h2": "Safety and parent peace of mind",
+        "paragraphs": [
+          "Prom is the one night most parents want a sober, licensed, background-checked adult behind the wheel more than any other, and that's the whole premise of booking a chauffeur instead of letting a group of new drivers handle it themselves. Every chauffeur we assign to a prom booking is vetted the same way as every other trip we run, and the vehicle stays with the group for the agreed window rather than dropping them and leaving, so there's no scramble to find a ride if the after-party runs long or plans change. Parents can confirm the pickup and drop-off times and venue addresses directly with dispatch, and group bookings that split costs across several families are common — we're glad to coordinate the single reservation and itemize it however the group needs for payment."
+        ]
+      },
+      {
         "h2": "Vehicles for the occasion",
         "paragraphs": [
           "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Cadillac Escalade and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Mix and match across a single booking."
@@ -6947,6 +7014,12 @@ export const MARYLAND_PAGES = [
         "h2": "How the day runs",
         "paragraphs": [
           "We plan the timeline together: the pickup from home or hotel, a pre-show dinner stop, curbside drop-off at the venue and a staged pickup at a set meeting point after the encore. On the day, dispatch tracks the vehicle, adjusts for weather or traffic and keeps you informed by text. You never have to coordinate a driver from your phone."
+        ]
+      },
+      {
+        "h2": "Why a chauffeur beats parking at a concert",
+        "paragraphs": [
+          "Every venue on this list shares the same end-of-night problem: thousands of vehicles trying to leave one parking lot at once. Merriweather Post Pavilion's lots empty onto a two-lane road that can take 45 minutes to clear after a sellout show, and Jiffy Lube Live's single exit onto I-66 is one of the region's most notorious post-show bottlenecks. A chauffeur who is already staged at an agreed meeting point — rather than fighting for a spot in the same exit lane as everyone else — turns that wait into a non-event. We also track the show schedule itself, not just the venue's posted doors time, so the pickup accounts for a long encore or an opening act running late, and the vehicle is never sitting curbside burning time before you're ready."
         ]
       },
       {
@@ -7105,6 +7178,12 @@ export const MARYLAND_PAGES = [
         ]
       },
       {
+        "h2": "Why groups book a chauffeur for wine touring",
+        "paragraphs": [
+          "Maryland's wine country is genuinely rural — Linganore, Black Ankle and Sugarloaf Mountain Vineyard all sit well off the main highways on winding two-lane roads with no shoulder and little cell signal, exactly the kind of driving nobody in the group should be doing after four tasting stops. A reserved SUV or Sprinter van also solves the problem tastings create on their own: multiple open bottles and cases to bring home safely, a group that wants to split between the patio and the tasting room without worrying about a designated driver missing out, and a schedule that can slide by twenty minutes at a vineyard without throwing off the whole day. We route the stops in the order that makes sense geographically rather than the order they were booked, so the group spends the afternoon tasting instead of backtracking across Frederick or Carroll County."
+        ]
+      },
+      {
         "h2": "Vehicles for the occasion",
         "paragraphs": [
           "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Cadillac Escalade and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Mix and match across a single booking."
@@ -7257,6 +7336,12 @@ export const MARYLAND_PAGES = [
         "h2": "How the day runs",
         "paragraphs": [
           "We plan the timeline together: pre-dawn pickups for international departures, the I-95 run to Terminal A-West, meet and greet in the PHL baggage hall and same-day returns to Maryland. On the day, dispatch tracks the vehicle, adjusts for weather or traffic and keeps you informed by text. You never have to coordinate a driver from your phone."
+        ]
+      },
+      {
+        "h2": "Why book a car instead of driving yourself or taking Amtrak",
+        "paragraphs": [
+          "PHL is roughly two hours from Baltimore and closer to two and a half from the DC suburbs up I-95, a drive that's manageable solo but gets harder to justify with a family, a group, or an early-morning or late-night flight nobody wants to drive home from half-asleep. Amtrak's Northeast Corridor trains cover the same corridor well for a single traveler with light bags, but they don't help once you're at 30th Street Station rather than the airport itself, and a group with luggage, golf clubs or wedding garment bags is almost always better served by one vehicle door-to-door. We also see a steady run of travelers chasing a specific nonstop or a meaningfully cheaper fare out of PHL rather than BWI or DCA — in those cases the time saved on the flight easily covers the extra driving time, especially with a chauffeur handling the driving in both directions while you work, sleep or just avoid I-95 construction zones around Wilmington and Chester."
         ]
       },
       {
@@ -9539,6 +9624,12 @@ export const MARYLAND_PAGES = [
   // Sprinter van rental / stretch limo rental / quinceañera / funeral &
   // memorial service pages.
   ...MARYLAND_BATCH6,
+  // Batch 7 (2026-10-16 SEO expansion): 15 new city pages — Owings Mills,
+  // Catonsville, Pikesville, Bel Air, Elkridge and Montgomery Village in
+  // Maryland; Burke, Centreville, Great Falls, Haymarket, Warrenton and
+  // Lorton in Northern Virginia; and the Shaw, U Street and Tenleytown
+  // neighborhoods of Washington DC.
+  ...MARYLAND_BATCH7,
 ];
 
 // Every page carries five FAQs (accordion + FAQPage schema).

@@ -37,6 +37,14 @@ export const ROUTE_PAGES_BATCH2 = [
           'Our DCA to Ashburn transfers are quoted as one flat rate, including tolls, fuel and the chauffeur. The rate you are quoted is the rate you pay, regardless of Beltway traffic or Dulles Greenway tolls. SUVs and Sprinter vans are available for teams and groups traveling together for a conference or roadshow.',
         ],
       },
+      {
+        h2: 'Why Ashburn is known as "Data Center Alley"',
+        paragraphs: [
+          'Ashburn sits at the center of one of the largest concentrations of data centers in the world, with facilities operated by major cloud and colocation providers lining Loudoun County Parkway, Waxpool Road and the business parks around them. That infrastructure brings a steady flow of engineers, security personnel, auditors and visiting executives through Ashburn on tight, recurring schedules — exactly the kind of repeat trip a flat-rate chauffeur service handles more consistently than a different rideshare driver every time.',
+          'Beyond the server farms, Ashburn has grown into a genuine town center around One Loudoun, with open-air shopping, restaurants, a movie theater and a regular calendar of community events, plus Ashburn Village\'s lakes and sports pavilion for families. Whether you are here for a data-center audit or a weekend at One Loudoun, the Dulles Greenway toll and the Ashburn Metro Silver Line park-and-ride are both already built into how we plan the route.',
+          'The Silver Line\'s arrival in Ashburn also changed how a lot of our clients plan a Reagan National trip in the first place — some now mix a Metro leg for part of the journey with a chauffeured car for the rest, especially when traveling with luggage or on a schedule that does not line up neatly with train frequency. We are happy to coordinate either a full door-to-door trip or a shorter connection to or from the Ashburn Metro station, whichever fits your itinerary better.',
+        ],
+      },
     ],
     highlights: [
       'Flat-rate pricing — no surge, no surprise tolls',
@@ -95,6 +103,15 @@ export const ROUTE_PAGES_BATCH2 = [
         h2: 'Flat-rate pricing with no surprises',
         paragraphs: [
           'Our DCA to Manassas transfers are quoted as one flat rate covering tolls, fuel and the chauffeur, whether you are landing for a battlefield tour, a wedding, or a return commute. SUVs and Sprinter vans are available for family groups and tour parties.',
+        ],
+      },
+      {
+        h2: 'Battlefield history, VRE rail and a growing city',
+        paragraphs: [
+          'Manassas is also home to its own general-aviation Manassas Regional Airport, the southern end of VRE\'s Manassas Line commuter rail, which terminates at the restored 1914 train depot in Historic Downtown Manassas, and Harris Pavilion, the small outdoor amphitheater that anchors the city\'s summer concert and festival calendar. Travelers connecting between a Reagan National flight and a VRE train, or dropping a group off for a downtown festival, are a routine booking for us.',
+          'The Manassas National Battlefield Park preserves the ground of two major Civil War engagements, First and Second Manassas, and draws a steady stream of history groups, school tours and Civil War Trails travelers who often pair a battlefield morning with lunch in Old Town and a DCA flight home the same day. Our chauffeurs plan around the battlefield\'s seasonal event calendar, which can bring heavier traffic to Sudley Road and Route 29 on reenactment weekends.',
+          'Old Town Manassas itself blends Victorian-era storefronts with a walkable grid of antique shops, breweries and restaurants around the train depot, making it a popular half-day stop for visitors based elsewhere in Northern Virginia. We treat every Manassas pickup or drop-off the same way — flat rate, flight-tracked and ready, whether the trip is built around history, a wedding at one of the area\'s event barns, or a plain return commute.',
+          'Manassas Park, the small independent city tucked inside Prince William County just east of Manassas proper, is part of the same service area for us, and we handle its residential neighborhoods and its own VRE stop with the same flat-rate, flight-tracked pickup whether your flight lands at DCA early in the morning or late at night.',
         ],
       },
     ],
@@ -157,6 +174,14 @@ export const ROUTE_PAGES_BATCH2 = [
           'Our DCA to Leesburg transfers are quoted as one flat rate covering tolls, fuel and the chauffeur, confirmed before you book regardless of the nearly hour-long drive. SUVs and Sprinter vans are popular for winery day trips and larger family groups.',
         ],
       },
+      {
+        h2: 'Loudoun wine country and a historic county seat',
+        paragraphs: [
+          'As Loudoun County\'s seat, Leesburg mixes a genuinely historic core — brick storefronts and the county courthouse dating to the 18th and 19th centuries — with newer draws like the Leesburg Premium Outlets and the general-aviation Leesburg Executive Airport just outside town. Route 15 and Route 7 both run through the center of town, so our chauffeurs plan drop-offs around the Market Street and King Street intersection rather than fighting through it at the wrong hour.',
+          'Loudoun markets itself as "DC\'s Wine Country," with dozens of wineries scattered across the rolling hills west and south of Leesburg, and the town functions as the natural staging point for a day of tastings. A single chauffeured vehicle for the whole outing means no one in the group has to stay sober behind the wheel, and the flat rate covers the full loop of stops rather than a series of separate rideshare fares between wineries.',
+          'Morven Park and Oatlands Historic House, two large historic estates just outside town, add another option for a slower, grounds-and-gardens day rather than a wine-focused one, and both host weddings that bring our Sprinter vans and stretch limousines out to Leesburg on a regular basis. Whatever the occasion, a DCA flight on one end of the day and a Leesburg address on the other is a combination we plan for routinely.',
+        ],
+      },
     ],
     highlights: [
       'Flat-rate pricing locked in for the full 38-mile trip — no meter, no surge',
@@ -214,6 +239,14 @@ export const ROUTE_PAGES_BATCH2 = [
         h2: 'Flat-rate pricing with no surprises',
         paragraphs: [
           'Our DCA to Vienna transfers are quoted as one flat rate including tolls, fuel and the chauffeur — the same rate whether you are catching a Wolf Trap show, commuting through the Vienna Metro, or heading home after a flight. SUVs and Sprinter vans are available for groups and concert parties.',
+        ],
+      },
+      {
+        h2: 'A Metro hub and a national park for the performing arts',
+        paragraphs: [
+          'The Vienna/Fairfax-GMU Metro station anchors the far western end of the Orange Line and has long operated one of the largest Metro parking garages in the system, which makes it a popular park-and-ride for commuters and a convenient meeting point for travelers we pick up or drop off after a flight. The W&OD Trail also runs directly past downtown Vienna, a paved rail-trail that stretches 45 miles from Shirlington to Purcellville and draws walkers and cyclists through Church Street on any good-weather day.',
+          'Wolf Trap National Park for the Performing Arts, the only national park dedicated to the performing arts, sits just a few minutes from downtown Vienna and hosts an outdoor summer season at the Filene Center alongside year-round indoor shows at The Barns. Parking there fills early and clears slowly after a show, so a chauffeur who times the pickup against the actual end of the performance, rather than the printed curtain time, routinely beats self-parked traffic out of the lot.',
+          'Vienna also borders Tysons directly along Route 123 and Nutley Street, so a trip that starts or ends in Vienna frequently continues on to a Tysons office, hotel or shopping destination in the same booking. We treat the two as one continuous service area rather than quoting a separate transfer for the short hop between them, which keeps a Vienna-plus-Tysons day simpler to plan and price.',
         ],
       },
     ],
@@ -275,6 +308,20 @@ export const ROUTE_PAGES_BATCH2 = [
           'Our DCA to Gaithersburg transfers are quoted as one flat rate covering tolls, fuel and the chauffeur, whether it is a biotech executive\'s roadshow stop or a family returning from vacation. SUVs and Sprinter vans are available for teams and larger groups.',
         ],
       },
+      {
+        h2: 'Montgomery County Fairgrounds, Kentlands and a federal research hub',
+        paragraphs: [
+          'Gaithersburg hosts the Montgomery County Agricultural Fairgrounds, home to the county fair every August and a steady calendar of other events throughout the year, and the walkable Kentlands and Lakelands neighborhoods, two of the region\'s best-known examples of New Urbanist town planning, with front porches, a traditional grid of streets and a town square built around the Arts Barn and City Hall. We route around fairground traffic and Kentlands Boulevard\'s narrower residential streets rather than treating them like a highway.',
+          'The city is also headquarters to the National Institute of Standards and Technology (NIST), a federal research campus whose scientists, visiting researchers and contractors generate a steady flow of airport trips and roadshow travel alongside the private biotech and pharmaceutical employers clustered along the I-270 corridor. Corporate accounts with monthly invoicing are common for both the federal and private side of that traffic, and we keep documentation ready for official travel when it is required.',
+        ],
+      },
+      {
+        h2: 'A practical stop between DCA and the rest of upper Montgomery County',
+        paragraphs: [
+          'Gaithersburg\'s position on I-270 also makes it a natural midpoint stop for travelers continuing on to Germantown, Clarksburg or Frederick, and we regularly combine a Gaithersburg pickup or drop-off with a second stop further up the corridor in the same booking rather than treating each as a separate trip. The MARC train\'s Brunswick Line station downtown is another option some of our clients use for part of a longer trip, and we are glad to handle just the first-or-last-mile leg to or from it.',
+          'Old Towne Gaithersburg, the city\'s original historic core along Diamond Avenue and Frederick Avenue, still hosts a Thursday farmers market and an annual Oktoberfest and summer concert series, both of which bring enough foot traffic and street closures that a scheduled chauffeur pickup beats trying to find curb parking nearby. Tell us the event when you book and we will plan the staging point accordingly.',
+        ],
+      },
     ],
     highlights: [
       'Flat-rate pricing — no surge, no surprise tolls',
@@ -332,6 +379,20 @@ export const ROUTE_PAGES_BATCH2 = [
         h2: 'Flat-rate pricing with no surprises',
         paragraphs: [
           'Our DCA to Potomac transfers are quoted as one flat rate covering tolls, fuel and the chauffeur, regardless of how far down a private drive your home sits. SUVs and Sprinter vans are available for family groups and events.',
+        ],
+      },
+      {
+        h2: 'Great Falls, horse country and private clubs',
+        paragraphs: [
+          'The Maryland side of Great Falls Park and the C&O Canal towpath run along Potomac\'s western edge, giving residents direct access to some of the region\'s best hiking and the historic canal that once carried boat traffic around the Potomac\'s rapids. Horse farms and riding trails are still a visible part of Potomac\'s character, and some of our pickups come from properties with their own stables rather than a standard driveway.',
+          'Potomac Village\'s shops and restaurants sit at the heart of the community, within reach of private clubs including Congressional Country Club and TPC Potomac, both of which host high-profile tournaments and corporate outings that bring a steady stream of discreet, well-timed chauffeur bookings. Whether the trip starts at a clubhouse or a gated estate, our chauffeurs are used to confirming exact gate codes and arrival instructions ahead of time rather than guessing at the curb.',
+        ],
+      },
+      {
+        h2: 'Discretion as a standard, not an upgrade',
+        paragraphs: [
+          'A meaningful share of our Potomac bookings come from clients who would rather not have a name sign held up at baggage claim or a driver asking for directions in the driveway, and we treat that preference as the default rather than a special request. Pickup and drop-off details, gate codes and household instructions are confirmed by phone or in writing ahead of time, so the actual arrival is quiet and unremarkable.',
+          'That same approach extends to corporate and embassy-adjacent travel that touches Potomac\'s private communities, where a documented, professional chauffeur with commercial insurance and a background-checked record matters as much as punctuality. Whatever brings you between Potomac and Reagan National — a flight, an event at one of the clubs, or simply a ride home — the flat rate and the discretion are both part of the same booking.',
         ],
       },
     ],

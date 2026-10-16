@@ -129,6 +129,13 @@ export const MARYLAND_BATCH6 = [
           'Six Flags America and the neighboring Hurricane Harbor water park, along with Watkins Regional Park\'s miniature train and carousel, make Upper Marlboro a regular family-outing pickup — a Sprinter van keeps a larger group together for the ride home rather than splitting across cars in a crowded parking lot. Reagan National is 20 miles (30–40 minutes), BWI 25 miles (35–45 minutes) and Dulles 45 miles (60–75 minutes), each with flight tracking and complimentary wait time included.',
         ],
       },
+      {
+        h2: 'Rosaryville State Park and the town\'s historic core',
+        paragraphs: [
+          'South of downtown, Rosaryville State Park\'s wooded trails and the adjacent Patuxent River make for a quieter counterpoint to the theme-park crowds at Six Flags America, and we run as many riding-club and trailhead drop-offs there as we do courthouse appointments. The park has limited parking of its own, which makes a scheduled pickup useful on busy weekends when the lot fills.',
+          'Upper Marlboro\'s own historic core — a small cluster of 18th- and 19th-century buildings around the courthouse, including the old jail and the Darnall\'s Chance House Museum — is easy to underestimate on a map but genuinely walkable once you are dropped at the right corner. Chauffeurs who run this route regularly know which side streets still carry two-way traffic and which have been narrowed for pedestrians during court sessions, so a pickup outside the courthouse during a trial recess does not turn into a scramble.',
+        ],
+      },
     ],
     vehicles: [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and attorneys' },
@@ -203,12 +210,21 @@ export const MARYLAND_BATCH6 = [
           'We also track closing-time changes on fireworks nights and extended summer hours, so your pickup is staged for the park\'s actual schedule that day rather than its standard posted hours.',
         ],
       },
+      {
+        h2: 'Coasters, Hurricane Harbor and planning a group day',
+        paragraphs: [
+          'Six Flags America packs a full-size coaster lineup — Superman: Ride of Steel, Wild One and the Joker among them — into the same gate as Hurricane Harbor\'s water slides and wave pool, so a typical visit splits between dry clothes in the morning and swimwear by early afternoon. Groups often arrive with coolers, towels and changing bags on top of the usual theme-park gear, which is exactly the kind of load a Sprinter van handles better than a sedan trunk.',
+          'For birthday parties, church youth groups, company outings and multi-family trips, we book the van for the full day rather than a single drop-off and pickup, so the chauffeur is available if the group wants to leave early for a storm delay or simply decides to call it a day ahead of schedule. Confirm your group size and whether you need gear space for Hurricane Harbor when you book, and we will size the vehicle accordingly. Season pass holders who visit Six Flags America repeatedly through the summer often set up a standing arrangement with dispatch rather than booking fresh each time, which simplifies the back-and-forth on a trip you already know by heart.',
+        ],
+      },
     ],
     vehicles: [
       { name: 'Cadillac Escalade', cls: 'Premium SUV', seats: 6, best: 'families with gear' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'larger families' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'multi-family groups and parties' },
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'couples and small groups' },
+      { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'a comfortable solo or two-person visit' },
+      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'a group birthday or celebration day' },
     ],
     faqs: [
       {
@@ -281,11 +297,21 @@ export const MARYLAND_BATCH6 = [
           'Because the property is spread across rolling meadows and wooded paths between the Pavilions, the Gallery and the Water Court, some visitors prefer the chauffeur to reposition the vehicle between distant parking areas rather than walking the full loop — just mention it when you book and we will plan accordingly.',
         ],
       },
+      {
+        h2: 'Pairing Glenstone with the rest of Potomac and River Road',
+        paragraphs: [
+          'Glenstone sits along a stretch of River Road that also passes close to the C&O Canal towpath and several of Potomac\'s private equestrian properties, so a chauffeur who works this corridor regularly knows the difference between the museum\'s own gated entrance and the easy-to-miss turns for the handful of other estates nearby. Signage at the entrance is deliberately understated, by design, which first-time visitors sometimes drive past before realizing it.',
+          'Corporate clients occasionally use Glenstone for a quiet client outing before or after a Bethesda meeting, and we treat that booking the same as any executive transfer — a sedan staged early, a chauffeur who stays out of the way, and an exact pickup time coordinated with the museum\'s posted closing hours rather than a guess.',
+        ],
+      },
     ],
     vehicles: [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'couples and small groups' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'a quiet, discreet arrival' },
       { name: 'Cadillac Escalade', cls: 'Premium SUV', seats: 6, best: 'small groups' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'families and friend groups' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'larger museum groups' },
+      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'a special-occasion visit' },
     ],
     faqs: [
       {
@@ -351,11 +377,21 @@ export const MARYLAND_BATCH6 = [
           'Families with older relatives or young children in particular benefit from a single chauffeur who stays with the group all day, since the estate\'s grounds involve a fair amount of walking between the mansion, the tomb and the river overlook.',
         ],
       },
+      {
+        h2: 'The gardens, distillery and gristmill beyond the mansion',
+        paragraphs: [
+          'Most first-time visitors budget time for the mansion tour and underestimate how much else is on the property — the restored pioneer farm, the upper and lower gardens, the wharf on the Potomac, and Washington\'s reconstructed whiskey distillery and gristmill, which sit a few miles from the main estate and require a separate short drive most self-guided visitors skip entirely for lack of a car. We build that second stop into the itinerary on request, so a group that wants the fuller picture of the working 18th-century estate is not limited to whatever is walkable from the main gate.',
+          'The estate also runs seasonal programming — wreath-making workshops in December, Revolutionary War encampment weekends, and an active archaeology program — that can extend a visit well past the two-to-three-hour baseline, so tell us if you are coming for a specific event and we will plan the pickup around its actual end time rather than the estate\'s standard closing hour. Evening programs in warmer months, including candlelight tours, run later than the standard daytime closing, and we adjust the pickup window to match whichever schedule applies on your visit date.',
+        ],
+      },
     ],
     vehicles: [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'couples and small groups' },
       { name: 'Cadillac Escalade', cls: 'Premium SUV', seats: 6, best: 'families with older relatives' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'school and tour groups' },
+      { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive visitors' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'larger families with gear' },
+      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'a special-occasion estate visit' },
     ],
     faqs: [
       {
@@ -383,6 +419,7 @@ export const MARYLAND_BATCH6 = [
       { label: 'Alexandria, VA Limo Service', to: '/alexandria-va-limo-service' },
       { label: 'Old Town Alexandria Transportation Guide', to: '/old-town-alexandria-transportation-guide' },
       { label: 'Arlington, VA Limo Service', to: '/arlington-va-limo-service' },
+      { label: 'Lorton, VA Limo Service', to: '/lorton-va-limo-service' },
       { label: 'DCA to Alexandria, VA', to: '/dca-to-alexandria' },
     ],
     schema: { areaServed: ['Mount Vernon, VA', 'Fairfax County'], serviceType: 'Event transportation' },
@@ -392,7 +429,7 @@ export const MARYLAND_BATCH6 = [
     type: 'service',
     name: 'Sprinter Van Rental with Driver',
     badge: 'Signature Service',
-    h1: 'Sprinter Van Rental with Driver in DC, MD & VA',
+    h1: 'Sprinter Van Rental with Driver — Car Service in DC, MD & VA',
     metaTitle: 'Sprinter Van Rental with Driver | DC, MD & VA',
     metaDescription:
       'Chauffeured Sprinter van rental for groups up to 14 across DC, Maryland & Virginia — weddings, airport runs, corporate. Call (877) 609-1919.',
@@ -421,9 +458,21 @@ export const MARYLAND_BATCH6 = [
           'Because it is a chauffeured reservation rather than a self-drive rental, there is no second driver to designate, no unfamiliar vehicle to park, and no one left out of the toast because they are behind the wheel.',
         ],
       },
+      {
+        h2: 'Why a chauffeured Sprinter beats a self-drive 15-passenger van',
+        paragraphs: [
+          'A self-drive 15-passenger rental van is a different proposition than it looks on a reservation screen: many personal auto policies and even some rental-company policies restrict who can drive one, the vehicle handles nothing like a car in a highway merge or a tight parking structure, and whoever is behind the wheel is on the hook for every toll, parking ticket and fender-bender for the rest of the group. A chauffeured Mercedes Sprinter removes all of that — commercial insurance covers the vehicle, a professional driver who knows the local roads handles the merge onto the Beltway or the turn into a hotel loading zone, and nobody in the wedding party or the office has to volunteer to stay sober or skip the toast.',
+          'It also solves the DC-specific headaches that make a rented van worse than useless downtown: there is no Georgetown or Capitol Hill street the chauffeur has not already staged on before, no hunting for a legal place to park a 23-foot van near a rowhouse wedding, and no guessing which loading dock a hotel actually wants a large vehicle to use. Wine-tour groups in Northern Virginia and Maryland get the same benefit at wineries with gravel lots and single-lane driveways that a rental-van driver would rather not attempt after a tasting.',
+        ],
+      },
     ],
     vehicles: [
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'groups, weddings and corporate teams' },
+      { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'a smaller advance or support vehicle' },
+      { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP travel alongside the group van' },
+      { name: 'Cadillac Escalade', cls: 'Premium SUV', seats: 6, best: 'a mid-size group with extra luggage' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'a mid-size group with extra luggage' },
+      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'pairing with the Sprinter for a milestone event' },
     ],
     faqs: [
       {
@@ -460,7 +509,7 @@ export const MARYLAND_BATCH6 = [
     type: 'service',
     name: 'Stretch Limousine Rental',
     badge: 'Signature Service',
-    h1: 'Stretch Limousine Rental in DC, MD & VA',
+    h1: 'Stretch Limousine Rental — Car Service in DC, MD & VA',
     metaTitle: 'Stretch Limousine Rental | DC, MD & VA',
     metaDescription:
       'Stretch limousine rental with a professional chauffeur for weddings, proms and nights out across DC, MD & VA. Call (877) 609-1919 for a free quote.',
@@ -496,9 +545,21 @@ export const MARYLAND_BATCH6 = [
           'We also coordinate the limousine alongside other vehicles when an event needs more than one — a Sprinter van for a larger guest list paired with the limousine for the couple or honoree is one of our most common multi-vehicle bookings.',
         ],
       },
+      {
+        h2: 'Stretch limousine vs. Sprinter van vs. SUV',
+        paragraphs: [
+          'The stretch limousine remains the traditional choice when the vehicle itself is part of the occasion — a wedding exit, a prom arrival, a sweet sixteen or quinceañera entrance — because the long body, the interior lighting and the sense of occasion are the point, not just the seating. For eight passengers or fewer who want that specific experience, nothing else in the fleet does the same job.',
+          'A Sprinter van makes more sense once the group grows past eight or the priority shifts from spectacle to simply keeping everyone together — a wedding party of fourteen, a bachelorette group heading between venues, or a family reunion airport run. A Cadillac Escalade or Chevrolet Suburban splits the difference for a smaller group that wants more presence than a sedan without the full limousine experience. We will talk through group size and the feel you are going for and recommend the vehicle that actually fits, rather than defaulting to whichever is easiest to book.',
+        ],
+      },
     ],
     vehicles: [
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings, proms and celebrations' },
+      { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'a smaller companion vehicle' },
+      { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'the honoree\'s quiet arrival' },
+      { name: 'Cadillac Escalade', cls: 'Premium SUV', seats: 6, best: 'a group that prefers an SUV' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'a group that prefers an SUV' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'pairing with the limousine for a larger party' },
     ],
     faqs: [
       {
@@ -571,11 +632,21 @@ export const MARYLAND_BATCH6 = [
           'Tell dispatch about any specific language or cultural preferences when you book, and we will do our best to accommodate them along with the rest of the day\'s logistics.',
         ],
       },
+      {
+        h2: 'Photos, timing and the court of honor\'s wardrobe',
+        paragraphs: [
+          'A quinceañera photo session often runs longer than families expect, especially at a popular outdoor location during peak spring and fall weekends when several other parties are shooting at the same spot. We build real buffer into the schedule between the photo stop and the reception\'s start time, rather than a tight transfer that turns a late photographer into a late grand entrance.',
+          'The court of honor\'s formal wear — ball gowns for the damas, tuxedos for the chambelanes — also factors into vehicle choice more than most families expect; a Sprinter van with a wide side door and a flat floor makes it far easier for a line of teenagers in formal wear to board without crushing fabric than climbing into a lower sedan or SUV one at a time.',
+        ],
+      },
     ],
     vehicles: [
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'the honoree\'s arrival' },
       { name: 'Cadillac Escalade', cls: 'Premium SUV', seats: 6, best: 'an alternative honoree vehicle' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'the court of honor and family' },
+      { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'parents or a smaller party' },
+      { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'a quiet arrival for the honoree' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'an alternative to the Escalade for a larger family' },
     ],
     faqs: [
       {
@@ -648,11 +719,21 @@ export const MARYLAND_BATCH6 = [
           'Multi-vehicle processions are coordinated as a single booking, with vehicles staged in the correct order and a lead chauffeur keeping the group together between the service and the cemetery.',
         ],
       },
+      {
+        h2: 'Booking with as little notice as the day requires',
+        paragraphs: [
+          'Funeral arrangements often come together on short notice, and we treat a request for family transportation the same way — same-day and next-day bookings are routine for us, not an exception that requires extra lead time. Call dispatch directly rather than using the online form when a service is being finalized in the next day or two; a live person can confirm vehicle availability and timing far faster than a submitted request waiting for a reply.',
+          'For services at Arlington National Cemetery specifically, families should know that the cemetery itself sets its own procession rules, vehicle passes and timing windows separate from anything we control; we coordinate our chauffeurs around whatever the cemetery and the funeral home confirm, and our own Arlington National Cemetery transportation page covers those cemetery-specific procedures in more depth if you want to review them ahead of the day.',
+        ],
+      },
     ],
     vehicles: [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'immediate family' },
       { name: 'Cadillac Escalade', cls: 'Premium SUV', seats: 6, best: 'extended family groups' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'larger family parties' },
+      { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'immediate family' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'extended family groups' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'a large family or procession group' },
     ],
     faqs: [
       {

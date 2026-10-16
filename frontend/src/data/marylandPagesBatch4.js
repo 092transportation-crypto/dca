@@ -1049,6 +1049,7 @@ export const MARYLAND_BATCH4 = [
     ],
     related: [
       { label: 'DCA to Washington DC', to: '/dca-to-washington-dc' },
+      { label: 'Shaw Limo Service', to: '/shaw-dc-limo-service' },
       { label: 'Washington DC Wedding Limo', to: '/washington-dc-wedding-limo' },
       { label: 'Foggy Bottom Limo Service', to: '/foggy-bottom-limo-service' },
       { label: 'Rosslyn-Ballston Limo Service', to: '/rosslyn-ballston-limo-service' },
@@ -1690,6 +1691,7 @@ export const MARYLAND_BATCH4 = [
       'Pentagon and Pentagon City transfers on the same reservation',
       'Flat rates confirmed before you book and 24/7 dispatch',
       'Sedans through Sprinter vans for groups and conference travel',
+      'Covered concourse pickups linking Crystal City office towers to the Crystal City Metro station',
     ],
     sections: [
       {
@@ -1703,6 +1705,7 @@ export const MARYLAND_BATCH4 = [
         h2: 'Corporate and government travel in National Landing',
         paragraphs: [
           'The office towers along Crystal Drive, 12th Street and the Amazon HQ2 campus generate steady weekday travel — airport runs for visiting teams, standing pickups for executives, and hourly service for days with several meetings across the DMV. Corporate accounts get consolidated invoicing and priority dispatch.',
+          'National Landing\'s underground retail concourse links several Crystal City office towers and the Crystal City Metro station (Blue and Yellow Lines) without ever stepping outside, which matters on a rainy or freezing pickup day — tell your chauffeur which concourse entrance or tower lobby you are in and the car stages at the matching street-level door rather than circling the block. Amazon\'s continued buildout has added visiting-team travel to our regular Crystal City bookings: airport runs timed around all-day meeting schedules, Sprinter vans for larger groups moving between the HQ2 campus and a hotel, and hourly as-directed service for executives with back-to-back stops across Arlington and the District.',
         ],
       },
       {
@@ -1782,12 +1785,14 @@ export const MARYLAND_BATCH4 = [
       'Dulles transfers via I-66',
       'Hourly chauffeur service for multi-stop corridor visits',
       'Flat rates confirmed before you book and 24/7 dispatch',
+      'Pickups tuned to each station\'s density — Rosslyn high-rises to Clarendon\'s restaurant row',
     ],
     sections: [
       {
         h2: 'A corridor built around Metro, not highways',
         paragraphs: [
           'Wilson Boulevard and Clarendon Boulevard carry most of the corridor’s traffic, with Route 110 the fast way in and out toward Rosslyn and the Pentagon. Because the neighborhoods were built up around Metro stations rather than parking, curbside pickup spots in Clarendon and Ballston can be tight in the evening — our chauffeurs know where to stage.',
+          'Arlington planned the corridor deliberately around the Orange Line: density and building height step down the farther you move from each station, so Rosslyn\'s high-rise office and condo towers give way to Courthouse\'s mid-rise blocks, then Clarendon\'s walkable restaurant strip, before Virginia Square and Ballston pick density back up around George Mason University\'s Arlington campus and Ballston Quarter. That pattern is now served by both the Orange and Silver Lines, and it means a pickup address a few blocks off Wilson Boulevard can be a very different curbside situation than one directly outside a station — information our dispatchers confirm with you before the car arrives.',
         ],
       },
       {
@@ -1873,12 +1878,14 @@ export const MARYLAND_BATCH4 = [
       'Corporate car service for offices along the I-95 corridor',
       'Wedding and event limo service across Fairfax County',
       'Flat rates confirmed before you book and 24/7 dispatch',
+      'Express Lanes and HOT lanes used to bypass Mixing Bowl backups when it saves real time',
     ],
     sections: [
       {
         h2: 'A crossroads location, not a bottleneck, with a chauffeur',
         paragraphs: [
           'Springfield’s interchange has a reputation for backups, which is exactly the argument for a reserved car service: a chauffeur who drives the Mixing Bowl regularly knows the current pattern of ramps and lane shifts and plans the route and pickup time around it, rather than discovering the delay after you are already in the car.',
+          'The interchange earned its "Mixing Bowl" nickname from the tangle of flyover ramps the Virginia Department of Transportation rebuilt in the 2000s to separate I-95, I-395 and I-495 traffic, and the rebuild also fed directly into the I-95 Express Lanes and the Beltway\'s HOT lanes, both of which our chauffeurs use to bypass the worst of the general-purpose lane backups when the toll is worth the time saved. The Franconia-Springfield Metro station sits a short distance south of the interchange and doubles as a VRE commuter-rail stop, so a Springfield pickup might start at a rail platform, a Town Center storefront or a quiet cul-de-sac well off the interstate — each with a different staging plan.',
         ],
       },
       {
@@ -1964,12 +1971,14 @@ export const MARYLAND_BATCH4 = [
       'Wedding and event limo service across Fairfax County',
       'Hourly chauffeur service for multi-stop days',
       'Flat rates confirmed before you book and 24/7 dispatch',
+      'Regular pickups along the Little River Turnpike Korean-American business district',
     ],
     sections: [
       {
         h2: 'A neighborhood without a Metro station',
         paragraphs: [
           'Annandale sits between the Beltway and I-395 along Little River Turnpike, with Gallows Road and Columbia Pike as the other main routes through the community. Because there is no Metro stop in Annandale itself, an early flight or a late return usually means driving to a station or relying on a car, and a reserved chauffeur removes both problems: the pickup is committed the night before and waits if a flight runs late.',
+          'Little River Turnpike through the center of Annandale is also home to one of the largest Korean-American business districts in the Washington region, a dense strip of restaurants, grocers, salons and professional offices that draws visitors from across Northern Virginia and Maryland. We run airport transfers and family pickups for that business community regularly, and our chauffeurs know the turnpike\'s tight strip-mall parking lots well enough to stage curbside rather than circling for a spot.',
         ],
       },
       {
@@ -1982,6 +1991,7 @@ export const MARYLAND_BATCH4 = [
         h2: 'College, weddings and corporate travel',
         paragraphs: [
           'The NOVA Community College Annandale campus draws regular family and visitor trips, and the community’s event halls and places of worship host weddings across the year that we serve with Sprinter vans and stretch limousines. Corporate accounts cover standing pickups and airport runs for Annandale-based businesses. Call (877) 609-1919 or book online.',
+          'Because Annandale has no station of its own, a Sprinter van is also a popular choice for groups heading to a single Metro stop together before splitting up downtown — one reserved pickup instead of several separate rideshares converging on the same platform.',
         ],
       },
     ],
@@ -2055,6 +2065,7 @@ export const MARYLAND_BATCH4 = [
       'Woodbridge VRE station connections',
       'Wedding and event limo service along the Occoquan waterfront',
       'Flat rates confirmed before you book and 24/7 dispatch',
+      'Visitor transportation to Marine Corps Base Quantico for events and graduations',
     ],
     sections: [
       {
@@ -2067,12 +2078,14 @@ export const MARYLAND_BATCH4 = [
         h2: 'Airport transfers from Woodbridge',
         paragraphs: [
           'Reagan National and Dulles are both reachable via I-95 and the Beltway, or via Route 1 and local roads outside of peak hours; BWI adds the Baltimore-Washington Parkway on top of that distance. We quote each airport separately so you can weigh the drive time against your flight schedule.',
+          'For an early flight, we recommend booking the pickup time against I-95\'s overnight and early-morning traffic rather than a daytime estimate, since the corridor can still be heavy well before sunrise on weekdays — your chauffeur builds that into the schedule rather than leaving it to a generic drive-time estimate.',
         ],
       },
       {
         h2: 'Potomac Mills, weddings and corporate travel',
         paragraphs: [
           'Potomac Mills and the nearby Stonebridge shopping center draw visitors from across the region, and we run shuttle-style trips for shopping groups and out-of-town guests. Along the Occoquan waterfront, event venues host weddings we serve with Sprinter vans and stretch limousines, and Prince William County businesses use corporate accounts for standing pickups and airport runs. Call (877) 609-1919 or book online.',
+          'Woodbridge also sits a short drive up I-95 from Marine Corps Base Quantico, and we regularly run family and visitor transportation for base events, graduations and official functions — our chauffeurs are familiar with the base\'s visitor-control procedures and ID requirements and plan extra time for the gate. The Woodbridge VRE station on the Fredericksburg Line gives commuters a rail option into Union Station on weekdays, and we are a common last-mile pickup there for riders heading home after a late train or carrying luggage that makes a station transfer impractical.',
         ],
       },
     ],

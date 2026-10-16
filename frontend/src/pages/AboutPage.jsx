@@ -88,8 +88,8 @@ const AboutPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 mb-10 sm:mb-16">
               <div>
                 <img 
-                  src="/images/executive-sedan.webp" 
-                  alt="Our Service"
+                  src="/images/executive-sedan.webp"
+                  alt="DCA Limos executive sedan used for airport transportation and corporate car service in Washington DC, Maryland and Virginia"
                   className="w-full h-64 sm:h-80 md:h-[400px] object-cover rounded-xl sm:rounded-2xl shadow-xl"
                 />
               </div>

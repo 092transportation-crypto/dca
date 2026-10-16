@@ -33,6 +33,13 @@ export const ROUTE_PAGES_BATCH3 = [
           'We also run this route for corporate and government travel that needs a documented, billable trip with a single point of contact rather than individually expensed train or rideshare legs.',
         ],
       },
+      {
+        h2: 'Arriving in Manhattan: congestion pricing and drop-off logistics',
+        paragraphs: [
+          'New York\'s congestion pricing program tolls most vehicles entering Manhattan south of 60th Street, and that charge, like every other toll on the route, is built into your quoted flat rate rather than added as a surprise line item once you\'re in the car. Your chauffeur also knows which entry point — the Lincoln Tunnel, the George Washington Bridge, or a different crossing — makes the most sense for your specific Manhattan address and the time of day you\'re arriving.',
+          'If your trip actually connects to a flight rather than a hotel or office, we can route the drop-off to LaGuardia, JFK or Newark instead of Midtown, which is a common request for travelers using the drive as a one-way repositioning move between the DC area and a New York-area flight. Friday afternoons and the days around major holidays add real time to the Turnpike and tunnel approaches, so we build extra buffer into the schedule on those dates rather than quoting an optimistic best case.',
+        ],
+      },
     ],
     highlights: [
       'Direct, door-to-door service — no train transfer, no connecting flight',

@@ -31,6 +31,14 @@ export const LANDING_PAGES = [
           'Departures run the same way in reverse: we back-time your pickup from your flight and DCA\'s recommended arrival window, accounting for traffic on the George Washington Parkway and the short hop across the Memorial or Roosevelt Bridge into the District — usually the most forgiving of the three area airports for timing, since it sits just across the river from downtown.',
         ],
       },
+      {
+        h2: 'Why DCA is the airport of choice for most of our riders',
+        paragraphs: [
+          'Reagan National\'s runway sits almost directly across the Potomac from the Lincoln Memorial, which is why its approach pattern follows the river rather than a standard straight-in descent — a detail frequent flyers notice and first-time visitors remember. That proximity is also the practical reason most of our Washington DC, Arlington and Alexandria clients choose DCA over Dulles or BWI whenever their airline offers the option: it typically shaves twenty to forty minutes off either alternative, which matters most on an early-morning departure or a tight connection.',
+          'The airport\'s Metro station, on the Blue and Yellow Lines, sits a short walk from the terminal, so some travelers ask whether a chauffeur is even necessary. For a single rider with one bag and no time pressure, Metro can work; for executives in business attire, families with car seats and strollers, wedding and bridal parties, or anyone connecting straight into a meeting, a reserved car avoids the platform wait, the transfer at Metro Center or Gallery Place, and the walk from a downtown station with luggage in tow. We also coordinate directly with DCA\'s Transportation Security Administration PreCheck and CLEAR lanes when a client\'s itinerary requires cutting arrival time close.',
+          'DCA\'s compact layout cuts both ways: it is wonderfully convenient when things go smoothly, but a single ground stop or a Federal Aviation Administration flow-control delay — common on days with bad weather up and down the East Coast — can back up the terminal curb quickly, since there is comparatively little room to absorb a surge of taxis, rideshares and private cars all arriving at once. Our chauffeurs track those conditions the same way they track individual flights, and will circle or stage a short distance away rather than idle at a curb that airport police are actively clearing.',
+        ],
+      },
     ],
     relatedCities: ['Annapolis', 'Baltimore', 'Bethesda', 'Silver Spring', 'Rockville'],
   },
@@ -59,6 +67,14 @@ export const LANDING_PAGES = [
           'Because our base in Hanover sits just off the BWI access road, we are typically one of the fastest chauffeur companies to respond to a same-day request near the airport, and we route around the I-195/Aviation Boulevard interchange at peak times when it backs up during the morning and evening rush.',
         ],
       },
+      {
+        h2: 'A Baltimore airport that serves the whole DMV',
+        paragraphs: [
+          'BWI Marshall is often the best-value airport for leisure travelers chasing low-cost carriers, and its light-rail and MARC/Amtrak connections at the adjacent BWI Rail Station make it genuinely multimodal in a way DCA and Dulles are not — useful when a client is combining a flight with a onward train to Baltimore\'s Penn Station or Washington\'s Union Station. Long-term and hourly parking garages sit directly across from the terminal, and cell phone waiting lots just north of the airport let rideshare and private drivers stage without circling, which our chauffeurs use to stay close without blocking the arrivals curb.',
+          'We run BWI transfers well beyond Hanover and greater Baltimore: regular bookings reach Annapolis, Columbia, Bethesda, Silver Spring and Washington DC, and corporate accounts headquartered along the I-95 corridor between Baltimore and DC frequently default to BWI for employee travel because of its lower fares and shorter security lines compared with Dulles. A Sprinter van is the common choice for family reunions or wedding parties flying into BWI together, since it keeps the whole group — and everyone\'s luggage — in a single vehicle for the ride out to Maryland, DC or Virginia.',
+          'BWI\'s observation gallery and the airport\'s proximity to the Thurgood Marshall namesake exhibits draw some visitors on their own, but most of our BWI traffic is straightforward point-to-point work: early-morning Southwest departures that call for a 4 or 5 a.m. pickup, red-eye arrivals landing well after midnight, and the steady churn of government and defense-contractor travel tied to nearby Fort Meade. We keep a dispatcher on duty around the clock specifically because BWI\'s flight schedule skews earlier and later than a typical 9-to-5 airport, and a car service that only staffs daytime hours misses a meaningful share of the airport\'s real traffic pattern. Rental-car return traffic and the airport\'s consolidated rental facility add another layer of curb congestion during peak holiday travel weeks, which our chauffeurs plan around by building extra time into pickups during Thanksgiving week, the December holidays and early-summer vacation season rather than quoting the same drive time year-round.',
+        ],
+      },
     ],
     relatedCities: ['Hanover', 'Linthicum', 'Glen Burnie', 'Severn', 'Annapolis'],
   },
@@ -85,6 +101,14 @@ export const LANDING_PAGES = [
         paragraphs: [
           'Dulles is spread across a large footprint, and many gates are reached by AeroTrain or the airport\'s distinctive mobile lounges rather than a short walk, which adds time between touchdown and curbside that first-time visitors often underestimate. We build that extra window into the pickup plan so your chauffeur is not waiting — or you are not waiting on your chauffeur.',
           'The Silver Line Metro extension now reaches Dulles directly, giving travelers a rail alternative for parts of their trip, but for door-to-door service with luggage, especially with a Sprinter van or multiple bags, a reserved car still beats transferring between rail and a second vehicle. We route via the Dulles Toll Road and the Dulles Access Road to avoid the toll-road traffic that backs up during peak commute hours.',
+        ],
+      },
+      {
+        h2: 'International arrivals and the Northern Virginia tech corridor',
+        paragraphs: [
+          'Dulles is the region\'s primary gateway for long-haul international flights, so our busiest IAD bookings are customs-and-immigration arrivals where the 60-minute complimentary wait time genuinely matters — a delayed passport-control line or a late connecting bag does not cost the traveler a missed pickup. Chauffeurs meeting international arrivals wait inside the terminal with a name sign by default, since first-time visitors and jet-lagged families generally prefer not to search a crowded curb for their car.',
+          'Dulles also anchors Virginia\'s data-center and technology corridor in Loudoun and Fairfax counties, and a large share of our corporate IAD accounts are roadshow and conference travel for firms based along Route 28, the Dulles Toll Road and the Ashburn data-center cluster. We coordinate standing weekly transfers for some of these accounts and one-off VIP pickups for visiting executives on others, with the same flat-rate, flight-tracked service either way.',
+          'Because Dulles sits well outside the Beltway, the drive in from Washington DC, Bethesda or Annapolis takes meaningfully longer than a DCA run, and travelers sometimes underestimate it when the flight itself is the bigger worry on their mind. We build a realistic buffer into every Dulles pickup time rather than quoting an optimistic best-case drive, factoring in Route 28\'s rush-hour volume and the Dulles Toll Road\'s own congestion near the airport exits, so a scheduled 6 a.m. pickup for an 8 a.m. international departure actually leaves enough margin for security and the walk to a remote gate. Groups traveling together for an international trip — extended family heading to a wedding abroad, or a sports team flying out for a tournament — frequently book a Sprinter van for the Dulles run specifically because of the airport\'s long walks between check-in, security and the gate, which makes an unhurried, on-time departure from home that much more valuable.',
         ],
       },
     ],
@@ -117,6 +141,14 @@ export const LANDING_PAGES = [
           'A typical wedding day runs getting-ready pickup, a transfer to the ceremony, optional photo stops, a transfer to the reception, and a dedicated getaway vehicle — share that sequence with dispatch in advance and the vehicle count and hourly block are confirmed well before the big day, with a cancellation window of 12 hours if plans shift.',
         ],
       },
+      {
+        h2: 'Matching the vehicle to the wedding party',
+        paragraphs: [
+          'A single Mercedes S-Class or BMW 7 Series usually covers the bride and groom for the getaway car and any private moment before or after the ceremony, while a 14-passenger Sprinter van keeps a larger bridal party — bridesmaids, groomsmen, and often parents — together for the ride between hair and makeup, the ceremony, and photos, instead of splitting the group across several personal cars that inevitably arrive at different times. A stretch limousine remains the classic choice for couples who want the traditional look for arrival and departure photos at the reception.',
+          'We also coordinate guest shuttles for weddings with a hotel block, running a Sprinter van on a simple loop between the hotel and the venue so out-of-town guests are not renting cars or calling rideshares in an unfamiliar area, and so no one in the wedding party has to think twice about having a drink at the reception. Tell us your guest count and hotel block when you book and we will quote the shuttle alongside the bridal-party vehicles as one coordinated package.',
+          'Outdoor and barn-style venues across Northern Virginia wine country and Maryland\'s countryside have become especially popular in recent years, and many of them sit down long gravel drives or unpaved lots that a stretch limousine simply cannot navigate — we confirm the venue\'s actual access road with the couple ahead of time and assign a Sprinter van or SUV when a traditional limousine would get stuck or scrape its undercarriage. Rainy-day contingency planning is part of the same conversation: we keep a covered loading point in mind at every venue we service regularly, so a sudden downpour does not ruin a bride\'s dress between the car and the door. Multicultural ceremonies with two separate events on the same day — a Sikh or Hindu ceremony followed by a Western-style reception, for example — are increasingly common across our Maryland and Virginia wedding bookings, and we quote those as a single extended reservation covering both venues rather than treating them as two unrelated trips.',
+        ],
+      },
     ],
     relatedCities: ['Annapolis', 'Baltimore', 'Bethesda', 'Frederick', 'Columbia'],
   },
@@ -129,12 +161,14 @@ export const LANDING_PAGES = [
     hero: 'Make prom night safe AND unforgettable. Trusted chauffeured limos for Maryland & DC high schools.',
     image: '/images/stretch-limo.webp',
     intro: 'Parents trust DCA Limos for prom night because we deliver something cheap rentals can\'t: real professional chauffeurs, fully insured luxury vehicles, and 24/7 dispatch in case plans change. Your teen rides in style — and you sleep easy.',
+    seoText: 'Prom and graduation season brings a predictable wave of inexperienced operators advertising "party buses" with no visible licensing, and parents across Maryland, DC and Northern Virginia increasingly ask us to confirm our credentials before booking — which we welcome. DCA Limos runs commercially insured vehicles with background-checked chauffeurs on every prom and graduation booking, the same standard we hold for airport and corporate clients. We quote a flat rate for the agreed itinerary and time window, so there is no meter running and no pressure to cut the night short, and dispatch stays reachable for the whole evening in case the group\'s plans shift.',
     highlights: [
       'Background-checked, fully licensed chauffeurs (no surprises)',
       'Sprinter vans for groups of 10–14',
       'Parents-pay-direct option — no awkward teen handoffs',
       'Photo stops included in the itinerary',
       'Service to Naval Academy, UMD, Johns Hopkins, Towson, USNA',
+      'Commercially insured vehicles with documentation available on request',
     ],
     sections: [
       {
@@ -143,6 +177,14 @@ export const LANDING_PAGES = [
           'We regularly run prom and graduation groups to venues like Martin\'s Crosswinds, the Hyatt Regency Baltimore Inner Harbor, and the beach resorts in Ocean City, with a chauffeur who stays on the confirmed itinerary — including agreed photo stops — rather than improvising a route.',
           'Parents can pay directly and receive the chauffeur\'s contact information, and because dispatch runs 24/7, a changed pickup time or an extra stop after the dance is a phone call, not a crisis. Every chauffeur on a prom booking is background-checked and briefed on the group\'s schedule before the vehicle leaves the lot.',
           'Most groups book a Sprinter van so the whole friend group travels together rather than splitting across several personal cars, and many Maryland high schools now ask students to list their transportation plan in advance — a confirmed reservation with a named, licensed chauffeur is the kind of answer administrators and parents are both comfortable signing off on.',
+        ],
+      },
+      {
+        h2: 'Coordinating the whole night, not just the drive to the dance',
+        paragraphs: [
+          'Prom night usually has three distinct legs — a group photo stop at someone\'s house or a nearby park, the dance itself, and a post-prom gathering that can run until well after midnight — and we book all three as one itinerary rather than three separate rides. Dispatch confirms the plan with parents in advance, including the exact pickup and drop-off addresses for each leg, so there is no ambiguity about where the vehicle is supposed to be at 1 a.m.',
+          'Graduation weekend brings a similar pattern around campuses like the University of Maryland, Johns Hopkins and Towson, where a Sprinter van moves a family group between a commencement ceremony, campus housing move-out, and a celebratory dinner in one booking. Because parking near most graduation venues is scarce and heavily restricted on ceremony day, a chauffeur who already knows the campus drop-off rules usually saves more time than it costs.',
+          'We also field a steady number of calls from parents simply comparing prom transportation options before they book anything, and the honest answer is that price is rarely the only factor worth weighing: an uninsured operator or an unlicensed driver advertising a cut rate online is a real liability if anything goes wrong on prom night, when the group includes minors and the schedule often runs late. Ask any operator directly for proof of commercial insurance and a chauffeur\'s license before handing over a deposit — we provide both without hesitation, and treat that question as a sign of a parent doing their homework rather than an inconvenience.',
         ],
       },
     ],
@@ -157,12 +199,14 @@ export const LANDING_PAGES = [
     hero: 'Executive transportation for Maryland businesses. Monthly invoicing, dedicated account managers, zero downtime.',
     image: '/images/executive-sedan.webp',
     intro: 'Companies headquartered in Bethesda, Baltimore, Annapolis, DC and the broader DMV region rely on DCA Limos for their corporate transportation needs. We offer monthly invoicing, a dedicated account manager, and the kind of consistent excellence executives expect.',
+    seoText: 'Setting up a corporate account takes one phone call or a short form on our contact page — we confirm billing details, preferred vehicle classes, and any standing pickup locations, then assign a dedicated account manager who learns your company\'s routines rather than treating every ride as a one-off booking. Net-30 monthly invoicing eliminates the expense-report friction of paying by personal card and submitting receipts, which is often the deciding factor for finance and travel-coordinator teams comparing us against rideshare business accounts. Every corporate chauffeur is background-checked, trained in executive protocol — quiet cabin, no unsolicited conversation, discretion around confidential calls — and briefed on each client\'s preferences before the vehicle is dispatched.',
     highlights: [
       'Dedicated account manager for every corporate account',
       'Monthly invoicing — net 30 terms available',
       'Chauffeurs in business attire, trained in executive protocol',
       'Roadshow & multi-stop itineraries handled seamlessly',
       'Volume discounts for 10+ rides/month',
+      'Confidential, discreet service for board members and visiting clients',
     ],
     sections: [
       {
@@ -171,6 +215,14 @@ export const LANDING_PAGES = [
           'Our corporate accounts cluster around Bethesda Row and the National Institutes of Health campus, the I-270 biotech corridor running through Rockville and Gaithersburg, and the financial and legal firms near Baltimore\'s Inner Harbor and Charles Street — each with its own parking and loading-zone quirks our chauffeurs already know.',
           'A roadshow or multi-stop itinerary is booked as one hourly reservation rather than a string of separate rides, so the same chauffeur and vehicle carry your team from a 9 a.m. meeting in Bethesda to an afternoon stop in Baltimore without a handoff or a gap in service.',
           'Companies that fly executives or clients through DCA, BWI or Dulles frequently pair a corporate account with standing airport transfers, so a visiting board member or client lands to a chauffeur already briefed on the day\'s itinerary rather than a generic airport pickup. A dedicated account manager handles the billing and scheduling details so your travel coordinator is not chasing receipts.',
+        ],
+      },
+      {
+        h2: 'Roadshows, board meetings and client visits',
+        paragraphs: [
+          'Investment and consulting firms running multi-city roadshows typically need a vehicle that stays put for a full day of back-to-back meetings rather than a series of separate point-to-point transfers, and we quote that as a single hourly reservation with waiting time built in between stops. The same chauffeur and car handle every leg, which means no re-briefing a new driver every time the schedule changes on the fly.',
+          'Law firms and lobbying offices near K Street and the Capitol frequently book us for client-facing airport pickups where first impressions matter — a chauffeur holding a name sign at baggage claim says something different than asking a visiting client to find a rideshare. We also support government-contractor and embassy-adjacent travel that requires additional discretion and, in some cases, documentation for building access, which our dispatch team coordinates in advance of the pickup.',
+          'Companies comparing us against a rideshare business platform for their regular commuting or client-transport needs typically find the calculation tips in our favor once reliability and predictability enter the picture: a flat, pre-confirmed rate with no surge pricing during rush hour or bad weather, a named chauffeur rather than a rotating pool of drivers, and a dispatcher who can be reached by phone rather than only through an app. For companies running a high volume of recurring trips — daily airport transfers for a sales team, or a weekly shuttle between two office locations — we will build a custom standing schedule and bill it on the same monthly invoice as everything else on the account.',
         ],
       },
     ],
@@ -199,6 +251,15 @@ export const LANDING_PAGES = [
           'Camden Yards and M&T Bank Stadium share Russell Street as the main approach, which turns into a crawl in the hour before kickoff and again as 40,000-plus fans try to leave at once; the same is true around Capital One Arena\'s Gallery Place/Chinatown block and the Beltway ramps feeding FedExField in Landover.',
           'A pre-arranged drop-off steps from the gate — and a chauffeur who already knows which loading zone to use for each venue — removes the single biggest frustration of game day: finding, and then leaving, a parking space. Designated-driver bookings are common for tailgates where the group plans to drink.',
           'We also run season-pass packages for diehard fans who attend most home games, locking in a standing rate rather than rebooking for every matchup, and we coordinate pre- and post-game stops at restaurants and bars near each stadium so the evening does not end the moment the final whistle blows.',
+        ],
+      },
+      {
+        h2: 'Every major DC and Baltimore venue, covered',
+        paragraphs: [
+          'Beyond the big four stadiums, we run regular transfers to Audi Field in Buzzard Point for DC United and the Washington Spirit, Nationals Park in Navy Yard for Washington Nationals baseball, and Capital One Arena for Georgetown and George Washington basketball on top of the Capitals and Wizards. Each venue has its own closest drop-off block and its own post-event gridlock pattern — Nationals Park\'s South Capitol Street exit, Audi Field\'s Potomac Avenue approach, and Capital One Arena\'s 7th Street corridor all behave differently — and our chauffeurs plan the exit route before the final score is in, not after.',
+          'Sprinter vans are the standard choice for tailgate groups bringing coolers and grills to the stadium lots, since the van itself can double as a gear-hauling vehicle on the way in and a safe ride home after a full day of drinking on the way out. Corporate groups entertaining clients in suites at Capital One Arena or FedExField often pair a sedan or SUV pickup at the office with a stadium drop-off, then a return trip timed to the group\'s actual departure rather than a fixed schedule.',
+          'Playoff runs and marquee matchups — a Ravens-Steelers rivalry game, an Orioles postseason series, a Capitals or Wizards playoff night — predictably spike demand for the same handful of vehicles, so season-pass holders and groups who book early get first choice of Sprinter vans and SUVs while last-minute callers are more likely to be offered a sedan. We recommend locking in any marquee-game booking as soon as the schedule is announced, particularly for a Sprinter van, which sells out first on the biggest nights of the year. Our chauffeurs also handle the out-of-town angle well — visiting fans flying into DCA or BWI for a single big game often book one combined reservation that covers the airport pickup, the stadium drop-off and pickup, and the return trip to the airport the next morning, which is usually simpler and cheaper than piecing together separate rideshares for each leg.',
+          'Concert transportation follows the same logic as game day, and our stadium experience carries over directly to venues like Nationals Park and FedExField when they host a major touring act rather than a home game — the parking, the exit congestion and the value of a pre-arranged pickup are identical whether the crowd came for a pitcher or a headliner. We track concert and event calendars at every major DC and Baltimore venue the same way we track sports schedules, so a Friday-night show gets the same advance planning as a Sunday football game.',
         ],
       },
     ],
@@ -232,6 +293,14 @@ export const LANDING_PAGES = [
           'Downtown Annapolis streets around State Circle and Main Street were laid out centuries before modern traffic, which means curb space is genuinely scarce on a busy weekend — a pre-confirmed drop-off point, agreed with your chauffeur before you leave, routinely beats arriving and hoping a spot opens up near City Dock.',
         ],
       },
+      {
+        h2: 'Airport transfers and government travel from Maryland\'s capital',
+        paragraphs: [
+          'Annapolis sits roughly equidistant from BWI, DCA and Dulles, and which airport makes sense depends more on the traveler\'s airline and flight time than on raw mileage — BWI is typically the fastest run for domestic Southwest and budget-carrier flights, while DCA often wins for a same-day business trip into the District and Dulles for international connections. We quote all three so clients can compare rather than defaulting to whichever airport we mention first.',
+          'The Maryland State House, the Governor\'s Mansion and the state legislative offices around State Circle generate a steady stream of government, lobbying and advocacy-group travel, particularly during the General Assembly\'s legislative session each winter and spring, when hotel and parking demand in the historic district spikes and committee schedules can shift a pickup time with little notice. We keep dispatch flexible for exactly that kind of same-day change during session weeks.',
+          'Beyond government and the Naval Academy, Annapolis functions as a genuine sailing capital — the Chesapeake Bay draws boat owners, racing crews and charter guests to marinas up and down Spa Creek and Back Creek, and the Annapolis Yacht Club and Eastport Yacht Club both generate event transportation tied to regattas and seasonal galas. We coordinate marina pickups the same way we coordinate hotel pickups: confirming the exact slip or dock access point in advance, since not every marina has a single obvious curb for a chauffeur to wait at. The Annapolis Boat Show each October and the Annapolis Powerboat Show each spring both draw tens of thousands of visitors into a historic district with already-limited parking, and we add extra vehicles to our schedule in the weeks surrounding both shows specifically because street parking and taxi availability both tighten noticeably during show week.',
+        ],
+      },
     ],
     relatedCities: ['Severna Park', 'Arnold', 'Crofton', 'Edgewater', 'Cape St Claire'],
   },
@@ -260,6 +329,14 @@ export const LANDING_PAGES = [
           'Concert transportation to Merriweather Post Pavilion in nearby Columbia is one of our most-requested Baltimore-adjacent bookings in summer, and Ravens and Orioles game days bring the same Russell Street congestion whether the two stadiums are hosting on the same night or separately, which is why we treat that stretch of road as its own planning problem rather than an afterthought.',
         ],
       },
+      {
+        h2: 'Baltimore\'s neighborhoods, cruise terminal and BWI',
+        paragraphs: [
+          'Fells Point and Canton draw a steady evening crowd to their waterfront bars and restaurants, and the cobblestone streets around Thames Street and Broadway Market have almost no parking of their own on a weekend night, which is exactly the kind of trip where a chauffeur dropping you at the door beats searching for a spot three blocks away. Mount Vernon\'s cultural district, anchored by the Walters Art Museum and the Lyric Opera House, brings a different crowd earlier in the evening tied to performance schedules.',
+          'The Port of Baltimore\'s cruise terminal at Locust Point sends travelers to and from Royal Caribbean and Carnival sailings several times a month, and we run those transfers alongside our standard BWI airport business — often for the same traveler on a fly-cruise itinerary who needs one leg to the airport and another to the pier on different days. Johns Hopkins Hospital and the surrounding East Baltimore medical campus also keep us busy with patient and visiting-family transportation, frequently booked on short notice around appointment times rather than planned days in advance.',
+          'Downtown Baltimore\'s Inner Harbor remains the city\'s tourist anchor, with the National Aquarium, the USS Constellation and a cluster of hotels drawing conference and leisure travel year-round, while the University of Maryland, Baltimore\'s law and medical campus near the Bromo Seltzer Arts Tower generates its own steady academic and legal travel. We also see seasonal spikes around the Preakness Stakes at Pimlico each May and the Maryland State Fair in Timonium each summer — two events that bring heavy regional traffic and are worth booking well ahead of the date rather than the week of. The Baltimore Convention Center, directly across from the Inner Harbor hotels, keeps a running calendar of trade shows and conferences that fill those same hotels and restaurants for days at a time, and corporate groups attending a convention frequently book us for the full stay rather than a single airport transfer, since the convenient walk between hotel and convention floor still leaves evenings and off-site dinners that benefit from a reserved car.',
+        ],
+      },
     ],
     relatedCities: ['Towson', 'Ellicott City', 'Glen Burnie', 'Annapolis', 'Columbia'],
   },
@@ -278,6 +355,8 @@ export const LANDING_PAGES = [
       'BWI airport transfers (15 minutes away)',
       'Wedding & event venue transportation',
       'Coverage: Columbia, Ellicott City, Clarksville, Highland',
+      'Howard County General Hospital patient & family transportation',
+      'Village-center pickups across all ten Columbia villages',
     ],
     sections: [
       {
@@ -287,6 +366,14 @@ export const LANDING_PAGES = [
           'Merriweather Post Pavilion\'s concert season brings heavy traffic to the Merriweather District\'s restaurant row before and after shows, and Columbia Gateway\'s office parks keep us busy with weekday corporate accounts, including hospital-system travel tied to Howard County General Hospital.',
           'Because Columbia sits almost exactly between Baltimore and Washington along the Route 29 and I-95 corridor, we also see a steady mix of BWI airport transfers, weekend trips into Baltimore for Orioles or Ravens games, and the occasional run into DC for a wedding or a conference — all from the same Columbia pickup address.',
           'Lake Kittamaqundi and the paths around Symphony Woods sit right behind the amphitheater, so a Merriweather concert booking often pairs naturally with dinner reservations in Downtown Columbia beforehand; tell dispatch both stops when you book and the same chauffeur handles the whole evening on one reservation.',
+        ],
+      },
+      {
+        h2: 'Weddings, corporate accounts and the Columbia-to-BWI run',
+        paragraphs: [
+          'Columbia\'s wedding and event venues range from hotel ballrooms near Columbia Gateway to outdoor settings around the village lakes, and because the city has no single historic district the way Annapolis or Ellicott City does, we coordinate pickup points by venue rather than by a general downtown area — tell us the specific property when you book and we quote accordingly. Sprinter vans are the most common choice for Columbia weddings, since many venues sit a short drive from the nearest hotel block rather than walking distance.',
+          'With BWI roughly fifteen minutes away via Route 100 and the Baltimore-Washington Parkway, Columbia residents often choose BWI over DCA or Dulles purely on drive time, and we see that reflected in our booking mix — the majority of Columbia-based airport transfers head to BWI, with DCA picking up a larger share for business travelers whose meetings sit closer to downtown DC. Columbia Gateway\'s office parks, home to a mix of technology, healthcare and professional-services firms, keep a handful of corporate accounts on standing weekly airport and roadshow schedules.',
+          'The Mall in Columbia and the surrounding Snowden Square retail corridor bring a different kind of weekend trip — shoppers and families who would rather not deal with mall parking during the holiday season, and who book a simple round-trip reservation instead. We also cover neighboring Clarksville and Highland, two of Howard County\'s more rural communities just south of Columbia proper, where some addresses sit far enough from a village center that locals specifically value a car service that already knows the roads rather than relying on a GPS alone. Howard County General Hospital and the medical offices clustered around it generate steady patient and visiting-family transportation as well, often booked on short notice around an appointment or a discharge time rather than planned days ahead, which is exactly the kind of same-day request our 24/7 dispatch is built to absorb.',
         ],
       },
     ],
@@ -316,6 +403,14 @@ export const LANDING_PAGES = [
           'Nearby Fort Meade and the National Security Agency campus bring visitor and contractor transportation with their own ID and access protocols; chauffeurs working these accounts are briefed on current gate procedures before the pickup, since requirements can change with little notice.',
           'Because BWI sits practically next door, Hanover is also where we stage most of our overnight and pre-dawn airport fleet, which is part of why local pickups here tend to see the fastest response time anywhere in Anne Arundel County — a five-minute car is realistic, not a sales line, when the vehicle is already parked a few minutes away.',
           'Odenton and the MARC Camden Line station round out the neighborhood, and we regularly handle the last-mile leg for rail commuters and visitors arriving by train who still need a chauffeured ride on to a Hanover hotel, an NSA contractor meeting, or an evening at Live! Casino.',
+        ],
+      },
+      {
+        h2: 'A ZIP code built for conference and casino travel',
+        paragraphs: [
+          'Hanover\'s 21076 ZIP code is anchored by the Maryland Live! Casino and Hotel, whose convention and meeting space brings a steady run of corporate conference transportation on top of casino-floor visitors, and whose hotel tower generates its own airport-transfer demand for guests flying in and out of BWI for a show or a weekend stay. Arundel Mills itself is one of the largest shopping and entertainment complexes in the state, with a multiplex, an outlet mall and a water park within the same retail footprint, so a single Hanover booking sometimes covers several stops across the complex in one reservation.',
+          'Because we are based here, Hanover pickups rarely involve an unfamiliar chauffeur guessing at an address — our drivers know the difference between the casino\'s valet entrance, the hotel tower\'s porte-cochère and the outlet mall\'s parking rings, and route accordingly. That local familiarity, combined with being the closest car service to BWI\'s terminal, is why Hanover functions as our dispatch hub for early-morning and late-night airport runs across all of Anne Arundel County.',
+          'Maryland City and the surrounding light-industrial and warehouse parks just east of Hanover add another layer of weekday corporate traffic — shift workers, visiting vendors and logistics-company travel that rarely shows up in a typical tourism guide but fills out our weekday schedule as reliably as casino and airport trips do. We also stage vehicles for early-morning NSA and defense-contractor shift changes at Fort Meade, where gate wait times can vary enough that a chauffeur who tracks current base access conditions is worth more than a generic GPS estimate. Concerts and headline shows at Live! Casino\'s event spaces bring the same kind of post-show exit crush as any arena, and we treat those nights the same way we treat a stadium game — staging a chauffeur before the final song rather than waiting for a crowd of guests to spill into the parking garage all at once.',
         ],
       },
     ],
