@@ -172,6 +172,8 @@ export const MARYLAND_BATCH6 = [
       { label: 'Six Flags America Transportation', to: '/six-flags-america-transportation' },
       { label: 'College Park Limo Service', to: '/college-park-md-limo-service' },
       { label: 'Laurel Limo Service', to: '/laurel-limo-service' },
+      { label: 'Largo Limo Service', to: '/largo-limo-service' },
+      { label: 'Clinton, MD Limo Service', to: '/clinton-md-limo-service' },
       { label: 'DCA to Waldorf, MD', to: '/dca-to-waldorf-md' },
     ],
     schema: { areaServed: ['Upper Marlboro, MD', "Prince George's County"], serviceType: 'Limousine and car service' },

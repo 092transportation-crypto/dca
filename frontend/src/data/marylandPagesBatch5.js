@@ -546,6 +546,8 @@ export const MARYLAND_BATCH5 = [
       { label: 'Gaithersburg Limo Service', to: '/gaithersburg-limo-service' },
       { label: 'Bethesda Limo Service', to: '/bethesda-limo-service' },
       { label: 'North Potomac Limo Service', to: '/north-potomac-limo-service' },
+      { label: 'Burtonsville Limo Service', to: '/burtonsville-limo-service' },
+      { label: 'Wheaton, MD Limo Service', to: '/wheaton-md-limo-service' },
       { label: 'DCA to Rockville', to: '/dca-to-rockville' },
     ],
     schema: { areaServed: ['Olney, MD', 'Montgomery County'], serviceType: 'Limousine and car service' },
@@ -724,6 +726,8 @@ export const MARYLAND_BATCH5 = [
       { label: 'Hyattsville Limo Service', to: '/hyattsville-limo-service' },
       { label: 'Greenbelt Limo Service', to: '/greenbelt-limo-service' },
       { label: 'Takoma Park Limo Service', to: '/takoma-park-md-limo-service' },
+      { label: 'Beltsville Limo Service', to: '/beltsville-limo-service' },
+      { label: 'Brookland Limo Service', to: '/brookland-dc-limo-service' },
       { label: 'BWI to Washington DC', to: '/bwi-to-washington-dc' },
       { label: 'DCA to Washington DC', to: '/dca-to-washington-dc' },
     ],
@@ -1181,6 +1185,7 @@ export const MARYLAND_BATCH5 = [
       },
     ],
     related: [
+      { label: 'Cleveland Park Limo Service', to: '/cleveland-park-dc-limo-service' },
       { label: 'Tenleytown Limo Service', to: '/tenleytown-dc-limo-service' },
       { label: 'Washington DC Wedding Limo', to: '/washington-dc-wedding-limo' },
       { label: 'Georgetown Limo Service', to: '/georgetown-limo-service' },
@@ -1276,6 +1281,7 @@ export const MARYLAND_BATCH5 = [
     ],
     related: [
       { label: 'Capitol Hill Limo Service', to: '/capitol-hill-limo-service' },
+      { label: 'NoMa Limo Service', to: '/noma-dc-limo-service' },
       { label: 'Washington DC Corporate Car Service', to: '/washington-dc-corporate-car-service' },
       { label: 'DCA to Washington DC', to: '/dca-to-washington-dc' },
       { label: 'Washington Convention Center Transportation', to: '/washington-convention-center-transportation' },

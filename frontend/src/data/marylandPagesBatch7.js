@@ -900,6 +900,7 @@ export const MARYLAND_BATCH7 = [
     ],
     related: [
       { label: 'Warrenton, VA Limo Service', to: '/warrenton-va-limo-service' },
+      { label: 'Gainesville, VA Limo Service', to: '/gainesville-va-limo-service' },
       { label: 'DCA to Manassas', to: '/dca-to-manassas' },
       { label: 'DCA to Leesburg', to: '/dca-to-leesburg' },
       { label: 'Chantilly Limo Service', to: '/chantilly-limo-service' },
@@ -1082,6 +1083,7 @@ export const MARYLAND_BATCH7 = [
       { label: 'Mount Vernon Estate Transportation', to: '/mount-vernon-estate-transportation' },
       { label: 'Springfield, VA Limo Service', to: '/springfield-va-limo-service' },
       { label: 'Woodbridge, VA Limo Service', to: '/woodbridge-va-limo-service' },
+      { label: 'Dumfries, VA Limo Service', to: '/dumfries-va-limo-service' },
       { label: 'DCA to Alexandria', to: '/dca-to-alexandria' },
       { label: 'DCA Airport Limo Service', to: '/limo/dca-airport-limo' },
     ],
@@ -1260,6 +1262,7 @@ export const MARYLAND_BATCH7 = [
       { label: 'Adams Morgan Limo Service', to: '/adams-morgan-limo-service' },
       { label: 'Logan Circle Limo Service', to: '/logan-circle-limo-service' },
       { label: 'Dupont Circle Limo Service', to: '/dupont-circle-limo-service' },
+      { label: 'Petworth Limo Service', to: '/petworth-dc-limo-service' },
     ],
     schema: { areaServed: ['U Street, Washington, DC', 'Washington, DC'], serviceType: 'Limousine and car service' },
   },

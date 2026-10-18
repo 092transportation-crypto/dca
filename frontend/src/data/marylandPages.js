@@ -6,6 +6,7 @@ import { MARYLAND_BATCH4 } from '@/data/marylandPagesBatch4';
 import { MARYLAND_BATCH5 } from '@/data/marylandPagesBatch5';
 import { MARYLAND_BATCH6 } from '@/data/marylandPagesBatch6';
 import { MARYLAND_BATCH7 } from '@/data/marylandPagesBatch7';
+import { MARYLAND_BATCH8 } from '@/data/marylandPagesBatch8';
 import { ensureFiveFaqs } from '@/lib/faqExtras';
 
 export const MARYLAND_PAGES = [
@@ -325,6 +326,10 @@ export const MARYLAND_PAGES = [
       {
         "label": "Germantown Limo Service",
         "to": "/germantown-limo-service"
+      },
+      {
+        "label": "Kensington, MD Limo Service",
+        "to": "/kensington-md-limo-service"
       }
     ],
     "schema": {
@@ -647,6 +652,10 @@ export const MARYLAND_PAGES = [
         "to": "/chevy-chase-limo-service"
       },
       {
+        "label": "Wheaton, MD Limo Service",
+        "to": "/wheaton-md-limo-service"
+      },
+      {
         "label": "Maryland Wedding Limo",
         "to": "/maryland-wedding-limo"
       }
@@ -811,6 +820,10 @@ export const MARYLAND_PAGES = [
       {
         "label": "National Harbor Transportation",
         "to": "/national-harbor-transportation"
+      },
+      {
+        "label": "Largo Limo Service",
+        "to": "/largo-limo-service"
       }
     ],
     "schema": {
@@ -973,6 +986,14 @@ export const MARYLAND_PAGES = [
       {
         "label": "National Harbor Transportation",
         "to": "/national-harbor-transportation"
+      },
+      {
+        "label": "Beltsville Limo Service",
+        "to": "/beltsville-limo-service"
+      },
+      {
+        "label": "Burtonsville Limo Service",
+        "to": "/burtonsville-limo-service"
       }
     ],
     "schema": {
@@ -1297,6 +1318,14 @@ export const MARYLAND_PAGES = [
       {
         "label": "Maryland Corporate Car Service",
         "to": "/maryland-corporate-car-service"
+      },
+      {
+        "label": "Clinton, MD Limo Service",
+        "to": "/clinton-md-limo-service"
+      },
+      {
+        "label": "Fort Washington, MD Limo Service",
+        "to": "/fort-washington-md-limo-service"
       }
     ],
     "schema": {
@@ -8938,6 +8967,10 @@ export const MARYLAND_PAGES = [
       {
         "label": "Laurel Limo Service",
         "to": "/laurel-limo-service"
+      },
+      {
+        "label": "Fort Washington, MD Limo Service",
+        "to": "/fort-washington-md-limo-service"
       }
     ],
     "schema": {
@@ -9630,6 +9663,13 @@ export const MARYLAND_PAGES = [
   // Lorton in Northern Virginia; and the Shaw, U Street and Tenleytown
   // neighborhoods of Washington DC.
   ...MARYLAND_BATCH7,
+  // Batch 8 (2026-10-17 SEO expansion, round 3): 15 new city pages — four
+  // DC neighborhoods (Petworth, NoMa, Cleveland Park, Brookland); seven
+  // Maryland cities across Prince George's and Montgomery Counties
+  // (Beltsville, Largo, Clinton, Fort Washington, Kensington, Wheaton,
+  // Burtonsville); and four Northern Virginia cities in the I-95/Prince
+  // William corridor (Dale City, Dumfries, Stafford, Gainesville).
+  ...MARYLAND_BATCH8,
 ];
 
 // Every page carries five FAQs (accordion + FAQPage schema).
