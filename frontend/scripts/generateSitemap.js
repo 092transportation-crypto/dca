@@ -123,6 +123,10 @@ function collectRoutes() {
   const { BLOG_POSTS } = require(path.join(SRC, "data/blogPosts"));
   for (const p of BLOG_POSTS) routes.set(`/blog/${p.slug}`, ["monthly", "0.7"]);
 
+  // Legacy pre-data-driven post (src/pages/BlogPostPage.jsx LEGACY_POST),
+  // still linked from the blog index card but not in blogPosts.js.
+  routes.set("/blog/ultimate-guide-dca-airport-transportation", ["monthly", "0.7"]);
+
   return routes;
 }
 
