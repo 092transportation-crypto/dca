@@ -49,6 +49,13 @@ export const ROUTE_PAGES = [
           'A pre-arranged chauffeur sidesteps all of it. Your vehicle is committed to you at a flat rate booked in advance, and our chauffeurs plan around the day’s closures and motorcades using routes that visitors and apps simply do not know. If you are arriving for a marquee event, book early — these are the dates that fill first.',
         ],
       },
+      {
+        h2: 'The return trip: Washington DC back to DCA',
+        paragraphs: [
+          'Most of our Washington DC bookings are round trips, and the departure leg has its own logistics that an arrival-only service overlooks. We back-time your pickup from your flight and DCA’s recommended arrival window — typically two hours before a domestic departure — and account for which terminal your airline uses, since Terminal 1 and Terminal 2 sit on opposite ends of the airport\'s access road. Hotel pickups along K Street, in Georgetown or on Capitol Hill each have their own best loading zone, and our chauffeurs confirm it with the front desk rather than guessing at the curb.',
+          'Morning departures from downtown hotels run into the same GW Parkway and 14th Street Bridge congestion as any other DC commute, so an early return to DCA is quoted with extra buffer during peak hours rather than the midday drive time. If your meetings run long or your flight time shifts, a quick call to dispatch adjusts the pickup — no need to rebook from scratch.',
+        ],
+      },
     ],
     highlights: [
       'Flat-rate pricing — no surge, no surprise tolls',
@@ -56,6 +63,7 @@ export const ROUTE_PAGES = [
       'Meet-and-greet at DCA baggage claim',
       'Government, contractor & embassy travel accommodated',
       'Sedans, SUVs & Sprinter vans for any group size',
+      'Round-trip booking with terminal-specific return pickups',
     ],
     faqs: [
       {

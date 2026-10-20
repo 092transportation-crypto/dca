@@ -39,6 +39,13 @@ export const LANDING_PAGES = [
           'DCA\'s compact layout cuts both ways: it is wonderfully convenient when things go smoothly, but a single ground stop or a Federal Aviation Administration flow-control delay — common on days with bad weather up and down the East Coast — can back up the terminal curb quickly, since there is comparatively little room to absorb a surge of taxis, rideshares and private cars all arriving at once. Our chauffeurs track those conditions the same way they track individual flights, and will circle or stage a short distance away rather than idle at a curb that airport police are actively clearing.',
         ],
       },
+      {
+        h2: 'DCA Reagan National: policies, parking and security lines',
+        paragraphs: [
+          'DCA enforces strict curbside rules — vehicles not actively loading or unloading are moved along quickly by airport police, which is exactly why a chauffeur who times the pickup to your actual baggage-claim exit, rather than guessing and circling, matters more here than at a larger, more forgiving airport. Reagan National\'s TSA PreCheck and CLEAR lanes are faster than most East Coast airports on an average day, but can still back up during peak Monday-morning and Thursday-evening commuter-flight banks, and we build that into the pickup buffer for a scheduled early departure.',
+          'Travelers with connecting itineraries sometimes ask whether to self-park at DCA\'s garages instead of booking a car — the short answer is that daily rates add up quickly for any trip longer than a day or two, and a reserved chauffeur avoids the walk from a remote economy lot entirely, which matters with luggage or on a tight connection. For wheelchair users and travelers who need extra boarding time, we coordinate curbside assistance in advance so the chauffeur and any airport staff you need are synced before you land.',
+        ],
+      },
     ],
     relatedCities: ['Annapolis', 'Baltimore', 'Bethesda', 'Silver Spring', 'Rockville'],
   },
@@ -75,6 +82,13 @@ export const LANDING_PAGES = [
           'BWI\'s observation gallery and the airport\'s proximity to the Thurgood Marshall namesake exhibits draw some visitors on their own, but most of our BWI traffic is straightforward point-to-point work: early-morning Southwest departures that call for a 4 or 5 a.m. pickup, red-eye arrivals landing well after midnight, and the steady churn of government and defense-contractor travel tied to nearby Fort Meade. We keep a dispatcher on duty around the clock specifically because BWI\'s flight schedule skews earlier and later than a typical 9-to-5 airport, and a car service that only staffs daytime hours misses a meaningful share of the airport\'s real traffic pattern. Rental-car return traffic and the airport\'s consolidated rental facility add another layer of curb congestion during peak holiday travel weeks, which our chauffeurs plan around by building extra time into pickups during Thanksgiving week, the December holidays and early-summer vacation season rather than quoting the same drive time year-round.',
         ],
       },
+      {
+        h2: 'Fort Meade, NSA and Anne Arundel County travel',
+        paragraphs: [
+          'BWI sits a short drive from Fort Meade, home to the National Security Agency and US Cyber Command, and a meaningful share of our airport business comes from contractors and civilian employees commuting between the installation and BWI on travel orders. We coordinate the identification and vehicle details these trips sometimes require in advance, the same way we do for other secure-campus pickups across our coverage area.',
+          'Anne Arundel County\'s own growth — Arundel Mills\' retail and entertainment district, Fort Meade\'s surrounding business parks, and the Annapolis Mall corridor — has added steady local demand alongside pure airport transfers, and many of our BWI clients book a single trip that combines an airport run with a stop at one of these destinations rather than two separate bookings.',
+        ],
+      },
     ],
     relatedCities: ['Hanover', 'Linthicum', 'Glen Burnie', 'Severn', 'Annapolis'],
   },
@@ -109,6 +123,13 @@ export const LANDING_PAGES = [
           'Dulles is the region\'s primary gateway for long-haul international flights, so our busiest IAD bookings are customs-and-immigration arrivals where the 60-minute complimentary wait time genuinely matters — a delayed passport-control line or a late connecting bag does not cost the traveler a missed pickup. Chauffeurs meeting international arrivals wait inside the terminal with a name sign by default, since first-time visitors and jet-lagged families generally prefer not to search a crowded curb for their car.',
           'Dulles also anchors Virginia\'s data-center and technology corridor in Loudoun and Fairfax counties, and a large share of our corporate IAD accounts are roadshow and conference travel for firms based along Route 28, the Dulles Toll Road and the Ashburn data-center cluster. We coordinate standing weekly transfers for some of these accounts and one-off VIP pickups for visiting executives on others, with the same flat-rate, flight-tracked service either way.',
           'Because Dulles sits well outside the Beltway, the drive in from Washington DC, Bethesda or Annapolis takes meaningfully longer than a DCA run, and travelers sometimes underestimate it when the flight itself is the bigger worry on their mind. We build a realistic buffer into every Dulles pickup time rather than quoting an optimistic best-case drive, factoring in Route 28\'s rush-hour volume and the Dulles Toll Road\'s own congestion near the airport exits, so a scheduled 6 a.m. pickup for an 8 a.m. international departure actually leaves enough margin for security and the walk to a remote gate. Groups traveling together for an international trip — extended family heading to a wedding abroad, or a sports team flying out for a tournament — frequently book a Sprinter van for the Dulles run specifically because of the airport\'s long walks between check-in, security and the gate, which makes an unhurried, on-time departure from home that much more valuable.',
+        ],
+      },
+      {
+        h2: 'The Udvar-Hazy Center and Loudoun\'s data-center corridor',
+        paragraphs: [
+          'Travelers with a long layover sometimes use the time to visit the Smithsonian\'s Steven F. Udvar-Hazy Center, the National Air and Space Museum\'s large-aircraft annex just a few minutes from the terminal, and we regularly run that round trip as a single booking between connecting flights. See our dedicated Udvar-Hazy Center transportation page for how that works in detail.',
+          'Loudoun County\'s data-center corridor around Ashburn and Sterling has grown into one of the densest technology real-estate markets in the country, and visiting technical staff flying into Dulles for site visits are a steady share of our corporate IAD bookings, alongside the Route 28 roadshow traffic covered above.',
         ],
       },
     ],
@@ -149,6 +170,13 @@ export const LANDING_PAGES = [
           'Outdoor and barn-style venues across Northern Virginia wine country and Maryland\'s countryside have become especially popular in recent years, and many of them sit down long gravel drives or unpaved lots that a stretch limousine simply cannot navigate — we confirm the venue\'s actual access road with the couple ahead of time and assign a Sprinter van or SUV when a traditional limousine would get stuck or scrape its undercarriage. Rainy-day contingency planning is part of the same conversation: we keep a covered loading point in mind at every venue we service regularly, so a sudden downpour does not ruin a bride\'s dress between the car and the door. Multicultural ceremonies with two separate events on the same day — a Sikh or Hindu ceremony followed by a Western-style reception, for example — are increasingly common across our Maryland and Virginia wedding bookings, and we quote those as a single extended reservation covering both venues rather than treating them as two unrelated trips.',
         ],
       },
+      {
+        h2: 'City-specific wedding transportation across the DMV',
+        paragraphs: [
+          'Beyond this pillar page, we publish dedicated wedding limo guides for specific cities — Bethesda, Alexandria, Annapolis, Rockville, Arlington and Leesburg among them — covering each city\'s particular venues, drawbridge or road-access quirks, and typical ceremony-to-reception logistics in more detail than a region-wide page can. If your wedding falls in one of those cities, start there for venue-specific timing advice; this page remains the right starting point for Maryland and DC weddings generally or for couples still comparing cities and venues.',
+          'Destination-style weddings that bring most guests in from out of town add their own transportation layer — hotel shuttle loops, airport pickups timed to rehearsal dinners, and a farewell-brunch transfer the morning after — and we quote all of it as one coordinated wedding-weekend package rather than a series of unrelated bookings.',
+        ],
+      },
     ],
     relatedCities: ['Annapolis', 'Baltimore', 'Bethesda', 'Frederick', 'Columbia'],
   },
@@ -187,6 +215,13 @@ export const LANDING_PAGES = [
           'We also field a steady number of calls from parents simply comparing prom transportation options before they book anything, and the honest answer is that price is rarely the only factor worth weighing: an uninsured operator or an unlicensed driver advertising a cut rate online is a real liability if anything goes wrong on prom night, when the group includes minors and the schedule often runs late. Ask any operator directly for proof of commercial insurance and a chauffeur\'s license before handing over a deposit — we provide both without hesitation, and treat that question as a sign of a parent doing their homework rather than an inconvenience.',
         ],
       },
+      {
+        h2: 'Prom season by city and county',
+        paragraphs: [
+          'Prom dates cluster by school district rather than falling on one weekend region-wide, so our busiest nights shift across Frederick, Germantown, Fairfax, Potomac, Columbia and Towson over several consecutive late-spring weekends rather than a single peak night. We publish city-specific prom pages for several of these communities with local venue and route detail; this page covers the policies and vehicle options that apply everywhere we serve.',
+          'For families comparing a limo against a rented party bus from an unfamiliar operator, the deciding factor is almost always licensing and insurance documentation — ask for both before the deposit, every time, regardless of which company you ultimately book.',
+        ],
+      },
     ],
     relatedCities: ['Annapolis', 'Baltimore', 'Bethesda', 'Towson', 'College Park'],
   },
@@ -223,6 +258,13 @@ export const LANDING_PAGES = [
           'Investment and consulting firms running multi-city roadshows typically need a vehicle that stays put for a full day of back-to-back meetings rather than a series of separate point-to-point transfers, and we quote that as a single hourly reservation with waiting time built in between stops. The same chauffeur and car handle every leg, which means no re-briefing a new driver every time the schedule changes on the fly.',
           'Law firms and lobbying offices near K Street and the Capitol frequently book us for client-facing airport pickups where first impressions matter — a chauffeur holding a name sign at baggage claim says something different than asking a visiting client to find a rideshare. We also support government-contractor and embassy-adjacent travel that requires additional discretion and, in some cases, documentation for building access, which our dispatch team coordinates in advance of the pickup.',
           'Companies comparing us against a rideshare business platform for their regular commuting or client-transport needs typically find the calculation tips in our favor once reliability and predictability enter the picture: a flat, pre-confirmed rate with no surge pricing during rush hour or bad weather, a named chauffeur rather than a rotating pool of drivers, and a dispatcher who can be reached by phone rather than only through an app. For companies running a high volume of recurring trips — daily airport transfers for a sales team, or a weekly shuttle between two office locations — we will build a custom standing schedule and bill it on the same monthly invoice as everything else on the account.',
+        ],
+      },
+      {
+        h2: 'Corporate accounts by city — Tysons, Reston, McLean and beyond',
+        paragraphs: [
+          'Northern Virginia\'s own corporate corridor runs just as deep as Maryland\'s: Tysons\' office towers, Reston\'s technology and federal-contracting base, McLean\'s headquarters campuses, Gaithersburg\'s I-270 biotech cluster and Vienna\'s Navy Federal Credit Union campus each generate enough recurring business that we maintain dedicated city pages with the specific building entrances, visitor-registration quirks and airport-distance comparisons our dispatchers use every day for those accounts.',
+          'If your company is based in one of those cities, the city-specific page will usually answer logistics questions faster than this region-wide overview — this page remains the right starting point for companies comparing our service generally or spanning several office locations across the DMV.',
         ],
       },
     ],
@@ -299,6 +341,13 @@ export const LANDING_PAGES = [
           'Annapolis sits roughly equidistant from BWI, DCA and Dulles, and which airport makes sense depends more on the traveler\'s airline and flight time than on raw mileage — BWI is typically the fastest run for domestic Southwest and budget-carrier flights, while DCA often wins for a same-day business trip into the District and Dulles for international connections. We quote all three so clients can compare rather than defaulting to whichever airport we mention first.',
           'The Maryland State House, the Governor\'s Mansion and the state legislative offices around State Circle generate a steady stream of government, lobbying and advocacy-group travel, particularly during the General Assembly\'s legislative session each winter and spring, when hotel and parking demand in the historic district spikes and committee schedules can shift a pickup time with little notice. We keep dispatch flexible for exactly that kind of same-day change during session weeks.',
           'Beyond government and the Naval Academy, Annapolis functions as a genuine sailing capital — the Chesapeake Bay draws boat owners, racing crews and charter guests to marinas up and down Spa Creek and Back Creek, and the Annapolis Yacht Club and Eastport Yacht Club both generate event transportation tied to regattas and seasonal galas. We coordinate marina pickups the same way we coordinate hotel pickups: confirming the exact slip or dock access point in advance, since not every marina has a single obvious curb for a chauffeur to wait at. The Annapolis Boat Show each October and the Annapolis Powerboat Show each spring both draw tens of thousands of visitors into a historic district with already-limited parking, and we add extra vehicles to our schedule in the weeks surrounding both shows specifically because street parking and taxi availability both tighten noticeably during show week.',
+        ],
+      },
+      {
+        h2: 'Historic downtown dining, tourism and day-trip visitors',
+        paragraphs: [
+          'Annapolis\'s Main Street slopes directly down to City Dock, lined with restaurants, taverns and shops inside some of the oldest standing buildings in the country, and the walk back up from a waterfront dinner is steep enough that many visitors — especially older family members or anyone dressed for a night out — prefer a chauffeured pickup at the bottom of the hill to the climb back to a parking garage. We stage at the City Dock turnaround and the nearby municipal garages depending on where your evening starts and ends.',
+          'A large share of our Annapolis bookings are day-trip visitors from Washington DC or Baltimore rather than overnight guests, often combining a USNA tour, lunch on Main Street and a walk around the historic district into a single afternoon, and we quote those as a round-trip from the originating city with a flexible return window rather than a fixed two-way schedule.',
         ],
       },
     ],

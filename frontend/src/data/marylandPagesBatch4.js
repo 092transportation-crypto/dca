@@ -604,6 +604,13 @@ export const MARYLAND_BATCH4 = [
           'Tell us the date, the venues and the approximate headcount, and dispatch will propose vehicles and a timeline and confirm the rate. Call (877) 609-1919 or request a quote online; popular Saturdays book well ahead.',
         ],
       },
+      {
+        h2: 'Popular DC wedding settings and their logistics',
+        paragraphs: [
+          'Georgetown\'s brick side streets and Capitol Hill\'s rowhouse blocks were both built before cars, and a stretch limousine often cannot reach every church or private residence directly — our chauffeurs confirm the realistic staging point for each specific address rather than assuming street-level access everywhere. Union Station\'s Great Hall, Meridian House in Kalorama, and the hotel ballrooms around Dupont Circle and the Convention Center are more straightforward, each with a known loading entrance our drivers already use.',
+          'Couples marrying at the National Cathedral or a church near the Wharf waterfront should plan for weekend tourist and restaurant traffic around both areas; we route accordingly and build it into the published timeline rather than treating it as a surprise on the day. For couples who want the specific detail for one of these neighborhoods, our Georgetown, Capitol Hill, Dupont Circle and National Cathedral pages cover each in more depth.',
+        ],
+      },
     ],
     vehicles: [...VEHICLES],
     faqs: [
@@ -684,6 +691,13 @@ export const MARYLAND_BATCH4 = [
         paragraphs: [
           'A corporate account is the simplest way to use a chauffeur service regularly. Approved bookers reserve by phone or email, each trip carries the client or matter reference you specify, and a single monthly invoice replaces a stack of receipts. Every vehicle is commercially insured and every chauffeur is licensed and background-checked, which satisfies most travel policies.',
           'To open an account or quote a single trip, call (877) 609-1919 or use the booking page. Rates are confirmed in writing before the chauffeur is dispatched.',
+        ],
+      },
+      {
+        h2: 'Hill days, agency visits and security perimeters',
+        paragraphs: [
+          'A Capitol Hill day — multiple House and Senate office buildings, a hearing room, a quick lunch and back for an afternoon vote — moves faster with an hourly chauffeur who already knows which entrances are open to visitors during session days and which close without notice during a security event. The same applies near federal agency headquarters and the White House complex, where posted perimeters can shift a normal drop-off point to a side street with little warning.',
+          'K Street and Penn Quarter law and lobbying firms, the trade associations clustered near Dupont Circle, and the Convention Center\'s conference calendar round out the bulk of our recurring DC corporate business, and standing weekly or monthly schedules are common for firms with predictable Hill or agency visits.',
         ],
       },
     ],

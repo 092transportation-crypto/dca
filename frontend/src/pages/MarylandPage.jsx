@@ -3,7 +3,7 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { Phone, Calendar, Car, CheckCircle2, MapPin, Clock, ArrowRight, Star, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { findMarylandPage } from '@/data/marylandPages';
+import { findMarylandPage, MARYLAND_PAGES } from '@/data/marylandPages';
 import KeywordSection from '@/components/KeywordSection';
 import PillarLinks from '@/components/PillarLinks';
 
@@ -95,6 +95,25 @@ const MarylandPage = ({ slug: slugProp, page: pageProp }) => {
   }, [data]);
 
   if (!data) return <Navigate to="/404" replace />;
+
+  // Every page should link to at least 5 related pages. Most entries already
+  // carry 5+ in their own `related` array; this pads any that don't (and
+  // gives new pages the same guarantee automatically) from the wider pool of
+  // Maryland/DC/VA pages rather than requiring every data entry to be hand-
+  // curated to exactly 5.
+  const relatedLinks = (() => {
+    const seen = new Set([data.slug]);
+    const out = [];
+    (data.related || []).forEach((r) => {
+      if (!seen.has(r.to)) { out.push(r); seen.add(r.to); }
+    });
+    for (const p of MARYLAND_PAGES) {
+      if (out.length >= 5) break;
+      const to = `/${p.slug}`;
+      if (!seen.has(to) && !seen.has(p.slug)) { out.push({ label: p.h1, to }); seen.add(to); }
+    }
+    return out;
+  })();
 
   return (
     <div className="min-h-screen bg-white" data-testid={`maryland-page-${data.slug}`}>
@@ -243,7 +262,7 @@ const MarylandPage = ({ slug: slugProp, page: pageProp }) => {
           <div className="max-w-6xl mx-auto">
             <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-10 text-center">Related Services &amp; Areas</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-              {data.related.map((r) => (
+              {relatedLinks.map((r) => (
                 <Link key={r.to} to={r.to} className="group">
                   <Card className="border border-gray-200 hover:border-amber-500 hover:shadow-xl transition-all duration-300 h-full">
                     <CardContent className="p-5 sm:p-6">

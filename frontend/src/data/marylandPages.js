@@ -7,6 +7,7 @@ import { MARYLAND_BATCH5 } from '@/data/marylandPagesBatch5';
 import { MARYLAND_BATCH6 } from '@/data/marylandPagesBatch6';
 import { MARYLAND_BATCH7 } from '@/data/marylandPagesBatch7';
 import { MARYLAND_BATCH8 } from '@/data/marylandPagesBatch8';
+import { MARYLAND_BATCH9 } from '@/data/marylandPagesBatch9';
 import { ensureFiveFaqs } from '@/lib/faqExtras';
 
 export const MARYLAND_PAGES = [
@@ -9670,6 +9671,13 @@ export const MARYLAND_PAGES = [
   // Burtonsville); and four Northern Virginia cities in the I-95/Prince
   // William corridor (Dale City, Dumfries, Stafford, Gainesville).
   ...MARYLAND_BATCH8,
+  // Batch 9 (2026-10-19 SEO expansion, round 4): 30 new long-tail pages —
+  // 6 city+wedding pages, 6 city+corporate pages, 6 city+prom pages, 6 DCA
+  // airport-to-city route pages (Fairfax, Chevy Chase, Olney, Catonsville,
+  // Owings Mills, Sterling), and 6 real DC-area landmark pages (National
+  // Zoo, US Naval Academy, Marine Corps Base Quantico, Udvar-Hazy Center,
+  // Howard University, Eastern Market).
+  ...MARYLAND_BATCH9,
 ];
 
 // Every page carries five FAQs (accordion + FAQPage schema).
