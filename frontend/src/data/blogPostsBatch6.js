@@ -13,7 +13,7 @@ export const BLOG_POSTS_BATCH6 = [
     slug: 'dupont-circle-adams-morgan-nightlife-transportation',
     relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-silver-spring'],
     title: 'Dupont Circle & Adams Morgan Nightlife Transportation: A DC Guide',
-    metaTitle: 'Dupont Circle & Adams Morgan Nightlife Car Service | DCA Limos',
+    metaTitle: 'Dupont Circle & Adams Morgan Nightlife Car Service',
     metaDesc:
       'Planning a Dupont Circle or Adams Morgan night out in DC? See how reserved car service beats late-night rideshare surge pricing and impossible weekend parking.',
     excerpt:

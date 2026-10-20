@@ -209,7 +209,7 @@ export const EVENT_PAGES = [
     slug: 'fedex-field-transportation',
     name: 'FedEx Field',
     h1: 'FedEx Field Transportation & Limo Service',
-    metaTitle: 'FedEx Field Limo & Car Service | Commanders Games | DCA Limos',
+    metaTitle: 'FedEx Field Limo & Car Service | Commanders Games',
     metaDesc:
       'Flat-rate limo and car service to FedEx Field (Northwest Stadium) for Commanders games and stadium concerts. No surge, staged pickup. Call (877) 609-1919.',
     distance: '13 miles from DCA',

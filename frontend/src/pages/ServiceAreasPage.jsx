@@ -26,7 +26,7 @@ const GROUPS = [
 const ServiceAreasPage = () => {
   useEffect(() => {
     setPageSeo({
-      title: 'Service Areas | DC, Virginia & Maryland Car Service | DCA Limos',
+      title: 'Service Areas | DC, Virginia & Maryland Car Service',
       description: 'Every city, airport route, venue and service DCA Limos covers across Washington DC, Northern Virginia and Maryland. Flat rates, 24/7. Call (877) 609-1919.',
       path: '/service-areas',
     });

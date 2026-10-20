@@ -367,7 +367,7 @@ export const BLOG_POSTS_BATCH3 = [
     slug: 'dc-corporate-limo-service-executive-guide',
     relatedRoutes: ['dca-to-washington-dc', 'dca-to-tysons', 'dca-to-mclean'],
     title: "Corporate Car Service in Washington DC: An Executive's Guide",
-    metaTitle: 'Corporate Car Service Washington DC: Executive Guide | DCA Limos',
+    metaTitle: 'DC Corporate Car Service: Executive Guide | DCA Limos',
     metaDesc:
       'How Washington DC companies use corporate car service for airport transfers and client meetings — accounts, pricing, and etiquette explained.',
     excerpt:

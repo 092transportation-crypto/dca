@@ -762,7 +762,7 @@ export const BLOG_POSTS_BATCH7 = [
     slug: 'arlington-national-cemetery-funeral-motorcade-guide',
     relatedRoutes: ['dca-to-arlington', 'dca-to-washington-dc', 'dca-to-alexandria'],
     title: 'Arlington National Cemetery Funeral & Memorial Motorcade Guide',
-    metaTitle: 'Arlington National Cemetery Funeral Transportation | DCA Limos',
+    metaTitle: 'Arlington Cemetery Funeral Transportation | DCA Limos',
     metaDesc:
       'Planning a funeral or memorial service at Arlington National Cemetery? A respectful guide to motorcade logistics, timing, and family transportation needs met.',
     excerpt:
