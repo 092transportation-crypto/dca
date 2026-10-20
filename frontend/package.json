@@ -28,7 +28,8 @@
     "prebuild": "node scripts/generateSitemap.js",
     "build": "craco build",
     "postbuild": "node scripts/prerender.js",
-    "test": "craco test"
+    "test": "craco test",
+    "test:api": "node scripts/test-api.js"
   },
   "browserslist": {
     "production": [

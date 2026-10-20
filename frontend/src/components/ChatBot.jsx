@@ -12,7 +12,6 @@ const ChatBot = () => {
   ]);
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const [sessionId, setSessionId] = useState(null);
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
 
@@ -30,38 +29,38 @@ const ChatBot = () => {
     }
   }, [isOpen]);
 
-  const sendMessage = async () => {
-    if (!inputValue.trim() || isLoading) return;
+  const sendMessage = async (overrideText) => {
+    const text = (overrideText ?? inputValue).trim();
+    if (!text || isLoading) return;
 
-    const userMessage = inputValue.trim();
+    const userMessage = { role: 'user', content: text };
+    // `messages` still carries the canned opening greeting (shown in the UI
+    // but never sent to the API — the Anthropic Messages API requires the
+    // conversation to start with a user turn).
+    const uiMessages = [...messages, userMessage];
+    const firstUserIndex = uiMessages.findIndex((m) => m.role === 'user');
+    const apiMessages = firstUserIndex >= 0 ? uiMessages.slice(firstUserIndex) : [];
+
     setInputValue('');
-    setMessages(prev => [...prev, { role: 'user', content: userMessage }]);
+    setMessages(uiMessages);
     setIsLoading(true);
 
     try {
-      const API_URL = process.env.REACT_APP_BACKEND_URL;
-      const response = await fetch(`${API_URL}/api/chat`, {
+      const response = await fetch('/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({
-          message: userMessage,
-          session_id: sessionId
-        }),
+        body: JSON.stringify({ messages: apiMessages }),
       });
 
       const data = await response.json();
-      
-      if (!sessionId) {
-        setSessionId(data.session_id);
-      }
 
-      setMessages(prev => [...prev, { role: 'assistant', content: data.response }]);
+      setMessages(prev => [...prev, { role: 'assistant', content: data.reply }]);
     } catch (error) {
-      setMessages(prev => [...prev, { 
-        role: 'assistant', 
-        content: "I apologize, but I'm having trouble connecting. Please call us at (877) 609-1919 for immediate assistance." 
+      setMessages(prev => [...prev, {
+        role: 'assistant',
+        content: "I apologize, but I'm having trouble connecting. Please call us at (877) 609-1919 for immediate assistance."
       }]);
     } finally {
       setIsLoading(false);
@@ -166,10 +165,7 @@ const ChatBot = () => {
                 {quickQuestions.map((q, i) => (
                   <button
                     key={i}
-                    onClick={() => {
-                      setInputValue(q);
-                      setTimeout(() => sendMessage(), 100);
-                    }}
+                    onClick={() => sendMessage(q)}
                     className="text-xs px-3 py-1.5 bg-gray-100 hover:bg-amber-100 text-gray-700 rounded-full transition-colors"
                   >
                     {q}

@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ChatBot from "@/components/ChatBot";
+import LeadCapturePopup from "@/components/LeadCapturePopup";
+import ExitIntentPopup from "@/components/ExitIntentPopup";
 import HomePage from "@/pages/HomePage";
 import ServicesPage from "@/pages/ServicesPage";
 import FleetPage from "@/pages/FleetPage";
@@ -58,6 +60,8 @@ function App() {
         <SiteBreadcrumbs />
         <Footer />
         <ChatBot />
+        <LeadCapturePopup />
+        <ExitIntentPopup />
       </BrowserRouter>
     </div>
   );
