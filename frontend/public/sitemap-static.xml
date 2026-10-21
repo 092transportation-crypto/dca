@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dcalimos.com/</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -55,6 +55,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dcalimos.com/arlington-corporate-car-service</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dcalimos.com/arlington-national-cemetery-transportation</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
@@ -81,6 +87,12 @@
   <url>
     <loc>https://dcalimos.com/audi-field-transportation</loc>
     <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dcalimos.com/baltimore-inner-harbor-transportation</loc>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -127,6 +139,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dcalimos.com/bethesda-corporate-car-service</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dcalimos.com/bethesda-limo-service</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
@@ -143,6 +161,18 @@
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://dcalimos.com/blog/airport-transportation-booking-lead-time-by-vehicle</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dcalimos.com/blog/airport-transportation-tips-business-travelers-same-day</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/blog/annapolis-limo-service-maryland-capital-style</loc>
@@ -173,6 +203,12 @@
     <lastmod>2026-12-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dcalimos.com/blog/best-airport-car-service-washington-dc</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/blog/best-black-car-service-dca-airport</loc>
@@ -224,13 +260,19 @@
   </url>
   <url>
     <loc>https://dcalimos.com/blog/black-car-vs-taxi-vs-rideshare-at-dca</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dcalimos.com/blog/bwi-dca-iad-same-day-business-trip</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://dcalimos.com/blog/capitol-hill-meeting-day-car-service-guide</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -273,6 +315,12 @@
   <url>
     <loc>https://dcalimos.com/blog/corporate-car-service-reagan-national</loc>
     <lastmod>2026-07-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dcalimos.com/blog/corporate-car-service-vs-rideshare-liability</loc>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -356,7 +404,7 @@
   </url>
   <url>
     <loc>https://dcalimos.com/blog/dc-wedding-transportation-timeline</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -433,8 +481,20 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dcalimos.com/blog/dca-rideshare-curbside-risk</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://dcalimos.com/blog/dca-to-arlington-limo-cost</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://dcalimos.com/blog/dca-to-dc-flat-rate-car-service</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -571,6 +631,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dcalimos.com/blog/how-to-book-maryland-wedding-limo-timeline</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://dcalimos.com/blog/how-to-read-a-limo-contract-dc-va-md</loc>
     <lastmod>2026-12-03</lastmod>
     <changefreq>monthly</changefreq>
@@ -667,6 +733,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dcalimos.com/blog/prom-limo-pricing-maryland</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://dcalimos.com/blog/prom-limo-service-dmv-guide</loc>
     <lastmod>2026-09-28</lastmod>
     <changefreq>monthly</changefreq>
@@ -716,7 +788,7 @@
   </url>
   <url>
     <loc>https://dcalimos.com/blog/reagan-national-arrivals-where-your-chauffeur-meets-you</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -755,6 +827,12 @@
     <lastmod>2026-12-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dcalimos.com/blog/top-things-to-do-washington-dc-transportation</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/blog/ultimate-guide-dca-airport-transportation</loc>
@@ -890,7 +968,7 @@
   </url>
   <url>
     <loc>https://dcalimos.com/chantilly-limo-service</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -908,7 +986,7 @@
   </url>
   <url>
     <loc>https://dcalimos.com/clarendon-arlington-limo-service</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1429,6 +1507,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dcalimos.com/financial-services-corporate-car-service</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dcalimos.com/fleet</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
@@ -1519,6 +1603,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dcalimos.com/government-federal-contractor-car-service</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dcalimos.com/great-falls-va-limo-service</loc>
     <lastmod>2026-10-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -1537,14 +1627,20 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dcalimos.com/healthcare-corporate-car-service</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dcalimos.com/herndon-limo-service</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/holiday-lights-limo-tours-dc-maryland-virginia</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1609,6 +1705,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://dcalimos.com/law-firm-corporate-car-service</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://dcalimos.com/leesburg-limo-service</loc>
     <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -1622,67 +1724,67 @@
   </url>
   <url>
     <loc>https://dcalimos.com/limo/annapolis-limo-service</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/limo/baltimore-limo-service</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/limo/bwi-airport-limo</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/limo/columbia-limo-service</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/limo/corporate-car-service</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/limo/dca-airport-limo</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/limo/dulles-airport-limo</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/limo/hanover-limo-service</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/limo/prom-limo-service</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/limo/sports-game-day-limo</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/limo/wedding-limo-service</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
@@ -1706,19 +1808,19 @@
   </url>
   <url>
     <loc>https://dcalimos.com/maryland-concert-transportation</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/maryland-corporate-car-service</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/maryland-prom-limo</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1736,13 +1838,13 @@
   </url>
   <url>
     <loc>https://dcalimos.com/maryland-wedding-limo</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://dcalimos.com/maryland-wine-tour-transportation</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1898,7 +2000,7 @@
   </url>
   <url>
     <loc>https://dcalimos.com/philadelphia-airport-car-service</loc>
-    <lastmod>2026-10-20</lastmod>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1971,6 +2073,12 @@
   <url>
     <loc>https://dcalimos.com/riva-limo-service</loc>
     <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dcalimos.com/rockville-corporate-car-service</loc>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2061,6 +2169,12 @@
   <url>
     <loc>https://dcalimos.com/stevensville-limo-service</loc>
     <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dcalimos.com/strathmore-music-center-transportation</loc>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2199,6 +2313,12 @@
   <url>
     <loc>https://dcalimos.com/waldorf-limo-service</loc>
     <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dcalimos.com/warner-theatre-transportation</loc>
+    <lastmod>2026-10-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

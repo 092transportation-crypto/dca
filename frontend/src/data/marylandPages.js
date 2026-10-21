@@ -8,6 +8,7 @@ import { MARYLAND_BATCH6 } from '@/data/marylandPagesBatch6';
 import { MARYLAND_BATCH7 } from '@/data/marylandPagesBatch7';
 import { MARYLAND_BATCH8 } from '@/data/marylandPagesBatch8';
 import { MARYLAND_BATCH9 } from '@/data/marylandPagesBatch9';
+import { MARYLAND_BATCH10 } from '@/data/marylandPagesBatch10';
 import { ensureFiveFaqs } from '@/lib/faqExtras';
 
 export const MARYLAND_PAGES = [
@@ -9678,6 +9679,12 @@ export const MARYLAND_PAGES = [
   // Zoo, US Naval Academy, Marine Corps Base Quantico, Udvar-Hazy Center,
   // Howard University, Eastern Market).
   ...MARYLAND_BATCH9,
+  // Batch 10 (2026-10-21 SEO expansion, round 5): 10 new pages — 3 city+
+  // corporate pages (Bethesda, Arlington, Rockville), 4 corporate car
+  // service pages by industry vertical (healthcare, law/lobbying firms,
+  // government & federal contractors, financial services), and 3 DC-area
+  // venue pages (Strathmore, Warner Theatre, Baltimore's Inner Harbor).
+  ...MARYLAND_BATCH10,
 ];
 
 // Every page carries five FAQs (accordion + FAQPage schema).

@@ -8,6 +8,7 @@ import { BLOG_POSTS_BATCH5 } from '@/data/blogPostsBatch5';
 import { BLOG_POSTS_BATCH6 } from '@/data/blogPostsBatch6';
 import { BLOG_POSTS_BATCH7 } from '@/data/blogPostsBatch7';
 import { BLOG_POSTS_BATCH8 } from '@/data/blogPostsBatch8';
+import { BLOG_POSTS_BATCH9 } from '@/data/blogPostsBatch9';
 
 export const BLOG_POSTS = [
   {
@@ -1708,6 +1709,16 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH7);
 // DCA vs Dulles vs BWI airport comparison. Each ships with 4 FAQs;
 // ensureFiveFaqs below tops every post up to five.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH8);
+
+// 2026-10-21 batch 9 (SEO expansion round 5): 10 new posts — route pricing
+// (DCA to Arlington), a cross-airport car-service comparison, a DCA
+// rideshare-curbside-logistics risk piece, a corporate-vs-rideshare
+// liability/expense angle, a Maryland wedding booking timeline, a DC
+// things-to-do roundup, a same-day business-trip airport comparison, prom
+// per-person pricing, same-day business-traveler tips, and a booking
+// lead-time guide organized by vehicle type rather than trip type. Each
+// ships with its own 5 FAQs; ensureFiveFaqs below is a no-op for this batch.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH9);
 
 // Every page carries five FAQs (accordion + FAQPage schema).
 BLOG_POSTS.forEach((p) => {
