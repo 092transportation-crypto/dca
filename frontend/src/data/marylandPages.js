@@ -9,6 +9,7 @@ import { MARYLAND_BATCH7 } from '@/data/marylandPagesBatch7';
 import { MARYLAND_BATCH8 } from '@/data/marylandPagesBatch8';
 import { MARYLAND_BATCH9 } from '@/data/marylandPagesBatch9';
 import { MARYLAND_BATCH10 } from '@/data/marylandPagesBatch10';
+import { MARYLAND_BATCH11 } from '@/data/marylandPagesBatch11';
 import { ensureFiveFaqs } from '@/lib/faqExtras';
 
 export const MARYLAND_PAGES = [
@@ -9685,6 +9686,12 @@ export const MARYLAND_PAGES = [
   // government & federal contractors, financial services), and 3 DC-area
   // venue pages (Strathmore, Warner Theatre, Baltimore's Inner Harbor).
   ...MARYLAND_BATCH10,
+  // Batch 11 (2026-10-23 SEO expansion, round 6): 10 new pages — 3 Dulles-
+  // corridor corporate pages (Sterling, Chantilly, Herndon), an Annapolis
+  // corporate page, 2 city+wedding pages (Ellicott City, Great Falls), a
+  // new industry-vertical corporate page (nonprofits & associations), and
+  // 3 DC-area venue pages (Arena Stage, Signature Theatre, Topgolf).
+  ...MARYLAND_BATCH11,
 ];
 
 // Every page carries five FAQs (accordion + FAQPage schema).

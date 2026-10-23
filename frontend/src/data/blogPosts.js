@@ -9,6 +9,7 @@ import { BLOG_POSTS_BATCH6 } from '@/data/blogPostsBatch6';
 import { BLOG_POSTS_BATCH7 } from '@/data/blogPostsBatch7';
 import { BLOG_POSTS_BATCH8 } from '@/data/blogPostsBatch8';
 import { BLOG_POSTS_BATCH9 } from '@/data/blogPostsBatch9';
+import { BLOG_POSTS_BATCH10 } from '@/data/blogPostsBatch10';
 
 export const BLOG_POSTS = [
   {
@@ -1719,6 +1720,18 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH8);
 // lead-time guide organized by vehicle type rather than trip type. Each
 // ships with its own 5 FAQs; ensureFiveFaqs below is a no-op for this batch.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH9);
+
+// 2026-10-23 batch 10 (SEO expansion round 6): 10 new posts — a Capital
+// Pride weekend civic/seasonal guide, a bar/bat mitzvah occasion guide
+// (new life-cycle category), an Annapolis Sailboat Show seasonal guide, a
+// flying-with-an-infant airport guide (distinct from the hospital-discharge
+// newborn post), a corporate-relocation new-hire pickup guide, a Marine
+// Corps Marathon weekend guide, a direct DCA parking-cost-vs-car-service
+// comparison, a tipping/gratuity etiquette consumer-education guide, a
+// nonprofit/association conference-travel guide, and a Topgolf corporate-
+// outing guide. Each ships with its own 5 FAQs; ensureFiveFaqs below is a
+// no-op for this batch.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH10);
 
 // Every page carries five FAQs (accordion + FAQPage schema).
 BLOG_POSTS.forEach((p) => {
