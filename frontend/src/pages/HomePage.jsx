@@ -45,8 +45,8 @@ const HOME_FAQS = [
 const HomePage = () => {
   useEffect(() => {
     setPageSeo({
-      title: "DCA Limos | DC, Maryland & Virginia Car Service 24/7",
-      description: 'Chauffeured car service across Washington DC, Maryland & Virginia — airport transfers, corporate travel & wedding limos. Call (877) 609-1919 for a free quote.',
+      title: "DCA Limos | Flat-Rate Car Service, DC MD & VA, 24/7",
+      description: 'Skip the surge pricing: flat-rate chauffeured car service across DC, Maryland & Virginia for airports, corporate travel & weddings. Call (877) 609-1919.',
       path: "/",
     });
     // FAQPage structured data

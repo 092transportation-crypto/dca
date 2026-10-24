@@ -10,6 +10,7 @@ import { BLOG_POSTS_BATCH7 } from '@/data/blogPostsBatch7';
 import { BLOG_POSTS_BATCH8 } from '@/data/blogPostsBatch8';
 import { BLOG_POSTS_BATCH9 } from '@/data/blogPostsBatch9';
 import { BLOG_POSTS_BATCH10 } from '@/data/blogPostsBatch10';
+import { BLOG_POSTS_BATCH11 } from '@/data/blogPostsBatch11';
 
 export const BLOG_POSTS = [
   {
@@ -1732,6 +1733,19 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH9);
 // outing guide. Each ships with its own 5 FAQs; ensureFiveFaqs below is a
 // no-op for this batch.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH10);
+
+// 2026-10-24 batch 11 (SEO expansion round 6 continued): 10 new posts
+// targeting research-stage, informational keywords distinct from the
+// transactional landing pages added the same day — an industry-terminology
+// glossary (black car vs. limo vs. town car vs. livery), a no-show/grace-
+// period policy explainer, a corporate expense-reporting process guide, a
+// first-timer "what to expect" onboarding guide, a flight-tracking feature
+// explainer, a car-seat-law explainer covering DC/MD/VA differences, a
+// Sprinter van day-rate cost guide, a flat-rate-vs-hourly pricing-model
+// explainer, a multi-vehicle group-coordination guide, and a non-winter
+// weather/flooding ground-transportation guide. Each ships with its own 5
+// FAQs; ensureFiveFaqs below is a no-op for this batch.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH11);
 
 // Every page carries five FAQs (accordion + FAQPage schema).
 BLOG_POSTS.forEach((p) => {

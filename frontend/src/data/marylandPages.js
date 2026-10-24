@@ -10,6 +10,7 @@ import { MARYLAND_BATCH8 } from '@/data/marylandPagesBatch8';
 import { MARYLAND_BATCH9 } from '@/data/marylandPagesBatch9';
 import { MARYLAND_BATCH10 } from '@/data/marylandPagesBatch10';
 import { MARYLAND_BATCH11 } from '@/data/marylandPagesBatch11';
+import { MARYLAND_BATCH12 } from '@/data/marylandPagesBatch12';
 import { ensureFiveFaqs } from '@/lib/faqExtras';
 
 export const MARYLAND_PAGES = [
@@ -9692,6 +9693,20 @@ export const MARYLAND_PAGES = [
   // new industry-vertical corporate page (nonprofits & associations), and
   // 3 DC-area venue pages (Arena Stage, Signature Theatre, Topgolf).
   ...MARYLAND_BATCH11,
+  // Batch 12 (2026-10-24 SEO expansion, round 6 continued): 30 new pages —
+  // Southern Maryland (Leonardtown, Lexington Park, Prince Frederick,
+  // Patuxent River NAS); Northern Virginia cities that previously had only
+  // a DCA route page (Ashburn, Manassas, Fredericksburg) plus Fort Belvoir;
+  // three new DC neighborhoods (Columbia Heights, Mount Pleasant,
+  // Friendship Heights); Fort Meade/NSA and Joint Base Andrews; five new
+  // venues (Live! Casino, Maryland Zoo, Kings Dominion, Ronald Reagan
+  // Building, Mosaic District); three new industry verticals (tech
+  // startups, real estate, media/broadcast); wedding and corporate variants
+  // for cities missing one (Columbia, Frederick, Alexandria, Silver
+  // Spring); two new occasions (micro-wedding/elopement, baby
+  // naming/bris/christening); a new accessibility vertical; and two new
+  // airport routes (IAD to Tysons, BWI to Columbia).
+  ...MARYLAND_BATCH12,
 ];
 
 // Every page carries five FAQs (accordion + FAQPage schema).

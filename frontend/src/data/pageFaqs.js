@@ -58,8 +58,12 @@ export const PAGE_FAQS = {
   ],
 };
 
-// /limo/<slug> landing pages share templates by category.
+// /limo/<slug> landing pages share templates by category, unless the page
+// carries its own hand-written `faqs` array (used for the flagship pages
+// strengthened in the 2026-10-24 SEO pass), in which case that takes
+// priority over the generic template.
 export const landingFaqs = (page) => {
+  if (page.faqs && page.faqs.length) return page.faqs;
   const name = page.h1;
   if (page.category === 'Airport Transportation') {
     return [
