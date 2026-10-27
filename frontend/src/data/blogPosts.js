@@ -11,6 +11,7 @@ import { BLOG_POSTS_BATCH8 } from '@/data/blogPostsBatch8';
 import { BLOG_POSTS_BATCH9 } from '@/data/blogPostsBatch9';
 import { BLOG_POSTS_BATCH10 } from '@/data/blogPostsBatch10';
 import { BLOG_POSTS_BATCH11 } from '@/data/blogPostsBatch11';
+import { BLOG_POSTS_BATCH12 } from '@/data/blogPostsBatch12';
 
 export const BLOG_POSTS = [
   {
@@ -1747,12 +1748,29 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH10);
 // FAQs; ensureFiveFaqs below is a no-op for this batch.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH11);
 
+// 2026-10-27 batch 12 (SEO expansion round 7): 10 new posts — Howard
+// University Homecoming weekend, Supreme Court oral argument day logistics,
+// a neutral National Mall rally/march day guide, Loudoun's Data Center Alley
+// corporate corridor, an airport lounge + car service pairing guide,
+// private K-12 school drop-off/pickup, a B2B tour-operator/group-travel-
+// partner guide, the Army Ten-Miler race weekend, Bay Bridge summer beach-
+// traffic timing, and a security-clearance facility contractor explainer.
+// Each ships with its own 5 FAQs; ensureFiveFaqs below is a no-op for this
+// batch.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH12);
+
+// BATCH2 (2026-09-22) was historically pushed after the ensureFiveFaqs pass
+// below, which meant its posts silently skipped the five-FAQ top-up (they
+// happened to already ship with 5 FAQs each, so this was never visibly
+// broken, but any future edit trimming one below 5 would have gone
+// unnoticed). Moved above the pass, alongside every other batch, so the
+// guarantee actually holds for it too.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH2);
+
 // Every page carries five FAQs (accordion + FAQPage schema).
 BLOG_POSTS.forEach((p) => {
   p.faqs = ensureFiveFaqs(p.faqs, { slug: p.slug });
 });
-
-BLOG_POSTS.push(...BLOG_POSTS_BATCH2);
 
 export function findBlogPost(slug) {
   return BLOG_POSTS.find((p) => p.slug === slug) || null;

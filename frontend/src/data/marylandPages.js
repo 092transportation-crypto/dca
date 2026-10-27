@@ -11,6 +11,7 @@ import { MARYLAND_BATCH9 } from '@/data/marylandPagesBatch9';
 import { MARYLAND_BATCH10 } from '@/data/marylandPagesBatch10';
 import { MARYLAND_BATCH11 } from '@/data/marylandPagesBatch11';
 import { MARYLAND_BATCH12 } from '@/data/marylandPagesBatch12';
+import { MARYLAND_BATCH13 } from '@/data/marylandPagesBatch13';
 import { ensureFiveFaqs } from '@/lib/faqExtras';
 
 export const MARYLAND_PAGES = [
@@ -9707,6 +9708,15 @@ export const MARYLAND_PAGES = [
   // naming/bris/christening); a new accessibility vertical; and two new
   // airport routes (IAD to Tysons, BWI to Columbia).
   ...MARYLAND_BATCH12,
+  // Batch 13 (2026-10-27 SEO expansion, round 7): 10 new pages — 3 Northern
+  // Virginia towns with only incidental mentions elsewhere (Middleburg,
+  // Purcellville, Oakton), one Prince George's County city (Lanham), one DC
+  // neighborhood that was previously just a bullet point inside the
+  // Capitol Hill page (H Street Corridor), three real venues with zero
+  // prior mentions anywhere (DAR Constitution Hall, Entertainment & Sports
+  // Arena, The Hamilton Live), and two new verticals (pharma & biotech
+  // corporate car service, milestone birthday car service).
+  ...MARYLAND_BATCH13,
 ];
 
 // Every page carries five FAQs (accordion + FAQPage schema).
