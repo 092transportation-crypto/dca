@@ -226,6 +226,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'Prince Frederick anchors a stretch of Southern Maryland that includes Dunkirk, Huntingtown and Solomons Island further south, and our chauffeurs run the Route 2/4 corridor regularly enough to know the merge points and seasonal traffic that build up around Chesapeake Bay weekend travel.',
           'A flat rate confirmed before you book means no guessing at what a 45-mile trip to the airport will actually cost once you are in the car.',
+          'Calvert County\'s Route 2/4 corridor narrows to two lanes for long stretches south of Prince Frederick, and summer weekend traffic headed to or from Solomons Island and the Chesapeake beaches can add real time that a straight-line mileage estimate would not capture. Our chauffeurs build that seasonal pattern into the drive-time estimate rather than quoting the same timing year-round.',
         ],
       },
       {
@@ -396,6 +397,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'Ashburn\'s data-center campuses run their own visitor-registration procedures, often requiring vehicle and driver information in advance before a gate clears anyone through. We collect that detail at booking so a chauffeur is never the reason a visit starts late.',
           'One Loudoun\'s shops, restaurants and offices sit nearby, and our chauffeurs know which buildings restrict street-level pickup during business hours.',
+          'Ashburn\'s rapid growth has also meant new residential subdivisions and data-center campuses opening on a rolling basis along routes that a map app sometimes has not caught up with yet, particularly around the Loudoun County Parkway corridor. Our chauffeurs who run this area regularly tend to know a freshly opened access road before it shows up in standard mapping, which matters on a first visit to a brand-new campus.',
         ],
       },
       {
@@ -479,6 +481,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'Center Street\'s restaurants, shops and the Manassas Museum draw a steady local crowd, and our chauffeurs know which blocks allow a brief stop for pickup without blocking downtown\'s narrower streets.',
           'Manassas National Battlefield Park nearby also draws visitor traffic that our chauffeurs route around during peak-season weekends.',
+          'The Harris Pavilion in the heart of downtown hosts concerts and seasonal festivals that fill Center Street with foot traffic and temporary street closures, and our chauffeurs plan pickup timing around that calendar rather than treating it as ordinary traffic. Old Town Manassas\'s historic train depot — still an active Virginia Railway Express and Amtrak stop — also means we regularly coordinate rail-to-car connections for travelers arriving by train rather than flying in.',
         ],
       },
       {
@@ -561,6 +564,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'Fredericksburg\'s position on I-95 means weekend and holiday traffic can add real time to any trip north toward DC, and our chauffeurs build a realistic buffer into every quoted drive time rather than assuming free-flowing highway conditions.',
           'Historic Downtown\'s riverfront streets and the Fredericksburg Visitor Center area are familiar pickup points for our chauffeurs.',
+          'Fredericksburg\'s Civil War history draws its own steady visitor traffic — the Fredericksburg Area Battlefields Park and the Chatham Manor overlook both see tour buses and self-guided visitors on top of ordinary downtown traffic, particularly around anniversary weekends. Mary Washington University\'s academic calendar adds another predictable traffic pattern, with move-in weekends and graduation generating a short but intense spike in both downtown and I-95 congestion that our chauffeurs plan around.',
         ],
       },
       {
@@ -643,6 +647,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'Fort Belvoir\'s visitor center and gate procedures require advance vehicle and driver information for anyone without an existing base pass, and we collect that detail at booking the same way we do for every other access-controlled site we serve.',
           'Our chauffeurs plan arrival timing around gate-area traffic, which can back up significantly during shift-change hours.',
+          'The installation\'s size means a destination inside the gate can be a genuine drive from the visitor center itself — Fort Belvoir hosts several distinct commands, a hospital and a large residential community spread across a wide footprint — so we confirm the specific building or unit address at booking rather than assuming "Fort Belvoir" alone is enough to plan an accurate arrival time.',
         ],
       },
       {
@@ -728,6 +733,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'Columbia Heights\' rowhouse streets and apartment corridors can make curbside pickup genuinely tricky during street-cleaning or snow-emergency restrictions, and our chauffeurs confirm the exact pickup spot with you in advance rather than circling the block.',
           'The DC USA retail center and 14th Street\'s restaurant row generate steady evening and weekend demand alongside residential airport runs.',
+          'The neighborhood\'s Civil War-era Fort Stevens site and the Tivoli Theatre\'s restored facade sit alongside newer high-rise apartment towers, a mix that reflects how fast Columbia Heights has grown since the Metro station opened — and that growth means loading zones and curb space near the busiest blocks of 14th Street are in genuine demand on weekend evenings. Our chauffeurs account for that when confirming a pickup spot rather than assuming street-level access will be open.',
         ],
       },
       {
@@ -810,6 +816,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'Mount Pleasant Street\'s small business strip and the surrounding rowhouse blocks are quieter than neighboring Adams Morgan, but the one-way streets and residential parking permit zones still call for a chauffeur who confirms the pickup spot in advance rather than guessing.',
           'Rock Creek Park borders the neighborhood to the west, and our chauffeurs route around park-adjacent road closures during weekend events.',
+          'The neighborhood\'s Saturday farmers market along Lamont Street and its cluster of Latin American restaurants and bakeries draw a loyal local crowd, and weekend market traffic is one more reason our chauffeurs prefer to confirm an exact pickup point with you in advance rather than waiting curbside on a street that may be partly closed for vendor setup. Mount Pleasant\'s proximity to the Carter Barron Amphitheatre and the National Zoo also makes it a convenient staging point for a summer concert night or a family zoo visit booked alongside an airport run.',
         ],
       },
       {
@@ -892,6 +899,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'Friendship Heights\' department stores and boutiques along Wisconsin Avenue draw shoppers from both sides of the District line, and our chauffeurs know which entrances and loading areas work for a curbside pickup without blocking traffic on a busy retail corridor.',
           'The neighborhood sits close enough to Chevy Chase and Bethesda that many trips combine a shopping stop with dinner or an evening out nearby.',
+          'Wisconsin Avenue effectively splits into a Washington, DC address on one side and a Chevy Chase, Maryland address on the other at the very same intersection, which confuses first-time visitors using a map app to find their pickup point. We treat the whole shopping district and surrounding residential blocks as one coverage area, so the exact side of the line a specific store or building sits on never changes how quickly a chauffeur gets there.',
         ],
       },
       {
@@ -977,6 +985,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'Campuses around Fort Meade run their own visitor-registration and badge procedures, often requiring advance notice of a vehicle and driver before a gate will clear anyone through. We collect that information at booking, the same way we handle other access-controlled sites across our coverage area.',
           'Our chauffeurs plan arrival timing around the corridor\'s shift-change and rush-hour patterns along MD-32 and the Baltimore-Washington Parkway.',
+          'The area around Fort Meade has grown its own dense cluster of contractor office parks along Route 175 and National Business Parkway, largely built to serve the agencies and commands based on post, and a lot of our bookings here are between one of those office parks and a hotel near BWI rather than a trip onto the installation itself. Laurel and Odenton\'s MARC train stations also bring a steady stream of commuting contractors, and we coordinate rail-to-car connections for visitors who fly in and finish the trip by train.',
         ],
       },
       {
@@ -1060,6 +1069,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'Joint Base Andrews requires advance vehicle and driver information for visitors without an existing base pass, and we collect that detail at booking so your chauffeur\'s arrival at the gate is routine.',
           'Open-house and air-show events bring a surge of gate-area traffic and parking restrictions that our chauffeurs plan around well ahead of the event date.',
+          'As the home of the 89th Airlift Wing and Air Force One\'s home base, the installation also sees periodic VIP movements that can trigger short-notice road closures on Allentown Road and Auth Way with little public warning. Our dispatch monitors for these when a Joint Base Andrews pickup is scheduled, and builds in extra buffer time around any date with a known public event on the base calendar.',
         ],
       },
       {
@@ -1145,6 +1155,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'Live!\'s self-parking garage and valet line both get long on weekend nights, and a chauffeured drop-off at the main entrance skips both — a real advantage after a night at the tables when nobody wants to walk a parking structure.',
           'Our chauffeurs stage nearby for the return pickup, coordinated to your actual departure time rather than a generic fixed window.',
+          'Live!\'s location directly next to Arundel Mills mall also makes a combined shopping-and-casino outing an easy single booking, with a chauffeur who can move the group between the two without re-parking in between. Concerts and comedy shows at the venue\'s own event space add another late-night return pattern we plan around, since a show letting out at 11 p.m. generates its own curbside crowd on top of the usual casino traffic.',
         ],
       },
       {
@@ -1227,6 +1238,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'The roughly 40-mile drive from DC to Baltimore is an easy day trip, and a chauffeured SUV means nobody has to drive while managing kids, strollers and a cooler on the way home.',
           'Our chauffeurs know Druid Hill Park\'s internal road network well enough to drop off close to the main entrance even on a busy weekend.',
+          'Druid Hill Park itself is one of the oldest landscaped public parks in the country, and its reservoir loop and historic conservatory draw their own visitors separate from the zoo, which adds to weekend congestion on the park\'s internal roads during the warm-weather season. Booking a specific drop-off and return time in advance, rather than planning to flag down a ride at the end of the visit, avoids the wait that can build up near the main gate as the zoo closes for the day.',
         ],
       },
       {
@@ -1309,6 +1321,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'At roughly 75 to 100 miles depending on your home airport or starting point, Kings Dominion is one of the farther day-trip destinations we cover — far enough that most families and groups prefer not to drive themselves both ways after a full day on their feet.',
           'A Sprinter van seats the whole group together for the drive down and the drive home, with room for coolers, bags and souvenirs.',
+          'The I-95 corridor south of Fredericksburg can back up significantly on summer weekends when the park is at its busiest, and a chauffeur who tracks real-time conditions and adjusts the route accordingly is worth more on this trip than on a typical in-town transfer. We also coordinate the pickup location inside the park\'s main entrance area, which can otherwise mean a long walk back from the gates after a full day for a tired group.',
         ],
       },
       {
@@ -1391,6 +1404,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'A 10-to-15-minute transfer from DCA makes a same-day fly-in-fly-out conference visit genuinely realistic, and every airport pickup is flight-tracked with complimentary wait time so a delayed flight does not turn into a missed session.',
           'Our chauffeurs know the building\'s Woodrow Wilson Plaza and 14th Street entrances and plan around Federal Triangle\'s periodic security screening and street closures tied to nearby government buildings.',
+          'The building sits directly between the White House and the Capitol along Pennsylvania Avenue, which means a presidential motorcade, an inaugural rehearsal or a major demonstration anywhere on the National Mall can close streets in the immediate area with almost no advance notice. Our dispatch tracks announced street closures for the days surrounding any booking here and builds a wider buffer into pickup timing whenever one is scheduled nearby.',
         ],
       },
       {
@@ -1473,6 +1487,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'The Mosaic District\'s open-air layout means parking fills up fast on weekend evenings, and a chauffeured drop-off at your specific restaurant or shop entrance avoids the search for a spot entirely.',
           'A flexible return pickup, timed to when your dinner or shopping trip actually wraps up, works better here than a fixed reservation window.',
+          'The district\'s arthouse cinema and seasonal outdoor events, including a winter ice rink and a regular farmers market, add their own traffic pattern on top of ordinary restaurant-row business, and our chauffeurs check the event calendar before confirming a pickup spot during those periods. The open, pedestrian-oriented street grid also means some entrances are closer to a drop-off lane than others, which our chauffeurs account for when a reservation includes a specific restaurant.',
         ],
       },
       {
@@ -1641,6 +1656,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'An as-directed hourly booking means the itinerary can change mid-afternoon — an extra stop, a longer walk-through than planned, a detour to a neighborhood the client wants to see — without needing to rebook or renegotiate the rate.',
           'Our chauffeurs wait curbside at each listing, so neither the agent nor the client has to think about parking at every stop.',
+          'A polished arrival also matters more in this line of work than it might elsewhere — a buyer stepping out of a well-presented sedan or SUV in front of a multi-million-dollar listing sets a different tone than one circling the block looking for parking. Agents frequently use the drive time between showings productively as well, reviewing comparables or a listing packet with the client rather than navigating.',
         ],
       },
       {
@@ -1892,6 +1908,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'Frederick\'s historic district is one of the best-preserved downtowns in the state, and a wedding-day limousine route built around it usually includes a brief photo stop along Carroll Creek Linear Park or near the church spires on Church Street.',
           'Our chauffeurs plan staging around Market Street\'s one-way grid and limited street parking, which tightens further on weekends when downtown restaurants are busy.',
+          'Frederick\'s downtown also hosts a busy weekend festival and farmers-market calendar that periodically closes sections of Market and Patrick Streets, and a wedding date that happens to land on a festival weekend needs a staging plan worked out well in advance rather than discovered the morning of. We confirm the downtown events calendar against your wedding date as part of planning the day\'s route.',
         ],
       },
       {
@@ -1974,6 +1991,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'The Carlyle District\'s office towers near the King Street Metro station house a dense mix of federal-adjacent and professional-services employers, generating steady executive sedan demand alongside Old Town\'s older base of law firms and associations.',
           'Our chauffeurs know which Old Town streets restrict curbside access during King Street\'s busiest retail and dining hours.',
+          'Old Town\'s cobblestone side streets near the waterfront look charming but are genuinely hard on a vehicle\'s suspension and a passenger\'s footing in dress shoes, so our chauffeurs default to the smoother main thoroughfares for pickup and drop-off whenever a building has more than one accessible entrance. The King Street trolley and seasonal street closures for Old Town festivals are two more details our dispatch checks before confirming a specific pickup time in this corridor.',
         ],
       },
       {
@@ -2225,6 +2243,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'Grandparents and godparents flying in for a baby naming, bris or christening often need their own airport transfer separate from the day\'s ceremony logistics — a flight-tracked pickup the day before or the morning of removes that piece from the new parents\' plate entirely.',
           'A Sprinter van can bring a larger extended-family group together from the airport if several relatives are arriving on the same or similar flights.',
+          'A bris in particular is usually scheduled on the eighth day after birth with little flexibility in the date, which means travel arrangements for out-of-town family often come together on short notice. We prioritize fast confirmation on these bookings precisely because the ceremony date itself cannot move the way a wedding or a birthday party date can.',
         ],
       },
       {
@@ -2475,6 +2494,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'Your chauffeur tracks the inbound flight and adjusts pickup timing for any delay, holding a name sign at baggage claim.',
           'The drive to Columbia runs via I-95 and MD-32, a short, familiar route for our chauffeurs who cover Howard County regularly.',
+          'BWI\'s short distance from Columbia also makes this one of the easier routes in our network to run as a round trip, with the same chauffeur handling both the arrival pickup and a scheduled return days later — useful for a business traveler based in Columbia who prefers one point of contact for the whole visit rather than booking two separate one-way trips.',
         ],
       },
       {
@@ -2482,6 +2502,7 @@ export const MARYLAND_BATCH12 = [
         paragraphs: [
           'Columbia\'s village-center road layout, built around curving parkways rather than a conventional grid, is one our chauffeurs plan for in advance rather than relying only on GPS for last-minute turns.',
           'See our Columbia Wedding Limo Service page for guest-shuttle coordination tied to a specific Columbia-area wedding.',
+          'Downtown Columbia\'s Merriweather Post Pavilion also draws a significant evening crowd for concerts in season, and a BWI arrival timed close to a show night means our chauffeurs build extra time into the drop-off for venue-area traffic rather than quoting the same drive time year-round.',
         ],
       },
       {
