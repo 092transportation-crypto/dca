@@ -110,6 +110,18 @@ async function main() {
       await tick();
       if (!container.querySelector("h1")) throw new Error("no <h1> rendered");
       if (window.location.pathname.replace(/(.)\/+$/, "$1") !== route) throw new Error(`redirected to ${window.location.pathname}`);
+      // LeadCapturePopup/ExitIntentPopup (mounted on every route) import
+      // `toast` from sonner, and ui/sonner.jsx's <Toaster/> (on /contact and
+      // /booking) mounts it too — either path makes sonner inject a ~15KB
+      // CSS-in-JS <style> tag into <head>, purely for toast styling that's
+      // invisible unless a toast actually fires. It isn't in the pristine
+      // shell and doesn't need to be duplicated inline, so strip it before
+      // serializing — otherwise it's dead weight baked into every one of the
+      // ~464 static pages. React re-injects it live after hydration if a
+      // toast is ever shown.
+      for (const style of window.document.head.querySelectorAll("style")) {
+        if (/data-sonner-toaster|--toast-icon-margin/.test(style.textContent)) style.remove();
+      }
       const html = "<!doctype html>\n" + window.document.documentElement.outerHTML;
       const file = route === "/" ? shellPath : path.join(BUILD_DIR, route, "index.html");
       fs.mkdirSync(path.dirname(file), { recursive: true });
