@@ -12,6 +12,7 @@ import { MARYLAND_BATCH10 } from '@/data/marylandPagesBatch10';
 import { MARYLAND_BATCH11 } from '@/data/marylandPagesBatch11';
 import { MARYLAND_BATCH12 } from '@/data/marylandPagesBatch12';
 import { MARYLAND_BATCH13 } from '@/data/marylandPagesBatch13';
+import { MARYLAND_BATCH14 } from '@/data/marylandPagesBatch14';
 import { ensureFiveFaqs } from '@/lib/faqExtras';
 
 export const MARYLAND_PAGES = [
@@ -794,6 +795,10 @@ export const MARYLAND_PAGES = [
       }
     ],
     "related": [
+      {
+        "label": "Mitchellville, MD Limo Service",
+        "to": "/mitchellville-md-limo-service"
+      },
       {
         "label": "Laurel Limo Service",
         "to": "/laurel-limo-service"
@@ -9717,6 +9722,19 @@ export const MARYLAND_PAGES = [
   // Arena, The Hamilton Live), and two new verticals (pharma & biotech
   // corporate car service, milestone birthday car service).
   ...MARYLAND_BATCH13,
+  // Batch 14 (2026-10-28 SEO expansion, round 8): 20 new pages — five
+  // Maryland towns previously covered only by a route page or an incidental
+  // mention inside a neighboring city (Severn, Mitchellville, Riverdale
+  // Park, Suitland, Edgewater); two Virginia towns with only a passing
+  // mention elsewhere (Clifton, Fairfax Station); four DC neighborhoods
+  // with zero dedicated page (Anacostia, Mount Vernon Triangle, Van Ness,
+  // Glover Park); three airport-to-city routes with no existing page
+  // (BWI-to-Arlington, BWI-to-Alexandria, IAD-to-Alexandria); two new
+  // occasions (engagement/proposal transportation, family reunion
+  // transportation); two new industry verticals (higher education &
+  // university administration, insurance); and two DC museum venues with
+  // zero prior mentions (International Spy Museum, Planet Word).
+  ...MARYLAND_BATCH14,
 ];
 
 // Every page carries five FAQs (accordion + FAQPage schema).

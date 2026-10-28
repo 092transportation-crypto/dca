@@ -264,6 +264,7 @@ export const MARYLAND_BATCH8 = [
       },
     ],
     related: [
+      { label: 'Van Ness Limo Service', to: '/van-ness-dc-limo-service' },
       { label: 'National Cathedral DC Transportation', to: '/national-cathedral-dc-transportation' },
       { label: 'Tenleytown DC Limo Service', to: '/tenleytown-dc-limo-service' },
       { label: 'Dupont Circle Limo Service', to: '/dupont-circle-limo-service' },
@@ -530,6 +531,7 @@ export const MARYLAND_BATCH8 = [
     ],
     related: [
       { label: 'Bowie Limo Service', to: '/bowie-limo-service' },
+      { label: 'Suitland, MD Limo Service', to: '/suitland-md-limo-service' },
       { label: 'Upper Marlboro Limo Service', to: '/upper-marlboro-limo-service' },
       { label: 'FedEx Field Transportation', to: '/fedex-field-transportation' },
       { label: 'Washington DC Airport Car Service', to: '/washington-dc-airport-car-service' },

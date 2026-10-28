@@ -152,6 +152,30 @@ const LandingPage = () => {
         </section>
       )}
 
+      {/* RELATED GUIDES & PAGES (deep links beyond the other /limo/ pages below) */}
+      {data.relatedLinks && data.relatedLinks.length > 0 && (
+        <section className="py-10 sm:py-12 bg-gray-50 border-t border-gray-100">
+          <div className="container mx-auto px-4">
+            <div className="max-w-5xl mx-auto">
+              <h2 className="text-xl sm:text-2xl font-bold text-gray-900 mb-4">Related guides &amp; pages</h2>
+              <ul className="flex flex-wrap gap-x-6 gap-y-2">
+                {data.relatedLinks.map((l) => (
+                  <li key={l.to}>
+                    <Link
+                      to={l.to}
+                      className="text-amber-700 hover:text-amber-900 font-medium underline underline-offset-2"
+                      data-testid="landing-related-link"
+                    >
+                      {l.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* SERVICE AREAS */}
       <section className="py-16 sm:py-20 bg-white">
         <div className="container mx-auto px-4">

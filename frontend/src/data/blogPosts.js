@@ -12,6 +12,7 @@ import { BLOG_POSTS_BATCH9 } from '@/data/blogPostsBatch9';
 import { BLOG_POSTS_BATCH10 } from '@/data/blogPostsBatch10';
 import { BLOG_POSTS_BATCH11 } from '@/data/blogPostsBatch11';
 import { BLOG_POSTS_BATCH12 } from '@/data/blogPostsBatch12';
+import { BLOG_POSTS_BATCH13 } from '@/data/blogPostsBatch13';
 
 export const BLOG_POSTS = [
   {
@@ -1758,6 +1759,19 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH11);
 // Each ships with its own 5 FAQs; ensureFiveFaqs below is a no-op for this
 // batch.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH12);
+
+// 2026-10-28 batch 13 (SEO expansion round 8): 10 new posts — a DC/MD/VA
+// snow-emergency-route and parking-ban guide, military PCS move
+// transportation, an outlet-mall/tax-free shopping day-trip guide, trade
+// show exhibitor and booth-crew logistics, a private jet/FBO transportation
+// guide, an accounting/tax-season corporate travel guide, a content-creator
+// and influencer DC-visit guide, the National Debutante Cotillion and
+// formal-ball season, the DC St. Patrick's Day parade and pub-crawl
+// weekend, and a kids' birthday party chauffeur guide. Each ships with its
+// own 5 FAQs; ensureFiveFaqs below is a no-op for this batch. Pushed above
+// the forEach pass, same as every other batch — see the BATCH2 note just
+// below for why that ordering matters.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH13);
 
 // BATCH2 (2026-09-22) was historically pushed after the ensureFiveFaqs pass
 // below, which meant its posts silently skipped the five-FAQ top-up (they

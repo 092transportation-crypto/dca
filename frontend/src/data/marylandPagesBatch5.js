@@ -722,6 +722,7 @@ export const MARYLAND_BATCH5 = [
       },
     ],
     related: [
+      { label: 'Riverdale Park, MD Limo Service', to: '/riverdale-park-md-limo-service' },
       { label: 'University of Maryland Transportation', to: '/university-of-maryland-transportation' },
       { label: 'Hyattsville Limo Service', to: '/hyattsville-limo-service' },
       { label: 'Greenbelt Limo Service', to: '/greenbelt-limo-service' },
