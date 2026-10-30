@@ -36,7 +36,7 @@ const FLEET = [
   'First Class Sedan (BMW 7 Series / Mercedes S-Class or similar) — 3 passengers, 2 bags',
   'Midsize SUV (Lincoln Nautilus or similar) — 3 passengers, 4 bags',
   'Luxury SUV (Chevrolet Suburban or similar) — 5 passengers, 5 bags',
-  'Premium SUV (Cadillac Escalade or similar) — 6 passengers, 5 bags',
+  'Premium SUV (Lincoln Navigator or similar) — 6 passengers, 5 bags',
   'Sprinter Shuttle (Mercedes Sprinter) — 13 passengers, 13 bags',
   'Sprinter Executive (Mercedes Sprinter, upgraded interior) — 13 passengers, 13 bags',
 ];

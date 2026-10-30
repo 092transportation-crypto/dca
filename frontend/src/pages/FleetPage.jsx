@@ -10,7 +10,7 @@ import { CheckCircle, Shield, Award, Star, Users, Briefcase } from 'lucide-react
 const FleetPage = () => {
   useEffect(() => {
     setPageSeo({
-      title: "Luxury Fleet | Mercedes, BMW, Escalade & Sprinter Vans",
+      title: "Luxury Fleet | Mercedes, BMW, Navigator & Sprinter Vans",
       description: 'Sedans, SUVs, Sprinter vans & stretch limos — chauffeur-driven, late-model and spotless. Call (877) 609-1919 or book your vehicle online in minutes.',
       path: "/fleet",
     });
@@ -56,12 +56,12 @@ const FleetPage = () => {
     },
     {
       category: 'Premium SUV',
-      name: 'Cadillac Escalade 2023+ or similar',
+      name: '2026 Lincoln Navigator or similar',
       image: '/images/cadillac-escalade.webp',
       passengers: '6',
       luggage: '5',
       description:
-        "America's premier luxury SUV with commanding presence. Cadillac Escalade or similar.",
+        "America's premier luxury SUV with commanding presence. Lincoln Navigator or similar.",
     },
     {
       category: 'Sprinter Shuttle',

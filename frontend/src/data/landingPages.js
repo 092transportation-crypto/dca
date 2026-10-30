@@ -21,7 +21,7 @@ export const LANDING_PAGES = [
       'Meet & greet service at baggage claim',
       '45-minute complimentary wait time (60 minutes on international arrivals)',
       'Direct service to Maryland, DC & Northern Virginia',
-      'Mercedes E-Class, S-Class, Escalade SUVs & Sprinter vans',
+      'Mercedes E-Class, S-Class, Navigator SUVs & Sprinter vans',
     ],
     sections: [
       {
@@ -76,7 +76,7 @@ export const LANDING_PAGES = [
     hero: 'Premium BWI Thurgood Marshall airport limo service. Licensed & insured Maryland carrier.',
     image: '/images/airport-curbside.webp',
     intro: 'As specialists in Baltimore-Washington International Thurgood Marshall Airport (BWI) transportation, DCA Limos delivers punctual, luxury transfers throughout Maryland and beyond. Our Hanover, MD base puts us minutes from BWI — guaranteeing the fastest pickups in the region.',
-    seoText: 'Our BWI airport car service is built around one promise: you will never miss a flight or wait at the curb. Based minutes from the terminal, DCA Limos tracks every arrival in real time and adjusts pickups automatically, so delayed flights never mean stranded travelers. Choose a Mercedes sedan for solo business trips, an Escalade for families, or a Sprinter van for groups of up to 13 with luggage. Every BWI transfer is one flat rate covering tolls, taxes, and gratuity, with door-to-door service throughout Maryland, Washington DC, and Virginia — corporate accounts enjoy monthly invoicing and priority dispatch.',
+    seoText: 'Our BWI airport car service is built around one promise: you will never miss a flight or wait at the curb. Based minutes from the terminal, DCA Limos tracks every arrival in real time and adjusts pickups automatically, so delayed flights never mean stranded travelers. Choose a Mercedes sedan for solo business trips, a Lincoln Navigator for families, or a Sprinter van for groups of up to 13 with luggage. Every BWI transfer is one flat rate covering tolls, taxes, and gratuity, with door-to-door service throughout Maryland, Washington DC, and Virginia — corporate accounts enjoy monthly invoicing and priority dispatch.',
     highlights: [
       'Headquartered minutes from BWI — fastest pickups in MD',
       'Real-time flight monitoring & dynamic pickup adjustment',
@@ -196,11 +196,11 @@ export const LANDING_PAGES = [
     category: 'Special Events',
     h1: 'Wedding Limo Service in Maryland',
     metaTitle: 'Wedding Limo Service MD & DC | Bridal Car, Book Now',
-    metaDesc: 'Luxury wedding limo service in Maryland, DC & Virginia — Mercedes limos, white Escalade, Sprinter vans. Free quote — call (877) 609-1919 today.',
+    metaDesc: 'Luxury wedding limo service in Maryland, DC & Virginia — Mercedes limos, white Navigator, Sprinter vans. Free quote — call (877) 609-1919 today.',
     hero: 'Your wedding day deserves perfection. Luxury bridal transportation across Maryland, DC & Virginia.',
     image: '/images/wedding-service.webp',
     intro: 'Your wedding is one of the most important days of your life — and DCA Limos makes sure transportation is one less thing to worry about. From bridal-party Sprinter vans to elegant Mercedes S-Class for the bride and groom, we handle every detail with the care your day deserves.',
-    seoText: 'Your Wedding Limo Service should be the easiest decision of the whole celebration. DCA Limos coordinates timing with your planner or venue, decorates on request, and keeps the bridal party moving on schedule from preparations to ceremony to reception. Choose a classic stretch experience, a white Escalade for the couple, or Mercedes Sprinter vans that keep the entire wedding party together. Every wedding package includes a professionally attired chauffeur, bottled water, and a dry run of the route beforehand. We serve weddings across Maryland, Washington DC, and Northern Virginia with transparent flat-rate packages — one quote, everything included, no surprises on your big day.',
+    seoText: 'Your Wedding Limo Service should be the easiest decision of the whole celebration. DCA Limos coordinates timing with your planner or venue, decorates on request, and keeps the bridal party moving on schedule from preparations to ceremony to reception. Choose a classic stretch experience, a white Navigator for the couple, or Mercedes Sprinter vans that keep the entire wedding party together. Every wedding package includes a professionally attired chauffeur, bottled water, and a dry run of the route beforehand. We serve weddings across Maryland, Washington DC, and Northern Virginia with transparent flat-rate packages — one quote, everything included, no surprises on your big day.',
     highlights: [
       'Complimentary red carpet & "Just Married" decorations',
       'Champagne service for the couple (where legally permitted)',

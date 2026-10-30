@@ -24,7 +24,7 @@ export const BLOG_POSTS_BATCH8 = [
       <h2>The flat rate for this route, by vehicle</h2>
       <ul>
         <li><strong>Luxury sedan (Mercedes E-Class or similar):</strong> flat rate starting at $65, including tolls, fuel and the chauffeur.</li>
-        <li><strong>Premium SUV (Escalade or Suburban):</strong> typically $85–$110, depending on exact pickup and drop-off points downtown.</li>
+        <li><strong>Premium SUV (Navigator or Suburban):</strong> typically $85–$110, depending on exact pickup and drop-off points downtown.</li>
         <li><strong>Mercedes Sprinter van (up to 13 passengers):</strong> generally $150–$190 total — often far cheaper per person than splitting multiple rideshares.</li>
         <li><strong>Stretch limousine:</strong> priced for the occasion, typically starting around $120 for the transfer itself.</li>
       </ul>

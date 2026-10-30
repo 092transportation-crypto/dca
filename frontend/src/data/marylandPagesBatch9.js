@@ -8,7 +8,7 @@
 const VEHICLES = [
   { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
   { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
-  { name: 'Cadillac Escalade', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
+  { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
   { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
   { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
   { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings, prom and special occasions' },
@@ -544,7 +544,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeurs who know the Tysons Corner Center, Tysons Galleria and Silver Line station pickup points',
       'Corporate accounts with monthly invoicing and dedicated dispatch',
       'Flight tracking with complimentary wait time on every airport transfer',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -627,7 +627,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeurs who know the Colesville Road and Georgia Avenue one-way grid',
       'Corporate accounts with monthly invoicing and a dedicated dispatch contact',
       'Sprinter vans for client delegations and conference groups',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -710,7 +710,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeurs who know the Wiehle-Reston East Metro station and Silver Line park-and-ride patterns',
       'Corporate accounts with monthly invoicing and standing weekly transfer schedules',
       'Sprinter vans for project teams and client delegations',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -793,7 +793,7 @@ export const MARYLAND_BATCH9 = [
       'Airport transfers to DCA and Dulles, both roughly equidistant from McLean',
       'Corporate accounts with monthly invoicing and a dedicated dispatch contact',
       'Sprinter vans for client delegations and project teams',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -876,7 +876,7 @@ export const MARYLAND_BATCH9 = [
       'Airport transfers to DCA, BWI and Dulles with real-time flight tracking',
       'Corporate accounts with monthly invoicing for biotech and life-sciences employers',
       'Group transportation for conference delegations and visiting researchers',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -959,7 +959,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeurs who know the Vienna Metro station\'s park-and-ride patterns',
       'Airport transfers to Dulles, DCA and BWI with real-time flight tracking',
       'Corporate accounts with monthly invoicing and a dedicated dispatch contact',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -1546,7 +1546,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeur waiting at baggage claim with a name sign, not circling the terminal curb',
       'Our home base — Laurel pickups and drop-offs are our most familiar route',
       'Service to Konterra, Laurel Lakes Centre, Russett and Montpelier Mansion',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -1629,7 +1629,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeur waiting at baggage claim with a name sign',
       'Chauffeurs who know the distinction between Chevy Chase, MD and the DC neighborhood of the same name',
       'Luggage assistance from the curb to the vehicle at both ends of the trip',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -1712,7 +1712,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeur waiting at baggage claim with a name sign',
       'Chauffeurs who know Olney\'s Route 108 and Georgia Avenue corridor well',
       'Luggage assistance from the curb to the vehicle at both ends of the trip',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -1795,7 +1795,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeur waiting at baggage claim with a name sign',
       'Chauffeurs who know UMBC\'s campus entrances and Catonsville\'s historic Frederick Road corridor',
       'Honest advice on BWI versus DCA when it saves you a longer, costlier trip',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -1878,7 +1878,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeur waiting at baggage claim with a name sign',
       'Chauffeurs who know the Owings Mills Metro Centre and Foundry Row retail corridor',
       'Honest advice on BWI versus DCA for this longer route',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -1961,7 +1961,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeur waiting at baggage claim with a name sign',
       'Chauffeurs who know Sterling\'s data-center corridor and Loudoun County business parks',
       'Honest advice on Dulles versus DCA for this Loudoun-area route',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -2047,7 +2047,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeurs who route around Connecticut Avenue\'s weekend and summer congestion',
       'Combine a Zoo visit with nearby Cleveland Park and Woodley Park dining',
       'Airport transfers for visiting family coordinated around your Zoo itinerary',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -2060,7 +2060,7 @@ export const MARYLAND_BATCH9 = [
       {
         h2: 'Family outings, school groups and tour groups',
         paragraphs: [
-          'A single Suburban or Escalade comfortably handles a family with strollers and a diaper bag\'s worth of gear, while our Sprinter vans are a regular booking for school field trips and larger extended-family outings that would otherwise require multiple cars. Group bookings are hourly, so the same vehicle and chauffeur wait through the visit for the return trip.',
+          'A single Suburban or Navigator comfortably handles a family with strollers and a diaper bag\'s worth of gear, while our Sprinter vans are a regular booking for school field trips and larger extended-family outings that would otherwise require multiple cars. Group bookings are hourly, so the same vehicle and chauffeur wait through the visit for the return trip.',
           'Many visitors pair a Zoo morning with lunch or dinner in nearby Cleveland Park or Woodley Park, and we treat that as one continuous trip rather than two separate bookings.',
         ],
       },
@@ -2130,7 +2130,7 @@ export const MARYLAND_BATCH9 = [
       'Coordination around street closures during the Herndon Monument climb and graduation week',
       'Sprinter vans for extended family groups visiting for Academy events',
       'Chauffeurs who plan around Annapolis\'s drawbridges and historic-district parking restrictions',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -2213,7 +2213,7 @@ export const MARYLAND_BATCH9 = [
       'Service to the FBI Academy and DEA Training Academy, both located on the same installation',
       'Chauffeurs based in the surrounding Dumfries, Triangle and Stafford I-95 corridor',
       'Sprinter vans for extended family groups attending graduation ceremonies',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -2296,7 +2296,7 @@ export const MARYLAND_BATCH9 = [
       'Family-friendly SUVs and Sprinter vans for school groups and aviation enthusiasts',
       'Combine a museum visit with a Dulles airport transfer on one booking',
       'Chauffeurs who know the museum\'s separate entrance from the main airport access road',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -2379,7 +2379,7 @@ export const MARYLAND_BATCH9 = [
       'Pickups at Howard University Hospital for patients, families and staff',
       'Chauffeurs who route around Georgia Avenue\'s peak campus-event congestion',
       'Airport transfers for visiting family and out-of-town alumni',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -2462,7 +2462,7 @@ export const MARYLAND_BATCH9 = [
       'Pairs easily with Capitol Hill dining and Barracks Row just to the south',
       'Family-friendly SUVs for weekend market trips with strollers and purchases',
       'Airport transfers coordinated around your Eastern Market visit',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {

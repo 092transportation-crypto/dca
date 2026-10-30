@@ -15,7 +15,7 @@ export const PAGE_FAQS = {
     { q: 'Can one reservation cover several vehicles?', a: `Yes. Weddings, corporate events and group airport moves are coordinated as a single booking — Sprinter vans for groups and sedans or SUVs for VIPs. Call ${PHONE} or describe the group in the booking form.` },
   ],
   '/fleet': [
-    { q: 'Which vehicles are in the DCA Limos fleet?', a: 'Mercedes-Benz E-Class and S-Class and BMW 7 Series sedans, Cadillac Escalade and Chevrolet Suburban SUVs, Mercedes Sprinter vans and stretch limousines.' },
+    { q: 'Which vehicles are in the DCA Limos fleet?', a: 'Mercedes-Benz E-Class and S-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans and stretch limousines.' },
     { q: 'Which vehicle should I book for an airport trip with luggage?', a: 'A sedan suits one to three travelers with standard bags. A full-size SUV is the better choice for families and heavy luggage, and a Sprinter van keeps a larger group and its bags in one vehicle.' },
     { q: 'Am I guaranteed the exact model shown?', a: 'Reservations are made by vehicle class. The exact make and model can vary within the class, and if a vehicle becomes unavailable we provide a comparable or upgraded one.' },
     { q: 'How are the vehicles prepared?', a: 'Every vehicle is commercially insured, inspected regularly and detailed before each ride, and is driven by a licensed, background-checked chauffeur.' },

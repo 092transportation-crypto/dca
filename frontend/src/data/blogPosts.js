@@ -13,6 +13,7 @@ import { BLOG_POSTS_BATCH10 } from '@/data/blogPostsBatch10';
 import { BLOG_POSTS_BATCH11 } from '@/data/blogPostsBatch11';
 import { BLOG_POSTS_BATCH12 } from '@/data/blogPostsBatch12';
 import { BLOG_POSTS_BATCH13 } from '@/data/blogPostsBatch13';
+import { BLOG_POSTS_BATCH14 } from '@/data/blogPostsBatch14';
 
 export const BLOG_POSTS = [
   {
@@ -375,7 +376,7 @@ export const BLOG_POSTS = [
       <p>Your chauffeur leaves Reagan National, crosses the Potomac, and picks up US-50 East — the direct corridor to Annapolis. On a clear afternoon the drive runs about 45 minutes; during the weekday rush or summer beach traffic it can stretch toward an hour or slightly more. Because our chauffeurs run this corridor daily, they know when to stay on US-50 and when an alternate through the suburbs saves twenty minutes. With a flat rate, that traffic never changes your price.</p>
 
       <h2>What the trip costs in 2026</h2>
-      <p>Our DCA to Annapolis chauffeur service starts at a flat $145 in a luxury sedan — tolls, fuel, and flight-tracking wait time included, with no surge at any hour. SUVs like the Cadillac Escalade and Chevrolet Suburban are priced for families with luggage, and Mercedes Sprinter vans handle groups of up to thirteen. Compare that with rideshare, which often struggles to even match a driver for a 35-mile inter-city run, then prices it unpredictably when it does. Full route details are on our <a href="/dca-to-annapolis">DCA to Annapolis route page</a>.</p>
+      <p>Our DCA to Annapolis chauffeur service starts at a flat $145 in a luxury sedan — tolls, fuel, and flight-tracking wait time included, with no surge at any hour. SUVs like the Lincoln Navigator and Chevrolet Suburban are priced for families with luggage, and Mercedes Sprinter vans handle groups of up to thirteen. Compare that with rideshare, which often struggles to even match a driver for a 35-mile inter-city run, then prices it unpredictably when it does. Full route details are on our <a href="/dca-to-annapolis">DCA to Annapolis route page</a>.</p>
 
       <h2>Where we take you in Annapolis</h2>
       <ul>
@@ -456,7 +457,7 @@ export const BLOG_POSTS = [
 
       <h2>Sedan vs. SUV vs. Sprinter: choosing the right class</h2>
       <p><strong>Luxury sedan</strong> — the rates above. Ideal for one to three travelers with standard luggage; think Mercedes E-Class and S-Class comfort with a quiet cabin for calls.</p>
-      <p><strong>Premium SUV</strong> — a Cadillac Escalade or Chevrolet Suburban typically runs $30 to $60 above the sedan rate on the same route. The right call for four to six passengers, ski or golf gear, or a family with car seats.</p>
+      <p><strong>Premium SUV</strong> — a Lincoln Navigator or Chevrolet Suburban typically runs $30 to $60 above the sedan rate on the same route. The right call for four to six passengers, ski or golf gear, or a family with car seats.</p>
       <p><strong>Mercedes Sprinter van</strong> — for groups of seven to thirteen, priced by route but almost always cheaper than splitting the group across two or three rideshare XLs, and the group stays together.</p>
 
       <h2>What about hourly service?</h2>
@@ -491,7 +492,7 @@ export const BLOG_POSTS = [
       },
       {
         q: 'How much more does an SUV cost than a sedan from DCA?',
-        a: 'Typically $30 to $60 above the sedan rate on the same route, for a Cadillac Escalade or Chevrolet Suburban seating up to six with full luggage. Sprinter vans for 7–13 passengers are quoted flat by route.',
+        a: 'Typically $30 to $60 above the sedan rate on the same route, for a Lincoln Navigator or Chevrolet Suburban seating up to six with full luggage. Sprinter vans for 7–13 passengers are quoted flat by route.',
       },
       {
         q: 'Is hourly chauffeur service cheaper than multiple transfers?',
@@ -1158,7 +1159,7 @@ export const BLOG_POSTS = [
 
       <h2>The three layers most weddings combine</h2>
       <ul>
-        <li><strong>The couple's car:</strong> a chauffeured S-Class or Escalade for the ceremony arrival and the send-off — elegant in photos, kind to a wedding gown, and driven by a professional who has done this before.</li>
+        <li><strong>The couple's car:</strong> a chauffeured S-Class or Navigator for the ceremony arrival and the send-off — elegant in photos, kind to a wedding gown, and driven by a professional who has done this before.</li>
         <li><strong>The wedding-party vehicle:</strong> a 14-passenger Mercedes Sprinter that keeps the whole party together between prep, photos, and ceremony — one vehicle, one schedule, zero lost groomsmen.</li>
         <li><strong>Guest shuttles:</strong> looped runs between host hotels and the venue, timed to the ceremony and staggered at the end of the night so the 9 p.m. leavers and the last-dance crowd both get home gracefully.</li>
       </ul>
@@ -1204,7 +1205,7 @@ export const BLOG_POSTS = [
       },
       {
         q: 'What vehicles work best for a DC wedding party?',
-        a: 'A 14-passenger Mercedes Sprinter for the wedding party is the modern standard, paired with a chauffeured S-Class or Escalade for the couple. In tight-curb neighborhoods like Georgetown and Old Town, that combination stages far better than a stretch limousine.',
+        a: 'A 14-passenger Mercedes Sprinter for the wedding party is the modern standard, paired with a chauffeured S-Class or Navigator for the couple. In tight-curb neighborhoods like Georgetown and Old Town, that combination stages far better than a stretch limousine.',
       },
       {
         q: 'What does wedding transportation cost in the DC region?',
@@ -1310,7 +1311,7 @@ export const BLOG_POSTS = [
       <ul>
         <li><strong>Luxury sedan (Mercedes E-Class, BMW 5/7 Series):</strong> the baseline. Short hops into the District or Arlington typically run $75–$100 flat; Maryland and outer-Virginia runs scale from there.</li>
         <li><strong>Executive S-Class:</strong> a premium of roughly $40–$80 over the standard sedan on the same route — booked for board-level guests and occasions where the car is part of the message.</li>
-        <li><strong>Full-size SUV (Escalade, Suburban):</strong> add roughly $30–$60 to the sedan rate. The right call for four-plus travelers, ski gear, or a week of family luggage.</li>
+        <li><strong>Full-size SUV (Navigator, Suburban):</strong> add roughly $30–$60 to the sedan rate. The right call for four-plus travelers, ski gear, or a week of family luggage.</li>
         <li><strong>Mercedes Sprinter:</strong> regional transfers generally start around $250–$350. Divided among ten passengers, it is routinely the cheapest per-person vehicle on the curb.</li>
       </ul>
       <p>For the specific number on your route, the <a href="/booking">instant quote page</a> beats any table — every rate is flat, all-inclusive, and locked at booking.</p>
@@ -1772,6 +1773,12 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH12);
 // the forEach pass, same as every other batch — see the BATCH2 note just
 // below for why that ordering matters.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH13);
+
+// BATCH14 (2026-10-28): a Thanksgiving-week DCA survival guide and a fall
+// foliage Skyline Drive day trip guide. Pushed above the forEach pass, same
+// as every other batch — see the BATCH2 note just below for why that
+// ordering matters.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH14);
 
 // BATCH2 (2026-09-22) was historically pushed after the ensureFiveFaqs pass
 // below, which meant its posts silently skipped the five-FAQ top-up (they

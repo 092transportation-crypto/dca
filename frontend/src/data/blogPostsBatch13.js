@@ -142,7 +142,7 @@ export const BLOG_POSTS_BATCH13 = [
       <p>Virginia's annual sales-tax holiday weekend in early August draws a predictable surge to its outlet centers, and timing matters more than usual that particular weekend — both for traffic into the parking lots and for how long a reserved chauffeur should plan to wait. We ask about your planned shopping date specifically because the busiest weekends of the year call for a different pickup-window strategy than a quiet Tuesday.</p>
 
       <h2>Groups, trunk space and the return trip</h2>
-      <p>A shopping day with more than two or three people, or any day expected to produce a meaningful number of bags and boxes, is where a Cadillac Escalade or Chevrolet Suburban earns its keep over a sedan — the extra cargo room matters as much on the way home as the extra seats do on the way out. A Sprinter van suits a larger group of friends or family shopping together while still wanting to split off and regroup at an agreed time.</p>
+      <p>A shopping day with more than two or three people, or any day expected to produce a meaningful number of bags and boxes, is where a Lincoln Navigator or Chevrolet Suburban earns its keep over a sedan — the extra cargo room matters as much on the way home as the extra seats do on the way out. A Sprinter van suits a larger group of friends or family shopping together while still wanting to split off and regroup at an agreed time.</p>
 
       <h2>Building in real flexibility</h2>
       <p>Unlike a fixed-schedule event, a shopping day rarely runs exactly as planned — one more store, a longer lunch, a return trip for something left behind. Hourly as-directed service handles that naturally, with the same chauffeur and vehicle staying with your group for the whole outing rather than a fixed pickup time that assumes the day goes exactly on schedule.</p>
@@ -153,7 +153,7 @@ export const BLOG_POSTS_BATCH13 = [
     faqs: [
       { q: 'Which outlet center is right for my trip?', a: 'It depends on direction and what else you want to do that day — Leesburg pairs with Loudoun wine country, Potomac Mills with an Old Town Alexandria stop, and Arundel Mills with BWI and Live! Casino. Tell us your plan and we will help you choose.' },
       { q: 'Does Virginia\'s tax-free weekend change how I should book?', a: 'Yes. That weekend draws a predictable surge, and we plan a different pickup-window strategy for it than for a quiet weekday shopping trip.' },
-      { q: 'What vehicle handles a shopping trip with a lot of bags?', a: 'A Cadillac Escalade or Chevrolet Suburban gives the extra cargo room that matters as much on the way home as the extra seats do on the way out. A Sprinter van suits a larger group.' },
+      { q: 'What vehicle handles a shopping trip with a lot of bags?', a: 'A Lincoln Navigator or Chevrolet Suburban gives the extra cargo room that matters as much on the way home as the extra seats do on the way out. A Sprinter van suits a larger group.' },
       { q: 'Can the chauffeur wait if our shopping day runs longer than planned?', a: 'Yes. Hourly as-directed service keeps the same chauffeur and vehicle with your group for the whole outing rather than a fixed pickup time.' },
       { q: 'Can we combine a shopping trip with an airport departure?', a: 'Yes, especially from Arundel Mills near BWI — tell us your flight and we will build the shopping stop into the schedule with a realistic buffer.' },
     ],

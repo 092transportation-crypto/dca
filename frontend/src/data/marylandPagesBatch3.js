@@ -76,7 +76,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -251,7 +251,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -430,7 +430,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -597,7 +597,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -760,7 +760,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -927,7 +927,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -1098,7 +1098,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -1257,7 +1257,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -1416,7 +1416,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -1575,7 +1575,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -1744,7 +1744,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -1907,7 +1907,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -1946,7 +1946,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "Can you take a group of friends?",
-        "a": "Yes. Escalade and Suburban SUVs seat up to six and Mercedes Sprinter vans up to 14. We can collect from more than one address on the way in."
+        "a": "Yes. Navigator and Suburban SUVs seat up to six and Mercedes Sprinter vans up to 14. We can collect from more than one address on the way in."
       },
       {
         "q": "How do I book transportation to The Anthem?",
@@ -2070,7 +2070,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -2235,7 +2235,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -2402,7 +2402,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -2565,7 +2565,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -2738,7 +2738,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -2907,7 +2907,7 @@ export const MARYLAND_BATCH3 = [
         "best": "VIP and executive travel"
       },
       {
-        "name": "Cadillac Escalade",
+        "name": "Lincoln Navigator",
         "cls": "Premium SUV",
         "seats": 6,
         "best": "families and small groups with luggage"
@@ -2938,7 +2938,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "What vehicle is best for a family of eight to twelve?",
-        "a": "A Mercedes Sprinter van, which seats up to 14 with room for bags and gifts. Families of up to six are comfortable in an Escalade or Suburban, and graduates celebrating with friends often choose a stretch limousine for up to 8."
+        "a": "A Mercedes Sprinter van, which seats up to 14 with room for bags and gifts. Families of up to six are comfortable in a Lincoln Navigator or Suburban, and graduates celebrating with friends often choose a stretch limousine for up to 8."
       },
       {
         "q": "Do you cover graduations outside the District?",

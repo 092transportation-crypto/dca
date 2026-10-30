@@ -30,7 +30,7 @@ DCA limo fleets typically span several classes, and picking the right one change
 
 - **Luxury sedan** (Mercedes S-Class, BMW 7 Series) — client pickups, board members, or anyone who wants the top-tier cabin.
 
-- **SUV** (Cadillac Escalade, Chevrolet Suburban) — extra luggage, three to five passengers, or families.
+- **SUV** (Lincoln Navigator, Chevrolet Suburban) — extra luggage, three to five passengers, or families.
 
 - **Mercedes Sprinter van** — six to fourteen passengers, ideal for group arrivals or a wedding party landing together.
 

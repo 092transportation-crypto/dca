@@ -16,7 +16,7 @@ A single rideshare works fine for one to three people. Beyond that, you're eithe
 
 ## Matching Vehicle to Group Size
 
-- **4-5 passengers:** A Cadillac Escalade or Chevrolet Suburban comfortably seats the group with room for luggage — see the [fleet page](/fleet) for exact capacities.
+- **4-5 passengers:** A Lincoln Navigator or Chevrolet Suburban comfortably seats the group with room for luggage — see the [fleet page](/fleet) for exact capacities.
 
 - **6-10 passengers:** A Mercedes Sprinter van is the standard choice, offering forward-facing seating and real luggage space rather than a cramped third row.
 

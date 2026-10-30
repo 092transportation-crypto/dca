@@ -12,7 +12,7 @@
 const VEHICLES = [
   { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
   { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
-  { name: 'Cadillac Escalade', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
+  { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
   { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
   { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
   { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings, prom and special occasions' },
@@ -48,7 +48,7 @@ export const MARYLAND_BATCH11 = [
       'Dulles transfers in as little as 12–18 minutes for same-day vendor and auditor visits',
       'Sprinter vans for visiting technical teams, auditors and conference delegations',
       'Corporate accounts with monthly invoicing and a dedicated dispatch contact',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -131,7 +131,7 @@ export const MARYLAND_BATCH11 = [
       'Dulles transfers in as little as 12–18 minutes — right outside the airport\'s back gate',
       'Sprinter vans for exhibitor teams, conference delegations and corporate groups',
       'Corporate accounts with monthly invoicing and a dedicated dispatch contact',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -214,7 +214,7 @@ export const MARYLAND_BATCH11 = [
       'Chauffeurs who know the Herndon Silver Line Metro station and Toll Road traffic patterns',
       'Sprinter vans for visiting consulting teams, contractor delegations and conference groups',
       'Corporate accounts with monthly invoicing and a dedicated dispatch contact',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -300,7 +300,7 @@ export const MARYLAND_BATCH11 = [
       'Naval Academy visitor and base-access coordination for official and family travel',
       'Drawbridge timing built into every Annapolis pickup and drop-off schedule',
       'Corporate accounts with monthly invoicing and a dedicated dispatch contact',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -386,7 +386,7 @@ export const MARYLAND_BATCH11 = [
       'Stretch limousine for the couple and wedding party; Sprinter van for guest shuttles',
       'Guest shuttle service from Baltimore- and Columbia-area hotel blocks',
       'Rate confirmed before you book; wedding bookings cancel free up to 12 hours before',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
     ],
     sections: [
       {
@@ -469,7 +469,7 @@ export const MARYLAND_BATCH11 = [
       'Stretch limousine for the couple and wedding party; Sprinter van for guest shuttles',
       'Guest shuttle coordination from Tysons- and McLean-area hotel blocks',
       'Rate confirmed before you book; wedding bookings cancel free up to 12 hours before',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
     ],
     sections: [
       {
@@ -555,7 +555,7 @@ export const MARYLAND_BATCH11 = [
       'Gala, fundraiser and annual-dinner transportation with timed arrivals',
       'Corporate accounts with monthly invoicing and itemized, event-coded trip detail',
       'Airport transfers to DCA, Dulles and BWI with flight tracking and complimentary wait time',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -641,7 +641,7 @@ export const MARYLAND_BATCH11 = [
       'Easy pairing with dinner or drinks at the adjacent Wharf before or after the show',
       'Stretch limousines and sedans for date nights, anniversaries and subscriber outings',
       'Sprinter vans for theater groups, student outings and corporate subscription nights',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -724,7 +724,7 @@ export const MARYLAND_BATCH11 = [
       'Easy pairing with dinner at Shirlington Village restaurants before the show',
       'Stretch limousines and sedans for date nights, anniversaries and gala opening nights',
       'Sprinter vans for theater groups, subscriber outings and corporate nights at the theater',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -807,7 +807,7 @@ export const MARYLAND_BATCH11 = [
       'Executive sedans for client-entertainment outings and smaller groups',
       'Corporate accounts with monthly invoicing for HR-organized team events',
       'Pickup and drop-off coordinated with your reserved bay time, not a generic fixed window',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {

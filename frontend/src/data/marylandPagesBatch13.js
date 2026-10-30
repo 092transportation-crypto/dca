@@ -21,7 +21,7 @@
 const VEHICLES = [
   { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
   { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
-  { name: 'Cadillac Escalade', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
+  { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
   { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
   { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
   { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings, prom and special occasions' },
@@ -56,7 +56,7 @@ export const MARYLAND_BATCH13 = [
       'Loudoun and Fauquier wine-country day trips in a sedan, SUV or Sprinter van',
       'Discreet service for horse-country residents and estate properties off unmarked gravel lanes',
       'Sprinter vans and stretch limousines for weddings and multi-stop tasting-room days',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
     ],
     sections: [
       {
@@ -138,7 +138,7 @@ export const MARYLAND_BATCH13 = [
       'Wedding transportation for Loudoun barn and vineyard venues, Sprinter vans and stretch limousines',
       'Chauffeurs who know Purcellville\'s Main Street, the W&OD Trail and the surrounding farm roads',
       'Early-morning and late-night Dulles departures without a long trip downtown first',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
     ],
     sections: [
       {
@@ -220,7 +220,7 @@ export const MARYLAND_BATCH13 = [
       'A short hop to Tysons, Vienna and Fairfax for dinners, offices and events',
       'Private-school and activity drop-off service for families without a second driver that morning',
       'Family-friendly SUVs with car seats available on request',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
     ],
     sections: [
       {
@@ -305,7 +305,7 @@ export const MARYLAND_BATCH13 = [
       'Early-morning residential pickups with luggage help at the door',
       'Federal and contractor corporate accounts with monthly invoicing',
       'Family-friendly SUVs with car seats available on request',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
     ],
     sections: [
       {
@@ -390,7 +390,7 @@ export const MARYLAND_BATCH13 = [
       'A short hop to and from Capitol Hill and Union Station for the same night out',
       'Group transportation in a Sprinter van for a bar crawl or private event along the strip',
       'Residential service for the H Street-adjacent blocks of Capitol Hill, Trinidad and Near Northeast',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
     ],
     sections: [
       {
@@ -475,7 +475,7 @@ export const MARYLAND_BATCH13 = [
       'Sprinter vans for graduation families bringing flowers, gifts and multiple generations',
       'Easy pairing with a dinner stop in Foggy Bottom or the West End before or after the event',
       'Stretch limousines for galas and formal evening events',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
     ],
     sections: [
       {
@@ -557,7 +557,7 @@ export const MARYLAND_BATCH13 = [
       'Sprinter vans for groups, corporate suites and visiting-team logistics',
       'A short, direct run from Reagan National via South Capitol Street and the Suitland Parkway',
       'Chauffeurs familiar with the St. Elizabeths East campus layout and parking',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
     ],
     sections: [
       {
@@ -639,7 +639,7 @@ export const MARYLAND_BATCH13 = [
       'A single booking covering dinner upstairs and the show downstairs',
       'Easy pairing with a walk to Penn Quarter or the National Mall before or after',
       'Stretch limousines for date nights, anniversaries and small-group celebrations',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
     ],
     sections: [
       {
@@ -724,7 +724,7 @@ export const MARYLAND_BATCH13 = [
       'Chauffeurs comfortable with secure-campus visitor-vehicle check-in at research and manufacturing sites',
       'Hourly as-directed service for board visits, site tours and multi-stop investor days',
       'Discreet protocol for confidential due-diligence, licensing and acquisition-related travel',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -812,7 +812,7 @@ export const MARYLAND_BATCH13 = [
       'Surprise-party pickup timing coordinated in advance without tipping off the guest of honor',
       'Multi-stop evenings covering dinner, a bar or venue and the ride home on one booking',
       'Service across Washington DC, Maryland and Virginia with no distance surcharge within our coverage area',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
     ],
     sections: [
       {

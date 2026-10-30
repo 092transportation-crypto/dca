@@ -18,7 +18,7 @@ Unlike a single-city wedding market, DMV weddings routinely span jurisdictions i
 
 - **Executive sedan or luxury sedan** — the couple's private transfer between venues, or transportation for parents.
 
-- **SUV (Escalade or Suburban)** — a small wedding party or immediate family group with room for dresses and garment bags.
+- **SUV (Navigator or Suburban)** — a small wedding party or immediate family group with room for dresses and garment bags.
 
 - **Mercedes Sprinter van** — the most popular choice for a full wedding party of six to fourteen, especially for the getting-ready-to-ceremony leg.
 

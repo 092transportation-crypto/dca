@@ -759,7 +759,7 @@ export const ROUTE_PAGES = [
       },
       {
         q: "What vehicles are available for NoVA transfers?",
-        a: "Luxury sedans for solo and business travel, Cadillac Escalade and Suburban SUVs for families with luggage, and thirteen-passenger Mercedes Sprinter vans for groups \u2014 every vehicle chauffeur-driven, detailed before pickup, and quoted at one flat rate.",
+        a: "Luxury sedans for solo and business travel, Lincoln Navigator and Suburban SUVs for families with luggage, and thirteen-passenger Mercedes Sprinter vans for groups \u2014 every vehicle chauffeur-driven, detailed before pickup, and quoted at one flat rate.",
       },
     ],
     nearby: ['dca-to-arlington', 'dca-to-fairfax', 'dca-to-mclean', 'dca-to-reston', 'dca-to-herndon'],
@@ -794,7 +794,7 @@ export const ROUTE_PAGES = [
       {
         h2: "Vehicles and group options",
         paragraphs: [
-          "Solo travelers ride in a Mercedes-class luxury sedan. Families heading home with a semester's worth of luggage take an Escalade or Suburban. For wedding parties at Fairfax venues or corporate groups visiting the government center, our Mercedes Sprinter vans seat up to thirteen with room for every bag.",
+          "Solo travelers ride in a Mercedes-class luxury sedan. Families heading home with a semester's worth of luggage take a Lincoln Navigator or Suburban. For wedding parties at Fairfax venues or corporate groups visiting the government center, our Mercedes Sprinter vans seat up to thirteen with room for every bag.",
           "Whatever the vehicle, the promise is identical: a professional, background-checked chauffeur, a spotless interior, and one flat price agreed before the trip begins. Returns to DCA include buffer time for security so you are never sprinting to a gate.",
         ],
       },
@@ -860,7 +860,7 @@ export const ROUTE_PAGES = [
       {
         h2: "Flat pricing for a premium address",
         paragraphs: [
-          "The flat $85 sedan rate includes fuel, any tolls, and the chauffeur — no surge when it rains, no premium during Tysons rush hour. Escalades and Suburbans carry families and extra luggage; Sprinter vans handle group moves for corporate events at Capital One Hall.",
+          "The flat $85 sedan rate includes fuel, any tolls, and the chauffeur — no surge when it rains, no premium during Tysons rush hour. Navigators and Suburbans carry families and extra luggage; Sprinter vans handle group moves for corporate events at Capital One Hall.",
           "Returns to DCA are timed around real traffic, not guesses: your chauffeur watches conditions on the Parkway and 123 and arrives early enough that security at Reagan National is never a gamble.",
         ],
       },
@@ -926,7 +926,7 @@ export const ROUTE_PAGES = [
       {
         h2: "Groups, families, and round trips",
         paragraphs: [
-          "A sedan fits the solo consultant; an Escalade or Suburban fits the relocating family and their luggage; a Sprinter van moves a thirteen-person project team in one vehicle. Round-trip bookings lock both legs at once, which most weekly commuters find the simplest way to run their travel.",
+          "A sedan fits the solo consultant; a Lincoln Navigator or Suburban fits the relocating family and their luggage; a Sprinter van moves a thirteen-person project team in one vehicle. Round-trip bookings lock both legs at once, which most weekly commuters find the simplest way to run their travel.",
           "Every trip runs 24/7 with a background-checked professional chauffeur, a detailed vehicle, and one all-inclusive price agreed before pickup.",
         ],
       },
@@ -992,7 +992,7 @@ export const ROUTE_PAGES = [
       {
         h2: "Vehicles for every trip profile",
         paragraphs: [
-          "The flat $125 sedan rate suits the solo traveler with a laptop bag. Families and longer stays step up to an Escalade or Suburban for the luggage room. Project teams and event groups ride together in a Mercedes Sprinter — thirteen seats, thirteen bags, one vehicle, one price.",
+          "The flat $125 sedan rate suits the solo traveler with a laptop bag. Families and longer stays step up to a Lincoln Navigator or Suburban for the luggage room. Project teams and event groups ride together in a Mercedes Sprinter — thirteen seats, thirteen bags, one vehicle, one price.",
           "Every option comes with the same fundamentals: a professional chauffeur, a spotless late-model vehicle, 24/7 availability, and a rate that does not move after you book it.",
         ],
       },
@@ -1058,7 +1058,7 @@ export const ROUTE_PAGES = [
       {
         h2: "Long-distance comfort, both directions",
         paragraphs: [
-          "An hour-plus on I-95 is where vehicle quality stops being a luxury. Our sedans and SUVs are late-model, quiet, and detailed before every trip — a rolling office or a rolling nap, your choice. Families and groups take a Suburban, an Escalade, or a thirteen-seat Sprinter and keep everyone together.",
+          "An hour-plus on I-95 is where vehicle quality stops being a luxury. Our sedans and SUVs are late-model, quiet, and detailed before every trip — a rolling office or a rolling nap, your choice. Families and groups take a Suburban, a Lincoln Navigator, or a thirteen-seat Sprinter and keep everyone together.",
           "Northbound pickups in Fredericksburg are timed with generous I-95 buffer, so a crash at Occoquan never turns into a missed flight at Reagan National. We run 24/7, including the 4 a.m. departures this corridor is famous for.",
         ],
       },
@@ -1124,7 +1124,7 @@ export const ROUTE_PAGES = [
       {
         h2: "Groups, golf trips, and senior week",
         paragraphs: [
-          "Beach travel is group travel. Our Suburbans and Escalades carry five or six with serious luggage; our Mercedes Sprinter vans carry up to thirteen — the whole family reunion, the golf foursome (clubs included), or a bachelorette crew — in one vehicle at one flat price that beats three separate rideshares every time.",
+          "Beach travel is group travel. Our Suburbans and Navigators carry five or six with serious luggage; our Mercedes Sprinter vans carry up to thirteen — the whole family reunion, the golf foursome (clubs included), or a bachelorette crew — in one vehicle at one flat price that beats three separate rideshares every time.",
           "Parents also trust us for supervised senior-week drop-offs and pickups: a professional, background-checked chauffeur, a fixed schedule, and confirmation when the ride is complete.",
         ],
       },

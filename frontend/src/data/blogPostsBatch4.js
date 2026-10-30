@@ -316,7 +316,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>A designated, professional chauffeur removes the single biggest risk factor of a bar-hopping night: someone driving, or someone alone trying to flag a rideshare late at night in an unfamiliar city. Booking round-the-clock coverage for the weekend, not just a single night, keeps that safety net in place for the entire trip.</p>
 
       <h2>Matching Vehicle Size to the Group</h2>
-      <p>A group of four to six fits comfortably in a Cadillac Escalade or Chevrolet Suburban; groups of seven to fourteen are better served by a Sprinter van, which also gives everyone room to actually enjoy the ride between stops rather than being packed in.</p>
+      <p>A group of four to six fits comfortably in a Lincoln Navigator or Chevrolet Suburban; groups of seven to fourteen are better served by a Sprinter van, which also gives everyone room to actually enjoy the ride between stops rather than being packed in.</p>
 
       <h2>Airport Departure Coordination</h2>
       <p>The return trip to <a href="/dca-to-washington-dc">DCA</a> at the end of the weekend often involves the same group-arrival problem in reverse, sometimes on the morning after a late night. Scheduling one or two consolidated airport drop-offs the night before, confirmed with flight numbers, removes the risk of a scrambled, hungover morning coordination effort.</p>
@@ -333,7 +333,7 @@ export const BLOG_POSTS_BATCH4 = [
     faqs: [
       { q: 'How do you handle a group arriving on different flights for a bachelorette weekend?', a: 'Rather than everyone booking individual rideshares, a Sprinter van or SUV can make consolidated airport runs picking up several people at once, which is simpler to coordinate and more cost-effective than splitting the group.' },
       { q: 'Can one vehicle stay with our group for a full bar-hopping night?', a: 'Yes. An hourly as-directed booking keeps the same chauffeur and vehicle with your group for the entire night, waiting at each stop, so no one gets left behind or split across separate rides.' },
-      { q: 'What vehicle size is right for a group of 8 to 10 people?', a: 'A Mercedes Sprinter van, which seats up to 14 with real room to move. Groups of four to six are usually better matched to a Cadillac Escalade or Chevrolet Suburban.' },
+      { q: 'What vehicle size is right for a group of 8 to 10 people?', a: 'A Mercedes Sprinter van, which seats up to 14 with real room to move. Groups of four to six are usually better matched to a Lincoln Navigator or Chevrolet Suburban.' },
     ],
   },
   {
@@ -358,7 +358,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>List every group that needs transportation separately: the couple, the wedding party, both sets of parents, and any guests without their own transportation between ceremony and reception if the venues differ. Each of these groups may need its own vehicle or can share, depending on timing and vehicle size.</p>
 
       <h2>The Wedding Party: Sedan, SUV or Sprinter?</h2>
-      <p>A wedding party of 2 to 3 (just the couple, or the couple plus one or two attendants) fits in a luxury sedan. A full wedding party of 4 to 6 typically needs an SUV like a Cadillac Escalade or Chevrolet Suburban. Wedding parties larger than 8, which is increasingly common, are best served by a Mercedes Sprinter van, which comfortably seats up to 14 and keeps the whole party together for photos en route.</p>
+      <p>A wedding party of 2 to 3 (just the couple, or the couple plus one or two attendants) fits in a luxury sedan. A full wedding party of 4 to 6 typically needs an SUV like a Lincoln Navigator or Chevrolet Suburban. Wedding parties larger than 8, which is increasingly common, are best served by a Mercedes Sprinter van, which comfortably seats up to 14 and keeps the whole party together for photos en route.</p>
 
       <h2>Parents Usually Need Their Own Vehicle</h2>
       <p>It's easy to forget, but parents on both sides typically need transportation separate from the wedding party, especially if there's a receiving-line moment or family photos that don't include the full bridal party. A single sedan often covers both sets of parents if timing allows a quick two-stop pickup.</p>
@@ -814,7 +814,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>A Mercedes S-Class or BMW 7 Series steps up cabin quality and presentation for client pickups, board members, or travelers who simply want the higher-tier experience. Passenger and luggage capacity is similar to an executive sedan — the difference is comfort and impression, not capacity.</p>
 
       <h2>SUV: 3-6 Passengers, Extra Luggage</h2>
-      <p>A Cadillac Escalade or Chevrolet Suburban handles families, small groups, or solo travelers with an unusual amount of luggage — golf clubs, ski equipment, or multiple oversized suitcases that wouldn't fit a sedan's trunk. It's the right choice whenever luggage volume, not just passenger count, is the deciding factor.</p>
+      <p>A Lincoln Navigator or Chevrolet Suburban handles families, small groups, or solo travelers with an unusual amount of luggage — golf clubs, ski equipment, or multiple oversized suitcases that wouldn't fit a sedan's trunk. It's the right choice whenever luggage volume, not just passenger count, is the deciding factor.</p>
 
       <h2>Sprinter Van: 6-14 Passengers</h2>
       <p>A Mercedes Sprinter van is built for genuine group travel — wedding parties, corporate teams, family reunions, or any group larger than an SUV comfortably fits. It's also frequently the right call for a smaller group with a large amount of collective luggage, even if passenger count alone wouldn't require it.</p>
@@ -841,7 +841,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>The right vehicle class comes down to passengers, luggage and occasion — in that order. <a href="/booking">Get a vehicle recommendation and quote here</a> or call (877) 609-1919.</p>
     `,
     faqs: [
-      { q: 'How many people fit in an SUV vs. a Sprinter van?', a: 'An SUV like a Cadillac Escalade or Chevrolet Suburban comfortably fits 3 to 6 passengers with extra luggage. A Mercedes Sprinter van fits 6 to 14 passengers and is the right call for genuine group travel.' },
+      { q: 'How many people fit in an SUV vs. a Sprinter van?', a: 'An SUV like a Lincoln Navigator or Chevrolet Suburban comfortably fits 3 to 6 passengers with extra luggage. A Mercedes Sprinter van fits 6 to 14 passengers and is the right call for genuine group travel.' },
       { q: 'When should I book a stretch limousine instead of a Sprinter van?', a: 'When the vehicle itself is part of the occasion — a wedding, prom or anniversary. For routine group transportation of the same size, a Sprinter van is usually more practical and cost-effective.' },
       { q: 'What if my group has more luggage than passengers would suggest?', a: 'Size the vehicle to luggage volume as well as headcount — a small family with a week’s worth of luggage is often better matched to an SUV than a sedan, even if three people would technically fit.' },
     ],

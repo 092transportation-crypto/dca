@@ -18,7 +18,7 @@ const VEHICLES = [
     best: 'VIP and executive travel',
   },
   {
-    name: 'Cadillac Escalade',
+    name: 'Lincoln Navigator',
     cls: 'Premium SUV',
     seats: 6,
     best: 'families and small groups with luggage',
@@ -238,7 +238,7 @@ export const MARYLAND_BATCH4 = [
     stats: AIRPORT_STATS,
     intro: [
       'A black car at Reagan National means a professional chauffeur, a late-model sedan or SUV, and a rate that was agreed before the plane landed. DCA Limos runs exactly that, every day and every hour, between DCA and Washington DC, Northern Virginia and Maryland. No app, no surge and no wondering which of six similar vehicles at the curb is yours.',
-      'The fleet ranges from the Mercedes-Benz E-Class and BMW 7 Series to the Cadillac Escalade and Chevrolet Suburban, with Sprinter vans for groups. Every chauffeur is licensed and background-checked, every vehicle is commercially insured and dispatch answers around the clock.',
+      'The fleet ranges from the Mercedes-Benz E-Class and BMW 7 Series to the Lincoln Navigator and Chevrolet Suburban, with Sprinter vans for groups. Every chauffeur is licensed and background-checked, every vehicle is commercially insured and dispatch answers around the clock.',
     ],
     highlights: [
       'Flat rates to and from DCA confirmed before you ride, with no surge pricing',
@@ -287,7 +287,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'Can I book an SUV or a van instead of a sedan?',
-        a: 'Yes. The Cadillac Escalade and Chevrolet Suburban suit families and travelers with extra luggage, and the Mercedes Sprinter van seats groups of up to fourteen. Car seats are available on request.',
+        a: 'Yes. The Lincoln Navigator and Chevrolet Suburban suit families and travelers with extra luggage, and the Mercedes Sprinter van seats groups of up to fourteen. Car seats are available on request.',
       },
       {
         q: 'What is the cancellation policy?',
@@ -514,7 +514,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: 'Making the black car pickup smoother',
         paragraphs: [
-          'Give us the flight number rather than just a time, because the flight number is what we track. Tell us the number of passengers and bags so the vehicle fits; a Cadillac Escalade or Chevrolet Suburban is the better choice for a family with checked luggage. Ask for a car seat when you book if you need one. And keep your phone on as you land; the chauffeur’s message is the only step that requires you.',
+          'Give us the flight number rather than just a time, because the flight number is what we track. Tell us the number of passengers and bags so the vehicle fits; a Lincoln Navigator or Chevrolet Suburban is the better choice for a family with checked luggage. Ask for a car seat when you book if you need one. And keep your phone on as you land; the chauffeur’s message is the only step that requires you.',
           'Questions about a specific arrival can be answered by dispatch at (877) 609-1919 at any hour.',
         ],
       },
@@ -754,7 +754,7 @@ export const MARYLAND_BATCH4 = [
       'Every chauffeur is licensed and background-checked, every vehicle is commercially insured and dispatch is staffed 24/7. Flat rates cover point-to-point trips; hourly rates cover evenings and days with several stops.',
     ],
     highlights: [
-      'Mercedes-Benz E-Class and BMW 7 Series sedans; Cadillac Escalade and Chevrolet Suburban SUVs',
+      'Mercedes-Benz E-Class and BMW 7 Series sedans; Lincoln Navigator and Chevrolet Suburban SUVs',
       'Flat rates confirmed before you ride, with no surge pricing at rush hour or in the rain',
       'Airport service to Reagan National, Dulles and BWI with flight tracking and complimentary wait time',
       'Hourly service for evenings out, sightseeing and meeting days',
@@ -792,7 +792,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'Which vehicles are available?',
-        a: 'Mercedes-Benz E-Class and BMW 7 Series sedans for up to three passengers, Cadillac Escalade and Chevrolet Suburban SUVs for up to six, and Mercedes Sprinter vans for groups. Car seats are available on request.',
+        a: 'Mercedes-Benz E-Class and BMW 7 Series sedans for up to three passengers, Lincoln Navigator and Chevrolet Suburban SUVs for up to six, and Mercedes Sprinter vans for groups. Car seats are available on request.',
       },
       {
         q: 'Do you serve all of Washington DC?',
@@ -943,7 +943,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: 'Which airport, and which vehicle',
         paragraphs: [
-          'If you have a choice of airports, count the ground time as part of the trip. Reagan National wins for most domestic flights when you are staying in the District; Dulles is the gateway for long-haul international routes; BWI can be the practical choice for certain airlines and destinations. Whichever you fly, the sedan suits up to three passengers with normal luggage, the Cadillac Escalade or Chevrolet Suburban suits families and heavy bags, and the Sprinter van carries groups of up to fourteen.',
+          'If you have a choice of airports, count the ground time as part of the trip. Reagan National wins for most domestic flights when you are staying in the District; Dulles is the gateway for long-haul international routes; BWI can be the practical choice for certain airlines and destinations. Whichever you fly, the sedan suits up to three passengers with normal luggage, the Lincoln Navigator or Chevrolet Suburban suits families and heavy bags, and the Sprinter van carries groups of up to fourteen.',
           'Book online or call (877) 609-1919 with your flight number, address and passenger count, and dispatch will confirm the vehicle and the flat rate.',
         ],
       },
@@ -1738,7 +1738,7 @@ export const MARYLAND_BATCH4 = [
     vehicles: [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
-      { name: 'Cadillac Escalade', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
+      { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with beach or golf luggage' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'proms, weddings and celebrations' },
@@ -1831,7 +1831,7 @@ export const MARYLAND_BATCH4 = [
     vehicles: [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
-      { name: 'Cadillac Escalade', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
+      { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with beach or golf luggage' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'proms, weddings and celebrations' },
@@ -1924,7 +1924,7 @@ export const MARYLAND_BATCH4 = [
     vehicles: [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
-      { name: 'Cadillac Escalade', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
+      { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with beach or golf luggage' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'proms, weddings and celebrations' },
@@ -2018,7 +2018,7 @@ export const MARYLAND_BATCH4 = [
     vehicles: [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
-      { name: 'Cadillac Escalade', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
+      { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with beach or golf luggage' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'proms, weddings and celebrations' },
@@ -2112,7 +2112,7 @@ export const MARYLAND_BATCH4 = [
     vehicles: [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
-      { name: 'Cadillac Escalade', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
+      { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with beach or golf luggage' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'proms, weddings and celebrations' },

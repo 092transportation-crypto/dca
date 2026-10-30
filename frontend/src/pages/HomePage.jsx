@@ -34,7 +34,7 @@ const HOME_FAQS = [
   },
   {
     q: 'What vehicles do you offer?',
-    a: 'Late-model executive sedans, luxury SUVs like the Cadillac Escalade and Chevrolet Suburban, and Mercedes Sprinter vans for groups. Every vehicle is detailed before your trip and driven by a professional, background-checked chauffeur.',
+    a: 'Late-model executive sedans, luxury SUVs like the Lincoln Navigator and Chevrolet Suburban, and Mercedes Sprinter vans for groups. Every vehicle is detailed before your trip and driven by a professional, background-checked chauffeur.',
   },
   {
     q: 'Do you serve BWI and Dulles too?',
@@ -528,7 +528,7 @@ const HomePage = () => {
                 { to: '/services', label: 'Wedding Limo MD' },
                 { to: '/services', label: 'Prom Limo MD' },
                 { to: '/fleet', label: 'Mercedes S-Class' },
-                { to: '/fleet', label: 'Cadillac Escalade' },
+                { to: '/fleet', label: 'Lincoln Navigator' },
                 { to: '/fleet', label: 'Sprinter Van' },
                 { to: '/booking', label: 'Book Online' },
                 { to: '/contact', label: 'Corporate Accounts' },

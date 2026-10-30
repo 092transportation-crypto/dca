@@ -27,7 +27,7 @@ export const BLOG_POSTS_BATCH9 = [
       <ul>
         <li><strong>Crystal City / Pentagon City:</strong> flat sedan rate starting around $55 — the shortest, most direct run DCA makes, typically 8–15 minutes.</li>
         <li><strong>Rosslyn / Ballston / Clarendon:</strong> flat sedan rate starting around $65–$75, roughly 15–25 minutes via the GW Parkway or Route 110.</li>
-        <li><strong>Premium SUV (Escalade or Suburban), any Arlington neighborhood:</strong> typically $85–$105.</li>
+        <li><strong>Premium SUV (Navigator or Suburban), any Arlington neighborhood:</strong> typically $85–$105.</li>
         <li><strong>Mercedes Sprinter van for groups:</strong> generally $150–$185, often the cheapest per-person option for a family or team of six or more.</li>
       </ul>
       <p>See our full <a href="/dca-to-arlington">DCA to Arlington route page</a> for neighborhood-by-neighborhood pricing, or our <a href="/clarendon-arlington-limo-service">Clarendon &amp; Arlington limo service page</a> for ongoing service beyond the airport run.</p>
@@ -402,7 +402,7 @@ export const BLOG_POSTS_BATCH9 = [
       },
       {
         q: 'What vehicle works best for a family sightseeing day?',
-        a: 'A premium SUV like an Escalade or Suburban suits most families with some luggage or stroller gear; a Sprinter van fits larger families or groups traveling together for the day.',
+        a: 'A premium SUV like a Lincoln Navigator or Suburban suits most families with some luggage or stroller gear; a Sprinter van fits larger families or groups traveling together for the day.',
       },
     ],
   },
@@ -494,7 +494,7 @@ export const BLOG_POSTS_BATCH9 = [
       <h2>Typical hourly rates by vehicle</h2>
       <ul>
         <li><strong>Stretch limousine (up to 8 passengers):</strong> generally $120–$160 per hour, with a 4–5 hour minimum on prom weekends.</li>
-        <li><strong>Premium SUV — Escalade or Suburban (up to 6 passengers):</strong> generally $110–$150 per hour.</li>
+        <li><strong>Premium SUV — Navigator or Suburban (up to 6 passengers):</strong> generally $110–$150 per hour.</li>
         <li><strong>Mercedes Sprinter van (up to 14 passengers):</strong> generally $160–$210 per hour — the best per-person value for larger groups.</li>
       </ul>
       <p>Peak Maryland prom Saturdays in April and May carry the highest demand of the year for these vehicles, and rates (along with availability) tighten the closer you book to the date.</p>
@@ -630,7 +630,7 @@ export const BLOG_POSTS_BATCH9 = [
       <p>DCA Limos keeps the deepest bench in sedans and standard SUVs, because they cover the largest share of daily trips — single travelers, couples, small families. That depth means a same-day or next-day sedan booking is often possible outside of major surge weeks, though booking even a day or two ahead still locks in your preferred pickup window rather than whatever slot is left. If your trip is a standard solo or two-person airport run, this is the category where last-minute booking is realistically the least risky.</p>
 
       <h2>Premium SUVs: a smaller pool, worth a few days' notice</h2>
-      <p>Escalades and Suburbans see heavier demand relative to their numbers in the fleet, since they serve both airport families with luggage and smaller corporate groups. A few days' lead time meaningfully improves your odds of getting your specific requested vehicle rather than a comparable substitute, particularly on weekends.</p>
+      <p>Navigators and Suburbans see heavier demand relative to their numbers in the fleet, since they serve both airport families with luggage and smaller corporate groups. A few days' lead time meaningfully improves your odds of getting your specific requested vehicle rather than a comparable substitute, particularly on weekends.</p>
 
       <h2>Sprinter vans: book weeks ahead, not days</h2>
       <p>Sprinter vans are the vehicle most likely to be fully booked on any given weekend, because they serve the highest-value, least-flexible use cases: wedding parties, corporate roadshows, and large family or group airport transfers. A single Sprinter van can only be in one place at a time, and there are meaningfully fewer of them in any fleet than sedans. If your trip needs a 14-passenger van — a family reunion airport pickup, a bachelorette party, a corporate team — two to four weeks of lead time is the realistic minimum during busy seasons, not an overcautious buffer.</p>

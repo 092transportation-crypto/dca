@@ -188,7 +188,7 @@ export const BLOG_POSTS_BATCH2 = [
       <p>Rideshare availability depends on how many drivers are active nearby at that moment — usually solid at DCA given its traffic volume, but it can thin out during major events downtown. Taxis have a dedicated stand at the airport, making them easy to find on arrival even if the ride itself costs more than alternatives at certain hours. A reserved black car is committed in advance — your driver is coming because the trip is booked.</p>
 
       <h2>The Vehicle and the Driver</h2>
-      <p>Rideshare and taxi vehicles vary by whatever the driver owns; you may get a compact sedan or something larger depending on the app's assignment. A black car service specifies the vehicle class you are getting — a Mercedes-Benz sedan, an Escalade, a Sprinter — and the chauffeur is licensed, background-checked, and dressed for business travel.</p>
+      <p>Rideshare and taxi vehicles vary by whatever the driver owns; you may get a compact sedan or something larger depending on the app's assignment. A black car service specifies the vehicle class you are getting — a Mercedes-Benz sedan, a Lincoln Navigator, a Sprinter — and the chauffeur is licensed, background-checked, and dressed for business travel.</p>
 
       <h2>When Rideshare or a Taxi Is the Better Call</h2>
       <p>For a short, spontaneous trip with flexible timing — a quick hop into Crystal City, a same-day errand — rideshare is often faster to arrange and perfectly adequate. The airport taxi stand is a reasonable fallback if you land without a reservation and need to get moving immediately.</p>

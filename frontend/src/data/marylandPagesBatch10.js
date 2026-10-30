@@ -11,7 +11,7 @@
 const VEHICLES = [
   { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
   { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
-  { name: 'Cadillac Escalade', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
+  { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
   { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
   { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
   { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings, prom and special occasions' },
@@ -46,7 +46,7 @@ export const MARYLAND_BATCH10 = [
       'Airport transfers to DCA, Dulles and BWI with real-time flight tracking',
       'Sprinter vans for visiting scientists, conference groups and corporate delegations',
       'Corporate accounts with monthly invoicing and a dedicated dispatch contact',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -129,7 +129,7 @@ export const MARYLAND_BATCH10 = [
       'Chauffeurs who know which office towers restrict after-hours street access',
       'Sprinter van roadshows for teams and visiting delegations across Arlington\'s office corridors',
       'Corporate accounts with monthly invoicing and dedicated dispatch',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -212,7 +212,7 @@ export const MARYLAND_BATCH10 = [
       'Chauffeurs who know the I-270 spur merge, Rockville Pike and Shady Grove Road corridor',
       'Sprinter van roadshows for teams and visiting delegations',
       'Corporate accounts with monthly invoicing and a dedicated dispatch contact',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -298,7 +298,7 @@ export const MARYLAND_BATCH10 = [
       'Sprinter vans for medical conference delegations and group travel',
       'Discreet, HIPAA-aware chauffeur conduct for travel involving patients or sensitive health information',
       'Corporate accounts with monthly invoicing for hospital systems and healthcare companies',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -381,7 +381,7 @@ export const MARYLAND_BATCH10 = [
       'Capitol Hill meeting-day experience, including Senate and House office building drop-off logistics',
       'Sprinter vans for delegations, depositions requiring multiple travelers, and firm retreats',
       'Corporate accounts with monthly invoicing and a dedicated dispatch contact',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -464,7 +464,7 @@ export const MARYLAND_BATCH10 = [
       'Service across the Pentagon, Tysons, Crystal City and Quantico federal-contractor corridors',
       'Sprinter vans for agency delegations and contractor team travel',
       'Corporate accounts with monthly invoicing suited to government procurement and auditing needs',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -547,7 +547,7 @@ export const MARYLAND_BATCH10 = [
       'Sprinter vans for investor roadshows, board delegations and shareholder events',
       'Corporate accounts with monthly invoicing and itemized, auditable trip records',
       'Flight-tracked airport transfers for visiting executives and board members',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -633,7 +633,7 @@ export const MARYLAND_BATCH10 = [
       'Stretch limousines and premium sedans for gala nights and anniversary or date-night performances',
       'Sprinter vans for corporate groups hosting clients at a concert or gala',
       'Dinner-and-show routing with nearby North Bethesda and Pike & Rose restaurants',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -709,7 +709,7 @@ export const MARYLAND_BATCH10 = [
       'Easy pairing with dinner at Penn Quarter and Metro Center-area restaurants before the show',
       'Stretch limousines for date nights, anniversaries and milestone celebrations',
       'Sprinter vans for larger groups attending a touring show or concert together',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {
@@ -785,7 +785,7 @@ export const MARYLAND_BATCH10 = [
       'Sprinter vans for family groups, school trips and corporate outings visiting the Aquarium',
       'Flat-rate pricing with no day-long parking garage fees to budget around',
       'Easy pairing with an Orioles game at Camden Yards or a Ravens game at M&T Bank Stadium, both a short walk from the harbor',
-      'Mercedes E-Class and BMW 7 Series sedans, Escalade and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
     ],
     sections: [
       {

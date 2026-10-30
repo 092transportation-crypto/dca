@@ -106,7 +106,7 @@ export const BLOG_POSTS_BATCH10 = [
 
       <h2>Vehicle choices by group size</h2>
       <ul>
-        <li><strong>Immediate family (4–6 people):</strong> an executive SUV like an Escalade or Suburban comfortably fits the family with room for formal attire.</li>
+        <li><strong>Immediate family (4–6 people):</strong> an executive SUV like a Lincoln Navigator or Suburban comfortably fits the family with room for formal attire.</li>
         <li><strong>Friend group (8–14 teens):</strong> a Sprinter van is the standard choice, with room for the whole group plus a chaperone.</li>
         <li><strong>A grand entrance for the honoree:</strong> some families add a stretch limousine just for the honoree's arrival at the reception, separate from the friend group's van.</li>
       </ul>
@@ -239,7 +239,7 @@ export const BLOG_POSTS_BATCH10 = [
       </ul>
 
       <h2>Choosing the right vehicle</h2>
-      <p>An SUV like an Escalade or Suburban gives noticeably more room for a car seat, a stroller and standard luggage than a sedan does, which matters when every item needs to be reachable and nothing needs to be wedged in. For a family of three or four with a full set of baby gear, we typically recommend the SUV class over the standard sedan.</p>
+      <p>An SUV like a Lincoln Navigator or Suburban gives noticeably more room for a car seat, a stroller and standard luggage than a sedan does, which matters when every item needs to be reachable and nothing needs to be wedged in. For a family of three or four with a full set of baby gear, we typically recommend the SUV class over the standard sedan.</p>
 
       <h2>How this differs from a hospital-discharge trip</h2>
       <p>If you are instead looking for transportation home from the hospital after a birth — a different situation with its own specific considerations around gentle driving and fresh car-seat installation — see our dedicated <a href="/blog/hospital-to-home-newborn-homecoming-transportation">hospital-to-home newborn transportation guide</a>. This guide is written for families flying with an already-established infant through the airport, not the newborn discharge trip itself.</p>
@@ -261,7 +261,7 @@ export const BLOG_POSTS_BATCH10 = [
       },
       {
         q: 'What vehicle do you recommend for a family with a baby and full luggage?',
-        a: 'An SUV like an Escalade or Suburban, which gives noticeably more usable space for a car seat, stroller and luggage than a standard sedan.',
+        a: 'An SUV like a Lincoln Navigator or Suburban, which gives noticeably more usable space for a car seat, stroller and luggage than a standard sedan.',
       },
       {
         q: 'Does the chauffeur help with the stroller and bags at pickup?',
