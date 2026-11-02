@@ -14,6 +14,7 @@ import { BLOG_POSTS_BATCH11 } from '@/data/blogPostsBatch11';
 import { BLOG_POSTS_BATCH12 } from '@/data/blogPostsBatch12';
 import { BLOG_POSTS_BATCH13 } from '@/data/blogPostsBatch13';
 import { BLOG_POSTS_BATCH14 } from '@/data/blogPostsBatch14';
+import { BLOG_POSTS_BATCH15 } from '@/data/blogPostsBatch15';
 
 export const BLOG_POSTS = [
   {
@@ -1779,6 +1780,12 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH13);
 // as every other batch — see the BATCH2 note just below for why that
 // ordering matters.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH14);
+
+// BATCH15 (2026-11-01): perimeter rule explainer, DCA security/TSA PreCheck
+// honest guide, Mount Vernon visitor guide, corporate event transportation
+// checklist, and a flat-rate-quote breakdown — see blogPostsBatch15.js
+// header for why each was picked (checked against all 157 prior posts).
+BLOG_POSTS.push(...BLOG_POSTS_BATCH15);
 
 // BATCH2 (2026-09-22) was historically pushed after the ensureFiveFaqs pass
 // below, which meant its posts silently skipped the five-FAQ top-up (they
