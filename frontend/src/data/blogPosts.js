@@ -15,6 +15,7 @@ import { BLOG_POSTS_BATCH12 } from '@/data/blogPostsBatch12';
 import { BLOG_POSTS_BATCH13 } from '@/data/blogPostsBatch13';
 import { BLOG_POSTS_BATCH14 } from '@/data/blogPostsBatch14';
 import { BLOG_POSTS_BATCH15 } from '@/data/blogPostsBatch15';
+import { BLOG_POSTS_BATCH16 } from '@/data/blogPostsBatch16';
 
 export const BLOG_POSTS = [
   {
@@ -1786,6 +1787,11 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH14);
 // checklist, and a flat-rate-quote breakdown — see blogPostsBatch15.js
 // header for why each was picked (checked against all 157 prior posts).
 BLOG_POSTS.push(...BLOG_POSTS_BATCH15);
+
+// Batch 16 (2026-11-02): 5 new posts — Kennedy Center, Global Entry vs TSA
+// PreCheck, DC United/Audi Field, Wolf Trap, and DCA's two terminals. See
+// blogPostsBatch16.js header for why each was picked.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH16);
 
 // BATCH2 (2026-09-22) was historically pushed after the ensureFiveFaqs pass
 // below, which meant its posts silently skipped the five-FAQ top-up (they

@@ -13,6 +13,7 @@ import { MARYLAND_BATCH11 } from '@/data/marylandPagesBatch11';
 import { MARYLAND_BATCH12 } from '@/data/marylandPagesBatch12';
 import { MARYLAND_BATCH13 } from '@/data/marylandPagesBatch13';
 import { MARYLAND_BATCH14 } from '@/data/marylandPagesBatch14';
+import { MARYLAND_BATCH15 } from '@/data/marylandPagesBatch15';
 import { ensureFiveFaqs } from '@/lib/faqExtras';
 
 export const MARYLAND_PAGES = [
@@ -9735,6 +9736,10 @@ export const MARYLAND_PAGES = [
   // university administration, insurance); and two DC museum venues with
   // zero prior mentions (International Spy Museum, Planet Word).
   ...MARYLAND_BATCH14,
+  // Batch 15 (2026-11-02): 3 new landmark/institution pages — Children's
+  // National Hospital, The Wharf, and NIH Bethesda. See
+  // marylandPagesBatch15.js header for why each was picked.
+  ...MARYLAND_BATCH15,
 ];
 
 // Every page carries five FAQs (accordion + FAQPage schema).
