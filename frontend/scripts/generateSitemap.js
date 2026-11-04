@@ -26,10 +26,17 @@ const ROOT = path.resolve(__dirname, "..");
 const SRC = path.join(ROOT, "src");
 const SITEMAP_PATH = path.join(ROOT, "public", "sitemap-static.xml");
 const ORIGIN = "https://dcalimos.com";
-const TODAY = new Date().toISOString().slice(0, 10);
+// Eastern date, matching the scheduled-publishing cutoff (src/lib/publishSchedule.js).
+const TODAY = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "America/New_York", year: "numeric", month: "2-digit", day: "2-digit",
+}).format(new Date());
 
-// Pages touched by the 2026-10-12 SEO pass: get a fresh <lastmod> even though
-// they already existed. Everything else keeps its prior lastmod untouched.
+// Pages touched by the 2026-10-12 SEO pass: got a fresh <lastmod> even though
+// they already existed. Only applied on TOUCHED_ON itself — the site rebuilds
+// daily (api/cron/rebuild.js, scheduled blog publishing), and re-stamping these
+// on every build would claim they changed every day. Everything else keeps its
+// prior lastmod untouched.
+const TOUCHED_ON = "2026-10-12";
 const TOUCHED_TODAY = new Set([
   "/",
   "/limo/dca-airport-limo",
@@ -120,6 +127,8 @@ function collectRoutes() {
   const { GUIDES } = require(path.join(SRC, "data/guides"));
   for (const p of GUIDES) routes.set(`/${p.slug}`, ["monthly", "0.8"]);
 
+  // BLOG_POSTS already excludes scheduled posts whose date is after today
+  // (Eastern), so they join the sitemap on the daily rebuild of their date.
   const { BLOG_POSTS } = require(path.join(SRC, "data/blogPosts"));
   for (const p of BLOG_POSTS) routes.set(`/blog/${p.slug}`, ["monthly", "0.7"]);
 
@@ -155,7 +164,7 @@ function main() {
     const prev = existing.get(p);
     const isNew = !prev;
     if (isNew) added.push(p);
-    const lastmod = isNew || TOUCHED_TODAY.has(p) ? TODAY : prev.lastmod;
+    const lastmod = isNew || (TODAY === TOUCHED_ON && TOUCHED_TODAY.has(p)) ? TODAY : prev.lastmod;
     const changefreq = prev ? prev.changefreq : defChangefreq;
     const priority = prev ? prev.priority : defPriority;
     const loc = p === "/" ? `${ORIGIN}/` : `${ORIGIN}${p}`;

@@ -5,6 +5,7 @@ import { MARYLAND_PAGES } from '@/data/marylandPages';
 import { LANDING_PAGES } from '@/data/landingPages';
 
 import { EVENT_PAGES } from '@/data/eventPages';
+import { findBlogPost } from '@/data/blogPosts';
 
 // Footer city names link to that city's own page when one exists.
 const cityHref = (city) => {
@@ -162,7 +163,8 @@ const Footer = () => {
         <div className="border-t border-amber-500/30 pt-6 pb-2 mb-4" data-testid="footer-blog-links">
           <h3 className="text-sm sm:text-base font-bold mb-4 text-amber-400 uppercase tracking-wider text-center md:text-left">From the Blog</h3>
           <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs sm:text-sm text-gray-400">
-            {BLOG_FOOTER_LINKS.map((p) => (
+            {/* findBlogPost: skip a curated post that is scheduled and not live yet. */}
+            {BLOG_FOOTER_LINKS.filter((p) => findBlogPost(p.slug)).map((p) => (
               <Link key={p.slug} to={`/blog/${p.slug}`} className="hover:text-amber-400 transition-colors" data-testid={`footer-blog-${p.slug}`}>
                 {p.label}
               </Link>

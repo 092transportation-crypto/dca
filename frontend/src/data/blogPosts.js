@@ -1,6 +1,7 @@
 // DCA Limos blog posts — data-driven. BlogPostPage looks up by slug; BlogPage lists them.
 // Add a new object and it appears in the listing, gets its own /blog/<slug> page, and the sitemap.
 import { ensureFiveFaqs } from '@/lib/faqExtras';
+import { isPublished } from '@/lib/publishSchedule';
 import { BLOG_POSTS_BATCH2 } from '@/data/blogPostsBatch2';
 import { BLOG_POSTS_BATCH3 } from '@/data/blogPostsBatch3';
 import { BLOG_POSTS_BATCH4 } from '@/data/blogPostsBatch4';
@@ -1805,6 +1806,20 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH2);
 BLOG_POSTS.forEach((p) => {
   p.faqs = ensureFiveFaqs(p.faqs, { slug: p.slug });
 });
+
+// Every post, including ones scheduled for a future date. Only tooling that
+// needs the full set (slug-collision checks) should read this.
+export const ALL_BLOG_POSTS = BLOG_POSTS.slice();
+
+// Scheduled publishing (src/lib/publishSchedule.js): drop posts flagged
+// `scheduled: true` whose date is after the build cutoff, in place, so every
+// consumer of BLOG_POSTS (blog index, post route, related posts, breadcrumbs,
+// sitemap, prerender) only ever sees live posts. Push new batches ABOVE the
+// forEach pass — anything pushed below this line skips both the FAQ top-up
+// and the schedule filter.
+for (let i = BLOG_POSTS.length - 1; i >= 0; i -= 1) {
+  if (!isPublished(BLOG_POSTS[i])) BLOG_POSTS.splice(i, 1);
+}
 
 export function findBlogPost(slug) {
   return BLOG_POSTS.find((p) => p.slug === slug) || null;
