@@ -17,6 +17,7 @@ import { BLOG_POSTS_BATCH13 } from '@/data/blogPostsBatch13';
 import { BLOG_POSTS_BATCH14 } from '@/data/blogPostsBatch14';
 import { BLOG_POSTS_BATCH15 } from '@/data/blogPostsBatch15';
 import { BLOG_POSTS_BATCH16 } from '@/data/blogPostsBatch16';
+import { BLOG_POSTS_BATCH17 } from '@/data/blogPostsBatch17';
 
 export const BLOG_POSTS = [
   {
@@ -1793,6 +1794,11 @@ BLOG_POSTS.push(...BLOG_POSTS_BATCH15);
 // PreCheck, DC United/Audi Field, Wolf Trap, and DCA's two terminals. See
 // blogPostsBatch16.js header for why each was picked.
 BLOG_POSTS.push(...BLOG_POSTS_BATCH16);
+
+// Batch 17 (2026-11-04): 15 posts scheduled five a day for November 5-7,
+// 2026 (`scheduled: true`). Pushed above the forEach pass so they get the FAQ
+// top-up and the schedule filter below.
+BLOG_POSTS.push(...BLOG_POSTS_BATCH17);
 
 // BATCH2 (2026-09-22) was historically pushed after the ensureFiveFaqs pass
 // below, which meant its posts silently skipped the five-FAQ top-up (they
