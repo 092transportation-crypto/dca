@@ -1763,4 +1763,111 @@ export const BLOG_POSTS_BATCH17 = [
       { q: 'What else can we see nearby?', a: 'The U.S. Capitol, the National Mall museums, Bartholdi Park and Eastern Market are all close by. An hourly booking lets the vehicle stay with you as you move between sites.' },
     ],
   },
+
+  // Added 2026-11-09: one scheduled keyword-gap post on November 14, 2026
+  // (the day after this batch's last post). Topic checked against every post,
+  // guide and landing page on the site; the winter-weather delay playbook is
+  // weather-specific, so this general Reagan delays guide links to it rather
+  // than repeating it. Wait and cancellation policies copy pageFaqs.js; no
+  // statistics. Delay causes are described generally and readers are sent to
+  // the FAA and airline for live status.
+  {
+    slug: 'reagan-airport-delays-causes-flight-status-pickup-planning',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-dulles', 'dca-to-bwi'],
+    relatedLinks: [
+      { label: 'Winter Weather and Flight Delay Playbook for DCA', to: '/blog/dca-winter-weather-flight-delay-playbook' },
+      { label: 'Where Your Chauffeur Meets You at Reagan National', to: '/blog/reagan-national-arrivals-where-your-chauffeur-meets-you' },
+      { label: 'How Rain and Flooding Affect DC-Area Ground Transportation', to: '/blog/weather-flooding-ground-transportation-dc-non-winter' },
+    ],
+    title: 'Reagan Airport Delays: Why They Happen and How to Plan Your Ride Around Them',
+    metaTitle: 'Reagan Airport Delays: Causes and Planning | DCA Limos',
+    metaDesc:
+      'Why Reagan airport delays happen, how to check FAA and airline flight status, and how flight-tracked pickups and free wait time work if your flight runs late.',
+    excerpt:
+      'Reagan National is convenient, but its runway, airspace and schedule make delays ripple quickly. Here is why Reagan airport delays happen, how to check status, and how a flight-tracked pickup adapts.',
+    image: '/images/blog/airport-terminal-glass.webp',
+    author: 'Michael Chen',
+    authorBio: 'Transportation industry analyst and frequent DC-area business traveler with 15+ years in executive travel logistics.',
+    date: 'November 14, 2026',
+    scheduled: true,
+    readTime: '8 min read',
+    category: 'Airport Transportation',
+    content: `
+      <p class="lead">Reagan National is the most convenient airport in the Washington region, a few miles from downtown on the Virginia bank of the Potomac. That convenience comes with a few built-in constraints, and on a bad day they turn into Reagan airport delays that ripple through the whole schedule. This guide explains why delays happen at DCA, how to check whether your flight is affected, and how to plan your ground transportation so a late flight does not become a stranded evening.</p>
+
+      <h2>Why Reagan Airport Delays Happen</h2>
+      <p>Most delays at Reagan National come from a handful of causes. None of them is unique to DCA, but the airport's layout and location make some of them more noticeable than at a larger airport.</p>
+
+      <h3>A compact airfield with one main runway</h3>
+      <p>DCA sits on a small piece of land between the George Washington Memorial Parkway and the river. Most airline traffic uses a single main runway, and it is short by the standards of a major airport. When everything is running normally, that is plenty. When wind, visibility or a runway issue reduces how many aircraft can land each hour, there is little spare capacity to absorb the backlog, so delays build quickly and clear slowly.</p>
+
+      <h3>Slot-controlled operations and a full schedule</h3>
+      <p>Reagan is one of a small number of U.S. airports where the FAA limits scheduled operations through takeoff and landing slots. The schedule is planned to use that capacity fully, and most of DCA's flights are short and medium-haul trips flown by aircraft that turn around and fly again within the hour. A late inbound aircraft usually means a late outbound flight, and a slow morning can affect flights well into the evening.</p>
+
+      <h3>Busy, restricted airspace</h3>
+      <p>The airspace around Washington is some of the most restricted in the country, with protected zones over the National Mall and the White House. Arrivals and departures follow tightly defined paths, many of them along the Potomac. Those procedures work well in good weather, but when low clouds or poor visibility rule out some of them, the airport can handle fewer flights per hour.</p>
+
+      <h3>Weather here and elsewhere</h3>
+      <p>Summer thunderstorms are a frequent cause of afternoon and evening delays across the East Coast. In winter, snow, ice and the time it takes to de-ice aircraft slow things down; our <a href="/blog/dca-winter-weather-flight-delay-playbook">winter weather and flight delay playbook</a> covers that season in detail. Weather at your origin airport, or along the busy Northeast corridor, can delay a DCA arrival even on a clear day in Washington.</p>
+
+      <h3>Air traffic control programs</h3>
+      <p>When demand exceeds what an airport can safely handle, the FAA can hold flights at their departure airports. A ground delay program spaces out arrivals over several hours, while a ground stop pauses flights to an airport for a period. Both can push your arrival back even though your aircraft is ready and the sky above you looks fine.</p>
+
+      <h2>How to Check DCA Flight Status and Airport Delays</h2>
+      <p>The most reliable picture comes from combining a few official sources:</p>
+      <ul>
+        <li><strong>Your airline's app or website</strong> is the best source for your specific flight, including gate changes, new departure times, rebookings and cancellations. Turn on notifications.</li>
+        <li><strong>The FAA's National Airspace System status page</strong> shows active ground delay programs, ground stops and general arrival or departure delays at major airports, including Reagan National.</li>
+        <li><strong>The airport's official website</strong>, run by the Metropolitan Washington Airports Authority, lists arrivals and departures and posts airport-wide notices.</li>
+        <li><strong>Flight-tracking apps</strong> can show where your inbound aircraft is right now, which helps you judge whether a posted departure time is realistic.</li>
+      </ul>
+      <p>If you are flying out, check status before you leave home, not just on the way to the airport. An airline may move your flight earlier after a schedule change, or rebook you onto a different flight with a new number, and both affect when you need to leave.</p>
+
+      <h2>What Airport Delays at Reagan National Mean for Your Pickup</h2>
+      <p>For arriving travelers, the real risk of a delay is not the late landing itself. It is what happens on the ground afterward: a car that left, a rideshare queue that stretches down the curb, or surge pricing when several delayed flights land at once.</p>
+
+      <h3>How flight tracking works</h3>
+      <p>Every DCA Limos airport pickup is flight-tracked. Your chauffeur is dispatched against your flight's actual arrival time, not the schedule you booked against. If your flight is delayed by two hours, the pickup moves with it; you do not need to call and rearrange anything. If the flight lands early, the chauffeur is already tracking it and adjusts as well.</p>
+
+      <h3>The complimentary wait time policy</h3>
+      <p>Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from actual touchdown. That window covers taxiing to the gate, the walk through the terminal, a slow baggage carousel or a restroom stop. Because the clock starts when you land rather than at the originally scheduled time, a long delay does not eat into it.</p>
+
+      <h3>Where your chauffeur meets you</h3>
+      <p>By default your chauffeur meets you curbside at arrivals for your terminal, Terminal 1 or Terminal 2, confirmed before you land. Meet-and-greet service inside the terminal at baggage claim, with a name sign and help with luggage, is available on request. Our guide to <a href="/blog/reagan-national-arrivals-where-your-chauffeur-meets-you">where your chauffeur meets you at Reagan National</a> walks through both options.</p>
+
+      <h2>When a Delay Becomes a Change</h2>
+      <p>Some disruptions go beyond a later landing time. A few situations need a quick message to dispatch:</p>
+      <ul>
+        <li><strong>You are rebooked onto a different flight.</strong> Flight tracking follows the flight number on your reservation, so send the new flight number as soon as you have it.</li>
+        <li><strong>Your flight is diverted.</strong> If DCA cannot accept arrivals, airlines sometimes divert to <a href="/dca-to-dulles">Dulles</a> or <a href="/dca-to-bwi">BWI</a>. Call dispatch with the new airport so your pickup can be moved there.</li>
+        <li><strong>Your flight is cancelled overnight.</strong> If you are rebooked for the next morning, let us know so the pickup can be moved to the new arrival. Dispatch runs 24 hours a day, every day of the year.</li>
+        <li><strong>Your plans change on the ground.</strong> If you now need to go to a hotel instead of home, or add a stop, tell dispatch and the trip can be adjusted.</li>
+      </ul>
+
+      <h2>Planning a Departure When Delays Are Likely</h2>
+      <p>Delays affect departing travelers differently. Your flight may leave late, but the airline expects you at the gate on time unless it tells you otherwise, so do not plan to arrive late on the assumption that a delay will hold.</p>
+      <ul>
+        <li><strong>Check status before your pickup time</strong> and again on the way. If the airline posts a significant delay or a cancellation, call dispatch and the pickup can be moved.</li>
+        <li><strong>Allow for slower roads.</strong> The same storm that slows the airport also slows the GW Parkway, Route 1 and the bridges over the Potomac. On a stormy or snowy day, your chauffeur may suggest an earlier pickup.</li>
+        <li><strong>Leave room for security lines.</strong> After a period of delays or cancellations, checkpoints can be busy as rebooked passengers come through.</li>
+        <li><strong>Know the cancellation policy.</strong> Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings cancel free of charge up to 12 hours before pickup.</li>
+      </ul>
+
+      <h2>Connecting Flights and Tight Schedules</h2>
+      <p>If you are connecting through another airport on the way to Washington, a delay early in the day can move your arrival into the evening or the next morning. Give us both flight numbers when you book, so dispatch knows which flight you will actually land on. If you have a meeting, a wedding rehearsal or an event after you land, plan a cushion between your scheduled arrival and your first commitment. Our <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur service</a> is useful when you have several stops and do not want each one to depend on the next.</p>
+
+      <h2>Why Flat Rates Matter on Delay Days</h2>
+      <p>When many delayed flights land in a short window, demand for rides at the curb spikes. Every DCA Limos trip is quoted as a flat rate before you book, and that rate does not change because your flight was late or because the airport is busy. Combined with flight tracking and wait time measured from touchdown, the ride home is one thing you do not need to renegotiate at the end of a long travel day.</p>
+
+      <h2>Booking a Flight-Tracked Pickup at Reagan</h2>
+      <p>Include your airline and flight number when you book, plus your connecting flight if you have one, and the number of passengers and bags so the right vehicle is assigned. A sedan suits one to three travelers with standard bags, an SUV works for families and heavier luggage, and a Sprinter van keeps a larger group together; see the <a href="/fleet">fleet</a> for details. <a href="/booking">Book online</a> or call (877) 609-1919 at any hour, and if your plans change on the day, dispatch can update the pickup in real time.</p>
+    `,
+    faqs: [
+      { q: 'What causes most Reagan airport delays?', a: 'Weather at DCA or elsewhere on the East Coast, FAA ground delay programs and ground stops, and late inbound aircraft. Reagan has one main runway and a full, slot-controlled schedule, so a backlog can take hours to clear.' },
+      { q: 'How can I check airport delays at Reagan National?', a: 'Check your airline\'s app for your flight, the FAA\'s National Airspace System status page for airport-wide delay programs, and the official Reagan National website for arrivals and departures.' },
+      { q: 'Do I need to call if my flight into DCA is delayed?', a: 'No. Every airport pickup is flight-tracked, so your chauffeur is dispatched against your actual arrival time. Call only if you are rebooked onto a different flight number or diverted to another airport.' },
+      { q: 'How long will my chauffeur wait at Reagan National?', a: 'Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from actual touchdown.' },
+      { q: 'What if my outbound flight from DCA is cancelled?', a: 'Call dispatch to move or cancel the pickup. Sedan and SUV reservations cancel free of charge up to 3 hours before pickup; Sprinter vans, limousines and special-event bookings up to 12 hours before.' },
+    ],
+  },
 ];
