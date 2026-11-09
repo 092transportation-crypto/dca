@@ -1501,4 +1501,266 @@ export const BLOG_POSTS_BATCH17 = [
       { q: 'How early should I book a ride for the holiday week?', a: 'Book as soon as your plans are set, especially for New Year\'s Eve and airport departures in early January. Sedans and SUVs can be cancelled free up to 3 hours before pickup, and Sprinter vans up to 12 hours before.' },
     ],
   },
+
+  // Added 2026-11-09: three more scheduled seasonal posts, one per day on
+  // November 11, 12 and 13, 2026 (the days after this batch's last posts).
+  // Topics checked against every post, guide, landing page and sitemap URL on
+  // all five sites: the Wharf's holiday boat parade, the National Menorah and
+  // Hanukkah in DC, and the U.S. Botanic Garden's holiday exhibit. Fleet
+  // capacities follow FleetPage.jsx and policies the FAQ copy; no prices.
+  // Event dates, passes and hours are sent to the official source.
+  {
+    slug: 'wharf-dc-holiday-boat-parade-fireworks-visit-guide',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-alexandria'],
+    relatedLinks: [
+      { label: 'The Wharf DC Transportation', to: '/the-wharf-dc-transportation' },
+      { label: 'Navy Yard Car Service', to: '/navy-yard-limo-service' },
+      { label: 'DC Holiday Lights and Christmas Tree Season', to: '/blog/dc-holiday-lights-christmas-tree-season-transportation' },
+    ],
+    title: "The Wharf's Holiday Boat Parade: Planning an Evening on DC's Southwest Waterfront",
+    metaTitle: 'Holiday Boat Parade at The Wharf DC | DCA Limos',
+    metaDesc:
+      "Planning to see the holiday boat parade and fireworks at The Wharf DC: where to watch, crowds on Maine Avenue, dinner on the waterfront and getting home after.",
+    excerpt:
+      "Each December, decorated boats parade along the Washington Channel past The Wharf, followed by fireworks over the water. Here is how to plan the evening, from where to stand to how to get out afterward.",
+    image: '/images/blog/landmark-capitol-1.webp',
+    author: 'Michael Chen',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'November 11, 2026',
+    scheduled: true,
+    readTime: '8 min read',
+    category: 'Local Guides',
+    content: `
+      <p class="lead">The Wharf has changed what December looks like on DC's Southwest Waterfront. Along the Washington Channel, the piers fill with families, couples and groups of friends for the annual holiday boat parade, when boats decked out in lights cruise past the waterfront, usually followed by fireworks over the water. It's one of the most festive free evenings of the season in Washington, and it brings a big crowd to a neighborhood with limited parking and busy streets. Here's how to plan it.</p>
+
+      <h2>What to Expect</h2>
+      <p>The holiday boat parade is part of The Wharf's seasonal programming. Boats of all sizes, from small private vessels to larger working boats, are decorated with lights and parade along the Washington Channel past the piers. The evening has traditionally included fireworks over the channel and other holiday activities along the waterfront, and it has usually been held on a Saturday in early December.</p>
+      <p>The date, start time, viewing areas and any weather changes are announced by The Wharf each year. Check the official Wharf events calendar before you plan your evening, especially if you're booking a dinner reservation or traveling in from outside the city.</p>
+
+      <h2>Where to Watch</h2>
+      <p>The parade passes along the length of the waterfront, so there are many places to watch from. The piers, especially the larger ones that extend into the channel, offer the most open views and fill the fastest. The waterfront promenade along the channel is a good option if the piers are crowded. Many restaurants along the Wharf have outdoor seating or large windows facing the water, and a dinner reservation timed around the parade is a comfortable way to watch.</p>
+      <ul>
+        <li><strong>Arrive early</strong> if you want a spot at the edge of a pier, especially with young children.</li>
+        <li><strong>Pick a meeting point</strong> before the parade starts, since crowds make it easy to get separated.</li>
+        <li><strong>Dress for the water.</strong> It is always colder and windier by the channel than a few blocks inland.</li>
+        <li><strong>Stay for the fireworks</strong>, which have traditionally followed the parade, but plan for the crowd to leave all at once when they finish.</li>
+      </ul>
+
+      <h2>Getting to the Wharf</h2>
+      <p>The Wharf sits along Maine Avenue SW, between the Tidal Basin and Fort McNair. The Waterfront station on the Green Line and L'Enfant Plaza on several lines are the closest Metro stops, both a short walk away. The Wharf has underground parking, but on a big event night it fills, and traffic on Maine Avenue and the surrounding streets slows considerably in the hour before and after the parade.</p>
+      <p>A drop-off avoids both the garage and the walk from a distant space. Your chauffeur drops you on Maine Avenue or a nearby street as close to your destination as traffic allows, and picks you up at a time you set, or waits nearby with an <a href="/washington-dc-hourly-chauffeur-service">hourly booking</a> if your evening includes several stops. Our <a href="/the-wharf-dc-transportation">Wharf transportation page</a> covers the neighborhood in more detail.</p>
+
+      <h2>Coming From Virginia or Maryland</h2>
+      <p>The Wharf is close to the 14th Street Bridge and I-395, which makes it convenient for visitors from Arlington and Alexandria, though bridge traffic can be heavy on weekend evenings. From the Maryland suburbs, the drive usually comes in on I-295 or through the city. Leave extra time on parade night for the final approach on Maine Avenue, where the traffic slows near the busiest piers.</p>
+
+      <h2>Watch for Concert Nights</h2>
+      <p>The Wharf is also home to a major concert venue, and on show nights the area gets busy as concertgoers arrive and leave. If a concert falls on the same evening as the parade, expect heavier traffic on Maine Avenue and longer waits for rideshares. Check the Wharf's event calendar for the whole evening, not just the parade, and plan your arrival and pickup times accordingly. Nearby Navy Yard, home of Nationals Park and Audi Field, can add to traffic on event days too.</p>
+
+      <h2>Planning the Pickup</h2>
+      <p>The hardest part of the evening is leaving. When the fireworks end, much of the crowd heads for the same exits, the same Metro stations and the same streets at once. A few tips help:</p>
+      <ul>
+        <li><strong>Agree on a pickup point a short walk from the piers</strong>, on a street where traffic is moving, rather than right at the busiest entrance.</li>
+        <li><strong>Set a pickup time with a buffer</strong>, twenty to thirty minutes after the fireworks end, or call your chauffeur when you're ready.</li>
+        <li><strong>Make sure everyone in your group knows the plan</strong>, since phone service can be slow in a large crowd.</li>
+        <li><strong>If you have a dinner reservation after the parade</strong>, stay put and let the crowd clear before you head out.</li>
+      </ul>
+
+      <h2>Making an Evening of It</h2>
+      <p>The parade is a natural centerpiece for a December evening in Southwest. Many visitors pair it with:</p>
+      <ul>
+        <li><strong>Dinner on the waterfront.</strong> The Wharf has a wide range of restaurants, and tables facing the water are in high demand on parade night, so reserve well ahead.</li>
+        <li><strong>Seasonal activities on the piers.</strong> In past winters, The Wharf has offered outdoor holiday programming such as a skating rink and fire pits; check what's planned this year.</li>
+        <li><strong>A drive past the National Christmas Tree and other holiday displays.</strong> Our <a href="/blog/dc-holiday-lights-christmas-tree-season-transportation">DC holiday lights guide</a> covers the tree and other seasonal sights.</li>
+        <li><strong>Holiday shopping downtown.</strong> The <a href="/blog/downtown-dc-holiday-market-penn-quarter-visit-guide">Downtown DC Holiday Market</a> in Penn Quarter is a short drive away.</li>
+      </ul>
+
+      <h2>Visiting With Children and Older Relatives</h2>
+      <p>The parade is family-friendly, and children love the lights on the water. With young children, choose a spot where you can step back from the crowd easily, keep them close near the water's edge, and plan to leave a little before the fireworks end if they're tired. For older relatives, a drop-off close to the waterfront and a reservation at a restaurant with a view can make the evening much more comfortable than standing on a pier in the cold.</p>
+
+      <h2>Groups and Vehicle Choice</h2>
+      <p>For a couple, a Mercedes-Benz E-Class or BMW 7 Series is a comfortable choice. Families and small groups fit in a Chevrolet Suburban, which seats five, or a Lincoln Navigator, which seats six. For larger groups, such as an office outing or friends celebrating together, a Mercedes Sprinter carries up to thirteen passengers. See our <a href="/fleet">fleet</a> for details.</p>
+
+      <h2>Visiting From Out of Town</h2>
+      <p>The Wharf is close to Reagan National, and the drive is often short in light traffic. If you're flying in for the weekend, you can be met at the airport and brought to your hotel or straight to the waterfront. Airport pickups include complimentary waiting time of 45 minutes on domestic arrivals and 60 minutes on international arrivals, timed from touchdown.</p>
+
+      <h2>Booking the Ride</h2>
+      <p>Early December evenings are among the busiest of the year for us, with holiday parties, theater nights and airport runs all happening at once. Book ahead, especially for a larger vehicle. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before. Your quote is all-inclusive.</p>
+      <p>Call (877) 609-1919 at any hour or <a href="/booking">book online</a>. Tell us your group size, your dinner reservation if you have one, and when you'd like to arrive, and we'll plan the drop-off and pickup around the crowds.</p>
+    `,
+    faqs: [
+      { q: 'When is the holiday boat parade at The Wharf?', a: 'It has traditionally been held on a Saturday evening in early December. The Wharf announces the date, time and viewing details each year on its official events calendar.' },
+      { q: 'Is the Wharf holiday boat parade free?', a: 'The parade and fireworks have traditionally been free to watch from the piers and waterfront. Restaurants and any ticketed activities are separate.' },
+      { q: 'What is the closest Metro station to The Wharf?', a: 'The Waterfront station on the Green Line and L\'Enfant Plaza are both a short walk away. On parade night, stations and nearby streets get crowded when the fireworks end.' },
+      { q: 'Where should we meet our chauffeur after the fireworks?', a: 'Agree on a pickup point a short walk from the piers, on a street where traffic is moving, and set a time twenty to thirty minutes after the fireworks end, or call when you are ready.' },
+      { q: 'What vehicle works for a family or group?', a: 'A Chevrolet Suburban seats five, a Lincoln Navigator seats six, and a Mercedes Sprinter carries up to thirteen passengers for larger groups.' },
+    ],
+  },
+  {
+    slug: 'national-menorah-lighting-hanukkah-in-washington-dc-guide',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-bethesda'],
+    relatedLinks: [
+      { label: 'Penn Quarter Car Service', to: '/penn-quarter-limo-service' },
+      { label: 'Hourly Chauffeur Service in DC', to: '/washington-dc-hourly-chauffeur-service' },
+      { label: 'DC Holiday Lights and Christmas Tree Season', to: '/blog/dc-holiday-lights-christmas-tree-season-transportation' },
+    ],
+    title: 'The National Menorah Lighting and Hanukkah in Washington: A Visitor Guide',
+    metaTitle: 'National Menorah Lighting & Hanukkah in DC | DCA Limos',
+    metaDesc:
+      'How to attend the National Menorah lighting on the Ellipse, plus Hanukkah events and Jewish heritage sites in Washington, DC, and how to plan getting around.',
+    excerpt:
+      "Every Hanukkah, a towering menorah is lit on the Ellipse near the White House. Here is how the lighting works, how to plan a visit, and how to spend the rest of Hanukkah week in Washington.",
+    image: '/images/blog/landmark-capitol-2.webp',
+    author: 'Sarah Williams',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'November 12, 2026',
+    scheduled: true,
+    readTime: '8 min read',
+    category: 'Local Guides',
+    content: `
+      <p class="lead">Each year during Hanukkah, a giant menorah stands on the Ellipse, the oval park just south of the White House, and its lighting has become one of Washington's signature holiday events. The National Menorah has been lit there since 1979, and the opening ceremony brings together families, community groups, officials and visitors from across the region. Here's how the lighting works, how to plan a visit, and what else to see in Washington during Hanukkah.</p>
+
+      <h2>About the National Menorah</h2>
+      <p>The National Menorah is organized by American Friends of Lubavitch (Chabad). It stands on the Ellipse in President's Park for the eight nights of Hanukkah, and a candle is lit each evening. The first night's lighting is the main public ceremony, with music and speakers, and it draws the largest crowd. On the following nights, smaller lightings and events take place at the menorah.</p>
+      <p>Hanukkah's dates follow the Hebrew calendar and fall in December in 2026. Exact dates, the ceremony time and any ticketing details are published each year by the organizers, so check the official National Menorah website before planning your visit.</p>
+
+      <h2>Tickets and Security</h2>
+      <p>The opening-night ceremony has typically required free tickets requested in advance through the organizers' website, and demand can be high. Because the Ellipse is part of the White House grounds area, expect security screening at the entrance, limits on bags, and rules about what you can bring. Arrive early, carry ID, and keep bags small. Smaller nightly lightings may have different arrangements, so check the official information for the night you plan to attend.</p>
+
+      <h2>Getting to the Ellipse</h2>
+      <p>The Ellipse sits between Constitution Avenue and the White House, bounded by 15th and 17th Streets NW. Streets around the White House close at short notice for security, and on ceremony night, traffic and closures can make the final blocks slow. The nearest Metro stations include Federal Triangle and McPherson Square, each a walk of several blocks.</p>
+      <p>A drop-off close to the entrance avoids searching for scarce parking near the White House. Your chauffeur drops you at a legal curb as close as security allows and either waits nearby or returns at a set time. If street closures change during the evening, your chauffeur can move the pickup point and let you know. Allow extra time for the walk and for screening, especially with older relatives or young children.</p>
+
+      <h2>Dressing for an Evening Outdoors</h2>
+      <p>The lighting takes place outdoors after dark in December, often in near-freezing temperatures. Dress warmly in layers, with a hat and gloves, and wear comfortable shoes for standing. If you're bringing children, a blanket and a warm drink for afterward are welcome. The wait before the ceremony can be the coldest part of the evening.</p>
+
+      <h2>Hanukkah Week in Washington</h2>
+      <p>The menorah lighting is the best-known Hanukkah event in the city, but there's much more to see and do during the holiday.</p>
+      <ul>
+        <li><strong>The Capital Jewish Museum</strong> in downtown DC tells the story of Jewish life in the Washington region and includes a historic synagogue building. Check the museum's website for hours and any holiday programming.</li>
+        <li><strong>Sixth &amp; I</strong>, a historic synagogue in Chinatown, hosts a wide range of cultural events, talks and performances; check its calendar for Hanukkah programming.</li>
+        <li><strong>The United States Holocaust Memorial Museum</strong>, just off the National Mall, is a powerful and important visit. Check its website for hours and any timed-entry pass requirements.</li>
+        <li><strong>Community menorah lightings</strong> take place across the city and the suburbs, often organized by local synagogues and Jewish community centers, and many are open to the public.</li>
+      </ul>
+      <p>Most of these are in or near downtown, so they combine easily with an evening at the Ellipse. Our <a href="/penn-quarter-limo-service">Penn Quarter car service</a> page covers the area around the Capital Jewish Museum and Sixth &amp; I.</p>
+
+      <h2>Shabbat, Timing and Observance</h2>
+      <p>For observant families, Hanukkah's timing around Shabbat affects plans. When a night of Hanukkah falls on Friday, candles are traditionally lit before Shabbat begins, and families who don't travel on Shabbat will plan their visit to the menorah on another night. If you're arranging a ride for a family member who observes Shabbat, tell us the timing constraints when you book, and we'll schedule the pickup and drop-off well before sundown on Friday.</p>
+      <p>Kosher dining in the city is more limited than other options, and kosher restaurants may close for Shabbat and holidays. If you're planning a meal around a lighting, check opening hours and reserve ahead. For a family gathering, a meal at home or at a relative's house in the suburbs is often easiest, with transportation arranged to and from the Ellipse.</p>
+
+      <h2>Holiday Lights Nearby</h2>
+      <p>The National Menorah stands not far from the National Christmas Tree, also on the Ellipse, and many visitors see both. The area around the White House and the National Mall is festive throughout December. Our <a href="/blog/dc-holiday-lights-christmas-tree-season-transportation">DC holiday lights guide</a> covers the tree and other seasonal displays, and a short drive takes you past several of them in one evening.</p>
+
+      <h2>Families and Older Relatives</h2>
+      <p>Hanukkah is a family holiday, and many families bring children and grandparents to the lighting. Plan ahead for the walk and the wait: a drop-off as close as possible, a small folding stool if allowed, and a clear meeting point in case anyone gets separated. If an older relative finds crowds difficult, consider attending one of the smaller nightly lightings instead of the opening ceremony.</p>
+      <p>For groups, a Chevrolet Suburban seats five and a Lincoln Navigator six, while a Mercedes Sprinter carries up to thirteen passengers, a good choice for a synagogue group, an extended family or friends attending together. See our <a href="/fleet">fleet</a> for details.</p>
+
+      <h2>Groups From Synagogues and Schools</h2>
+      <p>Synagogues, Hebrew schools, youth groups and Jewish community centers often bring groups to the lighting. Organizers find it easiest to collect participants at a single departure point, such as the synagogue parking lot, and travel together in one or two larger vehicles. Name one adult as the contact for the chauffeur, bring a list of participants, and agree on a meeting spot near the Ellipse for the return, since keeping a group together in a large crowd takes planning.</p>
+
+      <h2>Dinner and the Rest of the Evening</h2>
+      <p>Many families combine the lighting with a holiday dinner. If you're planning to eat out, reserve in advance, as December evenings downtown are busy. With an <a href="/washington-dc-hourly-chauffeur-service">hourly booking</a>, the vehicle stays with your group from the Ellipse to dinner and home, so you don't have to arrange separate rides or worry about parking.</p>
+
+      <h2>Visiting From Out of Town</h2>
+      <p>If you're coming to Washington for Hanukkah, Reagan National is the closest airport to the Ellipse. We can meet you at the airport and bring you to your hotel or straight downtown. Airport pickups include complimentary waiting time of 45 minutes on domestic arrivals and 60 minutes on international arrivals, timed from touchdown, and we track flights in case of delays.</p>
+
+      <h2>Booking Your Ride</h2>
+      <p>December evenings are among our busiest of the year, so book as soon as you have your tickets. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before. Your quote is all-inclusive. Call (877) 609-1919 at any hour or <a href="/booking">book online</a>, and tell us which night you're attending and where you'd like to go afterward.</p>
+    `,
+    faqs: [
+      { q: 'Where is the National Menorah?', a: 'The National Menorah stands on the Ellipse in President\'s Park, just south of the White House, between Constitution Avenue and the White House and between 15th and 17th Streets NW.' },
+      { q: 'Do I need tickets for the National Menorah lighting?', a: 'The opening-night ceremony has typically required free tickets requested in advance through the organizers. Check the official National Menorah website for this year\'s details and for the smaller nightly lightings.' },
+      { q: 'How long has the National Menorah been lit in Washington?', a: 'The National Menorah has been lit on the Ellipse since 1979. It is organized by American Friends of Lubavitch (Chabad).' },
+      { q: 'What else is there to do in DC during Hanukkah?', a: 'Visitors often add the Capital Jewish Museum, Sixth & I in Chinatown and the United States Holocaust Memorial Museum, along with community menorah lightings across the city and suburbs.' },
+      { q: 'Can a chauffeur drop us near the Ellipse?', a: 'Yes. Your chauffeur drops you at a legal curb as close as security allows and waits nearby or returns at a set time. If street closures change, your chauffeur can move the pickup point.' },
+    ],
+  },
+  {
+    slug: 'us-botanic-garden-holiday-exhibit-model-trains-capitol-hill',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-alexandria'],
+    relatedLinks: [
+      { label: 'Capitol Hill Car Service', to: '/capitol-hill-limo-service' },
+      { label: 'The Capitol and Library of Congress in One Morning', to: '/blog/capitol-visitor-center-library-of-congress-one-morning' },
+      { label: 'Visiting the National Mall With Limited Mobility', to: '/blog/national-mall-monuments-limited-mobility-visitor-guide' },
+    ],
+    title: "The U.S. Botanic Garden's Holiday Show: Model Trains, Landmarks and Poinsettias on Capitol Hill",
+    metaTitle: 'U.S. Botanic Garden Holiday Exhibit Guide | DCA Limos',
+    metaDesc:
+      "Visiting the U.S. Botanic Garden's holiday exhibit: model trains, plant-made DC landmarks, crowds and passes, and pairing it with nearby Capitol Hill sights.",
+    excerpt:
+      "Every holiday season, the U.S. Botanic Garden fills its Conservatory with model trains, poinsettias and miniature Washington landmarks made from plants. Here is how to plan a visit and build a Capitol Hill day around it.",
+    image: '/images/blog/landmark-capitol-1.webp',
+    author: 'David Thompson',
+    authorBio: 'Ground transportation specialist covering the DC, Maryland, and Virginia corridor for business and leisure travelers.',
+    date: 'November 13, 2026',
+    scheduled: true,
+    readTime: '8 min read',
+    category: 'Local Guides',
+    content: `
+      <p class="lead">At the foot of Capitol Hill, the U.S. Botanic Garden's glass Conservatory turns into one of Washington's most charming holiday exhibits each year. Model trains wind through the plants, poinsettias fill the halls, and miniature versions of the Capitol, the monuments and other landmarks are built from bark, seeds, leaves and other plant materials. It's free, it's indoors, and it appeals to everyone from small children to grandparents. Here's how to plan a visit and make a Capitol Hill day of it.</p>
+
+      <h2>What the Holiday Exhibit Is</h2>
+      <p>The U.S. Botanic Garden is one of the oldest botanic gardens in the country, and its Conservatory sits on Maryland Avenue SW, next to the Capitol grounds and the National Mall. Its annual holiday exhibit, which in recent years has gone by the name Season's Greenings, takes over much of the Conservatory with seasonal plants, poinsettia displays, model trains and plant-based replicas of Washington buildings. Each year has a theme, so returning visitors usually see something new.</p>
+      <p>The exhibit typically opens around Thanksgiving and runs into early January. Admission to the Botanic Garden is free, but in some recent seasons visitors have needed free timed-entry passes for the holiday exhibit, especially at busy times. Dates, hours, pass requirements and any special evening openings are set each year, so check the U.S. Botanic Garden's official website before you go.</p>
+
+      <h2>When to Visit</h2>
+      <p>The holiday exhibit is popular, and the Conservatory's paths are narrow in places, so timing matters:</p>
+      <ul>
+        <li><strong>Weekday mornings</strong> are usually the calmest time, with shorter lines and more room to see the trains.</li>
+        <li><strong>Weekends and the days between Christmas and New Year's</strong> are the busiest, when families visiting Washington fill the Conservatory.</li>
+        <li><strong>Any special evening hours</strong> offer a different atmosphere, with the displays lit after dark; check whether they're offered this year and whether passes are required.</li>
+        <li><strong>Check closure dates.</strong> Like many federal sites, the Garden may close on certain holidays.</li>
+      </ul>
+
+      <h2>Getting to the Botanic Garden</h2>
+      <p>The Conservatory sits at the southwest corner of the Capitol grounds, near the intersection of Maryland Avenue and Independence Avenue. The closest Metro stations are Federal Center SW and Capitol South, each a short walk. Parking near the Capitol is limited, metered and often restricted, and garages a few blocks away fill on busy days.</p>
+      <p>A drop-off at the entrance is the easiest way in, especially with children or older relatives. Your chauffeur can drop you as close to the door as security and traffic allow, then wait nearby or return at a time you set. Streets around the Capitol can close at short notice for security, so your chauffeur will pick a legal curb and adjust the pickup if needed. Our <a href="/capitol-hill-limo-service">Capitol Hill car service</a> page covers the area in more detail.</p>
+
+      <h2>Visiting With Children</h2>
+      <p>The model trains are the main attraction for most young visitors. A few tips help:</p>
+      <ul>
+        <li>Visit early in the day, when children have the most energy and the Conservatory is less crowded.</li>
+        <li>Check the Garden's policy on strollers in the exhibit; on busy days, a carrier can be easier in the narrow paths.</li>
+        <li>Plan a short visit. An hour is plenty for most young children.</li>
+        <li>The Conservatory is warm and humid, so dress children in layers that come off easily.</li>
+      </ul>
+
+      <h2>Older Relatives and Limited Mobility</h2>
+      <p>The Botanic Garden is a good choice for grandparents and visitors with limited mobility, since most of the exhibit is indoors and on one level. Check the Garden's accessibility information for details. A drop-off close to the entrance shortens the walk, and a pickup at the same door afterward avoids a long walk back to a parking space. Our guide to <a href="/blog/national-mall-monuments-limited-mobility-visitor-guide">visiting the National Mall with limited mobility</a> has more tips for planning a comfortable day.</p>
+
+      <h2>Building a Capitol Hill Day Around It</h2>
+      <p>The Botanic Garden's location makes it easy to combine with other sites:</p>
+      <ul>
+        <li><strong>The U.S. Capitol</strong> is next door. Tours run through the Capitol Visitor Center, which is closed on certain holidays. Our guide to <a href="/blog/capitol-visitor-center-library-of-congress-one-morning">the Capitol and the Library of Congress in one morning</a> explains how to fit both in.</li>
+        <li><strong>The National Mall's museums</strong> are a short walk west, including the National Museum of the American Indian and the National Air and Space Museum.</li>
+        <li><strong>Bartholdi Park</strong>, across Independence Avenue, is part of the Botanic Garden and has a historic fountain.</li>
+        <li><strong>Eastern Market and Barracks Row</strong>, a short drive east, offer lunch and shopping on Capitol Hill.</li>
+      </ul>
+      <p>With an <a href="/washington-dc-hourly-chauffeur-service">hourly booking</a>, the vehicle stays with you as you move between sites, so you don't have to walk long distances in the cold or look for parking again.</p>
+
+      <h2>Taking Photos</h2>
+      <p>The model trains and plant-made landmarks are among the most photographed holiday displays in Washington. Photography for personal use is generally welcome, but check the Garden's current rules on tripods and other equipment, especially on busy days when space is tight. Morning light through the Conservatory's glass is often best for photos, and visiting early also means fewer people in your shots.</p>
+
+      <h2>Beyond the Conservatory</h2>
+      <p>The Botanic Garden extends outside the Conservatory. The National Garden, next to the Conservatory, has outdoor gardens that are quieter in winter but worth a short walk on a mild day, and Bartholdi Park across Independence Avenue is home to the historic Bartholdi Fountain. In December, the outdoor spaces are calm compared with the busy holiday exhibit indoors, making them a good place for a breather before moving on to the rest of your day.</p>
+
+      <h2>Holiday Week Visits</h2>
+      <p>Many families visit the Botanic Garden during the week between Christmas and New Year's, when Washington is busy with holiday visitors. If you're planning a visit then, check the Garden's holiday hours and any pass requirements early, and plan to arrive at opening. The exhibit pairs well with an evening drive past the National Christmas Tree; our <a href="/blog/dc-holiday-lights-christmas-tree-season-transportation">DC holiday lights guide</a> covers the tree and other seasonal sights.</p>
+
+      <h2>School and Scout Groups</h2>
+      <p>The holiday exhibit is a popular field trip for schools, scout troops and homeschool groups. Check whether the Garden asks groups to register in advance or follow specific arrival times, and plan the visit for a weekday morning if you can. Organizers find it easiest to travel together from one departure point, with one adult named as the contact for the chauffeur and a headcount taken before leaving the Conservatory.</p>
+
+      <h2>Groups and Vehicle Choice</h2>
+      <p>For a couple, a Mercedes-Benz E-Class or BMW 7 Series is comfortable. Families and small groups fit in a Chevrolet Suburban, which seats five, or a Lincoln Navigator, which seats six. For school groups, scout troops or extended families, a Mercedes Sprinter carries up to thirteen passengers. See our <a href="/fleet">fleet</a> for details.</p>
+
+      <h2>Booking Your Visit</h2>
+      <p>December is one of our busiest months, so book as soon as you know your date. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before. Your quote is all-inclusive. Call (877) 609-1919 at any hour or <a href="/booking">book online</a>, and tell us your entry time if you have a pass, so we can plan the drop-off accordingly.</p>
+    `,
+    faqs: [
+      { q: 'When is the U.S. Botanic Garden holiday exhibit?', a: 'It typically opens around Thanksgiving and runs into early January. Check the U.S. Botanic Garden\'s official website for this year\'s dates, hours and any pass requirements.' },
+      { q: 'Is the Botanic Garden holiday exhibit free?', a: 'Yes, admission is free. In some recent seasons visitors have needed free timed-entry passes for the holiday exhibit at busy times, so check the official website before you go.' },
+      { q: 'What is the closest Metro station to the U.S. Botanic Garden?', a: 'Federal Center SW and Capitol South are the closest stations, each a short walk from the Conservatory on Maryland Avenue SW.' },
+      { q: 'Is the exhibit good for older visitors?', a: 'Yes. Most of the exhibit is indoors, and a drop-off close to the entrance shortens the walk. Check the Garden\'s accessibility information for details.' },
+      { q: 'What else can we see nearby?', a: 'The U.S. Capitol, the National Mall museums, Bartholdi Park and Eastern Market are all close by. An hourly booking lets the vehicle stay with you as you move between sites.' },
+    ],
+  },
 ];
