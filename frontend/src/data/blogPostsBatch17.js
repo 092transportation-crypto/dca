@@ -1232,4 +1232,273 @@ export const BLOG_POSTS_BATCH17 = [
       { q: 'How do I get between embassies on open house day?', a: 'Plan by neighborhood. Walk within a cluster, then use the Red Line between Dupont Circle and Van Ness-UDC, or a chauffeur who drops you at each cluster and picks you up at an agreed corner.' },
     ],
   },
+
+  // Added 2026-11-08: three more scheduled seasonal posts, one per day on
+  // November 8, 9 and 10, 2026 (the days after this batch's last posts).
+  // Topics checked against every post, guide and landing page on all five
+  // sites: the Downtown DC Holiday Market, winter break for DC college
+  // students, and visiting DC between Christmas and New Year's. Fleet
+  // capacities follow FleetPage.jsx and policies the site's FAQ copy; no
+  // prices. Market dates, museum closures and university housing dates are
+  // sent to the official source.
+  {
+    slug: 'downtown-dc-holiday-market-penn-quarter-visit-guide',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-alexandria'],
+    relatedLinks: [
+      { label: 'Penn Quarter Car Service', to: '/penn-quarter-limo-service' },
+      { label: "A Penn Quarter Evening at Ford's Theatre", to: '/blog/fords-theatre-penn-quarter-evening' },
+      { label: 'DC Holiday Lights and Christmas Tree Season', to: '/blog/dc-holiday-lights-christmas-tree-season-transportation' },
+    ],
+    title: 'The Downtown DC Holiday Market: A Visitor Guide to Shopping on F Street',
+    metaTitle: 'Downtown DC Holiday Market Visitor Guide | DCA Limos',
+    metaDesc:
+      'How to visit the Downtown DC Holiday Market on F Street in Penn Quarter: when to go, game-night traffic at Capital One Arena, nearby museums and drop-offs.',
+    excerpt:
+      'Every December, a block of F Street in Penn Quarter turns into an open-air holiday market with local makers, food and music. Here is how to plan a visit, avoid the arena crowds and make an afternoon of it.',
+    image: '/images/blog/landmark-capitol-1.webp',
+    author: 'Sarah Williams',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'November 8, 2026',
+    scheduled: true,
+    readTime: '7 min read',
+    category: 'Local Guides',
+    content: `
+      <p class="lead">For a few weeks each year, the stretch of F Street NW between 7th and 9th Streets becomes one of the most festive blocks in Washington. The Downtown DC Holiday Market sets up rows of vendor booths in front of the grand Greek Revival building that houses the Smithsonian American Art Museum and the National Portrait Gallery, with local artists and makers, food stalls and live music. It is a favorite of DC residents doing their holiday shopping and of visitors looking for a gift that wasn't made in a factory. Here is how to plan a visit and fit it into a day in Penn Quarter.</p>
+
+      <h2>What the Market Is</h2>
+      <p>The Downtown DC Holiday Market is an outdoor seasonal market produced with the DowntownDC Business Improvement District. Vendors rotate over the season, so the mix of crafts, art, jewelry, clothing, home goods and food changes from week to week, and many shoppers come more than once. Admission is free, and the market is designed to be browsed on foot along the closed-off block.</p>
+      <p>The market traditionally opens around the week before Thanksgiving and runs until shortly before Christmas, with daily hours that start late morning and run into the evening. Exact dates, hours and any weather closures are set each year, so check the market's official website before you go, especially if you're traveling in from out of town to see it.</p>
+
+      <h2>When to Go</h2>
+      <p>Timing makes a big difference to how the market feels:</p>
+      <ul>
+        <li><strong>Weekday afternoons</strong> are the most relaxed time to browse. You can talk with makers and see the booths without shoulder-to-shoulder crowds.</li>
+        <li><strong>Weekday lunchtimes</strong> bring office workers from the surrounding blocks, so expect a short rush around midday.</li>
+        <li><strong>Weekend afternoons and evenings</strong> are the busiest, especially in December. If you go then, arrive close to opening.</li>
+        <li><strong>After dark</strong>, the lights and music make the market especially pretty, but temperatures drop quickly. Dress for standing outdoors.</li>
+      </ul>
+
+      <h2>Watch Out for Arena Nights</h2>
+      <p>The market sits a block from Capital One Arena, home of the Washington Capitals and Wizards and a major concert venue. On event nights, the streets around 7th and F fill with arriving crowds in the hour or two before start time and again when the event lets out, and traffic on 7th Street, F Street and H Street slows to a crawl. Rideshare pickups in the area get chaotic at the same time.</p>
+      <p>Before you plan an evening visit, check the arena's event calendar. If there's a game or concert, either visit earlier in the afternoon or plan your pickup for well before the event ends. Our chauffeurs watch event schedules and can suggest a pickup spot a block or two away from the busiest corners so you're not stuck in arena traffic.</p>
+
+      <h2>Getting There</h2>
+      <p>The market is directly outside the Gallery Place-Chinatown Metro station, which serves the Red, Green and Yellow lines, and a short walk from the Metro Center and Archives stations. For visitors staying downtown, it's an easy walk from most Penn Quarter hotels.</p>
+      <p>Driving is harder. Street parking around Penn Quarter is metered and scarce, and garages fill on event nights and December weekends. If you are coming from Arlington, Alexandria, the Maryland suburbs or straight from Reagan National with luggage, a drop-off on a nearby cross street saves the hunt for a garage. Your chauffeur drops you as close to the market as traffic and security allow and picks you up at a time you set, or waits nearby with an <a href="/washington-dc-hourly-chauffeur-service">hourly booking</a> so your shopping bags have somewhere to go.</p>
+
+      <h2>Making an Afternoon of It in Penn Quarter</h2>
+      <p>The market's location makes it easy to combine with some of downtown's best sights:</p>
+      <ul>
+        <li><strong>The Smithsonian American Art Museum and National Portrait Gallery</strong>, right behind the booths, share a building with a glass-roofed courtyard that's a welcome place to warm up. Both are free; check current hours before you go.</li>
+        <li><strong>Ford's Theatre</strong>, a few blocks south on 10th Street, has traditionally staged a holiday production each season. Our guide to <a href="/blog/fords-theatre-penn-quarter-evening">an evening at Ford's Theatre</a> covers the area.</li>
+        <li><strong>Chinatown and the Penn Quarter restaurant scene</strong> are steps away for dinner, and many restaurants book up on December weekends, so reserve ahead.</li>
+        <li><strong>The National Christmas Tree</strong> on the Ellipse is a short ride away. Our <a href="/blog/dc-holiday-lights-christmas-tree-season-transportation">DC holiday lights guide</a> covers the tree and other seasonal displays.</li>
+      </ul>
+
+      <h2>Shopping Tips</h2>
+      <ul>
+        <li><strong>Bring a reusable bag or two.</strong> Many purchases are small, but they add up over an afternoon.</li>
+        <li><strong>Carry a card and some cash.</strong> Most vendors take cards, but a little cash is useful.</li>
+        <li><strong>Ask about shipping.</strong> Some vendors can ship larger items, which is helpful if you're flying home.</li>
+        <li><strong>Pack fragile items carefully</strong> if they're going in a suitcase. Ask the vendor for extra wrapping.</li>
+        <li><strong>Leave purchases in the vehicle</strong> if you have an hourly booking, so you're not carrying everything into a museum or restaurant.</li>
+      </ul>
+
+      <h2>If the Weather Turns</h2>
+      <p>The market is entirely outdoors, and December in Washington can bring cold rain, wind and the occasional snow. Vendors may close early or skip a day in severe weather, so check the market's website or social media before heading out on a stormy afternoon. On a merely cold day, the market is still pleasant if you dress for it: warm layers, gloves and comfortable shoes for standing on pavement.</p>
+      <p>It also helps to have an indoor plan nearby. The glass-covered courtyard inside the Smithsonian American Art Museum and National Portrait Gallery building, right behind the booths, is a calm place to warm up, and the galleries themselves can easily fill an hour. With a car waiting nearby, it's simple to cut the outdoor part short and move on to dinner or a museum if the weather doesn't cooperate.</p>
+
+      <h2>Visiting With Out-of-Town Guests</h2>
+      <p>The market is a natural outing for relatives visiting for the holidays, and it pairs well with an arrival or departure at Reagan National, which is about fifteen minutes from Penn Quarter in light traffic. Guests flying in can be met at the airport and brought straight downtown, with luggage staying in the vehicle while they shop. For a group, a Chevrolet Suburban seats five and a Lincoln Navigator seats six, while a Mercedes Sprinter carries up to thirteen passengers. See our <a href="/fleet">fleet</a> for details.</p>
+      <p>If your guests are older or less steady on their feet, plan around the walk. The market is a single closed block, but holiday crowds and uneven curbs can make it tiring. A drop-off at one end and a pickup at the other keeps walking to a minimum.</p>
+
+      <h2>Planning the Ride</h2>
+      <p>December evenings are one of the busiest times of the year for us, with holiday parties, theater nights and airport runs all happening at once. Book ahead, especially for a weekend visit or a larger vehicle. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before. Your quote is all-inclusive, with no surprises when you arrive.</p>
+      <p>Tell us where you're starting, when you'd like to arrive and whether you'd like the car to stay with you. Call (877) 609-1919 at any hour or <a href="/booking">book online</a>, and we'll plan the drop-off around the market, the arena schedule and the rest of your day in <a href="/penn-quarter-limo-service">Penn Quarter</a>.</p>
+    `,
+    faqs: [
+      { q: 'Where is the Downtown DC Holiday Market?', a: 'The market is on F Street NW between 7th and 9th Streets in Penn Quarter, in front of the Smithsonian American Art Museum and National Portrait Gallery, directly outside the Gallery Place-Chinatown Metro station.' },
+      { q: 'When does the Downtown DC Holiday Market open?', a: 'It traditionally runs from around the week before Thanksgiving until shortly before Christmas, opening late morning and running into the evening. Check the official market website for this year\'s dates and hours.' },
+      { q: 'Is the Downtown DC Holiday Market free?', a: 'Yes, admission is free. You pay only for what you buy from the vendors, and most accept cards.' },
+      { q: 'How do Capital One Arena events affect a visit?', a: 'The arena is a block away, so game and concert nights bring heavy traffic and crowds before the event and when it lets out. Check the arena calendar and visit earlier, or schedule your pickup well before the event ends.' },
+      { q: 'Can a chauffeur wait while we shop and hold our bags?', a: 'Yes. With an hourly booking the car stays nearby, so you can leave purchases in the vehicle and continue to a museum, dinner or the National Christmas Tree.' },
+    ],
+  },
+  {
+    slug: 'winter-break-college-students-dc-airport-travel-guide',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-dulles', 'dca-to-bwi'],
+    relatedLinks: [
+      { label: 'College Move-In Day Transportation in DC', to: '/blog/college-move-in-day-transportation-dc' },
+      { label: 'The DCA Perimeter Rule Explained', to: '/blog/dca-perimeter-rule-explained' },
+      { label: 'Union Station DC Transportation', to: '/union-station-dc-transportation' },
+    ],
+    title: 'Winter Break for DC College Students: Getting From Campus to DCA, Dulles, BWI or Union Station',
+    metaTitle: 'Winter Break Travel for DC College Students | DCA Limos',
+    metaDesc:
+      'How DC college students and parents can plan winter break travel from Georgetown, GW, AU, Howard or Catholic University to DCA, Dulles, BWI or Union Station.',
+    excerpt:
+      'When fall exams end, thousands of students leave DC campuses within a few days, most of them with too much luggage and a flight to catch. Here is how students and parents can plan the trip home and back.',
+    image: '/images/blog/airport-terminal-glass.webp',
+    author: 'Michael Chen',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'November 9, 2026',
+    scheduled: true,
+    readTime: '8 min read',
+    category: 'Travel Tips',
+    content: `
+      <p class="lead">Mid-December in Washington has a rhythm every university neighborhood knows. Final exams end, residence halls begin to close, and over a few days thousands of students from Georgetown, George Washington, American, Howard, Catholic and Gallaudet head for Reagan National, Dulles, BWI and Union Station at the same time as the holiday travel rush. This guide is for students and for the parents trying to organize the trip from a few hundred miles away.</p>
+
+      <h2>Start With the Housing and Exam Calendar</h2>
+      <p>Before anyone books a flight, check two dates: the last exam and the day residence halls close for winter break. Universities publish both, but they are easy to overlook, and the closing date sometimes falls only a day or two after exams end. A flight booked for the day after the final exam leaves little room if a professor reschedules or a make-up exam lands late.</p>
+      <p>The same goes for the return trip in January. Residence halls reopen on a set date before classes resume, and arriving before that date can mean a night in a hotel. Check your school's housing office for the official schedule each year rather than relying on last year's.</p>
+
+      <h2>Which Airport Is Best?</h2>
+      <p>DC students have three airports to choose from, and the right one depends on where home is.</p>
+      <ul>
+        <li><strong>Reagan National (DCA)</strong> is closest to most campuses and often the easiest choice for flights along the East Coast and into the Midwest and South. Because of the federal perimeter rule, it has only a limited number of nonstop flights beyond 1,250 miles. Our guide to the <a href="/blog/dca-perimeter-rule-explained">DCA perimeter rule</a> explains how it affects which routes are available.</li>
+        <li><strong>Dulles (IAD)</strong> is the main airport for international flights and for many nonstops to the West Coast. It is farther from campus, so allow considerably more time, especially in holiday traffic.</li>
+        <li><strong>BWI</strong> often has a wide choice of domestic flights and fares and is a reasonable option from campuses in Northeast and Northwest DC, though it is the farthest of the three from most universities.</li>
+        <li><strong>Union Station</strong> is the gateway for Amtrak trips up and down the Northeast Corridor, and for many students going to New York, Philadelphia or Boston, the train is easier than flying.</li>
+      </ul>
+      <p>We serve all four, so a single booking can drop several students at different terminals or a station if they're traveling together.</p>
+
+      <h2>Getting Off Campus: A School-by-School Look</h2>
+      <p>Each campus has its own transit situation, which matters when you're moving two suitcases and a laundry bag.</p>
+      <ul>
+        <li><strong>Georgetown University</strong> has no Metro station. Students usually reach Metro by the university shuttle or a walk to Rosslyn or Foggy Bottom, which is hard work with heavy luggage. Our <a href="/georgetown-limo-service">Georgetown car service</a> page covers the neighborhood.</li>
+        <li><strong>George Washington University</strong> sits next to the Foggy Bottom-GWU station on the Blue, Orange and Silver lines, which makes Metro easier, but only if the bags are manageable.</li>
+        <li><strong>American University</strong> is served by the Tenleytown-AU station on the Red Line, with the university shuttle connecting campus and the station.</li>
+        <li><strong>Howard University</strong> is near the Shaw-Howard U station on the Green and Yellow lines. See our <a href="/howard-university-transportation">Howard University transportation</a> page.</li>
+        <li><strong>The Catholic University of America</strong> is next to the Brookland-CUA station on the Red Line.</li>
+        <li><strong>Gallaudet University</strong> is near the NoMa-Gallaudet U station on the Red Line.</li>
+      </ul>
+      <p>Metro works well for light travelers, but students heading home for a month often have more than they can carry comfortably on escalators and trains. A car from the residence hall to the terminal curb avoids the struggle.</p>
+
+      <h2>Sharing a Ride With Friends</h2>
+      <p>Students on the same floor or in the same club often fly out within hours of each other. One larger vehicle can take a group to the airport with all their bags: a Chevrolet Suburban seats five and a Lincoln Navigator six, and a Mercedes Sprinter carries up to thirteen passengers. If students are flying from different airports, we can plan the stops in the most efficient order, with the earliest flight first.</p>
+
+      <h2>For Parents Booking From Home</h2>
+      <p>Many winter break rides are booked by parents who want to know their student will make the flight. A few tips make that smoother:</p>
+      <ul>
+        <li><strong>Include the student's mobile number</strong> so the chauffeur can coordinate directly on the day.</li>
+        <li><strong>Give the exact pickup point.</strong> Name the residence hall and the nearest street entrance; large campuses have restricted roads and many buildings with similar names.</li>
+        <li><strong>Add the flight or train number.</strong> We track flights, and knowing the departure time helps us plan around traffic.</li>
+        <li><strong>Mention extra luggage</strong> so we send a vehicle with enough room.</li>
+      </ul>
+
+      <h2>What to Pack, Ship or Store</h2>
+      <p>Winter break is long enough that many students take more home than they would for a weekend, and what goes in which bag matters.</p>
+      <ul>
+        <li><strong>Carry on the essentials:</strong> laptop, chargers, medication, ID and anything you'd need if a checked bag was delayed.</li>
+        <li><strong>Check your airline's bag allowance and fees</strong> before packing a second suitcase. Fees and weight limits vary by airline and fare.</li>
+        <li><strong>Consider shipping bulky items</strong> such as winter coats or books instead of checking an extra bag, and leave enough time before carriers' holiday deadlines.</li>
+        <li><strong>Ask your school about storage</strong> if you're moving rooms in January or studying abroad in the spring.</li>
+      </ul>
+      <p>When you book, tell us how many suitcases and boxes you'll have, so we can send a vehicle with enough room. A sedan comfortably handles one student with a couple of bags; for more luggage or a shared ride, an SUV or Sprinter is the better choice.</p>
+
+      <h2>Timing Around Holiday Traffic</h2>
+      <p>Winter break departures overlap with the start of the holiday travel season, when roads to the airports, security lines and parking garages are all busier than usual. For domestic flights, plan to reach the airport at least two hours before departure, and three for international flights from Dulles. Weather can also complicate December travel; our <a href="/blog/dca-winter-weather-flight-delay-playbook">DCA winter weather playbook</a> explains how to handle a storm on travel day.</p>
+
+      <h2>Coming Back in January</h2>
+      <p>The return trip often matters more than the departure. Students land with full suitcases, sometimes late at night, sometimes during a snowstorm, and need to reach a residence hall that has just reopened. Booking the pickup in advance means a chauffeur is waiting when the plane lands. Airport pickups include complimentary waiting time of 45 minutes on domestic arrivals and 60 minutes on international arrivals, timed from touchdown, and we track flights so a delay doesn't mean a missed ride.</p>
+      <p>International students returning through Dulles may face long lines at customs during the holiday peak, which the international waiting time is designed to absorb. Train arrivals at <a href="/union-station-dc-transportation">Union Station</a> are even simpler to meet, with pickups planned around the train's arrival time.</p>
+
+      <h2>Booking the Ride</h2>
+      <p>The days around the end of exams book quickly, so reserve as soon as flights are confirmed. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans up to 12 hours before, so it's easy to adjust if an exam schedule changes. Your quote is all-inclusive. Call (877) 609-1919 at any hour or <a href="/booking">book online</a>, and if you're also thinking about move-in later in the year, our <a href="/blog/college-move-in-day-transportation-dc">move-in day guide</a> covers that trip too.</p>
+    `,
+    faqs: [
+      { q: 'Which airport should DC college students use for winter break?', a: 'Reagan National is closest to most campuses and works well for many domestic routes. Dulles has more international flights and West Coast nonstops, and BWI often has a wide choice of domestic flights. Union Station is best for Amtrak trips on the Northeast Corridor.' },
+      { q: 'Can a car pick up a student at a residence hall?', a: 'Yes. Give us the residence hall name and the nearest street entrance. Some campus roads are restricted, so we will confirm the most practical meeting point near the building.' },
+      { q: 'Can several students share one ride to the airport?', a: 'Yes. A Chevrolet Suburban seats five, a Lincoln Navigator seats six and a Mercedes Sprinter carries up to thirteen passengers. If students are flying from different airports, we will plan the stops in the most efficient order.' },
+      { q: 'Can parents book a ride for their student from out of state?', a: 'Yes. Book online or by phone and include the student\'s mobile number, the flight or train number and the pickup point so the chauffeur can coordinate directly.' },
+      { q: 'What if a return flight in January is delayed?', a: 'We track flights and adjust the pickup to the actual landing time. Domestic arrivals include 45 minutes of complimentary waiting from touchdown, and international arrivals include 60 minutes.' },
+    ],
+  },
+  {
+    slug: 'washington-dc-between-christmas-and-new-years-visitor-guide',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-alexandria'],
+    relatedLinks: [
+      { label: 'Which Smithsonian Museums to Visit First', to: '/blog/which-smithsonian-museums-to-visit-first-time-dc' },
+      { label: "New Year's Eve Car Service in DC", to: '/blog/new-years-eve-car-service-dc' },
+      { label: 'Hourly Chauffeur Service in DC', to: '/washington-dc-hourly-chauffeur-service' },
+    ],
+    title: "Visiting DC Between Christmas and New Year's: What's Open, What's Closed and How to Plan",
+    metaTitle: "Visiting DC Between Christmas and New Year's | DCA Limos",
+    metaDesc:
+      "Planning a visit to Washington DC between Christmas and New Year's: holiday closures, crowds, short winter days, museums, monuments and getting around.",
+    excerpt:
+      "The week between Christmas and New Year's is one of the most popular times for families to visit Washington. Here is what's open, what closes, and how to plan days that work around short daylight, cold weather and holiday crowds.",
+    image: '/images/blog/landmark-capitol-2.webp',
+    author: 'David Thompson',
+    authorBio: 'Ground transportation specialist covering the DC, Maryland, and Virginia corridor for business and leisure travelers.',
+    date: 'November 10, 2026',
+    scheduled: true,
+    readTime: '8 min read',
+    category: 'Local Guides',
+    content: `
+      <p class="lead">For many families, the quiet week between Christmas and New Year's is the one time everyone is free to travel together, and Washington is an appealing destination: free museums, monuments lit up at night, and the city's holiday decorations still on display. It is also a week with its own quirks. A few major sites close on the holidays themselves, daylight is short, the weather can turn cold or snowy, and the most popular attractions are busy with other families who had the same idea. Here is how to plan the visit.</p>
+
+      <h2>The Two Days to Plan Around</h2>
+      <p>Most of Washington stays open through the holiday week, but Christmas Day and New Year's Day are different.</p>
+      <ul>
+        <li><strong>Smithsonian museums</strong> are open every day of the year except December 25, which makes them the backbone of most holiday-week itineraries.</li>
+        <li><strong>The National Gallery of Art</strong> closes on December 25 and January 1.</li>
+        <li><strong>The U.S. Capitol Visitor Center</strong> is closed on Thanksgiving, Christmas Day and New Year's Day, among other dates.</li>
+        <li><strong>The memorials on the National Mall</strong> are outdoors and can be visited at any hour, which makes Christmas Day a good time for a quiet walk along the Mall.</li>
+        <li><strong>Private museums, restaurants and shops</strong> set their own holiday hours, and many close or shorten their hours on December 24, 25 and 31 and January 1.</li>
+      </ul>
+      <p>Holiday schedules can change, so confirm hours on each site's official website a few days before you visit, and plan Christmas Day and New Year's Day around the places you know will be open.</p>
+
+      <h2>Expect Crowds at the Big Museums</h2>
+      <p>With schools out and many people on vacation, the most popular Smithsonian museums are busy during the holiday week, especially from late morning through mid-afternoon. A few strategies help:</p>
+      <ul>
+        <li>Arrive at opening and visit the most popular museum first, while lines are shortest.</li>
+        <li>Check whether a museum requires free timed-entry passes, as some have in recent years.</li>
+        <li>Save smaller museums and galleries for the afternoon, when the big ones are at their busiest.</li>
+        <li>Plan one or two major museums per day rather than trying to see everything.</li>
+      </ul>
+      <p>If you're not sure where to start, our guide to <a href="/blog/which-smithsonian-museums-to-visit-first-time-dc">which Smithsonian museums to visit first</a> covers the most popular choices.</p>
+
+      <h2>Short Days and Cold Weather</h2>
+      <p>The sun sets before 5 p.m. in late December, and the walk between museums on the National Mall can be long and windy. The distance from the Capitol to the Lincoln Memorial is about two miles, and the Mall has little shelter from the cold. For families with young children or older relatives, those distances add up quickly.</p>
+      <p>This is where an <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur booking</a> helps. A car that moves you from one museum entrance to the next, holds your coats and bags, and is warm when you come out lets you see more in less time and keeps everyone comfortable. Our guide to <a href="/blog/national-mall-monuments-limited-mobility-visitor-guide">visiting the Mall with limited mobility</a> has more tips for older visitors.</p>
+
+      <h2>The Monuments at Night</h2>
+      <p>One of the best things about a winter visit is that the monuments are lit early. By late afternoon, the Lincoln Memorial, the Jefferson Memorial and the Washington Monument are illuminated, and an evening tour of the memorials is a highlight for many visitors. The National Christmas Tree on the Ellipse, near the White House, typically remains on display through the holiday season. Our <a href="/blog/dc-holiday-lights-christmas-tree-season-transportation">DC holiday lights guide</a> covers the tree and other seasonal displays.</p>
+      <p>Seeing the monuments by car avoids long walks in the cold. Your chauffeur can drop you as close as allowed to each memorial, wait while you visit, and take you to the next. A typical evening tour takes a couple of hours.</p>
+
+      <h2>Tours That Need Planning Ahead</h2>
+      <p>Some of Washington's most popular experiences need reservations well in advance, and holiday-week slots go quickly.</p>
+      <ul>
+        <li><strong>The White House</strong> tour must be requested through your Member of Congress, weeks in advance. Our <a href="/blog/white-house-tour-request-visitor-guide">White House tour guide</a> explains how.</li>
+        <li><strong>The Capitol</strong> offers tours through the Capitol Visitor Center, which is closed on the holidays. Our guide to <a href="/blog/capitol-visitor-center-library-of-congress-one-morning">the Capitol and the Library of Congress</a> covers how to fit both into a morning.</li>
+        <li><strong>The Washington Monument</strong> uses timed tickets for trips to the top. Check availability and holiday hours on the official site.</li>
+      </ul>
+
+      <h2>Where to Stay and How to Get Around</h2>
+      <p>Most visitors stay downtown, near the Mall, or across the river in Arlington. Metro reaches many major sites, but it runs on modified schedules on holidays, and the walk from the nearest station to some museums is longer than it looks on a map. For families with luggage or small children, the trip from Reagan National to a downtown hotel is quick by car, often about fifteen minutes in light traffic. For a group, a Chevrolet Suburban seats five, a Lincoln Navigator six, and a Mercedes Sprinter up to thirteen.</p>
+
+      <h2>Day Trips When the Mall Is Packed</h2>
+      <p>If the Smithsonian crowds become too much, the region's historic towns make a good change of pace. Old Town Alexandria, with its brick sidewalks and waterfront, is about fifteen minutes from downtown and still decorated for the season. Georgetown's shops and restaurants are close by, and our <a href="/georgetown-limo-service">Georgetown car service</a> page covers getting there. George Washington's Mount Vernon estate, south of Alexandria along the Potomac, offers holiday programs in December; check its official website for hours and tickets. With an hourly booking, a half day outside the city is easy to arrange without worrying about parking or directions.</p>
+
+      <h2>Eating Out Over the Holidays</h2>
+      <p>Restaurant reservations are one of the most overlooked parts of a holiday-week visit. Many restaurants close on Christmas Eve or Christmas Day, others offer special holiday menus that sell out weeks ahead, and New Year's Eve tables are in high demand. Hotel restaurants are often the most reliable option on December 25. Reserve as early as you can, and tell us your dinner plans when you book so your pickup matches your reservation time.</p>
+
+      <h2>New Year's Eve in DC</h2>
+      <p>If your visit includes New Year's Eve, plan transportation early. December 31 is one of the busiest nights of the year for car services, and rideshare prices often surge around midnight. Our guide to <a href="/blog/new-years-eve-car-service-dc">New Year's Eve car service in DC</a> covers how to plan the night.</p>
+
+      <h2>Flying Home After the Holidays</h2>
+      <p>The days just after New Year's are among the busiest of the year at DC's airports. If you're leaving then, allow extra time for security and book your ride to the airport in advance. Many visitors combine a final morning at a museum with a late-afternoon flight, keeping luggage in the vehicle until it's time to head to the airport. If a winter storm is forecast for your travel day, check your airline's app early and read our <a href="/blog/dca-winter-weather-flight-delay-playbook">DCA winter weather playbook</a> for how to handle delays and cancellations without missing your ride.</p>
+
+      <h2>Booking Your Holiday-Week Rides</h2>
+      <p>The holiday week is busy for us too, so book airport transfers and hourly sightseeing days as soon as your plans are set. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before. Your quote is all-inclusive. Call (877) 609-1919 at any hour or <a href="/booking">book online</a>.</p>
+    `,
+    faqs: [
+      { q: 'Are the Smithsonian museums open between Christmas and New Year\'s?', a: 'Yes. Smithsonian museums are open every day of the year except December 25. Hours can vary over the holidays, so check each museum\'s website before you go.' },
+      { q: 'What is closed in DC on Christmas Day?', a: 'Smithsonian museums, the National Gallery of Art and the U.S. Capitol Visitor Center are closed on December 25, and many restaurants and shops close or shorten their hours. The outdoor memorials on the National Mall can be visited at any hour.' },
+      { q: 'Is the week after Christmas a busy time to visit DC?', a: 'Yes. With schools out, the most popular museums and attractions are busy, especially from late morning to mid-afternoon. Arriving at opening helps.' },
+      { q: 'Can we tour the monuments at night by car?', a: 'Yes. With an hourly booking, your chauffeur drops you as close as allowed to each memorial, waits while you visit and takes you to the next, which is especially welcome on a cold winter evening.' },
+      { q: 'How early should I book a ride for the holiday week?', a: 'Book as soon as your plans are set, especially for New Year\'s Eve and airport departures in early January. Sedans and SUVs can be cancelled free up to 3 hours before pickup, and Sprinter vans up to 12 hours before.' },
+    ],
+  },
 ];
