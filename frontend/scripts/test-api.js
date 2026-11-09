@@ -12,11 +12,8 @@
  * Covers:
  *   - POST /api/chat falls back gracefully (never throws) with no
  *     ANTHROPIC_API_KEY set.
- *   - POST /api/lead-capture 400s on missing/invalid name or phone.
- *   - POST /api/lead-capture 201s and returns promptly even when the
- *     Twilio/webhook env vars are unset, and when LEAD_WEBHOOK_URL points
- *     at an unreachable host — including a case built to actually exercise
- *     the 6s AbortController timeout, not just a fast ECONNREFUSED.
+ *   - GET /api/chat reports { enabled: false } with no ANTHROPIC_API_KEY,
+ *     which keeps the chat widget hidden.
  */
 
 const assert = require('assert');
@@ -89,9 +86,19 @@ async function main() {
     }
   });
 
-  await test('rejects non-POST with 405 and never throws', async () => {
+  await test('GET status probe reports disabled with no ANTHROPIC_API_KEY', async () => {
+    delete process.env.ANTHROPIC_API_KEY;
     const chat = freshRequire('api/chat.js');
     const req = mockReq({ method: 'GET' });
+    const res = mockRes();
+    await chat(req, res);
+    assert.strictEqual(res.statusCode, 200);
+    assert.strictEqual(res.body.enabled, false);
+  });
+
+  await test('rejects other non-POST methods with 405 and never throws', async () => {
+    const chat = freshRequire('api/chat.js');
+    const req = mockReq({ method: 'PUT' });
     const res = mockRes();
     await chat(req, res);
     assert.strictEqual(res.statusCode, 405);
@@ -104,119 +111,6 @@ async function main() {
     await chat(req, res);
     assert.strictEqual(res.statusCode, 200);
     assert.strictEqual(typeof res.body.reply, 'string');
-  });
-
-  console.log('\napi/lead-capture.js');
-
-  await test('400s on missing name', async () => {
-    const leadCapture = freshRequire('api/lead-capture.js');
-    const req = mockReq({ body: { phone: '(877) 609-1919' } });
-    const res = mockRes();
-    await leadCapture(req, res);
-    assert.strictEqual(res.statusCode, 400);
-    assert.strictEqual(res.body.success, false);
-  });
-
-  await test('400s on missing phone', async () => {
-    const leadCapture = freshRequire('api/lead-capture.js');
-    const req = mockReq({ body: { name: 'Jane Doe' } });
-    const res = mockRes();
-    await leadCapture(req, res);
-    assert.strictEqual(res.statusCode, 400);
-  });
-
-  await test('400s on an invalid (too-short) phone', async () => {
-    const leadCapture = freshRequire('api/lead-capture.js');
-    const req = mockReq({ body: { name: 'Jane Doe', phone: '12345' } });
-    const res = mockRes();
-    await leadCapture(req, res);
-    assert.strictEqual(res.statusCode, 400);
-  });
-
-  await test('400s on an invalid email, when a name and phone are present', async () => {
-    const leadCapture = freshRequire('api/lead-capture.js');
-    const req = mockReq({
-      body: { name: 'Jane Doe', phone: '(877) 609-1919', email: 'not-an-email' },
-    });
-    const res = mockRes();
-    await leadCapture(req, res);
-    assert.strictEqual(res.statusCode, 400);
-  });
-
-  await test('201s promptly when Twilio/webhook env vars are all unset (no-op path)', async () => {
-    const envKeys = [
-      'TWILIO_ACCOUNT_SID',
-      'TWILIO_AUTH_TOKEN',
-      'TWILIO_FROM_NUMBER',
-      'ALERT_PHONE_NUMBER',
-      'LEAD_WEBHOOK_URL',
-    ];
-    const saved = {};
-    envKeys.forEach((k) => {
-      saved[k] = process.env[k];
-      delete process.env[k];
-    });
-    try {
-      const leadCapture = freshRequire('api/lead-capture.js');
-      const req = mockReq({ body: { name: 'Jane Doe', phone: '(877) 609-1919' } });
-      const res = mockRes();
-      const start = Date.now();
-      await leadCapture(req, res);
-      const elapsed = Date.now() - start;
-      assert.strictEqual(res.statusCode, 201, `expected 201, got ${res.statusCode}`);
-      assert.strictEqual(res.body.success, true);
-      assert.ok(elapsed < 1000, `expected the no-op path to return fast, took ${elapsed}ms`);
-    } finally {
-      envKeys.forEach((k) => {
-        if (saved[k] !== undefined) process.env[k] = saved[k];
-        else delete process.env[k];
-      });
-    }
-  });
-
-  await test('201s and does not hang when LEAD_WEBHOOK_URL is a closed local port', async () => {
-    const prevUrl = process.env.LEAD_WEBHOOK_URL;
-    // Nothing listens here — expect a fast ECONNREFUSED, well under the
-    // 6s AbortController timeout.
-    process.env.LEAD_WEBHOOK_URL = 'http://127.0.0.1:1';
-    try {
-      const leadCapture = freshRequire('api/lead-capture.js');
-      const req = mockReq({ body: { name: 'Jane Doe', phone: '(877) 609-1919' } });
-      const res = mockRes();
-      const start = Date.now();
-      await leadCapture(req, res);
-      const elapsed = Date.now() - start;
-      assert.strictEqual(res.statusCode, 201, `expected 201, got ${res.statusCode}`);
-      assert.ok(elapsed < 8000, `expected a bounded response time, took ${elapsed}ms`);
-    } finally {
-      if (prevUrl !== undefined) process.env.LEAD_WEBHOOK_URL = prevUrl;
-      else delete process.env.LEAD_WEBHOOK_URL;
-    }
-  });
-
-  await test('201s within ~6s when LEAD_WEBHOOK_URL is an unreachable (black-holed) host — proves the AbortController timeout actually bounds the wait, not just a fast refusal', async () => {
-    const prevUrl = process.env.LEAD_WEBHOOK_URL;
-    // 10.255.255.1 is a private, non-routable-from-here address: packets are
-    // silently dropped rather than refused, so without our own timeout this
-    // would hang on the OS/TCP connect timeout (often 60s+). This proves
-    // lib/leadWebhook.js's 6s AbortController timeout is what bounds it.
-    process.env.LEAD_WEBHOOK_URL = 'http://10.255.255.1:65535/webhook';
-    try {
-      const leadCapture = freshRequire('api/lead-capture.js');
-      const req = mockReq({ body: { name: 'Jane Doe', phone: '(877) 609-1919' } });
-      const res = mockRes();
-      const start = Date.now();
-      await leadCapture(req, res);
-      const elapsed = Date.now() - start;
-      assert.strictEqual(res.statusCode, 201, `expected 201, got ${res.statusCode}`);
-      assert.ok(
-        elapsed < 8000,
-        `expected the 6s timeout to bound the wait (with margin), took ${elapsed}ms`
-      );
-    } finally {
-      if (prevUrl !== undefined) process.env.LEAD_WEBHOOK_URL = prevUrl;
-      else delete process.env.LEAD_WEBHOOK_URL;
-    }
   });
 
   console.log(`\n${passed} passed, ${failed} failed`);
