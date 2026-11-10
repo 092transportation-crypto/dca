@@ -2223,4 +2223,275 @@ export const BLOG_POSTS_BATCH17 = [
       { q: 'How far is Arlington National Cemetery from Reagan National Airport?', a: 'About 3 miles, typically 8 to 15 minutes by car, so family flying in can often go from the airport to the cemetery the same day.' },
     ],
   },
+  {
+    slug: 'skiing-close-to-washington-dc-resorts-and-rides',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-frederick-md', 'dca-to-arlington'],
+    relatedLinks: [
+      { label: 'Sprinter Van Rental with Driver', to: '/sprinter-van-rental-with-driver' },
+      { label: 'Skyline Drive & Shenandoah Fall Day Trip', to: '/blog/fall-foliage-skyline-drive-shenandoah-day-trip-guide' },
+      { label: 'DCA Winter Weather & Flight Delay Playbook', to: '/blog/dca-winter-weather-flight-delay-playbook' },
+    ],
+    title: 'Skiing Close to Washington DC: Nearby Slopes and How to Get There',
+    metaTitle: 'Skiing Close to Washington DC | DCA Limos',
+    metaDesc:
+      'Skiing close to Washington DC: the nearest slopes in Pennsylvania, Virginia, Maryland and West Virginia, drive times, and a stress-free ride from DCA or home.',
+    excerpt:
+      'The DC region has real ski slopes within a two- to three-hour drive. Here is where they are, how long the drive takes, and how to plan a ski day or weekend without white-knuckling I-81 yourself.',
+    image: '/images/blog/fleet-sprinter-2.webp',
+    author: 'Michael Chen',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'November 19, 2026',
+    scheduled: true,
+    readTime: '8 min read',
+    category: 'Travel Tips',
+    content: `
+      <p class="lead">Washington is not a ski town, but skiing close to Washington DC is more realistic than most newcomers expect. Within roughly two hours of the Capital Beltway there are several established resorts in south-central Pennsylvania and the Shenandoah Valley, and a few more in western Maryland and the Virginia and West Virginia mountains sit within a long half-day's drive. This guide walks through where the nearest slopes are, how long the drive realistically takes in winter, and how to plan a ski day or weekend from DC, Arlington, Alexandria or a flight into Reagan National without spending the trip worrying about the road.</p>
+
+      <h2>Where the Nearest Slopes Are</h2>
+      <p>The resorts closest to the city fall into two clusters, and which one suits you depends mostly on where you start and which direction traffic is moving.</p>
+
+      <h3>South-central Pennsylvania: the closest day trips</h3>
+      <p><strong>Liberty Mountain Resort</strong>, near Fairfield, Pennsylvania, just outside Gettysburg, is usually the shortest drive from northwest DC and Montgomery County. The route runs up I-270 through Frederick and north on US-15, typically about an hour and a half from the Beltway in good conditions. <strong>Whitetail Resort</strong>, near Mercersburg, Pennsylvania, is a similar distance, reached by I-270 and I-70 toward Hagerstown and then north. <strong>Roundtop Mountain Resort</strong>, near Lewisberry, Pennsylvania, is a little farther, closer to two hours. All three are smaller mountains built for day skiing and night skiing rather than long ski weeks, which is exactly why they are popular with DC families and groups of friends.</p>
+
+      <h3>The Shenandoah Valley and Virginia</h3>
+      <p>Heading west on I-66 and south on I-81 brings you to <strong>Bryce Resort</strong> in Basye, Virginia, and <strong>Massanutten Resort</strong> near Harrisonburg, both typically around two to two and a half hours from Arlington or downtown. Massanutten is a four-season resort with lodging on the mountain, so it works well for a weekend. Farther south, <strong>Wintergreen Resort</strong> in the Blue Ridge, west of Charlottesville, is roughly three hours away and is usually treated as an overnight trip rather than a day out.</p>
+
+      <h3>Western Maryland and West Virginia</h3>
+      <p><strong>Wisp Resort</strong> at Deep Creek Lake in Garrett County, Maryland, is about three hours west via I-270, I-70 and I-68. The larger West Virginia mountains, including <strong>Snowshoe</strong> and the resorts around Canaan Valley, are a longer haul of four hours or more and are best planned as multi-night trips.</p>
+      <p>Drive times above are general guides for clear roads. Friday-afternoon traffic leaving the region and snow on the mountain roads can add a great deal, and conditions, terrain and operating calendars change from season to season, so check each resort's own website for what is open before you set out.</p>
+
+      <h2>Why the Drive Is the Hard Part</h2>
+      <p>For most DC skiers, the snow is not the obstacle. The drive is. A few things make winter trips to the mountains harder than the mileage suggests:</p>
+      <ul>
+        <li><strong>Leaving the city.</strong> I-270, I-66 and the Beltway are congested on weekday afternoons and on Friday evenings, which is exactly when weekend skiers want to leave.</li>
+        <li><strong>Mountain roads in the dark.</strong> The last stretch to most resorts climbs on two-lane roads that can be icy at night, and many trips end after dark in December and January.</li>
+        <li><strong>Tired drivers.</strong> After a full day on the slopes, someone still has to drive two or three hours home, often on a Sunday when I-81 and I-66 are busy with returning traffic.</li>
+        <li><strong>Gear and passengers.</strong> Skis, boards, boot bags and a family's worth of luggage do not fit neatly into an ordinary car, and roof boxes and rental logistics add another layer.</li>
+      </ul>
+      <p>None of this is a reason to skip the trip. It is a reason to decide early who is driving, and whether anyone in your group should have to.</p>
+
+      <h2>Planning a Ski Day from DC</h2>
+      <p>A day trip works best with the nearer resorts in Pennsylvania or the Shenandoah Valley. A typical plan looks like this:</p>
+      <ol>
+        <li><strong>Leave early.</strong> An early-morning pickup gets you out of the city before the commuter rush and onto the slopes when they are least crowded.</li>
+        <li><strong>Pick a realistic return time.</strong> Decide in advance whether you are staying for night skiing or leaving around the time the light fades, so the ride home is planned rather than improvised.</li>
+        <li><strong>Watch the forecast both ways.</strong> A sunny morning in Arlington says little about the evening on a mountain road. Check the forecast for the resort and the route home the day before and the morning of.</li>
+        <li><strong>Pack the vehicle once.</strong> With a chauffeured ride, gear goes in at home and comes out at the base lodge. Nobody juggles boots on a shuttle bus from a distant lot.</li>
+      </ol>
+      <p>For a day trip with an <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur</a>, the vehicle and driver stay with your group for the day, so the same car is waiting when you are ready to go home. For a weekend, it is usually simpler to book a drop-off on the first day and a separate pickup on the last.</p>
+
+      <h2>Flying In to Ski? Starting from Reagan National</h2>
+      <p>Visitors sometimes fly into Reagan National to combine a few days in Washington with a ski weekend. That works well because DCA sits close to the start of the routes west and north. With a <a href="/limo/dca-airport-limo">DCA airport pickup</a>, your chauffeur tracks the flight and includes complimentary wait time of 45 minutes on domestic arrivals and 60 minutes on international arrivals, so a delayed arrival does not throw off the plan. From the terminal, the car can go straight to the mountain or to a hotel in the city first.</p>
+      <p>If you are flying in with your own skis or a snowboard bag, tell us when you book. Oversized gear changes which vehicle makes sense, and it is far easier to plan for it in advance than to discover at the curb that the bags do not fit. In midwinter it also helps to read our <a href="/blog/dca-winter-weather-flight-delay-playbook">DCA winter weather and flight delay playbook</a> before you travel.</p>
+
+      <h2>Choosing the Right Vehicle for Skis and Boards</h2>
+      <p>Ski trips are one of the few occasions where luggage capacity matters more than seating. These are the vehicles on our <a href="/fleet">fleet</a> page, with their passenger and luggage counts:</p>
+      <ul>
+        <li><strong>Midsize SUV (Lincoln Nautilus or similar):</strong> up to 3 passengers and 4 bags. Suits a couple or a small family packing light.</li>
+        <li><strong>Luxury SUV (Chevrolet Suburban or similar):</strong> up to 5 passengers and 5 bags. A strong choice for a family with boot bags and a couple of gear bags.</li>
+        <li><strong>Premium SUV (Lincoln Navigator or similar):</strong> up to 6 passengers and 5 bags.</li>
+        <li><strong>Sprinter van (Mercedes Sprinter or similar):</strong> up to 13 passengers and 13 bags. The practical answer for a group of friends, a youth team or two families traveling together.</li>
+      </ul>
+      <p>Sedans are comfortable for one to three passengers, but long skis and board bags are another matter, so for a ski trip we generally recommend an SUV or a Sprinter. Count your gear bags as well as your suitcases when you book, and mention the length of any ski bags. For larger groups, our <a href="/sprinter-van-rental-with-driver">Sprinter van rental with driver</a> page explains how group trips work, including booking more than one van on a single reservation.</p>
+
+      <h2>Making a Weekend of It</h2>
+      <p>Resorts like Massanutten and Wintergreen, and the West Virginia mountains, are better as weekends. A few practical points:</p>
+      <ul>
+        <li><strong>Avoid the Friday rush if you can.</strong> A late-morning or midday Friday departure usually beats leaving at 5 p.m. by a wide margin.</li>
+        <li><strong>Confirm the drop-off point.</strong> Lodges, condos and slope-side hotels often have separate entrances from the day-skier lots. Share the exact address so your chauffeur goes to the right door.</li>
+        <li><strong>Book the return when you book the trip out.</strong> Sunday-afternoon rides home are in demand during peak winter weekends and holiday weeks.</li>
+        <li><strong>Leave buffer around flights.</strong> If the weekend ends at the airport, plan the pickup time with weather and Sunday traffic in mind, not the best-case drive time.</li>
+      </ul>
+
+      <h2>Holiday Weeks and School Breaks</h2>
+      <p>The busiest stretches on the mountains are generally the week between Christmas and New Year's, the Martin Luther King Jr. weekend in January and Presidents' Day weekend in February, when schools across the region are out at the same time. Roads, base lodges and parking lots are all at their fullest then. If your group is set on one of those dates, reserve transportation early and allow extra time in both directions. If your dates are flexible, a weekday trip is usually calmer on the road and on the slopes.</p>
+
+      <h2>Weather, Cancellations and Changing Plans</h2>
+      <p>Mid-Atlantic winters are unpredictable. A storm can make the mountain perfect and the roads miserable on the same day, and a warm spell can close terrain at short notice. Watch the forecast and the resort's announcements in the days before the trip, and do not hesitate to move the date if a serious storm is forecast for your drive.</p>
+      <p>Our cancellation policy is designed for exactly that kind of uncertainty: sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before pickup. Cancellations inside those windows may incur a fee, so if the forecast is turning, it is worth deciding early.</p>
+
+      <h2>Booking Your Ski Trip Ride</h2>
+      <p>Every DCA Limos trip is quoted as a flat rate before you book, with no surprises on the day. Tell us the resort, the number of skiers, how much gear you are bringing and whether you need a day trip or a drop-off and pickup across a weekend, and we will suggest the right vehicle. You can <a href="/booking">book online</a> or call (877) 609-1919. Dispatch runs 24 hours a day, every day of the year, which matters when your ride home starts at the end of a long day on the mountain.</p>
+    `,
+    faqs: [
+      { q: 'What is the closest skiing to Washington DC?', a: 'The nearest resorts are in south-central Pennsylvania, including Liberty Mountain near Fairfield and Whitetail near Mercersburg, typically about an hour and a half from the Beltway in good conditions. Bryce and Massanutten in the Shenandoah Valley are usually around two to two and a half hours away.' },
+      { q: 'Can you do a ski day trip from DC?', a: 'Yes. The Pennsylvania resorts and the Shenandoah Valley resorts are realistic day trips if you leave early and plan your return time in advance. Farther resorts such as Wintergreen, Wisp and the West Virginia mountains are better as overnight trips.' },
+      { q: 'Which vehicle fits skis and snowboards?', a: 'For a ski trip we generally recommend an SUV or a Sprinter van rather than a sedan. The Chevrolet Suburban seats up to 5 with 5 bags, the Lincoln Navigator up to 6 with 5 bags, and a Mercedes Sprinter up to 13 with 13 bags. Tell us how many gear bags you have and their length when you book.' },
+      { q: 'Can I get picked up at Reagan National and go straight to a ski resort?', a: 'Yes. Your chauffeur tracks your flight, includes 45 minutes of complimentary wait on domestic arrivals and 60 minutes on international arrivals, and can drive you directly to the resort or to a hotel first.' },
+      { q: 'What happens if a snowstorm changes our plans?', a: 'Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before pickup. If a serious storm is forecast for your drive, contact us early to move or cancel the trip.' },
+    ],
+  },
+  {
+    slug: 'georgetown-glow-holiday-light-art-visit-guide',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-alexandria'],
+    relatedLinks: [
+      { label: 'Georgetown Limo Service', to: '/georgetown-limo-service' },
+      { label: 'DC Holiday Lights & National Christmas Tree Season', to: '/blog/dc-holiday-lights-christmas-tree-season-transportation' },
+      { label: 'Holiday Lights Limo Tours in DC, Maryland & Virginia', to: '/holiday-lights-limo-tours-dc-maryland-virginia' },
+    ],
+    title: 'Georgetown GLOW: How to Visit the Holiday Light Art Walk Without Parking',
+    metaTitle: 'Georgetown GLOW Visit & Ride Guide | DCA Limos',
+    metaDesc:
+      'Plan a Georgetown GLOW evening: what the free light art walk is, when to go, why parking and Metro are tricky there, and how a chauffeured drop-off helps.',
+    excerpt:
+      'Georgetown GLOW turns the neighborhood into a free outdoor gallery of light art each holiday season. Here is how to plan the walk, when to go, and how to get there without circling for parking.',
+    image: '/images/blog/scenario-doorman.webp',
+    author: 'Sarah Williams',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'November 20, 2026',
+    scheduled: true,
+    readTime: '7 min read',
+    category: 'Events & Festivals',
+    content: `
+      <p class="lead">Every holiday season, Georgetown GLOW turns one of Washington's oldest neighborhoods into a free, open-air gallery of light art. Installations by artists appear in courtyards, along the waterfront and beside the C&amp;O Canal, and visitors wander between them on foot after dark. It is one of the more distinctive December evenings in the city, and it comes with one very Georgetown problem: getting there and getting home. This guide covers what GLOW is, when to go, how to plan the walk, and how to arrive by car service from DC, Arlington, Alexandria or Reagan National without spending the first half hour looking for a parking space.</p>
+
+      <h2>What Georgetown GLOW Is</h2>
+      <p>Georgetown GLOW is an annual public light art exhibition presented by the Georgetown Business Improvement District. Rather than a single light show, it is a collection of separate installations, often large-scale and sometimes interactive, placed in public spaces around the neighborhood. The artists and pieces change from year to year, so even regular visitors usually find something new.</p>
+      <p>The exhibition is outdoors and free to visit, and it is designed to be explored on foot. Some installations are best seen up close; others are meant to be viewed from across the canal or the river. There is no single entrance and no ticket line, which makes GLOW easy to fit around dinner, shopping or a visit with family who are in town for the holidays.</p>
+
+      <h2>When Georgetown GLOW Runs</h2>
+      <p>GLOW has typically run from early December into early January, with the installations lit each evening from around dusk. The exact dates, nightly hours, locations and any special events change each year, so check the Georgetown BID's official GLOW page for the current season before you plan your evening. A map of the installations is usually published there too, and it is worth having it on your phone before you arrive.</p>
+      <p>A few timing tips that hold true most years:</p>
+      <ul>
+        <li><strong>Weeknights are calmer.</strong> Friday and Saturday evenings in December bring holiday shoppers, diners and GLOW visitors to the same few blocks at once.</li>
+        <li><strong>Go early in the evening.</strong> In December it is dark well before dinner, so you can see the installations and still make a restaurant reservation.</li>
+        <li><strong>Watch the weather.</strong> Everything is outdoors. A dry, cold night is perfect; a windy, rainy one is miserable near the water.</li>
+        <li><strong>The week between Christmas and New Year's is busy.</strong> Visiting families and students home from college make GLOW a popular outing then.</li>
+      </ul>
+
+      <h2>Planning the Walk</h2>
+      <p>Georgetown is compact but hilly, and its brick sidewalks are uneven in places. Most GLOW routes cover the area between M Street, the C&amp;O Canal and the Georgetown Waterfront, which means a fair amount of walking up and down the slope toward the river. Allow at least an hour to see the installations at an easy pace, longer if you plan to stop for dinner or hot drinks along the way.</p>
+      <p>Wear comfortable, warm shoes, dress for wind near the water and bring gloves; photographing the installations means a lot of standing still in the cold. If someone in your group has limited mobility, look at the map in advance and choose a cluster of installations close together rather than trying to see every piece.</p>
+
+      <h2>Why Getting to Georgetown Is the Tricky Part</h2>
+      <p>Georgetown is famously hard to reach and harder to park in, and December evenings are the hardest of all.</p>
+      <h3>There is no Georgetown Metro station</h3>
+      <p>The neighborhood has no Metro stop of its own. The nearest stations are Foggy Bottom-GWU on the DC side and Rosslyn across Key Bridge in Arlington, and either one leaves a walk of fifteen to twenty minutes or more before you reach the first installation, often uphill on the way back. That is fine on a mild night for a fit group. It is less appealing in freezing wind, with children, or with older relatives.</p>
+      <h3>Parking is scarce, especially in December</h3>
+      <p>Street parking in Georgetown is limited and heavily restricted, and the neighborhood's garages fill quickly on December evenings when GLOW, holiday shopping and dinner reservations all overlap. M Street and Wisconsin Avenue move slowly at the best of times, and circling the residential side streets rarely turns up a space. Our <a href="/georgetown-limo-service">Georgetown car service</a> page covers the neighborhood's driving challenges in more detail.</p>
+      <h3>Rideshare at closing time</h3>
+      <p>Getting a ride out of Georgetown at the end of a busy evening can be slow, with drivers stuck in the same traffic on M Street and pickup spots hard to find. A pre-arranged pickup point avoids standing on the corner refreshing an app.</p>
+
+      <h2>How a Chauffeured GLOW Evening Works</h2>
+      <p>With a reserved car, the evening runs on your schedule rather than on parking. A typical plan:</p>
+      <ol>
+        <li><strong>Pickup at home, your hotel or the airport.</strong> Your chauffeur collects the group at a set time and handles the drive into Georgetown.</li>
+        <li><strong>Drop-off near your first installation.</strong> We agree a drop-off point on a main street close to where you want to start, so you are walking among the lights within minutes of arriving.</li>
+        <li><strong>A planned pickup point.</strong> Before you head off, you and your chauffeur agree where and roughly when to meet, usually near your last installation or your restaurant, so nobody climbs back up the hill unnecessarily.</li>
+        <li><strong>Straight home.</strong> At the end of the night, the car is waiting and the drive home is someone else's job.</li>
+      </ol>
+      <p>For an evening that combines GLOW with dinner and perhaps another holiday stop, an <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur</a> keeps the vehicle with your group, which is the simplest option if you are not sure how long you will stay. For a straightforward there-and-back, a transfer each way works well.</p>
+
+      <h2>Combining GLOW with Other Holiday Stops</h2>
+      <p>GLOW pairs naturally with other December outings. Some visitors start with dinner in Georgetown and see the installations afterward; others make it one stop on a longer evening of lights around the city. Our guide to <a href="/blog/dc-holiday-lights-christmas-tree-season-transportation">DC holiday lights and National Christmas Tree season</a> covers the Ellipse, ZooLights and neighborhood displays, and the <a href="/holiday-lights-limo-tours-dc-maryland-virginia">holiday lights tours guide</a> covers putting several displays across DC, Maryland and Virginia into one chauffeured evening. The usual advice applies: two or three stops in an evening is relaxing, five or six turns into a schedule.</p>
+
+      <h2>Visiting Family, Holiday Parties and Flights into DCA</h2>
+      <p>GLOW is a popular outing for relatives in town for the holidays, and Reagan National is one of the closest airports to Georgetown, a short drive up the George Washington Memorial Parkway. Some visitors land in the late afternoon and head straight to dinner and the lights before checking in. With a <a href="/limo/dca-airport-limo">DCA airport pickup</a>, your chauffeur tracks the flight and includes 45 minutes of complimentary wait on domestic arrivals and 60 minutes on international arrivals, so a delay does not unravel the evening.</p>
+      <p>GLOW also makes an easy, low-key addition to an office holiday gathering in Georgetown. For larger groups, our <a href="/blog/corporate-holiday-party-transportation-guide">corporate holiday party transportation guide</a> covers moving a team between a venue and a second stop.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>Georgetown's streets are narrow, so vehicle choice matters a little more than usual. From our <a href="/fleet">fleet</a>:</p>
+      <ul>
+        <li><strong>Sedans</strong> (Mercedes-Benz E-Class, or BMW 7 Series / Mercedes S-Class, or similar) seat up to 3 passengers and are the easiest to drop off on tight streets.</li>
+        <li><strong>SUVs</strong> range from the Lincoln Nautilus (up to 3 passengers) to the Chevrolet Suburban (up to 5) and the Lincoln Navigator (up to 6), with room for coats, shopping bags and a stroller.</li>
+        <li><strong>Mercedes Sprinter vans</strong> seat up to 13 and keep a larger family or group together. For a Sprinter, we pick drop-off points on main streets where a larger vehicle can stop safely.</li>
+      </ul>
+
+      <h2>Booking Your Georgetown GLOW Ride</h2>
+      <p>Every DCA Limos trip is quoted as a flat rate before you book. Tell us your pickup address, the evening you plan to visit, the size of your group and whether you want a transfer each way or an hourly booking, and we will suggest the right vehicle. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before pickup, which helps if the forecast turns. You can <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day.</p>
+    `,
+    faqs: [
+      { q: 'What is Georgetown GLOW?', a: 'Georgetown GLOW is an annual public light art exhibition presented by the Georgetown Business Improvement District, with installations by artists placed in outdoor spaces around the neighborhood during the holiday season.' },
+      { q: 'Is Georgetown GLOW free?', a: 'GLOW has been free to visit and is outdoors, explored on foot. Check the Georgetown BID official GLOW page for the current season details.' },
+      { q: 'When does Georgetown GLOW run?', a: 'It has typically run from early December into early January, lit each evening from around dusk. Exact dates, hours and installation locations change each year, so confirm with the Georgetown BID before you go.' },
+      { q: 'What is the closest Metro station to Georgetown GLOW?', a: 'Georgetown has no Metro station. The nearest are Foggy Bottom-GWU and Rosslyn, each about a fifteen- to twenty-minute walk or more from the installations.' },
+      { q: 'Where can a chauffeur drop us off for GLOW?', a: 'We agree a drop-off point on a main street near your first installation and a pickup point near your last stop or restaurant, so you avoid parking and the walk back uphill.' },
+    ],
+  },
+  {
+    slug: 'old-town-alexandria-christmas-parades-lights-ride-guide',
+    relatedRoutes: ['dca-to-alexandria', 'dca-to-washington-dc', 'dca-to-arlington'],
+    relatedLinks: [
+      { label: 'Old Town Alexandria Transportation Guide', to: '/old-town-alexandria-transportation-guide' },
+      { label: 'Alexandria, VA Limo Service', to: '/alexandria-va-limo-service' },
+      { label: 'Old Town Alexandria Date Night Transportation', to: '/blog/old-town-alexandria-date-night-transportation' },
+    ],
+    title: 'Old Town Alexandria at Christmas: Parades, Boat Lights and Easy Rides',
+    metaTitle: 'Old Town Alexandria Christmas Guide | DCA Limos',
+    metaDesc:
+      'Old Town Alexandria Christmas guide: the Scottish Walk Parade, the Boat Parade of Lights, King Street shopping, and getting there without parking stress.',
+    excerpt:
+      'Old Town Alexandria does Christmas in its own way, with a Scottish parade, lighted boats on the Potomac and a historic main street dressed for the season. Here is how to plan the visit and the ride.',
+    image: '/images/blog/scenario-group-shuttle.webp',
+    author: 'David Thompson',
+    authorBio: 'Ground transportation specialist covering the DC, Maryland, and Virginia corridor for business and leisure travelers.',
+    date: 'November 21, 2026',
+    scheduled: true,
+    readTime: '7 min read',
+    category: 'Local Guides',
+    content: `
+      <p class="lead">Old Town Alexandria is one of the most festive places in the Washington region in December. Its eighteenth-century streets fill with wreaths and lights, King Street's shops and restaurants stay busy into the evening, and two long-running traditions, a Scottish-themed parade and a parade of lighted boats on the Potomac, draw visitors from across the DMV. An Old Town Alexandria Christmas outing is also easy to plan from Reagan National, which sits only a few miles up the river. This guide covers the main seasonal events, when to go, and how to get there and back without fighting for a parking space on the busiest weekends of the year.</p>
+
+      <h2>The Main Holiday Traditions in Old Town</h2>
+
+      <h3>The Scottish Walk Parade</h3>
+      <p>Alexandria was founded by Scottish merchants, and the city marks that heritage each December with the Scottish Walk Parade, a long-running tradition organized by The Campagna Center, a local nonprofit. Bagpipe and drum bands, Scottish clan groups in tartan and a much-loved contingent of Scottish terriers march through the streets of Old Town. It is held as part of a wider Scottish-themed weekend that has typically taken place in early December. The parade route, start time and related events are announced each year, so check The Campagna Center's website before you plan around it.</p>
+
+      <h3>The Holiday Boat Parade of Lights</h3>
+      <p>On the waterfront, the Alexandria Holiday Boat Parade of Lights brings decorated, lighted boats along the Potomac in front of Old Town after dark. Spectators gather in the waterfront parks and along the river walk to watch, and the evening usually comes with other festivities nearby. It has traditionally been held on an evening in early December, and in recent years it has often fallen on the same weekend as the Scottish Walk, which makes that weekend the busiest of the season in Old Town. Visit Alexandria, the city's official tourism organization, publishes the details each year.</p>
+
+      <h3>Tree lighting, shops and holiday lights</h3>
+      <p>The city's holiday season traditionally begins with a tree lighting in Market Square, near City Hall, around late November. Through December, King Street and the side streets are dressed in lights and greenery, independent shops stay open for holiday shopping, and the historic houses and museums of Old Town often run seasonal programs. Just south of the city, George Washington's Mount Vernon has offered its own Christmas-season programs; check the estate's website for what is planned this year.</p>
+
+      <h2>Timing Your Visit</h2>
+      <p>When you go makes a big difference to the experience.</p>
+      <ul>
+        <li><strong>Parade weekend is the busiest.</strong> If you want the Scottish Walk or the boat parade, expect crowds, street closures around the parade route and full garages. Arrive early and plan your pickup point in advance.</li>
+        <li><strong>Weeknights are quieter.</strong> For shopping, dinner and the lights without the crowds, a weekday evening in December is far calmer.</li>
+        <li><strong>Dress for the river.</strong> The boat parade is watched outdoors by the water, and the wind off the Potomac makes a December evening feel colder than the forecast.</li>
+        <li><strong>Book dinner early.</strong> Old Town restaurants fill quickly on December weekends, especially on parade days.</li>
+      </ul>
+      <p>Event dates, times and routes change year to year, and parades can be postponed for weather, so confirm the details with the organizers shortly before you go.</p>
+
+      <h2>Getting Around Old Town</h2>
+      <p>King Street is Old Town's main axis, running roughly a mile from the King Street-Old Town Metro station down to the waterfront. Most of the holiday activity sits in the lower blocks, closer to the river, which means visitors arriving by Metro still face a long walk or a trolley ride to reach the parade and the boats. Our <a href="/old-town-alexandria-transportation-guide">Old Town Alexandria transportation guide</a> covers Metro, the free King Street Trolley, parking and the main roads in and out in more detail.</p>
+      <p>On event days, some streets near the parade route close to traffic, and the blocks nearest the river are often closed to vehicles or given over to pedestrians. That is good news for walking, but it means any car, including a chauffeured one, needs a drop-off point that will actually be open at the time you arrive.</p>
+
+      <h2>Why Parking Gets Hard in December</h2>
+      <p>Old Town's streets were laid out long before cars, and parking has always been tight. In December, holiday shoppers, diners and parade crowds compete for the same garages and metered spaces, and on parade weekends the garages closest to the waterfront can fill early. Circling the narrow one-way streets looking for a spot is slow, and walking back to a distant garage at the end of a cold evening is the part of the night nobody enjoys.</p>
+      <p>A chauffeured ride removes both problems. Your driver drops the group as close as the street closures allow, and you agree a pickup point, usually on a main street a few blocks from the crowd, where the car can meet you without getting caught in parade traffic.</p>
+
+      <h2>How a Chauffeured Old Town Christmas Evening Works</h2>
+      <ol>
+        <li><strong>Tell us your plan.</strong> Share the evening you are visiting, whether it is parade day, and any dinner reservation, so the pickup time is worked back from there.</li>
+        <li><strong>Drop-off near the action.</strong> We plan the drop-off around expected closures, so you start near King Street or the waterfront rather than at the edge of town.</li>
+        <li><strong>A set meeting point for the ride home.</strong> Before you head off, you and your chauffeur agree where and when to meet, ideally a short walk away from the busiest blocks.</li>
+        <li><strong>Home or on to the next stop.</strong> Some visitors combine Old Town with a second stop, such as holiday lights in DC or National Harbor across the river.</li>
+      </ol>
+      <p>For a longer evening with several stops, an <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur</a> keeps the vehicle with your group. For a single round trip, a transfer each way is often enough. If you are planning a quieter evening for two, our <a href="/blog/old-town-alexandria-date-night-transportation">Old Town date night guide</a> has more ideas.</p>
+
+      <h2>Flying In for the Holidays? Old Town from Reagan National</h2>
+      <p>Reagan National is one of the closest airports to Old Town Alexandria, and many visitors coming for the holidays land at DCA and go straight to Alexandria. Our <a href="/dca-to-alexandria">DCA to Alexandria</a> route page covers the transfer, which typically takes 15 to 25 minutes depending on traffic. With a <a href="/limo/dca-airport-limo">DCA airport pickup</a>, your chauffeur tracks the flight and includes complimentary wait time of 45 minutes on domestic arrivals and 60 minutes on international arrivals.</p>
+      <p>December is one of the busiest travel periods of the year at DCA, so leave extra time on the return trip to the airport, especially on the weekends before Christmas and after New Year's Day.</p>
+
+      <h2>Choosing a Vehicle for Old Town</h2>
+      <p>Old Town's narrow streets and holiday crowds make a compact vehicle easier to maneuver, but the right choice depends on your group. From our <a href="/fleet">fleet</a>:</p>
+      <ul>
+        <li><strong>Sedans</strong> (Mercedes-Benz E-Class, or BMW 7 Series / Mercedes S-Class, or similar) seat up to 3 passengers and suit couples and small parties.</li>
+        <li><strong>SUVs</strong> include the Lincoln Nautilus (up to 3 passengers), the Chevrolet Suburban (up to 5) and the Lincoln Navigator (up to 6), with room for coats, shopping bags and a stroller.</li>
+        <li><strong>Mercedes Sprinter vans</strong> seat up to 13, which keeps an extended family or a group of friends together. For Sprinters, we choose drop-off and pickup points on wider streets that can take a larger vehicle.</li>
+      </ul>
+      <p>Our <a href="/alexandria-va-limo-service">Alexandria car service</a> page covers our wider service across the city, from weddings and corporate travel to airport transfers.</p>
+
+      <h2>Booking Your Old Town Alexandria Christmas Ride</h2>
+      <p>Every DCA Limos trip is quoted as a flat rate before you book. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before pickup, which helps if a parade is postponed for weather. Parade weekend is popular, so reserve early. You can <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year.</p>
+    `,
+    faqs: [
+      { q: 'When is the Scottish Walk Parade in Old Town Alexandria?', a: 'The Scottish Walk Parade, organized by The Campagna Center, has typically taken place in early December. Check The Campagna Center website for this year\'s date, route and start time.' },
+      { q: 'Where can I watch the Alexandria Holiday Boat Parade of Lights?', a: 'Spectators usually watch from the waterfront parks and the river walk along the Potomac in Old Town. Visit Alexandria publishes the date and viewing details each year.' },
+      { q: 'Is parking hard in Old Town Alexandria at Christmas?', a: 'Yes, especially on parade weekends, when garages near the waterfront fill early and some streets close. A chauffeured drop-off and a planned pickup point avoid the search for parking.' },
+      { q: 'How far is Old Town Alexandria from Reagan National Airport?', a: 'It is a short trip. Our DCA to Alexandria transfer typically takes 15 to 25 minutes depending on traffic.' },
+      { q: 'What vehicle works best for a family visit to Old Town in December?', a: 'A Chevrolet Suburban seats up to 5 and a Lincoln Navigator up to 6, with room for coats and shopping bags. For larger groups, a Mercedes Sprinter van seats up to 13.' },
+    ],
+  },
 ];
