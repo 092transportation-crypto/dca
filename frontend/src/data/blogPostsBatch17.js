@@ -4450,4 +4450,304 @@ export const BLOG_POSTS_BATCH17 = [
       { q: 'Can you transport a church group to the museum?', a: 'Yes. A Mercedes Sprinter van seats up to 13 and keeps a group together all day, and we can coordinate several vans for larger groups.' },
     ],
   },
+  {
+    slug: 'martin-luther-king-jr-memorial-visit-guide-tidal-basin',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-alexandria'],
+    relatedLinks: [
+      { label: 'DC Monuments at Night Chauffeur Tour', to: '/blog/dc-monuments-at-night-private-chauffeur-tour-guide' },
+      { label: 'National Museum of African American History and Culture', to: '/blog/national-museum-african-american-history-culture-visit-guide' },
+      { label: 'Hourly Chauffeur Service in DC', to: '/washington-dc-hourly-chauffeur-service' },
+    ],
+    title: 'Visiting the Martin Luther King Jr. Memorial: A Guide for MLK Day and Beyond',
+    metaTitle: 'MLK Memorial DC Visitor Guide | DCA Limos',
+    metaDesc:
+      "Plan a visit to the Martin Luther King Jr. Memorial on the Tidal Basin: where it is, what to see, visiting around MLK Day, nearby memorials and drop-off tips.",
+    excerpt:
+      'The Martin Luther King Jr. Memorial stands on the Tidal Basin between the Lincoln and Jefferson memorials. Here is how to plan a visit, especially around MLK Day weekend.',
+    image: '/images/blog/landmark-capitol-2.webp',
+    author: 'Sarah Williams',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'December 15, 2026',
+    scheduled: true,
+    readTime: '6 min read',
+    category: 'Local Guides',
+    content: `
+      <p class="lead">The Martin Luther King Jr. Memorial opened in 2011 on the northwest shore of the Tidal Basin, on a line between the Lincoln Memorial and the Jefferson Memorial. It was the first memorial on or near the National Mall dedicated to an African American, and it has become one of the most visited sites in the city. Many people make a point of visiting on Martin Luther King Jr. Day, which falls on the third Monday of January (January 18 in 2027). This guide covers what to see, how to time your visit and how to get there without circling for parking.</p>
+
+      <h2>What You Will See</h2>
+      <ul>
+        <li><strong>The Mountain of Despair and the Stone of Hope.</strong> Visitors enter through a passage cut into a massive granite form. The Stone of Hope, pushed forward toward the water, carries the carved figure of Dr. King, a reference to a line from his "I Have a Dream" speech.</li>
+        <li><strong>The Inscription Wall.</strong> A long curved wall on either side of the entrance carries quotations from his sermons, speeches and writings across his career.</li>
+        <li><strong>The Tidal Basin setting.</strong> The memorial faces across the water toward the Jefferson Memorial, and it sits among the cherry trees that line the basin.</li>
+      </ul>
+      <p>The memorial is managed by the National Park Service. It is free, open to visitors around the clock and has no tickets or timed entry. Park rangers are typically on duty during the day to answer questions.</p>
+
+      <h2>Visiting Around MLK Day</h2>
+      <p>MLK Day weekend brings more visitors than an ordinary January weekend. Commemorations, wreath-layings and service events are often held in the city, and the memorial can be busy on the holiday itself. A few tips:</p>
+      <ul>
+        <li><strong>Go early or late.</strong> Early morning is the quietest time, and the memorial is lit after dark, which makes an evening visit worthwhile.</li>
+        <li><strong>Dress for January.</strong> The Tidal Basin is open and exposed, and the wind off the water makes it feel colder than the forecast suggests.</li>
+        <li><strong>Check for events.</strong> If you want to attend an official ceremony, check the National Park Service and event organizers for times; special events can bring temporary road closures, which our <a href="/blog/dc-motorcades-road-closures-why-routes-change">road closures guide</a> explains.</li>
+        <li><strong>Pair it with a museum.</strong> The <a href="/blog/national-museum-african-american-history-culture-visit-guide">National Museum of African American History and Culture</a> is on the Mall a short drive away and is a natural companion visit. Timed passes can be required there, so check ahead.</li>
+      </ul>
+
+      <h2>Getting There and Drop-Off</h2>
+      <p>The memorial's address is 1964 Independence Avenue SW, a number chosen to honor the Civil Rights Act of 1964. It sits between Independence Avenue and the Tidal Basin, a walk of several blocks from the nearest Metro stations. Parking nearby is limited to a small number of spaces along West Basin Drive and Ohio Drive, and they fill quickly on busy days.</p>
+      <p>A chauffeured drop-off solves the parking problem. Your chauffeur drops you close to the entrance and picks you up at an agreed spot when you are done, so you can spend as long as you like. For visitors with limited mobility, our <a href="/blog/national-mall-monuments-limited-mobility-visitor-guide">limited-mobility monuments guide</a> covers the walking distances and the best drop-off points.</p>
+
+      <h2>Nearby Memorials</h2>
+      <p>The memorial is the start of an easy loop of the West Potomac Park memorials:</p>
+      <ul>
+        <li><strong>The Franklin Delano Roosevelt Memorial</strong> is next door along the Tidal Basin.</li>
+        <li><strong>The Jefferson Memorial</strong> is across the water, a longer walk around the basin or a short drive.</li>
+        <li><strong>The Lincoln Memorial, the Korean War Veterans Memorial and the Vietnam Veterans Memorial</strong> are a few minutes to the northwest.</li>
+      </ul>
+      <p>On a cold day, an <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur</a> lets you ride between memorials and warm up in the car rather than walking the whole loop. Our <a href="/blog/dc-monuments-at-night-private-chauffeur-tour-guide">monuments at night guide</a> covers an evening version of the same route.</p>
+
+      <h2>For Groups</h2>
+      <p>Church groups, school trips and community organizations often visit together around MLK Day. A Mercedes Sprinter van, which seats up to 13, keeps the group together between the memorial, the museums and lunch, and we can coordinate several vans for larger groups. Our <a href="/blog/school-tour-group-chauffeured-smithsonian-national-mall">school and tour group guide</a> covers planning a group day on the Mall.</p>
+
+      <h2>For Visitors Flying In</h2>
+      <p>The memorial is a short drive from Reagan National Airport, across the 14th Street Bridge. We can collect you from DCA, Dulles or BWI with real-time flight tracking and a meet-and-greet at baggage claim. Our airport wait policy includes 45 minutes after landing for domestic flights and 60 minutes for international arrivals.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>From our <a href="/fleet">fleet</a>:</p>
+      <ul>
+        <li><strong>Sedans</strong> (Mercedes-Benz E-Class, or BMW 7 Series / Mercedes S-Class, or similar) seat up to 3 passengers.</li>
+        <li><strong>SUVs</strong> include the Lincoln Nautilus (up to 3 passengers), the Chevrolet Suburban (up to 5) and the Lincoln Navigator (up to 6).</li>
+        <li><strong>Mercedes Sprinter vans</strong> seat up to 13, the usual choice for church groups and school trips.</li>
+      </ul>
+
+      <h2>Booking Your Visit</h2>
+      <p>Every DCA Limos trip is quoted upfront before you book. For pickups away from the airport, the first 15 minutes of waiting are free. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans up to 12 hours before pickup. You can <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year.</p>
+    `,
+    faqs: [
+      { q: 'Where is the Martin Luther King Jr. Memorial in DC?', a: 'It is at 1964 Independence Avenue SW, on the northwest shore of the Tidal Basin between the Lincoln Memorial and the Jefferson Memorial.' },
+      { q: 'Does the MLK Memorial cost anything or need tickets?', a: 'No. The memorial is managed by the National Park Service, is free and is open around the clock with no tickets or timed entry.' },
+      { q: 'When is MLK Day in 2027?', a: 'Martin Luther King Jr. Day is the third Monday of January, which is January 18 in 2027. The memorial can be busy that weekend, so early morning or evening visits are quieter.' },
+      { q: 'Is there parking at the MLK Memorial?', a: 'Only a small number of spaces along West Basin Drive and Ohio Drive, which fill quickly. A chauffeured drop-off near the entrance avoids the search for parking.' },
+      { q: 'Can you take a group to the MLK Memorial?', a: 'Yes. A Mercedes Sprinter van seats up to 13 and keeps a group together between the memorial, museums and meals, and we can coordinate several vans for larger groups.' },
+    ],
+  },
+  {
+    slug: 'national-theatre-dc-broadway-show-night-transportation',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-bethesda'],
+    relatedLinks: [
+      { label: 'Penn Quarter Car Service', to: '/penn-quarter-limo-service' },
+      { label: "Ford's Theatre and a Penn Quarter Evening", to: '/blog/fords-theatre-penn-quarter-evening' },
+      { label: 'Warner Theatre Transportation', to: '/warner-theatre-transportation' },
+    ],
+    title: 'Broadway at the National Theatre in DC: Planning Your Show Night',
+    metaTitle: 'National Theatre DC Show Night Car Service | DCA Limos',
+    metaDesc:
+      "Plan a night at the National Theatre on Pennsylvania Avenue: where it is, pre-show dining in Penn Quarter, drop-off and pickup tips, and getting home after curtain.",
+    excerpt:
+      'The National Theatre on Pennsylvania Avenue brings touring Broadway productions to downtown DC. Here is how to plan dinner, arrival and the ride home after the curtain.',
+    image: '/images/blog/scenario-doorman.webp',
+    author: 'Michael Chen',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'December 16, 2026',
+    scheduled: true,
+    readTime: '6 min read',
+    category: 'Local Guides',
+    content: `
+      <p class="lead">The National Theatre has been part of downtown Washington since 1835, making it one of the oldest theaters in the country. Today it hosts touring Broadway productions, from long-running musicals to new shows fresh from New York, on Pennsylvania Avenue just a few blocks from the White House. A show at the National is a classic night out for date nights, anniversaries, family visits and client entertaining. This guide covers how to plan the evening so the getting there and getting home are as smooth as the show.</p>
+
+      <h2>Where It Is</h2>
+      <p>The theater is at 1321 Pennsylvania Avenue NW, across from Freedom Plaza and between the White House area and Penn Quarter. Metro Center and Federal Triangle are the closest Metro stations. The <a href="/warner-theatre-transportation">Warner Theatre</a> is a short walk away, and Capital One Arena and <a href="/blog/fords-theatre-penn-quarter-evening">Ford's Theatre</a> are a few blocks east, so on busy nights several big audiences can be arriving and leaving the area at the same time.</p>
+
+      <h2>Before the Show</h2>
+      <ul>
+        <li><strong>Dinner nearby.</strong> Penn Quarter, a few blocks east, has one of the densest concentrations of restaurants in the city. Book a table early enough to finish without rushing; touring productions generally start on time.</li>
+        <li><strong>Allow time to arrive.</strong> Aim to reach the theater 30 minutes before curtain. Lines for bag checks and the coat check can build up close to showtime.</li>
+        <li><strong>Check the show's details.</strong> Running times, age guidance and matinee and evening times vary by production, so check the theater's official website or your tickets.</li>
+      </ul>
+      <p>If you are combining dinner and the show, book an <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur</a> so the same car takes you from your home or hotel to the restaurant, then to the theater, and waits for you after the performance.</p>
+
+      <h2>Drop-Off and Pickup</h2>
+      <p>Pennsylvania Avenue is a busy corridor, and curb space directly in front of the theater is limited. Parking garages nearby fill up on show nights and can be slow to empty when the curtain comes down. With a chauffeur, the routine is simpler:</p>
+      <ul>
+        <li><strong>Drop-off</strong> is as close to the entrance as traffic and police allow.</li>
+        <li><strong>Pickup</strong> is at a spot agreed in advance. Your chauffeur watches for the show to let out and you text when you are on your way.</li>
+        <li><strong>Events and closures.</strong> Freedom Plaza and Pennsylvania Avenue host rallies, parades and official events, which can bring street closures. Our <a href="/blog/dc-motorcades-road-closures-why-routes-change">road closures guide</a> explains why routes sometimes change at short notice.</li>
+      </ul>
+      <p>Our <a href="/blog/parking-near-capital-one-arena-penn-quarter-guide">Penn Quarter parking guide</a> explains why parking in the neighborhood is so tight on event nights.</p>
+
+      <h2>Winter Show Nights</h2>
+      <p>December and January are busy at downtown theaters, with holiday visitors in town and families seeing a show together during school breaks. Cold, wind and the occasional snowfall make waiting outside for a ride or walking to a distant garage less appealing. A warm car at the curb is one of the best parts of a winter theater night. For other holiday performances around the city, see our <a href="/blog/dc-holiday-performances-nutcracker-christmas-carol-ride-guide">holiday performances guide</a>.</p>
+
+      <h2>Special Occasions and Client Entertaining</h2>
+      <ul>
+        <li><strong>Date nights and anniversaries.</strong> A chauffeured evening of dinner, a show and perhaps a drive past the monuments makes an occasion of it. Our <a href="/blog/proposal-anniversary-chauffeur-experiences-dc">proposal and anniversary guide</a> has more ideas.</li>
+        <li><strong>Family visits.</strong> A Chevrolet Suburban or Lincoln Navigator keeps a family together and saves the parking hunt.</li>
+        <li><strong>Client entertaining.</strong> Theater tickets are a popular way to host visiting clients. Our <a href="/washington-dc-corporate-car-service">corporate car service</a> can handle pickups from several hotels and consolidated billing.</li>
+        <li><strong>Groups.</strong> A Mercedes Sprinter van seats up to 13 for a theater club, a birthday party or a family group.</li>
+      </ul>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>From our <a href="/fleet">fleet</a>:</p>
+      <ul>
+        <li><strong>Sedans</strong> (Mercedes-Benz E-Class, or BMW 7 Series / Mercedes S-Class, or similar) seat up to 3 passengers, ideal for a couple.</li>
+        <li><strong>SUVs</strong> include the Lincoln Nautilus (up to 3 passengers), the Chevrolet Suburban (up to 5) and the Lincoln Navigator (up to 6).</li>
+        <li><strong><a href="/sprinter-van-rental-with-driver">Mercedes Sprinter vans</a></strong> seat up to 13 for larger groups.</li>
+      </ul>
+
+      <h2>Booking Your Show Night</h2>
+      <p>Every DCA Limos trip is quoted upfront before you book. For pickups away from the airport, the first 15 minutes of waiting are free. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special events up to 12 hours before pickup. You can <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year.</p>
+    `,
+    faqs: [
+      { q: 'Where is the National Theatre in Washington DC?', a: 'It is at 1321 Pennsylvania Avenue NW, across from Freedom Plaza, between the White House area and Penn Quarter. Metro Center and Federal Triangle are the closest Metro stations.' },
+      { q: 'How early should I arrive at the National Theatre?', a: 'Aim for about 30 minutes before curtain. Bag checks and the coat check can get busy close to showtime.' },
+      { q: 'Is there parking near the National Theatre?', a: 'There are garages nearby, but they fill up on show nights and can be slow to empty afterward. A chauffeured drop-off and pickup avoids both.' },
+      { q: 'Can the chauffeur wait during the show?', a: 'Yes. With an hourly booking the same chauffeur can take you to dinner, drop you at the theater and pick you up at an agreed spot after the performance.' },
+      { q: 'Can you take a group to a show at the National Theatre?', a: 'Yes. A Mercedes Sprinter van seats up to 13, and we can coordinate several vehicles for larger groups or client events.' },
+    ],
+  },
+  {
+    slug: 'washington-auto-show-convention-center-transportation-guide',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-tysons'],
+    relatedLinks: [
+      { label: 'Trade Show Exhibitor and Booth Crew Logistics', to: '/blog/trade-show-exhibitor-booth-crew-logistics-transportation-dc' },
+      { label: 'Mount Vernon Triangle Car Service', to: '/mount-vernon-triangle-dc-limo-service' },
+      { label: 'Washington DC Corporate Car Service', to: '/washington-dc-corporate-car-service' },
+    ],
+    title: 'The Washington Auto Show: Getting To and From the Convention Center',
+    metaTitle: 'Washington Auto Show Transportation | DCA Limos',
+    metaDesc:
+      "Plan a visit to the Washington Auto Show at the Walter E. Washington Convention Center: when it is typically held, drop-off tips, family visits, exhibitors and group rides.",
+    excerpt:
+      'The Washington Auto Show typically fills the Walter E. Washington Convention Center each winter. Here is how to plan a visit, whether you are a car fan, a family or an exhibitor.',
+    image: '/images/blog/fleet-sclass-2.webp',
+    author: 'David Thompson',
+    authorBio: 'Ground transportation specialist covering the DC, Maryland, and Virginia corridor for business and leisure travelers.',
+    date: 'December 17, 2026',
+    scheduled: true,
+    readTime: '6 min read',
+    category: 'Events & Festivals',
+    content: `
+      <p class="lead">The Washington Auto Show is one of the region's biggest winter events, filling the Walter E. Washington Convention Center with new models from major manufacturers, electric vehicles, concept cars and exhibits for car enthusiasts and families. It is typically held in late January or early February, over a run of about ten days that includes weekends. Check the show's official website for this year's dates, hours and tickets. Whether you are going for an afternoon, bringing the kids or working a booth, this guide covers how to get there and back.</p>
+
+      <h2>Where It Is</h2>
+      <p>The convention center is at 801 Mount Vernon Place NW, spanning several city blocks between 7th and 9th Streets north of Mount Vernon Square. The Mt Vernon Sq/7th St-Convention Center Metro station is at its doorstep, and the neighborhoods of <a href="/mount-vernon-triangle-dc-limo-service">Mount Vernon Triangle</a>, <a href="/shaw-dc-limo-service">Shaw</a> and <a href="/penn-quarter-limo-service">Penn Quarter</a> surround it.</p>
+      <p>Because the building is so large, it has entrances on several sides. When you book, tell us which entrance the show is using for visitors, and we will plan the drop-off and pickup there.</p>
+
+      <h2>Tips for Visitors</h2>
+      <ul>
+        <li><strong>Go on a weekday if you can.</strong> Weekends are usually the busiest days, with longer lines to sit in the most popular vehicles.</li>
+        <li><strong>Allow plenty of time.</strong> The show floor is huge, and many visitors spend three hours or more.</li>
+        <li><strong>Wear comfortable shoes.</strong> You will walk a lot, and convention center floors are hard.</li>
+        <li><strong>Leave the coat in the car.</strong> With a chauffeur, you can leave heavy winter coats and bags in the vehicle instead of carrying them all afternoon.</li>
+      </ul>
+
+      <h2>Parking and Traffic</h2>
+      <p>Parking near the convention center is limited to garages and street spaces in the surrounding blocks, and on show weekends they fill with visitors, Capital One Arena crowds and diners heading to the neighborhood's restaurants. A chauffeured drop-off at the door avoids all of that, and your chauffeur picks you up at an agreed spot when you are ready to leave. If winter weather arrives, our <a href="/blog/dc-snow-emergency-route-parking-ban-guide">snow emergency route guide</a> explains what happens on DC streets.</p>
+
+      <h2>Family Visits</h2>
+      <p>The auto show is a popular family outing on a cold weekend. A Chevrolet Suburban or Lincoln Navigator keeps the family together with room for strollers and bags, and we can provide child seats on request. For larger families or a group of friends, a Mercedes Sprinter van seats up to 13. Combine the show with lunch in Penn Quarter or Chinatown, or a stop at a museum on the Mall, using an <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur</a>.</p>
+
+      <h2>Exhibitors, Dealers and Industry Guests</h2>
+      <p>For the people working the show, transportation is part of the job:</p>
+      <ul>
+        <li><strong>Booth crews</strong> need reliable rides between their hotels and the convention center at set times every day. Our <a href="/blog/trade-show-exhibitor-booth-crew-logistics-transportation-dc">trade show exhibitor guide</a> covers shift schedules, loading and multi-day bookings.</li>
+        <li><strong>Executives and VIP guests</strong> flying in for media or industry events usually get an individual car with a meet-and-greet at the airport.</li>
+        <li><strong>Client entertaining</strong> after hours, at a downtown dinner or a hotel bar, can be handled with an hourly booking. Our <a href="/washington-dc-corporate-car-service">corporate car service</a> offers consolidated billing.</li>
+      </ul>
+
+      <h2>For Visitors Flying In</h2>
+      <p>The convention center is about 20 minutes from Reagan National Airport in light traffic. We can collect you from DCA, Dulles or BWI with real-time flight tracking and a meet-and-greet at baggage claim. Our airport wait policy includes 45 minutes after landing for domestic flights and 60 minutes for international arrivals. Winter storms can scramble flight schedules, and our <a href="/blog/dca-winter-weather-flight-delay-playbook">DCA winter weather playbook</a> explains how we handle delays.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>From our <a href="/fleet">fleet</a>:</p>
+      <ul>
+        <li><strong>Sedans</strong> (Mercedes-Benz E-Class, or BMW 7 Series / Mercedes S-Class, or similar) seat up to 3 passengers.</li>
+        <li><strong>SUVs</strong> include the Lincoln Nautilus (up to 3 passengers), the Chevrolet Suburban (up to 5) and the Lincoln Navigator (up to 6).</li>
+        <li><strong><a href="/sprinter-van-rental-with-driver">Mercedes Sprinter vans</a></strong> seat up to 13 for families, friends and booth crews.</li>
+      </ul>
+
+      <h2>Booking Your Trip</h2>
+      <p>Every DCA Limos trip is quoted upfront before you book. For pickups away from the airport, the first 15 minutes of waiting are free. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special events up to 12 hours before pickup. You can <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year.</p>
+    `,
+    faqs: [
+      { q: 'When is the Washington Auto Show?', a: 'It is typically held in late January or early February at the Walter E. Washington Convention Center, over a run of about ten days. Check the official website for this year\'s dates, hours and tickets.' },
+      { q: 'Where is the Washington Auto Show held?', a: 'At the Walter E. Washington Convention Center, 801 Mount Vernon Place NW, next to the Mt Vernon Sq/7th St-Convention Center Metro station.' },
+      { q: 'Is there parking at the Washington Auto Show?', a: 'Parking is limited to garages and street spaces nearby, which fill up on show weekends. A chauffeured drop-off at the entrance avoids the search.' },
+      { q: 'Can you bring a family to the auto show?', a: 'Yes. A Chevrolet Suburban or Lincoln Navigator fits a family with strollers and bags, child seats are available on request, and a Mercedes Sprinter van seats up to 13.' },
+      { q: 'Do you provide transportation for auto show exhibitors?', a: 'Yes. We run scheduled hotel-to-convention-center rides for booth crews, airport pickups for executives and hourly cars for client entertaining, with consolidated billing.' },
+    ],
+  },
+  {
+    slug: 'thanksgiving-dinner-thanksgiving-eve-car-service-dc-md-va',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-bethesda', 'dca-to-alexandria'],
+    relatedLinks: [
+      { label: 'Thanksgiving Travel at DCA Survival Guide', to: '/blog/thanksgiving-travel-dca-survival-guide-2026' },
+      { label: 'Family Reunion Transportation', to: '/family-reunion-transportation-dc-md-va' },
+      { label: 'Hourly Chauffeur Service in DC', to: '/washington-dc-hourly-chauffeur-service' },
+    ],
+    title: 'Thanksgiving Dinner and Thanksgiving Eve in the DC Area: Getting Everyone There and Home Safely',
+    metaTitle: 'Thanksgiving Dinner & Night Out Car Service | DCA Limos',
+    metaDesc:
+      "Plan Thanksgiving rides around DC, Maryland and Virginia: Thanksgiving Eve nights out, getting grandparents to dinner, restaurant dinners, Friendsgiving and the ride home.",
+    excerpt:
+      'Thanksgiving week is about more than the airport. Here is how to plan the local rides: the Wednesday night out, getting family to dinner and making sure everyone gets home safely.',
+    image: '/images/blog/scenario-doorman.webp',
+    author: 'Sarah Williams',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'November 18, 2026',
+    scheduled: true,
+    readTime: '6 min read',
+    category: 'Travel Tips',
+    content: `
+      <p class="lead">Thanksgiving falls on November 26 this year, and most of the planning around it focuses on flights. Our <a href="/blog/thanksgiving-travel-dca-survival-guide-2026">Thanksgiving travel guide for DCA</a> covers the airport side. But the week also brings a lot of local trips: the Wednesday night when everyone home for the holiday goes out, the drive to dinner at a relative's house in Bethesda or Alexandria, a restaurant dinner in the city and, for many families, the challenge of getting older relatives there and back. This guide covers the local rides.</p>
+
+      <h2>Thanksgiving Eve: The Big Night Out</h2>
+      <p>The Wednesday before Thanksgiving is one of the busiest bar nights of the year. College students are back from school, friends who moved away are home and many people have Thursday off. Bars in neighborhoods such as Clarendon, U Street, Adams Morgan and Old Town Alexandria fill up, and rideshare surge pricing and long waits are common late in the evening.</p>
+      <ul>
+        <li><strong>Plan the ride before the first drink.</strong> A pre-booked car means no one has to drive and no one is stranded at closing time.</li>
+        <li><strong>Pool the group.</strong> A Chevrolet Suburban (up to 5) or Lincoln Navigator (up to 6) can drop a group of friends together and collect them at the end of the night, and a Mercedes Sprinter van seats up to 13.</li>
+        <li><strong>Use an hourly booking for bar-hopping.</strong> With an <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur</a> the car stays with you between stops.</li>
+      </ul>
+      <p>Our <a href="/blog/dupont-circle-adams-morgan-nightlife-transportation">Dupont Circle and Adams Morgan nightlife guide</a> covers drop-off points in those neighborhoods.</p>
+
+      <h2>Getting Family to Thanksgiving Dinner</h2>
+      <p>For many families, the hardest part of Thanksgiving is not the cooking but the logistics. Grandparents who no longer drive at night, relatives staying at a hotel, and guests coming from different parts of the region all need to arrive around the same time.</p>
+      <ul>
+        <li><strong>Older relatives.</strong> A chauffeur collects them at their door, helps with coats and steps and brings them home when they are ready to leave, so no one at dinner has to stop drinking or leave early to drive them. For relatives with mobility needs, see our <a href="/wheelchair-accessible-car-service-dc">accessible transportation page</a>.</li>
+        <li><strong>Guests at hotels.</strong> Relatives staying in Crystal City, downtown DC or near the airport can be picked up from the hotel and returned at the end of the evening.</li>
+        <li><strong>Multiple pickups.</strong> We can schedule several pickups across the region to arrive at the same house, or use one Sprinter van to collect a group from one hotel.</li>
+      </ul>
+      <p>For bigger gatherings that last the whole holiday weekend, our <a href="/family-reunion-transportation-dc-md-va">family reunion transportation</a> page covers multi-day planning.</p>
+
+      <h2>Thanksgiving at a Restaurant</h2>
+      <p>Many families choose a restaurant dinner in the city, at The Wharf, Georgetown, Penn Quarter or a hotel dining room. Holiday seatings are typically booked at fixed times, and restaurants may not hold a table long if you are late. A chauffeur gets the group there on time and avoids the parking hunt. For dinner at <a href="/the-wharf-dc-transportation">The Wharf</a>, tell us the restaurant so we can plan the drop-off point.</p>
+
+      <h2>Friendsgiving and Office Gatherings</h2>
+      <p>Friendsgiving dinners and team lunches the week before the holiday add more evenings out. If an office is hosting a holiday gathering before people leave town, our <a href="/blog/corporate-holiday-party-transportation-guide">corporate holiday party guide</a> covers getting staff home safely.</p>
+
+      <h2>Timing Tips for Thanksgiving Week</h2>
+      <ul>
+        <li><strong>Book early.</strong> Wednesday night and Thursday afternoon are busy, especially for SUVs and Sprinter vans.</li>
+        <li><strong>Expect Wednesday traffic.</strong> Wednesday afternoon and evening is one of the heaviest traffic periods of the year as the region leaves town. Allow extra time for pickups on the Beltway, I-95 and I-66.</li>
+        <li><strong>Plan the return time loosely.</strong> Dinners run long. Let us know the earliest and latest time you might leave, and text your chauffeur when you are ready.</li>
+        <li><strong>Remember Sunday.</strong> The Sunday after Thanksgiving is one of the busiest days at the airports. Book your airport ride when you book your dinner rides.</li>
+      </ul>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>From our <a href="/fleet">fleet</a>:</p>
+      <ul>
+        <li><strong>Sedans</strong> (Mercedes-Benz E-Class, or BMW 7 Series / Mercedes S-Class, or similar) seat up to 3 passengers, ideal for grandparents or a couple.</li>
+        <li><strong>SUVs</strong> include the Lincoln Nautilus (up to 3 passengers), the Chevrolet Suburban (up to 5) and the Lincoln Navigator (up to 6).</li>
+        <li><strong><a href="/sprinter-van-rental-with-driver">Mercedes Sprinter vans</a></strong> seat up to 13 for big family groups and nights out.</li>
+      </ul>
+
+      <h2>Booking Your Thanksgiving Rides</h2>
+      <p>Every DCA Limos trip is quoted upfront before you book. For pickups away from the airport, the first 15 minutes of waiting are free. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special events up to 12 hours before pickup. You can <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year, including Thanksgiving Day.</p>
+    `,
+    faqs: [
+      { q: 'When is Thanksgiving in 2026?', a: 'Thanksgiving is Thursday, November 26, 2026. The Wednesday before and the Sunday after are the busiest travel days of the week.' },
+      { q: 'Do you operate on Thanksgiving Day?', a: 'Yes. Dispatch runs 24 hours a day, every day of the year, including Thanksgiving Day.' },
+      { q: 'Can you pick up my grandparents for Thanksgiving dinner and take them home?', a: 'Yes. A chauffeur can collect them at their door, help with coats and steps and bring them home whenever they are ready to leave.' },
+      { q: 'Can you take a group out on Thanksgiving Eve?', a: 'Yes. An SUV seats up to 6 and a Mercedes Sprinter van up to 13, and an hourly booking keeps the car with your group between stops.' },
+      { q: 'How early should I book Thanksgiving week rides?', a: 'As soon as your plans are set. Wednesday night and Thursday afternoon are busy, especially for SUVs and Sprinter vans.' },
+    ],
+  },
 ];
