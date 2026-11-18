@@ -4216,4 +4216,238 @@ export const BLOG_POSTS_BATCH17 = [
       { q: 'Can we visit Shenandoah National Park on the same trip?', a: 'Often, yes. Skyline Drive passes close to Luray, but sections can close in winter weather, so check the National Park Service road status before you plan a stop.' },
     ],
   },
+  {
+    slug: 'unaccompanied-minor-flights-dca-drop-off-pickup-guide',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-bethesda', 'dca-to-alexandria'],
+    relatedLinks: [
+      { label: 'Winter Break College Student Airport Travel', to: '/blog/winter-break-college-students-dc-airport-travel-guide' },
+      { label: 'DCA Airport Arrival Pickup', to: '/dca-airport-arrival-pickup' },
+      { label: 'DCA Terminal 1 vs Terminal 2', to: '/blog/dca-terminal-1-vs-terminal-2-what-changes' },
+    ],
+    title: 'Kids Flying Alone Through Reagan National: Unaccompanied Minor Drop-Off and Pickup',
+    metaTitle: 'Unaccompanied Minor Flights at DCA | DCA Limos',
+    metaDesc:
+      "How unaccompanied minor service typically works at Reagan National: airline age rules, gate passes, ID at pickup, timing, and how families plan the ride.",
+    excerpt:
+      'Winter break is when many children fly alone to see a parent or grandparents. Here is how airline unaccompanied minor programs typically work at DCA, and how to plan the drive on both ends.',
+    image: '/images/blog/airport-terminal-glass.webp',
+    author: 'Sarah Williams',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'December 12, 2026',
+    scheduled: true,
+    readTime: '7 min read',
+    category: 'Family Travel',
+    content: `
+      <p class="lead">The weeks around Christmas and New Year's are the busiest time of year for children flying on their own, whether they are visiting a parent in another city or spending the holidays with grandparents. Airlines handle young solo travelers through unaccompanied minor programs, and those programs have firm rules about who drops a child off, who picks them up and what ID they bring. This guide explains how the process typically works at Reagan National (DCA) and how to plan the ground transportation on both ends so nothing is left to chance.</p>
+
+      <h2>How Unaccompanied Minor Programs Typically Work</h2>
+      <p>Each airline sets its own policy, so the first step is always to read your airline's unaccompanied minor page before you book. The broad pattern on major U.S. airlines is similar:</p>
+      <ul>
+        <li><strong>Age bands.</strong> Younger children, commonly from about age 5 up to 14, are typically required to use the airline's unaccompanied minor service when flying without an adult. Older teens, up to 17, can often opt in. Children under the minimum age generally cannot fly alone at all.</li>
+        <li><strong>A service fee.</strong> Most airlines charge a fee for each direction, on top of the ticket.</li>
+        <li><strong>Route limits.</strong> Some airlines allow only nonstop flights for unaccompanied minors, or restrict connections and the last flight of the day, so a child is not stranded overnight if a connection misconnects.</li>
+        <li><strong>A named pickup adult.</strong> When you book, you name the adult who will meet the child at the destination, and that person must show government-issued photo ID that matches the booking.</li>
+      </ul>
+      <p>Because the rules differ and change, treat everything here as a general outline and confirm the details with your airline.</p>
+
+      <h2>Drop-Off at DCA</h2>
+      <p>The adult dropping off checks in with the child at the airline's ticket counter, not at a kiosk. There the agent completes the unaccompanied minor paperwork and typically issues the adult a gate pass so they can go through security and walk the child to the gate. That adult is usually asked to stay at the gate until the aircraft has departed, not just until boarding.</p>
+      <ul>
+        <li><strong>Arrive earlier than you would for yourself.</strong> Counter check-in, paperwork and security for two people take time. Plan to reach the terminal about two hours before departure in holiday season.</li>
+        <li><strong>Bring ID for the adult.</strong> TSA does not require children under 18 to show ID on domestic flights, but the adult getting a gate pass will need theirs, and the airline may ask for the child's birth certificate or other proof of age.</li>
+        <li><strong>Know your terminal.</strong> Airlines at DCA are spread across terminals, and the drop-off point depends on your airline. Our <a href="/blog/dca-terminal-1-vs-terminal-2-what-changes">Terminal 1 vs Terminal 2 guide</a> explains the layout, and our <a href="/blog/how-long-is-security-really-at-dca-tsa-precheck">DCA security timing guide</a> covers how long lines run.</li>
+      </ul>
+      <p>A chauffeured drop-off means the parent is not hunting for parking or rushing from a garage. Your chauffeur brings you to the departures curb for your airline, and you can book a return ride for after the plane has left. Since the return time depends on the flight leaving, an <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur</a> who waits for you is often the simplest option.</p>
+
+      <h2>Pickup at DCA</h2>
+      <p>When a child flies into Reagan National as an unaccompanied minor, the named adult typically checks in at the airline's ticket counter on arrival day, shows ID and receives a gate pass to meet the flight. An airline employee walks the child off the aircraft and releases them only to the person named on the form, after checking ID.</p>
+      <ul>
+        <li><strong>Watch the flight, not the schedule.</strong> Holiday delays are common. Track the inbound flight and allow time for the counter check-in and security before the scheduled arrival.</li>
+        <li><strong>The named adult must be there.</strong> A chauffeur cannot simply collect a young unaccompanied minor at the gate. Some airlines allow more than one authorized pickup adult, so check your airline's rules if a relative or family friend may need to step in.</li>
+        <li><strong>Plan the ride home around the handover.</strong> The release process at the gate can take a while after the plane lands, especially if the child is among several minors on the flight.</li>
+      </ul>
+      <p>This is where a car service helps the adult rather than replacing them. We can bring the parent or grandparent to DCA, then carry everyone home together after the handover. With <a href="/blog/how-flight-tracking-works-airport-pickup">real-time flight tracking</a>, we adjust to the actual arrival time. At the airport, our wait policy includes 45 minutes after landing for domestic flights and 60 minutes for international arrivals.</p>
+
+      <h2>Older Teens Flying Without the Service</h2>
+      <p>Teens who are old enough to fly without the unaccompanied minor service, and whose parents choose not to use it, walk off the plane like any other passenger. For them, a pre-arranged <a href="/dca-airport-arrival-pickup">airport arrival pickup</a> means they are not left figuring out rideshare or the Metro with a suitcase. A parent books the ride, shares the flight number and the teen's mobile number, and the chauffeur meets them in baggage claim. Many families ask the chauffeur to text a parent when the teen is in the car and again on arrival at home.</p>
+      <p>College students heading home for winter break follow the same pattern; our <a href="/blog/winter-break-college-students-dc-airport-travel-guide">winter break airport travel guide</a> covers that crowd.</p>
+
+      <h2>Holiday Timing Tips</h2>
+      <ul>
+        <li><strong>Avoid the last flight of the night.</strong> If a delay pushes a connection past the final departure, a child can end up stuck. Many families prefer morning or midday flights.</li>
+        <li><strong>Pack a simple bag.</strong> A charged phone, a charger, snacks, a printed copy of the itinerary and the pickup adult's contact details.</li>
+        <li><strong>Prepare for winter weather.</strong> Our <a href="/blog/dca-winter-weather-flight-delay-playbook">DCA winter weather playbook</a> explains how storms affect flights and pickups.</li>
+        <li><strong>Agree on a backup.</strong> Know who else is authorized to pick up and how to reach the airline if the flight is cancelled.</li>
+      </ul>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>From our <a href="/fleet">fleet</a>:</p>
+      <ul>
+        <li><strong>Sedans</strong> (Mercedes-Benz E-Class, or BMW 7 Series / Mercedes S-Class, or similar) seat up to 3 passengers.</li>
+        <li><strong>SUVs</strong> include the Lincoln Nautilus (up to 3 passengers), the Chevrolet Suburban (up to 5) and the Lincoln Navigator (up to 6), with room for holiday luggage and gifts.</li>
+        <li><strong>Mercedes Sprinter vans</strong> seat up to 13, useful when the whole family comes to the airport.</li>
+      </ul>
+      <p>Tell us your children's ages when you book if you need car seats or boosters; our <a href="/blog/car-seats-chauffeured-vehicle-dc-md-va-laws">car seat guide</a> covers the rules in DC, Maryland and Virginia.</p>
+
+      <h2>Booking</h2>
+      <p>Every DCA Limos trip is quoted upfront before you book. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans up to 12 hours before pickup, which helps when holiday flights change. You can <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year.</p>
+    `,
+    faqs: [
+      { q: 'At what age can a child fly alone from DCA?', a: 'It depends on the airline. On major U.S. airlines, younger children, commonly from about age 5 to 14, are typically required to use the unaccompanied minor service, and older teens can often opt in. Check your airline before booking.' },
+      { q: 'Can a parent go to the gate with an unaccompanied minor?', a: 'Typically yes. The adult checks in at the airline ticket counter and usually receives a gate pass to walk the child to the gate, and is often asked to stay until the plane departs.' },
+      { q: 'Can a chauffeur pick up an unaccompanied minor at the gate?', a: 'Generally no. Airlines release a young unaccompanied minor only to the adult named on the booking, who must show matching photo ID. A car service can bring that adult to the airport and drive everyone home.' },
+      { q: 'Can you pick up a teen who is flying alone without the service?', a: 'Yes. A parent books the ride and shares the flight number and the teen\'s phone number, and the chauffeur meets them in baggage claim with flight tracking.' },
+      { q: 'Does my child need ID to fly from DCA?', a: 'TSA does not require children under 18 to show ID on domestic flights, but the airline may ask for proof of age, and the adult dropping off or picking up will need government-issued photo ID.' },
+    ],
+  },
+  {
+    slug: 'january-sales-kickoff-annual-meeting-transportation-dc',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-tysons'],
+    relatedLinks: [
+      { label: 'Corporate Event Transportation Checklist', to: '/blog/corporate-event-transportation-planners-logistics-checklist' },
+      { label: 'Washington DC Corporate Car Service', to: '/washington-dc-corporate-car-service' },
+      { label: 'Multi-Vehicle Group Pickup Coordination', to: '/blog/multi-vehicle-group-pickup-coordination-guide' },
+    ],
+    title: 'January Sales Kickoffs in DC: Planning Ground Transportation for the Whole Team',
+    metaTitle: 'Sales Kickoff Transportation in DC | DCA Limos',
+    metaDesc:
+      "Plan ground transportation for a January sales kickoff or annual meeting in DC: arrival waves, hotel-to-venue shuttles, team dinners, winter weather and departures.",
+    excerpt:
+      'Sales kickoffs and annual meetings pack hundreds of arrivals, a big dinner and a mass departure into a few January days. Here is how to plan the ground transportation.',
+    image: '/images/blog/scenario-group-shuttle.webp',
+    author: 'David Thompson',
+    authorBio: 'Ground transportation specialist covering the DC, Maryland, and Virginia corridor for business and leisure travelers.',
+    date: 'December 13, 2026',
+    scheduled: true,
+    readTime: '7 min read',
+    category: 'Corporate Travel',
+    content: `
+      <p class="lead">For many companies, January means the sales kickoff: the annual meeting where the sales team, leadership and often partners gather for a few days of strategy sessions, awards and a big dinner before the new fiscal year gets going. Washington and Northern Virginia host plenty of them, at downtown hotels, in National Landing and Tysons, and at conference resorts around the region. The agenda gets months of attention. Ground transportation often gets planned the week before, which is when things go wrong. This guide walks through the pieces that matter.</p>
+
+      <h2>Why Kickoffs Are Different From Ordinary Meetings</h2>
+      <ul>
+        <li><strong>Everyone arrives on the same day.</strong> Attendees fly in from across the country within a few hours of each other, usually the afternoon before day one.</li>
+        <li><strong>Several airports at once.</strong> In the DC area, flights land at Reagan National, Dulles and BWI, and attendees book whatever is cheapest or most convenient from home.</li>
+        <li><strong>An evening event off-site.</strong> Awards dinners and team nights are often at a restaurant, museum or event venue away from the hotel.</li>
+        <li><strong>Everyone leaves at once.</strong> The last session ends and a ballroom full of people heads for the airports at the same time.</li>
+        <li><strong>It happens in winter.</strong> January is the heart of the DC area's snow and ice season, and a storm can scramble flights on arrival or departure day.</li>
+      </ul>
+
+      <h2>Arrival Day: Planning Around Waves</h2>
+      <p>Start with the attendee travel list: name, airport, flight number and arrival time. Group arrivals into waves by airport and by hour, then decide what each wave needs:</p>
+      <ul>
+        <li><strong>Executives, keynote speakers and VIP clients</strong> usually get an individual car with a meet-and-greet at baggage claim.</li>
+        <li><strong>Clusters of attendees</strong> landing at the same airport within a short window can share a Mercedes Sprinter van, which seats up to 13.</li>
+        <li><strong>Stragglers</strong> on very early or very late flights may be better served by individual sedans than by holding a van.</li>
+      </ul>
+      <p>We track every flight in real time, so a delayed arrival does not break the plan. At the airport, our wait policy includes 45 minutes after landing for domestic flights and 60 minutes for international arrivals. Our <a href="/blog/multi-vehicle-group-pickup-coordination-guide">multi-vehicle coordination guide</a> covers how we manage several pickups at once, and our <a href="/blog/dca-vs-iad-vs-bwi-which-airport-to-fly-into">airport comparison</a> can help when you advise attendees on which airport to choose.</p>
+
+      <h2>During the Meeting</h2>
+      <p>If sessions and lodging are in the same hotel, daytime transportation is minimal. When they are not, plan a looped shuttle between the hotel block and the venue, timed to the start of the first session and the end of the last. Leave slack in the morning: the first loop always fills up.</p>
+      <p>Executives often have side meetings with clients or government contacts during the kickoff week. An <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur</a> lets them move between the venue and appointments in the city without waiting for a ride. Our <a href="/blog/capitol-hill-meeting-day-car-service-guide">Capitol Hill meeting day guide</a> covers the details for Hill visits.</p>
+
+      <h2>The Awards Dinner or Team Night</h2>
+      <p>The evening event is where ground transportation is most visible. A few principles:</p>
+      <ul>
+        <li><strong>Stage departures from the hotel.</strong> Sprinter vans leaving at set times keep the group together and get everyone to the venue before the program starts.</li>
+        <li><strong>Plan for staggered returns.</strong> Some people leave after dinner, others stay late. Plan an early return run and a final one at the end of the night.</li>
+        <li><strong>Keep everyone off the roads.</strong> Providing rides to and from an event where drinks are served is part of the duty of care companies owe their teams.</li>
+      </ul>
+      <p>If the dinner is at a venue such as <a href="/the-wharf-dc-transportation">The Wharf</a> or a downtown restaurant, tell us the venue so we can plan the drop-off point and any security or loading restrictions.</p>
+
+      <h2>Departure Day</h2>
+      <p>The final session ending is the moment most planners underestimate. Work backward from each attendee's flight time and build departure waves by airport, just like arrivals. For afternoon flights out of Dulles or BWI, the drive alone can take an hour or more in traffic. Put any attendees on tight connections in the first wave.</p>
+
+      <h2>Winter Weather Contingencies</h2>
+      <p>January storms are the main risk to a kickoff schedule. Agree in advance on what happens if flights are cancelled: who decides, how attendees are told and whether some people will stay an extra night. Our <a href="/blog/dca-winter-weather-flight-delay-playbook">DCA winter weather playbook</a> explains how storms affect flights and pickups, and our <a href="/blog/dc-snow-emergency-route-parking-ban-guide">snow emergency route guide</a> covers what happens on DC streets.</p>
+
+      <h2>Choosing Vehicles</h2>
+      <p>From our <a href="/fleet">fleet</a>:</p>
+      <ul>
+        <li><strong>Sedans</strong> (Mercedes-Benz E-Class, or BMW 7 Series / Mercedes S-Class, or similar) seat up to 3 passengers, ideal for executives and speakers.</li>
+        <li><strong>SUVs</strong> include the Lincoln Nautilus (up to 3 passengers), the Chevrolet Suburban (up to 5) and the Lincoln Navigator (up to 6), good for small leadership groups with luggage.</li>
+        <li><strong><a href="/sprinter-van-rental-with-driver">Mercedes Sprinter vans</a></strong> seat up to 13 and handle airport waves, shuttle loops and dinner runs.</li>
+      </ul>
+
+      <h2>Booking and Billing</h2>
+      <p>Send us the attendee list and agenda as early as you can; January is busy and Sprinter vans book up for big meetings. Every DCA Limos trip is quoted upfront, and we can provide consolidated billing for the whole event. Our <a href="/blog/corporate-ground-transportation-expense-reporting-guide">expense reporting guide</a> covers receipts and reconciliation. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special events up to 12 hours before pickup. For more on our corporate accounts, see our <a href="/washington-dc-corporate-car-service">Washington DC corporate car service</a> page, <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year.</p>
+    `,
+    faqs: [
+      { q: 'How far ahead should we book transportation for a January sales kickoff?', a: 'As early as you have an attendee list and agenda. January is a busy month for corporate meetings, and Sprinter vans book up quickly for large events.' },
+      { q: 'How do you handle attendees arriving at different airports?', a: 'We group arrivals into waves by airport and time, use individual cars for executives and Sprinter vans for clusters, and track every flight in real time.' },
+      { q: 'Can you run a shuttle between the hotel and the meeting venue?', a: 'Yes. We can run looped Sprinter van shuttles timed to the first and last sessions, plus staged runs to and from an evening dinner or awards event.' },
+      { q: 'What happens if a snowstorm cancels flights during our kickoff?', a: 'We adjust pickups to the new flight times. Sedans and SUVs can be cancelled free up to 3 hours before pickup, and Sprinter vans and special events up to 12 hours before pickup.' },
+      { q: 'Can we get one invoice for the whole event?', a: 'Yes. We can provide consolidated billing for all the trips connected to your meeting, which simplifies reconciliation.' },
+    ],
+  },
+  {
+    slug: 'museum-of-the-bible-dc-visit-guide-getting-there',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-alexandria'],
+    relatedLinks: [
+      { label: 'Which Smithsonian Museums to Visit First', to: '/blog/which-smithsonian-museums-to-visit-first-time-dc' },
+      { label: 'Hourly Chauffeur Service in DC', to: '/washington-dc-hourly-chauffeur-service' },
+      { label: 'Capitol Hill Car Service', to: '/capitol-hill-limo-service' },
+    ],
+    title: 'Museum of the Bible in DC: A Visitor Guide and How to Get There',
+    metaTitle: 'Museum of the Bible DC Visitor Guide | DCA Limos',
+    metaDesc:
+      "Plan a visit to the Museum of the Bible in Southwest DC: where it is, tickets, how long to allow, nearby sights on the Mall and Capitol Hill, and drop-off tips.",
+    excerpt:
+      'The Museum of the Bible sits a few blocks south of the National Mall in Southwest DC. Here is how to plan your visit, what is nearby and how to get there.',
+    image: '/images/blog/landmark-capitol-1.webp',
+    author: 'Michael Chen',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'December 14, 2026',
+    scheduled: true,
+    readTime: '6 min read',
+    category: 'Local Guides',
+    content: `
+      <p class="lead">The Museum of the Bible opened in 2017 in Southwest Washington, a few blocks south of the National Mall and within sight of the U.S. Capitol. Housed in a converted early-20th-century warehouse building, it covers the history of the Bible, its stories and its influence on art, culture and society, with exhibits spread over several floors. Church groups, school trips and families visiting the capital often add it to their itinerary, and its indoor galleries make it a good choice on a cold winter day. This guide covers where it is, how to plan your time and how to fit it into a day in the city.</p>
+
+      <h2>Where It Is</h2>
+      <p>The museum is at 400 4th Street SW, between the National Mall and the Southwest Waterfront. The Federal Center SW Metro station is a short walk away, and the Smithsonian's National Air and Space Museum and the U.S. Botanic Garden are a few blocks north. The Capitol is a short drive or a longer walk to the northeast.</p>
+      <p>The streets around the museum are lined with federal office buildings, and curb space is limited during the workday. A chauffeured drop-off at the entrance avoids searching for parking, and your chauffeur can pick you up at the same spot when you are done.</p>
+
+      <h2>Tickets and Timing</h2>
+      <ul>
+        <li><strong>It is not a Smithsonian museum.</strong> Unlike the free Smithsonian museums on the Mall, the Museum of the Bible charges admission, and some exhibits or experiences may be ticketed separately. Check the museum's official website for current prices, hours and any timed-entry requirements.</li>
+        <li><strong>Allow enough time.</strong> Many visitors spend two to four hours. Groups with a particular interest can easily spend most of a day.</li>
+        <li><strong>Check holiday hours.</strong> Like many DC attractions, it may keep shorter hours or close on some holidays, so confirm before planning a visit in late December or early January.</li>
+        <li><strong>Groups should book ahead.</strong> Church groups, school trips and tour groups usually need to reserve in advance.</li>
+      </ul>
+
+      <h2>Combining It With Nearby Sights</h2>
+      <p>The museum's location makes it easy to build a full day:</p>
+      <ul>
+        <li><strong>The National Mall.</strong> The Air and Space Museum, the Hirshhorn and the National Museum of the American Indian are within a few blocks. Our <a href="/blog/which-smithsonian-museums-to-visit-first-time-dc">guide to choosing Smithsonian museums</a> helps you pick.</li>
+        <li><strong>The U.S. Botanic Garden.</strong> At the foot of Capitol Hill, its conservatory is warm in winter, and its holiday exhibit is a seasonal favorite. See our <a href="/blog/us-botanic-garden-holiday-exhibit-model-trains-capitol-hill">Botanic Garden holiday guide</a>.</li>
+        <li><strong>The Capitol and the Library of Congress.</strong> Our <a href="/blog/capitol-visitor-center-library-of-congress-one-morning">Capitol Visitor Center and Library of Congress guide</a> explains how to see both in one morning.</li>
+        <li><strong>The Wharf.</strong> The Southwest Waterfront is just south, with restaurants and views of the Washington Channel for dinner after your visit. See our <a href="/the-wharf-dc-transportation">Wharf transportation page</a>.</li>
+      </ul>
+
+      <h2>For Church Groups and School Trips</h2>
+      <p>Groups visiting from out of town often combine the museum with the Capitol, the monuments and other sites. A Mercedes Sprinter van, which seats up to 13, keeps the group together all day and saves the organizer from coordinating Metro trips. Our <a href="/blog/school-tour-group-chauffeured-smithsonian-national-mall">school and tour group guide</a> covers planning a group day on the Mall. For larger groups, we can coordinate several vans.</p>
+
+      <h2>For Visitors Flying In</h2>
+      <p>The museum is a short drive from Reagan National Airport, so it works well on arrival day or before an evening flight. We can collect you from DCA, Dulles or BWI with real-time flight tracking and a meet-and-greet at baggage claim. Our airport wait policy includes 45 minutes after landing for domestic flights and 60 minutes for international arrivals. If you have luggage and a late flight, an <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur</a> can hold your bags in the vehicle while you visit.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>From our <a href="/fleet">fleet</a>:</p>
+      <ul>
+        <li><strong>Sedans</strong> (Mercedes-Benz E-Class, or BMW 7 Series / Mercedes S-Class, or similar) seat up to 3 passengers.</li>
+        <li><strong>SUVs</strong> include the Lincoln Nautilus (up to 3 passengers), the Chevrolet Suburban (up to 5) and the Lincoln Navigator (up to 6).</li>
+        <li><strong>Mercedes Sprinter vans</strong> seat up to 13, the usual choice for church groups and school trips.</li>
+      </ul>
+
+      <h2>Booking Your Visit</h2>
+      <p>Every DCA Limos trip is quoted upfront before you book. For pickups away from the airport, the first 15 minutes of waiting are free. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans up to 12 hours before pickup. You can <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year.</p>
+    `,
+    faqs: [
+      { q: 'Where is the Museum of the Bible in Washington DC?', a: 'It is at 400 4th Street SW, a few blocks south of the National Mall, near the Federal Center SW Metro station and the Smithsonian\'s National Air and Space Museum.' },
+      { q: 'Is the Museum of the Bible free?', a: 'No. Unlike the Smithsonian museums, it charges admission. Check the museum\'s official website for current prices, hours and any timed-entry requirements.' },
+      { q: 'How long should I spend at the Museum of the Bible?', a: 'Many visitors spend two to four hours. Groups with a special interest can spend most of a day.' },
+      { q: 'What is near the Museum of the Bible?', a: 'The National Mall museums, the U.S. Botanic Garden, the Capitol and the Library of Congress are all close, and The Wharf is just to the south for dinner.' },
+      { q: 'Can you transport a church group to the museum?', a: 'Yes. A Mercedes Sprinter van seats up to 13 and keeps a group together all day, and we can coordinate several vans for larger groups.' },
+    ],
+  },
 ];
