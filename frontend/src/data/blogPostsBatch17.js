@@ -4750,4 +4750,131 @@ export const BLOG_POSTS_BATCH17 = [
       { q: 'How early should I book Thanksgiving week rides?', a: 'As soon as your plans are set. Wednesday night and Thursday afternoon are busy, especially for SUVs and Sprinter vans.' },
     ],
   },
+  {
+    slug: 'walter-reed-national-military-medical-center-bethesda-transportation-guide',
+    relatedRoutes: ['dca-to-bethesda', 'dca-to-washington-dc', 'dca-to-rockville'],
+    relatedLinks: [
+      { label: 'NIH Bethesda Transportation', to: '/nih-bethesda-transportation' },
+      { label: 'Non-Emergency Medical Appointment Rides for Seniors', to: '/blog/non-emergency-senior-medical-appointment-chauffeur-dmv' },
+      { label: 'Wheelchair Accessible Car Service', to: '/wheelchair-accessible-car-service-dc' },
+    ],
+    title: 'Getting to Walter Reed in Bethesda: A Ride Guide for Patients, Families and Visitors',
+    metaTitle: 'Walter Reed Bethesda Transportation Guide | DCA Limos',
+    metaDesc:
+      'Plan rides to Walter Reed National Military Medical Center in Bethesda: base access and ID, drop-off tips, airport pickups for families, appointments, ceremonies and hotel stays.',
+    excerpt:
+      'Walter Reed sits on a secure military installation in Bethesda, which changes how you plan a ride there. Here is what patients, families and visitors should know before the trip.',
+    image: '/images/blog/scenario-doorman.webp',
+    author: 'Michael Chen',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'November 18, 2026',
+    scheduled: true,
+    readTime: '6 min read',
+    category: 'Local Guides',
+    content: `
+      <p class="lead">Walter Reed National Military Medical Center in Bethesda is the largest military hospital in the country, treating active-duty service members, veterans, military families and senior officials. It sits on Wisconsin Avenue (Rockville Pike) directly across from the National Institutes of Health campus, inside a secure Navy installation. That security is the main thing that sets a trip to Walter Reed apart from a visit to any other hospital. Whether you are a patient with an appointment, a family member flying in to be with someone recovering, or a guest attending a ceremony, this guide covers how to plan the ride.</p>
+
+      <h2>Where It Is</h2>
+      <p>The medical center's main entrance is on Wisconsin Avenue in <a href="/bethesda-limo-service">Bethesda</a>, about 25 to 40 minutes from Reagan National Airport depending on traffic. The Medical Center Metro station on the Red Line is across the road, next to the NIH campus. If you are visiting both campuses on the same trip, our <a href="/nih-bethesda-transportation">NIH Bethesda transportation page</a> covers the NIH side.</p>
+
+      <h2>Base Access and ID</h2>
+      <p>Because Walter Reed is on a military installation, everyone entering goes through security at the gate. A few practical points:</p>
+      <ul>
+        <li><strong>Bring a valid ID.</strong> Visitors without a Department of Defense ID card are typically screened at the gate and should carry a REAL ID-compliant driver's license, a passport or another accepted ID.</li>
+        <li><strong>Expect vehicle checks.</strong> Vehicles entering the installation may be inspected, which can add a few minutes during busy morning hours.</li>
+        <li><strong>Check the current rules.</strong> Access procedures can change. Check the hospital's official website or ask your care team before the visit, especially if you are bringing guests.</li>
+      </ul>
+      <p>When you book, tell us the building or clinic you need and whether everyone in the car has the right ID. Our chauffeurs plan extra time for the gate so you are not rushing to an appointment.</p>
+
+      <h2>Appointments and Outpatient Visits</h2>
+      <p>For patients with morning appointments, Wisconsin Avenue and the Beltway near Bethesda are slow during rush hour. We time pickups around the appointment, not the typical drive time. After a procedure, many patients are not allowed to drive themselves home, and a chauffeur who waits or returns at an agreed time is simpler than finding a friend with a free afternoon. Our <a href="/blog/non-emergency-senior-medical-appointment-chauffeur-dmv">guide to non-emergency medical appointment rides</a> covers what to expect, and for passengers with mobility needs see our <a href="/wheelchair-accessible-car-service-dc">accessible transportation page</a>.</p>
+
+      <h2>Families Flying In</h2>
+      <p>Many visitors to Walter Reed are family members arriving on short notice to be with a service member in recovery. We can collect you from DCA, Dulles or BWI with real-time flight tracking, so the chauffeur adjusts if your flight is early or late. Our airport wait policy includes 45 minutes after landing for domestic flights and 60 minutes for international arrivals. Families often stay at the on-base Fisher Houses or at hotels in Bethesda and Rockville, and we can set up regular rides between the hotel and the hospital for the length of a stay. See our <a href="/blog/how-flight-tracking-works-airport-pickup">flight tracking guide</a> for how airport pickups work.</p>
+
+      <h2>Ceremonies and Official Visits</h2>
+      <p>Walter Reed also hosts award ceremonies, retirement events and visits by officials and guests. For groups attending together, a Mercedes Sprinter van seats up to 13 and keeps everyone arriving at the gate at the same time. For executives and official visitors, our <a href="/washington-dc-corporate-car-service">corporate car service</a> offers consolidated billing. Service members relocating to the area can find more in our <a href="/blog/military-pcs-move-transportation-dc-pentagon-fort-belvoir">military PCS move guide</a>.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>From our <a href="/fleet">fleet</a>:</p>
+      <ul>
+        <li><strong>Sedans</strong> (Mercedes-Benz E-Class, or BMW 7 Series / Mercedes S-Class, or similar) seat up to 3 passengers and are a comfortable choice for a patient and a companion.</li>
+        <li><strong>SUVs</strong> include the Lincoln Nautilus (up to 3 passengers), the Chevrolet Suburban (up to 5) and the Lincoln Navigator (up to 6), with room for wheelchairs that fold, walkers and luggage.</li>
+        <li><strong><a href="/sprinter-van-rental-with-driver">Mercedes Sprinter vans</a></strong> seat up to 13 for families and ceremony groups.</li>
+      </ul>
+
+      <h2>Booking Your Ride</h2>
+      <p>Every DCA Limos trip is quoted upfront before you book. For pickups away from the airport, the first 15 minutes of waiting are free. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special events up to 12 hours before pickup. You can <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year.</p>
+    `,
+    faqs: [
+      { q: 'Where is Walter Reed National Military Medical Center?', a: 'On Wisconsin Avenue (Rockville Pike) in Bethesda, Maryland, across from the NIH campus and the Medical Center Metro station on the Red Line.' },
+      { q: 'What ID do I need to visit Walter Reed?', a: 'Visitors without a Department of Defense ID are typically screened at the gate and should bring a REAL ID-compliant license, a passport or another accepted ID. Check the hospital\'s website for current access rules.' },
+      { q: 'How long is the drive from Reagan National Airport to Walter Reed?', a: 'Usually about 25 to 40 minutes, longer at rush hour. Allow extra time for the security check at the gate.' },
+      { q: 'Can you pick up family members flying in to visit a patient?', a: 'Yes. We collect from DCA, Dulles and BWI with flight tracking and can schedule regular rides between your hotel and the hospital for the length of your stay.' },
+      { q: 'Can the chauffeur wait during an outpatient appointment?', a: 'Yes. With an hourly booking the chauffeur can wait, or we can return at an agreed time. Away from the airport, the first 15 minutes of waiting are free.' },
+    ],
+  },
+  {
+    slug: 'military-bowl-annapolis-game-day-transportation-guide',
+    relatedRoutes: ['dca-to-annapolis', 'dca-to-washington-dc', 'dca-to-bwi'],
+    relatedLinks: [
+      { label: 'Navy-Marine Corps Memorial Stadium Transportation', to: '/navy-marine-corps-stadium-transportation' },
+      { label: 'US Naval Academy Transportation', to: '/us-naval-academy-transportation' },
+      { label: 'Sports Game Day Limo Service', to: '/limo/sports-game-day-limo' },
+    ],
+    title: 'The Military Bowl in Annapolis: Game Day Transportation From DC, Maryland and Virginia',
+    metaTitle: 'Military Bowl Annapolis Transportation | DCA Limos',
+    metaDesc:
+      'Plan a ride to the Military Bowl at Navy-Marine Corps Memorial Stadium in Annapolis: when it is typically played, drive times from DC, parking, groups, tailgates and dinner downtown.',
+    excerpt:
+      'The Military Bowl brings college football to Annapolis each December. Here is how to get a group to Navy-Marine Corps Memorial Stadium and home again without the parking scramble.',
+    image: '/images/blog/landmark-annapolis-1.webp',
+    author: 'David Thompson',
+    authorBio: 'Ground transportation specialist covering the DC, Maryland, and Virginia corridor for business and leisure travelers.',
+    date: 'November 18, 2026',
+    scheduled: true,
+    readTime: '6 min read',
+    category: 'Events & Festivals',
+    content: `
+      <p class="lead">The Military Bowl is a college football bowl game played each December at Navy-Marine Corps Memorial Stadium in Annapolis, next to the U.S. Naval Academy. The game honors the armed forces, and it is typically played in late December, during the quiet week between Christmas and New Year's. Matchups are set when bowl selections are announced in early December, so check the official Military Bowl website for this year's date, kickoff time and teams. For fans, alumni and families visiting the DC area for the holidays, it is an easy day trip, and this guide covers how to get there.</p>
+
+      <h2>Where It Is and How Long It Takes</h2>
+      <p>Navy-Marine Corps Memorial Stadium is on Taylor Avenue in <a href="/limo/annapolis-limo-service">Annapolis</a>, a short drive from the Naval Academy and the historic downtown. In normal traffic it is about 45 minutes to an hour from Reagan National Airport or downtown DC via US-50, and a little less from BWI. Holiday-week traffic is usually lighter than a weekday commute, but game day brings a lot of cars to a small city at once. Our <a href="/navy-marine-corps-stadium-transportation">stadium transportation page</a> covers the venue in more detail.</p>
+
+      <h2>Parking and Getting In</h2>
+      <p>Parking at the stadium and in the surrounding lots is limited, and the roads around it back up before kickoff and after the final whistle. A chauffeured drop-off near the gate avoids the lot entirely. When you book, tell us which gate your tickets list, and your chauffeur will agree a pickup spot with you for after the game. Bowl games often have clear bag policies, so check the stadium's rules before you pack, and leave coats and extra bags in the vehicle if the weather allows.</p>
+
+      <h2>Group Trips and Tailgates</h2>
+      <ul>
+        <li><strong>Alumni and fan groups.</strong> A Mercedes Sprinter van seats up to 13, so a group of friends or a fan club arrives and leaves together with no designated driver.</li>
+        <li><strong>Families.</strong> A Chevrolet Suburban (up to 5) or Lincoln Navigator (up to 6) fits a family with room for blankets and bags on a cold December day. Child seats are available on request.</li>
+        <li><strong>Corporate hospitality.</strong> Companies hosting clients at the game can book several vehicles with consolidated billing through our <a href="/washington-dc-corporate-car-service">corporate car service</a>.</li>
+      </ul>
+      <p>If your group is planning a tailgate, check the stadium's current tailgating and parking rules, since they can differ from regular-season Navy games.</p>
+
+      <h2>Make a Day of It in Annapolis</h2>
+      <p>With an <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur</a>, the car stays with your group for the whole day. Many visitors have lunch on Main Street or at City Dock before the game, walk the Naval Academy grounds where visitor access allows (see our <a href="/us-naval-academy-transportation">Naval Academy transportation page</a>) or stay for dinner downtown after the game while traffic clears. Our <a href="/blog/annapolis-limo-service-maryland-capital-style">Annapolis guide</a> has more ideas.</p>
+
+      <h2>Fans Flying In for the Game</h2>
+      <p>Supporters of the visiting teams often fly into the region a day or two early. We collect from DCA, Dulles and BWI with real-time flight tracking and a meet-and-greet at baggage claim. Our airport wait policy includes 45 minutes after landing for domestic flights and 60 minutes for international arrivals. Holiday-week flights can be disrupted by winter weather, and our <a href="/blog/dca-winter-weather-flight-delay-playbook">DCA winter weather playbook</a> explains how we handle delays. If you are staying for New Year's Eve, see our <a href="/blog/new-years-eve-car-service-dc">New Year's Eve car service guide</a>.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>From our <a href="/fleet">fleet</a>:</p>
+      <ul>
+        <li><strong>Sedans</strong> (Mercedes-Benz E-Class, or BMW 7 Series / Mercedes S-Class, or similar) seat up to 3 passengers.</li>
+        <li><strong>SUVs</strong> include the Lincoln Nautilus (up to 3 passengers), the Chevrolet Suburban (up to 5) and the Lincoln Navigator (up to 6).</li>
+        <li><strong><a href="/sprinter-van-rental-with-driver">Mercedes Sprinter vans</a></strong> seat up to 13 for fan groups and families.</li>
+      </ul>
+
+      <h2>Booking Your Game Day Ride</h2>
+      <p>Every DCA Limos trip is quoted upfront before you book. For pickups away from the airport, the first 15 minutes of waiting are free. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special events up to 12 hours before pickup. You can <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year, including the holidays.</p>
+    `,
+    faqs: [
+      { q: 'When is the Military Bowl?', a: 'It is typically played in late December, between Christmas and New Year\'s. Check the official Military Bowl website for this year\'s date, kickoff time and teams.' },
+      { q: 'Where is the Military Bowl played?', a: 'At Navy-Marine Corps Memorial Stadium on Taylor Avenue in Annapolis, Maryland, next to the U.S. Naval Academy.' },
+      { q: 'How long is the drive from DC to the Military Bowl?', a: 'Usually about 45 minutes to an hour from downtown DC or Reagan National Airport via US-50, longer close to kickoff.' },
+      { q: 'Can you take a group to the Military Bowl?', a: 'Yes. A Mercedes Sprinter van seats up to 13, an SUV up to 6, and we can coordinate several vehicles for larger groups.' },
+      { q: 'Can the chauffeur wait during the game?', a: 'Yes. With an hourly booking the chauffeur stays with your group and meets you at an agreed spot after the game.' },
+    ],
+  },
 ];
