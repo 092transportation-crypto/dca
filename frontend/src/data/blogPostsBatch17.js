@@ -4877,4 +4877,216 @@ export const BLOG_POSTS_BATCH17 = [
       { q: 'Can the chauffeur wait during the game?', a: 'Yes. With an hourly booking the chauffeur stays with your group and meets you at an agreed spot after the game.' },
     ],
   },
+  {
+    slug: 'national-air-and-space-museum-national-mall-visit-guide',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-dulles', 'dca-to-arlington'],
+    relatedLinks: [
+      { label: 'Which Smithsonian Museums to Visit First', to: '/blog/which-smithsonian-museums-to-visit-first-time-dc' },
+      { label: 'Udvar-Hazy Center Transportation', to: '/udvar-hazy-center-transportation' },
+      { label: 'Hourly Chauffeur Service in DC', to: '/washington-dc-hourly-chauffeur-service' },
+    ],
+    title: 'Visiting the National Air and Space Museum on the National Mall: Passes, Timing and Getting There',
+    metaTitle: 'National Air and Space Museum Visit Guide | DCA Limos',
+    metaDesc:
+      "Plan a visit to the Smithsonian's National Air and Space Museum on the Mall: free timed passes, reopened galleries, drop-off on Independence Avenue and pairing it with Udvar-Hazy.",
+    excerpt:
+      'The National Air and Space Museum is free, but a good visit takes a little planning: timed-entry passes, galleries reopening in phases and a second site out near Dulles. Here is how to fit it all together.',
+    image: '/images/blog/landmark-capitol-1.webp',
+    author: 'David Thompson',
+    authorBio: 'Ground transportation specialist covering the DC, Maryland, and Virginia corridor for business and leisure travelers.',
+    date: 'December 18, 2026',
+    scheduled: true,
+    readTime: '6 min read',
+    category: 'Local Guides',
+    content: `
+      <p class="lead">The Smithsonian's National Air and Space Museum is one of the most visited museums in the country, and the winter holidays are one of its busiest seasons, with families in town and kids out of school. The building on the National Mall has been through a multi-year renovation, reopening its galleries in phases, and the museum also has a second, much larger site near Dulles Airport. This guide covers how passes work, what to expect inside and how to plan the day so the travel between sites is the easy part.</p>
+
+      <h2>Where It Is</h2>
+      <p>The museum is at 600 Independence Avenue SW, on the south side of the National Mall between 4th and 7th Streets, a short walk from the U.S. Capitol. L'Enfant Plaza is the closest Metro station, and the Smithsonian station is a few blocks west. Its neighbors along Independence Avenue include the Hirshhorn Museum and the National Museum of the American Indian, and the U.S. Botanic Garden is just past the Capitol end of the Mall.</p>
+      <p>From Reagan National Airport, the drive to the museum is usually 10 to 15 minutes in light traffic, which makes it an easy first stop for visitors with an afternoon arrival or a last stop before an evening flight. Our <a href="/blog/last-day-in-dc-late-flight-luggage-hourly-chauffeur">late-flight luggage guide</a> explains how to see the city with your bags safely in the car.</p>
+
+      <h2>Free Timed-Entry Passes</h2>
+      <p>Admission is free, but since reopening the museum has required free timed-entry passes for every visitor, including children. Passes are released online in advance, and popular holiday and weekend time slots can run out. Pass rules and release schedules change, so check the museum's official website before you go and reserve your slot before you book your ride. Once you have a pass time, we can plan the drop-off so you arrive about 15 minutes before your entry window.</p>
+
+      <h2>What to Expect Inside</h2>
+      <p>The collection on the Mall includes some of the most famous objects in aviation and space history, such as the 1903 Wright Flyer, Charles Lindbergh's Spirit of St. Louis and the Apollo 11 command module Columbia. Because the renovation reopened galleries in stages, check the museum's website for which galleries are open during your visit. Most visitors spend two to three hours, and families with younger kids often plan a shorter visit with a break for lunch.</p>
+      <ul>
+        <li><strong>Security screening</strong> happens at the entrance, so keep bags small.</li>
+        <li><strong>Winter coats</strong> are bulky in a crowded gallery. With a chauffeur you can leave coats and shopping bags in the vehicle.</li>
+        <li><strong>Holiday closures:</strong> Smithsonian museums are typically closed on December 25 and open the rest of the holiday week, which is also when crowds peak.</li>
+      </ul>
+
+      <h2>Pairing It With the Udvar-Hazy Center</h2>
+      <p>The museum's Steven F. Udvar-Hazy Center in Chantilly, Virginia, holds the large aircraft that will not fit on the Mall, including the Space Shuttle Discovery and the SR-71 Blackbird, displayed in enormous hangars. It is near Dulles Airport, roughly 40 minutes to an hour from downtown depending on traffic. Public transit to the center is limited, and the site has charged a parking fee, so many families visit by car. Our <a href="/udvar-hazy-center-transportation">Udvar-Hazy Center transportation page</a> covers the drive.</p>
+      <p>Seeing both in one day is possible with an <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur</a>: the Mall building in the morning, lunch on the way, and Udvar-Hazy in the afternoon. If you are flying out of Dulles, Udvar-Hazy also works as a last stop before the airport, and our <a href="/dca-to-dulles">DCA to Dulles route page</a> covers trips between the two airports.</p>
+
+      <h2>Drop-Off and Pickup</h2>
+      <p>Independence Avenue carries heavy traffic, and parking near the Mall is limited to a small number of metered spaces that fill early. A chauffeured drop-off at the museum's entrance avoids the search, and your chauffeur picks you up at an agreed spot when you are done. On days with events, demonstrations or motorcades, streets around the Capitol can close with little notice; our guide to <a href="/blog/dc-motorcades-road-closures-why-routes-change">DC motorcades and road closures</a> explains why routes change.</p>
+
+      <h2>Families and School Groups</h2>
+      <p>Air and Space is a favorite for families and school trips. A Chevrolet Suburban or Lincoln Navigator keeps a family together with room for strollers, and we can provide child seats on request. For larger families or a youth group, a Mercedes Sprinter van seats up to 13. Our <a href="/blog/school-tour-group-chauffeured-smithsonian-national-mall">school tour group guide</a> covers planning a group day on the Mall.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>From our <a href="/fleet">fleet</a>:</p>
+      <ul>
+        <li><strong>Sedans</strong> (Mercedes-Benz E-Class, or BMW 7 Series / Mercedes S-Class, or similar) seat up to 3 passengers.</li>
+        <li><strong>SUVs</strong> include the Lincoln Nautilus (up to 3 passengers), the Chevrolet Suburban (up to 5) and the Lincoln Navigator (up to 6).</li>
+        <li><strong><a href="/sprinter-van-rental-with-driver">Mercedes Sprinter vans</a></strong> seat up to 13 for families and groups.</li>
+      </ul>
+
+      <h2>Booking Your Trip</h2>
+      <p>Every DCA Limos trip is quoted upfront before you book. For airport pickups, we track your flight and wait 45 minutes after landing for domestic flights and 60 minutes for international arrivals. For pickups away from the airport, the first 15 minutes of waiting are free. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special events up to 12 hours before pickup. You can <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year.</p>
+    `,
+    faqs: [
+      { q: 'Do I need a pass for the National Air and Space Museum?', a: 'Since reopening, the museum on the National Mall has required free timed-entry passes for all visitors, including children. Check the official website for current pass rules and release times.' },
+      { q: 'Where is the National Air and Space Museum?', a: 'At 600 Independence Avenue SW on the south side of the National Mall. L\'Enfant Plaza is the closest Metro station, and the drive from Reagan National Airport is usually 10 to 15 minutes.' },
+      { q: 'Where is the Space Shuttle Discovery?', a: 'At the museum\'s Steven F. Udvar-Hazy Center in Chantilly, Virginia, near Dulles Airport, not at the building on the Mall.' },
+      { q: 'Can I visit the Mall museum and Udvar-Hazy in one day?', a: 'Yes, with a car. An hourly chauffeur can take you to the Mall in the morning and out to Chantilly in the afternoon, roughly 40 minutes to an hour each way depending on traffic.' },
+      { q: 'How long should I plan at the National Air and Space Museum?', a: 'Most visitors spend two to three hours. Families with younger children often plan a shorter visit with a lunch break.' },
+    ],
+  },
+  {
+    slug: 'national-gallery-of-art-east-west-building-visit-guide',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-alexandria', 'dca-to-bethesda'],
+    relatedLinks: [
+      { label: 'National Archives Visit Guide', to: '/blog/national-archives-visit-declaration-constitution-guide' },
+      { label: 'Penn Quarter Car Service', to: '/penn-quarter-limo-service' },
+      { label: 'Hourly Chauffeur Service in DC', to: '/washington-dc-hourly-chauffeur-service' },
+    ],
+    title: 'Visiting the National Gallery of Art: East and West Buildings, the Sculpture Garden and Getting There',
+    metaTitle: 'National Gallery of Art Visit Guide | DCA Limos',
+    metaDesc:
+      "Plan a visit to the National Gallery of Art in DC: the West and East Buildings, the underground concourse, the Sculpture Garden, holiday closures and easy drop-off on the Mall.",
+    excerpt:
+      'The National Gallery of Art is free, open almost every day and spread across two very different buildings. Here is how to plan a visit, from where to start to where your chauffeur should meet you.',
+    image: '/images/blog/landmark-capitol-2.webp',
+    author: 'Sarah Williams',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'December 19, 2026',
+    scheduled: true,
+    readTime: '6 min read',
+    category: 'Local Guides',
+    content: `
+      <p class="lead">The National Gallery of Art is one of the great art museums of the world, and admission is free. It sits on the north side of the National Mall near the Capitol and is often grouped with the Smithsonian museums, but it is a separate institution with its own hours and rules. A winter afternoon in its galleries is one of the best ways to spend a cold day in Washington, whether you are a first-time visitor, a family home for the holidays or a business traveler with a few free hours. This guide covers the layout, timing and getting there.</p>
+
+      <h2>Where It Is</h2>
+      <p>The gallery spans the blocks between 3rd and 7th Streets NW along Constitution Avenue. The Archives-Navy Memorial-Penn Quarter, Judiciary Square and Smithsonian Metro stations are all within walking distance. The <a href="/blog/national-archives-visit-declaration-constitution-guide">National Archives</a> is just across 7th Street, and <a href="/penn-quarter-limo-service">Penn Quarter</a>, with its restaurants and theaters, is a few blocks north.</p>
+
+      <h2>Two Buildings, One Museum</h2>
+      <ul>
+        <li><strong>The West Building</strong>, the neoclassical building designed by John Russell Pope and opened in 1941, holds European and American paintings and sculpture from the Middle Ages through the early 20th century. It is home to Ginevra de' Benci, the only painting by Leonardo da Vinci on public view in the Americas, along with major works by Vermeer, Rembrandt, Monet and many others.</li>
+        <li><strong>The East Building</strong>, designed by I. M. Pei and opened in 1978, focuses on modern and contemporary art, with a rooftop terrace and large atrium installations.</li>
+        <li><strong>The underground concourse</strong> connects the two, with a café, a gift shop and a moving walkway beneath Leo Villareal's light sculpture Multiverse.</li>
+      </ul>
+      <p>Most visitors pick one building for a first visit, or see the highlights of both in about three hours.</p>
+
+      <h2>The Sculpture Garden</h2>
+      <p>The Sculpture Garden, next to the West Building between 7th and 9th Streets, displays large modern sculptures around a central fountain. In some winters, the fountain has been turned into a popular outdoor ice rink, but it has not operated every season. Our <a href="/blog/ice-skating-in-dc-outdoor-rinks-transportation-guide">guide to outdoor ice skating in DC</a> covers the rink and other places to skate this winter.</p>
+
+      <h2>Hours and Holiday Closures</h2>
+      <p>The gallery is typically open daily from 10 a.m. to 5 p.m. and closed on December 25 and January 1, the two days that catch many holiday visitors by surprise. Timed passes have not usually been required for the permanent collection, but some special exhibitions can have their own entry rules. Check the gallery's official website for current hours and exhibitions before you go.</p>
+
+      <h2>Drop-Off and Pickup</h2>
+      <p>Street parking on Constitution Avenue and the surrounding blocks is limited and fills early, especially on holiday weekends. With a chauffeur, you can be dropped off at the entrance you plan to start with, at the West Building on the Mall side or the East Building near 4th Street, and picked up at the other end of the museum when you are done. Leave heavy coats and shopping bags in the vehicle so you are not carrying them through the galleries.</p>
+
+      <h2>Building a Day Around It</h2>
+      <ul>
+        <li><strong>A history and art day:</strong> the National Archives in the morning, lunch in Penn Quarter and the West Building in the afternoon.</li>
+        <li><strong>A full museum day:</strong> combine the gallery with one or two Smithsonian museums. Our guide to <a href="/blog/which-smithsonian-museums-to-visit-first-time-dc">which Smithsonian museums to visit first</a> helps you choose.</li>
+        <li><strong>An evening out:</strong> finish with dinner in Penn Quarter and a show at <a href="/blog/fords-theatre-penn-quarter-evening">Ford's Theatre</a> or the <a href="/blog/national-theatre-dc-broadway-show-night-transportation">National Theatre</a>.</li>
+      </ul>
+      <p>An <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur</a> keeps the same car and driver with you all day, so moving between stops takes minutes instead of a walk across the Mall in the cold.</p>
+
+      <h2>For Visitors Flying In</h2>
+      <p>The gallery is usually 10 to 15 minutes from Reagan National Airport in light traffic, so it fits easily into a short trip or a long layover between meetings. We can collect you from DCA, Dulles or BWI with real-time flight tracking and a meet-and-greet at baggage claim. Our airport wait policy includes 45 minutes after landing for domestic flights and 60 minutes for international arrivals.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>From our <a href="/fleet">fleet</a>:</p>
+      <ul>
+        <li><strong>Sedans</strong> (Mercedes-Benz E-Class, or BMW 7 Series / Mercedes S-Class, or similar) seat up to 3 passengers.</li>
+        <li><strong>SUVs</strong> include the Lincoln Nautilus (up to 3 passengers), the Chevrolet Suburban (up to 5) and the Lincoln Navigator (up to 6).</li>
+        <li><strong><a href="/sprinter-van-rental-with-driver">Mercedes Sprinter vans</a></strong> seat up to 13 for families, art groups and visiting delegations.</li>
+      </ul>
+
+      <h2>Booking Your Trip</h2>
+      <p>Every DCA Limos trip is quoted upfront before you book. For pickups away from the airport, the first 15 minutes of waiting are free. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special events up to 12 hours before pickup. You can <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year.</p>
+    `,
+    faqs: [
+      { q: 'Is the National Gallery of Art free?', a: 'Yes. Admission is free, and timed passes have not usually been required for the permanent collection. Some special exhibitions can have their own entry rules, so check the official website.' },
+      { q: 'Is the National Gallery of Art part of the Smithsonian?', a: 'No. It is a separate institution, although it sits on the National Mall and is often visited on the same day as the Smithsonian museums.' },
+      { q: 'Is the National Gallery of Art open on Christmas?', a: 'The gallery is typically closed on December 25 and January 1 and open the other days of the holiday season. Check its website for current hours.' },
+      { q: 'What is the difference between the East and West Buildings?', a: 'The West Building holds European and American art from the Middle Ages to the early 20th century, including the only Leonardo da Vinci painting in the Americas. The East Building focuses on modern and contemporary art. An underground concourse connects them.' },
+      { q: 'How long does it take to see the National Gallery of Art?', a: 'Many visitors spend two to three hours, either focusing on one building or seeing highlights of both.' },
+    ],
+  },
+  {
+    slug: 'blues-alley-georgetown-jazz-night-out-transportation-guide',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-mclean'],
+    relatedLinks: [
+      { label: 'Georgetown Car Service', to: '/georgetown-limo-service' },
+      { label: 'U Street Car Service', to: '/u-street-dc-limo-service' },
+      { label: 'Anniversary Limo Service in DC', to: '/washington-dc-anniversary-limo' },
+    ],
+    title: 'A Jazz Night at Blues Alley in Georgetown: Showtimes, Dinner and the Ride Home',
+    metaTitle: 'Blues Alley Georgetown Jazz Night Car Service | DCA Limos',
+    metaDesc:
+      "Plan a night at Blues Alley, Georgetown's historic jazz supper club: how the evening usually works, early vs late shows, why Georgetown has no Metro and getting home after the set.",
+    excerpt:
+      'Blues Alley has been bringing jazz to Georgetown since 1965, in a small room tucked off Wisconsin Avenue. Here is how to plan a jazz night there, from dinner to the ride home.',
+    image: '/images/blog/scenario-doorman.webp',
+    author: 'Michael Chen',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'December 20, 2026',
+    scheduled: true,
+    readTime: '6 min read',
+    category: 'Local Guides',
+    content: `
+      <p class="lead">Blues Alley opened in Georgetown in 1965 and is often described as the oldest continuously operating jazz supper club in the country. Over the decades its small brick room has hosted many of the biggest names in jazz, and it still books touring and local artists most nights of the year. A show there is a classic DC night out for a date, an anniversary, a birthday or a winter evening with visiting friends. This guide covers how the evening usually works and how to get there and home without the Georgetown parking hunt.</p>
+
+      <h2>Where It Is</h2>
+      <p>The club is at 1073 Wisconsin Avenue NW, but true to its name the entrance is in a brick alley just off Wisconsin Avenue, a short walk south of M Street. That makes it easy to miss on a first visit, especially at night. When you book, we note the address and plan the drop-off at the closest point on Wisconsin Avenue, a few steps from the alley entrance.</p>
+
+      <h2>How the Evening Usually Works</h2>
+      <ul>
+        <li><strong>Two shows a night.</strong> Most nights typically have an early show and a late show. The early set suits a dinner-and-show evening; the late set works if you want dinner elsewhere in <a href="/georgetown-limo-service">Georgetown</a> first.</li>
+        <li><strong>Dinner and drinks.</strong> Blues Alley is a supper club with a food and drink menu, and the club has typically had a per-person food or drink minimum in addition to the ticket.</li>
+        <li><strong>A small room.</strong> Seating is close to the stage, and popular artists and holiday weeks sell out. Buy tickets in advance.</li>
+      </ul>
+      <p>Showtimes, seating policies and minimums vary by performer, so check the club's official website for the details of your night before you book your ride.</p>
+
+      <h2>Why a Car Helps in Georgetown</h2>
+      <p>Georgetown has no Metro station. The closest stations, Foggy Bottom-GWU and Rosslyn, are a 15 to 20 minute walk away, which is not much fun on a cold December night after a late set. Street parking on the side streets is scarce and largely restricted, the garages near M Street fill on weekend nights, and the intersection of M Street and Wisconsin Avenue is one of the busiest in the city. A chauffeured drop-off and pickup skips all of it, and with an <a href="/washington-dc-hourly-chauffeur-service">hourly booking</a> the same chauffeur can take you to dinner, drop you at the club and meet you on Wisconsin Avenue when the music ends.</p>
+
+      <h2>Make It a Bigger Night</h2>
+      <ul>
+        <li><strong>Dinner on the waterfront</strong> along the Potomac, a few blocks south of the club, before the early show.</li>
+        <li><strong>Holiday lights:</strong> in December, combine the show with a walk through <a href="/blog/georgetown-glow-holiday-light-art-visit-guide">Georgetown GLOW</a>, the neighborhood's public light-art exhibition.</li>
+        <li><strong>More jazz:</strong> DC has deep jazz roots. Duke Ellington grew up in the city, and the <a href="/u-street-dc-limo-service">U Street corridor</a> was once known for its music scene. The <a href="/kennedy-center-transportation">Kennedy Center</a> also programs jazz throughout the season.</li>
+      </ul>
+
+      <h2>Date Nights, Anniversaries and Small Groups</h2>
+      <p>A jazz club is a natural choice for a special evening. For couples, a sedan or a Lincoln Nautilus keeps it simple; our <a href="/washington-dc-anniversary-limo">anniversary car service</a> page covers celebration evenings. For a birthday or a group of friends, a Chevrolet Suburban or Lincoln Navigator keeps everyone together, and a Mercedes Sprinter van seats up to 13. For more ideas across the river, see our <a href="/blog/old-town-alexandria-date-night-transportation">Old Town Alexandria date night guide</a>.</p>
+
+      <h2>Visitors and Business Travelers</h2>
+      <p>Georgetown is usually 15 to 20 minutes from Reagan National Airport in light traffic, so a late show can fit even on the night you land. Taking clients to a show is also a memorable alternative to a standard business dinner; our <a href="/washington-dc-corporate-car-service">corporate car service</a> offers consolidated billing. For airport pickups we track your flight and wait 45 minutes after landing for domestic flights and 60 minutes for international arrivals.</p>
+
+      <h2>Choosing a Vehicle</h2>
+      <p>From our <a href="/fleet">fleet</a>:</p>
+      <ul>
+        <li><strong>Sedans</strong> (Mercedes-Benz E-Class, or BMW 7 Series / Mercedes S-Class, or similar) seat up to 3 passengers.</li>
+        <li><strong>SUVs</strong> include the Lincoln Nautilus (up to 3 passengers), the Chevrolet Suburban (up to 5) and the Lincoln Navigator (up to 6).</li>
+        <li><strong><a href="/sprinter-van-rental-with-driver">Mercedes Sprinter vans</a></strong> seat up to 13 for birthday groups and client nights.</li>
+      </ul>
+
+      <h2>Booking Your Night Out</h2>
+      <p>Every DCA Limos trip is quoted upfront before you book. For pickups away from the airport, the first 15 minutes of waiting are free. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special events up to 12 hours before pickup. You can <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year.</p>
+    `,
+    faqs: [
+      { q: 'Where is Blues Alley in Georgetown?', a: 'At 1073 Wisconsin Avenue NW. The entrance is in a brick alley just off Wisconsin Avenue, a short walk south of M Street.' },
+      { q: 'How many shows does Blues Alley have a night?', a: 'Most nights typically have an early show and a late show. Showtimes vary by performer, so check the club\'s official website.' },
+      { q: 'Is there a Metro station near Blues Alley?', a: 'Georgetown has no Metro station. Foggy Bottom-GWU and Rosslyn are the closest, about a 15 to 20 minute walk away.' },
+      { q: 'Is there parking near Blues Alley?', a: 'Street parking in Georgetown is scarce and largely restricted, and nearby garages fill on weekend nights. A chauffeured drop-off and pickup avoids the search.' },
+      { q: 'Can the chauffeur wait during the show?', a: 'Yes. With an hourly booking the same chauffeur can take you to dinner, drop you at the club and pick you up on Wisconsin Avenue after the set.' },
+    ],
+  },
 ];
