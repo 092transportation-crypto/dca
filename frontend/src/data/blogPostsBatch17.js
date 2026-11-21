@@ -5089,4 +5089,219 @@ export const BLOG_POSTS_BATCH17 = [
       { q: 'Can the chauffeur wait during the show?', a: 'Yes. With an hourly booking the same chauffeur can take you to dinner, drop you at the club and pick you up on Wisconsin Avenue after the set.' },
     ],
   },
+  {
+    slug: 'thanksgiving-guests-flying-into-dca-host-pickup-guide',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-bethesda', 'dca-to-alexandria'],
+    relatedLinks: [
+      { label: 'Thanksgiving Travel at DCA Survival Guide', to: '/blog/thanksgiving-travel-dca-survival-guide-2026' },
+      { label: 'DCA Meet and Greet Service', to: '/blog/dca-airport-meet-and-greet-service' },
+      { label: 'Sprinter Van Rental With Driver', to: '/sprinter-van-rental-with-driver' },
+    ],
+    title: 'Hosting Thanksgiving? How to Get Your Guests From Reagan National to Your Door',
+    metaTitle: 'Thanksgiving Guests Flying Into DCA: Host Guide | DCA Limos',
+    metaDesc:
+      'Hosting Thanksgiving in DC, Maryland or Virginia? How to plan pickups for relatives flying into Reagan National (DCA) without leaving the kitchen or circling the terminal.',
+    excerpt:
+      'When family flies in for Thanksgiving, the host usually ends up doing airport runs on the busiest days of the year. Here is how to plan DCA arrivals so your guests get to the door and you stay at home.',
+    image: '/images/blog/scenario-airport-pickup-1.webp',
+    author: 'Sarah Williams',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'November 20, 2026',
+    readTime: '7 min read',
+    category: 'Travel Tips',
+    content: `
+      <p class="lead">Thanksgiving is Thursday, November 26 this year, and if you are the one hosting, you already know the problem: the relatives are flying in on Tuesday and Wednesday, on different airlines and at different times, and someone has to collect them from Reagan National while the turkey is thawing and the house still needs cleaning. Our <a href="/blog/thanksgiving-travel-dca-survival-guide-2026">Thanksgiving travel survival guide</a> is written for the person flying. This guide is written for the person waiting at home.</p>
+
+      <h2>Start With a Simple Arrivals Sheet</h2>
+      <p>Before you decide who drives whom, put every incoming guest on one list: name, airline, flight number, scheduled arrival time, number of bags, whether they are bringing a car seat or a wheelchair, and the address they are going to (your house, a hotel or another relative's home). It takes ten minutes and it makes every later decision easier.</p>
+      <p>Once the list exists, patterns appear. Two cousins landing forty minutes apart can share one ride. An aunt landing at 11 p.m. on Tuesday needs a different plan from a family of five landing at 2 p.m. on Wednesday. Grandparents who should not be left standing at the curb need a pickup inside the terminal, not a text that says "I'm outside, door 4."</p>
+
+      <h2>Why the Host Should Not Be the Airport Shuttle</h2>
+      <p>Driving to DCA yourself looks free, but on Thanksgiving week it is usually the most expensive thing you can do with your afternoon. The Wednesday before Thanksgiving is one of the heaviest traffic days of the year on the George Washington Parkway, I-395, the Beltway and the bridges into the city. A pickup that takes 25 minutes in October can take well over an hour each way, and one delayed flight can turn a single run into a long wait in the cell phone lot.</p>
+      <p>Multiply that by three or four separate arrivals and the host spends most of Wednesday in the car instead of preparing the meal and the house. Hiring a chauffeur for the airport legs means you can stay home, track flights from your phone and simply open the door when the car arrives.</p>
+
+      <h2>How a Chauffeured Pickup Works at DCA</h2>
+      <ul>
+        <li><strong>Flight tracking.</strong> We monitor each flight, so an early or late arrival moves the pickup automatically. You do not have to call anyone if the plane is delayed.</li>
+        <li><strong>Complimentary waiting time.</strong> Airport pickups include 45 minutes of waiting time on domestic arrivals and 60 minutes on international arrivals, timed from touchdown, which covers the walk from the gate and the wait at baggage claim.</li>
+        <li><strong>Meet and greet.</strong> For older relatives or first-time visitors, the chauffeur can meet them inside the terminal and help with bags. Our <a href="/blog/dca-airport-meet-and-greet-service">meet and greet guide</a> explains how it works.</li>
+        <li><strong>One point of contact.</strong> You can book every guest on one reservation thread and receive the confirmations yourself, even though you are not the passenger.</li>
+      </ul>
+
+      <h2>Grouping Arrivals Into the Right Vehicles</h2>
+      <p>The arrivals sheet tells you how many cars you need. From our <a href="/fleet">fleet</a>:</p>
+      <ul>
+        <li><strong>One or two travelers with normal luggage:</strong> a sedan such as a Mercedes-Benz E-Class or similar (up to 3 passengers).</li>
+        <li><strong>A couple with extra bags, or a small family:</strong> a Lincoln Nautilus (up to 3), Chevrolet Suburban (up to 5) or Lincoln Navigator (up to 6). Holiday travelers carry more than usual, so size for the luggage as well as the people.</li>
+        <li><strong>Several relatives landing close together:</strong> a <a href="/sprinter-van-rental-with-driver">Mercedes Sprinter van</a> seats up to 13 and can collect a whole branch of the family in one trip.</li>
+      </ul>
+      <p>If arrivals are more than an hour or two apart, separate cars are usually better than asking the first family to sit at the airport waiting for the second. If they land within the same window, one larger vehicle is simpler and keeps everyone together.</p>
+
+      <h2>Guests Staying at Hotels</h2>
+      <p>Many hosts do not have room for everyone, so some guests stay at hotels in Crystal City, Pentagon City, Old Town Alexandria, Bethesda or downtown DC. In that case, book three legs at once: airport to hotel on arrival day, hotel to your house on Thanksgiving, and the return to the hotel at the end of the evening. That last leg matters most, because it means nobody at the table has to stop drinking to drive guests back. Our <a href="/blog/thanksgiving-dinner-thanksgiving-eve-car-service-dc-md-va">Thanksgiving dinner rides guide</a> covers the local side of the holiday in more detail.</p>
+
+      <h2>Children, Car Seats and Mobility Needs</h2>
+      <p>Note any child seats on the arrivals sheet and tell us when you book, so the right seat can be planned for the vehicle. Our <a href="/blog/car-seats-chauffeured-vehicle-dc-md-va-laws">car seat guide</a> explains the rules in DC, Maryland and Virginia. For a relative who uses a wheelchair or walker, mention it at booking so we can plan the vehicle and the pickup point, and see our <a href="/wheelchair-accessible-car-service-dc">accessible transportation page</a>.</p>
+
+      <h2>Don't Forget the Trip Home</h2>
+      <p>The Sunday after Thanksgiving is one of the busiest days of the year at DCA, and Monday morning is not much quieter. Book the departure rides at the same time as the arrivals, while you have everyone's flight details in front of you. Leave extra time for the drive and for security on Sunday, and plan the pickup at your door early enough that nobody is rushing out after breakfast.</p>
+
+      <h2>A Sample Plan for a Host</h2>
+      <p>Say your parents land Tuesday evening, your sister's family of four lands Wednesday at midday, and two cousins land Wednesday afternoon about an hour apart. A workable plan: a sedan with meet and greet for your parents on Tuesday; a Suburban for your sister's family, sized for their bags and a child seat; and a single SUV for both cousins timed to the later flight, with flight tracking covering the gap. Then book the return trips for Sunday and Monday in the same call. You make one booking, receive the confirmations, and spend Wednesday cooking.</p>
+
+      <h2>Booking Thanksgiving Arrivals</h2>
+      <p>Every DCA Limos trip is quoted upfront before you book. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special events up to 12 hours before pickup, which helps if a guest's plans change. SUVs and Sprinter vans go first during Thanksgiving week, so book as soon as flights are confirmed. You can <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year, including Thanksgiving Day.</p>
+    `,
+    faqs: [
+      { q: 'Can I book a DCA pickup for a relative if I am not the passenger?', a: 'Yes. You can book and receive the confirmations yourself; just give us the passenger name, flight number and a mobile number for the traveler.' },
+      { q: 'What happens if my guest\'s flight into DCA is delayed?', a: 'We track every flight and adjust the pickup to the actual landing time. Domestic arrivals include 45 minutes of complimentary waiting time from touchdown, and international arrivals 60 minutes.' },
+      { q: 'Can one vehicle collect several relatives on different flights?', a: 'Yes, if they land close together. A Chevrolet Suburban seats up to 5, a Lincoln Navigator up to 6 and a Mercedes Sprinter van up to 13. For arrivals far apart, separate cars are usually better.' },
+      { q: 'Can the chauffeur meet my parents inside the terminal?', a: 'Yes. With meet and greet, the chauffeur meets them inside the terminal and helps with their bags to the car.' },
+      { q: 'When should I book Thanksgiving week airport pickups?', a: 'As soon as flights are confirmed. Tuesday, Wednesday and the following Sunday are the busiest days, and SUVs and Sprinter vans book up first.' },
+    ],
+  },
+  {
+    slug: 'hosting-holiday-party-at-home-guest-rides-dc-md-va',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-bethesda'],
+    relatedLinks: [
+      { label: 'Corporate Holiday Party Transportation', to: '/blog/corporate-holiday-party-transportation-guide' },
+      { label: 'Hourly Chauffeur Service in DC', to: '/washington-dc-hourly-chauffeur-service' },
+      { label: 'Tipping Etiquette for Car Service', to: '/blog/tipping-gratuity-etiquette-limo-car-service-dmv' },
+    ],
+    title: 'Hosting a Holiday Party at Home in the DC Area: How to Get Your Guests There and Home Safely',
+    metaTitle: 'Holiday House Party Guest Rides in DC | DCA Limos',
+    metaDesc:
+      'Hosting a holiday party at home in DC, Maryland or Virginia? Plan guest rides, street parking, out-of-town guests and safe trips home so nobody has to drive after the party.',
+    excerpt:
+      'Office parties get shuttles. House parties usually get a hopeful "drive safe" at the door. Here is how to plan the rides for a holiday party at home so every guest arrives easily and gets home safely.',
+    image: '/images/blog/scenario-doorman.webp',
+    author: 'Sarah Williams',
+    authorBio: 'DC-area travel writer covering airports, ground transportation, and business travel for over a decade.',
+    date: 'November 20, 2026',
+    readTime: '7 min read',
+    category: 'Local Guides',
+    content: `
+      <p class="lead">December is house-party season across the DC area: neighborhood open houses in Arlington and Bethesda, cocktail parties in Capitol Hill rowhouses, family gatherings in Fairfax and Silver Spring, and friends' parties in apartments all over the city. Company parties usually come with a transportation plan, and our <a href="/blog/corporate-holiday-party-transportation-guide">corporate holiday party guide</a> covers those. A party at home rarely does. This guide is for the host who wants the evening to end with every guest home safely, not with a debate in the driveway about who is fine to drive.</p>
+
+      <h2>Why the Ride Home Is the Host's Problem</h2>
+      <p>Holiday parties combine everything that makes the drive home risky: drinks, long evenings, dark roads by 5 p.m. and, some nights, rain or freezing temperatures. Rideshare can help, but late on a busy December Saturday, guests in the suburbs may wait a long time for a car, and the person who decides to "just drive" is usually the one who should not. A little planning before the invitations go out solves most of this.</p>
+
+      <h2>Three Ways to Plan Guest Transportation</h2>
+      <h3>1. Book rides home for specific guests</h3>
+      <p>The simplest approach is to book cars home for the guests who need them most: older relatives, friends coming from across the region, or anyone who you know will be driving otherwise. A sedan seats up to 3 and an SUV up to 6, so neighbors or couples heading the same way can share. Agree on a departure window, and your guests text the chauffeur when they are ready.</p>
+      <h3>2. Keep one vehicle on an hourly booking</h3>
+      <p>For a larger party, an <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur</a> can stay with your party for the evening, running guests home in groups as they leave. This works well when most guests live within a short drive, such as a neighborhood party where people are going home to different streets in the same area.</p>
+      <h3>3. Run a Sprinter van loop from a central point</h3>
+      <p>If parking near your home is limited, a <a href="/sprinter-van-rental-with-driver">Mercedes Sprinter van</a> (up to 13 passengers) can collect guests from a Metro station, a garage or a hotel, bring them to the party and run them back at set times. That keeps cars off a crowded residential street and gives everyone a clear way home.</p>
+
+      <h2>Parking, Neighbors and Residential Streets</h2>
+      <p>In much of DC and in close-in neighborhoods of Arlington, Alexandria and Bethesda, residential parking is limited, and some blocks have permit restrictions. Thirty guests arriving by car can fill the street, frustrate neighbors and leave people circling in the dark. Encouraging guests to arrive by chauffeured car, rideshare or Metro, and offering a ride home, keeps the street clear. If you are using a shuttle, tell guests exactly where it picks up and when.</p>
+
+      <h2>Out-of-Town Guests</h2>
+      <p>Holiday parties often bring in friends and relatives from out of town. If they are flying into Reagan National, book the airport pickup and the ride to the party together, and the trip back to their hotel at the end of the night. Airport pickups include complimentary waiting time of 45 minutes for domestic arrivals and 60 minutes for international arrivals, and we track the flight so a delay does not leave anyone stranded.</p>
+
+      <h2>Choosing Vehicles From Our Fleet</h2>
+      <ul>
+        <li><strong>Sedans</strong> (Mercedes-Benz E-Class, or BMW 7 Series / Mercedes S-Class, or similar): up to 3 passengers, ideal for individual guests or a couple.</li>
+        <li><strong>SUVs</strong>: Lincoln Nautilus (up to 3), Chevrolet Suburban (up to 5) and Lincoln Navigator (up to 6), good for small groups heading the same way.</li>
+        <li><strong>Mercedes Sprinter vans</strong>: up to 13 passengers, for shuttle loops and larger groups.</li>
+      </ul>
+      <p>See the full <a href="/fleet">fleet page</a> for photos and details.</p>
+
+      <h2>Telling Guests About the Plan</h2>
+      <p>Guests only use a transportation plan if they know about it. Put a line in the invitation, such as "rides home available, just let us know," and ask people to reply if they want one. On the night, keep a short list near the door with guest names and pickup times, and let guests know they can leave whenever they are ready by texting the chauffeur. A plan announced in advance feels like hospitality, not a lecture.</p>
+
+      <h2>Timing Tips for December</h2>
+      <ul>
+        <li><strong>Book early for Saturdays.</strong> The Saturdays in December fill quickly, especially for SUVs and Sprinter vans.</li>
+        <li><strong>Plan for weather.</strong> If snow or ice is forecast, we may suggest earlier departure times. Our <a href="/blog/dc-snow-emergency-route-parking-ban-guide">snow emergency route guide</a> explains how parking bans affect pickups.</li>
+        <li><strong>Leave a buffer at the end.</strong> House parties run late. Give us the latest time you expect guests to leave so the car is still available.</li>
+      </ul>
+
+      <h2>Booking Holiday Party Rides</h2>
+      <p>Every DCA Limos trip is quoted upfront before you book. For pickups away from the airport, the first 15 minutes of waiting are free. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special events up to 12 hours before pickup. <a href="/booking">Book online</a> or call (877) 609-1919; dispatch runs 24 hours a day.</p>
+    `,
+    faqs: [
+      { q: 'Can I book rides home for my party guests?', a: 'Yes. You can book cars for specific guests, keep a vehicle on an hourly booking for the evening, or run a Sprinter van between your home and a nearby pickup point.' },
+      { q: 'How many guests fit in one vehicle?', a: 'A sedan seats up to 3, a Chevrolet Suburban up to 5, a Lincoln Navigator up to 6 and a Mercedes Sprinter van up to 13.' },
+      { q: 'Can guests leave at different times?', a: 'Yes. With an hourly booking, the chauffeur runs guests home in groups as they are ready to leave, so nobody has to wait for the whole party to end.' },
+      { q: 'Can you pick up out-of-town guests from DCA and bring them to the party?', a: 'Yes. We track the flight, include complimentary waiting time from touchdown, and can take them to the party and back to their hotel afterward.' },
+      { q: 'What is the cancellation policy for holiday party rides?', a: 'Sedans and SUVs can be cancelled free up to 3 hours before pickup. Sprinter vans and special events can be cancelled free up to 12 hours before pickup.' },
+    ],
+  },
+  {
+    slug: 'after-new-years-return-flights-dca-early-january-guide',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-rockville'],
+    relatedLinks: [
+      { label: 'Winter Weather and Flight Delay Playbook', to: '/blog/dca-winter-weather-flight-delay-playbook' },
+      { label: 'Visiting DC Between Christmas and New Year', to: '/blog/washington-dc-between-christmas-and-new-years-visitor-guide' },
+      { label: 'New Year\'s Eve Car Service in DC', to: '/blog/new-years-eve-car-service-dc' },
+    ],
+    title: 'Flying Home After New Year\'s: Planning the Early-January Return Rush at Reagan National',
+    metaTitle: 'After New Year\'s Travel at DCA: Return Rush Guide | DCA Limos',
+    metaDesc:
+      'Flying out of or back into Reagan National (DCA) after New Year\'s? Plan the early-January return rush: busy days, winter weather, luggage and booking your ride.',
+    excerpt:
+      'The holidays end with one of the busiest travel stretches of the winter, as visitors leave DC and residents fly home at the same time. Here is how to plan the first weekend of January at DCA.',
+    image: '/images/blog/airport-dropoff.webp',
+    author: 'Michael Chen',
+    authorBio: 'Transportation industry analyst and frequent DC-area business traveler with 15+ years in executive travel logistics.',
+    date: 'November 20, 2026',
+    readTime: '7 min read',
+    category: 'Travel Tips',
+    content: `
+      <p class="lead">Most holiday travel planning focuses on getting somewhere for Christmas or for New Year's Eve. The trip back gets less attention, even though it can be just as busy. New Year's Day 2027 falls on a Friday, so for many people the holidays end over the weekend of Saturday, January 2 and Sunday, January 3, with work and school starting again on Monday. That puts holiday visitors leaving Washington and DC-area residents returning home through Reagan National in the same few days. Here is how to plan it.</p>
+
+      <h2>Two Kinds of Travelers, One Weekend</h2>
+      <p>The early-January rush at DCA has two directions at once:</p>
+      <ul>
+        <li><strong>Visitors leaving DC.</strong> Families who came for the holidays, or for New Year's Eve in the city, head home from hotels and relatives' houses. They often have more luggage than when they arrived, thanks to gifts.</li>
+        <li><strong>Residents coming home.</strong> People from DC, Maryland and Virginia who traveled for the holidays fly back, usually aiming to land on Saturday or Sunday before the working week.</li>
+      </ul>
+      <p>Both groups need a ride at the same time, which is why rideshare waits and prices can climb on those afternoons and evenings, and why the arrivals curb gets crowded.</p>
+
+      <h2>Leaving DC: Plan Your Departure Morning</h2>
+      <p>If you are flying out, book your ride to the airport the same day you book anything else for the trip. A few things make the departure easier:</p>
+      <ul>
+        <li><strong>Leave extra time.</strong> Holiday return days mean longer lines at security and heavier traffic around the airport. Leave earlier than you would on an ordinary weekday.</li>
+        <li><strong>Size the vehicle for the luggage.</strong> Bags that left home half-full often come back full, plus a box or two of gifts. A couple who arrived in a sedan may need an SUV on the way out. From our <a href="/fleet">fleet</a>, a Chevrolet Suburban seats up to 5 and a Lincoln Navigator up to 6, and a Mercedes Sprinter van seats up to 13 for a large family leaving together.</li>
+        <li><strong>Pick up from the right place.</strong> If you have been moving between relatives, tell us exactly where you will be on the morning of the flight.</li>
+      </ul>
+      <p>For very early flights, our <a href="/blog/dca-airport-early-morning-flights">early-morning flights guide</a> covers timing and what to expect at the terminal.</p>
+
+      <h2>Coming Home: Book the Pickup Before You Leave</h2>
+      <p>If you are a DC-area resident traveling over the holidays, book your return pickup before you leave home. It is easy to forget until you are standing at baggage claim on Sunday evening, which is exactly when cars are hardest to find. With a reservation:</p>
+      <ul>
+        <li>We track your flight and adjust the pickup to your actual landing time.</li>
+        <li>Airport pickups include complimentary waiting time of 45 minutes for domestic arrivals and 60 minutes for international arrivals, timed from touchdown.</li>
+        <li>Your chauffeur is assigned before you land, so there is no searching for a ride with tired children and a pile of bags.</li>
+      </ul>
+
+      <h2>Winter Weather in Early January</h2>
+      <p>Early January is well into winter in the DC area, and snow, ice or storms elsewhere in the country can delay flights into and out of Reagan National even when the weather here is clear. A flight cancelled in another city can push your arrival back by hours or into the next day. If that happens, let us know the new flight details and we will move the reservation. Our <a href="/blog/dca-winter-weather-flight-delay-playbook">winter weather and flight delay playbook</a> covers diversions, overnight delays and how pickups are handled when flights change.</p>
+      <p>On the road, snow and ice slow traffic and may mean an earlier pickup for outbound flights. If a storm is forecast for your travel day, we may contact you to suggest leaving earlier.</p>
+
+      <h2>College Students and Long Winter Breaks</h2>
+      <p>Many college students stay home well into January, so their trips back to campus come later than most. If a student in your family is flying back from DCA, or coming into DC for the spring semester, our <a href="/blog/winter-break-college-students-dc-airport-travel-guide">winter break guide for college students</a> covers campus pickups and drop-offs.</p>
+
+      <h2>A Checklist for the Return Trip</h2>
+      <ul>
+        <li>Book both the ride to the airport and the pickup at home before the holidays start.</li>
+        <li>Give us your flight number so we can track the flight.</li>
+        <li>Tell us about extra luggage, gift boxes, car seats or a wheelchair when you book.</li>
+        <li>Check your flight status the morning of travel, especially if there is weather anywhere along your route.</li>
+        <li>Allow extra time at security on Saturday and Sunday.</li>
+      </ul>
+
+      <h2>Booking Your Early-January Rides</h2>
+      <p>Every DCA Limos trip is quoted upfront before you book. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans up to 12 hours before pickup, which helps if a flight is rescheduled. <a href="/booking">Book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year, including New Year's Day.</p>
+    `,
+    faqs: [
+      { q: 'When is the busiest time to fly out of DCA after New Year\'s?', a: 'In 2027, New Year\'s Day falls on Friday, so Saturday, January 2 and Sunday, January 3 are likely to be busy as visitors leave and residents return before the work week. Allow extra time at the airport.' },
+      { q: 'Should I book my DCA return pickup before I leave for the holidays?', a: 'Yes. Booking ahead means a chauffeur is assigned before you land, and we track your flight so the pickup moves with any delay.' },
+      { q: 'What happens if my flight home is cancelled or delayed by winter weather?', a: 'Send us the new flight details and we will move the reservation. Sedans and SUVs can be cancelled free up to 3 hours before pickup, and Sprinter vans up to 12 hours before.' },
+      { q: 'Which vehicle should I book with extra holiday luggage?', a: 'Size for the bags as well as the people. A Chevrolet Suburban seats up to 5 and a Lincoln Navigator up to 6, and a Mercedes Sprinter van seats up to 13 for a large family.' },
+      { q: 'Do you operate on New Year\'s Day?', a: 'Yes. Dispatch runs 24 hours a day, every day of the year, including New Year\'s Day.' },
+    ],
+  },
 ];
