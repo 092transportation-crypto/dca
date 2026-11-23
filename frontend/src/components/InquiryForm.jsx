@@ -598,7 +598,7 @@ const InquiryForm = () => {
             <motion.div variants={itemVariants} className="md:col-span-2">
               <div className="flex min-h-[58px] flex-wrap items-center justify-between gap-3 rounded-xl border border-white/15 bg-white/[0.04] px-4 py-2.5">
                 <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-gray-500">
-                  Passengers <span className="text-gray-600">(1–14)</span>
+                  Passengers <span className="text-gray-600">(1–13)</span>
                 </span>
                 <div className="flex shrink-0 items-center gap-2">
                   <motion.button
@@ -631,7 +631,7 @@ const InquiryForm = () => {
                     aria-label="More passengers"
                     data-testid="inquiry-passengers-plus"
                     whileTap={{ scale: 0.85 }}
-                    onClick={() => set('passengers', Math.min(14, form.passengers + 1))}
+                    onClick={() => set('passengers', Math.min(13, form.passengers + 1))}
                     className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 text-gray-300 transition-colors hover:border-amber-500 hover:text-amber-400"
                   >
                     <Plus size={16} />

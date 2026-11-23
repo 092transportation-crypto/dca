@@ -48,7 +48,7 @@ const Footer = () => {
                 <span className="absolute inset-0 rounded-full ring-2 ring-amber-400/70" aria-hidden="true"></span>
                 <img 
                   src="/dca-limos-logo.png" 
-                  alt="DCA Limos — Premium Airport & Chauffeur Service" 
+                  alt="DCA Limos logo" 
                   className="relative h-24 sm:h-28 w-24 sm:w-28 object-cover rounded-full bg-white shadow-[0_0_24px_rgba(245,158,11,0.6)]"
                 />
               </Link>
@@ -76,7 +76,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-base sm:text-lg font-bold mb-4 sm:mb-6 text-amber-400 uppercase tracking-wider">Quick Links</h3>
+            <p className="text-base sm:text-lg font-bold mb-4 sm:mb-6 text-amber-400 uppercase tracking-wider">Quick Links</p>
             <ul className="space-y-2 sm:space-y-3">
               <li><Link to="/" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span>→</span><span>Home</span></Link></li>
               <li><Link to="/services" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span>→</span><span>Services</span></Link></li>
@@ -91,7 +91,7 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h3 className="text-base sm:text-lg font-bold mb-4 sm:mb-6 text-amber-400 uppercase tracking-wider">Our Services</h3>
+            <p className="text-base sm:text-lg font-bold mb-4 sm:mb-6 text-amber-400 uppercase tracking-wider">Our Services</p>
             <ul className="space-y-2 sm:space-y-3">
               <li><Link to="/limo/dca-airport-limo" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span className="text-amber-500">•</span><span>Airport Transportation</span></Link></li>
               <li><Link to="/limo/corporate-car-service" className="text-sm sm:text-base text-gray-400 hover:text-amber-400 transition-colors flex items-center space-x-2"><span className="text-amber-500">•</span><span>Corporate Car Service</span></Link></li>
@@ -101,7 +101,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-base sm:text-lg font-bold mb-4 sm:mb-6 text-amber-400 uppercase tracking-wider">Contact Us</h3>
+            <p className="text-base sm:text-lg font-bold mb-4 sm:mb-6 text-amber-400 uppercase tracking-wider">Contact Us</p>
             <ul className="space-y-3 sm:space-y-4">
               <li className="flex items-start space-x-3">
                 <Phone className="h-4 w-4 sm:h-5 sm:w-5 text-amber-500 mt-1 flex-shrink-0" />
@@ -137,7 +137,7 @@ const Footer = () => {
 
         {/* DCA Airport Routes */}
         <div className="border-t border-amber-500/30 pt-8 pb-6 mb-4" data-testid="footer-dca-routes">
-          <h3 className="text-sm sm:text-base font-bold mb-4 text-amber-400 uppercase tracking-wider text-center md:text-left">DCA Airport Routes</h3>
+          <p className="text-sm sm:text-base font-bold mb-4 text-amber-400 uppercase tracking-wider text-center md:text-left">DCA Airport Routes</p>
           <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs sm:text-sm text-gray-400">
             {ROUTE_PAGES.map((r) => (
               <Link key={r.slug} to={`/${r.slug}`} className="hover:text-amber-400 transition-colors" data-testid={`footer-route-${r.slug}`}>
@@ -149,7 +149,7 @@ const Footer = () => {
 
         {/* Event Transportation */}
         <div className="border-t border-amber-500/30 pt-6 pb-2 mb-4" data-testid="footer-event-links">
-          <h3 className="text-sm sm:text-base font-bold mb-4 text-amber-400 uppercase tracking-wider text-center md:text-left">Event Transportation</h3>
+          <p className="text-sm sm:text-base font-bold mb-4 text-amber-400 uppercase tracking-wider text-center md:text-left">Event Transportation</p>
           <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs sm:text-sm text-gray-400">
             {EVENT_PAGES.map((e) => (
               <Link key={e.slug} to={`/${e.slug}`} className="hover:text-amber-400 transition-colors" data-testid={`footer-event-${e.slug}`}>
@@ -161,7 +161,7 @@ const Footer = () => {
 
         {/* From the Blog */}
         <div className="border-t border-amber-500/30 pt-6 pb-2 mb-4" data-testid="footer-blog-links">
-          <h3 className="text-sm sm:text-base font-bold mb-4 text-amber-400 uppercase tracking-wider text-center md:text-left">From the Blog</h3>
+          <p className="text-sm sm:text-base font-bold mb-4 text-amber-400 uppercase tracking-wider text-center md:text-left">From the Blog</p>
           <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs sm:text-sm text-gray-400">
             {/* findBlogPost: skip a curated post that is scheduled and not live yet. */}
             {BLOG_FOOTER_LINKS.filter((p) => findBlogPost(p.slug)).map((p) => (
@@ -174,7 +174,7 @@ const Footer = () => {
 
         {/* Maryland Service Areas */}
         <div className="border-t border-amber-500/30 pt-8 pb-6 mb-4" data-testid="footer-md-areas">
-          <h3 className="text-sm sm:text-base font-bold mb-4 text-amber-400 uppercase tracking-wider text-center md:text-left">Maryland Service Areas</h3>
+          <p className="text-sm sm:text-base font-bold mb-4 text-amber-400 uppercase tracking-wider text-center md:text-left">Maryland Service Areas</p>
           <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs sm:text-sm text-gray-400">
             {[
               'Annapolis','Baltimore','Bethesda','Silver Spring','Rockville','Frederick','Gaithersburg','Columbia','Towson','Ellicott City','Laurel','Greenbelt','College Park','Hanover','Linthicum Heights','Odenton','Severna Park','Crofton','Arnold','Pasadena','Glen Burnie','Edgewater','Crownsville','Gambrills','Millersville','Severn'
@@ -186,7 +186,7 @@ const Footer = () => {
 
         {/* Partners & Resources */}
         <div className="border-t border-amber-500/30 pt-6 pb-2 mb-4" data-testid="footer-partners">
-          <h3 className="text-sm sm:text-base font-bold mb-4 text-amber-400 uppercase tracking-wider text-center md:text-left">Partners &amp; Resources</h3>
+          <p className="text-sm sm:text-base font-bold mb-4 text-amber-400 uppercase tracking-wider text-center md:text-left">Partners &amp; Resources</p>
           <div className="flex flex-wrap gap-x-4 gap-y-2 text-xs sm:text-sm text-gray-400">
             <a href="https://www.bwiairport.com/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors">BWI Airport</a>
             <a href="https://www.flyreagan.com/" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors">Reagan National (DCA)</a>

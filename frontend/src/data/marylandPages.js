@@ -52,7 +52,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Rockville Town Square, Glenview Mansion at Rockville Civic Center Park, EagleBank Arena concerts and how to route around the I-270 spur merge at the Beltway",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for the Nuclear Regulatory Commission and other Rockville employers",
       "Bar and bat mitzvah specialists — Sprinter vans and limousines staged for synagogue-to-venue runs across Montgomery County"
     ],
@@ -100,13 +100,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -131,7 +131,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Rockville?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Glenview Mansion and venues across Montgomery County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Glenview Mansion and venues across Montgomery County."
       },
       {
         "q": "Is DCA Limos available in Rockville overnight and on holidays?",
@@ -215,7 +215,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know the National Institutes of Health campus, Bethesda Row and how to route around the Wisconsin Avenue",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for NIH and other Bethesda employers",
       "Discreet protocol service for federal contractor and government-adjacent travel, with chauffeurs who understand a confidential cabin"
     ],
@@ -263,13 +263,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -294,7 +294,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Bethesda?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Music Center at Strathmore and venues across Montgomery County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Music Center at Strathmore and venues across Montgomery County."
       },
       {
         "q": "Is DCA Limos available in Bethesda overnight and on holidays?",
@@ -382,7 +382,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Rio Lakefront, Kentlands Market Square and how to route around the I-270 local-express lane merges south of Shady Grove",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for NIST and other Gaithersburg employers"
     ],
     "sections": [
@@ -429,13 +429,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -460,7 +460,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Gaithersburg?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Kentlands Mansion and venues across Montgomery County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Kentlands Mansion and venues across Montgomery County."
       },
       {
         "q": "Is DCA Limos available in Gaithersburg overnight and on holidays?",
@@ -544,7 +544,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Downtown Silver Spring on Ellsworth Drive, The Fillmore Silver Spring and how to route around the Colesville Road",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for NOAA, Discovery and other Silver Spring employers"
     ],
     "sections": [
@@ -591,13 +591,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -622,7 +622,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Silver Spring?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at The Fillmore Silver Spring and venues across Montgomery County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at The Fillmore Silver Spring and venues across Montgomery County."
       },
       {
         "q": "Is DCA Limos available in Silver Spring overnight and on holidays?",
@@ -710,7 +710,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Bowie Town Center, Prince George's Stadium, home of the Bowie Baysox and how to route around the US-50",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for Bowie State University and other Bowie employers"
     ],
     "sections": [
@@ -757,13 +757,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -788,7 +788,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Bowie?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Comfort Inn Conference Center Bowie and venues across Prince George's County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Comfort Inn Conference Center Bowie and venues across Prince George's County."
       },
       {
         "q": "Is DCA Limos available in Bowie overnight and on holidays?",
@@ -880,7 +880,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Laurel Park racetrack, the Johns Hopkins Applied Physics Laboratory and how to route around the I-95",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for Johns Hopkins APL and other Laurel employers"
     ],
     "sections": [
@@ -927,13 +927,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -958,7 +958,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Laurel?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Montpelier Mansion and venues across Prince George's, Howard and Anne Arundel counties."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Montpelier Mansion and venues across Prince George's, Howard and Anne Arundel counties."
       },
       {
         "q": "Is DCA Limos available in Laurel overnight and on holidays?",
@@ -1050,7 +1050,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know NASA's Goddard Space Flight Center, Greenbelt Park and how to route around the Beltway–BW Parkway–I-95 interchange, one of the busiest merges in Maryland",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for NASA Goddard and other Greenbelt employers"
     ],
     "sections": [
@@ -1097,13 +1097,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -1128,7 +1128,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Greenbelt?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Greenbelt Marriott and venues across Prince George's County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Greenbelt Marriott and venues across Prince George's County."
       },
       {
         "q": "Is DCA Limos available in Greenbelt overnight and on holidays?",
@@ -1212,7 +1212,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know St. Charles Towne Center, Waldorf Marketplace and how to route around the US-301",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for the Charles County government in La Plata and other Waldorf employers"
     ],
     "sections": [
@@ -1259,13 +1259,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -1290,7 +1290,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Waldorf?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Capital Clubhouse and venues across Charles County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Capital Clubhouse and venues across Charles County."
       },
       {
         "q": "Is DCA Limos available in Waldorf overnight and on holidays?",
@@ -1382,7 +1382,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Carroll Creek Linear Park, Frederick Health Hospital and how to route around the I-270",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for Fort Detrick and other Frederick employers",
       "Day-trip charters to the Antietam and Gettysburg battlefields and the Frederick County wineries and breweries circuit"
     ],
@@ -1430,13 +1430,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -1461,7 +1461,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Frederick?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Ceresville Mansion and venues across Frederick County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Ceresville Mansion and venues across Frederick County."
       },
       {
         "q": "Is DCA Limos available in Frederick overnight and on holidays?",
@@ -1545,7 +1545,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Fort George G. Meade and the NSA campus, Piney Orchard Ice Arena and how to route around the MD-32 gate backups at Fort Meade",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for the NSA and other Odenton employers"
     ],
     "sections": [
@@ -1592,13 +1592,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -1623,7 +1623,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Odenton?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Odenton Town Center pavilion and venues across Anne Arundel County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Odenton Town Center pavilion and venues across Anne Arundel County."
       },
       {
         "q": "Is DCA Limos available in Odenton overnight and on holidays?",
@@ -1707,7 +1707,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know the Baltimore & Annapolis Trail, Park Plaza and the Severna Park Marketplace and how to route around Ritchie Highway backups at Jumpers Hole Road",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for Anne Arundel Medical Center and other Severna Park employers"
     ],
     "sections": [
@@ -1754,13 +1754,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -1785,7 +1785,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Severna Park?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Chartwell Golf & Country Club and venues across Anne Arundel County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Chartwell Golf & Country Club and venues across Anne Arundel County."
       },
       {
         "q": "Is DCA Limos available in Severna Park overnight and on holidays?",
@@ -1869,7 +1869,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Crofton Country Club, the Village at Waugh Chapel and how to route around the MD-3",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for Fort Meade and the NSA to the north and other Crofton employers"
     ],
     "sections": [
@@ -1916,13 +1916,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -1947,7 +1947,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Crofton?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Crofton Country Club and venues across Anne Arundel County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Crofton Country Club and venues across Anne Arundel County."
       },
       {
         "q": "Is DCA Limos available in Crofton overnight and on holidays?",
@@ -2031,7 +2031,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know The Mall at Prince George's, Busboys and Poets Hyattsville and how to route around the Route 1 crawl through College Park",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for the University of Maryland and other Hyattsville employers"
     ],
     "sections": [
@@ -2078,13 +2078,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -2109,7 +2109,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Hyattsville?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Pyramid Atlantic Art Center and venues across Prince George's County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Pyramid Atlantic Art Center and venues across Prince George's County."
       },
       {
         "q": "Is DCA Limos available in Hyattsville overnight and on holidays?",
@@ -2193,7 +2193,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know the BlackRock Center for the Arts, Milestone Center and how to route around the I-270 lane drop at MD-118",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for Hughes Network Systems and other Germantown employers"
     ],
     "sections": [
@@ -2240,13 +2240,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -2271,7 +2271,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Germantown?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the BlackRock Center for the Arts and venues across Montgomery County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the BlackRock Center for the Arts and venues across Montgomery County."
       },
       {
         "q": "Is DCA Limos available in Germantown overnight and on holidays?",
@@ -2355,7 +2355,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Marley Station Mall, the Cromwell light-rail station and how to route around the I-97",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for UM Baltimore Washington Medical Center and other Glen Burnie employers"
     ],
     "sections": [
@@ -2402,13 +2402,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -2433,7 +2433,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Glen Burnie?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Kurtz's Beach waterfront pavilion in Pasadena and venues across Anne Arundel County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Kurtz's Beach waterfront pavilion in Pasadena and venues across Anne Arundel County."
       },
       {
         "q": "Is DCA Limos available in Glen Burnie overnight and on holidays?",
@@ -2517,7 +2517,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Anne Arundel Community College, Bay Hills Golf Club and how to route around Ritchie Highway at College Parkway",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for Anne Arundel Community College and other Arnold employers"
     ],
     "sections": [
@@ -2564,13 +2564,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -2595,7 +2595,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Arnold?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Bay Hills Golf Club and venues across Anne Arundel County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Bay Hills Golf Club and venues across Anne Arundel County."
       },
       {
         "q": "Is DCA Limos available in Arnold overnight and on holidays?",
@@ -2679,7 +2679,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know the South River waterfront, the Anne Arundel County government complex on Riva Road and how to route around the Riva Road",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for Anne Arundel County government on Riva Road and other Riva employers"
     ],
     "sections": [
@@ -2726,13 +2726,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -2757,7 +2757,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Riva?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the South River Colony clubhouse and venues across Anne Arundel County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the South River Colony clubhouse and venues across Anne Arundel County."
       },
       {
         "q": "Is DCA Limos available in Riva overnight and on holidays?",
@@ -2841,7 +2841,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Cape St. Claire Beach on the Magothy, Broadneck Park and how to route around the US-50 Bay Bridge backup that spills onto Cape St. Claire Road on summer weekends",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for the Naval Academy and state government in Annapolis and other Cape St. Claire employers"
     ],
     "sections": [
@@ -2888,13 +2888,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -2919,7 +2919,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Cape St. Claire?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Cape St. Claire Beach and venues across Anne Arundel County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Cape St. Claire Beach and venues across Anne Arundel County."
       },
       {
         "q": "Is DCA Limos available in Cape St. Claire overnight and on holidays?",
@@ -3003,7 +3003,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Clarksville Commons, Cattail Creek Country Club in Glenwood and how to route around the MD-108",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for Johns Hopkins APL in Laurel and other Clarksville employers"
     ],
     "sections": [
@@ -3050,13 +3050,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -3081,7 +3081,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Clarksville?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Cattail Creek Country Club and venues across Howard County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Cattail Creek Country Club and venues across Howard County."
       },
       {
         "q": "Is DCA Limos available in Clarksville overnight and on holidays?",
@@ -3165,7 +3165,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Towson Town Center, Goucher College and how to route around the I-695",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for Baltimore County government and other Towson employers"
     ],
     "sections": [
@@ -3212,13 +3212,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -3243,7 +3243,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Towson?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Hampton National Historic Site and venues across Baltimore County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Hampton National Historic Site and venues across Baltimore County."
       },
       {
         "q": "Is DCA Limos available in Towson overnight and on holidays?",
@@ -3335,7 +3335,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know the Maryland State Fairgrounds, Timonium Business Park and how to route around the I-83 merge at Padonia Road",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for the corporate campuses of Timonium Business Park and Hunt Valley and other Timonium employers"
     ],
     "sections": [
@@ -3382,13 +3382,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -3413,7 +3413,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Timonium?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Oregon Ridge Park and venues across Baltimore County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Oregon Ridge Park and venues across Baltimore County."
       },
       {
         "q": "Is DCA Limos available in Timonium overnight and on holidays?",
@@ -3497,7 +3497,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Greenspring Station, the Fire Museum of Maryland and how to route around the York Road",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for the medical practices at Greenspring Station and other Lutherville employers"
     ],
     "sections": [
@@ -3544,13 +3544,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -3575,7 +3575,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Lutherville?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Historic Lutherville Colonial Hall and venues across Baltimore County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Historic Lutherville Colonial Hall and venues across Baltimore County."
       },
       {
         "q": "Is DCA Limos available in Lutherville overnight and on holidays?",
@@ -3659,7 +3659,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Loch Raven Reservoir, Boordy Vineyards in Hydes and how to route around the two-lane Jarrettsville Pike at school hours",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for the Hunt Valley corporate corridor and other Phoenix employers"
     ],
     "sections": [
@@ -3706,13 +3706,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -3737,7 +3737,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Phoenix?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Ladew Topiary Gardens and venues across Baltimore County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at Ladew Topiary Gardens and venues across Baltimore County."
       },
       {
         "q": "Is DCA Limos available in Phoenix overnight and on holidays?",
@@ -3821,7 +3821,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know the Music Center at Strathmore, the North Bethesda and Grosvenor-Strathmore Metro stations and how to route around Rockville Pike between Montrose",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for the Nuclear Regulatory Commission and other North Bethesda employers"
     ],
     "sections": [
@@ -3868,13 +3868,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -3899,7 +3899,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in North Bethesda?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Bethesda North Marriott Hotel & Conference Center and venues across Montgomery County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Bethesda North Marriott Hotel & Conference Center and venues across Montgomery County."
       },
       {
         "q": "Is DCA Limos available in North Bethesda overnight and on holidays?",
@@ -3983,7 +3983,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Muddy Branch Park, Quince Orchard High School and how to route around Darnestown Road at Quince Orchard Road in the morning",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for the I-270 biotech corridor and other North Potomac employers"
     ],
     "sections": [
@@ -4030,13 +4030,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -4061,7 +4061,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in North Potomac?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Potomac estate venues along Travilah Road and venues across Montgomery County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Potomac estate venues along Travilah Road and venues across Montgomery County."
       },
       {
         "q": "Is DCA Limos available in North Potomac overnight and on holidays?",
@@ -4145,7 +4145,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know the Gibson Island Club and its golf course, Otter Pond and how to route around the two-lane Mountain Road corridor through Pasadena",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for the Baltimore and Annapolis firms whose principals live on the island and other Gibson Island employers"
     ],
     "sections": [
@@ -4192,13 +4192,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -4223,7 +4223,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Gibson Island?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Gibson Island Club and venues across Anne Arundel County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Gibson Island Club and venues across Anne Arundel County."
       },
       {
         "q": "Is DCA Limos available in Gibson Island overnight and on holidays?",
@@ -4307,7 +4307,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know the Chesapeake Bay Beach Club, the Kent Island Yacht Club and how to route around Bay Bridge backups on summer weekends",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for the Queen Anne's County government in Centreville and other Stevensville employers"
     ],
     "sections": [
@@ -4354,13 +4354,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -4385,7 +4385,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Stevensville?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Chesapeake Bay Beach Club and venues across Queen Anne's County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Chesapeake Bay Beach Club and venues across Queen Anne's County."
       },
       {
         "q": "Is DCA Limos available in Stevensville overnight and on holidays?",
@@ -4469,7 +4469,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know the Friendship Heights Metro station, the Chevy Chase Club and how to route around Connecticut Avenue at Chevy Chase Circle",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for GEICO and other Chevy Chase employers"
     ],
     "sections": [
@@ -4516,13 +4516,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -4547,7 +4547,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Chevy Chase?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Chevy Chase Club and venues across Montgomery County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Chevy Chase Club and venues across Montgomery County."
       },
       {
         "q": "Is DCA Limos available in Chevy Chase overnight and on holidays?",
@@ -4635,7 +4635,7 @@ export const MARYLAND_PAGES = [
       "Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay",
       "Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international",
       "Chauffeurs who know Sykesville's Main Street and the restored B&O station, Piney Run Park and how to route around MD-32 at the I-70 interchange",
-      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos",
+      "Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos",
       "Corporate accounts with monthly invoicing for the Springfield Hospital Center and other Sykesville employers"
     ],
     "sections": [
@@ -4682,13 +4682,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -4713,7 +4713,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you handle a wedding or group event in Sykesville?",
-        "a": "Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Sykesville Main Street event spaces and venues across Carroll County."
+        "a": "Yes. Sprinter vans seat up to 13 and stretch limousines up to 8, and we coordinate multiple vehicles for larger parties at the Sykesville Main Street event spaces and venues across Carroll County."
       },
       {
         "q": "Is DCA Limos available in Sykesville overnight and on holidays?",
@@ -4822,7 +4822,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Pick the right vehicle",
         "paragraphs": [
-          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator or Chevrolet Suburban seats six comfortably. Team or wedding party? A Mercedes Sprinter carries 14. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
+          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator seats six comfortably and a Chevrolet Suburban five. Team or wedding party? A Mercedes Sprinter carries 13. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
         ]
       }
     ],
@@ -4848,13 +4848,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -4883,7 +4883,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How many people can you carry?",
-        "a": "Up to three in a sedan, six in an SUV and 14 in a Sprinter van, with luggage. Larger groups ride in multiple coordinated vehicles."
+        "a": "Up to three in a sedan, six in an SUV and 13 in a Sprinter van, with luggage. Larger groups ride in multiple coordinated vehicles."
       }
     ],
     "related": [
@@ -4984,7 +4984,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Pick the right vehicle",
         "paragraphs": [
-          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator or Chevrolet Suburban seats six comfortably. Team or wedding party? A Mercedes Sprinter carries 14. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
+          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator seats six comfortably and a Chevrolet Suburban five. Team or wedding party? A Mercedes Sprinter carries 13. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
         ]
       }
     ],
@@ -5010,13 +5010,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -5045,7 +5045,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How many people can you carry?",
-        "a": "A sedan comfortably fits three with bags, an SUV fits six, and a Sprinter van carries 14. Bigger groups travel in multiple vehicles we coordinate to arrive together."
+        "a": "A sedan comfortably fits three with bags, an SUV fits six, and a Sprinter van carries 13. Bigger groups travel in multiple vehicles we coordinate to arrive together."
       }
     ],
     "related": [
@@ -5140,7 +5140,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Pick the right vehicle",
         "paragraphs": [
-          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator or Chevrolet Suburban seats six comfortably. Team or wedding party? A Mercedes Sprinter carries 14. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
+          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator seats six comfortably and a Chevrolet Suburban five. Team or wedding party? A Mercedes Sprinter carries 13. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
         ]
       }
     ],
@@ -5166,13 +5166,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -5201,7 +5201,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How many people can you carry?",
-        "a": "Sedans hold up to three passengers with luggage, SUVs up to six, Sprinter vans up to 14. For larger parties, we coordinate multiple vehicles so everyone arrives together."
+        "a": "Sedans hold up to three passengers with luggage, SUVs up to six, Sprinter vans up to 13. For larger parties, we coordinate multiple vehicles so everyone arrives together."
       }
     ],
     "related": [
@@ -5296,7 +5296,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Pick the right vehicle",
         "paragraphs": [
-          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator or Chevrolet Suburban seats six comfortably. Team or wedding party? A Mercedes Sprinter carries 14. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
+          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator seats six comfortably and a Chevrolet Suburban five. Team or wedding party? A Mercedes Sprinter carries 13. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
         ]
       }
     ],
@@ -5322,13 +5322,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -5357,7 +5357,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How many people can you carry?",
-        "a": "Up to three in a sedan, six in an SUV and 14 in a Sprinter van, with luggage. Larger groups ride in multiple coordinated vehicles."
+        "a": "Up to three in a sedan, six in an SUV and 13 in a Sprinter van, with luggage. Larger groups ride in multiple coordinated vehicles."
       }
     ],
     "related": [
@@ -5456,7 +5456,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Pick the right vehicle",
         "paragraphs": [
-          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator or Chevrolet Suburban seats six comfortably. Team or wedding party? A Mercedes Sprinter carries 14. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
+          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator seats six comfortably and a Chevrolet Suburban five. Team or wedding party? A Mercedes Sprinter carries 13. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
         ]
       }
     ],
@@ -5482,13 +5482,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -5517,7 +5517,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How many people can you carry?",
-        "a": "A sedan comfortably fits three with bags, an SUV fits six, and a Sprinter van carries 14. Bigger groups travel in multiple vehicles we coordinate to arrive together."
+        "a": "A sedan comfortably fits three with bags, an SUV fits six, and a Sprinter van carries 13. Bigger groups travel in multiple vehicles we coordinate to arrive together."
       }
     ],
     "related": [
@@ -5622,7 +5622,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Pick the right vehicle",
         "paragraphs": [
-          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator or Chevrolet Suburban seats six comfortably. Team or wedding party? A Mercedes Sprinter carries 14. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
+          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator seats six comfortably and a Chevrolet Suburban five. Team or wedding party? A Mercedes Sprinter carries 13. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
         ]
       }
     ],
@@ -5648,13 +5648,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -5683,7 +5683,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How many people can you carry?",
-        "a": "Sedans hold up to three passengers with luggage, SUVs up to six, Sprinter vans up to 14. For larger parties, we coordinate multiple vehicles so everyone arrives together."
+        "a": "Sedans hold up to three passengers with luggage, SUVs up to six, Sprinter vans up to 13. For larger parties, we coordinate multiple vehicles so everyone arrives together."
       }
     ],
     "related": [
@@ -5784,7 +5784,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Pick the right vehicle",
         "paragraphs": [
-          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator or Chevrolet Suburban seats six comfortably. Team or wedding party? A Mercedes Sprinter carries 14. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
+          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator seats six comfortably and a Chevrolet Suburban five. Team or wedding party? A Mercedes Sprinter carries 13. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
         ]
       }
     ],
@@ -5810,13 +5810,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -5845,7 +5845,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How many people can you carry?",
-        "a": "Up to three in a sedan, six in an SUV and 14 in a Sprinter van, with luggage. Larger groups ride in multiple coordinated vehicles."
+        "a": "Up to three in a sedan, six in an SUV and 13 in a Sprinter van, with luggage. Larger groups ride in multiple coordinated vehicles."
       }
     ],
     "related": [
@@ -5940,7 +5940,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Pick the right vehicle",
         "paragraphs": [
-          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator or Chevrolet Suburban seats six comfortably. Team or wedding party? A Mercedes Sprinter carries 14. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
+          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator seats six comfortably and a Chevrolet Suburban five. Team or wedding party? A Mercedes Sprinter carries 13. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
         ]
       }
     ],
@@ -5966,13 +5966,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -6001,7 +6001,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How many people can you carry?",
-        "a": "A sedan comfortably fits three with bags, an SUV fits six, and a Sprinter van carries 14. Bigger groups travel in multiple vehicles we coordinate to arrive together."
+        "a": "A sedan comfortably fits three with bags, an SUV fits six, and a Sprinter van carries 13. Bigger groups travel in multiple vehicles we coordinate to arrive together."
       }
     ],
     "related": [
@@ -6102,7 +6102,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Pick the right vehicle",
         "paragraphs": [
-          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator or Chevrolet Suburban seats six comfortably. Team or wedding party? A Mercedes Sprinter carries 14. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
+          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator seats six comfortably and a Chevrolet Suburban five. Team or wedding party? A Mercedes Sprinter carries 13. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
         ]
       }
     ],
@@ -6128,13 +6128,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -6163,7 +6163,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How many people can you carry?",
-        "a": "Sedans hold up to three passengers with luggage, SUVs up to six, Sprinter vans up to 14. For larger parties, we coordinate multiple vehicles so everyone arrives together."
+        "a": "Sedans hold up to three passengers with luggage, SUVs up to six, Sprinter vans up to 13. For larger parties, we coordinate multiple vehicles so everyone arrives together."
       }
     ],
     "related": [
@@ -6264,7 +6264,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Pick the right vehicle",
         "paragraphs": [
-          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator or Chevrolet Suburban seats six comfortably. Team or wedding party? A Mercedes Sprinter carries 14. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
+          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator seats six comfortably and a Chevrolet Suburban five. Team or wedding party? A Mercedes Sprinter carries 13. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
         ]
       }
     ],
@@ -6290,13 +6290,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -6325,7 +6325,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How many people can you carry?",
-        "a": "Up to three in a sedan, six in an SUV and 14 in a Sprinter van, with luggage. Larger groups ride in multiple coordinated vehicles."
+        "a": "Up to three in a sedan, six in an SUV and 13 in a Sprinter van, with luggage. Larger groups ride in multiple coordinated vehicles."
       }
     ],
     "related": [
@@ -6420,7 +6420,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Pick the right vehicle",
         "paragraphs": [
-          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator or Chevrolet Suburban seats six comfortably. Team or wedding party? A Mercedes Sprinter carries 14. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
+          "Traveling light? A Mercedes-Benz E-Class or BMW 7 Series. Family with luggage? A Lincoln Navigator seats six comfortably and a Chevrolet Suburban five. Team or wedding party? A Mercedes Sprinter carries 13. Stretch limousines are available for celebrations, and we coordinate multiple vehicles for larger groups."
         ]
       }
     ],
@@ -6446,13 +6446,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -6481,7 +6481,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "How many people can you carry?",
-        "a": "A sedan comfortably fits three with bags, an SUV fits six, and a Sprinter van carries 14. Bigger groups travel in multiple vehicles we coordinate to arrive together."
+        "a": "A sedan comfortably fits three with bags, an SUV fits six, and a Sprinter van carries 13. Bigger groups travel in multiple vehicles we coordinate to arrive together."
       }
     ],
     "related": [
@@ -6554,7 +6554,7 @@ export const MARYLAND_PAGES = [
     ],
     "highlights": [
       "Experience at Belmont Manor in Elkridge, Chesapeake Bay Beach Club in Stevensville and the Historic Inns of Annapolis",
-      "Full fleet under one reservation: sedans, SUVs, 14-passenger Sprinters, stretch limos",
+      "Full fleet under one reservation: sedans, SUVs, 13-passenger Sprinters, stretch limos",
       "Flat-rate or hourly pricing confirmed in writing — no surge",
       "Itinerary confirmed the day before, chauffeur staged early",
       "24/7 dispatch monitoring every trip",
@@ -6582,7 +6582,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Vehicles for the occasion",
         "paragraphs": [
-          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Lincoln Navigator and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Mix and match across a single booking."
+          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Lincoln Navigator SUVs for six and Chevrolet Suburbans for five, with luggage; Mercedes Sprinter vans for 13; stretch limousines for celebrations. Mix and match across a single booking."
         ]
       }
     ],
@@ -6608,13 +6608,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -6715,7 +6715,7 @@ export const MARYLAND_PAGES = [
     ],
     "highlights": [
       "Experience at NIH and Walter Reed in Bethesda, Johns Hopkins and the University of Maryland Medical Center and Northrop Grumman in Linthicum",
-      "Full fleet under one reservation: sedans, SUVs, 14-passenger Sprinters, stretch limos",
+      "Full fleet under one reservation: sedans, SUVs, 13-passenger Sprinters, stretch limos",
       "Flat-rate or hourly pricing confirmed in writing — no surge",
       "Itinerary confirmed the day before, chauffeur staged early",
       "24/7 dispatch monitoring every trip",
@@ -6743,7 +6743,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Vehicles for the occasion",
         "paragraphs": [
-          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Lincoln Navigator and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Mix and match across a single booking."
+          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Lincoln Navigator SUVs for six and Chevrolet Suburbans for five, with luggage; Mercedes Sprinter vans for 13; stretch limousines for celebrations. Mix and match across a single booking."
         ]
       }
     ],
@@ -6769,13 +6769,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -6876,7 +6876,7 @@ export const MARYLAND_PAGES = [
     ],
     "highlights": [
       "Experience at Martin's West and Martin's Valley Mansion, the BWI Airport Marriott and the Baltimore Museum of Industry",
-      "Full fleet under one reservation: sedans, SUVs, 14-passenger Sprinters, stretch limos",
+      "Full fleet under one reservation: sedans, SUVs, 13-passenger Sprinters, stretch limos",
       "Flat-rate or hourly pricing confirmed in writing — no surge",
       "Itinerary confirmed the day before, chauffeur staged early",
       "24/7 dispatch monitoring every trip",
@@ -6904,7 +6904,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Vehicles for the occasion",
         "paragraphs": [
-          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Lincoln Navigator and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Mix and match across a single booking."
+          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Lincoln Navigator SUVs for six and Chevrolet Suburbans for five, with luggage; Mercedes Sprinter vans for 13; stretch limousines for celebrations. Mix and match across a single booking."
         ]
       }
     ],
@@ -6930,13 +6930,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -7037,7 +7037,7 @@ export const MARYLAND_PAGES = [
     ],
     "highlights": [
       "Experience at Merriweather Post Pavilion in Columbia, Pier Six Pavilion at the Inner Harbor and Capital One Arena in Washington",
-      "Full fleet under one reservation: sedans, SUVs, 14-passenger Sprinters, stretch limos",
+      "Full fleet under one reservation: sedans, SUVs, 13-passenger Sprinters, stretch limos",
       "Flat-rate or hourly pricing confirmed in writing — no surge",
       "Itinerary confirmed the day before, chauffeur staged early",
       "24/7 dispatch monitoring every trip",
@@ -7065,7 +7065,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Vehicles for the occasion",
         "paragraphs": [
-          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Lincoln Navigator and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Mix and match across a single booking."
+          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Lincoln Navigator SUVs for six and Chevrolet Suburbans for five, with luggage; Mercedes Sprinter vans for 13; stretch limousines for celebrations. Mix and match across a single booking."
         ]
       }
     ],
@@ -7091,13 +7091,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -7198,7 +7198,7 @@ export const MARYLAND_PAGES = [
     ],
     "highlights": [
       "Experience at Linganore Winecellars in Mount Airy, Boordy Vineyards in Hydes and Elk Run Vineyards",
-      "Full fleet under one reservation: sedans, SUVs, 14-passenger Sprinters, stretch limos",
+      "Full fleet under one reservation: sedans, SUVs, 13-passenger Sprinters, stretch limos",
       "Flat-rate or hourly pricing confirmed in writing — no surge",
       "Itinerary confirmed the day before, chauffeur staged early",
       "24/7 dispatch monitoring every trip",
@@ -7226,7 +7226,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Vehicles for the occasion",
         "paragraphs": [
-          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Lincoln Navigator and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Mix and match across a single booking."
+          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Lincoln Navigator SUVs for six and Chevrolet Suburbans for five, with luggage; Mercedes Sprinter vans for 13; stretch limousines for celebrations. Mix and match across a single booking."
         ]
       }
     ],
@@ -7252,13 +7252,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -7359,7 +7359,7 @@ export const MARYLAND_PAGES = [
     ],
     "highlights": [
       "Terminal-to-door service for all PHL terminals, A-West through F",
-      "Full fleet under one reservation: sedans, SUVs, 14-passenger Sprinters, stretch limos",
+      "Full fleet under one reservation: sedans, SUVs, 13-passenger Sprinters, stretch limos",
       "Flat-rate or hourly pricing confirmed in writing — no surge",
       "Itinerary confirmed the day before, chauffeur staged early",
       "24/7 dispatch monitoring every trip",
@@ -7387,7 +7387,7 @@ export const MARYLAND_PAGES = [
       {
         "h2": "Vehicles for the occasion",
         "paragraphs": [
-          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Lincoln Navigator and Chevrolet Suburban SUVs for six with luggage; Mercedes Sprinter vans for 14; stretch limousines for celebrations. Mix and match across a single booking."
+          "Mercedes-Benz E-Class and BMW 7 Series sedans for couples and executives; Lincoln Navigator SUVs for six and Chevrolet Suburbans for five, with luggage; Mercedes Sprinter vans for 13; stretch limousines for celebrations. Mix and match across a single booking."
         ]
       }
     ],
@@ -7413,13 +7413,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -7523,7 +7523,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you book — no surge, no garage fees",
       "Door drop-off at Merriweather Post Pavilion and a pre-arranged pickup point away from the crowd",
       "Hourly wait service so the car is there the moment you walk out",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops folded into the same reservation",
       "Licensed, insured, background-checked chauffeurs"
     ],
@@ -7576,13 +7576,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -7595,7 +7595,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "Where does the chauffeur drop off and pick up at Merriweather Post Pavilion?",
-        "a": "We drop at the designated passenger drop-off on Little Patuxent Parkway near the Merriweather District, a short walk to the main gate, and stage nearby for a pre-arranged pickup point away from the garage exits."
+        "a": "Your chauffeur uses the passenger drop-off on Little Patuxent Parkway by the Merriweather District, a short walk from the main gate. After the show you meet the car at a pickup point agreed in advance, clear of the garage exits."
       },
       {
         "q": "How much does Merriweather transportation cost?",
@@ -7607,7 +7607,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Merriweather Post Pavilion?",
-        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. The Lincoln Navigator seats six and the Chevrolet Suburban five, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Merriweather Post Pavilion?",
@@ -7689,7 +7689,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you book — no surge, no garage fees",
       "Door drop-off at CFG Bank Arena and a pre-arranged pickup point away from the crowd",
       "Hourly wait service so the car is there the moment you walk out",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops folded into the same reservation",
       "Licensed, insured, background-checked chauffeurs"
     ],
@@ -7742,13 +7742,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -7761,7 +7761,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "Where does the chauffeur drop off and pick up at CFG Bank Arena?",
-        "a": "Drop-off is on Hopkins Place or Baltimore Street at the arena's front doors; for pickup we set a meeting point a block away on Lombard or Pratt Street, outside the police cordon, so the car is moving as soon as you are in it."
+        "a": "You are dropped at the arena's front doors on Hopkins Place or Baltimore Street. For the ride home, the car waits a block away on Lombard or Pratt Street, outside the police cordon, so you can leave the moment you are seated."
       },
       {
         "q": "How much does CFG Bank Arena transportation cost?",
@@ -7773,7 +7773,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to CFG Bank Arena?",
-        "a": "Yes — the Lincoln Navigator and Chevrolet Suburban seat six, our Mercedes Sprinter vans carry up to 14, and stretch limousines hold eight. Bigger groups ride in multiple vehicles we coordinate to arrive together."
+        "a": "Yes — the Lincoln Navigator seats six and the Chevrolet Suburban five, our Mercedes Sprinter vans carry up to 13, and stretch limousines hold eight. Bigger groups ride in multiple vehicles we coordinate to arrive together."
       },
       {
         "q": "What about parking at CFG Bank Arena?",
@@ -7855,7 +7855,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you book — no surge, no garage fees",
       "Door drop-off at M&T Bank Stadium and a pre-arranged pickup point away from the crowd",
       "Hourly wait service so the car is there the moment you walk out",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops folded into the same reservation",
       "Licensed, insured, background-checked chauffeurs"
     ],
@@ -7908,13 +7908,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -7927,7 +7927,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "Where does the chauffeur drop off and pick up at M&T Bank Stadium?",
-        "a": "We drop on Russell Street or Ostend Street at the gate nearest your section; for pickup we set a meeting point on Hamburg Street or at the Horseshoe Casino, away from the Lot H rideshare scrum, and time the return around the post-game surge."
+        "a": "Drop-off is on Russell Street or Ostend Street, at whichever gate is closest to your seats. After the game your chauffeur meets you on Hamburg Street or at the Horseshoe Casino, well away from the Lot H rideshare crowd, with the return timed around the post-game rush."
       },
       {
         "q": "How much does M&T Bank Stadium transportation cost?",
@@ -7939,7 +7939,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to M&T Bank Stadium?",
-        "a": "Yes. Six passengers fit in a Lincoln Navigator or Chevrolet Suburban, 14 in a Mercedes Sprinter van, and eight in a stretch limousine; larger parties travel in coordinated multi-vehicle convoys that arrive together."
+        "a": "Yes. Six passengers fit in a Lincoln Navigator and five in a Chevrolet Suburban, 13 in a Mercedes Sprinter van, and eight in a stretch limousine; larger parties travel in coordinated multi-vehicle convoys that arrive together."
       },
       {
         "q": "What about parking at M&T Bank Stadium?",
@@ -8021,7 +8021,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you book — no surge, no garage fees",
       "Door drop-off at Pimlico Race Course and a pre-arranged pickup point away from the crowd",
       "Hourly wait service so the car is there the moment you walk out",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops folded into the same reservation",
       "Licensed, insured, background-checked chauffeurs"
     ],
@@ -8074,13 +8074,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -8093,7 +8093,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "Where does the chauffeur drop off and pick up at Pimlico Race Course?",
-        "a": "We drop at the clubhouse entrance on Hayward Avenue or the Preakness gate on Park Heights, and pick up at a pre-set corner on Northern Parkway or Belvedere so you are not standing in the post-race exodus."
+        "a": "Drop-off is at the Hayward Avenue clubhouse entrance or the Preakness gate on Park Heights. Pickup is at a corner on Northern Parkway or Belvedere agreed beforehand, so you skip the crowd leaving after the last race."
       },
       {
         "q": "How much does Pimlico transportation cost?",
@@ -8105,7 +8105,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Pimlico Race Course?",
-        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. The Lincoln Navigator seats six and the Chevrolet Suburban five, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Pimlico Race Course?",
@@ -8187,7 +8187,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you book — no surge, no garage fees",
       "Door drop-off at the Maryland State Fair and a pre-arranged pickup point away from the crowd",
       "Hourly wait service so the car is there the moment you walk out",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops folded into the same reservation",
       "Licensed, insured, background-checked chauffeurs"
     ],
@@ -8240,13 +8240,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -8259,7 +8259,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "Where does the chauffeur drop off and pick up at the Maryland State Fair?",
-        "a": "We drop at the Timonium Road gate or the York Road main gate and set a pickup at the Timonium light-rail station side or a Padonia Road corner, away from the gridlock at the main lots."
+        "a": "Your chauffeur drops you at the Timonium Road gate or the main gate on York Road. For the trip home you meet the car by the Timonium light-rail station or at a Padonia Road corner, clear of the jammed main lots."
       },
       {
         "q": "How much does the State Fair transportation cost?",
@@ -8271,7 +8271,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the Maryland State Fair?",
-        "a": "Yes — the Lincoln Navigator and Chevrolet Suburban seat six, our Mercedes Sprinter vans carry up to 14, and stretch limousines hold eight. Bigger groups ride in multiple vehicles we coordinate to arrive together."
+        "a": "Yes — the Lincoln Navigator seats six and the Chevrolet Suburban five, our Mercedes Sprinter vans carry up to 13, and stretch limousines hold eight. Bigger groups ride in multiple vehicles we coordinate to arrive together."
       },
       {
         "q": "What about parking at the Maryland State Fair?",
@@ -8353,7 +8353,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you book — no surge, no garage fees",
       "Door drop-off at Oriole Park at Camden Yards and a pre-arranged pickup point away from the crowd",
       "Hourly wait service so the car is there the moment you walk out",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops folded into the same reservation",
       "Licensed, insured, background-checked chauffeurs"
     ],
@@ -8406,13 +8406,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -8425,7 +8425,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "Where does the chauffeur drop off and pick up at Oriole Park at Camden Yards?",
-        "a": "Drop-off is on Camden Street at the Eutaw Street gate or on Conway Street at the home plate entrance; for pickup we meet on Pratt Street or at a Federal Hill corner and time the return so the car pulls up as you walk out."
+        "a": "You are dropped on Camden Street by the Eutaw Street gate or on Conway Street at the home plate entrance. After the game the car meets you on Pratt Street or at a Federal Hill corner, timed to arrive as you walk out."
       },
       {
         "q": "How much does Camden Yards transportation cost?",
@@ -8437,7 +8437,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Oriole Park at Camden Yards?",
-        "a": "Yes. Six passengers fit in a Lincoln Navigator or Chevrolet Suburban, 14 in a Mercedes Sprinter van, and eight in a stretch limousine; larger parties travel in coordinated multi-vehicle convoys that arrive together."
+        "a": "Yes. Six passengers fit in a Lincoln Navigator and five in a Chevrolet Suburban, 13 in a Mercedes Sprinter van, and eight in a stretch limousine; larger parties travel in coordinated multi-vehicle convoys that arrive together."
       },
       {
         "q": "What about parking at Oriole Park at Camden Yards?",
@@ -8519,7 +8519,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you book — no surge, no garage fees",
       "Door drop-off at the University of Maryland and a pre-arranged pickup point away from the crowd",
       "Hourly wait service so the car is there the moment you walk out",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops folded into the same reservation",
       "Licensed, insured, background-checked chauffeurs"
     ],
@@ -8572,13 +8572,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -8591,7 +8591,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "Where does the chauffeur drop off and pick up at the University of Maryland?",
-        "a": "We drop at the Stamp Student Union circle, SECU Stadium's Gate B on Stadium Drive, the Xfinity Center loop or the dorm curb for move-in, and pick up at a pre-set corner on Campus Drive or at The Hotel at the University of Maryland."
+        "a": "Drop-off points include the Stamp Student Union circle, Gate B at SECU Stadium on Stadium Drive, the Xfinity Center loop and the dorm curb on move-in day. Pickups happen at a Campus Drive corner agreed in advance or at The Hotel at the University of Maryland."
       },
       {
         "q": "How much does UMD transportation cost?",
@@ -8603,7 +8603,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the University of Maryland?",
-        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. The Lincoln Navigator seats six and the Chevrolet Suburban five, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the University of Maryland?",
@@ -8689,7 +8689,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you book — no surge, no garage fees",
       "Door drop-off at Navy-Marine Corps Memorial Stadium and a pre-arranged pickup point away from the crowd",
       "Hourly wait service so the car is there the moment you walk out",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops folded into the same reservation",
       "Licensed, insured, background-checked chauffeurs"
     ],
@@ -8742,13 +8742,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -8761,7 +8761,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "Where does the chauffeur drop off and pick up at Navy-Marine Corps Memorial Stadium?",
-        "a": "We drop at the Taylor Avenue or Farragut Road gates and pick up at a pre-set corner on Cedar Park Road or in West Annapolis, or at your downtown hotel if you would rather walk to City Dock after the game and let the lots empty."
+        "a": "Drop-off is at the Taylor Avenue or Farragut Road gates. Afterward the car meets you at an agreed corner on Cedar Park Road or in West Annapolis — or at your downtown hotel, if you prefer to stroll to City Dock while the lots clear."
       },
       {
         "q": "How much does Navy-Marine Corps Stadium transportation cost?",
@@ -8773,7 +8773,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Navy-Marine Corps Memorial Stadium?",
-        "a": "Yes — the Lincoln Navigator and Chevrolet Suburban seat six, our Mercedes Sprinter vans carry up to 14, and stretch limousines hold eight. Bigger groups ride in multiple vehicles we coordinate to arrive together."
+        "a": "Yes — the Lincoln Navigator seats six and the Chevrolet Suburban five, our Mercedes Sprinter vans carry up to 13, and stretch limousines hold eight. Bigger groups ride in multiple vehicles we coordinate to arrive together."
       },
       {
         "q": "What about parking at Navy-Marine Corps Memorial Stadium?",
@@ -8855,7 +8855,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you book — no surge, no garage fees",
       "Door drop-off at National Harbor and a pre-arranged pickup point away from the crowd",
       "Hourly wait service so the car is there the moment you walk out",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops folded into the same reservation",
       "Licensed, insured, background-checked chauffeurs"
     ],
@@ -8908,13 +8908,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -8927,7 +8927,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "Where does the chauffeur drop off and pick up at National Harbor?",
-        "a": "We drop at the Gaylord National porte-cochère, the MGM valet circle or the Waterfront Street curb by the Capital Wheel, and we pick up wherever you finish — a restaurant, the casino or the Tanger Outlets — with the car staged out of the garage queue."
+        "a": "Drop-off is at the Gaylord National porte-cochère, the MGM valet circle or the Waterfront Street curb near the Capital Wheel. Pickup is wherever your evening ends — a restaurant, the casino or the Tanger Outlets — with the car waiting outside the garage line."
       },
       {
         "q": "How much does National Harbor transportation cost?",
@@ -8939,7 +8939,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to National Harbor?",
-        "a": "Yes. Six passengers fit in a Lincoln Navigator or Chevrolet Suburban, 14 in a Mercedes Sprinter van, and eight in a stretch limousine; larger parties travel in coordinated multi-vehicle convoys that arrive together."
+        "a": "Yes. Six passengers fit in a Lincoln Navigator and five in a Chevrolet Suburban, 13 in a Mercedes Sprinter van, and eight in a stretch limousine; larger parties travel in coordinated multi-vehicle convoys that arrive together."
       },
       {
         "q": "What about parking at National Harbor?",
@@ -9025,7 +9025,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you book — no surge, no garage fees",
       "Door drop-off at Chesapeake Bay Events and a pre-arranged pickup point away from the crowd",
       "Hourly wait service so the car is there the moment you walk out",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops folded into the same reservation",
       "Licensed, insured, background-checked chauffeurs"
     ],
@@ -9078,13 +9078,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -9097,7 +9097,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "Where does the chauffeur drop off and pick up at Chesapeake Bay Events?",
-        "a": "We drop at the venue's front entrance or the marina gate, hold the vehicle for wedding parties and boat-show visitors, and time Eastern Shore returns around the Bay Bridge traffic so nobody watches the sunset from a standstill."
+        "a": "Your chauffeur drops you at the venue entrance or the marina gate and can stay with the vehicle for wedding parties and boat-show guests. Return trips to the Eastern Shore are timed around Bay Bridge traffic."
       },
       {
         "q": "How much does Chesapeake Bay events transportation cost?",
@@ -9109,7 +9109,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to Chesapeake Bay Events?",
-        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. The Lincoln Navigator seats six and the Chevrolet Suburban five, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at Chesapeake Bay Events?",
@@ -9191,7 +9191,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you book — no surge, no garage fees",
       "Door drop-off at the Annapolis Boat Shows and a pre-arranged pickup point away from the crowd",
       "Hourly wait service so the car is there the moment you walk out",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops folded into the same reservation",
       "Licensed, insured, background-checked chauffeurs"
     ],
@@ -9244,13 +9244,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -9263,7 +9263,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "Where does the chauffeur drop off and pick up at the Annapolis Boat Shows?",
-        "a": "We drop at the Compromise Street or Main Street curb a block from the show gates, or at the stadium shuttle lot if you prefer, and pick up at a downtown hotel or an Eastport restaurant so the car never enters the closed streets."
+        "a": "Drop-off is at the Compromise Street or Main Street curb, a block from the show gates, or at the stadium shuttle lot if you prefer. Pickup is at a downtown hotel or an Eastport restaurant, so the car stays out of the closed streets."
       },
       {
         "q": "How much does the Annapolis Boat Show transportation cost?",
@@ -9275,7 +9275,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the Annapolis Boat Shows?",
-        "a": "Yes — the Lincoln Navigator and Chevrolet Suburban seat six, our Mercedes Sprinter vans carry up to 14, and stretch limousines hold eight. Bigger groups ride in multiple vehicles we coordinate to arrive together."
+        "a": "Yes — the Lincoln Navigator seats six and the Chevrolet Suburban five, our Mercedes Sprinter vans carry up to 13, and stretch limousines hold eight. Bigger groups ride in multiple vehicles we coordinate to arrive together."
       },
       {
         "q": "What about parking at the Annapolis Boat Shows?",
@@ -9357,7 +9357,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you book — no surge, no garage fees",
       "Door drop-off at the Maryland Renaissance Festival and a pre-arranged pickup point away from the crowd",
       "Hourly wait service so the car is there the moment you walk out",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops folded into the same reservation",
       "Licensed, insured, background-checked chauffeurs"
     ],
@@ -9410,13 +9410,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -9429,7 +9429,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "Where does the chauffeur drop off and pick up at the Maryland Renaissance Festival?",
-        "a": "We drop at the front gate on Crownsville Road ahead of the parking line and pick up at the same gate or a pre-set spot on Generals Highway; costumes, turkey legs and pottery all ride home in the back of an SUV or Sprinter."
+        "a": "Your chauffeur drops you at the Crownsville Road front gate, ahead of the parking line. Pickup is at the same gate or an agreed spot on Generals Highway, with room in an SUV or Sprinter for costumes and festival purchases."
       },
       {
         "q": "How much does the Renaissance Festival transportation cost?",
@@ -9441,7 +9441,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the Maryland Renaissance Festival?",
-        "a": "Yes. Six passengers fit in a Lincoln Navigator or Chevrolet Suburban, 14 in a Mercedes Sprinter van, and eight in a stretch limousine; larger parties travel in coordinated multi-vehicle convoys that arrive together."
+        "a": "Yes. Six passengers fit in a Lincoln Navigator and five in a Chevrolet Suburban, 13 in a Mercedes Sprinter van, and eight in a stretch limousine; larger parties travel in coordinated multi-vehicle convoys that arrive together."
       },
       {
         "q": "What about parking at the Maryland Renaissance Festival?",
@@ -9523,7 +9523,7 @@ export const MARYLAND_PAGES = [
       "Flat-rate pricing confirmed before you book — no surge, no garage fees",
       "Door drop-off at the Preakness Stakes and a pre-arranged pickup point away from the crowd",
       "Hourly wait service so the car is there the moment you walk out",
-      "Sedans, SUVs, 14-passenger Sprinter vans and stretch limousines",
+      "Sedans, SUVs, 13-passenger Sprinter vans and stretch limousines",
       "Dinner and hotel stops folded into the same reservation",
       "Licensed, insured, background-checked chauffeurs"
     ],
@@ -9576,13 +9576,13 @@ export const MARYLAND_PAGES = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -9595,7 +9595,7 @@ export const MARYLAND_PAGES = [
     "faqs": [
       {
         "q": "Where does the chauffeur drop off and pick up at the Preakness Stakes?",
-        "a": "We drop at the clubhouse or general-admission gate and stage the vehicle at a pre-set corner outside the closure perimeter — on Race Track Road or MD-198 at Laurel, or on Northern Parkway at Pimlico — so the ride home starts within minutes of the last race."
+        "a": "Drop-off is at the clubhouse or general-admission gate. The car then waits at an agreed corner outside the road closures — Race Track Road or MD-198 at Laurel, Northern Parkway at Pimlico — so you are on your way soon after the last race."
       },
       {
         "q": "How much does the Preakness transportation cost?",
@@ -9607,7 +9607,7 @@ export const MARYLAND_PAGES = [
       },
       {
         "q": "Can you carry a group to the Preakness Stakes?",
-        "a": "Yes. Lincoln Navigator and Chevrolet Suburban SUVs seat six, Mercedes Sprinter vans carry up to 14 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
+        "a": "Yes. The Lincoln Navigator seats six and the Chevrolet Suburban five, Mercedes Sprinter vans carry up to 13 and stretch limousines seat eight; larger parties ride in multiple coordinated vehicles that arrive together."
       },
       {
         "q": "What about parking at the Preakness Stakes?",

@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { setPageSeo } from '@/lib/seo';
+import { imageAlt } from '@/lib/imageAlt';
 import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -25,7 +26,7 @@ const FleetPage = () => {
       passengers: '3',
       luggage: '2',
       description:
-        'Perfect for solo executives and business travelers. Ideal for airport transfers and corporate travel. Mercedes E-Class or similar.',
+        'Built for one executive or a pair of business travelers — the everyday choice for Reagan National transfers and meetings around the District. Mercedes E-Class or similar.',
     },
     {
       category: 'First Class Sedan',
@@ -34,7 +35,7 @@ const FleetPage = () => {
       passengers: '3',
       luggage: '2',
       description:
-        'The pinnacle of sedan luxury for discerning travelers who accept nothing less. BMW 7 Series, Mercedes S-Class or similar.',
+        'Our top sedan tier, chosen for VIP guests, senior executives and evenings out in Georgetown or on Capitol Hill. BMW 7 Series, Mercedes S-Class or similar.',
     },
     {
       category: 'Midsize SUV',
@@ -43,25 +44,25 @@ const FleetPage = () => {
       passengers: '3',
       luggage: '4',
       description:
-        'The perfect balance of comfort and practicality for families and travelers with extra luggage. Lincoln Nautilus or similar.',
+        'More cargo room than a sedan for small families and travelers carrying extra bags. Lincoln Nautilus or similar.',
     },
     {
       category: 'Luxury SUV',
       name: 'Chevrolet Suburban 2023+ or similar',
-      image: '/images/chevy-suburban.webp',
+      image: '/images/suburban.webp',
       passengers: '5',
       luggage: '5',
       description:
-        'Maximum space without compromising luxury. Ideal for larger groups and extended journeys. Chevrolet Suburban or similar.',
+        'Room for five passengers and their bags, suited to larger families and longer runs out to Dulles, BWI or the Maryland suburbs. Chevrolet Suburban or similar.',
     },
     {
       category: 'Premium SUV',
       name: '2026 Lincoln Navigator or similar',
-      image: '/images/cadillac-escalade.webp',
+      image: '/images/lincoln-navigator.webp',
       passengers: '6',
       luggage: '5',
       description:
-        "America's premier luxury SUV with commanding presence. Lincoln Navigator or similar.",
+        'Our flagship SUV, seating six with luggage, for executives and families who want the most space on arrival. Lincoln Navigator or similar.',
     },
     {
       category: 'Sprinter Shuttle',
@@ -70,7 +71,7 @@ const FleetPage = () => {
       passengers: '13',
       luggage: '13',
       description:
-        'Comfortable group transportation for airport runs, corporate events, and group outings. Mercedes Sprinter or similar.',
+        'Keeps up to 13 travelers together for airport runs, corporate events and group outings across DC, Arlington and Alexandria. Mercedes Sprinter or similar.',
     },
     {
       category: 'Sprinter Executive',
@@ -79,7 +80,7 @@ const FleetPage = () => {
       passengers: '13',
       luggage: '13',
       description:
-        'Premium executive van with upgraded interior, mood lighting, and luxury amenities. Perfect for corporate groups, weddings, proms, and special occasions that deserve a grand entrance. Mercedes Sprinter or similar.',
+        'An upgraded van cabin with mood lighting and luxury amenities for corporate groups, wedding parties, proms and other occasions where the arrival matters. Mercedes Sprinter or similar.',
     },
   ];
 
@@ -98,7 +99,7 @@ const FleetPage = () => {
           <span className="inline-block bg-amber-500 text-black px-3 py-1.5 sm:px-4 sm:py-2 text-xs sm:text-sm font-bold tracking-wider uppercase mb-4 sm:mb-6">
             Our Premium Fleet
           </span>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-white px-4">Luxury Limo Fleet - Mercedes, Cadillac &amp; More</h1>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-white px-4">Luxury Limo Fleet - Mercedes, Lincoln &amp; More</h1>
           <p className="text-base sm:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed px-4">
             From economy to first class, we offer a diverse fleet of meticulously maintained vehicles. <Link to="/booking" className="text-amber-400 hover:underline">Book your ride</Link> or view our <Link to="/services" className="text-amber-400 hover:underline">services</Link>.
           </p>
@@ -119,7 +120,7 @@ const FleetPage = () => {
                 <div className="relative h-64 overflow-hidden bg-gray-900">
                   <img
                     src={vehicle.image}
-                    alt={`${vehicle.name} — ${vehicle.category} for DCA airport car service and Washington DC black car service, seats ${vehicle.passengers}`}
+                    alt={imageAlt(vehicle.image, vehicle.name)}
                     loading="lazy"
                     decoding="async"
                     width="800"
@@ -219,7 +220,7 @@ const FleetPage = () => {
             <h3 className="text-xl sm:text-2xl font-bold text-gray-900">Our Fleet Brands</h3>
           </div>
           <div className="flex flex-wrap justify-center items-center gap-6 sm:gap-10">
-            {['Mercedes-Benz', 'BMW', 'Cadillac', 'Lincoln', 'Chevrolet'].map((brand) => (
+            {['Mercedes-Benz', 'BMW', 'Lincoln', 'Chevrolet'].map((brand) => (
               <span
                 key={brand}
                 className="text-lg sm:text-2xl font-bold tracking-wide text-gray-400 hover:text-gray-700 transition-colors"

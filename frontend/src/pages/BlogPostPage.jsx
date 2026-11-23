@@ -9,6 +9,7 @@ import { findRoutePage, ROUTE_PAGES } from '@/data/routePages';
 import { GUIDES } from '@/data/guides';
 import { ensureFiveFaqs } from '@/lib/faqExtras';
 import NotFoundPage from '@/pages/NotFoundPage';
+import { imageAlt } from '@/lib/imageAlt';
 
 // Blog posts live at /blog/<slug>; guides (data/guides.js) share this template at /<slug>.
 const postPath = (p) => (GUIDES.includes(p) ? `/${p.slug}` : `/blog/${p.slug}`);
@@ -120,7 +121,7 @@ const BlogPostPage = ({ guideSlug }) => {
     <div className="min-h-screen bg-white" data-testid={`blog-post-${blogPost.slug}`}>
       {/* Hero Image */}
       <div className="relative h-64 sm:h-96 lg:h-[500px]">
-        <img src={blogPost.image} alt={blogPost.title} className="w-full h-full object-cover" />
+        <img src={blogPost.image} alt={imageAlt(blogPost.image, blogPost.title)} className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
         <div className="absolute bottom-8 left-0 right-0">
           <div className="container mx-auto px-4">
@@ -265,7 +266,7 @@ const BlogPostPage = ({ guideSlug }) => {
                   <Card key={post.slug} className="group hover:shadow-xl transition-all border-2 hover:border-amber-500 overflow-hidden">
                     <Link to={postPath(post)}>
                       <div className="relative h-48 overflow-hidden">
-                        <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                        <img src={post.image} alt={imageAlt(post.image, post.title)} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                       </div>
                       <CardContent className="p-6">

@@ -53,7 +53,7 @@ export const LANDING_PAGES = [
       { q: 'Where exactly does my chauffeur meet me at Reagan National?', a: 'Curbside at arrivals for your specific terminal (Terminal 1 or Terminal 2) by default, confirmed against your boarding pass before you land. Meet-and-greet service inside the terminal at baggage claim, with a name sign and luggage help, is available on request.' },
       { q: 'What happens if my flight is delayed or lands early?', a: 'Every DCA pickup is flight-tracked, so your chauffeur is dispatched against your actual arrival time, not the original schedule. You get 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international arrivals.' },
       { q: 'Is a chauffeur really faster than DCA\'s Metro station?', a: 'For a single rider with one bag, Metro can work. For executives, families with car seats and luggage, or anyone connecting straight into a meeting, a reserved chauffeur skips the platform wait, the transfer at Metro Center or Gallery Place, and the walk from a downtown station with bags.' },
-      { q: 'Do you serve destinations beyond downtown DC from DCA?', a: 'Yes — Maryland and Northern Virginia are both standard coverage, including newer service areas like Ashburn, Fredericksburg and Southern Maryland\'s St. Mary\'s and Calvert counties.' },
+      { q: 'Do you serve destinations beyond downtown DC from DCA?', a: 'Yes — Maryland and Northern Virginia are both standard coverage, including newer service areas like Ashburn, Fredericksburg and Southern Maryland\'s St. Mary\'s and Calvert counties. Those longer trips are quoted at a flat rate before you book, just like a ride downtown.' },
       { q: 'What is the cancellation policy for a DCA airport pickup?', a: 'Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings cancel free of charge up to 12 hours before pickup.' },
       { q: 'Is a DCA limo really cheaper than it sounds compared to Uber or Lyft?', a: 'Compared head-to-head on a normal trip, rideshare is often cheaper — but a DCA limo removes the surge pricing that hits exactly when you need a ride most: bad weather, a sold-out event, or a Friday evening rush. The flat rate we quote is the rate you pay regardless of demand.' },
       { q: 'Can I book a DCA limo for just a few hours instead of a single transfer?', a: 'Yes. Hourly as-directed service keeps a chauffeur and vehicle with you for meetings, errands or a multi-stop day, billed by the hour rather than per trip.' },
@@ -110,14 +110,14 @@ export const LANDING_PAGES = [
     ],
     relatedCities: ['Hanover', 'Linthicum', 'Glen Burnie', 'Severn', 'Annapolis', 'Columbia'],
     faqs: [
-      { q: 'How much does BWI airport car service cost?', a: 'We quote one flat, all-inclusive rate based on your pickup address, drop-off and vehicle, confirmed before you book — no surge pricing, even on early-morning Southwest departures or red-eye arrivals.' },
-      { q: 'Why is DCA Limos especially fast for BWI pickups?', a: 'We are headquartered in Hanover, MD, minutes from the terminal, which means shorter response times for same-day requests than most companies based closer to DC.' },
+      { q: 'How much does BWI airport car service cost?', a: 'We quote one flat, all-inclusive rate based on your pickup address, drop-off and vehicle, confirmed before you book. There is no surge pricing, even on early-morning Southwest departures or red-eye arrivals.' },
+      { q: 'Why is DCA Limos especially fast for BWI pickups?', a: 'We are headquartered in Hanover, MD, minutes from the terminal. That means shorter response times for same-day requests than most companies based closer to DC.' },
       { q: 'Do you serve Fort Meade and NSA-connected travel from BWI?', a: 'Yes. BWI sits a short drive from Fort Meade, and we regularly coordinate the visitor and vehicle information that contractor and civilian-employee trips to the installation sometimes require.' },
       { q: 'What happens if my flight is delayed or lands early at BWI?', a: 'Every BWI pickup is flight-tracked, so your chauffeur is dispatched against your actual landing time. You get 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international arrivals.' },
       { q: 'Can you combine a BWI pickup with a stop at Arundel Mills or Live! Casino?', a: 'Yes. Many of our BWI clients book a single trip that combines the airport run with a stop at a nearby destination like Arundel Mills or Live! Casino & Hotel Maryland rather than booking two separate trips.' },
       { q: 'What is the cancellation policy for a BWI airport pickup?', a: 'Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings cancel free of charge up to 12 hours before pickup.' },
       { q: 'Do you serve Severn, Hanover and other towns right around BWI, not just the terminal?', a: 'Yes. Being headquartered in Hanover means the towns immediately around BWI — Severn, Linthicum, Glen Burnie and Odenton among them — get some of our fastest response times in the region.' },
-      { q: 'Can a BWI pickup be booked the same day?', a: 'Often, yes, especially near our Hanover base — call (877) 609-1919 to check current availability for a same-day request.' },
+      { q: 'Can a BWI pickup be booked the same day?', a: 'Often, yes, especially near our Hanover base. Call (877) 609-1919 to check current availability for a same-day request.' },
     ],
     relatedLinks: [
       { label: 'Severn, MD Limo Service', to: '/severn-md-limo-service' },
@@ -171,14 +171,14 @@ export const LANDING_PAGES = [
     ],
     relatedCities: ['Bethesda', 'Rockville', 'Silver Spring', 'Gaithersburg', 'Frederick', 'Ashburn', 'Manassas'],
     faqs: [
-      { q: 'How much does Dulles (IAD) airport car service cost?', a: 'We quote one flat, all-inclusive rate based on your pickup address, drop-off and vehicle, confirmed before you book — no surge pricing for early-morning international departures or late-night arrivals.' },
+      { q: 'How much does Dulles (IAD) airport car service cost?', a: 'We quote one flat, all-inclusive rate based on your pickup address, drop-off and vehicle, confirmed before you book. There is no surge pricing for early-morning international departures or late-night arrivals.' },
       { q: 'Where does my chauffeur meet international arrivals at Dulles?', a: 'Inside the terminal with a name sign by default, since first-time visitors and jet-lagged families generally prefer not to search a crowded curb. You get 60 minutes of complimentary wait time on international arrivals for customs and immigration.' },
       { q: 'Do you serve the Dulles data-center and tech corridor?', a: 'Yes. We run daily corporate transfers for Loudoun and Fairfax county technology and data-center companies, including standing weekly accounts for some clients and one-off VIP pickups for others.' },
-      { q: 'How long does the drive from Dulles to DC or Maryland actually take?', a: 'Longer than a comparable DCA trip, since Dulles sits well outside the Beltway — we build a realistic buffer into every pickup time rather than quoting an optimistic best case.' },
+      { q: 'How long does the drive from Dulles to DC or Maryland actually take?', a: 'Longer than a comparable DCA trip, since Dulles sits well outside the Beltway. We build a realistic buffer into every pickup time rather than quoting an optimistic best case.' },
       { q: 'Can I stop at the Udvar-Hazy Center during a long layover?', a: 'Yes. We regularly run that round trip as a single booking between connecting flights — see our dedicated Udvar-Hazy Center transportation page for details.' },
       { q: 'What is the cancellation policy for a Dulles airport pickup?', a: 'Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings cancel free of charge up to 12 hours before pickup.' },
       { q: 'Do you serve Loudoun County towns right around Dulles, not just the terminal?', a: 'Yes. Ashburn, Sterling, Leesburg, Herndon and the rest of the Dulles Toll Road corridor are standard coverage, including the Data Center Alley corporate corridor.' },
-      { q: 'Is Dulles or Reagan National better for an international flight?', a: 'Dulles is almost always the better choice for long-haul international service, and our 60-minute complimentary wait time on international arrivals is built specifically around that kind of trip.' },
+      { q: 'Is Dulles or Reagan National better for an international flight?', a: 'Dulles is almost always the better choice for long-haul international service. Our 60-minute complimentary wait time on international arrivals is built specifically around that kind of trip.' },
     ],
     relatedLinks: [
       { label: 'Ashburn, VA Limo Service', to: '/ashburn-va-limo-service' },
@@ -219,7 +219,7 @@ export const LANDING_PAGES = [
       {
         h2: 'Matching the vehicle to the wedding party',
         paragraphs: [
-          'A single Mercedes S-Class or BMW 7 Series usually covers the bride and groom for the getaway car and any private moment before or after the ceremony, while a 14-passenger Sprinter van keeps a larger bridal party — bridesmaids, groomsmen, and often parents — together for the ride between hair and makeup, the ceremony, and photos, instead of splitting the group across several personal cars that inevitably arrive at different times. A stretch limousine remains the classic choice for couples who want the traditional look for arrival and departure photos at the reception.',
+          'A single Mercedes S-Class or BMW 7 Series usually covers the bride and groom for the getaway car and any private moment before or after the ceremony, while a 13-passenger Sprinter van keeps a larger bridal party — bridesmaids, groomsmen, and often parents — together for the ride between hair and makeup, the ceremony, and photos, instead of splitting the group across several personal cars that inevitably arrive at different times. A stretch limousine remains the classic choice for couples who want the traditional look for arrival and departure photos at the reception.',
           'We also coordinate guest shuttles for weddings with a hotel block, running a Sprinter van on a simple loop between the hotel and the venue so out-of-town guests are not renting cars or calling rideshares in an unfamiliar area, and so no one in the wedding party has to think twice about having a drink at the reception. Tell us your guest count and hotel block when you book and we will quote the shuttle alongside the bridal-party vehicles as one coordinated package.',
           'Outdoor and barn-style venues across Northern Virginia wine country and Maryland\'s countryside have become especially popular in recent years, and many of them sit down long gravel drives or unpaved lots that a stretch limousine simply cannot navigate — we confirm the venue\'s actual access road with the couple ahead of time and assign a Sprinter van or SUV when a traditional limousine would get stuck or scrape its undercarriage. Rainy-day contingency planning is part of the same conversation: we keep a covered loading point in mind at every venue we service regularly, so a sudden downpour does not ruin a bride\'s dress between the car and the door. Multicultural ceremonies with two separate events on the same day — a Sikh or Hindu ceremony followed by a Western-style reception, for example — are increasingly common across our Maryland and Virginia wedding bookings, and we quote those as a single extended reservation covering both venues rather than treating them as two unrelated trips.',
         ],
@@ -235,7 +235,7 @@ export const LANDING_PAGES = [
     relatedCities: ['Annapolis', 'Baltimore', 'Bethesda', 'Frederick', 'Columbia', 'Ellicott City', 'Great Falls'],
     faqs: [
       { q: 'How far in advance should we book wedding limo service?', a: 'As soon as your date and venue are set — stretch limousines and Sprinter vans for peak spring and fall Saturdays are the first vehicles to sell out, sometimes months ahead.' },
-      { q: 'What vehicle is right for our wedding party size?', a: 'A Mercedes S-Class or BMW 7 Series usually covers the couple for the getaway car, a 14-passenger Sprinter van keeps a larger bridal party together, and a stretch limousine remains the classic choice for traditional arrival and departure photos. We can mix vehicles in one coordinated booking.' },
+      { q: 'What vehicle is right for our wedding party size?', a: 'A Mercedes S-Class or BMW 7 Series usually covers the couple for the getaway car, a 13-passenger Sprinter van keeps a larger bridal party together, and a stretch limousine remains the classic choice for traditional arrival and departure photos. We can mix vehicles in one coordinated booking.' },
       { q: 'Can you handle an outdoor or barn-style venue with a gravel driveway?', a: 'Yes. We confirm the venue\'s actual access road with you ahead of time and assign an SUV or Sprinter van instead of a stretch limousine when a traditional limo would risk getting stuck.' },
       { q: 'Do you provide guest shuttles from a hotel block?', a: 'Yes. A Sprinter van on a simple loop between the hotel and venue is the most common and cost-effective option, and we quote it alongside your bridal-party vehicles as one package.' },
       { q: 'Can you coordinate a wedding with two ceremonies or venues in one day?', a: 'Yes. Multicultural weddings with two separate ceremonies, or a ceremony and reception at different venues, are quoted as a single extended reservation rather than two unrelated trips.' },
@@ -264,7 +264,7 @@ export const LANDING_PAGES = [
     seoText: 'Prom and graduation season brings a predictable wave of inexperienced operators advertising "party buses" with no visible licensing, and parents across Maryland, DC and Northern Virginia increasingly ask us to confirm our credentials before booking — which we welcome. DCA Limos runs commercially insured vehicles with background-checked chauffeurs on every prom and graduation booking, the same standard we hold for airport and corporate clients. We quote a flat rate for the agreed itinerary and time window, so there is no meter running and no pressure to cut the night short, and dispatch stays reachable for the whole evening in case the group\'s plans shift.',
     highlights: [
       'Background-checked, fully licensed chauffeurs (no surprises)',
-      'Sprinter vans for groups of 10–14',
+      'Sprinter vans for groups of 10–13',
       'Parents-pay-direct option — no awkward teen handoffs',
       'Photo stops included in the itinerary',
       'Service to Naval Academy, UMD, Johns Hopkins, Towson, USNA',
@@ -298,12 +298,12 @@ export const LANDING_PAGES = [
     relatedCities: ['Annapolis', 'Baltimore', 'Bethesda', 'Towson', 'College Park', 'Columbia', 'Frederick'],
     faqs: [
       { q: 'Are your prom drivers actually licensed and insured?', a: 'Yes, and we provide documentation on request. Every prom and graduation chauffeur is background-checked and every vehicle is commercially insured — the same standard we hold for airport and corporate clients.' },
-      { q: 'How many friends can ride together in one vehicle?', a: 'A 14-passenger Sprinter van is the standard choice for a prom friend group, keeping everyone together rather than splitting across several personal cars.' },
+      { q: 'How many friends can ride together in one vehicle?', a: 'A 13-passenger Sprinter van is the standard choice for a prom friend group, keeping everyone together rather than splitting across several personal cars.' },
       { q: 'Can parents pay directly instead of going through their teen?', a: 'Yes. Parents can pay directly and receive the chauffeur\'s contact information, with dispatch reachable 24/7 for the whole evening.' },
       { q: 'Can the itinerary include photo stops and a late post-prom pickup?', a: 'Yes. We book the full night — photo stop, the dance, and a post-prom gathering that can run past midnight — as one itinerary with exact addresses confirmed in advance.' },
       { q: 'Do you serve graduation weekend at University of Maryland, Johns Hopkins or Towson?', a: 'Yes. A Sprinter van is a common choice for moving a family group between commencement, campus move-out and a celebratory dinner in one booking.' },
       { q: 'How far ahead should we book for prom season?', a: 'As early as possible. Prom dates cluster by school district, and Sprinter vans and limousines in high demand on those specific weekends sell out ahead of time.' },
-      { q: 'What is a stretch limo vs. a Sprinter van vs. an SUV for prom — which is right for us?', a: 'A Sprinter van is the most common choice for a 10-to-14-person friend group; a stretch limo suits a smaller, more traditional group; an SUV works for a couple or a very small party. See our prom vehicle comparison guide for a full breakdown.' },
+      { q: 'What is a stretch limo vs. a Sprinter van vs. an SUV for prom — which is right for us?', a: 'A Sprinter van is the most common choice for a 10-to-13-person friend group; a stretch limo suits a smaller, more traditional group; an SUV works for a couple or a very small party. See our prom vehicle comparison guide for a full breakdown.' },
       { q: 'How much does prom limo service typically cost per person in Maryland?', a: 'It depends on vehicle, hours and group size — our prom per-person pricing guide breaks down typical Maryland rates so you can budget before you book.' },
     ],
     relatedLinks: [
@@ -389,7 +389,7 @@ export const LANDING_PAGES = [
     intro: 'Game day should be about cheering your team — not finding parking. DCA Limos drops you steps from the entrance at Camden Yards (Orioles), M&T Bank Stadium (Ravens), Capital One Arena (Capitals/Wizards), and FedExField (Commanders). Tailgate, enjoy a drink — we\'ll get everyone home safely.',
     highlights: [
       'Drop-off & pickup at all major DC/Baltimore stadiums',
-      'Sprinter vans for groups of 10–14 (tailgate-ready)',
+      'Sprinter vans for groups of 10–13 (tailgate-ready)',
       'Designated driver service — drink without worry',
       'Pre/post-game stops at restaurants & bars',
       'Season-pass packages for diehard fans',

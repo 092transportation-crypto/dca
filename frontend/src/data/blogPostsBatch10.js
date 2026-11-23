@@ -106,8 +106,8 @@ export const BLOG_POSTS_BATCH10 = [
 
       <h2>Vehicle choices by group size</h2>
       <ul>
-        <li><strong>Immediate family (4–6 people):</strong> an executive SUV like a Lincoln Navigator or Suburban comfortably fits the family with room for formal attire.</li>
-        <li><strong>Friend group (8–14 teens):</strong> a Sprinter van is the standard choice, with room for the whole group plus a chaperone.</li>
+        <li><strong>Immediate family (4–6 people):</strong> an executive SUV like a Lincoln Navigator (up to 6) or Suburban (up to 5) comfortably fits the family with room for formal attire.</li>
+        <li><strong>Friend group (8–13 teens):</strong> a Sprinter van is the standard choice, with room for the whole group plus a chaperone.</li>
         <li><strong>A grand entrance for the honoree:</strong> some families add a stretch limousine just for the honoree's arrival at the reception, separate from the friend group's van.</li>
       </ul>
 
@@ -126,7 +126,7 @@ export const BLOG_POSTS_BATCH10 = [
     faqs: [
       {
         q: 'What vehicle is best for a bar or bat mitzvah friend group?',
-        a: 'A 14-passenger Sprinter van is the standard choice, with enough room for the honoree\'s friend group and a chaperone if the family wants one along.',
+        a: 'A 13-passenger Sprinter van is the standard choice, with enough room for the honoree\'s friend group and a chaperone if the family wants one along.',
       },
       {
         q: 'Can you plan pickup times around Shabbat observance?',
@@ -611,7 +611,7 @@ export const BLOG_POSTS_BATCH10 = [
       <p class="lead">A Topgolf outing has become one of the go-to choices for DC-area companies planning a team event or a client-entertainment afternoon — more interactive than a restaurant private room, casual enough to loosen up a group, and structured enough that it doesn't need much planning beyond reserving bays. The transportation piece, though, is worth thinking through separately, because a corporate outing usually means a bigger group than any single car holds, and it usually means drinks.</p>
 
       <h2>Why group size is the first planning question</h2>
-      <p>A department outing of fifteen or twenty people obviously doesn't fit in two sedans without splitting the group and losing the point of doing this together in the first place. A 14-passenger Sprinter van is the standard answer — one reservation gets the whole team to the venue at the same time and keeps the afternoon feeling like a group event rather than a logistics project.</p>
+      <p>A department outing of fifteen or twenty people obviously doesn't fit in two sedans without splitting the group and losing the point of doing this together in the first place. A 13-passenger Sprinter van is the standard answer — one reservation gets the whole team to the venue at the same time and keeps the afternoon feeling like a group event rather than a logistics project.</p>
 
       <h2>The liability question nobody wants to ask out loud</h2>
       <ul>
@@ -635,7 +635,7 @@ export const BLOG_POSTS_BATCH10 = [
     faqs: [
       {
         q: 'What vehicle works best for a Topgolf team outing?',
-        a: 'A 14-passenger Sprinter van is the standard choice for a department-sized group, keeping everyone together for both the arrival and the return trip.',
+        a: 'A 13-passenger Sprinter van is the standard choice for a department-sized group, keeping everyone together for both the arrival and the return trip.',
       },
       {
         q: 'Do you schedule the return pickup around our actual bay time?',

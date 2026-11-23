@@ -54,7 +54,7 @@ const Header = () => {
               <span className="absolute inset-0 rounded-full ring-2 ring-amber-400/70" aria-hidden="true"></span>
               <img 
                 src="/dca-limos-logo.png" 
-                alt="DCA Limos — Premium Airport & Chauffeur Service" 
+                alt="DCA Limos logo" 
                 className="relative h-20 sm:h-24 lg:h-28 w-20 sm:w-24 lg:w-28 object-cover rounded-full bg-white shadow-[0_0_24px_rgba(245,158,11,0.6)]"
               />
             </div>

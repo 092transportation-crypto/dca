@@ -17,7 +17,7 @@ const SIGNALS = [
   {
     icon: Clock,
     title: '24/7 Professional Service',
-    subtitle: "Day or night, we're on the road",
+    subtitle: 'Every day, every hour',
   },
   {
     icon: MapPin,
@@ -93,9 +93,9 @@ const Awards = () => {
           </h2>
           <div className="mx-auto mt-6 h-px w-24 gold-gradient" aria-hidden="true" />
           <p className="mx-auto mt-6 max-w-2xl text-gray-400">
-            Licensed, reviewed, and relied on around the clock — the chauffeur
-            service DC, Maryland &amp; Virginia travelers trust for Reagan
-            National and beyond.
+            Licensed in Maryland, rated five stars by riders and on call 24/7 —
+            the car service Reagan National travelers heading to Washington,
+            Arlington and Alexandria count on.
           </p>
         </motion.div>
 

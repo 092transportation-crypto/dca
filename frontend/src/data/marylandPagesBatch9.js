@@ -9,8 +9,8 @@ const VEHICLES = [
   { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
   { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
   { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-  { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-  { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
+  { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+  { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties, corporate teams and groups' },
   { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings, prom and special occasions' },
 ];
 
@@ -544,7 +544,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeurs who know the Tysons Corner Center, Tysons Galleria and Silver Line station pickup points',
       'Corporate accounts with monthly invoicing and dedicated dispatch',
       'Flight tracking with complimentary wait time on every airport transfer',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -627,7 +627,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeurs who know the Colesville Road and Georgia Avenue one-way grid',
       'Corporate accounts with monthly invoicing and a dedicated dispatch contact',
       'Sprinter vans for client delegations and conference groups',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -710,7 +710,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeurs who know the Wiehle-Reston East Metro station and Silver Line park-and-ride patterns',
       'Corporate accounts with monthly invoicing and standing weekly transfer schedules',
       'Sprinter vans for project teams and client delegations',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -793,7 +793,7 @@ export const MARYLAND_BATCH9 = [
       'Airport transfers to DCA and Dulles, both roughly equidistant from McLean',
       'Corporate accounts with monthly invoicing and a dedicated dispatch contact',
       'Sprinter vans for client delegations and project teams',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -876,7 +876,7 @@ export const MARYLAND_BATCH9 = [
       'Airport transfers to DCA, BWI and Dulles with real-time flight tracking',
       'Corporate accounts with monthly invoicing for biotech and life-sciences employers',
       'Group transportation for conference delegations and visiting researchers',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -959,7 +959,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeurs who know the Vienna Metro station\'s park-and-ride patterns',
       'Airport transfers to Dulles, DCA and BWI with real-time flight tracking',
       'Corporate accounts with monthly invoicing and a dedicated dispatch contact',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -1058,7 +1058,7 @@ export const MARYLAND_BATCH9 = [
       {
         h2: 'Stretch limousine or Sprinter van for a Frederick group',
         paragraphs: [
-          'The stretch limousine seats eight and suits most friend groups heading downtown for photos and dinner on Market Street. Larger groups are better served by the Sprinter van, which seats up to fourteen and gives more room for formal wear, and both are driven by chauffeurs experienced with prom season\'s predictable rush of spring Saturdays.',
+          'The stretch limousine seats eight and suits most friend groups heading downtown for photos and dinner on Market Street. Larger groups are better served by the Sprinter van, which seats up to thirteen and gives more room for formal wear, and both are driven by chauffeurs experienced with prom season\'s predictable rush of spring Saturdays.',
           'Frederick\'s downtown historic district has narrow streets and limited parking near Carroll Creek, so a chauffeur who already knows where to wait is one less thing for parents to worry about.',
         ],
       },
@@ -1074,7 +1074,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How many students fit in a Frederick prom limo?',
-        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to fourteen with room for formal wear.',
+        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to thirteen with room for formal wear.',
       },
       {
         q: 'Does the chauffeur stay during dinner and the dance?',
@@ -1141,7 +1141,7 @@ export const MARYLAND_BATCH9 = [
       {
         h2: 'Choosing a stretch limousine or Sprinter van',
         paragraphs: [
-          'The stretch limousine seats eight and is the classic choice for a tighter friend group. Groups larger than that are better served by the Sprinter van, which seats up to fourteen and keeps everyone traveling together rather than splitting into two cars that have to find each other at the next stop.',
+          'The stretch limousine seats eight and is the classic choice for a tighter friend group. Groups larger than that are better served by the Sprinter van, which seats up to thirteen and keeps everyone traveling together rather than splitting into two cars that have to find each other at the next stop.',
           'Upper Montgomery County\'s prom season runs the same late-spring weeks as the rest of the DC area, and both vehicle types book up fast during it.',
         ],
       },
@@ -1157,7 +1157,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How many students fit in a Germantown prom limo?',
-        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to fourteen with room for formal wear.',
+        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to thirteen with room for formal wear.',
       },
       {
         q: 'Does the chauffeur stay during dinner and the dance?',
@@ -1224,7 +1224,7 @@ export const MARYLAND_BATCH9 = [
       {
         h2: 'Choosing a stretch limousine or Sprinter van',
         paragraphs: [
-          'The stretch limousine seats eight and is the classic choice for a tighter friend group. Groups larger than that are better served by the Sprinter van, which seats up to fourteen and keeps everyone traveling together rather than splitting into two cars.',
+          'The stretch limousine seats eight and is the classic choice for a tighter friend group. Groups larger than that are better served by the Sprinter van, which seats up to thirteen and keeps everyone traveling together rather than splitting into two cars.',
           'Fairfax sits at the crossroads of several county high school districts, and prom weekends here are among the busiest of the season across Northern Virginia.',
         ],
       },
@@ -1240,7 +1240,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How many students fit in a Fairfax prom limo?',
-        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to fourteen with room for formal wear.',
+        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to thirteen with room for formal wear.',
       },
       {
         q: 'Does the chauffeur stay during dinner and the dance?',
@@ -1307,7 +1307,7 @@ export const MARYLAND_BATCH9 = [
       {
         h2: 'Choosing a stretch limousine or Sprinter van',
         paragraphs: [
-          'The stretch limousine seats eight and is the classic choice for a tighter friend group. Groups larger than that are better served by the Sprinter van, which seats up to fourteen and keeps everyone traveling together on Potomac\'s winding, largely two-lane roads rather than splitting into separate cars.',
+          'The stretch limousine seats eight and is the classic choice for a tighter friend group. Groups larger than that are better served by the Sprinter van, which seats up to thirteen and keeps everyone traveling together on Potomac\'s winding, largely two-lane roads rather than splitting into separate cars.',
           'Potomac\'s private estate driveways and long, unlit roads are easier for a chauffeur who already knows the community than for a rideshare driver relying on GPS alone, especially for a late pickup.',
         ],
       },
@@ -1323,7 +1323,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How many students fit in a Potomac prom limo?',
-        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to fourteen with room for formal wear.',
+        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to thirteen with room for formal wear.',
       },
       {
         q: 'Does the chauffeur stay during dinner and the dance?',
@@ -1390,7 +1390,7 @@ export const MARYLAND_BATCH9 = [
       {
         h2: 'Choosing a stretch limousine or Sprinter van',
         paragraphs: [
-          'The stretch limousine seats eight and is the classic choice for a tighter friend group from one or two villages. Groups larger than that, especially when pickups span several of Columbia\'s ten villages, are better served by the Sprinter van, which seats up to fourteen and consolidates more pickups into one efficient route.',
+          'The stretch limousine seats eight and is the classic choice for a tighter friend group from one or two villages. Groups larger than that, especially when pickups span several of Columbia\'s ten villages, are better served by the Sprinter van, which seats up to thirteen and consolidates more pickups into one efficient route.',
           'Columbia\'s Merriweather District, built up around Merriweather Post Pavilion, is a popular dinner and photo stop before the dance.',
         ],
       },
@@ -1406,7 +1406,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How many students fit in a Columbia prom limo?',
-        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to fourteen with room for formal wear.',
+        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to thirteen with room for formal wear.',
       },
       {
         q: 'Can you handle pickups across several of Columbia\'s village centers?',
@@ -1473,7 +1473,7 @@ export const MARYLAND_BATCH9 = [
       {
         h2: 'Choosing a stretch limousine or Sprinter van',
         paragraphs: [
-          'The stretch limousine seats eight and is the classic choice for a tighter friend group. Groups larger than that are better served by the Sprinter van, which seats up to fourteen and keeps everyone traveling together rather than splitting into two cars.',
+          'The stretch limousine seats eight and is the classic choice for a tighter friend group. Groups larger than that are better served by the Sprinter van, which seats up to thirteen and keeps everyone traveling together rather than splitting into two cars.',
           'Towson Town Center\'s restaurant row is a common dinner stop before the dance, and parking there fills quickly on weekend evenings — one more reason groups prefer a chauffeur who can simply pull up at the door.',
         ],
       },
@@ -1489,7 +1489,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How many students fit in a Towson prom limo?',
-        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to fourteen with room for formal wear.',
+        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to thirteen with room for formal wear.',
       },
       {
         q: 'Does the chauffeur stay during dinner and the dance?',
@@ -1546,7 +1546,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeur waiting at baggage claim with a name sign, not circling the terminal curb',
       'Our home base — Laurel pickups and drop-offs are our most familiar route',
       'Service to Konterra, Laurel Lakes Centre, Russett and Montpelier Mansion',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -1629,7 +1629,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeur waiting at baggage claim with a name sign',
       'Chauffeurs who know the distinction between Chevy Chase, MD and the DC neighborhood of the same name',
       'Luggage assistance from the curb to the vehicle at both ends of the trip',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -1712,7 +1712,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeur waiting at baggage claim with a name sign',
       'Chauffeurs who know Olney\'s Route 108 and Georgia Avenue corridor well',
       'Luggage assistance from the curb to the vehicle at both ends of the trip',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -1795,7 +1795,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeur waiting at baggage claim with a name sign',
       'Chauffeurs who know UMBC\'s campus entrances and Catonsville\'s historic Frederick Road corridor',
       'Honest advice on BWI versus DCA when it saves you a longer, costlier trip',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -1878,7 +1878,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeur waiting at baggage claim with a name sign',
       'Chauffeurs who know the Owings Mills Metro Centre and Foundry Row retail corridor',
       'Honest advice on BWI versus DCA for this longer route',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -1961,7 +1961,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeur waiting at baggage claim with a name sign',
       'Chauffeurs who know Sterling\'s data-center corridor and Loudoun County business parks',
       'Honest advice on Dulles versus DCA for this Loudoun-area route',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -2047,7 +2047,7 @@ export const MARYLAND_BATCH9 = [
       'Chauffeurs who route around Connecticut Avenue\'s weekend and summer congestion',
       'Combine a Zoo visit with nearby Cleveland Park and Woodley Park dining',
       'Airport transfers for visiting family coordinated around your Zoo itinerary',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -2130,7 +2130,7 @@ export const MARYLAND_BATCH9 = [
       'Coordination around street closures during the Herndon Monument climb and graduation week',
       'Sprinter vans for extended family groups visiting for Academy events',
       'Chauffeurs who plan around Annapolis\'s drawbridges and historic-district parking restrictions',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -2213,7 +2213,7 @@ export const MARYLAND_BATCH9 = [
       'Service to the FBI Academy and DEA Training Academy, both located on the same installation',
       'Chauffeurs based in the surrounding Dumfries, Triangle and Stafford I-95 corridor',
       'Sprinter vans for extended family groups attending graduation ceremonies',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -2296,7 +2296,7 @@ export const MARYLAND_BATCH9 = [
       'Family-friendly SUVs and Sprinter vans for school groups and aviation enthusiasts',
       'Combine a museum visit with a Dulles airport transfer on one booking',
       'Chauffeurs who know the museum\'s separate entrance from the main airport access road',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -2379,7 +2379,7 @@ export const MARYLAND_BATCH9 = [
       'Pickups at Howard University Hospital for patients, families and staff',
       'Chauffeurs who route around Georgia Avenue\'s peak campus-event congestion',
       'Airport transfers for visiting family and out-of-town alumni',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -2462,7 +2462,7 @@ export const MARYLAND_BATCH9 = [
       'Pairs easily with Capitol Hill dining and Barracks Row just to the south',
       'Family-friendly SUVs for weekend market trips with strollers and purchases',
       'Airport transfers coordinated around your Eastern Market visit',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {

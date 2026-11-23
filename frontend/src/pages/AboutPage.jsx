@@ -89,7 +89,7 @@ const AboutPage = () => {
               <div>
                 <img 
                   src="/images/executive-sedan.webp"
-                  alt="DCA Limos executive sedan used for airport transportation and corporate car service in Washington DC, Maryland and Virginia"
+                  alt="Black Mercedes-Benz S-Class sedan parked at dusk"
                   className="w-full h-64 sm:h-80 md:h-[400px] object-cover rounded-xl sm:rounded-2xl shadow-xl"
                 />
               </div>

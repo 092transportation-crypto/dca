@@ -41,14 +41,24 @@ const MarylandPage = ({ slug: slugProp, page: pageProp }) => {
       '@graph': [
         {
           '@type': 'LocalBusiness',
-          '@id': `${SITE_URL}/#business`,
+          // Same @id as the LocalBusiness in public/index.html, so crawlers merge
+          // the two into one business instead of seeing a second one.
+          '@id': `${SITE_URL}/#organization`,
           name: 'DCA Limos',
           telephone: '+1-877-609-1919',
           url: SITE_URL,
           priceRange: '$$',
+          image: `${SITE_URL}/dca-limos-logo.png`,
+          logo: `${SITE_URL}/dca-limos-logo.png`,
           address: { '@type': 'PostalAddress', streetAddress: '9836 Lyon Ave', addressLocality: 'Laurel', addressRegion: 'MD', postalCode: '20723', addressCountry: 'US' },
+          geo: { '@type': 'GeoCoordinates', latitude: 39.1115, longitude: -76.8517 },
           areaServed: data.schema.areaServed.map((a) => ({ '@type': 'Place', name: a })),
           openingHours: 'Mo-Su 00:00-23:59',
+          sameAs: [
+            'https://www.facebook.com/profile.php?id=61587066539463',
+            'https://www.instagram.com/dcalimos',
+            'https://tiktok.com/@dca.limos',
+          ],
         },
         {
           '@type': 'Service',
@@ -57,7 +67,7 @@ const MarylandPage = ({ slug: slugProp, page: pageProp }) => {
           url: canonicalHref,
           description: data.metaDescription,
           areaServed: data.schema.areaServed.map((a) => ({ '@type': 'Place', name: a })),
-          provider: { '@id': `${SITE_URL}/#business` },
+          provider: { '@id': `${SITE_URL}/#organization` },
         },
         {
           '@type': 'FAQPage',

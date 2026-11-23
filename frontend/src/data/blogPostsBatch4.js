@@ -250,7 +250,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>Ask specifically about the company's alcohol policy for prom bookings and how it's enforced — a professional chauffeur service has zero tolerance and a clear protocol if it's violated mid-trip, including ending the reservation and contacting parents. Get this in writing as part of the booking confirmation, not just a verbal assurance.</p>
 
       <h2>Matching Vehicle Size to Group Size</h2>
-      <p>A stretch limousine typically seats 8 to 10 comfortably; larger groups are better served by a Mercedes Sprinter van, which seats up to 14 with more room to actually move rather than being packed in for a multi-hour evening. Oversizing the group into an undersized vehicle is a common mistake that makes the whole night less comfortable.</p>
+      <p>A stretch limousine typically seats 8 to 10 comfortably; larger groups are better served by a Mercedes Sprinter van, which seats up to 13 with more room to actually move rather than being packed in for a multi-hour evening. Oversizing the group into an undersized vehicle is a common mistake that makes the whole night less comfortable.</p>
 
       <h2>Building the Full-Night Itinerary</h2>
       <p>Most prom bookings aren't a single pickup and drop-off — they typically include a photo stop at someone's house, a group dinner reservation, the dance itself, and often an after-party stop. An hourly, as-directed reservation keeps the same chauffeur and vehicle for the entire sequence rather than booking separate one-way rides that require re-coordinating pickup times as the evening runs long or short.</p>
@@ -278,7 +278,7 @@ export const BLOG_POSTS_BATCH4 = [
     `,
     faqs: [
       { q: 'What should parents ask before booking a prom limo?', a: 'Confirm commercial licensing and insurance, background-checked chauffeurs, a written zero-tolerance alcohol policy, and whether a parent contact can stay reachable throughout the night. A legitimate operator answers all of these directly and without hesitation.' },
-      { q: 'How many people fit in a prom limo vs. a Sprinter van?', a: 'A stretch limousine typically seats 8 to 10 comfortably. Larger groups are better served by a Mercedes Sprinter van, which seats up to 14 with noticeably more room to move during a multi-hour evening.' },
+      { q: 'How many people fit in a prom limo vs. a Sprinter van?', a: 'A stretch limousine typically seats 8 to 10 comfortably. Larger groups are better served by a Mercedes Sprinter van, which seats up to 13 with noticeably more room to move during a multi-hour evening.' },
       { q: 'How far in advance should we book prom transportation?', a: 'As soon as the prom date is confirmed. Popular Saturday nights in April and May are the highest-demand dates of the year for limousines and Sprinter vans across the DMV, and vehicles sell out weeks ahead.' },
     ],
   },
@@ -316,7 +316,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>A designated, professional chauffeur removes the single biggest risk factor of a bar-hopping night: someone driving, or someone alone trying to flag a rideshare late at night in an unfamiliar city. Booking round-the-clock coverage for the weekend, not just a single night, keeps that safety net in place for the entire trip.</p>
 
       <h2>Matching Vehicle Size to the Group</h2>
-      <p>A group of four to six fits comfortably in a Lincoln Navigator or Chevrolet Suburban; groups of seven to fourteen are better served by a Sprinter van, which also gives everyone room to actually enjoy the ride between stops rather than being packed in.</p>
+      <p>A group of four to six fits comfortably in a Lincoln Navigator (a Chevrolet Suburban takes five); groups of seven to thirteen are better served by a Sprinter van, which also gives everyone room to actually enjoy the ride between stops rather than being packed in.</p>
 
       <h2>Airport Departure Coordination</h2>
       <p>The return trip to <a href="/dca-to-washington-dc">DCA</a> at the end of the weekend often involves the same group-arrival problem in reverse, sometimes on the morning after a late night. Scheduling one or two consolidated airport drop-offs the night before, confirmed with flight numbers, removes the risk of a scrambled, hungover morning coordination effort.</p>
@@ -333,7 +333,7 @@ export const BLOG_POSTS_BATCH4 = [
     faqs: [
       { q: 'How do you handle a group arriving on different flights for a bachelorette weekend?', a: 'Rather than everyone booking individual rideshares, a Sprinter van or SUV can make consolidated airport runs picking up several people at once, which is simpler to coordinate and more cost-effective than splitting the group.' },
       { q: 'Can one vehicle stay with our group for a full bar-hopping night?', a: 'Yes. An hourly as-directed booking keeps the same chauffeur and vehicle with your group for the entire night, waiting at each stop, so no one gets left behind or split across separate rides.' },
-      { q: 'What vehicle size is right for a group of 8 to 10 people?', a: 'A Mercedes Sprinter van, which seats up to 14 with real room to move. Groups of four to six are usually better matched to a Lincoln Navigator or Chevrolet Suburban.' },
+      { q: 'What vehicle size is right for a group of 8 to 10 people?', a: 'A Mercedes Sprinter van, which seats up to 13 with real room to move. Groups of four to six are usually better matched to a Lincoln Navigator, or a Chevrolet Suburban for up to five.' },
     ],
   },
   {
@@ -358,7 +358,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>List every group that needs transportation separately: the couple, the wedding party, both sets of parents, and any guests without their own transportation between ceremony and reception if the venues differ. Each of these groups may need its own vehicle or can share, depending on timing and vehicle size.</p>
 
       <h2>The Wedding Party: Sedan, SUV or Sprinter?</h2>
-      <p>A wedding party of 2 to 3 (just the couple, or the couple plus one or two attendants) fits in a luxury sedan. A full wedding party of 4 to 6 typically needs an SUV like a Lincoln Navigator or Chevrolet Suburban. Wedding parties larger than 8, which is increasingly common, are best served by a Mercedes Sprinter van, which comfortably seats up to 14 and keeps the whole party together for photos en route.</p>
+      <p>A wedding party of 2 to 3 (just the couple, or the couple plus one or two attendants) fits in a luxury sedan. A full wedding party of 4 to 6 typically needs an SUV like a Lincoln Navigator (up to 6) or Chevrolet Suburban (up to 5). Wedding parties larger than 8, which is increasingly common, are best served by a Mercedes Sprinter van, which comfortably seats up to 13 and keeps the whole party together for photos en route.</p>
 
       <h2>Parents Usually Need Their Own Vehicle</h2>
       <p>It's easy to forget, but parents on both sides typically need transportation separate from the wedding party, especially if there's a receiving-line moment or family photos that don't include the full bridal party. A single sedan often covers both sets of parents if timing allows a quick two-stop pickup.</p>
@@ -389,7 +389,7 @@ export const BLOG_POSTS_BATCH4 = [
     `,
     faqs: [
       { q: 'How many cars does a typical DMV wedding need?', a: 'Most weddings need 2 to 5 vehicles: one for the wedding party (sedan, SUV or Sprinter van depending on size), one for parents, a getaway car, and sometimes a guest shuttle for larger weddings or venues with limited parking.' },
-      { q: 'What vehicle fits an 8-person wedding party?', a: 'A Mercedes Sprinter van, which comfortably seats up to 14 and keeps the full wedding party together for photos en route, rather than splitting across two smaller vehicles.' },
+      { q: 'What vehicle fits an 8-person wedding party?', a: 'A Mercedes Sprinter van, which comfortably seats up to 13 and keeps the full wedding party together for photos en route, rather than splitting across two smaller vehicles.' },
       { q: 'Do we need a separate vehicle for parents?', a: 'Usually yes, especially if there is a receiving line or family photos that do not include the full wedding party. A single sedan typically covers both sets of parents with a quick two-stop pickup.' },
     ],
   },
@@ -583,7 +583,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>For larger gatherings, a shuttle running on a set schedule between the office (or a central pickup point) and the venue handles the bulk of transportation efficiently. For senior leadership, clients, or smaller gatherings, individual sedan or SUV service offers a more tailored experience worth the extra cost.</p>
 
       <h2>Sizing the Shuttle to Your Headcount</h2>
-      <p>A single Mercedes Sprinter van covers up to 14 passengers per run; larger companies typically book two or three vans running loops on a set schedule (every 30 to 45 minutes) rather than trying to move the whole company in one wave, which creates bottlenecks at both pickup and drop-off.</p>
+      <p>A single Mercedes Sprinter van covers up to 13 passengers per run; larger companies typically book two or three vans running loops on a set schedule (every 30 to 45 minutes) rather than trying to move the whole company in one wave, which creates bottlenecks at both pickup and drop-off.</p>
 
       <h2>Timing the Return Trips</h2>
       <p>Parties rarely end precisely on schedule. Booking return shuttle service across a window — say, three departure times spaced 45 minutes apart starting at the party's official end time — accommodates the reality that some employees leave early and others stay until the last song, without anyone standing outside waiting.</p>
@@ -613,7 +613,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>Holiday party transportation is a small planning line item that meaningfully protects your team. <a href="/booking">Get a corporate holiday shuttle quote</a> or call (877) 609-1919 to plan the full evening.</p>
     `,
     faqs: [
-      { q: 'How many Sprinter vans do we need for a 100-person holiday party?', a: 'One Sprinter van covers up to 14 passengers per run. For 100 employees, most companies book two to three vans running loops on a set schedule every 30-45 minutes rather than one wave.' },
+      { q: 'How many Sprinter vans do we need for a 100-person holiday party?', a: 'One Sprinter van covers up to 13 passengers per run. For 100 employees, most companies book two to three vans running loops on a set schedule every 30-45 minutes rather than one wave.' },
       { q: 'Should return trips be one departure time or a window?', a: 'A window works better — typically three staggered departure times about 45 minutes apart starting at the party’s official end — since parties rarely end precisely on schedule and employees leave at different times.' },
       { q: 'When should we book holiday party transportation?', a: 'By early November for the best availability. December is the highest-demand month of the year for corporate transportation across the DMV as most companies schedule parties within the same few weeks.' },
     ],
@@ -640,7 +640,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>A family reunion pickup might include grandparents who need a bit more time and a lower step into the vehicle, parents managing toddlers and car seats, teenagers with their own bags, and enough luggage to outfit a small expedition. No standard sedan or even a single SUV comfortably handles all of that at once.</p>
 
       <h2>The Sprinter Van Advantage</h2>
-      <p>A Mercedes Sprinter van seats up to 14 passengers with genuine room to spare — everyone travels together in one vehicle, luggage fits without a second trip, and there's enough space for grandparents to sit comfortably rather than being wedged into a third-row SUV seat.</p>
+      <p>A Mercedes Sprinter van seats up to 13 passengers with genuine room to spare — everyone travels together in one vehicle, luggage fits without a second trip, and there's enough space for grandparents to sit comfortably rather than being wedged into a third-row SUV seat.</p>
 
       <h2>Car Seats for the Youngest Family Members</h2>
       <p>Infant, convertible and booster seats can be provided on request — mention each child's age when booking so the right seats are installed before the vehicle arrives, rather than trying to manage seat installation curbside with a toddler in tow.</p>
@@ -670,7 +670,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>A family reunion's transportation problem has one clean solution: one vehicle, one chauffeur, everyone together. <a href="/booking">Book a Sprinter van for your family's arrival</a> or call (877) 609-1919 to coordinate staggered flights.</p>
     `,
     faqs: [
-      { q: 'How many people fit in a Sprinter van for a family reunion pickup?', a: 'Up to 14 passengers, with enough room for grandparents to sit comfortably and luggage for a multi-day stay to fit without a second trip.' },
+      { q: 'How many people fit in a Sprinter van for a family reunion pickup?', a: 'Up to 13 passengers, with enough room for grandparents to sit comfortably and luggage for a multi-day stay to fit without a second trip.' },
       { q: 'Can you coordinate pickup for family members arriving on different flights?', a: 'Yes. Provide each flight number when booking, and flight tracking lets dispatch adjust the vehicle’s pickup schedule automatically as staggered arrivals come in throughout the day.' },
       { q: 'Are car seats available for young children in the group?', a: 'Yes, infant, convertible and booster seats are available on request. Share each child’s age when booking so the right seats are installed before the vehicle arrives.' },
     ],
@@ -816,7 +816,7 @@ export const BLOG_POSTS_BATCH4 = [
       <h2>SUV: 3-6 Passengers, Extra Luggage</h2>
       <p>A Lincoln Navigator or Chevrolet Suburban handles families, small groups, or solo travelers with an unusual amount of luggage — golf clubs, ski equipment, or multiple oversized suitcases that wouldn't fit a sedan's trunk. It's the right choice whenever luggage volume, not just passenger count, is the deciding factor.</p>
 
-      <h2>Sprinter Van: 6-14 Passengers</h2>
+      <h2>Sprinter Van: 6-13 Passengers</h2>
       <p>A Mercedes Sprinter van is built for genuine group travel — wedding parties, corporate teams, family reunions, or any group larger than an SUV comfortably fits. It's also frequently the right call for a smaller group with a large amount of collective luggage, even if passenger count alone wouldn't require it.</p>
 
       <h2>Stretch Limousine: Special Occasions</h2>
@@ -841,7 +841,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>The right vehicle class comes down to passengers, luggage and occasion — in that order. <a href="/booking">Get a vehicle recommendation and quote here</a> or call (877) 609-1919.</p>
     `,
     faqs: [
-      { q: 'How many people fit in an SUV vs. a Sprinter van?', a: 'An SUV like a Lincoln Navigator or Chevrolet Suburban comfortably fits 3 to 6 passengers with extra luggage. A Mercedes Sprinter van fits 6 to 14 passengers and is the right call for genuine group travel.' },
+      { q: 'How many people fit in an SUV vs. a Sprinter van?', a: 'An SUV like a Lincoln Navigator (up to 6) or Chevrolet Suburban (up to 5) comfortably fits 3 to 6 passengers with extra luggage. A Mercedes Sprinter van fits 6 to 13 passengers and is the right call for genuine group travel.' },
       { q: 'When should I book a stretch limousine instead of a Sprinter van?', a: 'When the vehicle itself is part of the occasion — a wedding, prom or anniversary. For routine group transportation of the same size, a Sprinter van is usually more practical and cost-effective.' },
       { q: 'What if my group has more luggage than passengers would suggest?', a: 'Size the vehicle to luggage volume as well as headcount — a small family with a week’s worth of luggage is often better matched to an SUV than a sedan, even if three people would technically fit.' },
     ],
@@ -943,7 +943,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>Milestone celebrations that include a multi-venue night out benefit from the same one-vehicle, as-directed approach recommended for bachelor and bachelorette parties — everyone stays together, and no one is left coordinating a separate rideshare mid-celebration.</p>
 
       <h2>Vehicle Options by Group Size</h2>
-      <p>A close-friend group of 4 to 6 fits comfortably in an SUV; a larger celebration group of 8 to 14 is better served by a Sprinter van, and a milestone celebration with the full vehicle-as-part-of-the-occasion feel might call for a stretch limousine for the guest of honor specifically.</p>
+      <p>A close-friend group of 4 to 6 fits comfortably in an SUV; a larger celebration group of 8 to 13 is better served by a Sprinter van, and a milestone celebration with the full vehicle-as-part-of-the-occasion feel might call for a stretch limousine for the guest of honor specifically.</p>
 
       <h2>Photography Stops</h2>
       <p>Some milestone celebrations include a planned photo stop — a scenic DC monument, a favorite neighborhood, or a location meaningful to the honoree. Build this into the transportation timeline explicitly, the same way a wedding photography stop would be planned.</p>

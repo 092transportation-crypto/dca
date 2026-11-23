@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import FaqSection from '@/components/FaqSection';
+import { imageAlt } from '@/lib/imageAlt';
 import { PAGE_FAQS } from '@/data/pageFaqs';
 import { Plane, Briefcase, PartyPopper, Calendar, CheckCircle } from 'lucide-react';
 
@@ -137,7 +138,7 @@ const ServicesPage = () => {
                   <div className="relative rounded-xl sm:rounded-2xl overflow-hidden shadow-2xl">
                     <img 
                       src={service.image} 
-                      alt={service.title}
+                      alt={imageAlt(service.image, service.title)}
                       className="w-full h-64 sm:h-80 lg:h-[500px] object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>

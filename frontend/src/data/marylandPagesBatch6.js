@@ -31,7 +31,7 @@ export const MARYLAND_BATCH6 = [
       'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know historic Main Street\'s narrow streets, the B&O Railroad Museum and Turf Valley Resort',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos',
       'Wedding and event coordination for Turf Valley Resort and historic district venues',
     ],
     sections: [
@@ -53,8 +53,8 @@ export const MARYLAND_BATCH6 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties and groups' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties and groups' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings and celebrations' },
     ],
     faqs: [
@@ -112,7 +112,7 @@ export const MARYLAND_BATCH6 = [
       'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know Six Flags America, Watkins Regional Park and the roads around Joint Base Andrews',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos',
       'Background-checked chauffeurs for contractor and government-adjacent travel near Joint Base Andrews',
     ],
     sections: [
@@ -141,8 +141,8 @@ export const MARYLAND_BATCH6 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and attorneys' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and government travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'family outings and groups' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'family outings and groups' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
     ],
     faqs: [
@@ -199,7 +199,7 @@ export const MARYLAND_BATCH6 = [
     ],
     highlights: [
       'Drop-off and pickup steps from the Six Flags America gate — no parking-lot walk',
-      'Sprinter vans for groups and multi-family outings (up to 14 passengers)',
+      'Sprinter vans for groups and multi-family outings (up to 13 passengers)',
       'Flat, all-inclusive quotes with no surge pricing for after-dark closing-time pickups',
       'Coordinated pickup timing for fireworks nights and extended summer hours',
       'Combine with airport transfers for visiting families flying into DCA or BWI',
@@ -222,8 +222,8 @@ export const MARYLAND_BATCH6 = [
     ],
     vehicles: [
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families with gear' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'larger families' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'multi-family groups and parties' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'larger families' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'multi-family groups and parties' },
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'couples and small groups' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'a comfortable solo or two-person visit' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'a group birthday or celebration day' },
@@ -239,7 +239,7 @@ export const MARYLAND_BATCH6 = [
       },
       {
         q: 'What vehicle works best for two or three families together?',
-        a: 'A Mercedes Sprinter van seats up to 14 and keeps everyone — and the gear — in one vehicle rather than splitting across cars.',
+        a: 'A Mercedes Sprinter van seats up to 13 and keeps everyone — and the gear — in one vehicle rather than splitting across cars.',
       },
       {
         q: 'Can we combine a Six Flags trip with an airport transfer?',
@@ -311,8 +311,8 @@ export const MARYLAND_BATCH6 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'couples and small groups' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'a quiet, discreet arrival' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'small groups' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'families and friend groups' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'larger museum groups' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'families and friend groups' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'larger museum groups' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'a special-occasion visit' },
     ],
     faqs: [
@@ -390,9 +390,9 @@ export const MARYLAND_BATCH6 = [
     vehicles: [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'couples and small groups' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families with older relatives' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'school and tour groups' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'school and tour groups' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive visitors' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'larger families with gear' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'larger families with gear' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'a special-occasion estate visit' },
     ],
     faqs: [
@@ -410,7 +410,7 @@ export const MARYLAND_BATCH6 = [
       },
       {
         q: 'Do you handle school or tour group visits?',
-        a: 'Yes. Sprinter vans seat up to 14, and we coordinate multiple vehicles for larger school, church or tour groups.',
+        a: 'Yes. Sprinter vans seat up to 13, and we coordinate multiple vehicles for larger school, church or tour groups.',
       },
       {
         q: 'Is pricing flat rate or hourly for a Mount Vernon trip?',
@@ -434,19 +434,19 @@ export const MARYLAND_BATCH6 = [
     h1: 'Sprinter Van Rental with Driver — Car Service in DC, MD & VA',
     metaTitle: 'Sprinter Van Rental with Driver | DC, MD & VA',
     metaDescription:
-      'Chauffeured Sprinter van rental for groups up to 14 across DC, Maryland & Virginia — weddings, airport runs, corporate. Call (877) 609-1919.',
+      'Chauffeured Sprinter van rental for groups up to 13 across DC, Maryland & Virginia — weddings, airport runs, corporate. Call (877) 609-1919.',
     stats: [
       { label: 'Coverage', value: 'DC, MD & Northern VA' },
-      { label: 'Capacity', value: 'Up to 14 passengers' },
+      { label: 'Capacity', value: 'Up to 13 passengers' },
       { label: 'Pricing', value: 'Flat rate or hourly' },
       { label: 'Booking', value: '24 / 7' },
     ],
     intro: [
-      'A 14-passenger Mercedes Sprinter van with a professional chauffeur is the simplest fix for the problem every group trip eventually hits: too many people for one car, too much coordination for three. DCA Limos runs Sprinter vans across Washington DC, Maryland and Northern Virginia for wedding parties, corporate roadshows, airport group transfers, sports outings and family reunions — one reservation, one chauffeur, everyone arriving together.',
+      'A 13-passenger Mercedes Sprinter van with a professional chauffeur is the simplest fix for the problem every group trip eventually hits: too many people for one car, too much coordination for three. DCA Limos runs Sprinter vans across Washington DC, Maryland and Northern Virginia for wedding parties, corporate roadshows, airport group transfers, sports outings and family reunions — one reservation, one chauffeur, everyone arriving together.',
       'Unlike a self-drive rental, a chauffeured Sprinter needs no one in the group to navigate, find parking, or stay sober enough to drive — the chauffeur handles the route, the loading zone and the wait while the group handles the actual occasion.',
     ],
     highlights: [
-      'Seats up to 14 passengers with luggage or gear space',
+      'Seats up to 13 passengers with luggage or gear space',
       'One flat rate or hourly rate for the whole group — no splitting a bill across rideshares',
       'Common for weddings, airport groups, corporate roadshows, sports outings and reunions',
       'Licensed, background-checked chauffeur included — not a self-drive rental',
@@ -469,17 +469,17 @@ export const MARYLAND_BATCH6 = [
       },
     ],
     vehicles: [
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'groups, weddings and corporate teams' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'groups, weddings and corporate teams' },
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'a smaller advance or support vehicle' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP travel alongside the group van' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'a mid-size group with extra luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'a mid-size group with extra luggage' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'a mid-size group with extra luggage' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'pairing with the Sprinter for a milestone event' },
     ],
     faqs: [
       {
         q: 'How many passengers fit in a Sprinter van?',
-        a: 'Up to 14 passengers, with room for luggage or event gear depending on the configuration. Call (877) 609-1919 to confirm capacity for your group.',
+        a: 'Up to 13 passengers, with room for luggage or event gear depending on the configuration. Call (877) 609-1919 to confirm capacity for your group.',
       },
       {
         q: 'Is this a self-drive rental or does it come with a chauffeur?',
@@ -551,7 +551,7 @@ export const MARYLAND_BATCH6 = [
         h2: 'Stretch limousine vs. Sprinter van vs. SUV',
         paragraphs: [
           'The stretch limousine remains the traditional choice when the vehicle itself is part of the occasion — a wedding exit, a prom arrival, a sweet sixteen or quinceañera entrance — because the long body, the interior lighting and the sense of occasion are the point, not just the seating. For eight passengers or fewer who want that specific experience, nothing else in the fleet does the same job.',
-          'A Sprinter van makes more sense once the group grows past eight or the priority shifts from spectacle to simply keeping everyone together — a wedding party of fourteen, a bachelorette group heading between venues, or a family reunion airport run. A Lincoln Navigator or Chevrolet Suburban splits the difference for a smaller group that wants more presence than a sedan without the full limousine experience. We will talk through group size and the feel you are going for and recommend the vehicle that actually fits, rather than defaulting to whichever is easiest to book.',
+          'A Sprinter van makes more sense once the group grows past eight or the priority shifts from spectacle to simply keeping everyone together — a wedding party of thirteen, a bachelorette group heading between venues, or a family reunion airport run. A Lincoln Navigator or Chevrolet Suburban splits the difference for a smaller group that wants more presence than a sedan without the full limousine experience. We will talk through group size and the feel you are going for and recommend the vehicle that actually fits, rather than defaulting to whichever is easiest to book.',
         ],
       },
     ],
@@ -560,8 +560,8 @@ export const MARYLAND_BATCH6 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'a smaller companion vehicle' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'the honoree\'s quiet arrival' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'a group that prefers an SUV' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'a group that prefers an SUV' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'pairing with the limousine for a larger party' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'a group that prefers an SUV' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'pairing with the limousine for a larger party' },
     ],
     faqs: [
       {
@@ -645,10 +645,10 @@ export const MARYLAND_BATCH6 = [
     vehicles: [
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'the honoree\'s arrival' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'an alternative honoree vehicle' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'the court of honor and family' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'the court of honor and family' },
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'parents or a smaller party' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'a quiet arrival for the honoree' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'an alternative to the Navigator for a larger family' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'an alternative to the Navigator for a larger family' },
     ],
     faqs: [
       {
@@ -657,7 +657,7 @@ export const MARYLAND_BATCH6 = [
       },
       {
         q: 'What vehicle is best for the court of honor?',
-        a: 'A Sprinter van seating up to 14 is the most common choice for a larger court of honor, keeping the group together for the ride.',
+        a: 'A Sprinter van seating up to 13 is the most common choice for a larger court of honor, keeping the group together for the ride.',
       },
       {
         q: 'Can the honoree arrive in a different vehicle than the court?',
@@ -734,8 +734,8 @@ export const MARYLAND_BATCH6 = [
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'extended family groups' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'larger family parties' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'immediate family' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'extended family groups' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'a large family or procession group' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'extended family groups' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'a large family or procession group' },
     ],
     faqs: [
       {

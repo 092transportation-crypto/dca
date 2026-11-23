@@ -1448,7 +1448,7 @@ export const GUIDES = [
       <p>Youth sports organizations typically require a minimum chaperone-to-player ratio for any group transportation, and we work within whatever ratio a team's governing body or tournament organizer requires, seating chaperones to maintain visual contact with their assigned players throughout the ride. Every chauffeur is licensed and background-checked, which is routinely a requirement tournament organizers or school athletic departments ask about directly before approving a transportation vendor.</p>
 
       <h2>Choosing the right vehicle for a team</h2>
-      <p>A single 14-passenger Mercedes Sprinter van comfortably handles a typical youth team roster plus a chaperone or two, with real cargo space for equipment bags that a standard SUV cannot match. For a larger roster or a team traveling with multiple equipment trunks, we coordinate two Sprinter vans running together so the group still arrives and departs as one unit rather than as separate, staggered pickups.</p>
+      <p>A single 13-passenger Mercedes Sprinter van comfortably handles a typical youth team roster plus a chaperone or two, with real cargo space for equipment bags that a standard SUV cannot match. For a larger roster or a team traveling with multiple equipment trunks, we coordinate two Sprinter vans running together so the group still arrives and departs as one unit rather than as separate, staggered pickups.</p>
 
       <h2>Airport pickup logistics for a large group</h2>
       <p>Flight tracking matters even more for a group this size, since getting a dozen kids and their bags off a plane and through baggage claim takes longer than a solo traveler, and we build that reality into the wait time rather than timing the pickup as if for one passenger. We also coordinate directly with the head chaperone or team manager by phone so there is one point of contact managing the group, not a dozen separate conversations.</p>
@@ -1465,7 +1465,7 @@ export const GUIDES = [
     faqs: [
       {
         q: 'What vehicle works best for a youth sports travel team?',
-        a: 'A 14-passenger Mercedes Sprinter van typically handles a team roster plus chaperones and equipment. Larger rosters or heavier equipment loads may need two Sprinter vans running together.',
+        a: 'A 13-passenger Mercedes Sprinter van typically handles a team roster plus chaperones and equipment. Larger rosters or heavier equipment loads may need two Sprinter vans running together.',
       },
       {
         q: 'Can you transport equipment bags along with the team?',
@@ -1514,7 +1514,7 @@ export const GUIDES = [
       <p class="lead">Reagan National to Bethesda is a short run on a map — about 13 miles, 25 to 40 minutes depending on traffic — but it is one of our most frequently booked airport transfers, and the question that comes up in almost every call is the same one: what does it actually cost? Here is a straightforward answer, plus what goes into that number and how it compares to the alternative most people default to without thinking about it.</p>
 
       <h2>The short answer: it is one flat rate, quoted before you book</h2>
-      <p>DCA Limos prices every DCA-to-Bethesda transfer as a single flat rate based on the vehicle class you choose and your exact pickup and drop-off addresses within Bethesda. That rate is quoted and confirmed before you book — not estimated and adjusted afterward, and not subject to a multiplier if your flight happens to land during a busy stretch. A Mercedes-Benz E-Class sedan is the most frequently booked vehicle for this route for solo travelers and couples; a premium SUV like the Lincoln Navigator or Chevrolet Suburban suits families or anyone with extra luggage; and a Mercedes Sprinter van covers groups of up to 14, common for extended families or a wedding party flying in together.</p>
+      <p>DCA Limos prices every DCA-to-Bethesda transfer as a single flat rate based on the vehicle class you choose and your exact pickup and drop-off addresses within Bethesda. That rate is quoted and confirmed before you book — not estimated and adjusted afterward, and not subject to a multiplier if your flight happens to land during a busy stretch. A Mercedes-Benz E-Class sedan is the most frequently booked vehicle for this route for solo travelers and couples; a premium SUV like the Lincoln Navigator or Chevrolet Suburban suits families or anyone with extra luggage; and a Mercedes Sprinter van covers groups of up to 13, common for extended families or a wedding party flying in together.</p>
       <p>Call (877) 609-1919 or request a quote on the <a href="/booking">booking page</a> with your flight details and exact Bethesda address, and dispatch will confirm the rate for your specific vehicle choice in minutes.</p>
 
       <h2>What is actually included in that flat rate</h2>

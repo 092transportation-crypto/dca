@@ -26,13 +26,13 @@ const VEHICLES = [
   {
     name: 'Chevrolet Suburban',
     cls: 'Luxury SUV',
-    seats: 6,
+    seats: 5,
     best: 'airport runs with beach or golf luggage',
   },
   {
     name: 'Mercedes Sprinter van',
     cls: 'Executive van',
-    seats: 14,
+    seats: 13,
     best: 'wedding parties, corporate teams and groups',
   },
   {
@@ -204,7 +204,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'Can you handle groups and delegations at DCA?',
-        a: 'Yes. Sprinter vans seat up to fourteen with luggage, and larger parties are split across coordinated vehicles that leave together. A single confirmation covers the whole group.',
+        a: 'Yes. Sprinter vans seat up to thirteen with luggage, and larger parties are split across coordinated vehicles that leave together. A single confirmation covers the whole group.',
       },
       {
         q: 'Is the price confirmed before the ride?',
@@ -287,7 +287,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'Can I book an SUV or a van instead of a sedan?',
-        a: 'Yes. The Lincoln Navigator and Chevrolet Suburban suit families and travelers with extra luggage, and the Mercedes Sprinter van seats groups of up to fourteen. Car seats are available on request.',
+        a: 'Yes. The Lincoln Navigator and Chevrolet Suburban suit families and travelers with extra luggage, and the Mercedes Sprinter van seats groups of up to thirteen. Car seats are available on request.',
       },
       {
         q: 'What is the cancellation policy?',
@@ -432,7 +432,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: 'Group and conference hotel transfers',
         paragraphs: [
-          'Meeting planners use us to shuttle speakers, sponsors and staff between Reagan National and the conference hotel across arrival days. Sprinter vans carry up to fourteen with luggage, and multiple sedans and SUVs can be scheduled against a manifest of flights, with each arrival tracked. A corporate account puts every transfer on one monthly invoice.',
+          'Meeting planners use us to shuttle speakers, sponsors and staff between Reagan National and the conference hotel across arrival days. Sprinter vans carry up to thirteen with luggage, and multiple sedans and SUVs can be scheduled against a manifest of flights, with each arrival tracked. A corporate account puts every transfer on one monthly invoice.',
           'Wedding blocks work the same way: guests arriving over a weekend are collected and delivered to the hotel, and a Sprinter takes the party to the venue on the day. Call (877) 609-1919 with the hotel and the flights, and dispatch will build the schedule.',
         ],
       },
@@ -792,7 +792,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'Which vehicles are available?',
-        a: 'Mercedes-Benz E-Class and BMW 7 Series sedans for up to three passengers, Lincoln Navigator and Chevrolet Suburban SUVs for up to six, and Mercedes Sprinter vans for groups. Car seats are available on request.',
+        a: 'Mercedes-Benz E-Class and BMW 7 Series sedans for up to three passengers, Lincoln Navigator SUVs for up to six and Chevrolet Suburbans for up to five, and Mercedes Sprinter vans for groups. Car seats are available on request.',
       },
       {
         q: 'Do you serve all of Washington DC?',
@@ -854,7 +854,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: 'Choosing between a stretch limousine and a Sprinter',
         paragraphs: [
-          'The stretch limousine is the classic choice and seats eight comfortably in formal wear. Groups larger than that are better served by the Sprinter van, which seats up to fourteen, has more headroom for hair and dresses and makes it easier for everyone to travel together rather than splitting into two cars. Both are driven by chauffeurs who handle prom season every year.',
+          'The stretch limousine is the classic choice and seats eight comfortably in formal wear. Groups larger than that are better served by the Sprinter van, which seats up to thirteen, has more headroom for hair and dresses and makes it easier for everyone to travel together rather than splitting into two cars. Both are driven by chauffeurs who handle prom season every year.',
           'Photographs at the pickup are part of the tradition, so we ask the chauffeur to allow time for them before the first departure.',
         ],
       },
@@ -870,7 +870,7 @@ export const MARYLAND_BATCH4 = [
     faqs: [
       {
         q: 'How many students fit in a prom limo?',
-        a: 'The stretch limousine seats eight. For larger groups the Mercedes Sprinter van seats up to fourteen with room for formal wear. Larger parties can be split across coordinated vehicles.',
+        a: 'The stretch limousine seats eight. For larger groups the Mercedes Sprinter van seats up to thirteen with room for formal wear. Larger parties can be split across coordinated vehicles.',
       },
       {
         q: 'Does the chauffeur stay during dinner and the dance?',
@@ -943,7 +943,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: 'Which airport, and which vehicle',
         paragraphs: [
-          'If you have a choice of airports, count the ground time as part of the trip. Reagan National wins for most domestic flights when you are staying in the District; Dulles is the gateway for long-haul international routes; BWI can be the practical choice for certain airlines and destinations. Whichever you fly, the sedan suits up to three passengers with normal luggage, the Lincoln Navigator or Chevrolet Suburban suits families and heavy bags, and the Sprinter van carries groups of up to fourteen.',
+          'If you have a choice of airports, count the ground time as part of the trip. Reagan National wins for most domestic flights when you are staying in the District; Dulles is the gateway for long-haul international routes; BWI can be the practical choice for certain airlines and destinations. Whichever you fly, the sedan suits up to three passengers with normal luggage, the Lincoln Navigator or Chevrolet Suburban suits families and heavy bags, and the Sprinter van carries groups of up to thirteen.',
           'Book online or call (877) 609-1919 with your flight number, address and passenger count, and dispatch will confirm the vehicle and the flat rate.',
         ],
       },
@@ -1143,7 +1143,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'Can you handle a fly-in group with dozens of participants?',
-        a: 'Yes. Sprinter vans seat up to fourteen, and larger groups are split across coordinated vehicles with one confirmation and one invoice for the organizer.',
+        a: 'Yes. Sprinter vans seat up to thirteen, and larger groups are split across coordinated vehicles with one confirmation and one invoice for the organizer.',
       },
       {
         q: 'Do you offer accounts for firms and associations?',
@@ -1399,7 +1399,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'Can you bring a group to a game?',
-        a: 'Yes. Sprinter vans seat up to fourteen and are popular for suite guests, birthday outings and corporate hospitality. The rate is confirmed before you book.',
+        a: 'Yes. Sprinter vans seat up to thirteen and are popular for suite guests, birthday outings and corporate hospitality. The rate is confirmed before you book.',
       },
       {
         q: 'Do you serve the apartment buildings along the waterfront?',
@@ -1574,7 +1574,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'Can you provide a limousine or van for a bachelorette or birthday party?',
-        a: 'Yes. The stretch limousine seats eight and the Sprinter van up to fourteen. Party bookings are hourly, with the chauffeur staying with the group, and cancel free up to 12 hours before pickup.',
+        a: 'Yes. The stretch limousine seats eight and the Sprinter van up to thirteen. Party bookings are hourly, with the chauffeur staying with the group, and cancel free up to 12 hours before pickup.',
       },
       {
         q: 'Is there a minimum for a short trip from Adams Morgan?',
@@ -1739,8 +1739,8 @@ export const MARYLAND_BATCH4 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with beach or golf luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with beach or golf luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties, corporate teams and groups' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'proms, weddings and celebrations' },
     ],
     faqs: [
@@ -1832,8 +1832,8 @@ export const MARYLAND_BATCH4 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with beach or golf luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with beach or golf luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties, corporate teams and groups' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'proms, weddings and celebrations' },
     ],
     faqs: [
@@ -1925,8 +1925,8 @@ export const MARYLAND_BATCH4 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with beach or golf luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with beach or golf luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties, corporate teams and groups' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'proms, weddings and celebrations' },
     ],
     faqs: [
@@ -2019,8 +2019,8 @@ export const MARYLAND_BATCH4 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with beach or golf luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with beach or golf luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties, corporate teams and groups' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'proms, weddings and celebrations' },
     ],
     faqs: [
@@ -2113,8 +2113,8 @@ export const MARYLAND_BATCH4 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with beach or golf luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with beach or golf luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties, corporate teams and groups' },
       { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'proms, weddings and celebrations' },
     ],
     faqs: [

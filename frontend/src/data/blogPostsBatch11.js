@@ -417,7 +417,7 @@ export const BLOG_POSTS_BATCH11 = [
       <p>Exact pricing depends on your specific date, hours and stops, so we do not publish a fixed day-rate — a quote confirmed before you book reflects your actual itinerary rather than a generic average that may not match your situation. As a general pattern, a half-day wedding guest-shuttle booking typically runs less than a full 10-hour corporate offsite day with multiple stops, simply because of total hours and mileage.</p>
 
       <h2>Comparing to a stretch limousine or multiple sedans</h2>
-      <p>For a group of 8–14 people, a single Sprinter van is usually more cost-effective than booking two or three separate sedans for the same group, since you are paying for one vehicle and one chauffeur rather than several. See our <a href="/blog/sedan-vs-suv-vs-sprinter-van-which-to-choose">sedan vs. SUV vs. Sprinter van guide</a> for the full comparison by group size.</p>
+      <p>For a group of 8–13 people, a single Sprinter van is usually more cost-effective than booking two or three separate sedans for the same group, since you are paying for one vehicle and one chauffeur rather than several. See our <a href="/blog/sedan-vs-suv-vs-sprinter-van-which-to-choose">sedan vs. SUV vs. Sprinter van guide</a> for the full comparison by group size.</p>
 
       <h2>Getting an exact quote</h2>
       <p>Tell us your date, total hours needed, number of stops and group size, and we will confirm an exact flat or hourly rate before you book — no surprise charges added after the fact.</p>
@@ -436,7 +436,7 @@ export const BLOG_POSTS_BATCH11 = [
       },
       {
         q: 'Is a Sprinter van cheaper than booking multiple sedans for the same group?',
-        a: 'Usually, yes, for a group of 8–14 people — one vehicle and one chauffeur typically costs less than several separate sedans.',
+        a: 'Usually, yes, for a group of 8–13 people — one vehicle and one chauffeur typically costs less than several separate sedans.',
       },
       {
         q: 'Can I get an exact quote before booking?',

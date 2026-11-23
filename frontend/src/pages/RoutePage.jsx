@@ -50,20 +50,8 @@ const RoutePage = ({ slug: slugProp }) => {
           serviceType: 'Airport car service',
           areaServed: data.destination,
           url: canonicalHref,
-          provider: {
-            '@type': 'LocalBusiness',
-            name: 'DCA Limos',
-            telephone: '+1-877-609-1919',
-            url: 'https://dcalimos.com',
-            address: {
-              '@type': 'PostalAddress',
-              streetAddress: '9836 Lyon Ave',
-              addressLocality: 'Laurel',
-              addressRegion: 'MD',
-              postalCode: '20723',
-              addressCountry: 'US',
-            },
-          },
+          // Points at the full LocalBusiness block in public/index.html.
+          provider: { '@id': 'https://dcalimos.com/#organization' },
         },
         {
           '@type': 'BreadcrumbList',

@@ -37,7 +37,7 @@ export const BLOG_POSTS_BATCH3 = [
         <li><strong>Executive sedan</strong> (Mercedes E-Class or similar) — one to three passengers, standard airport transfers and solo business trips.</li>
         <li><strong>Luxury sedan</strong> (Mercedes S-Class, BMW 7 Series) — client pickups, board members, or anyone who wants the top-tier cabin.</li>
         <li><strong>SUV</strong> (Lincoln Navigator, Chevrolet Suburban) — extra luggage, three to five passengers, or families.</li>
-        <li><strong>Mercedes Sprinter van</strong> — six to fourteen passengers, ideal for group arrivals or a wedding party landing together.</li>
+        <li><strong>Mercedes Sprinter van</strong> — six to thirteen passengers, ideal for group arrivals or a wedding party landing together.</li>
         <li><strong>Stretch limousine</strong> — proms, anniversaries and celebration transfers where the vehicle is part of the occasion.</li>
       </ul>
       <p>See the full <a href="/fleet">fleet lineup</a> for photos, capacities and per-vehicle pricing before you book.</p>
@@ -274,7 +274,7 @@ export const BLOG_POSTS_BATCH3 = [
       <ul>
         <li><strong>Executive sedan or luxury sedan</strong> — the couple's private transfer between venues, or transportation for parents.</li>
         <li><strong>SUV (Navigator or Suburban)</strong> — a small wedding party or immediate family group with room for dresses and garment bags.</li>
-        <li><strong>Mercedes Sprinter van</strong> — the most popular choice for a full wedding party of six to fourteen, especially for the getting-ready-to-ceremony leg.</li>
+        <li><strong>Mercedes Sprinter van</strong> — the most popular choice for a full wedding party of six to thirteen, especially for the getting-ready-to-ceremony leg.</li>
         <li><strong>Stretch limousine</strong> — the classic choice for the couple's grand entrance or getaway, especially for a reception at a National Harbor or Annapolis waterfront venue.</li>
       </ul>
       <p>Many couples book more than one vehicle class — a Sprinter for the wedding party and a separate luxury sedan or limousine reserved just for the couple. A common pairing for a party of ten: one Sprinter for the wedding party's getting-ready-to-ceremony leg, and a stretch limousine reserved exclusively for the couple's entrance and getaway, so the newlyweds are never waiting on group logistics at the end of the night. See the full <a href="/limo/wedding-limo-service">wedding limo service page</a> for package options and pricing by vehicle.</p>
@@ -352,7 +352,7 @@ export const BLOG_POSTS_BATCH3 = [
     `,
     faqs: [
       { q: 'How far in advance should we book wedding transportation?', a: 'Request a quote 9-12 months ahead if possible, as soon as your venue and date are confirmed. Popular DC-area Saturdays during spring and fall wedding season book Sprinter vans and limousines first.' },
-      { q: 'What vehicle is best for a wedding party?', a: 'A Mercedes Sprinter van is the most popular choice for a full wedding party of six to fourteen. Many couples also book a separate luxury sedan or stretch limousine just for the couple.' },
+      { q: 'What vehicle is best for a wedding party?', a: 'A Mercedes Sprinter van is the most popular choice for a full wedding party of six to thirteen. Many couples also book a separate luxury sedan or stretch limousine just for the couple.' },
       { q: 'Is wedding transportation priced differently from a standard airport transfer?', a: 'Yes — wedding transportation is typically priced as an hourly block covering the full day\'s schedule, rather than a single flat-rate point-to-point trip, since it usually involves multiple stops and waiting time between venues.' },
       { q: 'Do you provide wedding transportation at Belmont Manor, Glenview Mansion or Chesapeake Bay Beach Club?', a: 'Yes — our chauffeurs regularly work weddings at all three, along with Antrim 1844 and the Middleburg-area estate venues. If your venue isn\'t one we\'ve named, tell us when you book and we\'ll confirm access and staging with your coordinator ahead of time.' },
       { q: 'What is your cancellation policy for wedding bookings?', a: 'Sprinter vans, limousines and special-event bookings — which covers most wedding reservations — cancel free of charge up to 12 hours before pickup, a longer window than our standard 3-hour sedan and SUV policy, reflecting how far in advance those vehicles are held for you.' },
@@ -674,7 +674,7 @@ export const BLOG_POSTS_BATCH3 = [
       <ul>
         <li><strong>4-5 passengers:</strong> A Lincoln Navigator or Chevrolet Suburban comfortably seats the group with room for luggage — see the <a href="/fleet">fleet page</a> for exact capacities.</li>
         <li><strong>6-10 passengers:</strong> A Mercedes Sprinter van is the standard choice, offering forward-facing seating and real luggage space rather than a cramped third row.</li>
-        <li><strong>10-14 passengers:</strong> A larger Sprinter configuration keeps a bigger group together in one vehicle instead of splitting into two.</li>
+        <li><strong>10-13 passengers:</strong> A larger Sprinter configuration keeps a bigger group together in one vehicle instead of splitting into two.</li>
         <li><strong>Celebration groups:</strong> A stretch limousine suits proms, anniversaries and milestone events where the vehicle itself is part of the occasion, though it typically seats fewer people comfortably than a Sprinter.</li>
       </ul>
 

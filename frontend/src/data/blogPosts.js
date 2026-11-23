@@ -496,7 +496,7 @@ export const BLOG_POSTS = [
       },
       {
         q: 'How much more does an SUV cost than a sedan from DCA?',
-        a: 'Typically $30 to $60 above the sedan rate on the same route, for a Lincoln Navigator or Chevrolet Suburban seating up to six with full luggage. Sprinter vans for 7–13 passengers are quoted flat by route.',
+        a: 'Typically $30 to $60 above the sedan rate on the same route, for a Lincoln Navigator seating up to six or a Chevrolet Suburban seating up to five, with full luggage. Sprinter vans for 7–13 passengers are quoted flat by route.',
       },
       {
         q: 'Is hourly chauffeur service cheaper than multiple transfers?',
@@ -1110,7 +1110,7 @@ export const BLOG_POSTS = [
       </ul>
 
       <h2>Groups, families, and serious luggage</h2>
-      <p>The per-person math changes completely with company. A family of five headed to Fairfax needs an UberXL that may or may not appear with usable trunk space; a visiting project team headed to Reston needs two or three separate rideshares that will not arrive together. One Suburban or 14-passenger Sprinter solves both — everyone and everything in one vehicle, one flat rate split several ways, one arrival time. For golf trips, college move-ins, and consulting teams on a Monday-morning fly-in, the group vehicle is not a luxury upgrade; it is simply cheaper and better per seat than the alternatives.</p>
+      <p>The per-person math changes completely with company. A family of five headed to Fairfax needs an UberXL that may or may not appear with usable trunk space; a visiting project team headed to Reston needs two or three separate rideshares that will not arrive together. One Suburban or 13-passenger Sprinter solves both — everyone and everything in one vehicle, one flat rate split several ways, one arrival time. For golf trips, college move-ins, and consulting teams on a Monday-morning fly-in, the group vehicle is not a luxury upgrade; it is simply cheaper and better per seat than the alternatives.</p>
 
       <h2>Don't forget the return leg</h2>
       <p>Getting out to Virginia is half the trip. The morning you fly home, the same corridor runs in reverse against inbound rush-hour traffic — and a 7 a.m. departure from Ashburn to DCA is a very different proposition than the Saturday drive out. Book the round trip together: your return pickup time gets calculated against your flight with honest traffic assumptions, the chauffeur monitors your departure for changes, and the whole journey lives on one confirmation instead of a morning-of scramble in a hotel lobby.</p>
@@ -1164,7 +1164,7 @@ export const BLOG_POSTS = [
       <h2>The three layers most weddings combine</h2>
       <ul>
         <li><strong>The couple's car:</strong> a chauffeured S-Class or Navigator for the ceremony arrival and the send-off — elegant in photos, kind to a wedding gown, and driven by a professional who has done this before.</li>
-        <li><strong>The wedding-party vehicle:</strong> a 14-passenger Mercedes Sprinter that keeps the whole party together between prep, photos, and ceremony — one vehicle, one schedule, zero lost groomsmen.</li>
+        <li><strong>The wedding-party vehicle:</strong> a 13-passenger Mercedes Sprinter that keeps the whole party together between prep, photos, and ceremony — one vehicle, one schedule, zero lost groomsmen.</li>
         <li><strong>Guest shuttles:</strong> looped runs between host hotels and the venue, timed to the ceremony and staggered at the end of the night so the 9 p.m. leavers and the last-dance crowd both get home gracefully.</li>
       </ul>
       <p>Not every wedding needs all three — but naming them separately prevents the classic mistake of booking a beautiful getaway car and leaving eighty guests to solve wine-country parking alone.</p>
@@ -1209,7 +1209,7 @@ export const BLOG_POSTS = [
       },
       {
         q: 'What vehicles work best for a DC wedding party?',
-        a: 'A 14-passenger Mercedes Sprinter for the wedding party is the modern standard, paired with a chauffeured S-Class or Navigator for the couple. In tight-curb neighborhoods like Georgetown and Old Town, that combination stages far better than a stretch limousine.',
+        a: 'A 13-passenger Mercedes Sprinter for the wedding party is the modern standard, paired with a chauffeured S-Class or Navigator for the couple. In tight-curb neighborhoods like Georgetown and Old Town, that combination stages far better than a stretch limousine.',
       },
       {
         q: 'What does wedding transportation cost in the DC region?',
@@ -1327,7 +1327,7 @@ export const BLOG_POSTS = [
       <p>Legitimate paid extras: an inside-terminal <a href="/blog/dca-airport-meet-and-greet-service">meet-and-greet</a> with a name sign (typically $25–$50), professionally installed child seats, and additional stops en route. Things that should never carry a fee: flight tracking, normal arrival wait time (45 minutes domestic is the professional standard), early-morning or late-night pickups, and paying by card. A company that charges for a 4:30 a.m. departure is telling you how it thinks.</p>
 
       <h2>Tipping and payment</h2>
-      <p>Gratuity of 15–20 percent is customary and can be added at booking so the trip itself is cashless. Expect a card guarantee with the charge at or after service, and a written confirmation showing the all-in total before pickup. For companies moving multiple travelers, <a href="/blog/corporate-car-service-washington-dc">corporate accounts</a> replace per-trip cards with monthly invoicing at negotiated rates.</p>
+      <p>Gratuity of 15–20 percent is customary and can be added at booking so the trip itself is cashless. With DCA Limos, your card is charged once the reservation and rate are confirmed, and you receive a written confirmation showing the all-in total before pickup. For companies moving multiple travelers, <a href="/blog/corporate-car-service-washington-dc">corporate accounts</a> replace per-trip cards with monthly invoicing at negotiated rates.</p>
 
       <h2>How the price compares to the alternatives</h2>
       <p>Rideshare from DCA runs $20–$35 to downtown in perfect conditions and $75-plus when surge hits the evening arrival banks — the full comparison lives in our <a href="/blog/dca-airport-car-service-vs-uber-2026">car service vs. Uber breakdown</a>. A taxi meters around $20–$30 downtown before tip. The chauffeured flat rate buys what neither offers: a committed vehicle, a vetted professional, and a price that was true before you landed.</p>

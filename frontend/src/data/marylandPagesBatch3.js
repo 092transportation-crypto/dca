@@ -84,13 +84,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -259,13 +259,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -438,13 +438,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -469,7 +469,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "Do you transport corporate groups?",
-        "a": "Yes. SUVs seat up to six and Mercedes Sprinter vans carry up to 14. For larger groups we schedule multiple vehicles to arrive together and assign one dispatcher to the whole movement."
+        "a": "Yes. SUVs seat up to six and Mercedes Sprinter vans carry up to 13. For larger groups we schedule multiple vehicles to arrive together and assign one dispatcher to the whole movement."
       },
       {
         "q": "How do I book a Tysons car service?",
@@ -605,13 +605,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -768,13 +768,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -799,7 +799,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "Can you take a group from Reston to Loudoun wineries?",
-        "a": "Yes. A Mercedes Sprinter van carries up to 14 passengers and is booked by the hour. Give us your list of wineries and we will plan a sensible route and timing."
+        "a": "Yes. A Mercedes Sprinter van carries up to 13 passengers and is booked by the hour. Give us your list of wineries and we will plan a sensible route and timing."
       },
       {
         "q": "How do I reserve a car in Reston?",
@@ -935,13 +935,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -966,7 +966,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "Can I book a limousine for a prom or wedding in Fairfax?",
-        "a": "Yes. Stretch limousines seat up to 8 and Sprinter vans up to 14. These vehicles and special-event bookings can be cancelled free up to 12 hours before pickup, and we recommend reserving early for spring weekends."
+        "a": "Yes. Stretch limousines seat up to 8 and Sprinter vans up to 13. These vehicles and special-event bookings can be cancelled free up to 12 hours before pickup, and we recommend reserving early for spring weekends."
       },
       {
         "q": "How do I get a quote?",
@@ -1106,13 +1106,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -1239,7 +1239,7 @@ export const MARYLAND_BATCH3 = [
         "h2": "Appointments, evenings and events",
         "paragraphs": [
           "Hourly service is popular with Falls Church clients who need a car to wait: a parent with a specialist appointment in Merrifield, an executive with back-to-back meetings in Tysons and Arlington, a couple going to dinner at the Mosaic District and then on to a late show in Washington. One chauffeur handles the whole outing and you never stand on a curb refreshing an app.",
-          "For larger occasions — weddings, milestone birthdays, school dances — we provide Sprinter vans for up to 14 and stretch limousines for up to 8, and coordinate multiple vehicles when the guest list calls for it. Special-event bookings can be cancelled free of charge up to 12 hours before pickup."
+          "For larger occasions — weddings, milestone birthdays, school dances — we provide Sprinter vans for up to 13 and stretch limousines for up to 8, and coordinate multiple vehicles when the guest list calls for it. Special-event bookings can be cancelled free of charge up to 12 hours before pickup."
         ]
       }
     ],
@@ -1265,13 +1265,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -1424,13 +1424,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -1451,7 +1451,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "Can you drive our group on a Loudoun winery tour?",
-        "a": "Yes. Book an SUV for up to six or a Sprinter van for up to 14 by the hour. Wineries often have their own rules for groups and reservations, so please confirm those directly with each one; we will handle the route and timing."
+        "a": "Yes. Book an SUV for up to six or a Sprinter van for up to 13 by the hour. Wineries often have their own rules for groups and reservations, so please confirm those directly with each one; we will handle the route and timing."
       },
       {
         "q": "Do you provide wedding shuttles in Loudoun County?",
@@ -1583,13 +1583,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -1752,13 +1752,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -1787,7 +1787,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "Can you bring a group?",
-        "a": "Yes. SUVs seat up to six, Sprinter vans up to 14 and stretch limousines up to 8. Sprinter, limousine and special-event bookings can be cancelled free up to 12 hours before pickup; sedans and SUVs up to 3 hours before."
+        "a": "Yes. SUVs seat up to six, Sprinter vans up to 13 and stretch limousines up to 8. Sprinter, limousine and special-event bookings can be cancelled free up to 12 hours before pickup; sedans and SUVs up to 3 hours before."
       }
     ],
     "related": [
@@ -1915,13 +1915,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -1946,7 +1946,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "Can you take a group of friends?",
-        "a": "Yes. Navigator and Suburban SUVs seat up to six and Mercedes Sprinter vans up to 14. We can collect from more than one address on the way in."
+        "a": "Yes. Navigator SUVs seat up to six, Suburbans up to five and Mercedes Sprinter vans up to 13. We can collect from more than one address on the way in."
       },
       {
         "q": "How do I book transportation to The Anthem?",
@@ -2078,13 +2078,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -2210,7 +2210,7 @@ export const MARYLAND_BATCH3 = [
       {
         "h2": "Group and corporate programs",
         "paragraphs": [
-          "For companies bringing a team, we build a simple transportation plan: arrivals grouped by flight time, a van loop between the hotel and the hall at the start and end of each day, a car reserved for the executive who has meetings elsewhere in the city, and transportation to the client dinner. Sprinter vans carry up to 14 and we coordinate several for larger parties.",
+          "For companies bringing a team, we build a simple transportation plan: arrivals grouped by flight time, a van loop between the hotel and the hall at the start and end of each day, a car reserved for the executive who has meetings elsewhere in the city, and transportation to the client dinner. Sprinter vans carry up to 13 and we coordinate several for larger parties.",
           "Planners get a single point of contact at dispatch and a written schedule in advance. Changes are inevitable during a convention, and our desk is staffed 24/7 to absorb them."
         ]
       },
@@ -2243,13 +2243,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -2384,7 +2384,7 @@ export const MARYLAND_BATCH3 = [
       {
         "h2": "Groups, youth clubs and corporate hosts",
         "paragraphs": [
-          "Soccer is a group outing more often than not. A Sprinter van carries up to 14 supporters together, which suits youth teams attending with coaches, office parties and birthday groups. For larger numbers we run multiple vehicles that arrive together. Corporate hosts often book sedans or SUVs for clients with collection from downtown hotels or directly from Reagan National, which is only minutes away."
+          "Soccer is a group outing more often than not. A Sprinter van carries up to 13 supporters together, which suits youth teams attending with coaches, office parties and birthday groups. For larger numbers we run multiple vehicles that arrive together. Corporate hosts often book sedans or SUVs for clients with collection from downtown hotels or directly from Reagan National, which is only minutes away."
         ]
       }
     ],
@@ -2410,13 +2410,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -2445,7 +2445,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "Can you take a youth team or large group?",
-        "a": "Yes. Sprinter vans seat up to 14 and we can coordinate several. Car seats are available on request for younger children. Sprinter and special-event bookings can be cancelled free up to 12 hours before pickup."
+        "a": "Yes. Sprinter vans seat up to 13 and we can coordinate several. Car seats are available on request for younger children. Sprinter and special-event bookings can be cancelled free up to 12 hours before pickup."
       }
     ],
     "related": [
@@ -2573,13 +2573,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -2746,13 +2746,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -2858,7 +2858,7 @@ export const MARYLAND_BATCH3 = [
       "We serve ceremonies at Georgetown University, the George Washington University, American University, Howard University, The Catholic University of America, George Mason University in Fairfax and the University of Maryland in College Park, along with law, medical and graduate school ceremonies, high school graduations and the celebration dinners that follow."
     ],
     "highlights": [
-      "Sprinter vans for up to 14 so the whole family travels in one vehicle",
+      "Sprinter vans for up to 13 so the whole family travels in one vehicle",
       "Drop-off as close to the ceremony as campus closures allow, which matters for older relatives",
       "Airport and Union Station pickups for arriving family, with flight tracking and complimentary wait time",
       "Hourly service covering the ceremony, photographs, the department reception and dinner",
@@ -2876,7 +2876,7 @@ export const MARYLAND_BATCH3 = [
       {
         "h2": "Why families choose a Sprinter",
         "paragraphs": [
-          "A graduation party is rarely two people. With a Sprinter van, grandparents do not have to walk from a remote garage, nobody is separated in a convoy of rideshares, and gowns, flowers, cameras and gifts ride along without being crushed. The chauffeur drops everyone together, moves the vehicle away from campus congestion and returns when you call. For parties larger than 14 we coordinate additional vehicles to arrive together."
+          "A graduation party is rarely two people. With a Sprinter van, grandparents do not have to walk from a remote garage, nobody is separated in a convoy of rideshares, and gowns, flowers, cameras and gifts ride along without being crushed. The chauffeur drops everyone together, moves the vehicle away from campus congestion and returns when you call. For parties larger than 13 we coordinate additional vehicles to arrive together."
         ]
       },
       {
@@ -2915,13 +2915,13 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
@@ -2938,7 +2938,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "What vehicle is best for a family of eight to twelve?",
-        "a": "A Mercedes Sprinter van, which seats up to 14 with room for bags and gifts. Families of up to six are comfortable in a Lincoln Navigator or Suburban, and graduates celebrating with friends often choose a stretch limousine for up to 8."
+        "a": "A Mercedes Sprinter van, which seats up to 13 with room for bags and gifts. Families of up to six are comfortable in a Lincoln Navigator, or up to five in a Suburban, and graduates celebrating with friends often choose a stretch limousine for up to 8."
       },
       {
         "q": "Do you cover graduations outside the District?",

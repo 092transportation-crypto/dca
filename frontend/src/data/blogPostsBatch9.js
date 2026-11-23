@@ -494,13 +494,13 @@ export const BLOG_POSTS_BATCH9 = [
       <h2>Typical hourly rates by vehicle</h2>
       <ul>
         <li><strong>Stretch limousine (up to 8 passengers):</strong> generally $120–$160 per hour, with a 4–5 hour minimum on prom weekends.</li>
-        <li><strong>Premium SUV — Navigator or Suburban (up to 6 passengers):</strong> generally $110–$150 per hour.</li>
-        <li><strong>Mercedes Sprinter van (up to 14 passengers):</strong> generally $160–$210 per hour — the best per-person value for larger groups.</li>
+        <li><strong>SUV — Navigator (up to 6 passengers) or Suburban (up to 5):</strong> generally $110–$150 per hour.</li>
+        <li><strong>Mercedes Sprinter van (up to 13 passengers):</strong> generally $160–$210 per hour — the best per-person value for larger groups.</li>
       </ul>
       <p>Peak Maryland prom Saturdays in April and May carry the highest demand of the year for these vehicles, and rates (along with availability) tighten the closer you book to the date.</p>
 
       <h2>The per-person math, worked out</h2>
-      <p>A stretch limousine at $140/hour for a 5-hour night runs $700 total. Split eight ways, that is $87.50 per person. A Sprinter van at $185/hour for the same 5 hours runs $925 total — but split across 14 passengers, that is $66 per person, noticeably cheaper per head despite the higher total, because the per-person cost drops as the group grows into the van's capacity. The practical lesson: a smaller group of six splitting a limousine pays meaningfully more per person than a larger group of twelve to fourteen filling a Sprinter van.</p>
+      <p>A stretch limousine at $140/hour for a 5-hour night runs $700 total. Split eight ways, that is $87.50 per person. A Sprinter van at $185/hour for the same 5 hours runs $925 total — but split across 13 passengers, that is about $71 per person, noticeably cheaper per head despite the higher total, because the per-person cost drops as the group grows into the van's capacity. The practical lesson: a smaller group of six splitting a limousine pays meaningfully more per person than a larger group of twelve to thirteen filling a Sprinter van.</p>
 
       <h2>What is included in the hourly rate</h2>
       <p>The quoted hourly rate includes the vehicle, fuel, and a licensed, background-checked chauffeur for the full confirmed block — there is no separate driver fee or fuel surcharge added at the end of the night. Standard amenities (bottled water, interior lighting for photos) are included; a few companies charge extra for decoration or a specific arrival request, so confirm that up front if your group wants anything beyond the standard package.</p>
@@ -527,7 +527,7 @@ export const BLOG_POSTS_BATCH9 = [
       },
       {
         q: 'Is a Sprinter van cheaper per person than a stretch limousine for prom?',
-        a: 'Usually, once the group is large enough to fill most of its 14-passenger capacity. A smaller group splitting a limousine often pays more per head than a larger group filling a van, even though the van\'s total hourly rate is higher.',
+        a: 'Usually, once the group is large enough to fill most of its 13-passenger capacity. A smaller group splitting a limousine often pays more per head than a larger group filling a van, even though the van\'s total hourly rate is higher.',
       },
       {
         q: 'How many hours should we book for prom night?',
@@ -633,7 +633,7 @@ export const BLOG_POSTS_BATCH9 = [
       <p>Navigators and Suburbans see heavier demand relative to their numbers in the fleet, since they serve both airport families with luggage and smaller corporate groups. A few days' lead time meaningfully improves your odds of getting your specific requested vehicle rather than a comparable substitute, particularly on weekends.</p>
 
       <h2>Sprinter vans: book weeks ahead, not days</h2>
-      <p>Sprinter vans are the vehicle most likely to be fully booked on any given weekend, because they serve the highest-value, least-flexible use cases: wedding parties, corporate roadshows, and large family or group airport transfers. A single Sprinter van can only be in one place at a time, and there are meaningfully fewer of them in any fleet than sedans. If your trip needs a 14-passenger van — a family reunion airport pickup, a bachelorette party, a corporate team — two to four weeks of lead time is the realistic minimum during busy seasons, not an overcautious buffer.</p>
+      <p>Sprinter vans are the vehicle most likely to be fully booked on any given weekend, because they serve the highest-value, least-flexible use cases: wedding parties, corporate roadshows, and large family or group airport transfers. A single Sprinter van can only be in one place at a time, and there are meaningfully fewer of them in any fleet than sedans. If your trip needs a 13-passenger van — a family reunion airport pickup, a bachelorette party, a corporate team — two to four weeks of lead time is the realistic minimum during busy seasons, not an overcautious buffer.</p>
 
       <h2>Stretch limousines: similar scarcity, tied to event season</h2>
       <p>Limousines face the same scarcity logic as Sprinter vans but concentrated even more tightly around wedding and prom season weekends. A limousine booked for a specific Saturday in April or May competes directly with every other wedding and prom happening that same weekend across the region — book two to three months out for peak-season Saturdays specifically, even though a Tuesday booking the same month might be available on much shorter notice.</p>

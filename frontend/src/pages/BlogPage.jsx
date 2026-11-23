@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Card, CardContent } from '@/components/ui/card';
 import { Calendar, Clock, User, ArrowRight } from 'lucide-react';
 import FaqSection from '@/components/FaqSection';
+import { imageAlt } from '@/lib/imageAlt';
 import { PAGE_FAQS } from '@/data/pageFaqs';
 import { BLOG_POSTS } from '@/data/blogPosts';
 import { GUIDES } from '@/data/guides';
@@ -89,7 +90,7 @@ const BlogPage = () => {
                   <div className="relative h-48 sm:h-56 overflow-hidden">
                     <img 
                       src={post.image}
-                      alt={post.title}
+                      alt={imageAlt(post.image, post.title)}
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
