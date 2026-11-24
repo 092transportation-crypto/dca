@@ -36,23 +36,23 @@ const VEHICLES = [
     best: 'wedding parties, corporate teams and groups',
   },
   {
-    name: 'Stretch limousine',
-    cls: 'Limousine',
-    seats: 8,
-    best: 'proms, weddings and celebrations',
+    name: 'Lincoln Nautilus',
+    cls: 'Midsize SUV',
+    seats: 3,
+    best: 'couples and solo travelers with extra bags',
   },
 ];
 
 const AIRPORT_STATS = [
   { label: 'Airport', value: 'Reagan National (DCA), Arlington, VA' },
-  { label: 'Fleet', value: 'Sedans · SUVs · Sprinters · Limos' },
+  { label: 'Fleet', value: 'Sedans · SUVs · Sprinter vans' },
   { label: 'Pricing', value: 'Flat rate, confirmed before you ride' },
   { label: 'Dispatch', value: '24 / 7' },
 ];
 
 const SERVICE_STATS = [
   { label: 'Coverage', value: 'Washington DC, Northern VA & Maryland' },
-  { label: 'Fleet', value: 'Sedans · SUVs · Sprinters · Limos' },
+  { label: 'Fleet', value: 'Sedans · SUVs · Sprinter vans' },
   { label: 'Pricing', value: 'Flat rate or hourly, confirmed before you book' },
   { label: 'Booking', value: '24 / 7' },
 ];
@@ -126,7 +126,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'How is a meet and greet transfer priced and cancelled?',
-        a: 'It is quoted as one flat rate with the transfer, confirmed before you ride. Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans and limousines up to 12 hours. Call (877) 609-1919 for a quote.',
+        a: 'It is quoted as one flat rate with the transfer, confirmed before you ride. Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans up to 12 hours. Call (877) 609-1919 for a quote.',
       },
     ],
     related: [
@@ -275,7 +275,7 @@ export const MARYLAND_BATCH4 = [
     faqs: [
       {
         q: 'What is included in a DCA black car flat rate?',
-        a: 'The vehicle, the chauffeur, flight tracking and the complimentary wait time. The rate is confirmed before you ride and does not change with traffic or demand. Tolls and gratuity are handled as explained on your confirmation.',
+        a: 'The vehicle, the chauffeur, flight tracking and the complimentary wait time. The rate is confirmed before you ride and does not change with traffic or demand. A 20% gratuity is added to the rate, and your written quote shows the full total, tolls included, before you confirm.',
       },
       {
         q: 'Where does the chauffeur pick up at Reagan National?',
@@ -291,7 +291,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'What is the cancellation policy?',
-        a: 'Sedans and SUVs cancel free of charge up to 3 hours before pickup; Sprinter vans, limousines and special-event bookings up to 12 hours before. Call (877) 609-1919 to change or cancel.',
+        a: 'Sedans and SUVs cancel free of charge up to 3 hours before pickup; Sprinter vans and special-event bookings up to 12 hours before. Call (877) 609-1919 to change or cancel.',
       },
     ],
     related: [
@@ -317,16 +317,16 @@ export const MARYLAND_BATCH4 = [
     h1: 'Reagan National Airport Limo Service',
     metaTitle: 'Reagan National (DCA) Limo Service | Flat Rate, On Time',
     metaDescription:
-      'DCA airport limo service with flight tracking, meet-and-greet & a flat rate locked before you land. Sedans, SUVs, Sprinters & limos. Call (877) 609-1919.',
+      'DCA airport limo service with flight tracking, meet-and-greet & a flat rate locked before you land. Sedans, SUVs & Sprinter vans. Call (877) 609-1919.',
     stats: AIRPORT_STATS,
     intro: [
-      'Ronald Reagan Washington National Airport sits on the Virginia bank of the Potomac, a few minutes from the monuments, and it is the airport most visitors to Washington would choose if they could. DCA Limos is based on serving it. Our chauffeurs drive to and from Reagan National every day, from the first departures to the last arrivals, in sedans, SUVs, Sprinter vans and stretch limousines.',
+      'Ronald Reagan Washington National Airport sits on the Virginia bank of the Potomac, a few minutes from the monuments, and it is the airport most visitors to Washington would choose if they could. DCA Limos is based on serving it. Our chauffeurs drive to and from Reagan National every day, from the first departures to the last arrivals, in sedans, SUVs and Sprinter vans.',
       'Reagan National limo service means more than the vehicle. It means a flight that is tracked, a chauffeur who knows the terminal, a flat rate confirmed before you ride and a dispatch desk that answers at any hour. Whether you are landing for a meeting on the Hill, a wedding in Georgetown or a week with family in Bethesda, the ride is arranged before you board.',
     ],
     highlights: [
       'Every Reagan National arrival tracked in real time; chauffeur positioned for the actual landing',
       'Flat rates to Washington DC, Northern Virginia and Maryland, confirmed before you ride',
-      'Sedans and SUVs for individuals and families; Sprinter vans and stretch limousines for groups and occasions',
+      'Sedans and SUVs for individuals and families; Sprinter vans for groups and occasions',
       'Complimentary wait time on every airport pickup, with optional meet and greet inside',
       'Licensed, background-checked chauffeurs and commercially insured vehicles',
       '24/7 dispatch for the earliest departures and the latest arrivals',
@@ -347,10 +347,10 @@ export const MARYLAND_BATCH4 = [
         ],
       },
       {
-        h2: 'Stretch limousines, Sprinters and special occasions',
+        h2: 'Sprinters, SUVs and special occasions',
         paragraphs: [
-          'Not every airport ride is a business trip. Wedding parties collect out-of-town guests, families welcome relatives home, and companies bring in a guest of honor. For those moments the stretch limousine and the Mercedes Sprinter van keep everyone together from the terminal to the destination, with the same chauffeur standards as our sedans and a rate confirmed before you book.',
-          'Reservations can be made online or with dispatch at (877) 609-1919. Sedans and SUVs cancel free up to 3 hours before pickup, and Sprinters, limousines and special-event bookings up to 12 hours.',
+          'Not every airport ride is a business trip. Wedding parties collect out-of-town guests, families welcome relatives home, and companies bring in a guest of honor. For those moments the Sprinter Executive, with its upgraded cabin and mood lighting, or a Lincoln Navigator keeps everyone together from the terminal to the destination, with the same chauffeur standards as our sedans and a rate confirmed before you book.',
+          'Reservations can be made online or with dispatch at (877) 609-1919. Sedans and SUVs cancel free up to 3 hours before pickup, and Sprinters and special-event bookings up to 12 hours.',
         ],
       },
     ],
@@ -366,7 +366,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'Can I hire a stretch limousine from Reagan National?',
-        a: 'Yes. Stretch limousines and Sprinter vans are available for weddings, celebrations and group arrivals. Give us a little more notice than for a sedan, and note that these vehicles cancel free up to 12 hours before pickup.',
+        a: 'No — we don\'t run stretch limousines. For weddings, celebrations and group arrivals we recommend the Sprinter Executive for up to 13 or a Lincoln Navigator for up to six. Give us a little more notice for a Sprinter, which cancels free up to 12 hours before pickup.',
       },
       {
         q: 'Do you serve Maryland and Virginia from Reagan National, or just DC?',
@@ -568,14 +568,14 @@ export const MARYLAND_BATCH4 = [
     h1: 'Washington DC Wedding Limo Service',
     metaTitle: 'Washington DC Wedding Limo Service | DCA Limos',
     metaDescription:
-      'Wedding limo service in Washington DC: stretch limousines, Sprinter vans and black cars for the couple, the party and guests. Flat rates. Call (877) 609-1919.',
+      'Wedding limo service in Washington DC: Sprinter vans, SUVs and black cars for the couple, the party and guests. Flat rates. Call (877) 609-1919.',
     stats: SERVICE_STATS,
     intro: [
-      'A Washington wedding moves between places: a ceremony at a church in Georgetown or a chapel on a university campus, photographs on the Mall or at the Tidal Basin, a reception in a hotel ballroom, a museum or a rooftop, and a hotel for the night. DCA Limos keeps the couple, the wedding party and the guests on schedule between all of them with a stretch limousine, Sprinter vans and black cars driven by licensed, background-checked chauffeurs.',
+      'A Washington wedding moves between places: a ceremony at a church in Georgetown or a chapel on a university campus, photographs on the Mall or at the Tidal Basin, a reception in a hotel ballroom, a museum or a rooftop, and a hotel for the night. DCA Limos keeps the couple, the wedding party and the guests on schedule between all of them with Sprinter vans, Lincoln Navigators and black cars driven by licensed, background-checked chauffeurs.',
       'Wedding transportation is planned once and then forgotten about, which is the point. We build a timeline with you, confirm a rate before you book, and assign chauffeurs who know how to reach the venue door on a Saturday when the city is busy with everyone else’s plans.',
     ],
     highlights: [
-      'Stretch limousine for the couple and the wedding party, with a chauffeur who waits through the ceremony',
+      'Sprinter Executive for the wedding party and a first-class sedan or Navigator for the couple, with a chauffeur who waits through the ceremony',
       'Sprinter vans for guest shuttles between hotels, ceremony and reception',
       'Black car service for parents, grandparents and VIP guests',
       'Chauffeurs who know Georgetown, Capitol Hill, the Mall and the hotel entrances downtown',
@@ -586,8 +586,8 @@ export const MARYLAND_BATCH4 = [
       {
         h2: 'Wedding limo service for the couple and the party',
         paragraphs: [
-          'The stretch limousine seats eight and is the traditional choice for the ride from getting-ready suite to ceremony and on to the reception, with room for a gown and the people who need to be close. The chauffeur waits during the ceremony and photographs and is at the door when the couple is ready, which removes the one part of the day nobody wants to manage from the church steps.',
-          'For larger parties we pair the limousine with a Sprinter van so that the bridesmaids, groomsmen and photographer travel together and arrive at the same time. The order of pickups and the addresses go into the timeline in advance and the chauffeurs follow it.',
+          'A first-class sedan or a Lincoln Navigator is the usual choice for the couple\'s ride from getting-ready suite to ceremony and on to the reception, with room for a gown and the people who need to be close. The chauffeur waits during the ceremony and photographs and is at the door when the couple is ready, which removes the one part of the day nobody wants to manage from the church steps.',
+          'For larger parties we pair the couple\'s car with a Sprinter Executive, which seats up to 13, so that the bridesmaids, groomsmen and photographer travel together and arrive at the same time. The order of pickups and the addresses go into the timeline in advance and the chauffeurs follow it.',
         ],
       },
       {
@@ -607,7 +607,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: 'Popular DC wedding settings and their logistics',
         paragraphs: [
-          'Georgetown\'s brick side streets and Capitol Hill\'s rowhouse blocks were both built before cars, and a stretch limousine often cannot reach every church or private residence directly — our chauffeurs confirm the realistic staging point for each specific address rather than assuming street-level access everywhere. Union Station\'s Great Hall, Meridian House in Kalorama, and the hotel ballrooms around Dupont Circle and the Convention Center are more straightforward, each with a known loading entrance our drivers already use.',
+          'Georgetown\'s brick side streets and Capitol Hill\'s rowhouse blocks were both built before cars, and a larger vehicle such as a Sprinter often cannot reach every church or private residence directly — our chauffeurs confirm the realistic staging point for each specific address rather than assuming street-level access everywhere. Union Station\'s Great Hall, Meridian House in Kalorama, and the hotel ballrooms around Dupont Circle and the Convention Center are more straightforward, each with a known loading entrance our drivers already use.',
           'Couples marrying at the National Cathedral or a church near the Wharf waterfront should plan for weekend tourist and restaurant traffic around both areas; we route accordingly and build it into the published timeline rather than treating it as a surprise on the day. For couples who want the specific detail for one of these neighborhoods, our Georgetown, Capitol Hill, Dupont Circle and National Cathedral pages cover each in more depth.',
         ],
       },
@@ -616,7 +616,7 @@ export const MARYLAND_BATCH4 = [
     faqs: [
       {
         q: 'How far in advance should we book a wedding limo in Washington DC?',
-        a: 'As soon as the date and venues are set. Stretch limousines and Sprinter vans are limited, and spring and autumn Saturdays are the busiest. Once booked, the timeline can be adjusted as the plans firm up.',
+        a: 'As soon as the date and venues are set. Sprinter vans are limited, and spring and autumn Saturdays are the busiest. Once booked, the timeline can be adjusted as the plans firm up.',
       },
       {
         q: 'Can you provide a guest shuttle between the hotel and the venue?',
@@ -632,7 +632,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'What is the cancellation policy for wedding transportation?',
-        a: 'Limousines, Sprinter vans and special-event bookings cancel free up to 12 hours before pickup; sedans and SUVs up to 3 hours. Call (877) 609-1919 to change dates or vehicles.',
+        a: 'Sprinter vans and special-event bookings cancel free up to 12 hours before pickup; sedans and SUVs up to 3 hours. Call (877) 609-1919 to change dates or vehicles.',
       },
     ],
     related: [
@@ -804,7 +804,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'How do I cancel or change a booking?',
-        a: 'Call (877) 609-1919 or reply to your confirmation. Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans and limousines up to 12 hours.',
+        a: 'Call (877) 609-1919 or reply to your confirmation. Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans up to 12 hours.',
       },
     ],
     related: [
@@ -829,14 +829,14 @@ export const MARYLAND_BATCH4 = [
     h1: 'Washington DC Prom Limo Service',
     metaTitle: 'Washington DC Prom Limo Service | DCA Limos',
     metaDescription:
-      'Prom limo service in Washington DC: stretch limos and Sprinter vans, licensed chauffeurs, fixed itineraries and parent-approved rules. Call (877) 609-1919.',
+      'Prom limo service in Washington DC: Sprinter vans and SUVs, licensed chauffeurs, fixed itineraries and parent-approved rules. Call (877) 609-1919.',
     stats: SERVICE_STATS,
     intro: [
-      'Prom night in Washington is a small production: photographs at someone’s house, dinner in Penn Quarter or Georgetown, the dance at a hotel ballroom or a venue on the waterfront, and a safe ride home for everyone. DCA Limos provides prom limo service for students across the District, Northern Virginia and Maryland, with a stretch limousine or a Sprinter van, a licensed chauffeur and an itinerary agreed with parents before the night begins.',
+      'Prom night in Washington is a small production: photographs at someone’s house, dinner in Penn Quarter or Georgetown, the dance at a hotel ballroom or a venue on the waterfront, and a safe ride home for everyone. DCA Limos provides prom limo service for students across the District, Northern Virginia and Maryland, with a Sprinter van, a licensed chauffeur and an itinerary agreed with parents before the night begins.',
       'The rate is confirmed when you book, the chauffeur stays with the group from first pickup to last drop-off, and the rules are simple and non-negotiable.',
     ],
     highlights: [
-      'Stretch limousine for up to eight; Mercedes Sprinter van for larger groups',
+      'Lincoln Navigator for up to six; Mercedes Sprinter van for larger groups',
       'Licensed, background-checked chauffeurs and commercially insured vehicles',
       'Itinerary with pickup addresses, dinner, venue and drop-offs fixed in advance',
       'Parents receive the confirmation and the chauffeur’s contact details',
@@ -852,9 +852,9 @@ export const MARYLAND_BATCH4 = [
         ],
       },
       {
-        h2: 'Choosing between a stretch limousine and a Sprinter',
+        h2: 'Choosing between a Navigator and a Sprinter',
         paragraphs: [
-          'The stretch limousine is the classic choice and seats eight comfortably in formal wear. Groups larger than that are better served by the Sprinter van, which seats up to thirteen, has more headroom for hair and dresses and makes it easier for everyone to travel together rather than splitting into two cars. Both are driven by chauffeurs who handle prom season every year.',
+          'We don\'t operate stretch limousines; prom groups ride in a Lincoln Navigator, which seats six in formal wear, or a Sprinter Executive. Groups larger than six are better served by the Sprinter, which seats up to thirteen, has more headroom for hair and dresses and makes it easier for everyone to travel together rather than splitting into two cars. Both are driven by chauffeurs who handle prom season every year.',
           'Photographs at the pickup are part of the tradition, so we ask the chauffeur to allow time for them before the first departure.',
         ],
       },
@@ -870,7 +870,7 @@ export const MARYLAND_BATCH4 = [
     faqs: [
       {
         q: 'How many students fit in a prom limo?',
-        a: 'The stretch limousine seats eight. For larger groups the Mercedes Sprinter van seats up to thirteen with room for formal wear. Larger parties can be split across coordinated vehicles.',
+        a: 'A Lincoln Navigator seats six. For larger groups the Mercedes Sprinter Executive seats up to thirteen with room for formal wear. Larger parties can be split across coordinated vehicles.',
       },
       {
         q: 'Does the chauffeur stay during dinner and the dance?',
@@ -882,11 +882,11 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'When should we book for prom?',
-        a: 'As soon as the date is known. Stretch limousines and Sprinters are limited during prom season in late spring, and popular Saturdays are reserved well in advance.',
+        a: 'As soon as the date is known. Sprinter vans are limited during prom season in late spring, and popular Saturdays are reserved well in advance.',
       },
       {
         q: 'Can the booking be changed or cancelled?',
-        a: 'Limousines and Sprinter vans cancel free up to 12 hours before pickup. Itinerary changes such as an added pickup address can be made by calling (877) 609-1919 before the night.',
+        a: 'Sprinter vans cancel free up to 12 hours before pickup. Itinerary changes such as an added pickup address can be made by calling (877) 609-1919 before the night.',
       },
     ],
     related: [
@@ -1006,7 +1006,7 @@ export const MARYLAND_BATCH4 = [
     ],
     intro: [
       'Georgetown is the oldest part of Washington and the hardest part to drive. Federal rowhouses line narrow one-way streets, M Street and Wisconsin Avenue carry the shopping crowds, and there is no Metro station, which is one reason a chauffeur makes so much sense here. DCA Limos serves Georgetown daily: airport transfers, hotel pickups, university visits, dinners along the waterfront and weddings at the neighborhood’s churches and historic houses.',
-      'Every trip is driven by a licensed, background-checked chauffeur in a sedan, SUV, Sprinter van or stretch limousine, with a flat rate or hourly price confirmed before you book.',
+      'Every trip is driven by a licensed, background-checked chauffeur in a sedan, SUV or Sprinter van, with a flat rate or hourly price confirmed before you book.',
     ],
     highlights: [
       'Airport car service to Reagan National by way of the Key Bridge and the George Washington Parkway',
@@ -1033,7 +1033,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: 'University, weddings and chauffeur service for evenings out',
         paragraphs: [
-          'Georgetown University brings families to the neighborhood for tours, move-in, family weekend and commencement, and the campus gates on 37th Street and Canal Road are easier with a chauffeur who knows which one is open. Wedding parties use the stretch limousine and Sprinter van between ceremonies at the neighborhood’s churches and receptions at historic houses, hotels and the waterfront.',
+          'Georgetown University brings families to the neighborhood for tours, move-in, family weekend and commencement, and the campus gates on 37th Street and Canal Road are easier with a chauffeur who knows which one is open. Wedding parties use the Sprinter Executive and Lincoln Navigator between ceremonies at the neighborhood’s churches and receptions at historic houses, hotels and the waterfront.',
           'For dinner on M Street, a walk along the C&O Canal or a night out along the harbor, an hourly black car service keeps the vehicle nearby and the evening unhurried. Call (877) 609-1919 or book online.',
         ],
       },
@@ -1054,11 +1054,11 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'Can I book a wedding limo in Georgetown?',
-        a: 'Yes. Stretch limousines, Sprinter vans and black cars are available for ceremonies and receptions in Georgetown, with a timeline built in advance and the rate confirmed before you book.',
+        a: 'Yes. Sprinter vans and black cars are available for ceremonies and receptions in Georgetown, with a timeline built in advance and the rate confirmed before you book.',
       },
       {
         q: 'What is the cancellation policy?',
-        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans, limousines and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
+        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
       },
     ],
     related: [
@@ -1235,7 +1235,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'What is the cancellation policy?',
-        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans and limousines up to 12 hours. Changes can be made by calling (877) 609-1919.',
+        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans up to 12 hours. Changes can be made by calling (877) 609-1919.',
       },
     ],
     related: [
@@ -1321,7 +1321,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'How do I book and what is the cancellation policy?',
-        a: 'Book online or call (877) 609-1919. Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans and limousines up to 12 hours.',
+        a: 'Book online or call (877) 609-1919. Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans up to 12 hours.',
       },
     ],
     related: [
@@ -1407,7 +1407,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'What is the cancellation policy?',
-        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans, limousines and event bookings up to 12 hours. Call (877) 609-1919 to change a reservation.',
+        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans and event bookings up to 12 hours. Call (877) 609-1919 to change a reservation.',
       },
     ],
     related: [
@@ -1441,7 +1441,7 @@ export const MARYLAND_BATCH4 = [
     ],
     intro: [
       'Penn Quarter is downtown Washington at its busiest: Capital One Arena and its game and concert crowds, the theaters along 7th Street and E Street, the museums around the Portrait Gallery, the restaurants of Chinatown and the hotels and law firms that fill the blocks between Pennsylvania Avenue and the convention center. DCA Limos runs limo and car service through all of it with chauffeurs who know which streets close for an event and which hotel uses which door.',
-      'Sedans and SUVs for business travelers and couples, Sprinter vans for groups and stretch limousines for occasions, each with a licensed, background-checked chauffeur and a rate confirmed before you book.',
+      'Sedans and SUVs for business travelers and couples, Sprinter vans for groups and the Sprinter Executive for celebrations, each with a licensed, background-checked chauffeur and a rate confirmed before you book.',
     ],
     highlights: [
       'Airport car service to Reagan National, Dulles and BWI with flight tracking',
@@ -1493,7 +1493,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'What is the cancellation policy?',
-        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans and limousines up to 12 hours. Call (877) 609-1919 to change a reservation.',
+        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans up to 12 hours. Call (877) 609-1919 to change a reservation.',
       },
     ],
     related: [
@@ -1530,13 +1530,13 @@ export const MARYLAND_BATCH4 = [
     ],
     intro: [
       'Adams Morgan is the neighborhood Washington goes to when it wants a night out. The stretch of 18th Street between Columbia Road and Florida Avenue is bars, restaurants and music, and the rowhouse streets around it are home to residents who value the energy but not the parking. There is no Metro station in the neighborhood itself, which makes a chauffeur especially welcome. DCA Limos provides limo and car service for residents, hotel guests and groups celebrating in Adams Morgan.',
-      'Sedans, SUVs, Sprinter vans and stretch limousines, each with a licensed, background-checked chauffeur, at a flat rate or hourly price confirmed before you book.',
+      'Sedans, SUVs and Sprinter vans, each with a licensed, background-checked chauffeur, at a flat rate or hourly price confirmed before you book.',
     ],
     highlights: [
       'Airport car service to Reagan National, Dulles and BWI with flight tracking',
       'Nights out on 18th Street and Columbia Road with an agreed pickup point away from the crowd',
       'Hotel pickups for the neighborhood’s boutique properties',
-      'Sprinter vans and limousines for birthdays, bachelor and bachelorette parties',
+      'Sprinter vans and SUVs for birthdays, bachelor and bachelorette parties',
       'Residential service for Lanier Heights, Kalorama Triangle and the streets off Columbia Road',
       'Flat rates confirmed before you book and 24/7 dispatch',
     ],
@@ -1557,7 +1557,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: 'Celebrations, hotels and black car service for residents',
         paragraphs: [
-          'Birthdays, bachelor and bachelorette parties and reunions often start or end in Adams Morgan, and a Sprinter van or stretch limousine keeps the group together between dinner, the bars and home. Guests at the neighborhood’s boutique hotels use us for airport transfers and for evenings elsewhere in the city.',
+          'Birthdays, bachelor and bachelorette parties and reunions often start or end in Adams Morgan, and a Sprinter van keeps the group together between dinner, the bars and home. Guests at the neighborhood’s boutique hotels use us for airport transfers and for evenings elsewhere in the city.',
           'Residents book the black car for the ordinary reasons: an early flight, a wedding in Maryland, a night at the Kennedy Center or a dinner in Georgetown. Call (877) 609-1919 or book online for a confirmed rate.',
         ],
       },
@@ -1573,8 +1573,8 @@ export const MARYLAND_BATCH4 = [
         a: 'At an agreed corner just off the strip, typically on Columbia Road, Florida Avenue or a side street, confirmed by text so the car is easy to find and can stop safely.',
       },
       {
-        q: 'Can you provide a limousine or van for a bachelorette or birthday party?',
-        a: 'Yes. The stretch limousine seats eight and the Sprinter van up to thirteen. Party bookings are hourly, with the chauffeur staying with the group, and cancel free up to 12 hours before pickup.',
+        q: 'Can you provide a vehicle for a bachelorette or birthday party?',
+        a: 'Yes. A Lincoln Navigator seats six and the Sprinter Executive up to thirteen. Party bookings are hourly, with the chauffeur staying with the group, and cancel free up to 12 hours before pickup.',
       },
       {
         q: 'Is there a minimum for a short trip from Adams Morgan?',
@@ -1616,7 +1616,7 @@ export const MARYLAND_BATCH4 = [
     ],
     intro: [
       'Logan Circle is Victorian rowhouses around a park, with the 14th Street corridor running along its western edge: restaurants, shops, theaters and the bars that make it one of the city’s busiest evening streets. Shaw and U Street are next door, downtown is a few blocks south, and Reagan National is a short drive across the river. DCA Limos provides limo and car service for the neighborhood’s residents and for the visitors who stay in its hotels and guesthouses.',
-      'Sedans, SUVs, Sprinter vans and stretch limousines, each with a licensed, background-checked chauffeur and a flat rate or hourly price confirmed before you book.',
+      'Sedans, SUVs and Sprinter vans, each with a licensed, background-checked chauffeur and a flat rate or hourly price confirmed before you book.',
     ],
     highlights: [
       'Airport car service to Reagan National, Dulles and BWI with flight tracking',
@@ -1643,7 +1643,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: 'Weddings, occasions and black car service for residents',
         paragraphs: [
-          'The neighborhood’s historic churches host weddings throughout the year, and a stretch limousine or Sprinter van moves the party from a getting-ready suite to the ceremony and on to a reception downtown or in Georgetown. Anniversaries, birthdays and theater nights use the same vehicles on an hourly booking.',
+          'The neighborhood’s historic churches host weddings throughout the year, and a Sprinter van moves the party from a getting-ready suite to the ceremony and on to a reception downtown or in Georgetown. Anniversaries, birthdays and theater nights use the same vehicles on an hourly booking.',
           'Residents rely on the black car for early flights, evenings at the Kennedy Center and trips to Bethesda, Arlington and beyond. Call (877) 609-1919 or book online; the rate is confirmed before you ride.',
         ],
       },
@@ -1660,7 +1660,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'Can you provide wedding transportation from a Logan Circle church?',
-        a: 'Yes. Stretch limousines, Sprinter vans and black cars are available with a timeline built in advance. Wedding bookings cancel free up to 12 hours before pickup.',
+        a: 'Yes. Sprinter vans and black cars are available with a timeline built in advance. Wedding bookings cancel free up to 12 hours before pickup.',
       },
       {
         q: 'Do you offer hourly service for a day in the city?',
@@ -1668,7 +1668,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'How do I book, and what is the cancellation policy for sedans?',
-        a: 'Book online or call (877) 609-1919. Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans and limousines up to 12 hours.',
+        a: 'Book online or call (877) 609-1919. Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans up to 12 hours.',
       },
     ],
     related: [
@@ -1741,7 +1741,7 @@ export const MARYLAND_BATCH4 = [
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with beach or golf luggage' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties, corporate teams and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'proms, weddings and celebrations' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -1762,7 +1762,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'What is the cancellation policy?',
-        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans, limousines and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
+        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
       },
     ],
     related: [
@@ -1834,7 +1834,7 @@ export const MARYLAND_BATCH4 = [
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with beach or golf luggage' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties, corporate teams and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'proms, weddings and celebrations' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -1855,7 +1855,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'What is the cancellation policy?',
-        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans, limousines and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
+        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
       },
     ],
     related: [
@@ -1917,7 +1917,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: 'Corporate travel, weddings and hourly service',
         paragraphs: [
-          'Springfield and the surrounding I-95 corridor host a mix of government contractors and corporate offices, and we run standing pickups and airport transfers for both under monthly-invoiced accounts. For weddings and events across Fairfax County, hourly and as-directed service keeps a Sprinter van or stretch limousine with the wedding party from getting-ready photos through the reception. Call (877) 609-1919 or book online.',
+          'Springfield and the surrounding I-95 corridor host a mix of government contractors and corporate offices, and we run standing pickups and airport transfers for both under monthly-invoiced accounts. For weddings and events across Fairfax County, hourly and as-directed service keeps a Sprinter van with the wedding party from getting-ready photos through the reception. Call (877) 609-1919 or book online.',
         ],
       },
     ],
@@ -1927,7 +1927,7 @@ export const MARYLAND_BATCH4 = [
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with beach or golf luggage' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties, corporate teams and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'proms, weddings and celebrations' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -1948,7 +1948,7 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'What is the cancellation policy?',
-        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans, limousines and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
+        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
       },
     ],
     related: [
@@ -2010,7 +2010,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: 'College, weddings and corporate travel',
         paragraphs: [
-          'The NOVA Community College Annandale campus draws regular family and visitor trips, and the community’s event halls and places of worship host weddings across the year that we serve with Sprinter vans and stretch limousines. Corporate accounts cover standing pickups and airport runs for Annandale-based businesses. Call (877) 609-1919 or book online.',
+          'The NOVA Community College Annandale campus draws regular family and visitor trips, and the community’s event halls and places of worship host weddings across the year that we serve with Sprinter vans. Corporate accounts cover standing pickups and airport runs for Annandale-based businesses. Call (877) 609-1919 or book online.',
           'Because Annandale has no station of its own, a Sprinter van is also a popular choice for groups heading to a single Metro stop together before splitting up downtown — one reserved pickup instead of several separate rideshares converging on the same platform.',
         ],
       },
@@ -2021,7 +2021,7 @@ export const MARYLAND_BATCH4 = [
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with beach or golf luggage' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties, corporate teams and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'proms, weddings and celebrations' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -2037,12 +2037,12 @@ export const MARYLAND_BATCH4 = [
         a: 'Yes, including family visits, move-in and event transportation to and from the Annandale campus.',
       },
       {
-        q: 'Can you provide a stretch limousine for an Annandale wedding?',
-        a: 'Yes. Stretch limousines and Sprinter vans are available for ceremonies and receptions, with the rate confirmed before you book.',
+        q: 'Which vehicle should we book for an Annandale wedding?',
+        a: 'Most couples book a Sprinter Executive for the wedding party and a first-class sedan or Lincoln Navigator for themselves. We don\'t run stretch limousines, and every rate is confirmed before you book.',
       },
       {
         q: 'What is the cancellation policy?',
-        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans, limousines and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
+        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
       },
     ],
     related: [
@@ -2104,7 +2104,7 @@ export const MARYLAND_BATCH4 = [
       {
         h2: 'Potomac Mills, weddings and corporate travel',
         paragraphs: [
-          'Potomac Mills and the nearby Stonebridge shopping center draw visitors from across the region, and we run shuttle-style trips for shopping groups and out-of-town guests. Along the Occoquan waterfront, event venues host weddings we serve with Sprinter vans and stretch limousines, and Prince William County businesses use corporate accounts for standing pickups and airport runs. Call (877) 609-1919 or book online.',
+          'Potomac Mills and the nearby Stonebridge shopping center draw visitors from across the region, and we run shuttle-style trips for shopping groups and out-of-town guests. Along the Occoquan waterfront, event venues host weddings we serve with Sprinter vans, and Prince William County businesses use corporate accounts for standing pickups and airport runs. Call (877) 609-1919 or book online.',
           'Woodbridge also sits a short drive up I-95 from Marine Corps Base Quantico, and we regularly run family and visitor transportation for base events, graduations and official functions — our chauffeurs are familiar with the base\'s visitor-control procedures and ID requirements and plan extra time for the gate. The Woodbridge VRE station on the Fredericksburg Line gives commuters a rail option into Union Station on weekdays, and we are a common last-mile pickup there for riders heading home after a late train or carrying luggage that makes a station transfer impractical.',
         ],
       },
@@ -2115,7 +2115,7 @@ export const MARYLAND_BATCH4 = [
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with beach or golf luggage' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties, corporate teams and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'proms, weddings and celebrations' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -2132,11 +2132,11 @@ export const MARYLAND_BATCH4 = [
       },
       {
         q: 'Do you provide wedding transportation along the Occoquan waterfront?',
-        a: 'Yes. Sprinter vans and stretch limousines are available for ceremonies and receptions at Woodbridge-area venues.',
+        a: 'Yes. Sprinter vans are available for ceremonies and receptions at Woodbridge-area venues.',
       },
       {
         q: 'What is the cancellation policy?',
-        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans, limousines and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
+        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
       },
     ],
     related: [

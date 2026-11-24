@@ -28,7 +28,7 @@ const BookingPage = () => {
             Get a <span className="text-amber-400">Free Quote</span>
           </h1>
           <p className="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto">
-            Fast response guaranteed. Reserve airport transportation, corporate car service, wedding limos &amp; more across Maryland, DC &amp; Virginia.
+            Fast response guaranteed. Reserve airport transportation, corporate car service, wedding transportation &amp; more across Maryland, DC &amp; Virginia.
           </p>
         </div>
 
@@ -47,8 +47,8 @@ const BookingPage = () => {
                 Flat-Rate Pricing — <span className="text-amber-400">No Surge, Ever</span>
               </p>
               <p className="mt-1 text-sm leading-relaxed text-gray-300">
-                Rates vary by vehicle and distance. Every quote is all-inclusive — tolls,
-                taxes &amp; gratuity. Fill out the form below for your{' '}
+                Rates vary by vehicle and distance. Every quote covers tolls and taxes, with a
+                20% gratuity added and shown up front. Fill out the form below for your{' '}
                 <span className="font-semibold text-amber-400">free quote</span>.
               </p>
             </div>
@@ -126,9 +126,9 @@ const BookingPage = () => {
             {[
               'Book at least 2 hours in advance for guaranteed availability',
               'For airport pickups, provide your flight number for real-time tracking',
-              'Free cancellation up to 3 hours before pickup for sedans and SUVs — 12 hours for Sprinter vans, limousines and special events',
+              'Free cancellation up to 3 hours before pickup for sedans and SUVs — 12 hours for Sprinter vans and special events',
               'All major credit cards accepted — secure payment processing',
-              'Gratuity and all taxes included in quoted price',
+              'Taxes included in the quoted price; 20% gratuity added and shown before you confirm',
               'Complimentary airport wait time: 45 minutes on domestic arrivals, 60 minutes on international',
             ].map((item) => (
               <li key={item} className="flex items-start gap-3">

@@ -231,10 +231,10 @@ export const BLOG_POSTS_BATCH4 = [
     title: 'Prom Limo Service in the DMV: A Parent’s Planning Guide',
     metaTitle: 'Prom Limo Service DMV | Parent’s Guide | DCA Limos',
     metaDesc:
-      'Booking prom transportation in DC, Maryland or Virginia? Here is what parents should ask about safety, pricing and group size before reserving a limo.',
+      'Booking prom transportation in DC, Maryland or Virginia? Here is what parents should ask about safety, pricing and group size before reserving a prom vehicle.',
     excerpt:
       'Prom night transportation is one booking where safety questions matter as much as the vehicle. Here is what to actually ask before reserving.',
-    image: '/images/stretch-limo.webp',
+    image: '/images/mercedes-sprinter.webp',
     author: 'Sarah Williams',
     authorBio: 'Executive travel consultant specializing in ground transportation for corporate and government clients across the DMV.',
     date: 'October 12, 2026',
@@ -250,7 +250,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>Ask specifically about the company's alcohol policy for prom bookings and how it's enforced — a professional chauffeur service has zero tolerance and a clear protocol if it's violated mid-trip, including ending the reservation and contacting parents. Get this in writing as part of the booking confirmation, not just a verbal assurance.</p>
 
       <h2>Matching Vehicle Size to Group Size</h2>
-      <p>A stretch limousine typically seats 8 to 10 comfortably; larger groups are better served by a Mercedes Sprinter van, which seats up to 13 with more room to actually move rather than being packed in for a multi-hour evening. Oversizing the group into an undersized vehicle is a common mistake that makes the whole night less comfortable.</p>
+      <p>A Lincoln Navigator seats up to 6, which suits a small group or a couple of pairs; larger groups are better served by a Mercedes Sprinter van, which seats up to 13 with more room to actually move rather than being packed in for a multi-hour evening. Oversizing the group into an undersized vehicle is a common mistake that makes the whole night less comfortable.</p>
 
       <h2>Building the Full-Night Itinerary</h2>
       <p>Most prom bookings aren't a single pickup and drop-off — they typically include a photo stop at someone's house, a group dinner reservation, the dance itself, and often an after-party stop. An hourly, as-directed reservation keeps the same chauffeur and vehicle for the entire sequence rather than booking separate one-way rides that require re-coordinating pickup times as the evening runs long or short.</p>
@@ -259,16 +259,16 @@ export const BLOG_POSTS_BATCH4 = [
       <p>A reputable service is comfortable with a parent contact being on the booking and reachable throughout the night, and some services offer real-time updates on pickup and drop-off timing. Ask directly whether this is available — it's a reasonable and increasingly common request, not an unusual one.</p>
 
       <h2>Pricing: Flat Rate, Not Hourly Surprises</h2>
-      <p>Confirm the full night's cost upfront as one flat, all-inclusive rate covering the entire booked window, gratuity policy, and any overtime charge if the group runs past the reserved hours. Vague hourly pricing with an unclear overtime rate is where prom-night bills tend to balloon unexpectedly.</p>
+      <p>Confirm the full night's cost upfront as one flat rate covering the entire booked window, with the 20% gratuity added and any overtime charge if the group runs past the reserved hours. Vague hourly pricing with an unclear overtime rate is where prom-night bills tend to balloon unexpectedly.</p>
 
       <h2>Photo Stops and Timing Buffers</h2>
       <p>Group photos at a house before prom reliably run 20 to 30 minutes longer than planned — every parent who has hosted one knows this. Build that buffer into the reservation window from the start rather than treating it as an unplanned delay that eats into dinner or dance arrival time.</p>
 
-      <h2>Choosing Between a Limousine and a Sprinter Van</h2>
-      <p>A classic stretch limousine still reads as the traditional prom-night vehicle, but a Sprinter van offers meaningfully more room for larger groups and, for some families, feels like the more comfortable and practical choice for a multi-hour evening. Either way, ask to see current photos of the specific vehicle class, not a stock image from a fleet page.</p>
+      <h2>Choosing Between a Sprinter Executive and an SUV</h2>
+      <p>We do not run stretch limousines; for prom, the Sprinter Executive is our pick for groups, with an upgraded cabin, mood lighting and room for up to 13, while a Lincoln Navigator suits a smaller group of up to six. For many families, the Sprinter feels like the more comfortable and practical choice for a multi-hour evening. Either way, ask to see current photos of the specific vehicle class, not a stock image from a fleet page.</p>
 
       <h2>Booking Timing</h2>
-      <p>Prom season is one of the highest-demand periods of the year for limousine and Sprinter van bookings across the DMV, concentrated into just a few spring weekends as area high schools schedule their dances. Reserve as soon as the date is confirmed — popular Saturday nights in April and May sell out vehicles weeks in advance.</p>
+      <p>Prom season is one of the highest-demand periods of the year for Sprinter van and SUV bookings across the DMV, concentrated into just a few spring weekends as area high schools schedule their dances. Reserve as soon as the date is confirmed — popular Saturday nights in April and May sell out vehicles weeks in advance.</p>
 
       <h2>Areas We Serve for Prom Bookings</h2>
       <p>Prom transportation bookings come from throughout Montgomery County, Fairfax County and DC itself. See <a href="/limo/prom-limo-service">our dedicated prom limo service page</a> for typical routes and pricing, or check current availability for your school's prom date directly.</p>
@@ -278,8 +278,8 @@ export const BLOG_POSTS_BATCH4 = [
     `,
     faqs: [
       { q: 'What should parents ask before booking a prom limo?', a: 'Confirm commercial licensing and insurance, background-checked chauffeurs, a written zero-tolerance alcohol policy, and whether a parent contact can stay reachable throughout the night. A legitimate operator answers all of these directly and without hesitation.' },
-      { q: 'How many people fit in a prom limo vs. a Sprinter van?', a: 'A stretch limousine typically seats 8 to 10 comfortably. Larger groups are better served by a Mercedes Sprinter van, which seats up to 13 with noticeably more room to move during a multi-hour evening.' },
-      { q: 'How far in advance should we book prom transportation?', a: 'As soon as the prom date is confirmed. Popular Saturday nights in April and May are the highest-demand dates of the year for limousines and Sprinter vans across the DMV, and vehicles sell out weeks ahead.' },
+      { q: 'How many people fit in a prom SUV vs. a Sprinter van?', a: 'A Lincoln Navigator seats up to 6, which works for a smaller prom group. Larger groups are better served by a Mercedes Sprinter van, which seats up to 13 with noticeably more room to move during a multi-hour evening.' },
+      { q: 'How far in advance should we book prom transportation?', a: 'As soon as the prom date is confirmed. Popular Saturday nights in April and May are the highest-demand dates of the year for Sprinter vans and SUVs across the DMV, and vehicles sell out weeks ahead.' },
     ],
   },
   {
@@ -340,12 +340,12 @@ export const BLOG_POSTS_BATCH4 = [
     slug: 'how-many-limos-for-wedding-party',
     relatedRoutes: ['dca-to-annapolis', 'dca-to-bethesda', 'dca-to-washington-dc'],
     title: 'How Many Cars Do You Actually Need for Your Wedding Party?',
-    metaTitle: 'How Many Limos for a Wedding? | DCA Limos',
+    metaTitle: 'How Many Cars for a Wedding? | DCA Limos',
     metaDesc:
       'Wedding party of 6? 12? 20 guests to shuttle? Here is a practical formula for figuring out exactly how many vehicles your wedding day actually needs.',
     excerpt:
       'This is the wedding logistics question almost every couple underestimates. Here is a practical way to actually calculate it, with real examples.',
-    image: '/images/blog/scenario-wedding-1.webp',
+    image: '/images/wedding-service.webp',
     author: 'Sarah Williams',
     authorBio: 'Executive travel consultant specializing in ground transportation for corporate and government clients across the DMV.',
     date: 'October 16, 2026',
@@ -370,10 +370,10 @@ export const BLOG_POSTS_BATCH4 = [
       <p>Weddings with 100-plus guests, particularly at venues with limited parking or in areas like Annapolis or wine country in Northern Virginia, often add a guest shuttle — typically a Sprinter van making repeat loops between a hotel block and the venue. This is less about luxury and more about solving a real parking and drinking-and-driving problem for your guests.</p>
 
       <h2>The Getaway Car</h2>
-      <p>The classic end-of-night departure vehicle is usually separate from whatever transported the wedding party earlier in the day, timed to arrive right as the reception wraps. A stretch limousine or a luxury sedan both work well here — it's more about the moment than the capacity.</p>
+      <p>The classic end-of-night departure vehicle is usually separate from whatever transported the wedding party earlier in the day, timed to arrive right as the reception wraps. A First Class sedan or a Lincoln Navigator both work well here — it's more about the moment than the capacity.</p>
 
       <h2>A Worked Example: 8-Person Wedding Party, Two Venues, 120 Guests</h2>
-      <p>This is a genuinely common DMV wedding shape. A realistic vehicle plan: one Sprinter van for the 8-person wedding party plus the couple, one sedan for both sets of parents, one or two Sprinter vans running a guest shuttle loop between the hotel and venue, and a separate sedan or limousine for the getaway. That's 4 to 5 vehicles total, booked as a coordinated package rather than four separate reservations.</p>
+      <p>This is a genuinely common DMV wedding shape. A realistic vehicle plan: one Sprinter van for the 8-person wedding party plus the couple, one sedan for both sets of parents, one or two Sprinter vans running a guest shuttle loop between the hotel and venue, and a separate sedan or Navigator for the getaway. That's 4 to 5 vehicles total, booked as a coordinated package rather than four separate reservations.</p>
 
       <h2>Booking as One Coordinated Package</h2>
       <p>Rather than booking each vehicle separately, most DMV wedding car services coordinate the full day's vehicles under one point of contact, so timing between the wedding party pickup, parent transportation, and any guest shuttle stays synced without you managing multiple vendors.</p>
@@ -487,7 +487,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>Many chauffeur services can arrange small touches in the vehicle ahead of time — chilled champagne, a bouquet, a handwritten note — with enough advance notice. Ask what's possible when you book rather than assuming it isn't an option.</p>
 
       <h2>Vehicle Choice for the Occasion</h2>
-      <p>A Mercedes S-Class or BMW 7 Series sedan suits most proposal and anniversary bookings — elegant without being ostentatious, and comfortable for a couple rather than sized for a group. Save the stretch limousine for a larger celebration afterward if the evening extends to family and friends.</p>
+      <p>A Mercedes S-Class or BMW 7 Series sedan suits most proposal and anniversary bookings — elegant without being ostentatious, and comfortable for a couple rather than sized for a group. Save the Sprinter Executive for a larger celebration afterward if the evening extends to family and friends.</p>
 
       <h2>Booking With Enough Lead Time</h2>
       <p>Because these bookings often involve coordinating specific timing with a restaurant, a photographer, or a scenic location's lighting, book at least a week or two ahead when possible, and share as much detail about the plan as you're comfortable disclosing so dispatch can flag any realistic timing conflicts.</p>
@@ -500,7 +500,7 @@ export const BLOG_POSTS_BATCH4 = [
     `,
     faqs: [
       { q: 'Can a chauffeur help coordinate the timing of a proposal?', a: 'Yes. A chauffeur briefed on the plan can time arrival to a specific window — sunset, a reserved table, or a waiting photographer — and build in buffer so the moment lands the way it was planned.' },
-      { q: 'What vehicle is best for a proposal or anniversary evening?', a: 'A Mercedes S-Class or BMW 7 Series sedan typically suits a couple’s evening best — elegant and comfortable without the scale of a stretch limousine, which is better suited to a larger celebration.' },
+      { q: 'What vehicle is best for a proposal or anniversary evening?', a: 'A Mercedes S-Class or BMW 7 Series sedan typically suits a couple’s evening best — elegant and comfortable without the scale of a Sprinter, which is better suited to a larger celebration.' },
       { q: 'Can small touches like champagne or flowers be arranged in the vehicle?', a: 'Often, yes, with enough advance notice. Ask specifically what is possible when you book so dispatch has time to arrange it before the reservation.' },
     ],
   },
@@ -805,7 +805,7 @@ export const BLOG_POSTS_BATCH4 = [
     readTime: '7 min read',
     category: 'Business Insights',
     content: `
-      <p class="lead">Vehicle class is the single most common decision travelers get wrong when booking a car service — not because the options are unclear, but because it's easy to underestimate luggage volume or overestimate how much room a stretch limousine actually offers a working group. Here's a practical breakdown.</p>
+      <p class="lead">Vehicle class is the single most common decision travelers get wrong when booking a car service — not because the options are unclear, but because it's easy to underestimate luggage volume or overestimate how much room an SUV actually offers a working group. Here's a practical breakdown.</p>
 
       <h2>Executive Sedan: 1-3 Passengers, Standard Luggage</h2>
       <p>A Mercedes E-Class or comparable executive sedan is the right default for solo travelers or couples with standard carry-on and checked luggage — the workhorse booking for routine airport transfers, business trips and point-to-point city travel. It's also the most cost-efficient option when a larger vehicle isn't actually needed.</p>
@@ -819,8 +819,8 @@ export const BLOG_POSTS_BATCH4 = [
       <h2>Sprinter Van: 6-13 Passengers</h2>
       <p>A Mercedes Sprinter van is built for genuine group travel — wedding parties, corporate teams, family reunions, or any group larger than an SUV comfortably fits. It's also frequently the right call for a smaller group with a large amount of collective luggage, even if passenger count alone wouldn't require it.</p>
 
-      <h2>Stretch Limousine: Special Occasions</h2>
-      <p>A stretch limousine typically seats 8 to 10 and is best reserved for occasions where the vehicle itself is part of the event — proms, weddings, anniversaries — rather than routine transportation. For the same group size on a business trip, a Sprinter van is usually the more practical and cost-effective choice.</p>
+      <h2>Sprinter Executive: Special Occasions</h2>
+      <p>The Sprinter Executive seats up to 13 like the standard Sprinter Shuttle, but adds an upgraded cabin, mood lighting and luxury amenities, so it is best reserved for occasions where the vehicle itself is part of the event — proms, weddings, anniversaries. We do not run stretch limousines; for the same group size on a business trip, the Sprinter Shuttle is usually the more practical and cost-effective choice.</p>
 
       <h2>Matching Vehicle to Occasion, Not Just Headcount</h2>
       <p>Passenger count is the starting point, but occasion matters too. A 4-person business trip and a 4-person date night might both technically fit a sedan, but the second scenario might call for the extra polish of an S-Class, while the first is well served by the standard executive sedan.</p>
@@ -842,7 +842,7 @@ export const BLOG_POSTS_BATCH4 = [
     `,
     faqs: [
       { q: 'How many people fit in an SUV vs. a Sprinter van?', a: 'An SUV like a Lincoln Navigator (up to 6) or Chevrolet Suburban (up to 5) comfortably fits 3 to 6 passengers with extra luggage. A Mercedes Sprinter van fits 6 to 13 passengers and is the right call for genuine group travel.' },
-      { q: 'When should I book a stretch limousine instead of a Sprinter van?', a: 'When the vehicle itself is part of the occasion — a wedding, prom or anniversary. For routine group transportation of the same size, a Sprinter van is usually more practical and cost-effective.' },
+      { q: 'When should I book the Sprinter Executive instead of the Sprinter Shuttle?', a: 'When the vehicle itself is part of the occasion — a wedding, prom or anniversary — since the Executive adds an upgraded cabin and mood lighting. For routine group transportation of the same size, the Sprinter Shuttle is usually more practical and cost-effective.' },
       { q: 'What if my group has more luggage than passengers would suggest?', a: 'Size the vehicle to luggage volume as well as headcount — a small family with a week’s worth of luggage is often better matched to an SUV than a sedan, even if three people would technically fit.' },
     ],
   },
@@ -925,7 +925,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p class="lead">A milestone birthday — a Sweet 16, a 40th, a 50th, a 75th — often draws a guest list spanning several generations, sometimes celebrating at a venue that isn't walkable from where most guests are staying. Here's how transportation planning for this kind of celebration actually works.</p>
 
       <h2>Sweet 16 Celebrations</h2>
-      <p>For a Sweet 16, a stretch limousine or a Sprinter van for the guest of honor and their close friend group is a common, memorable touch — treat it with the same safety scrutiny as prom transportation: licensed, insured, background-checked chauffeurs and a clear no-alcohol policy for a group of teenagers.</p>
+      <p>For a Sweet 16, a Sprinter van for the guest of honor and their close friend group is a common, memorable touch — treat it with the same safety scrutiny as prom transportation: licensed, insured, background-checked chauffeurs and a clear no-alcohol policy for a group of teenagers.</p>
 
       <h2>40th and 50th Birthday Milestones</h2>
       <p>Adult milestone celebrations often center on a group dinner or a night out, sometimes with a surprise element. An hourly as-directed booking works well here — one vehicle handles pickup from the honoree's home, transport to dinner, and a night-out itinerary that may not be fully planned in advance.</p>
@@ -943,7 +943,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>Milestone celebrations that include a multi-venue night out benefit from the same one-vehicle, as-directed approach recommended for bachelor and bachelorette parties — everyone stays together, and no one is left coordinating a separate rideshare mid-celebration.</p>
 
       <h2>Vehicle Options by Group Size</h2>
-      <p>A close-friend group of 4 to 6 fits comfortably in an SUV; a larger celebration group of 8 to 13 is better served by a Sprinter van, and a milestone celebration with the full vehicle-as-part-of-the-occasion feel might call for a stretch limousine for the guest of honor specifically.</p>
+      <p>A close-friend group of 4 to 6 fits comfortably in an SUV; a larger celebration group of 8 to 13 is better served by a Sprinter van, and a milestone celebration with the full vehicle-as-part-of-the-occasion feel might call for the Sprinter Executive, with its mood lighting and upgraded cabin.</p>
 
       <h2>Photography Stops</h2>
       <p>Some milestone celebrations include a planned photo stop — a scenic DC monument, a favorite neighborhood, or a location meaningful to the honoree. Build this into the transportation timeline explicitly, the same way a wedding photography stop would be planned.</p>
@@ -958,7 +958,7 @@ export const BLOG_POSTS_BATCH4 = [
       <p>A milestone birthday celebration runs smoother when transportation gets the same planning attention as the venue and catering. <a href="/booking">Get a quote for your celebration</a> or call (877) 609-1919.</p>
     `,
     faqs: [
-      { q: 'What vehicle is right for a Sweet 16 celebration?', a: 'A stretch limousine or Sprinter van, held to the same safety standard as prom transportation — licensed, insured, background-checked chauffeurs and a clear no-alcohol policy for a group of teenagers.' },
+      { q: 'What vehicle is right for a Sweet 16 celebration?', a: 'A Sprinter Executive for a larger group or a Lincoln Navigator for up to six, held to the same safety standard as prom transportation — licensed, insured, background-checked chauffeurs and a clear no-alcohol policy for a group of teenagers.' },
       { q: 'Can transportation help with a surprise party?', a: 'Yes. Coordinate the cover story and exact timing with your chauffeur in advance, the same way you would brief a venue or caterer involved in a surprise.' },
       { q: 'What if our milestone celebration has guests with mobility considerations?', a: 'Flag it when booking. Dispatch can assign a vehicle class and boarding approach that works for guests who need easier vehicle access, particularly for multi-generational celebrations.' },
     ],
@@ -1089,7 +1089,7 @@ export const BLOG_POSTS_BATCH4 = [
       'Washington DC hosts more embassies and diplomatic visitors than any other US city. Here is what discreet, professional visitor transportation looks like.',
     excerpt:
       'DC’s diplomatic community has transportation needs most car services never encounter. Here is what discretion and reliability actually look like in practice.',
-    image: '/images/limousine.webp',
+    image: '/images/executive-van.webp',
     author: 'Sarah Williams',
     authorBio: 'Executive travel consultant specializing in ground transportation for corporate and government clients across the DMV.',
     date: 'November 16, 2026',

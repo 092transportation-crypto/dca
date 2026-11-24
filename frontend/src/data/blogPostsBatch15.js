@@ -307,7 +307,7 @@ export const BLOG_POSTS_BATCH15 = [
       <p>Every car service uses the phrase "flat rate," and not all of them mean the same thing by it — for some, it's the base fare only, with everything else added as a surprise on the final receipt. Knowing exactly what's bundled into the number you're quoted, versus what's itemized separately, is the difference between a flat rate that's genuinely predictable and one that only looks that way until the ride is over.</p>
 
       <h2>The Base Rate: What It Covers</h2>
-      <p>Your quoted rate includes the base transportation charge — the vehicle, the professional chauffeur, and the trip itself from pickup to drop-off — calculated from your actual pickup location, drop-off location, vehicle class, and date and time. On top of that base number, a handful of things are always disclosed before you confirm, never discovered on a final receipt: gratuity, parking, and tolls.</p>
+      <p>Your quoted rate includes the base transportation charge — the vehicle, the professional chauffeur, and the trip itself from pickup to drop-off — calculated from your actual pickup location, drop-off location, vehicle class, and date and time. On top of that base number, a handful of things are always disclosed before you confirm, never discovered on a final receipt: gratuity, parking, and tolls. Gratuity is a flat 20% added to the rate on every booking, so it is easy to see exactly what it adds to your total.</p>
 
       <h2>Who Confirms the Quote Before You Travel</h2>
       <p>The same team that quotes your trip is who you call to adjust it — there's no separate booking layer or third-party dispatcher in between who might not have your original quote details on hand. That matters if a detail changes close to your travel date and you need a quick, accurate answer rather than a runaround.</p>
@@ -328,7 +328,7 @@ export const BLOG_POSTS_BATCH15 = [
       <p>A few things legitimately change a quote, but always during booking, before you confirm, never afterward. Adding passengers or luggage that pushes you into a larger vehicle class changes the rate, because you're booking a different vehicle. Adding a stop or changing the pickup or drop-off location adjusts the quote for the same reason: the trip itself is different. None of this happens as a mid-ride surprise.</p>
 
       <h2>Cancellation: The Other Half of a Transparent Quote</h2>
-      <p>A flat rate only stays predictable if the cancellation terms are just as clear. Sedan and SUV reservations cancel free of charge up to 3 hours before pickup; Sprinter vans, limousines, and special-event bookings use a longer 12-hour window. Our <a href="/blog/late-pickup-no-show-grace-period-policy-guide-dmv">guide to grace periods and no-show policy</a> covers what happens if you run late instead of cancelling — worth a read if your plans are at all uncertain.</p>
+      <p>A flat rate only stays predictable if the cancellation terms are just as clear. Sedan and SUV reservations cancel free of charge up to 3 hours before pickup; Sprinter vans and special-event bookings use a longer 12-hour window. Our <a href="/blog/late-pickup-no-show-grace-period-policy-guide-dmv">guide to grace periods and no-show policy</a> covers what happens if you run late instead of cancelling — worth a read if your plans are at all uncertain.</p>
 
       <h2>Cancellation vs. No-Show: Two Different Things</h2>
       <p>Cancelling and not showing up are handled differently, and the distinction matters for your wallet. Cancelling ahead of the applicable window (3 hours for sedans and SUVs, 12 hours for larger vehicles and events) is free. A no-show — where we can't reach you and you don't appear within your included waiting time — is charged the full quoted fare plus any waiting time already incurred, which is always more expensive than cancelling would have been. If plans change, calling ahead is the cheaper move every time.</p>
@@ -351,10 +351,10 @@ export const BLOG_POSTS_BATCH15 = [
       <p>Call (877) 609-1919 or <a href="/booking">book online</a> any time, day or night.</p>
     `,
     faqs: [
-      { q: 'Is gratuity included in the base rate, or added separately?', a: "It's disclosed as a separate line item before you confirm your booking, so you see the full total — base rate plus gratuity, tolls, and parking — before you say yes." },
+      { q: 'Is gratuity included in the base rate, or added separately?', a: "A 20% gratuity is added to the rate and shown as its own line before you confirm your booking, so you see the full total — base rate plus gratuity, tolls, and parking — before you say yes." },
       { q: 'What happens to my quote if my flight lands early or late?', a: "Nothing changes to your rate. We track your flight against its actual touchdown time, and your 45 or 60 minutes of complimentary waiting time starts from there automatically, at no extra charge." },
       { q: 'Can the price change after I’ve already confirmed the booking?', a: "No. Once confirmed, the price doesn't change because of traffic, demand, or timing. The only way it changes is if you change the trip itself, like adding a stop." },
-      { q: "What's the cancellation window if my plans change?", a: "Sedans and SUVs can be cancelled free of charge at least 3 hours before pickup; Sprinter vans, limousines, and special-event bookings use a 12-hour window." },
+      { q: "What's the cancellation window if my plans change?", a: "Sedans and SUVs can be cancelled free of charge at least 3 hours before pickup; Sprinter vans and special-event bookings use a 12-hour window." },
       { q: "What's the difference between this and your flat-rate vs. hourly guide?", a: "That guide helps you choose which pricing model fits your trip. This one assumes you've already chosen flat-rate and explains exactly what's itemized inside that quote." },
     ],
   },

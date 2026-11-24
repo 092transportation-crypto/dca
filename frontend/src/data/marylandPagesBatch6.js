@@ -2,7 +2,7 @@
 // during a full-site SEO audit — 2 new Maryland city pages (Ellicott City,
 // Upper Marlboro), 3 new real venue pages (Six Flags America, Glenstone
 // Museum, George Washington's Mount Vernon) and 4 new vehicle/service-occasion
-// pages (Sprinter van rental, stretch limo rental, quinceañera, funeral &
+// pages (Sprinter van rental, stretch limo rental [since removed], quinceañera, funeral &
 // memorial car service) that had zero dedicated landing page before this.
 // Same shape as marylandPages.js / marylandPagesBatch3/4/5.js — spread into
 // MARYLAND_PAGES.
@@ -28,10 +28,10 @@ export const MARYLAND_BATCH6 = [
     ],
     highlights: [
       'BWI transfers in as little as 20–30 minutes — the closest major airport to Ellicott City',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know historic Main Street\'s narrow streets, the B&O Railroad Museum and Turf Valley Resort',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Wedding and event coordination for Turf Valley Resort and historic district venues',
     ],
     sections: [
@@ -55,12 +55,12 @@ export const MARYLAND_BATCH6 = [
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings and celebrations' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Ellicott City to BWI cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically our most economical airport run given how close Ellicott City sits to BWI. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address — typically our most economical airport run given how close Ellicott City sits to BWI. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Ellicott City to BWI, DCA or Dulles?',
@@ -68,7 +68,7 @@ export const MARYLAND_BATCH6 = [
       },
       {
         q: 'Can you handle a wedding at Turf Valley Resort?',
-        a: 'Yes. We regularly stage Sprinter vans and stretch limousines at Turf Valley for bridal parties and guest shuttles, with a chauffeur who knows the property\'s loading areas.',
+        a: 'Yes. We regularly stage Sprinter vans at Turf Valley for bridal parties and guest shuttles, with a chauffeur who knows the property\'s loading areas.',
       },
       {
         q: 'Do you navigate the historic district\'s narrow streets and parking?',
@@ -109,10 +109,10 @@ export const MARYLAND_BATCH6 = [
     ],
     highlights: [
       'Prince George\'s County courthouse and government travel, booked with discretion',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know Six Flags America, Watkins Regional Park and the roads around Joint Base Andrews',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Background-checked chauffeurs for contractor and government-adjacent travel near Joint Base Andrews',
     ],
     sections: [
@@ -143,12 +143,12 @@ export const MARYLAND_BATCH6 = [
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'family outings and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Upper Marlboro to DCA cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Upper Marlboro to DCA, BWI or Dulles?',
@@ -200,7 +200,7 @@ export const MARYLAND_BATCH6 = [
     highlights: [
       'Drop-off and pickup steps from the Six Flags America gate — no parking-lot walk',
       'Sprinter vans for groups and multi-family outings (up to 13 passengers)',
-      'Flat, all-inclusive quotes with no surge pricing for after-dark closing-time pickups',
+      'Flat quotes with no surge pricing for after-dark closing-time pickups',
       'Coordinated pickup timing for fireworks nights and extended summer hours',
       'Combine with airport transfers for visiting families flying into DCA or BWI',
     ],
@@ -226,7 +226,7 @@ export const MARYLAND_BATCH6 = [
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'multi-family groups and parties' },
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'couples and small groups' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'a comfortable solo or two-person visit' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'a group birthday or celebration day' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -247,7 +247,7 @@ export const MARYLAND_BATCH6 = [
       },
       {
         q: 'Is pricing flat rate for a Six Flags trip?',
-        a: 'Yes. Every trip is quoted as a flat, all-inclusive rate confirmed before you book — no surge pricing at closing time.',
+        a: 'Yes. Every trip is quoted as a flat rate confirmed before you book — no surge pricing at closing time.',
       },
     ],
     related: [
@@ -281,7 +281,7 @@ export const MARYLAND_BATCH6 = [
       'Timed arrival built around your Glenstone reservation window',
       'Discreet luxury sedans suited to the museum\'s quiet, art-focused atmosphere',
       'Hourly chauffeur service to pair a Glenstone visit with Bethesda or Potomac dining',
-      'Flat, all-inclusive quotes with no surge pricing',
+      'Flat quotes with no surge pricing',
       'Easy add-on to a Dulles or Reagan National layover itinerary',
     ],
     sections: [
@@ -313,7 +313,7 @@ export const MARYLAND_BATCH6 = [
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'small groups' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'families and friend groups' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'larger museum groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'a special-occasion visit' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -368,7 +368,7 @@ export const MARYLAND_BATCH6 = [
       'The full Parkway drive handled for you — no self-navigating the scenic route',
       'Hourly chauffeur service that waits while you tour the mansion and grounds',
       'Easy pairing with Old Town Alexandria dining or shopping, 8 miles north',
-      'Flat, all-inclusive quotes with no surge pricing',
+      'Flat quotes with no surge pricing',
       'Group-friendly Sprinter vans for school, church or tour groups',
     ],
     sections: [
@@ -393,7 +393,7 @@ export const MARYLAND_BATCH6 = [
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'school and tour groups' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive visitors' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'larger families with gear' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'a special-occasion estate visit' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -474,7 +474,7 @@ export const MARYLAND_BATCH6 = [
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP travel alongside the group van' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'a mid-size group with extra luggage' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'a mid-size group with extra luggage' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'pairing with the Sprinter for a milestone event' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -507,93 +507,6 @@ export const MARYLAND_BATCH6 = [
     schema: { areaServed: ['Washington DC', 'Maryland', 'Northern Virginia'], serviceType: 'Sprinter van rental with driver' },
   },
   {
-    slug: 'stretch-limousine-rental',
-    type: 'service',
-    name: 'Stretch Limousine Rental',
-    badge: 'Signature Service',
-    h1: 'Stretch Limousine Rental — Car Service in DC, MD & VA',
-    metaTitle: 'Stretch Limousine Rental | DC, MD & VA',
-    metaDescription:
-      'Stretch limousine rental with a professional chauffeur for weddings, proms and nights out across DC, MD & VA. Call (877) 609-1919 for a free quote.',
-    stats: [
-      { label: 'Coverage', value: 'DC, MD & Northern VA' },
-      { label: 'Capacity', value: 'Up to 8 passengers' },
-      { label: 'Pricing', value: 'Flat rate or hourly' },
-      { label: 'Booking', value: '24 / 7' },
-    ],
-    intro: [
-      'A stretch limousine is still the classic way to mark a wedding, prom, anniversary or milestone birthday, and DCA Limos keeps a stretch limousine seating up to eight in the fleet alongside the sedans and SUVs — driven by the same licensed, background-checked chauffeurs and quoted the same flat, transparent way.',
-      'We rent the limousine with a professional chauffeur included, not as a self-drive vehicle, and every booking covers Washington DC, Maryland and Northern Virginia with the option to add stops, a decorated arrival for a wedding, or hourly service for a full evening out.',
-    ],
-    highlights: [
-      'Seats up to 8 passengers in a classic stretch limousine',
-      'Chauffeur included — not a self-drive rental',
-      'Complimentary red carpet and decoration available for weddings on request',
-      'Flat-rate point-to-point or hourly as-directed pricing',
-      'Common for weddings, proms, quinceañeras, anniversaries and nights out',
-    ],
-    sections: [
-      {
-        h2: 'Booking a stretch limousine',
-        paragraphs: [
-          'Most limousine bookings are hourly, since the occasions that call for a stretch limo — a wedding, a prom night, a milestone birthday — usually involve more than one stop: a pickup, a venue, photos, and a return home at the end of the night. We confirm the hourly block in advance and the chauffeur stays with the group for the whole booking.',
-          'Peak weekends in spring and fall sell out limousines first among our fleet, so we recommend reserving as early as the date is set, particularly for a wedding or prom Saturday.',
-        ],
-      },
-      {
-        h2: 'What comes with the rental',
-        paragraphs: [
-          'Every stretch limousine rental includes the chauffeur, fuel, standard amenities inside the vehicle and a confirmed written rate before you book — there is no separate "driver fee" or fuel surcharge added afterward. Bottled water is included as standard, and a tuxedo upgrade for the chauffeur is available on request for weddings and formal occasions.',
-          'We also coordinate the limousine alongside other vehicles when an event needs more than one — a Sprinter van for a larger guest list paired with the limousine for the couple or honoree is one of our most common multi-vehicle bookings.',
-        ],
-      },
-      {
-        h2: 'Stretch limousine vs. Sprinter van vs. SUV',
-        paragraphs: [
-          'The stretch limousine remains the traditional choice when the vehicle itself is part of the occasion — a wedding exit, a prom arrival, a sweet sixteen or quinceañera entrance — because the long body, the interior lighting and the sense of occasion are the point, not just the seating. For eight passengers or fewer who want that specific experience, nothing else in the fleet does the same job.',
-          'A Sprinter van makes more sense once the group grows past eight or the priority shifts from spectacle to simply keeping everyone together — a wedding party of thirteen, a bachelorette group heading between venues, or a family reunion airport run. A Lincoln Navigator or Chevrolet Suburban splits the difference for a smaller group that wants more presence than a sedan without the full limousine experience. We will talk through group size and the feel you are going for and recommend the vehicle that actually fits, rather than defaulting to whichever is easiest to book.',
-        ],
-      },
-    ],
-    vehicles: [
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings, proms and celebrations' },
-      { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'a smaller companion vehicle' },
-      { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'the honoree\'s quiet arrival' },
-      { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'a group that prefers an SUV' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'a group that prefers an SUV' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'pairing with the limousine for a larger party' },
-    ],
-    faqs: [
-      {
-        q: 'How many people fit in your stretch limousine?',
-        a: 'Up to 8 passengers. Call (877) 609-1919 to confirm the configuration for your event.',
-      },
-      {
-        q: 'Does the rental come with a chauffeur?',
-        a: 'Yes. Every stretch limousine booking includes a licensed, background-checked professional chauffeur — it is not a self-drive rental.',
-      },
-      {
-        q: 'How far in advance should we book for a wedding or prom?',
-        a: 'As early as the date is set. Stretch limousines are the first vehicles to sell out on peak spring and fall weekends.',
-      },
-      {
-        q: 'Can we add decorations for a wedding?',
-        a: 'Yes, complimentary red carpet and "Just Married" decorations are available on request for wedding bookings.',
-      },
-      {
-        q: 'Is pricing hourly or flat rate?',
-        a: 'A single pickup and drop-off is flat rate; most limousine bookings with multiple stops are priced hourly. Every quote is confirmed before you book.',
-      },
-    ],
-    related: [
-      { label: 'Wedding Limo Service', to: '/limo/wedding-limo-service' },
-      { label: 'Prom & Graduation Limo Service', to: '/limo/prom-limo-service' },
-      { label: 'Quinceañera Limo Service', to: '/quinceanera-limo-service' },
-      { label: 'Washington DC Prom Limo', to: '/washington-dc-prom-limo' },
-    ],
-    schema: { areaServed: ['Washington DC', 'Maryland', 'Northern Virginia'], serviceType: 'Stretch limousine rental' },
-  },
-  {
     slug: 'quinceanera-limo-service',
     type: 'service',
     name: 'Quinceañera Limo Service',
@@ -601,20 +514,20 @@ export const MARYLAND_BATCH6 = [
     h1: 'Quinceañera Limo Service in DC, MD & VA',
     metaTitle: 'Quinceañera Limo Service | DC, MD & VA',
     metaDescription:
-      'Quinceañera limo service across DC, Maryland & Virginia — Sprinter vans and stretch limos for the court of honor. Call (877) 609-1919 to book.',
+      'Quinceañera limo service across DC, Maryland & Virginia — Sprinter vans and luxury SUVs for the court of honor. Call (877) 609-1919 to book.',
     stats: [
       { label: 'Coverage', value: 'DC, MD & Northern VA' },
-      { label: 'Fleet', value: 'Sprinters · Limos · SUVs' },
+      { label: 'Fleet', value: 'Sprinters · SUVs · Sedans' },
       { label: 'Pricing', value: 'Flat rate or hourly' },
       { label: 'Booking', value: '24 / 7' },
     ],
     intro: [
-      'A quinceañera is built around an entrance — the honoree and her court of honor arriving together, usually to a venue timed around a church Mass beforehand. DCA Limos coordinates that sequence the same way we do a wedding: Sprinter vans for the court of honor, a stretch limousine or SUV for the honoree, and a chauffeur who keeps the whole party on schedule from church to reception.',
+      'A quinceañera is built around an entrance — the honoree and her court of honor arriving together, usually to a venue timed around a church Mass beforehand. DCA Limos coordinates that sequence the same way we do a wedding: Sprinter vans for the court of honor, a Lincoln Navigator or first-class sedan for the honoree, and a chauffeur who keeps the whole party on schedule from church to reception.',
       'We serve families across Washington DC, Maryland and Northern Virginia, with an itinerary built around the specific venues — church, photo location, reception hall — rather than a one-size-fits-all package.',
     ],
     highlights: [
       'Sprinter vans for the court of honor (damas and chambelanes) and family',
-      'Stretch limousine or luxury SUV for the honoree\'s arrival',
+      'Lincoln Navigator, luxury SUV or first-class sedan for the honoree\'s arrival',
       'Itinerary built around church Mass, photos and the reception entrance',
       'Flat-rate or hourly pricing confirmed in writing before you book',
       'Chauffeurs experienced coordinating multi-vehicle quinceañera bookings',
@@ -624,7 +537,7 @@ export const MARYLAND_BATCH6 = [
         h2: 'Planning a quinceañera\'s transportation',
         paragraphs: [
           'Most quinceañera transportation plans start with the church ceremony, move to a photo location, and end with a choreographed entrance at the reception hall — often timed to a specific song or announcement. We plan that sequence with the family in advance so the chauffeur knows exactly when to stage the arrival rather than guessing at the reception coordinator\'s cue.',
-          'Families with a larger court of honor typically add a Sprinter van alongside the honoree\'s limousine or SUV, so the whole group arrives together rather than splitting across personal cars and arriving at different times.',
+          'Families with a larger court of honor typically add a Sprinter Executive alongside the honoree\'s SUV or sedan, so the whole group arrives together rather than splitting across personal cars and arriving at different times.',
         ],
       },
       {
@@ -643,7 +556,7 @@ export const MARYLAND_BATCH6 = [
       },
     ],
     vehicles: [
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'the honoree\'s arrival' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'the honoree and her parents' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'an alternative honoree vehicle' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'the court of honor and family' },
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'parents or a smaller party' },
@@ -661,11 +574,11 @@ export const MARYLAND_BATCH6 = [
       },
       {
         q: 'Can the honoree arrive in a different vehicle than the court?',
-        a: 'Yes. A stretch limousine or luxury SUV for the honoree alongside a Sprinter van for the court is a common combination.',
+        a: 'Yes. A Lincoln Navigator or first-class sedan for the honoree alongside a Sprinter Executive for the court is a common combination. We do not run stretch limousines, but the Sprinter Executive\'s mood lighting and upgraded cabin give the court a real sense of occasion.',
       },
       {
         q: 'How far in advance should we book?',
-        a: 'As soon as the date and venues are set — peak spring and fall weekends sell out limousines and Sprinter vans first.',
+        a: 'As soon as the date and venues are set — peak spring and fall weekends sell out Sprinter vans and SUVs first.',
       },
       {
         q: 'Is pricing flat rate or hourly?',
@@ -674,7 +587,7 @@ export const MARYLAND_BATCH6 = [
     ],
     related: [
       { label: 'Prom & Graduation Limo Service', to: '/limo/prom-limo-service' },
-      { label: 'Stretch Limousine Rental', to: '/stretch-limousine-rental' },
+      { label: 'Our Fleet', to: '/fleet' },
       { label: 'Washington DC Prom Limo', to: '/washington-dc-prom-limo' },
       { label: 'Maryland Prom Limo', to: '/maryland-prom-limo' },
     ],
@@ -688,10 +601,10 @@ export const MARYLAND_BATCH6 = [
     h1: 'Funeral & Memorial Car Service in DC, MD & VA',
     metaTitle: 'Funeral & Memorial Car Service | DC, MD & VA',
     metaDescription:
-      'Dignified funeral and memorial car service across DC, Maryland & Virginia — family limousines and discreet sedans. Call (877) 609-1919.',
+      'Dignified funeral and memorial car service across DC, Maryland & Virginia — family SUVs, Sprinter vans and discreet sedans. Call (877) 609-1919.',
     stats: [
       { label: 'Coverage', value: 'DC, MD & Northern VA' },
-      { label: 'Fleet', value: 'Sedans · SUVs · Limos' },
+      { label: 'Fleet', value: 'Sedans · SUVs · Sprinters' },
       { label: 'Pricing', value: 'Flat rate' },
       { label: 'Booking', value: '24 / 7' },
     ],
@@ -732,7 +645,7 @@ export const MARYLAND_BATCH6 = [
     vehicles: [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'immediate family' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'extended family groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'larger family parties' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'immediate family' },
       { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'extended family groups' },
       { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'a large family or procession group' },

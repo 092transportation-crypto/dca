@@ -20,6 +20,11 @@
       "permanent": true
     },
     {
+      "source": "/stretch-limousine-rental",
+      "destination": "/fleet",
+      "permanent": true
+    },
+    {
       "source": "/limo/rockville-limo-service",
       "destination": "/rockville-limo-service",
       "permanent": true

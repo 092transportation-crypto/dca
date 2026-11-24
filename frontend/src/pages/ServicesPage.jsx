@@ -50,7 +50,7 @@ const ServicesPage = () => {
       title: 'Wedding Limo Service',
       icon: <PartyPopper className="h-10 w-10 sm:h-12 sm:w-12" />,
       image: '/images/wedding-service.webp',
-      description: 'Elegant wedding limousine service that transforms your special day into an unforgettable experience. Luxury, style, and sophistication for your big day.',
+      description: 'Wedding-day transportation in a Sprinter Executive, SUV or sedan, timed around your ceremony, photos and reception.',
       features: [
         'Red carpet arrival service',
         'Champagne and premium refreshments',
@@ -63,7 +63,7 @@ const ServicesPage = () => {
     {
       title: 'Prom Limo & Party Transportation',
       icon: <Calendar className="h-10 w-10 sm:h-12 sm:w-12" />,
-      image: '/images/stretch-limo.webp',
+      image: '/images/mercedes-sprinter.webp',
       description: 'Create lasting memories for birthdays, graduations, anniversaries, and milestone celebrations with our premium fleet.',
       features: [
         'Personalized decoration packages',
@@ -92,7 +92,7 @@ const ServicesPage = () => {
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-white px-4">Premium Limo &amp; Car Services in Washington DC, Maryland &amp; Virginia</h1>
           <p className="text-base sm:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed px-4">
-            From airport transportation to corporate travel and wedding limousines, we provide reliable, luxurious, and Comprehensive Transportation Solutions throughout the DMV area.
+            From airport transportation to corporate travel and wedding transportation, we provide reliable, luxurious, and Comprehensive Transportation Solutions throughout the DMV area.
           </p>
         </div>
       </section>
@@ -242,8 +242,8 @@ const ServicesPage = () => {
             for government and media professionals.
           </p>
           <p className="text-base text-gray-700 leading-relaxed">
-            From airport transportation in Washington DC to weddings and corporate roadshows, every trip is one flat,
-            all-inclusive rate with a licensed, insured chauffeur. If you&apos;re searching for dependable car service in
+            From airport transportation in Washington DC to weddings and corporate roadshows, every trip is one flat
+            rate with a licensed, insured chauffeur. If you&apos;re searching for dependable car service in
             Washington DC, book online in minutes or call us 24/7 — luxury car service without the guesswork.
           </p>
         </div>

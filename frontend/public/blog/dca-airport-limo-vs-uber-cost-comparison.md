@@ -40,7 +40,7 @@ Price is only half the comparison. A rideshare pickup at DCA typically means wal
 
 ## How Tipping Changes the Comparison
 
-Rideshare apps default to prompting a tip after the ride, and most riders end up tipping 15-20% on top of the quoted fare — which is rarely included when people mentally compare the "sticker price" against a limo's flat rate. A professional chauffeur service builds gratuity into the quote as optional rather than expected, and many corporate accounts prepay it entirely. When you're doing an apples-to-apples comparison, add the rideshare tip you'd actually leave before comparing totals — it closes the gap further than the raw fare numbers suggest.
+Rideshare apps default to prompting a tip after the ride, and most riders end up tipping 15-20% on top of the quoted fare — which is rarely included when people mentally compare the "sticker price" against a limo's flat rate. At DCA Limos, a 20% gratuity is added to the rate and shown in the quoted total, so the number you approve already covers the chauffeur. For an apples-to-apples comparison, add the rideshare tip you'd actually leave to the Uber estimate before comparing totals — once both numbers include gratuity, the gap is often smaller than the raw fare numbers suggest.
 
 ## The Group Math
 

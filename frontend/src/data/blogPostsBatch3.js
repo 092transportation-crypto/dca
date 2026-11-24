@@ -29,7 +29,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p>DCA separates rideshare pickup (often a satellite lot requiring a shuttle or a walk) from commercial black car and limo pickup, which is typically allowed to stage curbside or in a dedicated ground-transportation zone closer to baggage claim. A licensed chauffeur knows exactly which curb lane applies to your terminal and holds there, tracking your flight, rather than circling the loop hoping to spot you. If you'd rather not manage any of that logistics yourself, a meet-and-greet chauffeur waits inside baggage claim with a name sign and walks you straight to the vehicle.</p>
 
       <h2>Flat-Rate Pricing vs. Metered or Surge Pricing</h2>
-      <p>The single biggest difference between a professional limo service and a taxi or rideshare is how the price is set. A licensed DCA limo service quotes one flat, all-inclusive rate before you ever get in the car — tolls, fuel and the chauffeur's time are built in, and the price does not move because your flight lands during rush hour or a Metro outage sends ride-hail demand through the roof. That predictability matters most exactly when you need it most: 5 a.m. departures, Friday evening arrivals, and the days around cherry blossom season or a Capitol Hill event when downtown traffic and ride-hail demand both spike together.</p>
+      <p>The single biggest difference between a professional limo service and a taxi or rideshare is how the price is set. A licensed DCA limo service quotes one flat rate before you ever get in the car — tolls, fuel and the chauffeur's time are built in, and the price does not move because your flight lands during rush hour or a Metro outage sends ride-hail demand through the roof. That predictability matters most exactly when you need it most: 5 a.m. departures, Friday evening arrivals, and the days around cherry blossom season or a Capitol Hill event when downtown traffic and ride-hail demand both spike together.</p>
 
       <h2>Choosing the Right Vehicle</h2>
       <p>DCA limo fleets typically span several classes, and picking the right one changes both comfort and cost:</p>
@@ -38,7 +38,7 @@ export const BLOG_POSTS_BATCH3 = [
         <li><strong>Luxury sedan</strong> (Mercedes S-Class, BMW 7 Series) — client pickups, board members, or anyone who wants the top-tier cabin.</li>
         <li><strong>SUV</strong> (Lincoln Navigator, Chevrolet Suburban) — extra luggage, three to five passengers, or families.</li>
         <li><strong>Mercedes Sprinter van</strong> — six to thirteen passengers, ideal for group arrivals or a wedding party landing together.</li>
-        <li><strong>Stretch limousine</strong> — proms, anniversaries and celebration transfers where the vehicle is part of the occasion.</li>
+        <li><strong>Mercedes Sprinter Executive</strong> — up to thirteen passengers with an upgraded cabin, mood lighting and luxury amenities, for proms, anniversaries and celebration transfers where the vehicle is part of the occasion.</li>
       </ul>
       <p>See the full <a href="/fleet">fleet lineup</a> for photos, capacities and per-vehicle pricing before you book.</p>
 
@@ -52,7 +52,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p>Outbound from DCA, pickup timing is calculated backward from your flight, factoring in the day's traffic pattern on the George Washington Parkway, I-395 and the 14th Street Bridge. Reagan National's TSA lines are generally faster than Dulles or BWI, but a security wait can still stretch during peak morning departures, so a chauffeur familiar with the airport will build in a buffer rather than cutting it to the posted TSA estimate.</p>
 
       <h2>Who Actually Needs a Limo vs. a Standard Car Service</h2>
-      <p>Not every DCA trip needs a stretch limousine — most travelers are better served by an executive sedan or SUV at a lower price point. Reserve the limousine or Sprinter class specifically for group travel, weddings, proms and celebration transfers where the vehicle itself is part of the event. For a routine airport-to-hotel or airport-to-office run, the standard sedan and SUV classes deliver the same flat-rate reliability at a more efficient price.</p>
+      <p>Not every DCA trip needs a celebration vehicle — most travelers are better served by an executive sedan or SUV at a lower price point. Reserve the Sprinter Executive or Sprinter Shuttle specifically for group travel, weddings, proms and celebration transfers where the vehicle itself is part of the event. For a routine airport-to-hotel or airport-to-office run, the standard sedan and SUV classes deliver the same flat-rate reliability at a more efficient price.</p>
 
       <h2>Getting an Exact Quote</h2>
       <p>Pricing depends on vehicle class, distance and any wait-time add-ons like meet-and-greet, but every quote is confirmed in writing before you book — nothing is estimated after the fact. Compare a route like <a href="/dca-to-washington-dc">DCA to Washington DC</a> against a rideshare fare at different times of day and the flat rate typically wins outright once you factor in the risk of surge pricing during rush hour or a downtown event.</p>
@@ -72,15 +72,15 @@ export const BLOG_POSTS_BATCH3 = [
       <h2>Business Travelers vs. Leisure Travelers: Different Priorities</h2>
       <p>A business traveler's priority is almost always punctuality and discretion — a quiet cabin, a chauffeur who doesn't need direction, and a pickup that's there exactly when promised. A leisure traveler, particularly a first-time DC visitor, often values a bit more guidance — knowing what neighborhood they're driving through, how long the ride to their hotel will take, or a recommendation for dinner near where they're staying. Mentioning which kind of trip it is when you book, even briefly, helps set the right tone before the chauffeur ever meets you.</p>
 
-      <h2>Why "Limo Service" Covers More Than Limousines</h2>
-      <p>The term "limo service" is a holdover from an era when a stretch limousine was the default luxury vehicle, but in practice it now covers the full range of professional chauffeured transportation — sedans, SUVs and Sprinter vans included. Most DCA "limo service" bookings today are executive sedans and SUVs, not stretch limousines at all; the stretch limousine remains available specifically for events where the vehicle itself is part of the occasion, like a wedding or milestone celebration.</p>
+      <h2>Why "Limo Service" Means More Than the Name Suggests</h2>
+      <p>The term "limo service" is a holdover from an era when a stretch limousine was the default luxury vehicle, but in practice it now covers the full range of professional chauffeured transportation — sedans, SUVs and Sprinter vans included. Most DCA "limo service" bookings today are executive sedans and SUVs. DCA Limos does not run stretch limousines at all; for events where the vehicle itself is part of the occasion, like a wedding or milestone celebration, the Sprinter Executive, with its upgraded cabin and mood lighting, fills that role.</p>
 
       <h2>The Bottom Line</h2>
       <p>DCA is one of the easiest major airports in the country to arrange a smooth limo pickup at — provided you book with a licensed carrier that tracks your flight, quotes one flat rate, and knows exactly where to stage at the terminal. Whether your trip is a solo executive transfer or a full wedding party landing together, get an <a href="/booking">instant quote here</a> or call (877) 609-1919, 24/7.</p>
     `,
     faqs: [
       { q: 'Where does a licensed limo pick up at DCA?', a: 'Licensed commercial vehicles stage at a dedicated ground-transportation curb close to baggage claim, separate from the rideshare pickup lot. Your chauffeur tracks your flight and holds there, or meets you inside baggage claim if you add meet-and-greet service.' },
-      { q: 'How much does a DCA airport limo cost?', a: 'It depends on vehicle class and distance, but every fare is quoted as one flat, all-inclusive rate before you book — no meter, no surge. Compare vehicle classes on the fleet page and confirm your exact price in writing before your trip.' },
+      { q: 'How much does a DCA airport limo cost?', a: 'It depends on vehicle class and distance, but every fare is quoted as one flat rate before you book — no meter, no surge. Compare vehicle classes on the fleet page and confirm your exact price in writing before your trip.' },
       { q: 'How far in advance should I book a DCA limo?', a: 'Same-day booking is often available, but reserving 24-48 hours ahead guarantees your preferred vehicle class. During peak periods like cherry blossom season, graduation weekends and the winter holidays, book as early as possible — Sprinter vans and SUVs sell out first.' },
     ],
   },
@@ -133,7 +133,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p>Beyond single events, a few recurring seasonal patterns are worth building into your booking habits. Late March through April brings cherry blossom tourism traffic on top of normal business travel. Late May through June overlaps graduation season at the area's universities with the start of wedding season. September and October carry the return of Congress and a dense conference calendar downtown. Each of these compresses vehicle availability regionwide, not just for one provider — booking a week or two ahead of your normal habit during these windows is a reasonable adjustment.</p>
 
       <h2>Changing or Canceling a Reservation</h2>
-      <p>Plans shift, and it's worth knowing the flexibility built into a reservation before you need it. Sedan and SUV bookings typically allow free changes or cancellation up to a few hours before pickup, while Sprinter vans, limousines and event bookings need more notice — often 12 hours — since those vehicles are held specifically for your date well in advance. None of this should discourage booking early: adjusting a confirmed reservation is simple, while conjuring an available vehicle on short notice during a busy week is not.</p>
+      <p>Plans shift, and it's worth knowing the flexibility built into a reservation before you need it. Sedan and SUV bookings typically allow free changes or cancellation up to a few hours before pickup, while Sprinter vans and event bookings need more notice — often 12 hours — since those vehicles are held specifically for your date well in advance. None of this should discourage booking early: adjusting a confirmed reservation is simple, while conjuring an available vehicle on short notice during a busy week is not.</p>
 
       <h2>Booking Around Flight Changes and Cancellations</h2>
       <p>Airlines reschedule flights often enough that it's worth knowing how a car service handles it. Once your flight number is on file, most schedule shifts are absorbed automatically through flight tracking — no action needed on your part. A full cancellation or a change to a different day is different: that requires actually updating the reservation, not just assuming the system will catch it, since flight tracking follows a specific flight number, not an open-ended assumption about when you'll travel.</p>
@@ -158,7 +158,7 @@ export const BLOG_POSTS_BATCH3 = [
     `,
     faqs: [
       { q: 'How far ahead should I book a standard DCA airport transfer?', a: '24 to 48 hours is enough to guarantee your preferred vehicle class for a routine sedan or SUV trip. Same-day booking is often possible too, subject to availability.' },
-      { q: 'When should I book wedding transportation?', a: 'Reserve Sprinter vans, limousines and multi-vehicle wedding bookings 9 to 12 months ahead if possible. Popular Saturdays during spring and fall wedding season book out fastest.' },
+      { q: 'When should I book wedding transportation?', a: 'Reserve Sprinter vans and multi-vehicle wedding bookings 9 to 12 months ahead if possible. Popular Saturdays during spring and fall wedding season book out fastest.' },
       { q: 'Does booking earlier make the price cheaper?', a: 'No — flat rates are set by route and vehicle class, not by how far ahead you book. There is no cost advantage to waiting, only availability risk, so there is no reason not to book as soon as your travel dates are confirmed.' },
     ],
   },
@@ -202,7 +202,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p>Price is only half the comparison. A rideshare pickup at DCA typically means walking to a designated pickup zone, which can be a genuine walk depending on your terminal, then waiting for a driver who may still be several minutes out even after accepting the ride. A pre-arranged limo is already staged at the curb closest to your terminal, tracking your flight, so there's no walk to a satellite lot and no post-acceptance wait. For a business traveler with back-to-back meetings, that saved 10-15 minutes is worth real money on its own, independent of the fare itself.</p>
 
       <h2>How Tipping Changes the Comparison</h2>
-      <p>Rideshare apps default to prompting a tip after the ride, and most riders end up tipping 15-20% on top of the quoted fare — which is rarely included when people mentally compare the "sticker price" against a limo's flat rate. A professional chauffeur service builds gratuity into the quote as optional rather than expected, and many corporate accounts prepay it entirely. When you're doing an apples-to-apples comparison, add the rideshare tip you'd actually leave before comparing totals — it closes the gap further than the raw fare numbers suggest.</p>
+      <p>Rideshare apps default to prompting a tip after the ride, and most riders end up tipping 15-20% on top of the quoted fare — which is rarely included when people mentally compare the "sticker price" against a limo's flat rate. With DCA Limos, a 20% gratuity is added to the quoted rate and shown before you confirm, so the number you compare is already the full total. When you're doing an apples-to-apples comparison, add the rideshare tip you'd actually leave before comparing totals — it closes the gap further than the raw fare numbers suggest.</p>
 
       <h2>The Group Math</h2>
       <p>This is where flat-rate service wins decisively and often. A family or group of four to six people needs either two to three UberXLs (each subject to its own surge) or a single SUV or <a href="/fleet">Sprinter van</a> at one flat rate. Once you're comparing multiple simultaneous rideshare bookings against one vehicle, the limo frequently comes out cheaper per person — and it keeps the group together instead of scattering across separate cars.</p>
@@ -275,9 +275,9 @@ export const BLOG_POSTS_BATCH3 = [
         <li><strong>Executive sedan or luxury sedan</strong> — the couple's private transfer between venues, or transportation for parents.</li>
         <li><strong>SUV (Navigator or Suburban)</strong> — a small wedding party or immediate family group with room for dresses and garment bags.</li>
         <li><strong>Mercedes Sprinter van</strong> — the most popular choice for a full wedding party of six to thirteen, especially for the getting-ready-to-ceremony leg.</li>
-        <li><strong>Stretch limousine</strong> — the classic choice for the couple's grand entrance or getaway, especially for a reception at a National Harbor or Annapolis waterfront venue.</li>
+        <li><strong>Sprinter Executive</strong> — the upgraded Sprinter with mood lighting and luxury amenities, a favorite for a grand entrance or getaway with the wedding party, especially at a National Harbor or Annapolis waterfront venue. (We do not run stretch limousines.)</li>
       </ul>
-      <p>Many couples book more than one vehicle class — a Sprinter for the wedding party and a separate luxury sedan or limousine reserved just for the couple. A common pairing for a party of ten: one Sprinter for the wedding party's getting-ready-to-ceremony leg, and a stretch limousine reserved exclusively for the couple's entrance and getaway, so the newlyweds are never waiting on group logistics at the end of the night. See the full <a href="/limo/wedding-limo-service">wedding limo service page</a> for package options and pricing by vehicle.</p>
+      <p>Many couples book more than one vehicle class — a Sprinter for the wedding party and a separate First Class sedan or Lincoln Navigator reserved just for the couple. A common pairing for a party of ten: one Sprinter Executive for the wedding party's getting-ready-to-ceremony leg, and an S-Class or 7 Series reserved exclusively for the couple's entrance and getaway, so the newlyweds are never waiting on group logistics at the end of the night. See the full <a href="/limo/wedding-limo-service">wedding limo service page</a> for package options and pricing by vehicle.</p>
 
       <h2>Wedding Venues Across the DMV We Know Well</h2>
       <p>Venue-specific knowledge is the difference between a chauffeur who arrives and one who arrives on time, at the right entrance, with a plan for where to stage during the ceremony. Our drivers regularly work weddings at Belmont Manor's historic grounds in Elkridge, Glenview Mansion at Rockville Civic Center Park, the waterfront setting at Chesapeake Bay Beach Club on Kent Island, the 1844 stone farmhouse at Antrim 1844 in Taneytown, and the horse-country estates around Middleburg in Northern Virginia's hunt country. Each of these venues has its own quirks — a long gravel drive that needs a specific staging point, a cocktail-hour lawn that blocks the most obvious parking spot, a photo location down a private road the venue coordinator has to point out. A chauffeur who has staged at a venue before saves real time on the wedding day itself, and if your venue isn't on this list, tell us its name when you book — we'll confirm the access and staging details with your coordinator ahead of time rather than improvising on the day.</p>
@@ -292,7 +292,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p>For weddings with a hotel block, a Sprinter van shuttle between the hotel and venue solves parking headaches and keeps guests from driving unfamiliar roads after an open bar. This is especially useful for venues in Annapolis, the Eastern Shore or Northern Virginia estates where parking is limited or a long walk from the ceremony space. Guest shuttles are typically booked as a separate hourly block from the couple's dedicated vehicle.</p>
 
       <h2>Booking Timeline: When to Reserve</h2>
-      <p>Wedding transportation is one of the vendors most often booked too late — and the one where waiting costs the most, since Sprinter vans, limousines and multi-vehicle bookings for a popular DC-area Saturday are the first vehicles to sell out. The practical timeline:</p>
+      <p>Wedding transportation is one of the vendors most often booked too late — and the one where waiting costs the most, since Sprinter vans, Navigators and multi-vehicle bookings for a popular DC-area Saturday are the first vehicles to sell out. The practical timeline:</p>
       <ul>
         <li><strong>9-12 months out:</strong> Request a quote as soon as the venue and date are confirmed, even without a finished itinerary.</li>
         <li><strong>3-6 months out:</strong> Finalize the full day-of itinerary and share it with dispatch to lock the vehicle count.</li>
@@ -301,7 +301,7 @@ export const BLOG_POSTS_BATCH3 = [
       </ul>
 
       <h2>Pricing and What's Included</h2>
-      <p>Wedding transportation is typically priced as an hourly block rather than a single flat-rate trip, since the day involves multiple stops and waiting between legs. A quote should include the chauffeur, fuel, tolls and the full block of hours requested — ask specifically what happens if the day runs long, since receptions rarely end exactly on schedule. Note also that Sprinter vans, limousines and special-event bookings carry a longer free-cancellation window (typically 12 hours before pickup) than a standard sedan trip, reflecting how far in advance those vehicles are held for you.</p>
+      <p>Wedding transportation is typically priced as an hourly block rather than a single flat-rate trip, since the day involves multiple stops and waiting between legs. A quote should include the chauffeur, fuel, tolls, the 20% gratuity and the full block of hours requested — ask specifically what happens if the day runs long, since receptions rarely end exactly on schedule. Note also that Sprinter vans and special-event bookings carry a longer free-cancellation window (typically 12 hours before pickup) than a standard sedan trip, reflecting how far in advance those vehicles are held for you.</p>
 
       <h2>Airport Transfers for Out-of-Town Guests</h2>
       <p>Many DMV weddings involve a wave of guests flying into DCA, and coordinating those arrivals is its own logistics task. A block of pre-arranged airport transfers — timed against actual flight arrivals rather than guesswork — takes that off the couple's plate. If your venue is on the Chesapeake side, a route like <a href="/dca-to-annapolis">DCA to Annapolis</a> is a common guest transfer to plan around.</p>
@@ -327,7 +327,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p>Multi-day wedding weekends — a welcome party Friday, the ceremony Saturday, a farewell brunch Sunday — are increasingly common, especially for couples with significant out-of-town guest lists. Booking transportation for the full weekend as a package, rather than three separate one-off reservations, often simplifies both planning and pricing, and it means the same chauffeurs who learn your group and your venues on day one are available for the rest of the weekend.</p>
 
       <h2>Insurance and Liability Considerations</h2>
-      <p>Many DC-area wedding venues require proof of insurance from transportation vendors before allowing vehicles on the property, particularly for larger vehicles like Sprinter vans or limousines staging on private grounds. Confirm your transportation provider can furnish a certificate of insurance if your venue requires one — this is a standard request for a licensed commercial carrier, but worth asking about early rather than discovering the requirement the week of the wedding.</p>
+      <p>Many DC-area wedding venues require proof of insurance from transportation vendors before allowing vehicles on the property, particularly for larger vehicles like Sprinter vans staging on private grounds. Confirm your transportation provider can furnish a certificate of insurance if your venue requires one — this is a standard request for a licensed commercial carrier, but worth asking about early rather than discovering the requirement the week of the wedding.</p>
 
       <h2>Coordinating With Your Wedding Planner</h2>
       <p>If you've hired a wedding planner or day-of coordinator, loop them into transportation planning directly rather than relaying details secondhand. Planners typically know the venue's specific access points, parking restrictions and timeline quirks better than anyone, and a direct line between the planner and dispatch on the wedding day itself means timing adjustments — a ceremony running ten minutes late, a photo session extending past schedule — get communicated in real time rather than through a chain of phone calls.</p>
@@ -342,7 +342,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p>The same planning principles apply to anniversary celebrations and vow renewals, which follow a similar though typically simpler transportation pattern — often just a single elegant vehicle for the couple rather than a full multi-vehicle wedding-day schedule. These occasions are usually easier to book on shorter notice than a full wedding, though the same advice about reserving the specific vehicle class you want still applies.</p>
 
       <h2>Sample Wedding Day Schedules</h2>
-      <p>Every wedding day is different, but three patterns cover most of what we book across the DMV. A <strong>single-venue ceremony-and-reception day</strong> — common at estate venues like Belmont Manor or Antrim 1844 that host both — typically needs one Sprinter van for the wedding party's arrival, held on an hourly block through photos and the reception's start, plus a separate car or limousine reserved for the couple's exit. A <strong>two-venue day</strong> — a Georgetown or downtown ceremony with a separate reception venue, common with Chesapeake waterfront receptions — adds a second transfer leg and usually a photo stop in between, which is where most timelines run long if the buffer wasn't built in from the start. A <strong>full weekend</strong> — welcome party Friday, ceremony Saturday, farewell brunch Sunday, increasingly common for couples with a large out-of-town guest list — is usually priced and booked as one coordinated package rather than three separate reservations, so the same chauffeurs who learn your venues and your wedding party on Friday are the ones driving Saturday and Sunday too.</p>
+      <p>Every wedding day is different, but three patterns cover most of what we book across the DMV. A <strong>single-venue ceremony-and-reception day</strong> — common at estate venues like Belmont Manor or Antrim 1844 that host both — typically needs one Sprinter van for the wedding party's arrival, held on an hourly block through photos and the reception's start, plus a separate sedan or Navigator reserved for the couple's exit. A <strong>two-venue day</strong> — a Georgetown or downtown ceremony with a separate reception venue, common with Chesapeake waterfront receptions — adds a second transfer leg and usually a photo stop in between, which is where most timelines run long if the buffer wasn't built in from the start. A <strong>full weekend</strong> — welcome party Friday, ceremony Saturday, farewell brunch Sunday, increasingly common for couples with a large out-of-town guest list — is usually priced and booked as one coordinated package rather than three separate reservations, so the same chauffeurs who learn your venues and your wedding party on Friday are the ones driving Saturday and Sunday too.</p>
 
       <h2>Why a Dedicated Wedding Car Service Beats the Alternatives</h2>
       <p>Couples sometimes ask whether a wedding actually needs dedicated transportation rather than a block of rideshares or a rental car for the day. The honest answer: for a single guest getting to a venue, a rideshare is fine. For the wedding party itself, it isn't a close call. Rideshare drivers don't hold a reservation against your exact ceremony time, don't know to wait through a photo session that runs long, and won't coordinate with a venue coordinator on where to stage. A rental car means someone in the wedding party — most likely a groomsman or parent who should be enjoying the day — is driving, parking, and staying sober while everyone else celebrates. A reserved chauffeur and vehicle, by contrast, is committed to your timeline specifically, adjusts in real time when the day runs long, and means every member of the wedding party, including whoever would otherwise be behind the wheel, gets to actually be a guest at the wedding.</p>
@@ -351,11 +351,11 @@ export const BLOG_POSTS_BATCH3 = [
       <p>Whether your wedding is a single-venue Georgetown ceremony or a full Chesapeake weekend with guest shuttles, <a href="/booking">request a quote</a> as soon as your date is set, or call (877) 609-1919 to talk through vehicle counts and timeline with a live planner.</p>
     `,
     faqs: [
-      { q: 'How far in advance should we book wedding transportation?', a: 'Request a quote 9-12 months ahead if possible, as soon as your venue and date are confirmed. Popular DC-area Saturdays during spring and fall wedding season book Sprinter vans and limousines first.' },
-      { q: 'What vehicle is best for a wedding party?', a: 'A Mercedes Sprinter van is the most popular choice for a full wedding party of six to thirteen. Many couples also book a separate luxury sedan or stretch limousine just for the couple.' },
+      { q: 'How far in advance should we book wedding transportation?', a: 'Request a quote 9-12 months ahead if possible, as soon as your venue and date are confirmed. Popular DC-area Saturdays during spring and fall wedding season book Sprinter vans and SUVs first.' },
+      { q: 'What vehicle is best for a wedding party?', a: 'A Mercedes Sprinter van is the most popular choice for a full wedding party of six to thirteen. Many couples also book a separate First Class sedan or Lincoln Navigator just for the couple.' },
       { q: 'Is wedding transportation priced differently from a standard airport transfer?', a: 'Yes — wedding transportation is typically priced as an hourly block covering the full day\'s schedule, rather than a single flat-rate point-to-point trip, since it usually involves multiple stops and waiting time between venues.' },
       { q: 'Do you provide wedding transportation at Belmont Manor, Glenview Mansion or Chesapeake Bay Beach Club?', a: 'Yes — our chauffeurs regularly work weddings at all three, along with Antrim 1844 and the Middleburg-area estate venues. If your venue isn\'t one we\'ve named, tell us when you book and we\'ll confirm access and staging with your coordinator ahead of time.' },
-      { q: 'What is your cancellation policy for wedding bookings?', a: 'Sprinter vans, limousines and special-event bookings — which covers most wedding reservations — cancel free of charge up to 12 hours before pickup, a longer window than our standard 3-hour sedan and SUV policy, reflecting how far in advance those vehicles are held for you.' },
+      { q: 'What is your cancellation policy for wedding bookings?', a: 'Sprinter vans and special-event bookings — which covers most wedding reservations — cancel free of charge up to 12 hours before pickup, a longer window than our standard 3-hour sedan and SUV policy, reflecting how far in advance those vehicles are held for you.' },
       { q: 'Can you handle a multi-venue wedding day in one booking?', a: 'Yes. A ceremony at one venue and a reception at another is one of the most common patterns we book — the key is sharing the full itinerary, including any photo-location stop, so the hourly block and vehicle count reflect the whole day rather than just the ceremony.' },
       { q: 'What happens if our reception runs past the booked hours?', a: 'Ask this specifically when you book. Most wedding blocks can be extended if the chauffeur isn\'t committed to another job immediately after, but confirming that flexibility — and any additional cost — in advance avoids a surprise at the end of the night.' },
       { q: 'Do you provide transportation for the whole wedding weekend, not just the ceremony day?', a: 'Yes. A welcome party Friday, the ceremony Saturday, and a farewell brunch Sunday can be booked as one coordinated package, so the same chauffeurs who learn your venues and wedding party on day one are available for the rest of the weekend.' },
@@ -458,7 +458,7 @@ export const BLOG_POSTS_BATCH3 = [
       'Shared shuttle or private limo from Reagan National? Compare cost, timing, reliability and comfort to choose the right DCA airport transfer.',
     excerpt:
       'Shared shuttles and private limos solve different problems. Here is how to decide which one actually fits your DCA trip — and when the "cheaper" option costs you more.',
-    image: '/images/mercedes-sprinter-shuttle.webp',
+    image: '/images/executive-van.webp',
     author: 'Sarah Williams',
     authorBio: 'Executive travel consultant specializing in ground transportation for corporate and government clients across the DMV.',
     date: 'September 28, 2026',
@@ -574,12 +574,12 @@ export const BLOG_POSTS_BATCH3 = [
         <li><strong>Luxury sedan (S-Class, 7 Series)</strong> — client-facing pickups, board-level travel.</li>
         <li><strong>SUV</strong> — extra luggage or up to five passengers.</li>
         <li><strong>Sprinter van</strong> — groups of six or more traveling together.</li>
-        <li><strong>Stretch limousine</strong> — celebrations, proms, milestone events.</li>
+        <li><strong>Sprinter Executive</strong> — celebrations, proms, milestone events, with an upgraded cabin and mood lighting.</li>
       </ul>
       <p>The full <a href="/fleet">fleet page</a> lists capacity, photos and pricing for each class so you can compare before requesting a quote.</p>
 
       <h2>Step 3: Get a Firm, Written Quote</h2>
-      <p>A legitimate luxury chauffeur service quotes a flat, all-inclusive price before you book — not an estimate that can change after the fact. Confirm the quote includes tolls, fuel and the chauffeur's time, and get it in writing (email or text confirmation) rather than relying on a verbal number. If a provider can't give you a firm price before booking, that's a signal to look elsewhere.</p>
+      <p>A legitimate luxury chauffeur service quotes a flat price before you book — not an estimate that can change after the fact. Confirm the quote includes tolls, fuel and the chauffeur's time, and get it in writing (email or text confirmation) rather than relying on a verbal number. If a provider can't give you a firm price before booking, that's a signal to look elsewhere.</p>
 
       <h2>Step 4: Specify Flight Details for Airport Trips</h2>
       <p>For any airport pickup, provide your flight number and airline at booking, not just an approximate arrival time. This is what allows automatic flight tracking — your chauffeur adjusts to the plane's actual landing time rather than the printed schedule, so an early or delayed flight doesn't cost you a missed pickup or extra wait-time charges.</p>
@@ -588,7 +588,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p>Curbside pickup means your chauffeur waits at the arrivals curb closest to your terminal — the default and most common choice. Meet-and-greet puts your chauffeur inside baggage claim holding a name sign, ready to help with luggage; it's a small add-on worth it for first-time visitors, VIP arrivals, or simply a smoother start to an important trip.</p>
 
       <h2>Step 6: Confirm the Cancellation Policy</h2>
-      <p>Ask directly: sedan and SUV reservations typically cancel free of charge up to a few hours before pickup, while Sprinter vans, limousines and event bookings usually require more notice — often 12 hours — reflecting how far ahead those vehicles are held. Knowing this upfront avoids a surprise if your plans shift.</p>
+      <p>Ask directly: sedan and SUV reservations typically cancel free of charge up to a few hours before pickup, while Sprinter vans and event bookings usually require more notice — often 12 hours — reflecting how far ahead those vehicles are held. Knowing this upfront avoids a surprise if your plans shift.</p>
 
       <h2>Step 7: Confirm Payment Timing</h2>
       <p>Your card should be charged only after your reservation and rate are confirmed — never automatically at the moment you submit an online request. If a service charges immediately on submission before confirming the trip details, clarify the policy before booking.</p>
@@ -604,7 +604,7 @@ export const BLOG_POSTS_BATCH3 = [
         <li>Booking without a flight number for an airport trip, which disables flight tracking.</li>
         <li>Assuming point-to-point pricing covers multiple unplanned stops — ask about hourly booking instead if your day has more than one destination.</li>
         <li>Not confirming the cancellation window before booking a wedding or event vehicle.</li>
-        <li>Waiting until the last minute for a Sprinter van or limousine during a busy season.</li>
+        <li>Waiting until the last minute for a Sprinter van or Navigator during a busy season.</li>
       </ul>
 
       <h2>Booking for Someone Else</h2>
@@ -646,7 +646,7 @@ export const BLOG_POSTS_BATCH3 = [
     faqs: [
       { q: 'What information do I need to book a luxury chauffeur?', a: 'Your pickup and drop-off addresses (or flight number and airline for airport trips), preferred vehicle class, date and time, and whether you want curbside or meet-and-greet service.' },
       { q: 'Should I book point-to-point or hourly?', a: 'Point-to-point suits a single trip between two fixed addresses. Hourly booking suits multi-stop days, events, or any itinerary where the exact schedule isn\'t fixed in advance.' },
-      { q: 'When is the best time to book to guarantee my preferred vehicle?', a: '24-48 hours ahead for a standard sedan or SUV trip. For a Sprinter van, limousine, or during a busy season like wedding season or the winter holidays, book as far ahead as possible.' },
+      { q: 'When is the best time to book to guarantee my preferred vehicle?', a: '24-48 hours ahead for a standard sedan or SUV trip. For a Sprinter van, or during a busy season like wedding season or the winter holidays, book as far ahead as possible.' },
     ],
   },
   {
@@ -655,7 +655,7 @@ export const BLOG_POSTS_BATCH3 = [
     title: 'Best Limo Service for Groups in the DC Area: Choosing the Right Vehicle',
     metaTitle: 'Best Limo Service for Groups in DC | DCA Limos',
     metaDesc:
-      'Traveling with a group in DC, Maryland or Virginia? Compare Sprinter vans, SUVs and stretch limos to find the right fit and fair per-person pricing.',
+      'Traveling with a group in DC, Maryland or Virginia? Compare Sprinter vans and SUVs to find the right fit and fair per-person pricing.',
     excerpt:
       'Group travel needs a different playbook than solo trips. Here is how to size the right vehicle for your DC-area group and keep the per-person cost fair.',
     image: '/images/blog/scenario-group-shuttle.webp',
@@ -675,7 +675,7 @@ export const BLOG_POSTS_BATCH3 = [
         <li><strong>4-5 passengers:</strong> A Lincoln Navigator or Chevrolet Suburban comfortably seats the group with room for luggage — see the <a href="/fleet">fleet page</a> for exact capacities.</li>
         <li><strong>6-10 passengers:</strong> A Mercedes Sprinter van is the standard choice, offering forward-facing seating and real luggage space rather than a cramped third row.</li>
         <li><strong>10-13 passengers:</strong> A larger Sprinter configuration keeps a bigger group together in one vehicle instead of splitting into two.</li>
-        <li><strong>Celebration groups:</strong> A stretch limousine suits proms, anniversaries and milestone events where the vehicle itself is part of the occasion, though it typically seats fewer people comfortably than a Sprinter.</li>
+        <li><strong>Celebration groups:</strong> The Sprinter Executive, with its upgraded cabin, mood lighting and luxury amenities, suits proms, anniversaries and milestone events where the vehicle itself is part of the occasion, with the same 13-passenger capacity.</li>
       </ul>
 
       <h2>The Per-Person Cost Math</h2>
@@ -694,7 +694,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p>Groups often need more than a single point-to-point trip — an airport pickup, a hotel stop, then a venue transfer later in the day. For this, an hourly booking that reserves the vehicle and chauffeur for the full window is usually more cost-effective and far less stressful than booking separate trips and hoping the timing lines up.</p>
 
       <h2>Booking Timeline for Group Trips</h2>
-      <p>Group vehicles — Sprinter vans and limousines especially — are the first to sell out during busy periods: wedding season weekends, major DC event weekends, and the holiday travel stretch. Book as early as your group's dates are confirmed, particularly for a Saturday during spring or fall.</p>
+      <p>Group vehicles — Sprinter vans especially — are the first to sell out during busy periods: wedding season weekends, major DC event weekends, and the holiday travel stretch. Book as early as your group's dates are confirmed, particularly for a Saturday during spring or fall.</p>
 
       <h2>Group Travel for School and University Trips</h2>
       <p>With several major universities in the DC area, group transportation for school trips, athletic teams, and family weekends is a common booking category. These trips often need a fixed daily schedule — a hotel-to-campus shuttle over a multi-day visit, for instance — which is typically priced as a multi-day hourly arrangement rather than individual one-off trips. Confirm headcount changes early, since student and family groups often fluctuate between the initial inquiry and the actual trip date.</p>
@@ -712,7 +712,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p>A family reunion or milestone celebration bringing relatives from several cities is one of the more logistically complex group bookings, since travelers often arrive on different flights at different times. In these cases, staggered pickups — several trips timed against each traveler's actual arrival rather than one single group pickup — often works better than trying to coordinate everyone landing at once, with a larger vehicle reserved separately for the group's shared activities once everyone has arrived.</p>
 
       <h2>Prom and Graduation Group Travel</h2>
-      <p>Prom season and graduation weekends bring a distinct group travel pattern — typically a stretch limousine or Sprinter van booked for a set block of hours covering photos, dinner and the event itself. Parents booking on behalf of a group of students should confirm the chauffeur's policy around supervision expectations and any venue drop-off restrictions in advance, since these events often involve multiple stops within a tight evening window.</p>
+      <p>Prom season and graduation weekends bring a distinct group travel pattern — typically a Sprinter van booked for a set block of hours covering photos, dinner and the event itself. Parents booking on behalf of a group of students should confirm the chauffeur's policy around supervision expectations and any venue drop-off restrictions in advance, since these events often involve multiple stops within a tight evening window.</p>
 
       <h2>Planning for No-Shows and Headcount Changes</h2>
       <p>Group headcounts rarely stay perfectly fixed between the initial booking and the actual trip date — someone cancels, a plus-one is added. Confirm the vehicle's minimum and maximum comfortable capacity so a small headcount change doesn't require a last-minute vehicle swap, and update dispatch as soon as a change is known rather than waiting until the day of the trip.</p>
@@ -738,7 +738,7 @@ export const BLOG_POSTS_BATCH3 = [
     faqs: [
       { q: 'What is the best vehicle for a group of eight to ten people?', a: 'A Mercedes Sprinter van is the standard choice for groups of six to ten, offering real seating and luggage space rather than a cramped SUV third row, and it typically works out cheaper per person than splitting into multiple vehicles.' },
       { q: 'Is a Sprinter van cheaper than booking multiple rideshare cars?', a: 'Often, yes. Splitting a group across two or three rideshare vehicles multiplies the surge-pricing risk and coordination headaches, while one flat-rate Sprinter van keeps the whole group together at a predictable total cost.' },
-      { q: 'How far ahead should I book a group vehicle?', a: 'As early as possible, especially for weekend trips during wedding season or major DC event weekends — Sprinter vans and limousines are the first vehicles to sell out during busy periods.' },
+      { q: 'How far ahead should I book a group vehicle?', a: 'As early as possible, especially for weekend trips during wedding season or major DC event weekends — Sprinter vans and Navigators are the first vehicles to sell out during busy periods.' },
     ],
   },
   {
@@ -860,7 +860,7 @@ export const BLOG_POSTS_BATCH3 = [
       <p class="lead">Taxis and black car service both put you in a car headed to your destination, but the similarities mostly end there. At Reagan National specifically, the differences in pricing structure, vehicle standards and reliability are significant enough to change which one makes sense for a given trip. Here's the real comparison.</p>
 
       <h2>How Pricing Actually Works</h2>
-      <p>A DC-area taxi runs on a metered fare — a base rate plus per-mile and per-minute charges that accumulate as the trip happens, meaning the final price isn't known until you arrive. A black car service quotes one flat, all-inclusive rate before you book, covering tolls, fuel and the chauffeur's time, with no surprises on arrival. For airport trips specifically, where traffic and route can vary significantly by time of day, the flat rate removes a real source of uncertainty.</p>
+      <p>A DC-area taxi runs on a metered fare — a base rate plus per-mile and per-minute charges that accumulate as the trip happens, meaning the final price isn't known until you arrive. A black car service quotes one flat rate before you book, covering tolls, fuel and the chauffeur's time, with no surprises on arrival. For airport trips specifically, where traffic and route can vary significantly by time of day, the flat rate removes a real source of uncertainty.</p>
 
       <h2>Vehicle Standards</h2>
       <p>Taxi fleets vary widely in age, condition and maintenance standards, and you have no way to know which specific vehicle you'll get until it arrives. A licensed black car service runs a fleet of late-model sedans and SUVs — Mercedes, Cadillac and similar — maintained on a set inspection and detailing schedule. If vehicle condition matters for your trip — a client pickup, a special event, or simply personal preference — this is where black car service separates itself most clearly.</p>

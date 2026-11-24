@@ -3,19 +3,19 @@
 // mirror lib/faqExtras.js — change them together.
 const PHONE = '(877) 609-1919';
 const RATE = 'Every trip is quoted as a flat rate before you book, and the rate is confirmed with you before your card is charged.';
-const CANCEL = 'Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings cancel free of charge up to 12 hours before pickup.';
+const CANCEL = 'Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter vans and special-event bookings cancel free of charge up to 12 hours before pickup.';
 const WAIT = 'Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from actual touchdown. All other pickups include 15 minutes.';
 
 export const PAGE_FAQS = {
   '/services': [
-    { q: 'What services does DCA Limos offer?', a: 'Airport transportation to and from Reagan National (DCA), Dulles (IAD) and BWI, corporate car service, hourly as-directed chauffeur service, wedding and prom limousines, and event and concert transportation across Washington DC, Northern Virginia and Maryland. Every one of them is booked at a flat rate confirmed before you ride.' },
+    { q: 'What services does DCA Limos offer?', a: 'Airport transportation to and from Reagan National (DCA), Dulles (IAD) and BWI, corporate car service, hourly as-directed chauffeur service, wedding and prom transportation, and event and concert transportation across Washington DC, Northern Virginia and Maryland. Every one of them is booked at a flat rate confirmed before you ride.' },
     { q: 'Which service should I book for a day of meetings?', a: 'Hourly chauffeur service. One chauffeur and vehicle stay with you for the whole itinerary, waiting included. For a single pickup and drop-off, a point-to-point transfer is usually the better value — we will quote both on request.' },
     { q: 'Are you available overnight and on holidays?', a: 'Yes. Dispatch and reservations run 24 hours a day, every day of the year, so early departures from DCA and late arrivals are routine.' },
     { q: 'How is pricing handled?', a: RATE + ` There is no surge pricing and no running meter. Call ${PHONE} or use the booking form to get your quote.` },
     { q: 'Can one reservation cover several vehicles?', a: `Yes. Weddings, corporate events and group airport moves are coordinated as a single booking — Sprinter vans for groups and sedans or SUVs for VIPs. Call ${PHONE} or describe the group in the booking form.` },
   ],
   '/fleet': [
-    { q: 'Which vehicles are in the DCA Limos fleet?', a: 'Mercedes-Benz E-Class and S-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans and stretch limousines. Sedans seat up to three passengers, the Suburban five, the Navigator six and a Sprinter van up to 13.' },
+    { q: 'Which vehicles are in the DCA Limos fleet?', a: 'Mercedes-Benz E-Class and S-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, and Mercedes Sprinter vans. Sedans seat up to three passengers, the Suburban five, the Navigator six and a Sprinter van up to 13.' },
     { q: 'What should I book for an airport run with bags?', a: 'Up to three travelers with ordinary suitcases fit comfortably in a sedan. Families and anyone with heavy luggage do better in a full-size SUV, and a Sprinter van carries a larger group and all its bags in one trip.' },
     { q: 'Will I get the exact model in the photo?', a: 'You book a vehicle class rather than a specific car, so the make and model can differ within that class. If the assigned vehicle is unavailable, we send a comparable or upgraded one instead.' },
     { q: 'How are the vehicles prepared?', a: 'Each vehicle is cleaned and detailed before your pickup and inspected on a regular schedule. All of them carry commercial insurance, and every chauffeur is licensed and background-checked.' },
@@ -85,7 +85,7 @@ export const landingFaqs = (page) => {
     ];
   }
   return [
-    { q: `How far ahead should I book ${name.toLowerCase()}?`, a: 'As early as you can once the date is set — Sprinter vans and limousines for peak weekends are the first vehicles to sell out. Same-day requests are taken when a vehicle is available.' },
+    { q: `How far ahead should I book ${name.toLowerCase()}?`, a: 'As early as you can once the date is set — Sprinter vans for peak weekends are the first vehicles to sell out. Same-day requests are taken when a vehicle is available.' },
     { q: 'Can you coordinate several vehicles?', a: 'Yes. Multi-vehicle bookings are planned as one itinerary, with dispatch coordinating arrivals.' },
     { q: 'Is pricing hourly or flat?', a: 'Vehicles that stay with you are booked hourly; simple transfers are quoted as a flat rate. ' + RATE },
     { q: 'Can we add stops?', a: 'Yes. Tell us the stops when you book, or ask your chauffeur on the day — hourly bookings cover stops and waiting.' },

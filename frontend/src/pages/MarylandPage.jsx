@@ -229,7 +229,7 @@ const MarylandPage = ({ slug: slugProp, page: pageProp }) => {
                   </a>
                   <div className="mt-6 pt-6 border-t border-gray-200 space-y-2 text-sm text-gray-600">
                     <div className="flex items-center gap-2"><Clock className="h-4 w-4 text-amber-600" /> 24/7 service · 365 days</div>
-                    <div className="flex items-center gap-2"><Car className="h-4 w-4 text-amber-600" /> Sedans · SUVs · Sprinters · Limos</div>
+                    <div className="flex items-center gap-2"><Car className="h-4 w-4 text-amber-600" /> Sedans · SUVs · Sprinters</div>
                     <div className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-amber-600" /> Flat rate · no surge</div>
                   </div>
                 </CardContent>
@@ -302,7 +302,7 @@ const MarylandPage = ({ slug: slugProp, page: pageProp }) => {
             Book <span className="text-amber-400">{data.name}</span> today
           </h2>
           <p className="text-base sm:text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Professionally chauffeured and guaranteed — free cancellation up to 3 hours before pickup for sedans and SUVs (12 hours for Sprinter vans, limousines and special events). Call {PHONE_DISPLAY} for a free, exact quote.
+            Professionally chauffeured and guaranteed — free cancellation up to 3 hours before pickup for sedans and SUVs (12 hours for Sprinter vans and special events). Call {PHONE_DISPLAY} for a free, exact quote.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link to="/booking">

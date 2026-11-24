@@ -25,11 +25,11 @@ const CONTACT_FAQS = [
   },
   {
     q: 'Are there any hidden fees?',
-    a: 'Absolutely not. Our pricing is completely transparent and all-inclusive. The quote you receive includes all taxes, fees, fuel surcharges, and gratuity unless otherwise specified.',
+    a: 'Absolutely not. Our pricing is completely transparent: the quote you receive includes all taxes, fees and fuel surcharges. A 20% gratuity is added to the rate, and the full total is shown before you confirm.',
   },
   {
     q: 'What is your cancellation policy?',
-    a: 'Sedans and SUVs can be cancelled free of charge up to 3 hours before your scheduled pickup time. Sprinter vans, limousines and special-event bookings can be cancelled free of charge up to 12 hours before pickup. Cancellations inside those windows may incur a cancellation fee — contact us directly for specific circumstances.',
+    a: 'Sedans and SUVs can be cancelled free of charge up to 3 hours before your scheduled pickup time. Sprinter vans and special-event bookings can be cancelled free of charge up to 12 hours before pickup. Cancellations inside those windows may incur a cancellation fee — contact us directly for specific circumstances.',
   },
   {
     q: 'Do you offer corporate accounts?',

@@ -1313,7 +1313,7 @@ export const BLOG_POSTS_BATCH17 = [
       <p>If your guests are older or less steady on their feet, plan around the walk. The market is a single closed block, but holiday crowds and uneven curbs can make it tiring. A drop-off at one end and a pickup at the other keeps walking to a minimum.</p>
 
       <h2>Planning the Ride</h2>
-      <p>December evenings are one of the busiest times of the year for us, with holiday parties, theater nights and airport runs all happening at once. Book ahead, especially for a weekend visit or a larger vehicle. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before. Your quote is all-inclusive, with no surprises when you arrive.</p>
+      <p>December evenings are one of the busiest times of the year for us, with holiday parties, theater nights and airport runs all happening at once. Book ahead, especially for a weekend visit or a larger vehicle. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before. Your written quote shows the full total, including the 20% gratuity added to the rate, so there are no surprises when you arrive.</p>
       <p>Tell us where you're starting, when you'd like to arrive and whether you'd like the car to stay with you. Call (877) 609-1919 at any hour or <a href="/booking">book online</a>, and we'll plan the drop-off around the market, the arena schedule and the rest of your day in <a href="/penn-quarter-limo-service">Penn Quarter</a>.</p>
     `,
     faqs: [
@@ -1404,7 +1404,7 @@ export const BLOG_POSTS_BATCH17 = [
       <p>International students returning through Dulles may face long lines at customs during the holiday peak, which the international waiting time is designed to absorb. Train arrivals at <a href="/union-station-dc-transportation">Union Station</a> are even simpler to meet, with pickups planned around the train's arrival time.</p>
 
       <h2>Booking the Ride</h2>
-      <p>The days around the end of exams book quickly, so reserve as soon as flights are confirmed. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans up to 12 hours before, so it's easy to adjust if an exam schedule changes. Your quote is all-inclusive. Call (877) 609-1919 at any hour or <a href="/booking">book online</a>, and if you're also thinking about move-in later in the year, our <a href="/blog/college-move-in-day-transportation-dc">move-in day guide</a> covers that trip too.</p>
+      <p>The days around the end of exams book quickly, so reserve as soon as flights are confirmed. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans up to 12 hours before, so it's easy to adjust if an exam schedule changes. Your quote shows the complete price up front, with the 20% gratuity added to the rate. Call (877) 609-1919 at any hour or <a href="/booking">book online</a>, and if you're also thinking about move-in later in the year, our <a href="/blog/college-move-in-day-transportation-dc">move-in day guide</a> covers that trip too.</p>
     `,
     faqs: [
       { q: 'Which airport should DC college students use for winter break?', a: 'Reagan National is closest to most campuses and works well for many domestic routes. Dulles has more international flights and West Coast nonstops, and BWI often has a wide choice of domestic flights. Union Station is best for Amtrak trips on the Northeast Corridor.' },
@@ -1491,7 +1491,7 @@ export const BLOG_POSTS_BATCH17 = [
       <p>The days just after New Year's are among the busiest of the year at DC's airports. If you're leaving then, allow extra time for security and book your ride to the airport in advance. Many visitors combine a final morning at a museum with a late-afternoon flight, keeping luggage in the vehicle until it's time to head to the airport. If a winter storm is forecast for your travel day, check your airline's app early and read our <a href="/blog/dca-winter-weather-flight-delay-playbook">DCA winter weather playbook</a> for how to handle delays and cancellations without missing your ride.</p>
 
       <h2>Booking Your Holiday-Week Rides</h2>
-      <p>The holiday week is busy for us too, so book airport transfers and hourly sightseeing days as soon as your plans are set. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before. Your quote is all-inclusive. Call (877) 609-1919 at any hour or <a href="/booking">book online</a>.</p>
+      <p>The holiday week is busy for us too, so book airport transfers and hourly sightseeing days as soon as your plans are set. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before. The quote you approve already shows the full total, with the 20% gratuity added to the rate. Call (877) 609-1919 at any hour or <a href="/booking">book online</a>.</p>
     `,
     faqs: [
       { q: 'Are the Smithsonian museums open between Christmas and New Year\'s?', a: 'Yes. Smithsonian museums are open every day of the year except December 25. Hours can vary over the holidays, so check each museum\'s website before you go.' },
@@ -1584,7 +1584,7 @@ export const BLOG_POSTS_BATCH17 = [
       <p>The Wharf is close to Reagan National, and the drive is often short in light traffic. If you're flying in for the weekend, you can be met at the airport and brought to your hotel or straight to the waterfront. Airport pickups include complimentary waiting time of 45 minutes on domestic arrivals and 60 minutes on international arrivals, timed from touchdown.</p>
 
       <h2>Booking the Ride</h2>
-      <p>Early December evenings are among the busiest of the year for us, with holiday parties, theater nights and airport runs all happening at once. Book ahead, especially for a larger vehicle. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before. Your quote is all-inclusive.</p>
+      <p>Early December evenings are among the busiest of the year for us, with holiday parties, theater nights and airport runs all happening at once. Book ahead, especially for a larger vehicle. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before. Your written quote lists the full total, including the 20% gratuity added to the rate, before you confirm.</p>
       <p>Call (877) 609-1919 at any hour or <a href="/booking">book online</a>. Tell us your group size, your dinner reservation if you have one, and when you'd like to arrive, and we'll plan the drop-off and pickup around the crowds.</p>
     `,
     faqs: [
@@ -1664,7 +1664,7 @@ export const BLOG_POSTS_BATCH17 = [
       <p>If you're coming to Washington for Hanukkah, Reagan National is the closest airport to the Ellipse. We can meet you at the airport and bring you to your hotel or straight downtown. Airport pickups include complimentary waiting time of 45 minutes on domestic arrivals and 60 minutes on international arrivals, timed from touchdown, and we track flights in case of delays.</p>
 
       <h2>Booking Your Ride</h2>
-      <p>December evenings are among our busiest of the year, so book as soon as you have your tickets. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before. Your quote is all-inclusive. Call (877) 609-1919 at any hour or <a href="/booking">book online</a>, and tell us which night you're attending and where you'd like to go afterward.</p>
+      <p>December evenings are among our busiest of the year, so book as soon as you have your tickets. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before. Your quote shows everything up front, including the 20% gratuity that is added to the rate. Call (877) 609-1919 at any hour or <a href="/booking">book online</a>, and tell us which night you're attending and where you'd like to go afterward.</p>
     `,
     faqs: [
       { q: 'Where is the National Menorah?', a: 'The National Menorah stands on the Ellipse in President\'s Park, just south of the White House, between Constitution Avenue and the White House and between 15th and 17th Streets NW.' },
@@ -1753,7 +1753,7 @@ export const BLOG_POSTS_BATCH17 = [
       <p>For a couple, a Mercedes-Benz E-Class or BMW 7 Series is comfortable. Families and small groups fit in a Chevrolet Suburban, which seats five, or a Lincoln Navigator, which seats six. For school groups, scout troops or extended families, a Mercedes Sprinter carries up to thirteen passengers. See our <a href="/fleet">fleet</a> for details.</p>
 
       <h2>Booking Your Visit</h2>
-      <p>December is one of our busiest months, so book as soon as you know your date. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before. Your quote is all-inclusive. Call (877) 609-1919 at any hour or <a href="/booking">book online</a>, and tell us your entry time if you have a pass, so we can plan the drop-off accordingly.</p>
+      <p>December is one of our busiest months, so book as soon as you know your date. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before. The full total, with the 20% gratuity added to the rate, is on your quote before you confirm. Call (877) 609-1919 at any hour or <a href="/booking">book online</a>, and tell us your entry time if you have a pass, so we can plan the drop-off accordingly.</p>
     `,
     faqs: [
       { q: 'When is the U.S. Botanic Garden holiday exhibit?', a: 'It typically opens around Thanksgiving and runs into early January. Check the U.S. Botanic Garden\'s official website for this year\'s dates, hours and any pass requirements.' },
@@ -1850,7 +1850,7 @@ export const BLOG_POSTS_BATCH17 = [
         <li><strong>Check status before your pickup time</strong> and again on the way. If the airline posts a significant delay or a cancellation, call dispatch and the pickup can be moved.</li>
         <li><strong>Allow for slower roads.</strong> The same storm that slows the airport also slows the GW Parkway, Route 1 and the bridges over the Potomac. On a stormy or snowy day, your chauffeur may suggest an earlier pickup.</li>
         <li><strong>Leave room for security lines.</strong> After a period of delays or cancellations, checkpoints can be busy as rebooked passengers come through.</li>
-        <li><strong>Know the cancellation policy.</strong> Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings cancel free of charge up to 12 hours before pickup.</li>
+        <li><strong>Know the cancellation policy.</strong> Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter vans and special-event bookings cancel free of charge up to 12 hours before pickup.</li>
       </ul>
 
       <h2>Connecting Flights and Tight Schedules</h2>
@@ -1867,7 +1867,7 @@ export const BLOG_POSTS_BATCH17 = [
       { q: 'How can I check airport delays at Reagan National?', a: 'Check your airline\'s app for your flight, the FAA\'s National Airspace System status page for airport-wide delay programs, and the official Reagan National website for arrivals and departures.' },
       { q: 'Do I need to call if my flight into DCA is delayed?', a: 'No. Every airport pickup is flight-tracked, so your chauffeur is dispatched against your actual arrival time. Call only if you are rebooked onto a different flight number or diverted to another airport.' },
       { q: 'How long will my chauffeur wait at Reagan National?', a: 'Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from actual touchdown.' },
-      { q: 'What if my outbound flight from DCA is cancelled?', a: 'Call dispatch to move or cancel the pickup. Sedan and SUV reservations cancel free of charge up to 3 hours before pickup; Sprinter vans, limousines and special-event bookings up to 12 hours before.' },
+      { q: 'What if my outbound flight from DCA is cancelled?', a: 'Call dispatch to move or cancel the pickup. Sedan and SUV reservations cancel free of charge up to 3 hours before pickup; Sprinter vans and special-event bookings up to 12 hours before.' },
     ],
   },
   // Added 2026-11-09 (batch 2): four scheduled keyword-gap posts, one a day
@@ -2860,7 +2860,7 @@ export const BLOG_POSTS_BATCH17 = [
       </ol>
 
       <h2>Booking Your Holiday Airport Ride</h2>
-      <p>December is a busy month for airport transfers, so book as soon as your flights are set. Every DCA Limos trip is quoted as a flat rate before you book, with gratuity and taxes included in the quoted price. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans up to 12 hours before pickup. You can <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year, including Christmas Eve and Christmas Day.</p>
+      <p>December is a busy month for airport transfers, so book as soon as your flights are set. Every DCA Limos trip is quoted as a flat rate before you book, with taxes included and a 20% gratuity added to the rate, all shown in the quoted total. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans up to 12 hours before pickup. You can <a href="/booking">book online</a> or call (877) 609-1919; dispatch runs 24 hours a day, every day of the year, including Christmas Eve and Christmas Day.</p>
     `,
     faqs: [
       { q: "Can I bring wrapped gifts through security at DCA?", a: "You can, but security officers may need to unwrap a gift to inspect it, in both carry-on and checked bags. The TSA recommends leaving gifts unwrapped or using gift bags so they can be checked easily." },

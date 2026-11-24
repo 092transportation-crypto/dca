@@ -31,7 +31,7 @@ const HOME_FAQS = [
   },
   {
     q: 'What is your cancellation policy?',
-    a: 'Sedan and SUV rides can be called off at no cost until 3 hours before the pickup time. For Sprinter vans, limousines and special-event reservations, the free-cancellation cutoff is 12 hours ahead. Inside those windows a cancellation fee may apply.',
+    a: 'Sedan and SUV rides can be called off at no cost until 3 hours before the pickup time. For Sprinter vans and special-event reservations, the free-cancellation cutoff is 12 hours ahead. Inside those windows a cancellation fee may apply.',
   },
   {
     q: 'What vehicles do you offer?',
@@ -81,7 +81,7 @@ const HomePage = () => {
     },
     {
       title: 'Wedding & Event Limo',
-      description: 'Wedding days, proms and big birthdays in DC and Northern Virginia, covered by limousines or Sprinter vans and timed around your photos and venues.',
+      description: 'Wedding days, proms and big birthdays in DC and Northern Virginia, covered by Sprinter Executive vans, SUVs or sedans and timed around your photos and venues.',
       icon: <PartyPopper className="h-8 w-8" />,
       image: '/images/wedding-service.webp',
       link: '/services'
@@ -174,7 +174,7 @@ const HomePage = () => {
             <span className="text-amber-600 font-semibold text-xs sm:text-sm uppercase tracking-wider mb-2 sm:mb-3 block">Flat-Rate Pricing</span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-gray-900 px-4">Get Your Free Quote</h2>
             <p className="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto px-4 mb-8">
-              Every trip is a flat, all-inclusive rate tailored to your route and vehicle — tolls, fuel,
+              Every trip is a flat rate tailored to your route and vehicle — tolls, fuel,
               and chauffeur included. No surge, no meter, no hidden fees. Call now or request your quote
               online and we&apos;ll confirm your exact price in writing within 15 minutes.
             </p>
@@ -515,7 +515,7 @@ const HomePage = () => {
           <div className="max-w-6xl mx-auto mt-10 sm:mt-14 bg-gradient-to-br from-amber-50 to-white rounded-xl p-6 sm:p-10 border border-amber-200" data-testid="internal-links-cluster">
             <h3 className="text-xl sm:text-2xl font-bold mb-4 text-gray-900 text-center">Explore DCA Limos</h3>
             <p className="text-center text-gray-600 mb-6 max-w-3xl mx-auto text-sm sm:text-base">
-              From <Link to="/services" className="text-amber-600 hover:underline font-semibold">airport transfers</Link> and <Link to="/services" className="text-amber-600 hover:underline font-semibold">corporate car service</Link> to <Link to="/services" className="text-amber-600 hover:underline font-semibold">wedding limousines</Link> across Maryland — explore our <Link to="/fleet" className="text-amber-600 hover:underline font-semibold">luxury fleet</Link>, read travel tips on the <Link to="/blog" className="text-amber-600 hover:underline font-semibold">DCA Limos blog</Link>, <Link to="/about" className="text-amber-600 hover:underline font-semibold">learn about our company</Link>, or <Link to="/booking" className="text-amber-600 hover:underline font-semibold">book your Maryland ride online</Link>.
+              From <Link to="/services" className="text-amber-600 hover:underline font-semibold">airport transfers</Link> and <Link to="/services" className="text-amber-600 hover:underline font-semibold">corporate car service</Link> to <Link to="/services" className="text-amber-600 hover:underline font-semibold">wedding transportation</Link> across Maryland — explore our <Link to="/fleet" className="text-amber-600 hover:underline font-semibold">luxury fleet</Link>, read travel tips on the <Link to="/blog" className="text-amber-600 hover:underline font-semibold">DCA Limos blog</Link>, <Link to="/about" className="text-amber-600 hover:underline font-semibold">learn about our company</Link>, or <Link to="/booking" className="text-amber-600 hover:underline font-semibold">book your Maryland ride online</Link>.
             </p>
             <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mt-6">
               {[

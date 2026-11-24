@@ -12,7 +12,7 @@ const FleetPage = () => {
   useEffect(() => {
     setPageSeo({
       title: "Luxury Fleet | Mercedes, BMW, Navigator & Sprinter Vans",
-      description: 'Sedans, SUVs, Sprinter vans & stretch limos — chauffeur-driven, late-model and spotless. Call (877) 609-1919 or book your vehicle online in minutes.',
+      description: 'Sedans, SUVs & Sprinter vans — chauffeur-driven, late-model and spotless. Call (877) 609-1919 or book your vehicle online in minutes.',
       path: "/fleet",
     });
   }, []);
@@ -67,7 +67,7 @@ const FleetPage = () => {
     {
       category: 'Sprinter Shuttle',
       name: 'Mercedes Sprinter 2023+ or similar',
-      image: '/images/sprinter-shuttle-seats.webp',
+      image: '/images/mercedes-sprinter.webp',
       passengers: '13',
       luggage: '13',
       description:

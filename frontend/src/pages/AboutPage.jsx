@@ -163,7 +163,7 @@ const AboutPage = () => {
             {[
               { title: 'Veteran Chauffeurs', desc: 'Average 10+ years professional driving experience. Background-checked, drug-tested, and professionally trained.' },
               { title: 'Premium Fleet', desc: 'Late-model luxury vehicles maintained to manufacturer specifications. Detailed before every service.' },
-              { title: 'Transparent Pricing', desc: 'No hidden fees, no surprises. All-inclusive quotes with upfront pricing and flexible payment options.' },
+              { title: 'Transparent Pricing', desc: 'No hidden fees, no surprises. Itemized quotes with upfront pricing and flexible payment options.' },
               { title: '24/7 Concierge Support', desc: 'Round-the-clock customer service for bookings, modifications, and assistance whenever you need us.' },
               { title: 'Real-Time Flight Tracking', desc: 'Advanced monitoring ensures we adjust for delays automatically—no extra charges for wait time.' },
               { title: 'Satisfaction Guaranteed', desc: 'We stand behind our service. If we don\'t meet your expectations, we\'ll make it right—guaranteed.' },

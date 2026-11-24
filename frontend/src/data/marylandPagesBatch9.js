@@ -11,7 +11,7 @@ const VEHICLES = [
   { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
   { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
   { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties, corporate teams and groups' },
-  { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings, prom and special occasions' },
+  { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
 ];
 
 export const MARYLAND_BATCH9 = [
@@ -26,7 +26,7 @@ export const MARYLAND_BATCH9 = [
     h1: 'Bethesda Wedding Limo Service',
     metaTitle: 'Bethesda Wedding Limo Service | Bethesda, MD',
     metaDescription:
-      'Wedding limo service in Bethesda, MD: stretch limos and Sprinter vans for the couple, party and guests. Flat rates, licensed chauffeurs. Call (877) 609-1919.',
+      'Wedding limo service in Bethesda, MD: Sprinter vans, SUVs and sedans for the couple, party and guests. Flat rates, licensed chauffeurs. Call (877) 609-1919.',
     stats: [
       { label: 'To Reagan (DCA)', value: '13 mi · 25–40 minutes' },
       { label: 'To BWI', value: '38 mi · 50–65 minutes' },
@@ -34,11 +34,11 @@ export const MARYLAND_BATCH9 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'A Bethesda wedding usually means a hotel ballroom on Wisconsin Avenue or Old Georgetown Road, a garden ceremony at a place like Glen Echo Park\'s Spanish Ballroom just down River Road, or a reception at one of the Bethesda Row restaurants converted for a private event. DCA Limos drives all of it — getting-ready suite to ceremony, ceremony to photos, photos to reception — in a stretch limousine or Sprinter van with a chauffeur who stays with the wedding party for the whole day.',
+      'A Bethesda wedding usually means a hotel ballroom on Wisconsin Avenue or Old Georgetown Road, a garden ceremony at a place like Glen Echo Park\'s Spanish Ballroom just down River Road, or a reception at one of the Bethesda Row restaurants converted for a private event. DCA Limos drives all of it — getting-ready suite to ceremony, ceremony to photos, photos to reception — in a Sprinter van with a chauffeur who stays with the wedding party for the whole day.',
       'Bethesda\'s downtown fills with restaurant and office traffic most evenings, and weekend construction on the Capital Crescent Trail corridor can add a few minutes to a short hop between venues. We build that margin into the timeline before the first pickup, not after the wedding party is already running late.',
     ],
     highlights: [
-      'Stretch limousine for the couple and wedding party; Sprinter van for guest shuttles',
+      'Sprinter Executive for the couple and wedding party; Sprinter van for guest shuttles',
       'Chauffeurs who know Bethesda Row, Glen Echo Park and the Wisconsin Avenue hotel corridor',
       'Hourly booking keeps one vehicle and chauffeur with you from getting-ready to last dance',
       'Guest shuttle service between hotel blocks and the ceremony or reception venue',
@@ -49,8 +49,8 @@ export const MARYLAND_BATCH9 = [
       {
         h2: 'Getting the wedding party from suite to ceremony',
         paragraphs: [
-          'Most Bethesda weddings start at a hotel or a private home near Burning Tree Road or Edgemoor, with the stretch limousine arriving early enough for photos at the curb before the ceremony. The chauffeur waits through the vows — whether that is at a hotel ballroom, a church along Old Georgetown Road, or an outdoor ceremony at Glen Echo Park\'s historic Spanish Ballroom — and is at the door the moment the recessional ends.',
-          'For parties larger than the limousine\'s eight seats, we pair it with a Sprinter van so the full wedding party, including parents and the photographer, travels together rather than splitting into separate cars that have to find each other at the next stop.',
+          'Most Bethesda weddings start at a hotel or a private home near Burning Tree Road or Edgemoor, with the couple\'s first-class sedan or Lincoln Navigator arriving early enough for photos at the curb before the ceremony. The chauffeur waits through the vows — whether that is at a hotel ballroom, a church along Old Georgetown Road, or an outdoor ceremony at Glen Echo Park\'s historic Spanish Ballroom — and is at the door the moment the recessional ends.',
+          'For parties larger than the Navigator\'s six seats, we pair it with a Sprinter Executive so the full wedding party, including parents and the photographer, travels together rather than splitting into separate cars that have to find each other at the next stop.',
         ],
       },
       {
@@ -84,7 +84,7 @@ export const MARYLAND_BATCH9 = [
       },
       {
         q: 'How far in advance should we book a Bethesda wedding limo?',
-        a: 'As soon as the date and venues are set. Spring and fall Saturdays are Bethesda\'s busiest wedding dates, and stretch limousines and Sprinter vans are limited.',
+        a: 'As soon as the date and venues are set. Spring and fall Saturdays are Bethesda\'s busiest wedding dates, and Sprinter vans are limited.',
       },
       {
         q: 'What is the cancellation policy for wedding bookings?',
@@ -109,7 +109,7 @@ export const MARYLAND_BATCH9 = [
     h1: 'Alexandria, VA Wedding Limo Service',
     metaTitle: 'Alexandria VA Wedding Limo Service | Old Town',
     metaDescription:
-      'Wedding limo service in Alexandria, VA: stretch limousines for Old Town ceremonies, waterfront receptions and guest shuttles. Call (877) 609-1919.',
+      'Wedding limo service in Alexandria, VA: Sprinter vans and SUVs for Old Town ceremonies, waterfront receptions and guest shuttles. Call (877) 609-1919.',
     stats: [
       { label: 'To Reagan (DCA)', value: '10–20 minutes' },
       { label: 'To Dulles (IAD)', value: '40–65 minutes' },
@@ -117,11 +117,11 @@ export const MARYLAND_BATCH9 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Old Town Alexandria is one of the most photographed wedding backdrops in the DC area — cobblestone side streets off King Street, the historic churches near Washington Street, and waterfront reception venues along the Potomac within sight of the Torpedo Factory. None of it is built for a line of guest cars; parking is scarce and many blocks are brick and one-way. DCA Limos handles Alexandria weddings with that in mind, delivering the couple and party by chauffeured stretch limousine and running guest shuttles from hotels outside the historic core.',
+      'Old Town Alexandria is one of the most photographed wedding backdrops in the DC area — cobblestone side streets off King Street, the historic churches near Washington Street, and waterfront reception venues along the Potomac within sight of the Torpedo Factory. None of it is built for a line of guest cars; parking is scarce and many blocks are brick and one-way. DCA Limos handles Alexandria weddings with that in mind, delivering the couple and party by chauffeured Sprinter Executive or Lincoln Navigator and running guest shuttles from hotels outside the historic core.',
       'Because Old Town\'s narrow streets close easily for festivals, farmers markets and film permits, our chauffeurs confirm the actual working entrance for each venue rather than assuming the front door is reachable by car on the wedding day.',
     ],
     highlights: [
-      'Stretch limousine for the couple and wedding party through Old Town\'s historic streets',
+      'Lincoln Navigator or first-class sedan for the couple, Sprinter Executive for the wedding party',
       'Chauffeurs who know King Street, the waterfront venues and the Masonic Memorial as a photo backdrop',
       'Guest shuttles from hotels along Route 1 and the Beltway into the pedestrian-heavy historic district',
       'Coordination around Old Town street closures for markets, festivals and events',
@@ -132,7 +132,7 @@ export const MARYLAND_BATCH9 = [
       {
         h2: 'Weddings in Old Town\'s historic core',
         paragraphs: [
-          'Alexandria\'s historic churches along Washington and Cameron Streets, including congregations with ties back to the city\'s colonial founding, remain popular ceremony sites, and the walk from a church door to a waiting limousine is often shorter than the walk to parking would have been. Our chauffeurs stage on the nearest open block and walk the couple to the car rather than blocking a one-way brick street that cannot accommodate a U-turn.',
+          'Alexandria\'s historic churches along Washington and Cameron Streets, including congregations with ties back to the city\'s colonial founding, remain popular ceremony sites, and the walk from a church door to a waiting car is often shorter than the walk to parking would have been. Our chauffeurs stage on the nearest open block and walk the couple to the car rather than blocking a one-way brick street that cannot accommodate a U-turn.',
           'The George Washington Masonic National Memorial, visible from much of Old Town, is a frequent photo stop between ceremony and reception, and we build that stop into the timeline without extending the overall schedule.',
         ],
       },
@@ -154,8 +154,8 @@ export const MARYLAND_BATCH9 = [
     vehicles: [...VEHICLES],
     faqs: [
       {
-        q: 'Can a stretch limousine actually reach Old Town\'s narrow streets?',
-        a: 'Yes, though our chauffeurs confirm the specific working entrance for your venue in advance, since several Old Town blocks are one-way, brick-surfaced or close for events.',
+        q: 'Can a Sprinter actually reach Old Town\'s narrow streets?',
+        a: 'Usually, though our chauffeurs confirm the specific working entrance for your venue in advance, since several Old Town blocks are one-way, brick-surfaced or close for events.',
       },
       {
         q: 'Do you provide guest shuttles for an Alexandria wedding?',
@@ -200,14 +200,14 @@ export const MARYLAND_BATCH9 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Few DC-area weddings are as distinctive as an Annapolis one: a ceremony inside the United States Naval Academy\'s chapel, complete with the sabre arch tradition as the couple exits between crossed swords, followed by a reception at a yacht club or a City Dock venue overlooking the Chesapeake. DCA Limos drives Annapolis weddings in a stretch limousine or Sprinter van, with chauffeurs who understand the Naval Academy\'s visitor and security procedures and the historic district\'s drawbridge timing.',
+      'Few DC-area weddings are as distinctive as an Annapolis one: a ceremony inside the United States Naval Academy\'s chapel, complete with the sabre arch tradition as the couple exits between crossed swords, followed by a reception at a yacht club or a City Dock venue overlooking the Chesapeake. DCA Limos drives Annapolis weddings in a Sprinter van, with chauffeurs who understand the Naval Academy\'s visitor and security procedures and the historic district\'s drawbridge timing.',
       'Annapolis sits on a peninsula laced with drawbridges, and the Spa Creek and Eastport bridges can both slow or briefly close for boat traffic — a real factor on a wedding day when the ceremony and reception sit on opposite sides of the water. We build that swing-bridge buffer into the timeline rather than discovering it curbside.',
     ],
     highlights: [
       'Experience with United States Naval Academy chapel weddings and base-access coordination',
       'Yacht club and City Dock waterfront reception transportation',
       'Drawbridge timing built into every Annapolis wedding-day schedule',
-      'Stretch limousine for the couple and party; Sprinter van for guest shuttles',
+      'Sprinter Executive for the couple and party; Sprinter van for guest shuttles',
       'Coordination around State Circle and historic-district parking restrictions',
       'Rate confirmed before you book; wedding bookings cancel free up to 12 hours before',
     ],
@@ -215,7 +215,7 @@ export const MARYLAND_BATCH9 = [
       {
         h2: 'Weddings inside the Naval Academy',
         paragraphs: [
-          'A USNA chapel wedding requires base-access coordination for every vehicle in the wedding party, and our chauffeurs are experienced with the Academy\'s visitor-gate procedures, including the credential and vehicle information the base requires in advance. The Herndon Monument lawn and the Yard\'s waterfront paths are common photo stops immediately after the ceremony, and we plan the limousine\'s standby position accordingly.',
+          'A USNA chapel wedding requires base-access coordination for every vehicle in the wedding party, and our chauffeurs are experienced with the Academy\'s visitor-gate procedures, including the credential and vehicle information the base requires in advance. The Herndon Monument lawn and the Yard\'s waterfront paths are common photo stops immediately after the ceremony, and we plan each vehicle\'s standby position accordingly.',
           'For the traditional sabre arch exit, the chauffeur stages close enough to the chapel steps that the walk to the car is short, which matters in Annapolis weather and in a wedding gown.',
         ],
       },
@@ -283,13 +283,13 @@ export const MARYLAND_BATCH9 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Glenview Mansion, the historic estate house inside Rockville Civic Center Park, is one of Montgomery County\'s most-booked wedding venues, and DCA Limos drives couples there and back from getting-ready suites across Rockville in a stretch limousine with a chauffeur who waits through the ceremony and photos on the mansion\'s grounds. Rockville Town Square\'s restaurants and hotel ballrooms fill out the rest of the county\'s wedding calendar, and we cover both with the same flat-rate, hourly booking.',
+      'Glenview Mansion, the historic estate house inside Rockville Civic Center Park, is one of Montgomery County\'s most-booked wedding venues, and DCA Limos drives couples there and back from getting-ready suites across Rockville in a first-class sedan, a Lincoln Navigator or a Sprinter Executive, with a chauffeur who waits through the ceremony and photos on the mansion\'s grounds. Rockville Town Square\'s restaurants and hotel ballrooms fill out the rest of the county\'s wedding calendar, and we cover both with the same flat-rate, hourly booking.',
       'Rockville Pike carries most of the city\'s through-traffic and backs up predictably around rush hour, so our chauffeurs plan Glenview Mansion and Town Square pickups around Maryland Avenue and the quieter residential side streets rather than fighting the Pike directly on a wedding day.',
     ],
     highlights: [
       'Regular transportation to Glenview Mansion inside Rockville Civic Center Park',
       'Rockville Town Square restaurant and hotel ballroom reception coverage',
-      'Stretch limousine for the couple and party; Sprinter van for guest shuttles',
+      'Sprinter Executive for the couple and party; Sprinter van for guest shuttles',
       'Chauffeurs who route around Rockville Pike\'s rush-hour backups',
       'Airport pickups for out-of-town guests arriving at DCA, Dulles or BWI',
       'Rate confirmed before you book; wedding bookings cancel free up to 12 hours before',
@@ -299,7 +299,7 @@ export const MARYLAND_BATCH9 = [
         h2: 'Glenview Mansion wedding transportation',
         paragraphs: [
           'Glenview Mansion\'s grounds host both the ceremony and the cocktail hour for many Rockville weddings, and the mansion\'s circular drive makes a clean, photogenic pickup and drop-off point once the chauffeur knows exactly where Civic Center Park staff expect vehicles to queue. We confirm that detail with the venue coordinator ahead of the date rather than guessing on arrival.',
-          'For couples pairing a Glenview ceremony with a reception elsewhere in Rockville or North Bethesda, the limousine and chauffeur stay on an hourly booking and simply move with the day.',
+          'For couples pairing a Glenview ceremony with a reception elsewhere in Rockville or North Bethesda, the vehicle and chauffeur stay on an hourly booking and simply move with the day.',
         ],
       },
       {
@@ -312,7 +312,7 @@ export const MARYLAND_BATCH9 = [
       {
         h2: 'Booking a Rockville wedding car service',
         paragraphs: [
-          'Share the ceremony venue, reception address and guest count, and we will confirm a stretch limousine or Sprinter van, a written timeline and a flat rate before you book. Glenview Mansion\'s spring and fall Saturdays are reserved well ahead, so earlier booking means more vehicle choice.',
+          'Share the ceremony venue, reception address and guest count, and we will confirm a Sprinter van, a written timeline and a flat rate before you book. Glenview Mansion\'s spring and fall Saturdays are reserved well ahead, so earlier booking means more vehicle choice.',
           'Call (877) 609-1919 or request a free quote online.',
         ],
       },
@@ -366,13 +366,13 @@ export const MARYLAND_BATCH9 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Arlington\'s wedding venues run from the traditional — Army Navy Country Club\'s ballroom and golf-course views — to the modern rooftop spaces that have opened along the Rosslyn-Ballston corridor as the skyline has grown. DCA Limos drives both ends of that range, with a stretch limousine for the couple and party and a Sprinter van for guest shuttles between the corridor\'s hotel cluster and whichever venue the day calls for.',
+      'Arlington\'s wedding venues run from the traditional — Army Navy Country Club\'s ballroom and golf-course views — to the modern rooftop spaces that have opened along the Rosslyn-Ballston corridor as the skyline has grown. DCA Limos drives both ends of that range, with a Sprinter Executive for the couple and party and a Sprinter van for guest shuttles between the corridor\'s hotel cluster and whichever venue the day calls for.',
       'Arlington sits practically next door to Reagan National, which makes it one of the easiest cities in our coverage area for guests flying in the morning of the wedding — and one of the few where we can confidently promise a same-day airport-to-ceremony transfer without padding the schedule heavily.',
     ],
     highlights: [
       'Experience with Army Navy Country Club weddings and rooftop venues along the Rosslyn-Ballston corridor',
       'Guest shuttles between Clarendon, Ballston and Crystal City hotels and the venue',
-      'Stretch limousine for the couple and party; Sprinter van for larger groups',
+      'Lincoln Navigator for the couple; Sprinter Executive for the wedding party and larger groups',
       'Photo stops at the Marine Corps War Memorial and other Arlington landmarks',
       'Same-day airport transfers for guests flying into Reagan National',
       'Rate confirmed before you book; wedding bookings cancel free up to 12 hours before',
@@ -381,8 +381,8 @@ export const MARYLAND_BATCH9 = [
       {
         h2: 'Country club and rooftop weddings',
         paragraphs: [
-          'Army Navy Country Club\'s ballroom remains one of Arlington\'s most traditional wedding settings, with a circular drive that makes limousine pickup straightforward once the chauffeur has confirmed the club\'s guest-vehicle procedure in advance. Newer rooftop venues along the Ballston and Rosslyn corridor trade the golf-course view for a skyline one, and usually require a loading-dock or side-entrance pickup rather than a front door — another detail we confirm before the wedding day rather than during it.',
-          'For couples splitting ceremony and reception between two Arlington neighborhoods, the limousine stays on an hourly booking and simply moves with the schedule.',
+          'Army Navy Country Club\'s ballroom remains one of Arlington\'s most traditional wedding settings, with a circular drive that makes a wedding-party pickup straightforward once the chauffeur has confirmed the club\'s guest-vehicle procedure in advance. Newer rooftop venues along the Ballston and Rosslyn corridor trade the golf-course view for a skyline one, and usually require a loading-dock or side-entrance pickup rather than a front door — another detail we confirm before the wedding day rather than during it.',
+          'For couples splitting ceremony and reception between two Arlington neighborhoods, the chauffeur stays on an hourly booking and simply moves with the schedule.',
         ],
       },
       {
@@ -449,14 +449,14 @@ export const MARYLAND_BATCH9 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Leesburg is the gateway to Loudoun County\'s wine country, and a large share of its wedding business comes from couples marrying at one of the area\'s forty-plus wineries or at Morven Park, the historic estate and equestrian center just outside downtown. DCA Limos drives those weddings with a stretch limousine or Sprinter van and a chauffeur who already knows the gravel lanes and vineyard access roads a GPS alone will not get right the first time.',
+      'Leesburg is the gateway to Loudoun County\'s wine country, and a large share of its wedding business comes from couples marrying at one of the area\'s forty-plus wineries or at Morven Park, the historic estate and equestrian center just outside downtown. DCA Limos drives those weddings with a Sprinter van and a chauffeur who already knows the gravel lanes and vineyard access roads a GPS alone will not get right the first time.',
       'Because many Loudoun venues sit well outside Leesburg\'s historic downtown on rural roads with limited cell signal, we confirm the exact venue entrance and a backup contact number before the wedding day rather than relying on turn-by-turn directions in the moment.',
     ],
     highlights: [
       'Experience with Loudoun County winery weddings and vineyard access roads',
       'Regular transportation to Morven Park and the National Conference Center',
       'Historic downtown Leesburg ceremony and reception coverage',
-      'Stretch limousine for the couple and party; Sprinter van for guest shuttles from hotels',
+      'Sprinter Executive for the couple and party; Sprinter van for guest shuttles from hotels',
       'Confirmed venue access and backup contact for rural, low-signal wine-country addresses',
       'Rate confirmed before you book; wedding bookings cancel free up to 12 hours before',
     ],
@@ -464,7 +464,7 @@ export const MARYLAND_BATCH9 = [
       {
         h2: 'Wine-country and Morven Park weddings',
         paragraphs: [
-          'Loudoun County\'s wineries range from working farm vineyards to purpose-built event barns, and most share the same practical issue: a gravel or single-lane access road that a stretch limousine can navigate but that benefits enormously from a chauffeur who has been there before. Morven Park, with its mansion, boxwood gardens and equestrian grounds, is one of the area\'s most-booked estate venues and has its own specific drop-off circle our chauffeurs know well.',
+          'Loudoun County\'s wineries range from working farm vineyards to purpose-built event barns, and most share the same practical issue: a gravel or single-lane access road that a Sprinter can navigate but that benefits enormously from a chauffeur who has been there before. Morven Park, with its mansion, boxwood gardens and equestrian grounds, is one of the area\'s most-booked estate venues and has its own specific drop-off circle our chauffeurs know well.',
           'For receptions that run past sunset at an outdoor venue, we confirm lighting and road conditions for the return trip in advance, since many of these properties sit on roads without streetlights.',
         ],
       },
@@ -486,7 +486,7 @@ export const MARYLAND_BATCH9 = [
     vehicles: [...VEHICLES],
     faqs: [
       {
-        q: 'Can a stretch limousine reach a Loudoun County winery venue?',
+        q: 'Can a Sprinter van reach a Loudoun County winery venue?',
         a: 'Yes, in nearly all cases. Our chauffeurs are experienced with vineyard access roads and confirm the specific venue entrance in advance.',
       },
       {
@@ -1028,7 +1028,7 @@ export const MARYLAND_BATCH9 = [
     h1: 'Frederick, MD Prom Limo Service',
     metaTitle: 'Frederick MD Prom Limo Service | DCA Limos',
     metaDescription:
-      'Prom limo service in Frederick, MD: stretch limos and Sprinter vans, licensed chauffeurs, parent-approved rules. Call (877) 609-1919.',
+      'Prom limo service in Frederick, MD: Sprinter vans and Navigator SUVs, licensed chauffeurs, parent-approved rules. Call (877) 609-1919.',
     stats: [
       { label: 'To Reagan (DCA)', value: '50 mi · 60–80 minutes' },
       { label: 'To BWI', value: '55 mi · 60–75 minutes' },
@@ -1036,11 +1036,11 @@ export const MARYLAND_BATCH9 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Prom night in Frederick usually means photos downtown near Carroll Creek Park, dinner somewhere along Market Street\'s restaurant row, and a dance at a hotel ballroom or a venue outside the historic district. DCA Limos provides prom limo service for Frederick-area students with a stretch limousine or Sprinter van, a licensed chauffeur and an itinerary agreed with parents before the night begins.',
+      'Prom night in Frederick usually means photos downtown near Carroll Creek Park, dinner somewhere along Market Street\'s restaurant row, and a dance at a hotel ballroom or a venue outside the historic district. DCA Limos provides prom limo service for Frederick-area students with a Sprinter van, a licensed chauffeur and an itinerary agreed with parents before the night begins.',
       'The rate is confirmed when you book, the chauffeur stays with the group from first pickup to last drop-off, and the rules — no alcohol, no unscheduled stops — are explained at booking and again at pickup.',
     ],
     highlights: [
-      'Stretch limousine for up to eight; Sprinter van for larger groups',
+      'Lincoln Navigator for up to six; Sprinter van for larger groups',
       'Licensed, background-checked chauffeurs and commercially insured vehicles',
       'Itinerary with pickup addresses, dinner, venue and drop-offs fixed in advance',
       'Parents receive the confirmation and the chauffeur\'s contact details',
@@ -1056,9 +1056,9 @@ export const MARYLAND_BATCH9 = [
         ],
       },
       {
-        h2: 'Stretch limousine or Sprinter van for a Frederick group',
+        h2: 'Navigator or Sprinter van for a Frederick group',
         paragraphs: [
-          'The stretch limousine seats eight and suits most friend groups heading downtown for photos and dinner on Market Street. Larger groups are better served by the Sprinter van, which seats up to thirteen and gives more room for formal wear, and both are driven by chauffeurs experienced with prom season\'s predictable rush of spring Saturdays.',
+          'A Lincoln Navigator seats six and suits a smaller friend group heading downtown for photos and dinner on Market Street. Larger groups are better served by the Sprinter Executive, which seats up to thirteen and gives more room for formal wear, and both are driven by chauffeurs experienced with prom season\'s predictable rush of spring Saturdays.',
           'Frederick\'s downtown historic district has narrow streets and limited parking near Carroll Creek, so a chauffeur who already knows where to wait is one less thing for parents to worry about.',
         ],
       },
@@ -1074,7 +1074,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How many students fit in a Frederick prom limo?',
-        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to thirteen with room for formal wear.',
+        a: 'Our Lincoln Navigator carries up to six, and the Sprinter Executive takes up to thirteen with room for formal wear. We don\'t run stretch limousines, so bigger groups usually choose the Sprinter.',
       },
       {
         q: 'Does the chauffeur stay during dinner and the dance?',
@@ -1090,7 +1090,7 @@ export const MARYLAND_BATCH9 = [
       },
       {
         q: 'When should we book for Frederick prom season?',
-        a: 'As soon as the date is known. Stretch limousines and Sprinters are limited during prom season in late spring.',
+        a: 'As soon as the date is known. Sprinter vans are limited during prom season in late spring.',
       },
     ],
     related: [
@@ -1111,7 +1111,7 @@ export const MARYLAND_BATCH9 = [
     h1: 'Germantown, MD Prom Limo Service',
     metaTitle: 'Germantown MD Prom Limo Service | DCA Limos',
     metaDescription:
-      'Prom limo service in Germantown, MD: stretch limos and Sprinter vans, licensed chauffeurs, parent-approved rules. Call (877) 609-1919.',
+      'Prom limo service in Germantown, MD: Sprinter vans and SUVs, licensed chauffeurs, parent-approved rules. Call (877) 609-1919.',
     stats: [
       { label: 'To Reagan (DCA)', value: '33 mi · 50–70 minutes' },
       { label: 'To BWI', value: '50 mi · 60–75 minutes' },
@@ -1119,11 +1119,11 @@ export const MARYLAND_BATCH9 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Upper Montgomery County\'s prom season fills Germantown\'s restaurants and event spaces every spring, with students posing for photos at Seneca Creek State Park or BlackRock Center for the Arts before heading to dinner and the dance. DCA Limos provides prom limo service here with a stretch limousine or Sprinter van, a licensed chauffeur and an itinerary agreed with parents before the night begins.',
+      'Upper Montgomery County\'s prom season fills Germantown\'s restaurants and event spaces every spring, with students posing for photos at Seneca Creek State Park or BlackRock Center for the Arts before heading to dinner and the dance. DCA Limos provides prom limo service here with a Sprinter van, a licensed chauffeur and an itinerary agreed with parents before the night begins.',
       'The rate is confirmed when you book, the chauffeur stays with the group from first pickup to last drop-off, and the rules are simple and non-negotiable.',
     ],
     highlights: [
-      'Stretch limousine for up to eight; Sprinter van for larger groups',
+      'Lincoln Navigator for up to six; Sprinter van for larger groups',
       'Licensed, background-checked chauffeurs and commercially insured vehicles',
       'Itinerary with pickup addresses, dinner, venue and drop-offs fixed in advance',
       'Parents receive the confirmation and the chauffeur\'s contact details',
@@ -1139,9 +1139,9 @@ export const MARYLAND_BATCH9 = [
         ],
       },
       {
-        h2: 'Choosing a stretch limousine or Sprinter van',
+        h2: 'Choosing a Sprinter van',
         paragraphs: [
-          'The stretch limousine seats eight and is the classic choice for a tighter friend group. Groups larger than that are better served by the Sprinter van, which seats up to thirteen and keeps everyone traveling together rather than splitting into two cars that have to find each other at the next stop.',
+          'A Lincoln Navigator, seating six, works well for a tighter friend group. Bigger groups are better served by the Sprinter Executive, which seats up to thirteen and keeps everyone traveling together rather than splitting into two cars that have to find each other at the next stop.',
           'Upper Montgomery County\'s prom season runs the same late-spring weeks as the rest of the DC area, and both vehicle types book up fast during it.',
         ],
       },
@@ -1157,7 +1157,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How many students fit in a Germantown prom limo?',
-        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to thirteen with room for formal wear.',
+        a: 'Up to six in a Lincoln Navigator, or up to thirteen in the Sprinter Executive, which has room for gowns and tuxes. Larger parties can be split across coordinated vehicles.',
       },
       {
         q: 'Does the chauffeur stay during dinner and the dance?',
@@ -1173,7 +1173,7 @@ export const MARYLAND_BATCH9 = [
       },
       {
         q: 'When should we book for Germantown prom season?',
-        a: 'As soon as the date is known. Stretch limousines and Sprinters are limited during late-spring prom season.',
+        a: 'As soon as the date is known. Sprinter vans are limited during late-spring prom season.',
       },
     ],
     related: [
@@ -1194,7 +1194,7 @@ export const MARYLAND_BATCH9 = [
     h1: 'Fairfax, VA Prom Limo Service',
     metaTitle: 'Fairfax VA Prom Limo Service | DCA Limos',
     metaDescription:
-      'Prom limo service in Fairfax, VA: stretch limos and Sprinter vans, licensed chauffeurs, parent-approved rules. Call (877) 609-1919.',
+      'Prom limo service in Fairfax, VA: Sprinter vans and Navigator SUVs, licensed chauffeurs, parent-approved rules. Call (877) 609-1919.',
     stats: [
       { label: 'To Reagan (DCA)', value: '17 mi · 25–40 minutes' },
       { label: 'To Dulles (IAD)', value: '15 mi · 20–30 minutes' },
@@ -1202,11 +1202,11 @@ export const MARYLAND_BATCH9 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Fairfax, the independent city at the center of Fairfax County and home to George Mason University\'s main campus, sees a heavy concentration of prom-season bookings every spring from students across the county. DCA Limos provides prom limo service here with a stretch limousine or Sprinter van, a licensed chauffeur and an itinerary agreed with parents before the night begins.',
+      'Fairfax, the independent city at the center of Fairfax County and home to George Mason University\'s main campus, sees a heavy concentration of prom-season bookings every spring from students across the county. DCA Limos provides prom limo service here with a Sprinter van, a licensed chauffeur and an itinerary agreed with parents before the night begins.',
       'The rate is confirmed when you book, the chauffeur stays with the group from first pickup to last drop-off, and the rules are simple and non-negotiable.',
     ],
     highlights: [
-      'Stretch limousine for up to eight; Sprinter van for larger groups',
+      'Lincoln Navigator for up to six; Sprinter van for larger groups',
       'Licensed, background-checked chauffeurs and commercially insured vehicles',
       'Itinerary with pickup addresses, dinner, venue and drop-offs fixed in advance',
       'Parents receive the confirmation and the chauffeur\'s contact details',
@@ -1222,9 +1222,9 @@ export const MARYLAND_BATCH9 = [
         ],
       },
       {
-        h2: 'Choosing a stretch limousine or Sprinter van',
+        h2: 'Choosing a Sprinter van',
         paragraphs: [
-          'The stretch limousine seats eight and is the classic choice for a tighter friend group. Groups larger than that are better served by the Sprinter van, which seats up to thirteen and keeps everyone traveling together rather than splitting into two cars.',
+          'For a small friend group of up to six, the Lincoln Navigator is the usual pick. Anything larger fits better in the Sprinter Executive, which seats up to thirteen and keeps everyone traveling together rather than splitting into two cars.',
           'Fairfax sits at the crossroads of several county high school districts, and prom weekends here are among the busiest of the season across Northern Virginia.',
         ],
       },
@@ -1240,7 +1240,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How many students fit in a Fairfax prom limo?',
-        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to thirteen with room for formal wear.',
+        a: 'A Lincoln Navigator takes up to six students. For larger groups the Sprinter Executive seats up to thirteen with room for formal wear.',
       },
       {
         q: 'Does the chauffeur stay during dinner and the dance?',
@@ -1256,7 +1256,7 @@ export const MARYLAND_BATCH9 = [
       },
       {
         q: 'When should we book for Fairfax prom season?',
-        a: 'As soon as the date is known. Stretch limousines and Sprinters are limited during late-spring prom season.',
+        a: 'As soon as the date is known. Sprinter vans are limited during late-spring prom season.',
       },
     ],
     related: [
@@ -1277,7 +1277,7 @@ export const MARYLAND_BATCH9 = [
     h1: 'Potomac, MD Prom Limo Service',
     metaTitle: 'Potomac MD Prom Limo Service | DCA Limos',
     metaDescription:
-      'Prom limo service in Potomac, MD: stretch limos and Sprinter vans, licensed chauffeurs, parent-approved rules. Call (877) 609-1919.',
+      'Prom limo service in Potomac, MD: Sprinter vans and luxury SUVs, licensed chauffeurs, parent-approved rules. Call (877) 609-1919.',
     stats: [
       { label: 'To Reagan (DCA)', value: '30–50 minutes' },
       { label: 'To Dulles (IAD)', value: '30–50 minutes' },
@@ -1285,11 +1285,11 @@ export const MARYLAND_BATCH9 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Potomac\'s large River Road estates and C&O Canal towpath make for a popular pre-prom photo setting, and DCA Limos provides prom limo service for the community\'s students every spring with a stretch limousine or Sprinter van, a licensed chauffeur and an itinerary agreed with parents before the night begins.',
+      'Potomac\'s large River Road estates and C&O Canal towpath make for a popular pre-prom photo setting, and DCA Limos provides prom limo service for the community\'s students every spring with a Sprinter van, a licensed chauffeur and an itinerary agreed with parents before the night begins.',
       'The rate is confirmed when you book, the chauffeur stays with the group from first pickup to last drop-off, and the rules are simple and non-negotiable.',
     ],
     highlights: [
-      'Stretch limousine for up to eight; Sprinter van for larger groups',
+      'Lincoln Navigator for up to six; Sprinter van for larger groups',
       'Licensed, background-checked chauffeurs and commercially insured vehicles',
       'Itinerary with pickup addresses, dinner, venue and drop-offs fixed in advance',
       'Parents receive the confirmation and the chauffeur\'s contact details',
@@ -1305,9 +1305,9 @@ export const MARYLAND_BATCH9 = [
         ],
       },
       {
-        h2: 'Choosing a stretch limousine or Sprinter van',
+        h2: 'Choosing a Sprinter van',
         paragraphs: [
-          'The stretch limousine seats eight and is the classic choice for a tighter friend group. Groups larger than that are better served by the Sprinter van, which seats up to thirteen and keeps everyone traveling together on Potomac\'s winding, largely two-lane roads rather than splitting into separate cars.',
+          'A Lincoln Navigator seats six and is a comfortable choice for a tighter friend group. Larger groups do better in the Sprinter Executive, which seats up to thirteen and keeps everyone traveling together on Potomac\'s winding, largely two-lane roads rather than splitting into separate cars.',
           'Potomac\'s private estate driveways and long, unlit roads are easier for a chauffeur who already knows the community than for a rideshare driver relying on GPS alone, especially for a late pickup.',
         ],
       },
@@ -1323,7 +1323,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How many students fit in a Potomac prom limo?',
-        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to thirteen with room for formal wear.',
+        a: 'Six in a Lincoln Navigator, or up to thirteen in a Sprinter Executive with mood lighting and room for formal wear. We can coordinate more than one vehicle for a bigger group.',
       },
       {
         q: 'Does the chauffeur stay during dinner and the dance?',
@@ -1339,7 +1339,7 @@ export const MARYLAND_BATCH9 = [
       },
       {
         q: 'When should we book for Potomac prom season?',
-        a: 'As soon as the date is known. Stretch limousines and Sprinters are limited during late-spring prom season.',
+        a: 'As soon as the date is known. Sprinter vans are limited during late-spring prom season.',
       },
     ],
     related: [
@@ -1360,7 +1360,7 @@ export const MARYLAND_BATCH9 = [
     h1: 'Columbia, MD Prom Limo Service',
     metaTitle: 'Columbia MD Prom Limo Service | DCA Limos',
     metaDescription:
-      'Prom limo service in Columbia, MD: stretch limos and Sprinter vans, licensed chauffeurs, parent-approved rules. Call (877) 609-1919.',
+      'Prom limo service in Columbia, MD: Sprinter vans and SUVs, licensed chauffeurs, parent-approved rules. Call (877) 609-1919.',
     stats: [
       { label: 'To BWI', value: '15 mi · 20–30 minutes' },
       { label: 'To Reagan (DCA)', value: '35 mi · 50–65 minutes' },
@@ -1368,11 +1368,11 @@ export const MARYLAND_BATCH9 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Columbia\'s ten planned village centers spread prom-night pickups across a wider area than a typical town, and DCA Limos provides prom limo service for Howard County students with a stretch limousine or Sprinter van, a licensed chauffeur and an itinerary agreed with parents before the night begins.',
+      'Columbia\'s ten planned village centers spread prom-night pickups across a wider area than a typical town, and DCA Limos provides prom limo service for Howard County students with a Sprinter van, a licensed chauffeur and an itinerary agreed with parents before the night begins.',
       'The rate is confirmed when you book, the chauffeur stays with the group from first pickup to last drop-off, and the rules are simple and non-negotiable.',
     ],
     highlights: [
-      'Stretch limousine for up to eight; Sprinter van for larger groups',
+      'Lincoln Navigator for up to six; Sprinter van for larger groups',
       'Licensed, background-checked chauffeurs and commercially insured vehicles',
       'Itinerary with pickup addresses, dinner, venue and drop-offs fixed in advance',
       'Chauffeurs who know Columbia\'s village-center layout and the Merriweather District',
@@ -1388,9 +1388,9 @@ export const MARYLAND_BATCH9 = [
         ],
       },
       {
-        h2: 'Choosing a stretch limousine or Sprinter van',
+        h2: 'Choosing a Sprinter van',
         paragraphs: [
-          'The stretch limousine seats eight and is the classic choice for a tighter friend group from one or two villages. Groups larger than that, especially when pickups span several of Columbia\'s ten villages, are better served by the Sprinter van, which seats up to thirteen and consolidates more pickups into one efficient route.',
+          'A Lincoln Navigator seats six and suits a tighter friend group from one or two villages. Groups larger than that, especially when pickups span several of Columbia\'s ten villages, are better served by the Sprinter Executive, which seats up to thirteen and consolidates more pickups into one efficient route.',
           'Columbia\'s Merriweather District, built up around Merriweather Post Pavilion, is a popular dinner and photo stop before the dance.',
         ],
       },
@@ -1406,7 +1406,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How many students fit in a Columbia prom limo?',
-        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to thirteen with room for formal wear.',
+        a: 'Up to six in our Lincoln Navigator. A larger group, especially one with pickups in several villages, fits in the Sprinter Executive, which seats up to thirteen.',
       },
       {
         q: 'Can you handle pickups across several of Columbia\'s village centers?',
@@ -1422,7 +1422,7 @@ export const MARYLAND_BATCH9 = [
       },
       {
         q: 'When should we book for Columbia prom season?',
-        a: 'As soon as the date is known. Stretch limousines and Sprinters are limited during late-spring prom season.',
+        a: 'As soon as the date is known. Sprinter vans are limited during late-spring prom season.',
       },
     ],
     related: [
@@ -1443,7 +1443,7 @@ export const MARYLAND_BATCH9 = [
     h1: 'Towson, MD Prom Limo Service',
     metaTitle: 'Towson MD Prom Limo Service | DCA Limos',
     metaDescription:
-      'Prom limo service in Towson, MD: stretch limos and Sprinter vans, licensed chauffeurs, parent-approved rules. Call (877) 609-1919.',
+      'Prom limo service in Towson, MD: Sprinter vans and Navigator SUVs, licensed chauffeurs, parent-approved rules. Call (877) 609-1919.',
     stats: [
       { label: 'To BWI', value: '22 mi · 25–40 minutes' },
       { label: 'To Reagan (DCA)', value: '50 mi · 60–80 minutes' },
@@ -1451,11 +1451,11 @@ export const MARYLAND_BATCH9 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Towson, the seat of Baltimore County and home to Towson University, draws prom-night traffic to its restaurants around Towson Town Center every spring. DCA Limos provides prom limo service here with a stretch limousine or Sprinter van, a licensed chauffeur and an itinerary agreed with parents before the night begins.',
+      'Towson, the seat of Baltimore County and home to Towson University, draws prom-night traffic to its restaurants around Towson Town Center every spring. DCA Limos provides prom limo service here with a Sprinter van, a licensed chauffeur and an itinerary agreed with parents before the night begins.',
       'The rate is confirmed when you book, the chauffeur stays with the group from first pickup to last drop-off, and the rules are simple and non-negotiable.',
     ],
     highlights: [
-      'Stretch limousine for up to eight; Sprinter van for larger groups',
+      'Lincoln Navigator for up to six; Sprinter van for larger groups',
       'Licensed, background-checked chauffeurs and commercially insured vehicles',
       'Itinerary with pickup addresses, dinner, venue and drop-offs fixed in advance',
       'Chauffeurs who know the Towson Town Center area and the county seat\'s traffic patterns',
@@ -1471,9 +1471,9 @@ export const MARYLAND_BATCH9 = [
         ],
       },
       {
-        h2: 'Choosing a stretch limousine or Sprinter van',
+        h2: 'Choosing a Sprinter van',
         paragraphs: [
-          'The stretch limousine seats eight and is the classic choice for a tighter friend group. Groups larger than that are better served by the Sprinter van, which seats up to thirteen and keeps everyone traveling together rather than splitting into two cars.',
+          'The Lincoln Navigator holds six and is an easy fit for a smaller friend group. Groups larger than that are better served by the Sprinter Executive, which seats up to thirteen and keeps everyone traveling together rather than splitting into two cars.',
           'Towson Town Center\'s restaurant row is a common dinner stop before the dance, and parking there fills quickly on weekend evenings — one more reason groups prefer a chauffeur who can simply pull up at the door.',
         ],
       },
@@ -1489,7 +1489,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How many students fit in a Towson prom limo?',
-        a: 'The stretch limousine seats eight. For larger groups the Sprinter van seats up to thirteen with room for formal wear.',
+        a: 'Six fit in a Lincoln Navigator. For larger groups the Sprinter Executive seats up to thirteen with room for formal wear.',
       },
       {
         q: 'Does the chauffeur stay during dinner and the dance?',
@@ -1505,7 +1505,7 @@ export const MARYLAND_BATCH9 = [
       },
       {
         q: 'When should we book for Towson prom season?',
-        a: 'As soon as the date is known. Stretch limousines and Sprinters are limited during late-spring prom season.',
+        a: 'As soon as the date is known. Sprinter vans are limited during late-spring prom season.',
       },
     ],
     related: [
@@ -1537,14 +1537,14 @@ export const MARYLAND_BATCH9 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'A chauffeur meets your flight at Reagan National, tracks it in case of delay, and is waiting at baggage claim with a name sign for the ride to Laurel, the Prince George\'s County community almost exactly between Washington and Baltimore — and where DCA Limos itself is based. The 24-mile trip runs 35 to 50 minutes via the Baltimore-Washington Parkway and the Capital Beltway, in a flat-rate Mercedes sedan, SUV or Sprinter van with no surge pricing.',
-      'Because Laurel is our home base, this is a route our chauffeurs run more than almost any other, and a Laurel pickup or drop-off rarely involves guesswork about which street or entrance to use.',
+      'A chauffeur meets your flight at Reagan National, tracks it in case of delay, and is waiting at baggage claim with a name sign for the ride to Laurel, the Prince George\'s County community almost exactly between Washington and Baltimore, a short drive from our base in Hanover, Maryland. The 24-mile trip runs 35 to 50 minutes via the Baltimore-Washington Parkway and the Capital Beltway, in a flat-rate Mercedes sedan, SUV or Sprinter van with no surge pricing.',
+      'Because Laurel sits close to our Hanover headquarters, this is a route our chauffeurs run constantly, and a Laurel pickup or drop-off rarely involves guesswork about which street or entrance to use.',
     ],
     highlights: [
-      'Flat, all-inclusive rate confirmed before you book — no surge pricing',
+      'Flat rate confirmed before you book — no surge pricing',
       'Real-time flight tracking with 45 minutes of free wait time on domestic arrivals',
       'Chauffeur waiting at baggage claim with a name sign, not circling the terminal curb',
-      'Our home base — Laurel pickups and drop-offs are our most familiar route',
+      'Close to our Hanover, MD base — Laurel pickups and drop-offs are a familiar route',
       'Service to Konterra, Laurel Lakes Centre, Russett and Montpelier Mansion',
       'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
@@ -1553,14 +1553,14 @@ export const MARYLAND_BATCH9 = [
         h2: 'From DCA baggage claim to Laurel',
         paragraphs: [
           'Reagan National is compact enough that a chauffeur waiting at baggage claim, rather than a rideshare pickup lot several minutes away, often saves more time than the drive itself. Your chauffeur tracks the inbound flight, adjusts the pickup time for any delay, and is holding a name sign when you clear the terminal.',
-          'The drive to Laurel runs via the Baltimore-Washington Parkway and the Capital Beltway (I-495), a route our dispatchers and chauffeurs know better than any other since it is also the drive home at the end of a shift — we build a realistic buffer into the estimate for I-95\'s unpredictable merge points near College Park rather than quoting the fastest possible run.',
+          'The drive to Laurel runs via the Baltimore-Washington Parkway and the Capital Beltway (I-495), a route our dispatchers and chauffeurs know well since it heads back toward our Hanover base — we build a realistic buffer into the estimate for I-95\'s unpredictable merge points near College Park rather than quoting the fastest possible run.',
         ],
       },
       {
         h2: 'Arriving in Laurel',
         paragraphs: [
           'Laurel sits almost exactly between Washington and Baltimore, historically built around the Laurel Park horse-racing track and more recently growing around the Konterra mixed-use development and the retail corridor at Laurel Lakes Centre. Montpelier Mansion, an 18th-century historic estate just outside downtown, draws its own share of visitors and small events.',
-          'Because this is the same community our vehicles are based and maintained in, a Laurel pickup is rarely a question of finding an unfamiliar address — our chauffeurs know the Route 1, Route 198 and Cherry Lane corridors well enough to route around Laurel\'s own rush-hour backups without needing a map.',
+          'Because Laurel is so close to the Hanover area where we are based, a Laurel pickup is rarely a question of finding an unfamiliar address — our chauffeurs know the Route 1, Route 198 and Cherry Lane corridors well enough to route around Laurel\'s own rush-hour backups without needing a map.',
         ],
       },
       {
@@ -1575,15 +1575,15 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How much does a car service from DCA to Laurel cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and drop-off address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and drop-off address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Reagan National to Laurel?',
         a: 'About 35 to 50 minutes for the 24-mile trip via the Baltimore-Washington Parkway and the Capital Beltway, depending on traffic.',
       },
       {
-        q: 'Is Laurel where DCA Limos is actually based?',
-        a: 'Yes. Laurel is our home base, so this route is one our chauffeurs and dispatchers know better than almost any other in our coverage area.',
+        q: 'Is DCA Limos based near Laurel?',
+        a: 'Yes. We are headquartered in nearby Hanover, Maryland, so Laurel is one of the routes our chauffeurs and dispatchers know best in our coverage area.',
       },
       {
         q: 'Do you track my flight for delays?',
@@ -1624,7 +1624,7 @@ export const MARYLAND_BATCH9 = [
       'Chevy Chase\'s mix of residential streets, Chevy Chase Pavilion\'s retail and the Chevy Chase Club make for a range of drop-off points, and our chauffeurs know the difference between the Maryland and DC sides of the Chevy Chase name, which trips up more than a few first-time visitors.',
     ],
     highlights: [
-      'Flat, all-inclusive rate confirmed before you book — no surge pricing',
+      'Flat rate confirmed before you book — no surge pricing',
       'Real-time flight tracking with 45 minutes of free wait time on domestic arrivals',
       'Chauffeur waiting at baggage claim with a name sign',
       'Chauffeurs who know the distinction between Chevy Chase, MD and the DC neighborhood of the same name',
@@ -1658,7 +1658,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How much does a car service from DCA to Chevy Chase cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and drop-off address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and drop-off address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Reagan National to Chevy Chase?',
@@ -1707,7 +1707,7 @@ export const MARYLAND_BATCH9 = [
       'Olney sits far enough from the Beltway that a rideshare driver unfamiliar with the area can add real time hunting for a specific address off Route 108 or Georgia Avenue — our chauffeurs who regularly run this route do not have that problem.',
     ],
     highlights: [
-      'Flat, all-inclusive rate confirmed before you book — no surge pricing',
+      'Flat rate confirmed before you book — no surge pricing',
       'Real-time flight tracking with 45 minutes of free wait time on domestic arrivals',
       'Chauffeur waiting at baggage claim with a name sign',
       'Chauffeurs who know Olney\'s Route 108 and Georgia Avenue corridor well',
@@ -1741,7 +1741,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How much does a car service from DCA to Olney cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and drop-off address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and drop-off address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Reagan National to Olney?',
@@ -1790,7 +1790,7 @@ export const MARYLAND_BATCH9 = [
       'Catonsville is actually closer to BWI than to DCA, and we point that out to travelers booking flights rather than quietly running the longer route — but for itineraries that only connect through Reagan National, we cover it at the same flat, no-surge rate.',
     ],
     highlights: [
-      'Flat, all-inclusive rate confirmed before you book — no surge pricing',
+      'Flat rate confirmed before you book — no surge pricing',
       'Real-time flight tracking with 45 minutes of free wait time on domestic arrivals',
       'Chauffeur waiting at baggage claim with a name sign',
       'Chauffeurs who know UMBC\'s campus entrances and Catonsville\'s historic Frederick Road corridor',
@@ -1824,7 +1824,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How much does a car service from DCA to Catonsville cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and drop-off address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and drop-off address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Reagan National to Catonsville?',
@@ -1873,7 +1873,7 @@ export const MARYLAND_BATCH9 = [
       'This is one of the longer DCA transfers we run, and like Catonsville, Owings Mills sits much closer to BWI — about 22 miles — so we will say so plainly if your itinerary allows a shorter, less expensive BWI routing instead.',
     ],
     highlights: [
-      'Flat, all-inclusive rate confirmed before you book — no surge pricing',
+      'Flat rate confirmed before you book — no surge pricing',
       'Real-time flight tracking with 45 minutes of free wait time on domestic arrivals',
       'Chauffeur waiting at baggage claim with a name sign',
       'Chauffeurs who know the Owings Mills Metro Centre and Foundry Row retail corridor',
@@ -1907,7 +1907,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How much does a car service from DCA to Owings Mills cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and drop-off address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and drop-off address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Reagan National to Owings Mills?',
@@ -1956,7 +1956,7 @@ export const MARYLAND_BATCH9 = [
       'Sterling is only 7 miles from Dulles itself, so for travelers with connecting itineraries or flexible airport choices, Dulles is almost always the faster, cheaper option — we will say so rather than quietly defaulting to the longer DCA run.',
     ],
     highlights: [
-      'Flat, all-inclusive rate confirmed before you book — no surge pricing',
+      'Flat rate confirmed before you book — no surge pricing',
       'Real-time flight tracking with 45 minutes of free wait time on domestic arrivals',
       'Chauffeur waiting at baggage claim with a name sign',
       'Chauffeurs who know Sterling\'s data-center corridor and Loudoun County business parks',
@@ -1990,7 +1990,7 @@ export const MARYLAND_BATCH9 = [
     faqs: [
       {
         q: 'How much does a car service from DCA to Sterling cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and drop-off address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and drop-off address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Reagan National to Sterling?',

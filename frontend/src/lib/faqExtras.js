@@ -20,9 +20,9 @@ const POOL = [
     topic: /cancel/i,
     q: () => 'What is the cancellation policy?',
     a: [
-      'Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings cancel free of charge up to 12 hours before pickup.',
-      'Plans change — cancel a sedan or SUV booking at no cost any time up to 3 hours before pickup. Sprinter vans, limousines and special-event reservations have a longer 12-hour free-cancellation window.',
-      'For sedans and SUVs, cancel free up to 3 hours ahead of your pickup time. Larger vehicles — Sprinter vans, limousines, and anything booked for a special event — can be cancelled free up to 12 hours out.',
+      'Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter vans and special-event bookings cancel free of charge up to 12 hours before pickup.',
+      'Plans change — cancel a sedan or SUV booking at no cost any time up to 3 hours before pickup. Sprinter vans and special-event reservations have a longer 12-hour free-cancellation window.',
+      'For sedans and SUVs, cancel free up to 3 hours ahead of your pickup time. Larger vehicles — Sprinter vans and anything booked for a special event — can be cancelled free up to 12 hours out.',
     ],
   },
   {

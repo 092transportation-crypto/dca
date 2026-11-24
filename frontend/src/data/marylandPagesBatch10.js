@@ -14,7 +14,7 @@ const VEHICLES = [
   { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
   { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
   { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties, corporate teams and groups' },
-  { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings, prom and special occasions' },
+  { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
 ];
 
 export const MARYLAND_BATCH10 = [
@@ -624,13 +624,13 @@ export const MARYLAND_BATCH10 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'The Music Center at Strathmore, in North Bethesda, is one of the region\'s premier performing-arts venues — home to regular Baltimore Symphony Orchestra performances, the National Philharmonic, and a year-round calendar of concerts, galas and arts-education events, all a short walk from the Grosvenor-Strathmore Metro station. DCA Limos runs chauffeured sedans, SUVs and stretch limousines to Strathmore for concertgoers, gala guests and corporate groups hosting clients for an evening performance.',
+      'The Music Center at Strathmore, in North Bethesda, is one of the region\'s premier performing-arts venues — home to regular Baltimore Symphony Orchestra performances, the National Philharmonic, and a year-round calendar of concerts, galas and arts-education events, all a short walk from the Grosvenor-Strathmore Metro station. DCA Limos runs chauffeured sedans, SUVs and Sprinter vans to Strathmore for concertgoers, gala guests and corporate groups hosting clients for an evening performance.',
       'Strathmore\'s parking garage fills quickly for popular performances and galas, and a chauffeur drop-off at the venue\'s main entrance, with pickup timed to the performance\'s known end time, avoids both the search for parking and the post-show exit crawl.',
     ],
     highlights: [
       'Door-to-door service to Strathmore\'s main entrance, avoiding the venue\'s garage crowding on busy nights',
       'Pickup timed to the performance\'s scheduled end, with flexibility if a show runs long',
-      'Stretch limousines and premium sedans for gala nights and anniversary or date-night performances',
+      'First-class sedans and Lincoln Navigators for gala nights and anniversary or date-night performances',
       'Sprinter vans for corporate groups hosting clients at a concert or gala',
       'Dinner-and-show routing with nearby North Bethesda and Pike & Rose restaurants',
       'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
@@ -639,7 +639,7 @@ export const MARYLAND_BATCH10 = [
       {
         h2: 'Concerts, galas and BSO performances',
         paragraphs: [
-          'Strathmore\'s regular Baltimore Symphony Orchestra performances and National Philharmonic concerts draw reliable weekend crowds, and the venue\'s annual gala and other benefit events add a calendar of black-tie evenings on top of the regular performance schedule. For a gala or a milestone-occasion concert night, a stretch limousine or luxury sedan adds to the evening in a way a self-parked car cannot.',
+          'Strathmore\'s regular Baltimore Symphony Orchestra performances and National Philharmonic concerts draw reliable weekend crowds, and the venue\'s annual gala and other benefit events add a calendar of black-tie evenings on top of the regular performance schedule. For a gala or a milestone-occasion concert night, a first-class sedan or a Sprinter Executive for a larger party adds to the evening in a way a self-parked car cannot.',
           'Our chauffeurs track each performance\'s scheduled run time and stage the return pickup accordingly, adjusting for an intermission that runs long or an encore that pushes the end time back.',
         ],
       },
@@ -662,8 +662,8 @@ export const MARYLAND_BATCH10 = [
         a: 'The venue\'s garage fills quickly for popular concerts and gala nights. A chauffeur drop-off at the main entrance avoids both the search for parking and the post-show exit traffic.',
       },
       {
-        q: 'Can you provide a stretch limousine for a gala or anniversary night at Strathmore?',
-        a: 'Yes. Stretch limousines and premium sedans are both regularly booked for Strathmore gala nights and milestone-occasion concerts.',
+        q: 'Which vehicle should we book for a gala or anniversary night at Strathmore?',
+        a: 'A BMW 7 Series or Mercedes S-Class is the usual choice for a couple, and the Sprinter Executive suits a larger party heading to a gala. We don\'t run stretch limousines, but both options are regularly booked for Strathmore\'s black-tie nights.',
       },
       {
         q: 'Do you handle corporate client-entertainment groups at Strathmore?',
@@ -680,7 +680,7 @@ export const MARYLAND_BATCH10 = [
       { label: 'Rockville Limo Service', to: '/rockville-limo-service' },
       { label: 'Glenstone Museum Transportation', to: '/glenstone-museum-transportation' },
       { label: 'Maryland Concert Transportation', to: '/maryland-concert-transportation' },
-      { label: 'Stretch Limousine Rental', to: '/stretch-limousine-rental' },
+      { label: 'Our Fleet', to: '/fleet' },
     ],
     schema: { areaServed: ['North Bethesda, MD', 'Montgomery County, MD'], serviceType: 'Limousine and car service' },
   },
@@ -700,14 +700,14 @@ export const MARYLAND_BATCH10 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'The historic Warner Theatre on 13th Street NW, blocks from the White House and Metro Center, has hosted touring Broadway productions, comedy specials and concerts in one of downtown DC\'s most ornate surviving movie-palace interiors since the 1920s. DCA Limos runs chauffeured sedans, SUVs and limousines to the Warner for show nights, pairing easily with dinner at one of Penn Quarter\'s nearby restaurants.',
+      'The historic Warner Theatre on 13th Street NW, blocks from the White House and Metro Center, has hosted touring Broadway productions, comedy specials and concerts in one of downtown DC\'s most ornate surviving movie-palace interiors since the 1920s. DCA Limos runs chauffeured sedans, SUVs and Sprinter vans to the Warner for show nights, pairing easily with dinner at one of Penn Quarter\'s nearby restaurants.',
       'Street parking near the Warner is limited and metered even in the evening on some blocks, and the downtown garages nearest the theater fill fast on sold-out nights — a drop-off at the marquee and a pickup timed to the curtain call sidesteps both problems.',
     ],
     highlights: [
       'Door-to-door service to the Warner Theatre\'s 13th Street marquee entrance',
       'Pickup timed to the show\'s curtain call, with flexibility for a longer-than-scheduled performance',
       'Easy pairing with dinner at Penn Quarter and Metro Center-area restaurants before the show',
-      'Stretch limousines for date nights, anniversaries and milestone celebrations',
+      'First-class sedans for date nights, anniversaries and milestone celebrations',
       'Sprinter vans for larger groups attending a touring show or concert together',
       'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
@@ -742,8 +742,8 @@ export const MARYLAND_BATCH10 = [
         a: 'Yes. We regularly route an evening through a Penn Quarter or Metro Center-area dinner reservation before a Warner Theatre show.',
       },
       {
-        q: 'Is a limousine appropriate for a date night or anniversary at the Warner?',
-        a: 'Yes. Stretch limousines and premium sedans are both popular choices for a Warner Theatre date night or milestone celebration.',
+        q: 'What vehicle works best for a date night or anniversary at the Warner?',
+        a: 'A first-class sedan such as the BMW 7 Series is the most popular choice for a couple. For a group celebrating a milestone, the Sprinter Executive keeps everyone together.',
       },
       {
         q: 'How far is the Warner Theatre from Reagan National Airport?',
@@ -755,7 +755,7 @@ export const MARYLAND_BATCH10 = [
       { label: 'Washington DC Anniversary Limo', to: '/washington-dc-anniversary-limo' },
       { label: 'Washington DC Hourly Chauffeur Service', to: '/washington-dc-hourly-chauffeur-service' },
       { label: 'Maryland Concert Transportation', to: '/maryland-concert-transportation' },
-      { label: 'Stretch Limousine Rental', to: '/stretch-limousine-rental' },
+      { label: 'Our Fleet', to: '/fleet' },
       { label: 'DCA to Washington DC', to: '/dca-to-washington-dc' },
     ],
     schema: { areaServed: ['Washington, DC'], serviceType: 'Limousine and car service' },

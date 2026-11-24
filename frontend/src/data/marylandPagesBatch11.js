@@ -15,7 +15,7 @@ const VEHICLES = [
   { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
   { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
   { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties, corporate teams and groups' },
-  { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings, prom and special occasions' },
+  { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
 ];
 
 export const MARYLAND_BATCH11 = [
@@ -369,7 +369,7 @@ export const MARYLAND_BATCH11 = [
     h1: 'Ellicott City, MD Wedding Limo Service',
     metaTitle: 'Ellicott City MD Wedding Limo Service | DCA Limos',
     metaDescription:
-      'Wedding limo service in Ellicott City, MD: Turf Valley Resort, historic Main Street venues and stretch limos. Flat rates, 24/7. (877) 609-1919.',
+      'Wedding limo service in Ellicott City, MD: Turf Valley Resort, historic Main Street venues and Sprinter vans. Flat rates, 24/7. (877) 609-1919.',
     stats: [
       { label: 'To BWI', value: '15 mi · 20–30 minutes' },
       { label: 'To Reagan (DCA)', value: '32 mi · 45–60 minutes' },
@@ -377,30 +377,30 @@ export const MARYLAND_BATCH11 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Ellicott City\'s granite Main Street and the Patapsco River valley around it have become one of Howard County\'s most requested wedding backdrops, whether the day centers on Turf Valley Resort\'s ballrooms and golf-course lawns or a smaller historic-district venue tucked among the 1800s storefronts. DCA Limos drives Ellicott City weddings in a stretch limousine or Sprinter van, with chauffeurs who know Main Street\'s steep, narrow one-way grid and exactly where a limousine can and cannot stage for photos.',
+      'Ellicott City\'s granite Main Street and the Patapsco River valley around it have become one of Howard County\'s most requested wedding backdrops, whether the day centers on Turf Valley Resort\'s ballrooms and golf-course lawns or a smaller historic-district venue tucked among the 1800s storefronts. DCA Limos drives Ellicott City weddings in a Sprinter van, with chauffeurs who know Main Street\'s steep, narrow one-way grid and exactly where a larger vehicle can and cannot stage for photos.',
       'Main Street\'s historic district has real parking and width limits that a wedding-day timeline needs to account for — we build staging and photo-stop locations into the plan in advance rather than discovering the street\'s constraints with a bridal party already dressed and waiting.',
     ],
     highlights: [
       'Experience with Turf Valley Resort ballroom and golf-course wedding logistics',
       'Historic Main Street staging and photo-stop planning around the district\'s narrow streets',
-      'Stretch limousine for the couple and wedding party; Sprinter van for guest shuttles',
+      'Sprinter Executive for the couple and wedding party; Sprinter van for guest shuttles',
       'Guest shuttle service from Baltimore- and Columbia-area hotel blocks',
       'Rate confirmed before you book; wedding bookings cancel free up to 12 hours before',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
     ],
     sections: [
       {
         h2: 'Turf Valley Resort weddings',
         paragraphs: [
-          'Turf Valley\'s ballrooms and golf-course grounds host weddings large enough to need guest shuttle coordination on top of the couple\'s own limousine, and our chauffeurs plan staging around the resort\'s separate ceremony and reception spaces so the timeline does not slip between the two.',
+          'Turf Valley\'s ballrooms and golf-course grounds host weddings large enough to need guest shuttle coordination on top of the couple\'s own car, and our chauffeurs plan staging around the resort\'s separate ceremony and reception spaces so the timeline does not slip between the two.',
           'A Sprinter van is the common choice for shuttling out-of-town guests from nearby hotels to the resort and back, run on a fixed schedule so no one is left arranging their own ride at the end of the night.',
         ],
       },
       {
         h2: 'Historic Main Street venue weddings',
         paragraphs: [
-          'A handful of Ellicott City\'s historic-district venues host smaller weddings directly on or just off Main Street, where width and parking are genuinely limited and a wedding-day limousine needs a pre-planned staging spot rather than a curbside guess. Our chauffeurs know which blocks allow a brief stop for photos and which require staging a block away.',
-          'The B&O Railroad Museum at the bottom of the hill is a popular photo backdrop that fits easily into a limousine\'s route between ceremony and reception stops.',
+          'A handful of Ellicott City\'s historic-district venues host smaller weddings directly on or just off Main Street, where width and parking are genuinely limited and a wedding-day Sprinter needs a pre-planned staging spot rather than a curbside guess. Our chauffeurs know which blocks allow a brief stop for photos and which require staging a block away.',
+          'The B&O Railroad Museum at the bottom of the hill is a popular photo backdrop that fits easily into the wedding party\'s route between ceremony and reception stops.',
         ],
       },
       {
@@ -418,7 +418,7 @@ export const MARYLAND_BATCH11 = [
         a: 'Yes. We regularly coordinate Turf Valley ballroom and golf-course weddings, including guest shuttle service from nearby hotels.',
       },
       {
-        q: 'Can a limousine navigate Main Street\'s historic district for photos?',
+        q: 'Can a wedding vehicle navigate Main Street\'s historic district for photos?',
         a: 'Yes, with planning. Main Street is narrow with limited parking, so we identify a brief photo-stop location and a staging spot in advance rather than guessing curbside on the day.',
       },
       {
@@ -427,7 +427,7 @@ export const MARYLAND_BATCH11 = [
       },
       {
         q: 'What is the cancellation policy for an Ellicott City wedding booking?',
-        a: 'Wedding and special-event bookings, including Sprinter vans and limousines, cancel free of charge up to 12 hours before pickup.',
+        a: 'Wedding and special-event bookings, including Sprinter vans, cancel free of charge up to 12 hours before pickup.',
       },
       {
         q: 'Is Ellicott City wedding transportation available 24/7?',
@@ -460,22 +460,22 @@ export const MARYLAND_BATCH11 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Great Falls\' large private estates and horse-country properties along Georgetown Pike have made it a favorite setting for weddings that want privacy without leaving Northern Virginia — a backyard ceremony on a wooded estate, a tented reception on an unmarked gravel lane, or a smaller gathering near Great Falls Park itself. DCA Limos drives these weddings with the same discretion our everyday Great Falls clients expect, in a stretch limousine or Sprinter van, with chauffeurs comfortable navigating winding private lanes that do not show up cleanly on GPS.',
-      'Because many Great Falls wedding venues are private residences rather than commercial event spaces, we confirm exact gate codes, driveway turning room and guest parking arrangements with the couple or planner well before the day, rather than discovering a tight gravel driveway with a limousine full of groomsmen.',
+      'Great Falls\' large private estates and horse-country properties along Georgetown Pike have made it a favorite setting for weddings that want privacy without leaving Northern Virginia — a backyard ceremony on a wooded estate, a tented reception on an unmarked gravel lane, or a smaller gathering near Great Falls Park itself. DCA Limos drives these weddings with the same discretion our everyday Great Falls clients expect, in a Sprinter van, with chauffeurs comfortable navigating winding private lanes that do not show up cleanly on GPS.',
+      'Because many Great Falls wedding venues are private residences rather than commercial event spaces, we confirm exact gate codes, driveway turning room and guest parking arrangements with the couple or planner well before the day, rather than discovering a tight gravel driveway with a Sprinter full of groomsmen.',
     ],
     highlights: [
       'Discreet chauffeurs experienced with private-estate and gated-property wedding logistics',
       'Advance confirmation of gate codes, driveway access and guest parking for private venues',
-      'Stretch limousine for the couple and wedding party; Sprinter van for guest shuttles',
+      'Sprinter Executive for the couple and wedding party; Sprinter van for guest shuttles',
       'Guest shuttle coordination from Tysons- and McLean-area hotel blocks',
       'Rate confirmed before you book; wedding bookings cancel free up to 12 hours before',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
     ],
     sections: [
       {
         h2: 'Private estate and backyard weddings',
         paragraphs: [
-          'A Great Falls estate wedding usually means a private driveway rather than a venue\'s own parking lot, and getting the logistics right means confirming turning room for a Sprinter van or stretch limousine, gate codes, and exactly where guest vehicles and the wedding party vehicle should each park, well before the ceremony.',
+          'A Great Falls estate wedding usually means a private driveway rather than a venue\'s own parking lot, and getting the logistics right means confirming turning room for a Sprinter van, gate codes, and exactly where guest vehicles and the wedding party vehicle should each park, well before the ceremony.',
           'Our chauffeurs bring the same discretion to a wedding booking that our daily private-estate clients expect, which matters on a day with family, caterers and photographers all moving through the same property.',
         ],
       },
@@ -497,7 +497,7 @@ export const MARYLAND_BATCH11 = [
     vehicles: [...VEHICLES],
     faqs: [
       {
-        q: 'Can a limousine or Sprinter van reach a private estate wedding venue?',
+        q: 'Can a Sprinter van reach a private estate wedding venue?',
         a: 'Yes, with advance planning. We confirm gate codes, driveway turning room and parking arrangements with the couple or planner before the day, since many Great Falls venues are private residences.',
       },
       {
@@ -514,7 +514,7 @@ export const MARYLAND_BATCH11 = [
       },
       {
         q: 'What is the cancellation policy for a Great Falls wedding booking?',
-        a: 'Wedding and special-event bookings, including Sprinter vans and limousines, cancel free of charge up to 12 hours before pickup.',
+        a: 'Wedding and special-event bookings, including Sprinter vans, cancel free of charge up to 12 hours before pickup.',
       },
     ],
     related: [
@@ -569,7 +569,7 @@ export const MARYLAND_BATCH11 = [
         h2: 'Galas, fundraisers and annual dinners',
         paragraphs: [
           'Nonprofit and association galas and annual dinners typically need arrivals timed within a tight window — honorees, board chairs and keynote speakers arriving in sequence rather than all at once — and our dispatch coordinates that sequencing directly with the event planner.',
-          'A stretch limousine or executive sedan for honored guests pairs easily with Sprinter van shuttles for staff and general attendees arriving from the same hotel block.',
+          'A first-class sedan or Lincoln Navigator for honored guests pairs easily with Sprinter van shuttles for staff and general attendees arriving from the same hotel block.',
         ],
       },
       {
@@ -632,14 +632,14 @@ export const MARYLAND_BATCH11 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Arena Stage\'s Mead Center, on the Southwest Waterfront just steps from the Wharf, is one of Washington\'s most respected regional theaters and a frequent stop for date nights, opening-night subscribers and group outings tied to a play or musical\'s run. DCA Limos runs chauffeured sedans, SUVs and limousines to the Mead Center\'s entrance, pairing easily with dinner at the Wharf beforehand or a nightcap along the waterfront after curtain.',
+      'Arena Stage\'s Mead Center, on the Southwest Waterfront just steps from the Wharf, is one of Washington\'s most respected regional theaters and a frequent stop for date nights, opening-night subscribers and group outings tied to a play or musical\'s run. DCA Limos runs chauffeured sedans, SUVs and Sprinter vans to the Mead Center\'s entrance, pairing easily with dinner at the Wharf beforehand or a nightcap along the waterfront after curtain.',
       'The Southwest Waterfront has filled in considerably over the past decade, and street parking near Arena Stage is limited on performance nights, especially when the Wharf itself has its own event drawing crowds the same evening — a curbside drop-off and a pickup timed to the curtain call avoids both problems entirely.',
     ],
     highlights: [
       'Door-to-door service to the Mead Center\'s Southwest Waterfront entrance',
       'Pickup timed to the performance\'s curtain call, with flexibility for a longer-than-scheduled show',
       'Easy pairing with dinner or drinks at the adjacent Wharf before or after the show',
-      'Stretch limousines and sedans for date nights, anniversaries and subscriber outings',
+      'First-class sedans and SUVs for date nights, anniversaries and subscriber outings',
       'Sprinter vans for theater groups, student outings and corporate subscription nights',
       'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
@@ -655,7 +655,7 @@ export const MARYLAND_BATCH11 = [
         h2: 'Pairing a show with dinner at the Wharf',
         paragraphs: [
           'Many Arena Stage patrons build an evening around dinner at one of the Wharf\'s restaurants before curtain, and a single chauffeured booking covers both stops — a dinner drop-off, a short wait or return trip to the restaurant area, and a final pickup timed to the show\'s end.',
-          'For couples or small groups treating the night as a full evening out, a stretch limousine keeps the whole arc of the night, from dinner reservation to final pickup, on one reservation rather than several separate ones.',
+          'For couples or small groups treating the night as a full evening out, an hourly sedan or SUV booking keeps the whole arc of the night, from dinner reservation to final pickup, on one reservation rather than several separate ones.',
         ],
       },
       {
@@ -715,14 +715,14 @@ export const MARYLAND_BATCH11 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Signature Theatre, tucked into the Shirlington Village shopping and dining district in Arlington, has built a national reputation for musicals and new works in a setting far more intimate than the big downtown DC houses. DCA Limos runs chauffeured sedans, SUVs and limousines to Signature\'s Shirlington entrance, pairing naturally with dinner at one of the village\'s restaurants before the show.',
+      'Signature Theatre, tucked into the Shirlington Village shopping and dining district in Arlington, has built a national reputation for musicals and new works in a setting far more intimate than the big downtown DC houses. DCA Limos runs chauffeured sedans, SUVs and Sprinter vans to Signature\'s Shirlington entrance, pairing naturally with dinner at one of the village\'s restaurants before the show.',
       'Shirlington Village\'s parking garage fills up on popular show nights, particularly during a hit musical\'s run or a gala opening, and a curbside drop-off at Signature\'s own entrance skips the garage entirely — a real advantage for an evening already timed tightly around dinner reservations and a curtain time.',
     ],
     highlights: [
       'Door-to-door service to Signature Theatre\'s Shirlington Village entrance',
       'Pickup timed to curtain call, with flexibility for a longer-than-scheduled performance',
       'Easy pairing with dinner at Shirlington Village restaurants before the show',
-      'Stretch limousines and sedans for date nights, anniversaries and gala opening nights',
+      'Premium sedans and the Sprinter Executive for date nights, anniversaries and gala opening nights',
       'Sprinter vans for theater groups, subscriber outings and corporate nights at the theater',
       'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
@@ -738,7 +738,7 @@ export const MARYLAND_BATCH11 = [
         h2: 'Pairing a show with dinner in Shirlington',
         paragraphs: [
           'Shirlington Village\'s restaurant row makes a dinner-and-show evening especially easy to plan, and a single chauffeured booking covers the full arc: a dinner drop-off, time to eat, and the final pickup after curtain, without needing a car at all in between.',
-          'For an anniversary, birthday or gala opening night, a stretch limousine or executive sedan adds a touch the rest of the evening matches.',
+          'For an anniversary, birthday or gala opening night, a BMW 7 Series or Mercedes S-Class adds a touch the rest of the evening matches.',
         ],
       },
       {

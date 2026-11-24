@@ -46,7 +46,7 @@ export const GUIDES = [
         <li><strong>Mercedes-Benz E-Class (Business Sedan)</strong> or the <strong>BMW 7 Series / Mercedes S-Class (First Class Sedan)</strong> suit a couple or two people who want a quiet, comfortable ride between stops, with room for a bit of shopping from a Georgetown stop.</li>
         <li><strong>Lincoln Nautilus (Midsize SUV)</strong> is a natural fit for a small family, with more cargo room for coats, blankets and the inevitable extra bag of hot chocolate supplies.</li>
         <li><strong>Chevrolet Suburban (Luxury SUV)</strong> or <strong>Lincoln Navigator (Premium SUV)</strong> handle a larger family or multigenerational group — grandparents, parents and kids — in one vehicle rather than splitting across two cars that can lose each other in the dark.</li>
-        <li><strong>Mercedes Sprinter Shuttle</strong> or <strong>Mercedes Sprinter Executive</strong> keep an office group, extended family or neighborhood group of up to 13 together for the whole tour, which is usually the single biggest upgrade over driving yourselves for a group this size. The Sprinter Executive adds a stretch-limousine atmosphere to the same group capacity, a popular choice for a milestone celebration or an especially festive office outing built around the lights.</li>
+        <li><strong>Mercedes Sprinter Shuttle</strong> or <strong>Mercedes Sprinter Executive</strong> keep an office group, extended family or neighborhood group of up to 13 together for the whole tour, which is usually the single biggest upgrade over driving yourselves for a group this size. The Sprinter Executive adds an upgraded cabin, mood lighting and luxury amenities at the same group capacity, a popular choice for a milestone celebration or an especially festive office outing built around the lights.</li>
       </ul>
       <p>The <a href="/fleet">fleet page</a> shows each of these with photos and passenger and luggage capacity if you want to compare before calling.</p>
 
@@ -77,11 +77,11 @@ export const GUIDES = [
       <p>Our own answers: flat-rate pricing confirmed before you ride, licensed and background-checked chauffeurs, commercially insured vehicles, 24/7 dispatch, and a named fleet you can review on the <a href="/fleet">fleet page</a> before you book.</p>
 
       <h2>Our wait-time and cancellation policy for tour bookings</h2>
-      <p>A holiday lights tour is booked as hourly, as-directed service rather than a single point-to-point transfer, so the usual airport wait-time allowances do not directly apply, but the same philosophy carries over: your chauffeur works to your schedule, not a rigid timetable, and dispatch stays reachable the whole evening if plans shift between stops. If your evening also starts or ends with an airport pickup, for a visiting relative joining the tour, say, airport pickups include 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international arrivals, with all other pickups including 15 minutes. On cancellations, our standard policy is free cancellation up to 3 hours before pickup for sedans and SUVs, and up to 12 hours before pickup for Sprinter vans, limousines and special events — tours booked in a larger Sprinter vehicle fall into that longer window, which is worth knowing if weather or a group's plans are still uncertain when you book.</p>
+      <p>A holiday lights tour is booked as hourly, as-directed service rather than a single point-to-point transfer, so the usual airport wait-time allowances do not directly apply, but the same philosophy carries over: your chauffeur works to your schedule, not a rigid timetable, and dispatch stays reachable the whole evening if plans shift between stops. If your evening also starts or ends with an airport pickup, for a visiting relative joining the tour, say, airport pickups include 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international arrivals, with all other pickups including 15 minutes. On cancellations, our standard policy is free cancellation up to 3 hours before pickup for sedans and SUVs, and up to 12 hours before pickup for Sprinter vans and special events — tours booked in a larger Sprinter vehicle fall into that longer window, which is worth knowing if weather or a group's plans are still uncertain when you book.</p>
 
       <h2>Booking your holiday lights tour</h2>
       <p>A good holiday lights evening in this region takes a little more coordination than a single reservation, but it does not have to take more than one phone call. Tell dispatch your group size, which displays you are hoping to see, and roughly how long you want the evening to run, and we will help sequence a route that respects the geography and the December traffic rather than fighting it. If you are weighing whether a reserved car is worth it for this particular outing versus driving yourselves, our broader <a href="/why-hire-a-chauffeur">why hire a chauffeur</a> guide and <a href="/uber-vs-limo-service">Uber vs. limo service guide</a> cover the same decision for other kinds of evenings, and the logic holds here too. Reserve on the <a href="/booking">booking page</a>, browse the full <a href="/services">list of services</a> for hourly and as-directed options, review the <a href="/fleet">fleet</a> to pick a vehicle, or call 24/7 dispatch at (877) 609-1919 to talk through a multi-stop plan. If you are coordinating a larger private or corporate holiday event around the tour, our <a href="/contact">contact page</a> is the right place to start that conversation.</p>
-      <p>Based in Laurel, Maryland, DCA Limos also serves nearby <a href="/limo/annapolis-limo-service">Annapolis</a> and the <a href="/georgetown-limo-service">Georgetown</a> area directly, and runs regular transfers such as <a href="/dca-to-annapolis">DCA to Annapolis</a> and <a href="/dca-to-washington-dc">DCA to Washington DC</a> that pair naturally with a holiday lights evening built around either end of the region.</p>
+      <p>Based in Hanover, Maryland, DCA Limos also serves nearby <a href="/limo/annapolis-limo-service">Annapolis</a> and the <a href="/georgetown-limo-service">Georgetown</a> area directly, and runs regular transfers such as <a href="/dca-to-annapolis">DCA to Annapolis</a> and <a href="/dca-to-washington-dc">DCA to Washington DC</a> that pair naturally with a holiday lights evening built around either end of the region.</p>
     `,
     faqs: [
       {
@@ -102,7 +102,7 @@ export const GUIDES = [
       },
       {
         q: "What vehicle should I book for a family holiday lights tour?",
-        a: "For two people, the Mercedes-Benz E-Class or BMW 7 Series sedans are comfortable choices. A Lincoln Nautilus suits a small family, while a Chevrolet Suburban or Lincoln Navigator keeps a larger or multigenerational family together in one vehicle. Groups of up to 13, such as an office outing or extended family, fit in a Mercedes Sprinter Shuttle or the stretch-style Sprinter Executive.",
+        a: "For two people, the Mercedes-Benz E-Class or BMW 7 Series sedans are comfortable choices. A Lincoln Nautilus suits a small family, while a Chevrolet Suburban or Lincoln Navigator keeps a larger or multigenerational family together in one vehicle. Groups of up to 13, such as an office outing or extended family, fit in a Mercedes Sprinter Shuttle or the upgraded Sprinter Executive.",
       },
       {
         q: "Do holiday light displays in the DC area have specific open dates every year?",
@@ -114,7 +114,7 @@ export const GUIDES = [
       },
       {
         q: "What is DCA Limos' cancellation policy for a holiday lights tour?",
-        a: "Free cancellation up to 3 hours before pickup for sedans and SUVs, and up to 12 hours before pickup for Sprinter vans, limousines and special events. Tours booked in a Sprinter vehicle fall under the longer 12-hour window.",
+        a: "Free cancellation up to 3 hours before pickup for sedans and SUVs, and up to 12 hours before pickup for Sprinter vans and special events. Tours booked in a Sprinter vehicle fall under the longer 12-hour window.",
       },
       {
         q: "What should I ask a transportation company before booking a holiday lights tour?",
@@ -122,7 +122,7 @@ export const GUIDES = [
       },
       {
         q: "Does DCA Limos serve Annapolis and Maryland for holiday lights tours, not just Washington DC?",
-        a: "Yes. DCA Limos is based in Laurel, Maryland, and serves the full DC, Maryland and Northern Virginia region, including Annapolis and the areas around Sandy Point State Park, Harford County and Prince George's County where several of the larger drive-through displays are located.",
+        a: "Yes. DCA Limos is based in Hanover, Maryland, and serves the full DC, Maryland and Northern Virginia region, including Annapolis and the areas around Sandy Point State Park, Harford County and Prince George's County where several of the larger drive-through displays are located.",
       },
     ],
     relatedLinks: [
@@ -180,7 +180,7 @@ export const GUIDES = [
       <p>Street closures for official movements and demonstrations are part of life in the District, and a chauffeur who works these streets daily, backed by dispatch, can usually adjust faster than a driver who is new to the area. If you are weighing this for a whole team, our piece on <a href="/corporate-car-service-vs-rideshare">corporate car service vs. rideshare</a> covers the travel-manager view.</p>
 
       <h2>Trip type 4: groups and events</h2>
-      <p>Once a party passes four people, rideshare means multiple cars, staggered arrivals and someone counting heads on the sidewalk. A Lincoln Navigator or Chevrolet Suburban handles a larger family comfortably, a Mercedes Sprinter van keeps a bigger group together, and a stretch limousine suits proms and celebrations. Weddings are the clearest case of all: a schedule with no slack and guests who do not know the area. That is reservation territory, and the <a href="/limo/wedding-limo-service">wedding limo service</a> page covers the details. Note the longer cancellation window for these vehicles: free cancellation up to 12 hours before pickup for Sprinter vans, limousines and special events, compared with 3 hours for sedans and SUVs.</p>
+      <p>Once a party passes four people, rideshare means multiple cars, staggered arrivals and someone counting heads on the sidewalk. A Lincoln Navigator or Chevrolet Suburban handles a larger family comfortably, a Mercedes Sprinter Shuttle keeps a bigger group together, and the Sprinter Executive, with its upgraded cabin and mood lighting, suits proms and celebrations. Weddings are the clearest case of all: a schedule with no slack and guests who do not know the area. That is reservation territory, and the <a href="/limo/wedding-limo-service">wedding limo service</a> page covers the details. Note the longer cancellation window for these vehicles: free cancellation up to 12 hours before pickup for Sprinter vans and special events, compared with 3 hours for sedans and SUVs.</p>
 
       <h2>Trip type 5: long distance</h2>
       <p>Rides to Baltimore, Annapolis, Richmond or the Delaware beaches sit awkwardly on rideshare platforms. A driver may be reluctant to accept a trip that leaves them far from home without a return fare, and you will not know the vehicle until it arrives. For a long ride you want a comfortable, well-maintained car, a rested professional and a price that is settled in advance. Routes such as <a href="/dca-to-annapolis">DCA to Annapolis</a> and <a href="/dca-to-baltimore">DCA to Baltimore</a> are booked as flat-rate transfers for exactly that reason.</p>
@@ -220,11 +220,11 @@ export const GUIDES = [
       },
       {
         q: "How far ahead do I need to reserve a chauffeured car?",
-        a: "Earlier is better, especially for Sprinter vans, limousines and busy travel days. Dispatch is staffed 24/7 at (877) 609-1919, so it is always worth calling about a short-notice trip.",
+        a: "Earlier is better, especially for Sprinter vans and busy travel days. Dispatch is staffed 24/7 at (877) 609-1919, so it is always worth calling about a short-notice trip.",
       },
       {
         q: "What is the cancellation policy?",
-        a: "Cancellation is free up to 3 hours before pickup for sedans and SUVs, and up to 12 hours before pickup for Sprinter vans, limousines and special events.",
+        a: "Cancellation is free up to 3 hours before pickup for sedans and SUVs, and up to 12 hours before pickup for Sprinter vans and special events.",
       },
     ],
     relatedLinks: [
@@ -270,7 +270,7 @@ export const GUIDES = [
       <p>DCA Limos chauffeurs are licensed and background-checked, and the vehicles are commercially insured. Those are the formal protections. The informal one is just as important: a chauffeur works for a company with an office, a phone number and a reputation to keep. We are based at 9836 Lyon Ave in Laurel, Maryland, and if something about a ride is not right, there is a specific organization responsible for fixing it. For anyone arranging travel on behalf of other people, such as an assistant booking for an executive or an adult child booking for a parent, that chain of accountability is often the real reason to hire a professional service.</p>
 
       <h2>Vehicle preparation</h2>
-      <p>A chauffeured vehicle is prepared for each trip rather than simply being in use all day. It is cleaned inside and out, fueled, and checked before it leaves. The vehicle class is one you chose, not one that happened to be nearby: a Mercedes-Benz E-Class or S-Class or a BMW 7 Series for executive travel, a Lincoln Navigator or Chevrolet Suburban when you need space for people and luggage, a Mercedes Sprinter van for groups, or a stretch limousine for celebrations. Car seats are installed on request before the car arrives. The <a href="/fleet">fleet page</a> shows each vehicle and what it suits.</p>
+      <p>A chauffeured vehicle is prepared for each trip rather than simply being in use all day. It is cleaned inside and out, fueled, and checked before it leaves. The vehicle class is one you chose, not one that happened to be nearby: a Mercedes-Benz E-Class or S-Class or a BMW 7 Series for executive travel, a Lincoln Navigator or Chevrolet Suburban when you need space for people and luggage, a Mercedes Sprinter Shuttle for groups, or the Sprinter Executive, with its upgraded cabin, for celebrations. Car seats are installed on request before the car arrives. The <a href="/fleet">fleet page</a> shows each vehicle and what it suits.</p>
 
       <h2>Discretion</h2>
       <p>Washington runs on conversations that are not meant to travel. Professional chauffeurs understand that what is said in the car stays in the car, that a passenger on a call should not be interrupted, and that many clients simply want quiet. Discretion also means reading the passenger: offering local knowledge to a visitor who wants it and silence to a traveler who has been talking all day.</p>
@@ -294,7 +294,7 @@ export const GUIDES = [
       <p>Not every trip calls for this level of service. A short solo ride across town in the middle of the day is handled perfectly well by Metro, a taxi or a rideshare app. Our <a href="/uber-vs-limo-service">Uber vs. limo service guide</a> goes through the decision trip by trip and is candid about where the app is the better choice.</p>
 
       <h2>Booking a chauffeur with DCA Limos</h2>
-      <p>We serve Washington DC, Northern Virginia and Maryland, including all three area airports. Pricing is flat-rate and confirmed before you ride. Cancellation is free up to 3 hours before pickup for sedans and SUVs, and up to 12 hours for Sprinter vans, limousines and special events. Reserve on the <a href="/booking">booking page</a>, look through the full list of <a href="/services">services</a>, or call dispatch at (877) 609-1919 at any hour.</p>
+      <p>We serve Washington DC, Northern Virginia and Maryland, including all three area airports. Pricing is flat-rate and confirmed before you ride. Cancellation is free up to 3 hours before pickup for sedans and SUVs, and up to 12 hours for Sprinter vans and special events. Reserve on the <a href="/booking">booking page</a>, look through the full list of <a href="/services">services</a>, or call dispatch at (877) 609-1919 at any hour.</p>
     `,
     faqs: [
       {
@@ -498,7 +498,7 @@ export const GUIDES = [
         <li>Are chauffeurs licensed and background-checked, and are vehicles commercially insured?</li>
         <li>Is dispatch staffed 24/7 by people who can see the trip?</li>
         <li>Is pricing flat and confirmed in advance?</li>
-        <li>What are the wait-time and cancellation terms? Ours are free cancellation up to 3 hours before pickup for sedans and SUVs, and 12 hours for Sprinter vans, limousines and special events.</li>
+        <li>What are the wait-time and cancellation terms? Ours are free cancellation up to 3 hours before pickup for sedans and SUVs, and 12 hours for Sprinter vans and special events.</li>
         <li>Can rides be invoiced monthly to a corporate account?</li>
       </ul>
 
@@ -524,7 +524,7 @@ export const GUIDES = [
       },
       {
         q: "What if an executive's plans change at the last minute?",
-        a: "Call dispatch at (877) 609-1919 at any hour. Cancellation is free up to 3 hours before pickup for sedans and SUVs, and up to 12 hours for Sprinter vans, limousines and special events.",
+        a: "Call dispatch at (877) 609-1919 at any hour. Cancellation is free up to 3 hours before pickup for sedans and SUVs, and up to 12 hours for Sprinter vans and special events.",
       },
     ],
     relatedLinks: [
@@ -686,10 +686,10 @@ export const GUIDES = [
       <p>Old Town is a favorite setting for weddings, rehearsal dinners and corporate receptions, with historic houses, churches, hotels, restaurants and waterfront spaces all hosting events. The same features that make it photogenic make logistics tight: narrow streets, limited standing room outside venues, pedestrian-only blocks near the river and guests who are unfamiliar with the area.</p>
       <p>A few things we have learned from working events here:</p>
       <ul>
-        <li>Choose vehicles with the streets in mind. A Mercedes Sprinter van handles guest shuttles between hotels and venues well, while a sedan, SUV or stretch limousine suits the couple. We will advise on what can comfortably reach a particular address.</li>
+        <li>Choose vehicles with the streets in mind. A Mercedes Sprinter van handles guest shuttles between hotels and venues well, while a First Class sedan or Lincoln Navigator suits the couple. We will advise on what can comfortably reach a particular address.</li>
         <li>Agree on exact pickup and drop-off points with the venue ahead of time.</li>
         <li>Pad the timeline. Photos on the waterfront always take longer than planned.</li>
-        <li>Remember the cancellation window for event vehicles: free cancellation up to 12 hours before pickup for Sprinter vans, limousines and special events.</li>
+        <li>Remember the cancellation window for event vehicles: free cancellation up to 12 hours before pickup for Sprinter vans and special events.</li>
       </ul>
       <p>See the <a href="/limo/wedding-limo-service">wedding limo service page</a> for planning details. If your event is across the bridge, the <a href="/national-harbor-transportation">National Harbor transportation page</a> may also be useful.</p>
 
@@ -718,7 +718,7 @@ export const GUIDES = [
       },
       {
         q: "Do you provide wedding transportation in Old Town?",
-        a: "Yes. We provide sedans, SUVs, stretch limousines and Sprinter vans for couples and guest shuttles, and we plan pickup points around Old Town's narrow and pedestrian-only streets. Free cancellation applies up to 12 hours before pickup for these event vehicles.",
+        a: "Yes. We provide sedans, SUVs and Sprinter vans for couples and guest shuttles (we do not run stretch limousines; the Sprinter Executive is our pick for a wedding party), and we plan pickup points around Old Town's narrow and pedestrian-only streets. Free cancellation applies up to 12 hours before pickup for these event vehicles.",
       },
     ],
     relatedLinks: [
@@ -848,7 +848,7 @@ export const GUIDES = [
       <p>Richmond sits almost due south of Washington, DC, about 110 miles from Reagan National, almost entirely along I-95 South. In normal traffic that is a 2 to 2.5 hour drive. The variables that actually move that number are the Occoquan merge and Springfield interchange just south of the Beltway, which can add real delay during the evening rush, and the stretch of I-95 through Fredericksburg, a notorious bottleneck on Friday afternoons, Sunday evenings and summer weekends headed toward the Outer Banks. A trip timed outside those windows runs close to 2 hours flat; one that crosses Fredericksburg on a holiday Sunday can run closer to 3.5 hours.</p>
 
       <h2>What it actually costs</h2>
-      <p>DCA Limos quotes the DCA-to-Richmond run as a single flat rate based on your vehicle class, confirmed before you book — not a meter that keeps running if I-95 backs up, and not a surge price that spikes because it is a Friday evening. Our <a href="/dca-to-richmond-va">DCA to Richmond route page</a> publishes a flat $295 starting rate in a luxury sedan, all-inclusive of express-lane tolls and fuel; a Lincoln Navigator or Chevrolet Suburban handles a family with extra bags more comfortably at a higher flat rate, and a Mercedes Sprinter van is the right call for a group of up to 13, which is often the real value comparison here, since splitting a group across two or three rideshares for a 110-mile run gets expensive fast — when a rideshare driver will even accept the trip — and leaves everyone without a shared schedule.</p>
+      <p>DCA Limos quotes the DCA-to-Richmond run as a single flat rate based on your vehicle class, confirmed before you book — not a meter that keeps running if I-95 backs up, and not a surge price that spikes because it is a Friday evening. Our <a href="/dca-to-richmond-va">DCA to Richmond route page</a> publishes a flat $295 starting rate in a luxury sedan, including express-lane tolls and fuel; a Lincoln Navigator or Chevrolet Suburban handles a family with extra bags more comfortably at a higher flat rate, and a Mercedes Sprinter van is the right call for a group of up to 13, which is often the real value comparison here, since splitting a group across two or three rideshares for a 110-mile run gets expensive fast — when a rideshare driver will even accept the trip — and leaves everyone without a shared schedule.</p>
       <p>Because this is a longer trip than most of our DC-metro bookings, we recommend requesting your quote a few days ahead rather than same-day, both to lock in the rate and to make sure the right vehicle class is available for your date.</p>
 
       <h2>Car service versus flying or renting for this specific trip</h2>
@@ -863,7 +863,7 @@ export const GUIDES = [
     faqs: [
       {
         q: 'How much does a car from DCA to Richmond, VA cost?',
-        a: 'Our DCA to Richmond route starts at a flat $295 in a luxury sedan, all-inclusive of express-lane tolls and fuel. SUVs and Sprinter vans are priced higher but carry more people and luggage. Call (877) 609-1919 or request a free quote online for an exact number on your date.',
+        a: 'Our DCA to Richmond route starts at a flat $295 in a luxury sedan, with express-lane tolls and fuel included and a 20% gratuity added. SUVs and Sprinter vans are priced higher but carry more people and luggage. Call (877) 609-1919 or request a free quote online for an exact number on your date.',
       },
       {
         q: 'How long does the drive from DCA to Richmond take?',
@@ -913,7 +913,7 @@ export const GUIDES = [
       <p>Four things matter more than anything in a review or a star rating. First, licensing and insurance: a legitimate for-hire vehicle operating at DCA carries commercial insurance and operates under the applicable Virginia/DC-area for-hire licensing, and a real operator will state this plainly, not dodge the question. Second, how pricing is actually quoted — flat and confirmed before you ride, or an estimate that can grow once you are in the car. Third, whether the chauffeur is a background-checked employee or contractor versus an unvetted gig driver, which matters most for solo travelers, late-night arrivals and anyone booking for family. Fourth, whether dispatch is a live, reachable person 24 hours a day, which is the difference between a smooth recovery and a stranded traveler when a flight changes gates or lands three hours late.</p>
 
       <h2>Matching vehicle class to your actual trip</h2>
-      <p>"Best" also depends heavily on what you are booking for. A Mercedes-Benz E-Class or BMW 7 Series sedan is the right call for one to three travelers with standard luggage and is the most economical option. A Lincoln Navigator or Chevrolet Suburban makes sense for a family with extra bags or anyone who simply wants more room. A Mercedes Sprinter van is the better value once a group hits four or more people, since it keeps everyone on one schedule instead of splitting across multiple cars. And a stretch limousine is really a special-occasion vehicle — arriving at DCA for a milestone trip, a proposal, or a group that wants the experience as much as the ride — rather than a default airport pick. None of these is universally "best"; the best one is the one sized correctly for your group and luggage.</p>
+      <p>"Best" also depends heavily on what you are booking for. A Mercedes-Benz E-Class or BMW 7 Series sedan is the right call for one to three travelers with standard luggage and is the most economical option. A Lincoln Navigator or Chevrolet Suburban makes sense for a family with extra bags or anyone who simply wants more room. A Mercedes Sprinter van is the better value once a group hits four or more people, since it keeps everyone on one schedule instead of splitting across multiple cars. And the Sprinter Executive, with its upgraded cabin and mood lighting, is really a special-occasion vehicle — arriving at DCA for a milestone trip or a group that wants the experience as much as the ride — rather than a default airport pick. None of these is universally "best"; the best one is the one sized correctly for your group and luggage.</p>
 
       <h2>Terminal 1 versus Terminal 2 and National Hall</h2>
       <p>DCA's two connected terminal buildings changed significantly in recent years: Terminal 1 is the older, smaller building, while Terminal 2 absorbed the former Terminals B and C and now handles the large majority of DCA's traffic, linked to Terminal 1 by the covered walkway called National Hall. The practical difference for ground transportation is curbside geography — which curb your chauffeur stages at, and how far that is from your specific gate — and a car service that actually works DCA daily will confirm your terminal against your airline before you land rather than guessing. For more detail on the terminal layout itself, see our <a href="/blog/dca-new-terminal-gate-pickup-guide">DCA terminal and gate pickup guide</a>.</p>
@@ -925,7 +925,7 @@ export const GUIDES = [
       <p>Virtually every legitimate car service markets "flight tracking" now, so the real question is what happens when a flight is actually delayed: does the pickup time move automatically, is there a real wait-time allowance before fees kick in, and is dispatch proactively reachable if your flight changes gates or airlines mid-route. DCA Limos builds in 45 minutes of complimentary wait time on domestic arrivals and 60 minutes on international arrivals, with the pickup dispatched against your actual landing time rather than the printed schedule.</p>
 
       <h2>Where DCA Limos fits</h2>
-      <p>We run a named fleet of Mercedes and BMW sedans, Cadillac and Chevrolet SUVs, Sprinter vans and stretch limousines, with licensed, background-checked chauffeurs and flat-rate pricing confirmed before you book. Dispatch is staffed 24/7, and both curbside and meet-and-greet pickup are available at either DCA terminal. Reserve on the <a href="/booking">booking page</a>, review the <a href="/fleet">fleet</a>, or call (877) 609-1919 to talk through which vehicle fits your trip.</p>
+      <p>We run a named fleet of Mercedes and BMW sedans, Cadillac and Chevrolet SUVs, Sprinter vans, with licensed, background-checked chauffeurs and flat-rate pricing confirmed before you book. Dispatch is staffed 24/7, and both curbside and meet-and-greet pickup are available at either DCA terminal. Reserve on the <a href="/booking">booking page</a>, review the <a href="/fleet">fleet</a>, or call (877) 609-1919 to talk through which vehicle fits your trip.</p>
     `,
     faqs: [
       {
@@ -983,7 +983,7 @@ export const GUIDES = [
       <p>Pre-dawn flights — anything before roughly 6 a.m. — deserve more lead time regardless of vehicle class, not because vehicles are scarce that early, but because the booking needs to be locked the night before so your chauffeur is committed and there is zero ambiguity about pickup time when you are half-asleep at 4 a.m. Book these at least the day before, and ideally two to three days ahead during a busy travel period. The same logic applies to a tight connection where you need the car to be moving the moment you clear the curb — lock the exact timing well ahead rather than hoping a same-day request lines up.</p>
 
       <h2>A group trip needing a Sprinter van or multiple vehicles</h2>
-      <p>This is where lead time matters most. DCA Limos runs a limited number of Sprinter vans and stretch limousines compared to our sedan fleet, and those larger vehicles are the first to book out for weekends, holidays and event dates. For a group of six or more, or any trip needing a Sprinter van, book at least a week ahead for a normal weekend and two to three weeks ahead for a holiday weekend, a graduation date, or a major local event date. Multi-vehicle bookings — say, two SUVs and a Sprinter for an extended family trip — benefit from even more lead time, since dispatch needs to coordinate several vehicles arriving together.</p>
+      <p>This is where lead time matters most. DCA Limos runs a limited number of Sprinter vans compared to our sedan fleet, and those larger vehicles are the first to book out for weekends, holidays and event dates. For a group of six or more, or any trip needing a Sprinter van, book at least a week ahead for a normal weekend and two to three weeks ahead for a holiday weekend, a graduation date, or a major local event date. Multi-vehicle bookings — say, two SUVs and a Sprinter for an extended family trip — benefit from even more lead time, since dispatch needs to coordinate several vehicles arriving together.</p>
 
       <h2>Peak season: holidays, graduation, cherry blossom season and major events</h2>
       <p>Thanksgiving week, the December holidays, spring graduation season, Cherry Blossom Festival weekends, and any weekend with a major concert, political event or convention in town all compress availability across every vehicle class, not just the larger ones. During these windows, book two to four weeks ahead if you can, and do not assume a sedan will be available same-day just because it usually is during a normal week — peak-season demand pulls from the same limited fleet. If you are traveling during one of these windows and have not booked yet, call dispatch directly; a phone call often surfaces availability faster than the online form during a high-demand stretch.</p>
@@ -1098,9 +1098,9 @@ export const GUIDES = [
     title: 'Do You Tip Your DCA Limo Driver? Gratuity, Pricing & What\'s Included',
     metaTitle: 'Do You Tip a DCA Limo Driver? Gratuity Guide | DCA Limos',
     metaDesc:
-      'Is gratuity included in DCA car service pricing, and should you tip extra? A clear answer plus what counts as exceptional service. Call (877) 609-1919.',
+      'How gratuity works on DCA car service: a 20% gratuity is added to the rate and shown up front. Plus when riders tip extra. Call (877) 609-1919.',
     excerpt:
-      "It is one of the most-asked questions we get and one of the least consistently answered online: is the tip already in the price, and if so, should you still hand your chauffeur cash? Here is a straight answer.",
+      "It is one of the most-asked questions we get and one of the least consistently answered online: how is the tip handled, and should you still hand your chauffeur cash? Here is a straight answer.",
     image: '/images/blog/scenario-doorman.webp',
     author: 'DCA Limos Team',
     authorBio: 'The DCA Limos dispatch and chauffeur team, writing from day-to-day experience on these routes.',
@@ -1108,46 +1108,46 @@ export const GUIDES = [
     readTime: '7 min read',
     category: 'Planning Guides',
     content: `
-      <p class="lead">This question comes up on nearly every first-time booking call: is gratuity already built into the price, and if so, do you still tip on top of it? The honest answer is that it varies by company, which is exactly why it is worth asking directly rather than guessing — so here is where DCA Limos lands, and how to think about it with any chauffeured service.</p>
+      <p class="lead">This question comes up on nearly every first-time booking call: how is gratuity handled, and do you still tip on top of it? The honest answer is that it varies by company, which is exactly why it is worth asking directly rather than guessing — so here is where DCA Limos lands, and how to think about it with any chauffeured service.</p>
 
-      <h2>Is gratuity included in the flat rate?</h2>
-      <p>At DCA Limos, standard gratuity is built into your quoted flat rate for point-to-point airport transfers and standard bookings — the number you see and approve before you ride already accounts for a baseline tip, so you are not expected to calculate one separately at the curb. This is different from a taxi or a rideshare app, where the tip is a separate, optional step added after the ride, and it is worth confirming with any car service you book, since practices genuinely differ across the industry — some operators build gratuity in, others add it as a line-item service charge, and others leave it entirely to the rider.</p>
+      <h2>How is gratuity handled?</h2>
+      <p>At DCA Limos, a 20% gratuity is added to the quoted rate on every booking, and your written quote shows the full total, with the gratuity, before you confirm — so you are not expected to calculate a tip separately at the curb. This is different from a taxi or a rideshare app, where the tip is a separate, optional step added after the ride, and it is worth confirming with any car service you book, since practices genuinely differ across the industry — some operators build gratuity in, others add it as a line-item service charge, and others leave it entirely to the rider.</p>
 
       <h2>Should you still tip extra?</h2>
-      <p>Even with gratuity included, an additional tip for genuinely exceptional service is appreciated and entirely at your discretion — it is simply not required or expected as a baseline. The situations where riders most often choose to tip extra: a chauffeur who helped significantly with heavy luggage, handled a real flight delay or gate change smoothly without any friction, waited well past the complimentary window through no fault of yours, or simply made a stressful travel day noticeably easier. None of this is a scorecard; it is just the honest pattern of when riders decide to tip beyond what is already included.</p>
+      <p>With the 20% gratuity already added, any additional tip for genuinely exceptional service is entirely at your discretion — it is simply not required or expected. The situations where riders most often choose to tip extra: a chauffeur who helped significantly with heavy luggage, handled a real flight delay or gate change smoothly without any friction, waited well past the complimentary window through no fault of yours, or simply made a stressful travel day noticeably easier. None of this is a scorecard; it is just the honest pattern of when riders decide to tip beyond the standard 20%.</p>
 
       <h2>Hourly, wedding and special-event bookings</h2>
-      <p>For hourly as-directed service, weddings, proms and large group events, gratuity structures can differ from a standard point-to-point transfer, particularly for multi-vehicle weddings where a service charge may be itemized separately on the invoice given the scale of coordination involved. Always ask dispatch to confirm exactly how gratuity is handled on your specific booking type before the event — it takes thirty seconds on the phone and removes any ambiguity on the day itself.</p>
+      <p>The same policy applies to hourly as-directed service, weddings, proms and large group events: a 20% gratuity is added to the quoted rate, exactly as it is on an airport transfer. For a multi-vehicle wedding, each vehicle's rate and gratuity appear on the written quote, so the full total is clear before you confirm and there is no ambiguity on the day itself.</p>
 
       <h2>What a flat rate actually includes</h2>
-      <p>Beyond gratuity, it is worth knowing what else is bundled into a DCA Limos flat rate: tolls, fuel, and the chauffeur's time are all included in the quoted price, along with 45 minutes of complimentary wait time on domestic arrivals (60 on international) and real-time flight tracking that adjusts your pickup automatically if a flight is early or delayed. The only things that typically fall outside the base quote are extended waiting beyond the complimentary window, additional stops not discussed at booking, and any optional add-ons like a child car seat request communicated after the vehicle is already en route.</p>
+      <p>Beyond the 20% gratuity, it is worth knowing what else goes into a DCA Limos flat rate: tolls, fuel, and the chauffeur's time are all included in the quoted price, along with 45 minutes of complimentary wait time on domestic arrivals (60 on international) and real-time flight tracking that adjusts your pickup automatically if a flight is early or delayed. The only things that typically fall outside the base quote are extended waiting beyond the complimentary window, additional stops not discussed at booking, and any optional add-ons like a child car seat request communicated after the vehicle is already en route.</p>
 
       <h2>How this compares to tipping a rideshare or taxi driver</h2>
-      <p>Rideshare apps default to prompting for a tip after every ride, which has normalized the idea that a tip is simply part of the cost regardless of service quality. Chauffeured car service generally works the other way — the professional standard of service is already priced in, and a tip signals something above that standard rather than being the mechanism that makes the base pay fair. Knowing which model your operator uses before the ride removes the awkward curbside moment of wondering whether you should be reaching for cash.</p>
+      <p>Rideshare apps default to prompting for a tip after every ride, which has normalized the idea that a tip is simply part of the cost regardless of service quality. With DCA Limos the gratuity is set at 20% and shown on your quote, so there is no guessing at the curb, and anything extra you give signals service above that standard. Knowing which model your operator uses before the ride removes the awkward curbside moment of wondering whether you should be reaching for cash.</p>
 
       <h2>The bottom line</h2>
-      <p>With DCA Limos, gratuity is included in your flat rate for standard transfers, so there is no obligation to tip extra — but it is always welcome for chauffeurs who go beyond the baseline. For hourly, wedding and large group bookings, just confirm the specific gratuity structure with dispatch when you book. Call (877) 609-1919 with any question about how a specific booking's pricing works, or reserve directly on the <a href="/booking">booking page</a>.</p>
+      <p>With DCA Limos, a 20% gratuity is added to the quoted rate on every booking — transfers, hourly, weddings and group events alike — and the written quote shows the full total before you confirm. There is no obligation to tip beyond that, though extra is always welcome for chauffeurs who go above and beyond. Call (877) 609-1919 with any question about how a specific booking's pricing works, or reserve directly on the <a href="/booking">booking page</a>.</p>
     `,
     faqs: [
       {
-        q: 'Is gratuity included in DCA Limos pricing?',
-        a: 'Yes, for standard point-to-point transfers, gratuity is built into the flat rate you see and approve before booking. You are not expected to calculate a separate tip at the curb.',
+        q: 'How is gratuity handled in DCA Limos pricing?',
+        a: 'A 20% gratuity is added to the quoted rate, and your written quote shows the full total before you confirm. You are not expected to calculate a separate tip at the curb.',
       },
       {
         q: 'Should I still tip my chauffeur extra?',
-        a: 'It is not required, but an additional tip for exceptional service — significant help with heavy luggage, smoothly handling a flight delay, or simply making a hard travel day easier — is always appreciated and entirely at your discretion.',
+        a: 'It is not required, since the 20% gratuity is already added, but an additional tip for exceptional service — significant help with heavy luggage, smoothly handling a flight delay, or simply making a hard travel day easier — is always appreciated and entirely at your discretion.',
       },
       {
         q: 'Is gratuity handled differently for weddings or hourly bookings?',
-        a: 'It can be. For multi-vehicle weddings and large events, a service charge is sometimes itemized separately given the scale of coordination. Confirm the exact structure with dispatch when you book.',
+        a: 'No. The same 20% gratuity is added to the quoted rate for weddings, hourly service and large events, just as it is for airport transfers. Your written quote shows the full total before you confirm.',
       },
       {
-        q: 'What is included in a DCA Limos flat rate besides gratuity?',
+        q: 'What is included in a DCA Limos flat rate besides the gratuity?',
         a: 'Tolls, fuel and the chauffeur\'s time are all included, along with flight tracking and complimentary wait time — 45 minutes on domestic arrivals, 60 minutes on international.',
       },
       {
         q: 'How is this different from tipping a rideshare driver?',
-        a: 'Rideshare apps prompt for a tip after every ride regardless of service quality. With a chauffeured service where gratuity is already included, an extra tip signals service above the already-professional baseline rather than being required to make the ride complete.',
+        a: 'Rideshare apps prompt for a tip after every ride regardless of service quality. With DCA Limos, a set 20% gratuity is added to the rate and shown on your quote, so any extra tip is purely your choice for service above that standard.',
       },
     ],
     relatedLinks: [
@@ -1518,7 +1518,7 @@ export const GUIDES = [
       <p>Call (877) 609-1919 or request a quote on the <a href="/booking">booking page</a> with your flight details and exact Bethesda address, and dispatch will confirm the rate for your specific vehicle choice in minutes.</p>
 
       <h2>What is actually included in that flat rate</h2>
-      <p>The quoted price covers the ride itself, tolls, and the chauffeur — there is no separate fuel surcharge, no extra line item for the driver's gratuity unless you choose to add more, and no "booking fee" layered on after the fact. It also includes real-time flight tracking, so if your flight lands early or late, your chauffeur adjusts the pickup time automatically rather than charging a late fee or leaving before you clear baggage claim. Every domestic arrival carries 45 minutes of complimentary wait time, and international arrivals get 60 minutes, which covers a slow customs line without the meter running against you.</p>
+      <p>The quoted price covers the ride itself, tolls, and the chauffeur — there is no separate fuel surcharge, a standard 20% gratuity added to the rate and shown in your written quote before you confirm, and no "booking fee" layered on after the fact. It also includes real-time flight tracking, so if your flight lands early or late, your chauffeur adjusts the pickup time automatically rather than charging a late fee or leaving before you clear baggage claim. Every domestic arrival carries 45 minutes of complimentary wait time, and international arrivals get 60 minutes, which covers a slow customs line without the meter running against you.</p>
       <p>Luggage assistance from the curb to the vehicle is included as a matter of course, not an upsell, and if your trip needs a car seat, an extra stop on the way to Bethesda, or a specific vehicle for a wedding or corporate pickup, that gets built into the quote rather than tacked on as a surprise at the curb.</p>
 
       <h2>How this compares to a rideshare quote</h2>
@@ -1535,7 +1535,7 @@ export const GUIDES = [
     faqs: [
       {
         q: 'How much does a car service from DCA to Bethesda typically cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle class and exact Bethesda address, confirmed before you book. Call (877) 609-1919 or request a quote online for an exact number.',
+        a: 'We quote one flat rate based on your vehicle class and exact Bethesda address, confirmed before you book. Call (877) 609-1919 or request a quote online for an exact number.',
       },
       {
         q: 'Does the price change if my flight is delayed?',
@@ -1578,7 +1578,7 @@ export const GUIDES = [
     readTime: '7 min read',
     category: 'Pricing & Planning',
     content: `
-      <p class="lead">Because DCA Limos prices every trip as a flat, pre-confirmed rate, timing a booking around price does not really apply the way it does with a surge-priced rideshare — the number does not change whether you book a month out or the night before. What does change is availability, specifically for the vehicle type you actually want. This guide is about when to book to make sure a Sprinter van, a stretch limousine or even a standard sedan is still on the schedule for the date you need it.</p>
+      <p class="lead">Because DCA Limos prices every trip as a flat, pre-confirmed rate, timing a booking around price does not really apply the way it does with a surge-priced rideshare — the number does not change whether you book a month out or the night before. What does change is availability, specifically for the vehicle type you actually want. This guide is about when to book to make sure a Sprinter Executive, a Lincoln Navigator or even a standard sedan is still on the schedule for the date you need it.</p>
 
       <h2>Same-day and next-day bookings: usually fine, with caveats</h2>
       <p>Dispatch runs 24/7, and a same-day sedan or SUV booking for a standard airport transfer is almost always available — this is the bulk of what we do every day, and the fleet is sized for exactly this kind of demand. The caveat is vehicle type and timing: a same-day request for a Sprinter van, or any booking landing during one of the high-demand windows covered below, has meaningfully less flexibility than a sedan request on an ordinary Tuesday.</p>
@@ -1589,8 +1589,8 @@ export const GUIDES = [
       <ul>
         <li><strong>Cherry blossom season (late March into April).</strong> Hotel occupancy spikes across the District, and both airport transfers and hourly touring bookings climb together.</li>
         <li><strong>Graduation season (May).</strong> Commencement at Georgetown, GW, American University, Howard, the University of Maryland and others brings families booking well in advance for a fixed ceremony date that cannot move.</li>
-        <li><strong>Wedding season (spring and fall Saturdays, especially May, June, September and October).</strong> Stretch limousines and Sprinter vans for wedding parties are the tightest single vehicle category during these months.</li>
-        <li><strong>Prom season (late April into May).</strong> The same stretch limousines and Sprinter vans used for weddings are also the default prom vehicles, and the two seasons overlap on the calendar.</li>
+        <li><strong>Wedding season (spring and fall Saturdays, especially May, June, September and October).</strong> Sprinter Executives and Lincoln Navigators for wedding parties are the tightest vehicle categories during these months.</li>
+        <li><strong>Prom season (late April into May).</strong> The same Sprinter vans and Navigators used for weddings are also the go-to prom vehicles, and the two seasons overlap on the calendar.</li>
         <li><strong>Major one-off events.</strong> A presidential inauguration, a large rally or march, or a marquee concert or playoff run at one of the region's stadiums can noticeably tighten availability for the specific dates involved, sometimes with very little public notice.</li>
       </ul>
       <p>If your trip falls inside any of these windows, book as soon as the date is fixed rather than waiting — these are the periods where "we will call closer to the date" most often means settling for whichever vehicle is still open rather than the one you actually wanted.</p>
@@ -1622,7 +1622,7 @@ export const GUIDES = [
       },
       {
         q: 'Is same-day booking available for a standard airport transfer?',
-        a: 'Yes, in almost all cases for a sedan or SUV. Same-day Sprinter van or stretch limousine requests have less flexibility and are best booked further ahead when possible.',
+        a: 'Yes, in almost all cases for a sedan or SUV. Same-day Sprinter van requests have less flexibility and are best booked further ahead when possible.',
       },
       {
         q: 'Should I book my return trip at the same time as my arrival?',
@@ -1715,7 +1715,7 @@ export const GUIDES = [
       'Ten real wedding venues across DC, Maryland and Northern Virginia — from the US Naval Academy Chapel to Morven Park — and how couples get their wedding party there.',
     excerpt:
       "From a Naval Academy chapel wedding in Annapolis to a Loudoun County estate, here are ten real DC-area wedding venues couples actually book — and the transportation logistics each one calls for.",
-    image: '/images/blog/scenario-wedding-1.webp',
+    image: '/images/wedding-service.webp',
     author: 'DCA Limos Team',
     authorBio: 'The DCA Limos dispatch and chauffeur team, writing from day-to-day experience on these routes.',
     date: 'October 19, 2026',
@@ -1728,7 +1728,7 @@ export const GUIDES = [
       <p>A USNA chapel wedding, complete with the traditional sabre arch exit between crossed swords, requires base-access coordination for every vehicle in the wedding party. See our <a href="/annapolis-wedding-limo-service">Annapolis wedding limo service page</a> for how we handle the Academy's visitor-gate procedures and the city's swing-bridge timing on Spa Creek and Eastport.</p>
 
       <h2>2. Glenview Mansion, Rockville Civic Center Park — Rockville, MD</h2>
-      <p>This historic estate house inside Rockville Civic Center Park is one of Montgomery County's most-booked ceremony and cocktail-hour settings, with a circular drive that makes for a clean limousine pickup once the venue's queuing procedure is confirmed in advance. Details on our <a href="/rockville-wedding-limo-service">Rockville wedding limo service page</a>.</p>
+      <p>This historic estate house inside Rockville Civic Center Park is one of Montgomery County's most-booked ceremony and cocktail-hour settings, with a circular drive that makes for a clean wedding-car pickup once the venue's queuing procedure is confirmed in advance. Details on our <a href="/rockville-wedding-limo-service">Rockville wedding limo service page</a>.</p>
 
       <h2>3. Morven Park — Leesburg, VA</h2>
       <p>A historic estate and equestrian center in Loudoun County wine country, Morven Park's mansion and boxwood gardens are a popular gateway-to-wine-country setting. Its grounds sit at the end of its own access road, and our <a href="/leesburg-wedding-limo-service">Leesburg wedding limo service page</a> covers how we handle estate and vineyard access throughout the county.</p>
@@ -1755,7 +1755,7 @@ export const GUIDES = [
       <p>A National Park Service site just outside Bethesda, the historic Spanish Ballroom is a popular outdoor-adjacent ceremony and reception space with real character and a working access road our chauffeurs know well. See our <a href="/bethesda-wedding-limo-service">Bethesda wedding limo service page</a> for more on getting a wedding party there.</p>
 
       <h2>Getting your wedding party to any of these venues</h2>
-      <p>Every one of these ten venues shares the same basic transportation challenge: a specific, sometimes non-obvious access point, a limited or nonexistent public parking situation on the wedding day, and a wedding party that needs to move between getting-ready suite, ceremony and reception on a fixed schedule. A stretch limousine typically handles the couple and immediate party, while a Sprinter van moves a larger bridal party or runs a guest shuttle from a hotel block, and both are booked on one hourly reservation that stays with you for the whole day rather than a series of separate rides.</p>
+      <p>Every one of these ten venues shares the same basic transportation challenge: a specific, sometimes non-obvious access point, a limited or nonexistent public parking situation on the wedding day, and a wedding party that needs to move between getting-ready suite, ceremony and reception on a fixed schedule. A First Class sedan or Lincoln Navigator typically handles the couple, while a Sprinter Executive moves a larger bridal party or runs a guest shuttle from a hotel block, and both are booked on one hourly reservation that stays with you for the whole day rather than a series of separate rides.</p>
       <p>Our broader <a href="/limo/wedding-limo-service">wedding limo service page</a> covers vehicle choice, guest shuttles and multicultural ceremony logistics across the whole region, and our <a href="/washington-dc-wedding-limo">Washington DC</a>, <a href="/maryland-wedding-limo">Maryland</a> city-specific pages cover local detail for whichever venue and city your wedding falls in.</p>
 
       <h2>Booking wedding transportation for any of these venues</h2>
@@ -1780,7 +1780,7 @@ export const GUIDES = [
       },
       {
         q: 'How far in advance should we book for a popular venue like Glenview Mansion or Union Station?',
-        a: 'As soon as your date and venue are confirmed. Spring and fall Saturdays are the busiest wedding dates across all of these venues, and stretch limousines and Sprinter vans are limited.',
+        a: 'As soon as your date and venue are confirmed. Spring and fall Saturdays are the busiest wedding dates across all of these venues, and Sprinter vans are limited.',
       },
     ],
     relatedLinks: [

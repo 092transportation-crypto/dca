@@ -7,7 +7,7 @@ const ChatBot = () => {
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
-      content: "Hello! Welcome to DCA Limos. I'm here to help you with airport transportation, corporate car service, wedding limos, and more. How can I assist you today?"
+      content: "Hello! Welcome to DCA Limos. I'm here to help you with airport transportation, corporate car service, wedding transportation, and more. How can I assist you today?"
     }
   ]);
   const [inputValue, setInputValue] = useState('');

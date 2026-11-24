@@ -12,7 +12,7 @@ Taxis and black car service both put you in a car headed to your destination, bu
 
 ## How Pricing Actually Works
 
-A DC-area taxi runs on a metered fare — a base rate plus per-mile and per-minute charges that accumulate as the trip happens, meaning the final price isn't known until you arrive. A black car service quotes one flat, all-inclusive rate before you book, covering tolls, fuel and the chauffeur's time, with no surprises on arrival. For airport trips specifically, where traffic and route can vary significantly by time of day, the flat rate removes a real source of uncertainty.
+A DC-area taxi runs on a metered fare — a base rate plus per-mile and per-minute charges that accumulate as the trip happens, meaning the final price isn't known until you arrive. A black car service quotes one flat rate before you book, covering tolls, fuel and the chauffeur's time, with any gratuity shown up front (at DCA Limos, a 20% gratuity is added to the rate) and no surprises on arrival. For airport trips specifically, where traffic and route can vary significantly by time of day, the flat rate removes a real source of uncertainty.
 
 ## Vehicle Standards
 
