@@ -35,7 +35,7 @@ const FleetPage = () => {
       passengers: '3',
       luggage: '2',
       description:
-        'Our top sedan tier, chosen for VIP guests, senior executives and evenings out in Georgetown or on Capitol Hill. BMW 7 Series, Mercedes S-Class or similar.',
+        'The sedan we send for VIP guests and senior executives: a quiet cabin for a Capitol Hill meeting or a dinner reservation in Georgetown. BMW 7 Series, Mercedes S-Class or similar.',
     },
     {
       category: 'Midsize SUV',
@@ -44,7 +44,7 @@ const FleetPage = () => {
       passengers: '3',
       luggage: '4',
       description:
-        'More cargo room than a sedan for small families and travelers carrying extra bags. Lincoln Nautilus or similar.',
+        'A step up in cargo space from a sedan, sized for a couple or a small family landing at DCA with a few checked bags. Lincoln Nautilus or similar.',
     },
     {
       category: 'Luxury SUV',
@@ -62,7 +62,7 @@ const FleetPage = () => {
       passengers: '6',
       luggage: '5',
       description:
-        'Our flagship SUV, seating six with luggage, for executives and families who want the most space on arrival. Lincoln Navigator or similar.',
+        'The largest SUV we run, with six seats and room for luggage, often booked for executives arriving at Reagan National and families headed to Bethesda or Alexandria. Lincoln Navigator or similar.',
     },
     {
       category: 'Sprinter Shuttle',
@@ -101,7 +101,7 @@ const FleetPage = () => {
           </span>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 sm:mb-6 text-white px-4">Luxury Limo Fleet - Mercedes, Lincoln &amp; More</h1>
           <p className="text-base sm:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed px-4">
-            From economy to first class, we offer a diverse fleet of meticulously maintained vehicles. <Link to="/booking" className="text-amber-400 hover:underline">Book your ride</Link> or view our <Link to="/services" className="text-amber-400 hover:underline">services</Link>.
+            Seven vehicle classes, from a business sedan for a solo Reagan National pickup to a 13-seat Sprinter for a group heading into the District. <Link to="/booking" className="text-amber-400 hover:underline">Book your ride</Link> or view our <Link to="/services" className="text-amber-400 hover:underline">services</Link>.
           </p>
         </div>
       </section>
@@ -177,7 +177,7 @@ const FleetPage = () => {
             <div className="inline-flex items-center space-x-2 bg-amber-500/10 border border-amber-500/30 rounded-full px-6 py-3">
               <Star className="h-5 w-5 text-amber-400" />
               <span className="text-gray-300">
-                All vehicles are fully licensed, insured, and professionally maintained
+                Every vehicle in the fleet is licensed for commercial use, insured and kept on a regular service schedule
               </span>
             </div>
           </div>
@@ -198,7 +198,7 @@ const FleetPage = () => {
             {[
               { emoji: '🔧', title: 'Rigorous Maintenance', desc: 'Comprehensive maintenance schedules exceed manufacturer recommendations. Every vehicle is service-ready, every time.' },
               { emoji: '✨', title: 'Pristine Condition', desc: 'Professional detailing before every service ensures you always experience immaculate, showroom-quality surroundings.' },
-              { emoji: '🛡️', title: 'Safety First', desc: 'Advanced safety features and comprehensive insurance coverage provide complete peace of mind on every journey.' },
+              { emoji: '🛡️', title: 'Safety First', desc: 'Late-model vehicles with current safety equipment, backed by commercial insurance on every trip across the region.' },
               { emoji: '🌟', title: 'Premium Amenities', desc: 'Complimentary refreshments, charging capabilities, and thoughtful touches elevate every experience.' }
             ].map((item, index) => (
               <Card key={index} className="bg-white/10 backdrop-blur border-amber-500/20">

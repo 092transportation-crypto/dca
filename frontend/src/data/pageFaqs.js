@@ -16,10 +16,10 @@ export const PAGE_FAQS = {
   ],
   '/fleet': [
     { q: 'Which vehicles are in the DCA Limos fleet?', a: 'Mercedes-Benz E-Class and S-Class and BMW 7 Series sedans, Lincoln Navigator and Chevrolet Suburban SUVs, Mercedes Sprinter vans and stretch limousines. Sedans seat up to three passengers, the Suburban five, the Navigator six and a Sprinter van up to 13.' },
-    { q: 'Which vehicle should I book for an airport trip with luggage?', a: 'A sedan suits one to three travelers with standard bags. A full-size SUV is the better choice for families and heavy luggage, and a Sprinter van keeps a larger group and its bags in one vehicle.' },
-    { q: 'Am I guaranteed the exact model shown?', a: 'Reservations are made by vehicle class. The exact make and model can vary within the class, and if a vehicle becomes unavailable we provide a comparable or upgraded one.' },
-    { q: 'How are the vehicles prepared?', a: 'Every vehicle is commercially insured and inspected regularly. Each one is detailed before the ride and driven by a licensed, background-checked chauffeur.' },
-    { q: 'Can I request a child car seat?', a: 'Yes. Infant, convertible and booster seats are available on request in any vehicle class — tell us the child\'s age when you book.' },
+    { q: 'What should I book for an airport run with bags?', a: 'Up to three travelers with ordinary suitcases fit comfortably in a sedan. Families and anyone with heavy luggage do better in a full-size SUV, and a Sprinter van carries a larger group and all its bags in one trip.' },
+    { q: 'Will I get the exact model in the photo?', a: 'You book a vehicle class rather than a specific car, so the make and model can differ within that class. If the assigned vehicle is unavailable, we send a comparable or upgraded one instead.' },
+    { q: 'How are the vehicles prepared?', a: 'Each vehicle is cleaned and detailed before your pickup and inspected on a regular schedule. All of them carry commercial insurance, and every chauffeur is licensed and background-checked.' },
+    { q: 'Can I request a child car seat?', a: 'Yes. Child seats in infant, convertible and booster sizes can go in any vehicle class. Mention your child\'s age on the booking so the correct seat is ready at pickup.' },
   ],
   '/about': [
     { q: 'Who is DCA Limos?', a: 'DCA Limos is a chauffeured car service focused on Reagan National Airport and the Washington region. Our office is at 9836 Lyon Ave, Laurel, MD 20723, and dispatch runs 24/7.' },

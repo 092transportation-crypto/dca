@@ -113,7 +113,7 @@ const HomePage = () => {
               <span className="text-amber-400">Flat Rates — No Surge, Ever</span>
             </h1>
             <p className="text-base sm:text-xl lg:text-2xl mb-6 sm:mb-8 text-gray-200 leading-relaxed max-w-2xl" data-testid="hero-subtitle">
-              24/7 luxury airport transportation, executive car service &amp; limousine rentals serving DCA, BWI, Dulles &amp; the entire DMV area. Professional chauffeurs, Mercedes fleet, best rates guaranteed.
+              Chauffeured rides around the clock from Reagan National to Georgetown, Capitol Hill, Arlington, Alexandria and Bethesda, plus Dulles, BWI and the wider DMV. Licensed chauffeurs, a Mercedes-led fleet and a flat rate quoted before you ride.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <Button 
@@ -320,7 +320,7 @@ const HomePage = () => {
             <span className="text-amber-600 font-semibold text-xs sm:text-sm uppercase tracking-wider mb-2 sm:mb-3 block">Service Coverage</span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-gray-900 px-4">Areas We Serve</h2>
             <p className="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
-              From Reagan National we cover the District, Arlington, Alexandria and the rest of Northern Virginia around the clock, along with Anne Arundel County and much of Maryland.
+              From Reagan National we cover the District, from Georgetown to Capitol Hill, plus Arlington, Alexandria and the rest of Northern Virginia around the clock, along with Bethesda, Anne Arundel County and much of Maryland.
             </p>
           </div>
 
