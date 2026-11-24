@@ -38,7 +38,7 @@ export const EVENT_PAGES = [
       {
         h2: 'Flat rates, group vehicles, and door-to-door service',
         paragraphs: [
-          'Every event transfer is quoted as one flat, all-inclusive rate — fuel, tolls, and chauffeur included, with no surge pricing when the show lets out and demand spikes. Luxury sedans suit couples and solo travelers, SUVs carry groups of five with room to spare, and Mercedes Sprinter vans keep parties of up to thirteen together in a single vehicle, which is almost always cheaper and far more fun than splitting three rideshares.',
+          'Every event transfer is quoted as one flat rate — fuel, tolls, and chauffeur included, with no surge pricing when the show lets out and demand spikes. Luxury sedans suit couples and solo travelers, SUVs carry groups of five with room to spare, and Mercedes Sprinter vans keep parties of up to thirteen together in a single vehicle, which is almost always cheaper and far more fun than splitting three rideshares.',
           'Round trips are the smart play for events: your chauffeur drops you at the venue entrance, stays reachable through the show, and is staged at an agreed pickup point when you walk out. No parking fees, no designated driver, no surge, no hour-long garage exit.',
         ],
       },
@@ -60,7 +60,7 @@ export const EVENT_PAGES = [
     faqs: [
       {
         q: 'How much does concert transportation cost in the DC area?',
-        a: 'Pricing is a flat, all-inclusive rate based on your pickup location, venue, and vehicle — never a surge multiplier. A sedan to a downtown DC venue starts around the same as our airport transfers, and Sprinter vans make group trips very economical per person. Call (877) 609-1919 for an exact quote.',
+        a: 'Pricing is a flat rate based on your pickup location, venue, and vehicle — never a surge multiplier. A sedan to a downtown DC venue starts around the same as our airport transfers, and Sprinter vans make group trips very economical per person. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'Which concert venues do you serve?',
@@ -111,7 +111,7 @@ export const EVENT_PAGES = [
       {
         h2: 'Flat-rate pricing with a staged return',
         paragraphs: [
-          'Every Capital One Arena transfer is one locked, all-inclusive price — no meter, no surge when the horn sounds and 20,000 phones open a rideshare app at once. Round trips include a staged pickup: your chauffeur tracks the event, positions the vehicle before the end, and confirms the exact corner by text so you walk straight from the concourse to a warm car.',
+          'Every Capital One Arena transfer is one locked flat price — no meter, no surge when the horn sounds and 20,000 phones open a rideshare app at once. Round trips include a staged pickup: your chauffeur tracks the event, positions the vehicle before the end, and confirms the exact corner by text so you walk straight from the concourse to a warm car.',
           'Sedans suit couples, SUVs handle families and small groups, and Sprinter vans carry up to 13 for birthday outings, corporate nights, and bachelor and bachelorette parties.',
         ],
       },
@@ -126,7 +126,7 @@ export const EVENT_PAGES = [
     faqs: [
       {
         q: 'How much is a car service to Capital One Arena?',
-        a: 'Transfers are a flat, all-inclusive rate based on your pickup point and vehicle — a sedan from DCA or Arlington is comparable to our shortest airport routes, and round trips with staged pickup are quoted as one price. Call (877) 609-1919 for an exact quote.',
+        a: 'Transfers are a flat rate based on your pickup point and vehicle — a sedan from DCA or Arlington is comparable to our shortest airport routes, and round trips with staged pickup are quoted as one price. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'Where do you pick up after an event at Capital One Arena?',
@@ -173,7 +173,7 @@ export const EVENT_PAGES = [
       {
         h2: 'Flat rates for every group size',
         paragraphs: [
-          'Every Nationals Park transfer is one locked, all-inclusive price — fuel, tolls, and chauffeur included, the same rate on Opening Day as on a quiet Tuesday in August. Sedans suit a couple heading to the ballpark, SUVs take a family of five with room for jerseys and gloves, and Sprinter vans carry up to 13 for season-ticket groups, corporate outings, and bachelor parties making a night of Navy Yard.',
+          'Every Nationals Park transfer is one locked flat price — fuel, tolls, and chauffeur included, the same rate on Opening Day as on a quiet Tuesday in August. Sedans suit a couple heading to the ballpark, SUVs take a family of five with room for jerseys and gloves, and Sprinter vans carry up to 13 for season-ticket groups, corporate outings, and bachelor parties making a night of Navy Yard.',
           'Book round trips early for Opening Day, playoff baseball, and concert dates — those calendars fill first, and a locked flat rate is the cheapest insurance a big night out can buy.',
         ],
       },
@@ -188,7 +188,7 @@ export const EVENT_PAGES = [
     faqs: [
       {
         q: 'How much is a car service to Nationals Park?',
-        a: 'Transfers are a flat, all-inclusive rate based on your pickup point and vehicle. From DCA or downtown DC it is one of our shortest, most economical trips, and round trips with staged pickup are quoted as one price. Call (877) 609-1919 for an exact quote.',
+        a: 'Transfers are a flat rate based on your pickup point and vehicle. From DCA or downtown DC it is one of our shortest, most economical trips, and round trips with staged pickup are quoted as one price. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'How far is Nationals Park from DCA Airport?',
@@ -235,7 +235,7 @@ export const EVENT_PAGES = [
       {
         h2: 'Flat rates from anywhere in the DMV',
         paragraphs: [
-          'Every FedEx Field transfer is one flat, all-inclusive rate — fuel, tolls, and chauffeur included, locked at booking regardless of game-day demand. From DCA the run is about 13 miles and 25 to 40 minutes; from downtown DC, Arlington, or Bethesda it is comparably quick outside of peak arrival windows, and we advise on timing so you are in your seats for kickoff, not stuck on Arena Drive.',
+          'Every FedEx Field transfer is one flat rate — fuel, tolls, and chauffeur included, locked at booking regardless of game-day demand. From DCA the run is about 13 miles and 25 to 40 minutes; from downtown DC, Arlington, or Bethesda it is comparably quick outside of peak arrival windows, and we advise on timing so you are in your seats for kickoff, not stuck on Arena Drive.',
           'Sedans and SUVs suit couples and families; Sprinter vans carry up to 13 for tailgate crews, corporate suite groups, and bachelor parties. Flying in for the game? We meet you at DCA, Dulles, or BWI with flight tracking and run straight to the stadium.',
         ],
       },
@@ -250,7 +250,7 @@ export const EVENT_PAGES = [
     faqs: [
       {
         q: 'How much is a car service to FedEx Field?',
-        a: 'Transfers are a flat, all-inclusive rate based on your pickup point and vehicle — often less than the combined cost of parking passes and surge-priced rideshare for a group. Call (877) 609-1919 for an exact quote.',
+        a: 'Transfers are a flat rate based on your pickup point and vehicle — often less than the combined cost of parking passes and surge-priced rideshare for a group. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'How long does it take to get to FedEx Field from DCA?',

@@ -26,7 +26,6 @@ export const BLOG_POSTS_BATCH8 = [
         <li><strong>Luxury sedan (Mercedes E-Class or similar):</strong> flat rate starting at $65, including tolls, fuel and the chauffeur.</li>
         <li><strong>Premium SUV (Navigator or Suburban):</strong> typically $85–$110, depending on exact pickup and drop-off points downtown.</li>
         <li><strong>Mercedes Sprinter van (up to 13 passengers):</strong> generally $150–$190 total — often far cheaper per person than splitting multiple rideshares.</li>
-        <li><strong>Stretch limousine:</strong> priced for the occasion, typically starting around $120 for the transfer itself.</li>
       </ul>
       <p>Because the distance is only three miles and takes 10 to 20 minutes under normal conditions, the fare is driven almost entirely by vehicle class and your exact downtown drop-off, not by mileage. <a href="/dca-to-washington-dc">See the full DCA to Washington DC route page</a> for the complete rate breakdown.</p>
 
@@ -49,7 +48,7 @@ export const BLOG_POSTS_BATCH8 = [
       <p>The flat rate can vary slightly based on your exact downtown DC address — Capitol Hill and Georgetown sit a bit further from the airport than K Street or the convention center district — and whether you need a specific vehicle class. It does not vary by day of week, time of day, or how busy the airport is, which is the entire point of booking a flat rate in advance rather than hailing a ride at the curb.</p>
 
       <h2>The bottom line</h2>
-      <p>For the DCA-to-downtown-DC trip specifically, budget $65 and up for a sedan, $85–$110 for an SUV, and $150–$190 for a Sprinter van carrying a group — all flat, all-inclusive, and locked in before you land. <a href="/booking">Book your exact rate online</a> or call (877) 609-1919, 24/7.</p>
+      <p>For the DCA-to-downtown-DC trip specifically, budget $65 and up for a sedan, $85–$110 for an SUV, and $150–$190 for a Sprinter van carrying a group — all flat rates with tolls and fuel included, locked in before you land, with the 20% gratuity added to the rate and shown in your total up front. <a href="/booking">Book your exact rate online</a> or call (877) 609-1919, 24/7.</p>
     `,
     faqs: [
       {
@@ -95,7 +94,7 @@ export const BLOG_POSTS_BATCH8 = [
       <p>A presidential inauguration brings rolling security perimeters, street closures across downtown, and a complete transformation of normal traffic patterns for several days. Vehicles for inauguration week sell out months in advance, and last-minute rideshare availability can collapse entirely as closures expand. <strong>Book 2–3 months out</strong> if your travel falls anywhere near Inauguration Day.</p>
 
       <h2>Spring and fall weekends: Graduation and wedding season</h2>
-      <p>Georgetown, GW, American University and the service academies all hold commencement in May, and DC's wedding season runs heavy from April through October. Both strain Sprinter van and limousine availability specifically — sedans stay easier to find. <strong>Book 4–6 weeks out</strong> for a wedding party or graduation weekend, especially for larger vehicles.</p>
+      <p>Georgetown, GW, American University and the service academies all hold commencement in May, and DC's wedding season runs heavy from April through October. Both strain Sprinter van and SUV availability specifically — sedans stay easier to find. <strong>Book 4–6 weeks out</strong> for a wedding party or graduation weekend, especially for larger vehicles.</p>
 
       <h2>Late June through August: Peak tourist season and July 4th</h2>
       <p>Summer brings the heaviest general tourist volume of the year, culminating in July 4th on the National Mall, when street closures around the fireworks and parade route reroute ordinary traffic for most of a day. <strong>Book 2–3 weeks out</strong> for general summer travel and at least 3–4 weeks out for July 4th week specifically.</p>

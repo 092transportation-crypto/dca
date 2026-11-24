@@ -115,7 +115,7 @@ export const ROUTE_PAGES = [
       {
         h2: 'Flat-rate pricing to Bethesda',
         paragraphs: [
-          'DCA to Bethesda transfers start at a flat $95 in a luxury sedan, with tolls, fuel, and gratuity guidance included and absolutely no surge pricing. SUVs handle families with luggage, and Sprinter vans cover larger groups and corporate teams arriving together.',
+          'DCA to Bethesda transfers start at a flat $95 in a luxury sedan, with tolls and fuel included, a 20% gratuity added, all shown up front, and absolutely no surge pricing. SUVs handle families with luggage, and Sprinter vans cover larger groups and corporate teams arriving together.',
         ],
       },
       {
@@ -183,7 +183,7 @@ export const ROUTE_PAGES = [
       {
         h2: 'Flat-rate Arlington transfers',
         paragraphs: [
-          'DCA to Arlington starts at a flat $55 in a luxury sedan, all-inclusive. Because the distance is short, this is one of our most popular and economical routes — and unlike rideshare, the price never jumps during peak hours, bad weather, or major events at the Pentagon or National Landing.',
+          'DCA to Arlington starts at a flat $55 in a luxury sedan. Because the distance is short, this is one of our most popular and economical routes — and unlike rideshare, the price never jumps during peak hours, bad weather, or major events at the Pentagon or National Landing.',
         ],
       },
       {
@@ -263,7 +263,7 @@ export const ROUTE_PAGES = [
       },
     ],
     highlights: [
-      'Flat-rate pricing — no surge, all-inclusive',
+      'Flat-rate pricing — no surge, no meter',
       'Old Town, waterfront & King Street drop-off expertise',
       'Patent Office and federal Alexandria coverage',
       'Scenic GW Parkway route along the Potomac',
@@ -319,7 +319,7 @@ export const ROUTE_PAGES = [
       {
         h2: 'Flat-rate Annapolis transfers',
         paragraphs: [
-          'DCA to Annapolis starts at a flat $145 in a luxury sedan, with all tolls, fuel, and gratuity guidance included. Sedans suit couples and solo travelers, SUVs handle families with luggage, and Sprinter vans carry full graduation parties — all at a locked, surge-free rate.',
+          'DCA to Annapolis starts at a flat $145 in a luxury sedan, with all tolls and fuel included and a 20% gratuity added, shown on your quote before you confirm. Sedans suit couples and solo travelers, SUVs handle families with luggage, and Sprinter vans carry full graduation parties — all at a locked, surge-free rate.',
         ],
       },
       {
@@ -387,7 +387,7 @@ export const ROUTE_PAGES = [
       {
         h2: 'Flat-rate Baltimore pricing',
         paragraphs: [
-          'DCA to Baltimore starts at a flat $165 in a luxury sedan, all-inclusive with tolls and fuel. Rideshare will rarely quote a reliable price for a 40-mile inter-city trip, and a taxi meter only grows in traffic — our flat rate is locked the moment you book.',
+          'DCA to Baltimore starts at a flat $165 in a luxury sedan with tolls and fuel. Rideshare will rarely quote a reliable price for a 40-mile inter-city trip, and a taxi meter only grows in traffic — our flat rate is locked the moment you book.',
         ],
       },
       {
@@ -603,7 +603,7 @@ export const ROUTE_PAGES = [
       },
     ],
     highlights: [
-      'Flat-rate pricing — no surge, all-inclusive',
+      'Flat-rate pricing — no surge, no meter',
       'I-270 biotech corridor and office-park expertise',
       'Quiet Mercedes sedans for working in transit',
       'Corporate accounts with monthly invoicing',
@@ -671,7 +671,7 @@ export const ROUTE_PAGES = [
       },
     ],
     highlights: [
-      'Flat-rate pricing — no surge, all-inclusive',
+      'Flat-rate pricing — no surge, no meter',
       'Corporate HQ and convention-hotel expertise',
       'Door-to-door drop-off, not the nearest garage',
       'Professional image for client-facing arrivals',
@@ -728,7 +728,7 @@ export const ROUTE_PAGES = [
       {
         h2: "Flat rates in both directions, 24/7",
         paragraphs: [
-          "Every Northern Virginia transfer is quoted as one flat, all-inclusive price — tolls, fuel, and chauffeur included, with no surge on rainy Fridays or event weekends. Early departures out of NoVA work the same way in reverse: your chauffeur arrives at your door with buffer time already built in for security lines at Reagan National.",
+          "Every Northern Virginia transfer is quoted as one flat price — tolls, fuel, and chauffeur included, with no surge on rainy Fridays or event weekends. Early departures out of NoVA work the same way in reverse: your chauffeur arrives at your door with buffer time already built in for security lines at Reagan National.",
           "Sedans suit solo business travelers; SUVs carry families with luggage; Sprinter vans keep groups of up to thirteen together. Whatever the vehicle, the rate is locked at booking and the service runs around the clock, every day of the year.",
         ],
       },
@@ -743,7 +743,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: "How much is car service from DCA to Northern Virginia?",
-        a: "It depends on the destination: Arlington starts at $55, McLean at $85, Fairfax at $95, and Reston at $115 — all flat, all-inclusive rates with tolls and fuel included. Call (877) 609-1919 for an exact quote to your address.",
+        a: "It depends on the destination: Arlington starts at $55, McLean at $85, Fairfax at $95, and Reston at $115 — all flat rates with tolls and fuel included. Call (877) 609-1919 for an exact quote to your address.",
       },
       {
         q: "Do you cover all of Northern Virginia from DCA?",
@@ -875,7 +875,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: "How much is car service from DCA to McLean?",
-        a: "A flat $85 in a luxury sedan, all-inclusive — fuel, tolls, and chauffeur. Larger vehicles are quoted flat as well. Call (877) 609-1919 for an exact quote.",
+        a: "A flat $85 in a luxury sedan — fuel, tolls, and chauffeur. Larger vehicles are quoted flat as well. Call (877) 609-1919 for an exact quote.",
       },
       {
         q: "How long is the drive from DCA to McLean?",
@@ -927,7 +927,7 @@ export const ROUTE_PAGES = [
         h2: "Groups, families, and round trips",
         paragraphs: [
           "A sedan fits the solo consultant; a Lincoln Navigator or Suburban fits the relocating family and their luggage; a Sprinter van moves a thirteen-person project team in one vehicle. Round-trip bookings lock both legs at once, which most weekly commuters find the simplest way to run their travel.",
-          "Every trip runs 24/7 with a background-checked professional chauffeur, a detailed vehicle, and one all-inclusive price agreed before pickup.",
+          "Every trip runs 24/7 with a background-checked professional chauffeur, a detailed vehicle, and one flat price agreed before pickup.",
         ],
       },
       {
@@ -1191,7 +1191,7 @@ export const ROUTE_PAGES = [
         h2: "Concerts, families, and flat pricing",
         paragraphs: [
           "Merriweather Post Pavilion nights are a specialty: we drop you at the gate and stage your pickup so you skip the lot chaos entirely. Families use our SUVs for vacation departures; groups take a Sprinter and ride thirteen-strong to weddings, galas, and games.",
-          "Whatever the occasion, the structure is identical — one flat, all-inclusive rate with tolls, fuel, and chauffeur included, quoted before you book and immune to traffic, weather, and surge.",
+          "Whatever the occasion, the structure is identical — one flat rate with tolls, fuel, and chauffeur included, quoted before you book and immune to traffic, weather, and surge.",
         ],
       },
       {
@@ -1205,7 +1205,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: "How much is car service from DCA to Columbia?",
-        a: "A flat $115 in a luxury sedan, all-inclusive. SUVs and Sprinter vans for families and groups are quoted flat as well. Call (877) 609-1919 for an exact quote.",
+        a: "A flat $115 in a luxury sedan. SUVs and Sprinter vans for families and groups are quoted flat as well. Call (877) 609-1919 for an exact quote.",
       },
       {
         q: "How long does DCA to Columbia take?",
@@ -1271,7 +1271,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: "How much is a car from DCA to Silver Spring?",
-        a: "A flat $95 in a luxury sedan, all-inclusive — fuel, tolls, and chauffeur. Larger vehicles are quoted flat as well. Call (877) 609-1919 for exact pricing.",
+        a: "A flat $95 in a luxury sedan — fuel, tolls, and chauffeur. Larger vehicles are quoted flat as well. Call (877) 609-1919 for exact pricing.",
       },
       {
         q: "How long does DCA to Silver Spring take?",
@@ -1335,7 +1335,7 @@ export const ROUTE_PAGES = [
       },
     ],
     highlights: [
-      "Flat $345 all-inclusive — tolls, fuel & chauffeur included",
+      "Flat $345 — tolls, fuel & chauffeur included",
       "Real-time flight tracking with complimentary wait time",
       "Meet-and-greet at DCA baggage claim",
       "Door-to-door: Center City, Main Line, PHL & the suburbs",
@@ -1344,7 +1344,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: "How much is a car service from DCA to Philadelphia?",
-        a: "A flat $345 in a luxury sedan, all-inclusive — tolls, fuel, and chauffeur. SUVs and Sprinter vans for groups are quoted flat as well. Call (877) 609-1919 for an exact quote for your date.",
+        a: "A flat $345 in a luxury sedan — tolls, fuel, and chauffeur. SUVs and Sprinter vans for groups are quoted flat as well. Call (877) 609-1919 for an exact quote for your date.",
       },
       {
         q: "How long does the drive from DCA to Philadelphia take?",
@@ -1408,7 +1408,7 @@ export const ROUTE_PAGES = [
       },
     ],
     highlights: [
-      "Flat $295 all-inclusive — express-lane tolls & fuel included",
+      "Flat $295 — express-lane tolls & fuel included",
       "Real-time flight tracking with complimentary wait time",
       "Meet-and-greet at DCA baggage claim",
       "Door-to-door across metro Richmond & RIC airport",
@@ -1417,7 +1417,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: "How much is a car service from DCA to Richmond?",
-        a: "A flat $295 in a luxury sedan, all-inclusive — express-lane tolls, fuel, and chauffeur included. SUVs and Sprinters are quoted flat as well. Call (877) 609-1919 for an exact quote.",
+        a: "A flat $295 in a luxury sedan — express-lane tolls, fuel, and chauffeur included. SUVs and Sprinters are quoted flat as well. Call (877) 609-1919 for an exact quote.",
       },
       {
         q: "How long does DCA to Richmond take?",
@@ -1490,7 +1490,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car service from DCA to Glen Burnie?',
-        a: 'Every transfer is one flat, all-inclusive rate — tolls, fuel, and the chauffeur included, locked in at booking with no surge pricing. The exact quote depends on vehicle class and your address, so call (877) 609-1919 or book online for pricing.',
+        a: 'Every transfer is one flat rate — tolls, fuel, and the chauffeur included, locked in at booking with no surge pricing. The exact quote depends on vehicle class and your address, so call (877) 609-1919 or book online for pricing.',
       },
       {
         q: 'How long does the drive from DCA to Glen Burnie take?',
@@ -1563,7 +1563,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much does DCA to Pasadena MD car service cost?',
-        a: 'One flat, all-inclusive quoted rate — tolls, fuel, and gratuity handling included, fixed at booking. Because Pasadena runs from Route 100 to the tip of the peninsula, exact pricing depends on your address and vehicle: call (877) 609-1919 for a quote.',
+        a: 'One flat quoted rate — tolls and fuel included, a 20% gratuity added, and the full total fixed at booking. Because Pasadena runs from Route 100 to the tip of the peninsula, exact pricing depends on your address and vehicle: call (877) 609-1919 for a quote.',
       },
       {
         q: 'How long is the drive from DCA to Pasadena?',
@@ -1636,7 +1636,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car from DCA to Severn?',
-        a: 'Each transfer is one flat, all-inclusive rate fixed at booking — no surge, no hidden fees, tolls and fuel included. Pricing varies by vehicle class and exact address, so call (877) 609-1919 or request an online quote.',
+        a: 'Each transfer is one flat rate fixed at booking — no surge, no hidden fees, tolls and fuel included. Pricing varies by vehicle class and exact address, so call (877) 609-1919 or request an online quote.',
       },
       {
         q: 'How long does DCA to Severn take?',
@@ -1709,7 +1709,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much does a car from DCA to Odenton cost?',
-        a: 'One flat, all-inclusive rate quoted at booking — tolls, fuel, and the chauffeur included, with no surge pricing regardless of traffic or demand. Call (877) 609-1919 or book online for an exact quote by vehicle class.',
+        a: 'One flat rate quoted at booking — tolls, fuel, and the chauffeur included, with no surge pricing regardless of traffic or demand. Call (877) 609-1919 or book online for an exact quote by vehicle class.',
       },
       {
         q: 'How long is the ride from DCA to Odenton?',
@@ -1782,7 +1782,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'What does a car from DCA to Crofton cost?',
-        a: 'One flat, all-inclusive rate — tolls, fuel, and chauffeur included — fixed when you book, immune to surge and traffic. Exact pricing depends on vehicle class and address: call (877) 609-1919 or request an online quote.',
+        a: 'One flat rate — tolls, fuel, and chauffeur included — fixed when you book, immune to surge and traffic. Exact pricing depends on vehicle class and address: call (877) 609-1919 or request an online quote.',
       },
       {
         q: 'How long does the DCA to Crofton drive take?',
@@ -1855,7 +1855,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is car service from DCA to Millersville?',
-        a: 'One flat, all-inclusive rate fixed at booking — tolls, fuel, and the chauffeur included, no surge pricing under any conditions. Call (877) 609-1919 or book online for an exact quote by vehicle class and address.',
+        a: 'One flat rate fixed at booking — tolls, fuel, and the chauffeur included, no surge pricing under any conditions. Call (877) 609-1919 or book online for an exact quote by vehicle class and address.',
       },
       {
         q: 'How long does DCA to Millersville take?',
@@ -1928,7 +1928,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car from DCA to Linthicum?',
-        a: 'One flat, all-inclusive rate — tolls, fuel, and chauffeur included — locked at booking regardless of traffic or demand. Call (877) 609-1919 or book online for an exact quote by vehicle and address.',
+        a: 'One flat rate — tolls, fuel, and chauffeur included — locked at booking regardless of traffic or demand. Call (877) 609-1919 or book online for an exact quote by vehicle and address.',
       },
       {
         q: 'How long does the DCA to Linthicum drive take?',
@@ -2001,7 +2001,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car from DCA to Hanover MD?',
-        a: 'One flat, all-inclusive quoted rate — tolls, fuel, and chauffeur included, locked at booking with no surge at any hour. Exact pricing varies by vehicle class and address: call (877) 609-1919 or book online.',
+        a: 'One flat quoted rate — tolls, fuel, and chauffeur included, locked at booking with no surge at any hour. Exact pricing varies by vehicle class and address: call (877) 609-1919 or book online.',
       },
       {
         q: 'How long is the drive from DCA to Hanover?',
@@ -2074,7 +2074,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much does a car from DCA to Gambrills cost?',
-        a: 'Every transfer is one flat, all-inclusive rate — tolls, fuel, and the chauffeur included — fixed at booking with no surge pricing. Call (877) 609-1919 or request an online quote for exact pricing by vehicle class.',
+        a: 'Every transfer is one flat rate — tolls, fuel, and the chauffeur included — fixed at booking with no surge pricing. Call (877) 609-1919 or request an online quote for exact pricing by vehicle class.',
       },
       {
         q: 'How long does DCA to Gambrills take?',
@@ -2147,7 +2147,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car from DCA to Gibson Island?',
-        a: 'Every transfer is one flat, all-inclusive quoted rate — tolls, fuel, and the chauffeur included, fixed at booking with no surge pricing. Rates vary by vehicle class: call (877) 609-1919 or request an online quote.',
+        a: 'Every transfer is one flat quoted rate — tolls, fuel, and the chauffeur included, fixed at booking with no surge pricing. Rates vary by vehicle class: call (877) 609-1919 or request an online quote.',
       },
       {
         q: 'How does the chauffeur get through the gatehouse?',
@@ -2220,7 +2220,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car from DCA to Waldorf?',
-        a: 'One flat, all-inclusive rate — tolls, fuel, and the chauffeur included — fixed at booking with no surge pricing at any hour. Exact quotes depend on vehicle class and address: call (877) 609-1919 or book online.',
+        a: 'One flat rate — tolls, fuel, and the chauffeur included — fixed at booking with no surge pricing at any hour. Exact quotes depend on vehicle class and address: call (877) 609-1919 or book online.',
       },
       {
         q: 'How long does the DCA to Waldorf drive take?',
@@ -2293,7 +2293,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much does a car from DCA to La Plata cost?',
-        a: 'Every transfer is one flat, all-inclusive rate — tolls, fuel, and the chauffeur included — fixed at booking regardless of traffic or hour. Call (877) 609-1919 or request an online quote for pricing by vehicle class.',
+        a: 'Every transfer is one flat rate — tolls, fuel, and the chauffeur included — fixed at booking regardless of traffic or hour. Call (877) 609-1919 or request an online quote for pricing by vehicle class.',
       },
       {
         q: 'How long is the ride from DCA to La Plata?',
@@ -2366,7 +2366,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car from DCA to White Plains MD?',
-        a: 'One flat, all-inclusive rate — tolls, fuel, and the chauffeur included — locked at booking with no surge pricing. Exact quotes vary by vehicle class and address: call (877) 609-1919 or book online.',
+        a: 'One flat rate — tolls, fuel, and the chauffeur included — locked at booking with no surge pricing. Exact quotes vary by vehicle class and address: call (877) 609-1919 or book online.',
       },
       {
         q: 'How long does the drive from DCA take?',
@@ -2439,7 +2439,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car from DCA to Hagerstown?',
-        a: 'One flat, all-inclusive rate — tolls, fuel, and the chauffeur included — locked at booking and immune to traffic or surge. Exact quotes depend on vehicle class: call (877) 609-1919 or book online.',
+        a: 'One flat rate — tolls, fuel, and the chauffeur included — locked at booking and immune to traffic or surge. Exact quotes depend on vehicle class: call (877) 609-1919 or book online.',
       },
       {
         q: 'How long does DCA to Hagerstown take?',
@@ -2512,7 +2512,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much does a car from DCA to Frederick cost?',
-        a: 'One flat, all-inclusive rate — tolls, fuel, and the chauffeur included — fixed at booking with no surge under any conditions. Call (877) 609-1919 or request an online quote for your vehicle class and address.',
+        a: 'One flat rate — tolls, fuel, and the chauffeur included — fixed at booking with no surge under any conditions. Call (877) 609-1919 or request an online quote for your vehicle class and address.',
       },
       {
         q: 'How long is the drive from DCA to Frederick?',
@@ -2585,7 +2585,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car from DCA to Salisbury?',
-        a: 'One flat, all-inclusive rate — Bay Bridge toll, fuel, and the chauffeur included — locked at booking regardless of season or traffic. Call (877) 609-1919 or book online for exact pricing by vehicle class.',
+        a: 'One flat rate — Bay Bridge toll, fuel, and the chauffeur included — locked at booking regardless of season or traffic. Call (877) 609-1919 or book online for exact pricing by vehicle class.',
       },
       {
         q: 'How long does DCA to Salisbury take?',
@@ -2658,7 +2658,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car from DCA to Easton?',
-        a: 'One flat, all-inclusive quoted rate — Bay Bridge toll, fuel, and the chauffeur included — locked at booking with no seasonal surge. Call (877) 609-1919 or request an online quote by vehicle class.',
+        a: 'One flat quoted rate — Bay Bridge toll, fuel, and the chauffeur included — locked at booking with no seasonal surge. Call (877) 609-1919 or request an online quote by vehicle class.',
       },
       {
         q: 'How long does the drive from DCA to Easton take?',
@@ -2731,7 +2731,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car from DCA to Cambridge MD?',
-        a: 'One flat, all-inclusive rate — Bay Bridge toll, fuel, and the chauffeur included — fixed at booking with no seasonal or event surge. Call (877) 609-1919 or book online for pricing by vehicle class.',
+        a: 'One flat rate — Bay Bridge toll, fuel, and the chauffeur included — fixed at booking with no seasonal or event surge. Call (877) 609-1919 or book online for pricing by vehicle class.',
       },
       {
         q: 'How long does DCA to Cambridge take?',
@@ -2804,7 +2804,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car from DCA to Dover DE?',
-        a: 'One flat, all-inclusive rate — tolls, fuel, and the chauffeur included — locked at booking with no surge at any hour or season. Call (877) 609-1919 or book online for exact pricing by vehicle class.',
+        a: 'One flat rate — tolls, fuel, and the chauffeur included — locked at booking with no surge at any hour or season. Call (877) 609-1919 or book online for exact pricing by vehicle class.',
       },
       {
         q: 'How long does DCA to Dover take?',
@@ -2877,7 +2877,7 @@ export const ROUTE_PAGES = [
     faqs: [
       {
         q: 'How much is a car from DCA to Rehoboth Beach?',
-        a: 'One flat, all-inclusive rate — Bay Bridge toll, fuel, and the chauffeur included — locked at booking and identical in peak season and off. Call (877) 609-1919 or book online for pricing by vehicle class.',
+        a: 'One flat rate — Bay Bridge toll, fuel, and the chauffeur included — locked at booking and identical in peak season and off. Call (877) 609-1919 or book online for pricing by vehicle class.',
       },
       {
         q: 'How long does DCA to Rehoboth take?',

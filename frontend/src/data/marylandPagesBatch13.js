@@ -22,9 +22,9 @@ const VEHICLES = [
   { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
   { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
   { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-  { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-  { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
-  { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings, prom and special occasions' },
+  { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+  { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties, corporate teams and groups' },
+  { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
 ];
 
 export const MARYLAND_BATCH13 = [
@@ -47,22 +47,22 @@ export const MARYLAND_BATCH13 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Middleburg sits at the heart of Virginia\'s hunt country, a few blocks of brick storefronts and stone walls surrounded by the horse farms, vineyards and estate properties that make it one of the most photographed small towns in the state. DCA Limos drives Middleburg the way its venues expect — discreet chauffeurs, late-model sedans and SUVs, and Sprinter vans and stretch limousines for the weddings and wine-country days that bring most visitors here.',
+      'Middleburg sits at the heart of Virginia\'s hunt country, a few blocks of brick storefronts and stone walls surrounded by the horse farms, vineyards and estate properties that make it one of the most photographed small towns in the state. DCA Limos drives Middleburg the way its venues expect — discreet chauffeurs, late-model sedans and SUVs, and Sprinter vans for the weddings and wine-country days that bring most visitors here.',
       'The drive from Dulles is the easy part, 30 miles and 35 to 50 minutes down Route 50 through rolling farmland. Reagan National and BWI are a genuine haul — 50 and 85 miles — which is exactly why we quote and confirm a flat rate for the full distance before you book rather than treating Middleburg as a last-minute add-on.',
     ],
     highlights: [
-      'Flat, all-inclusive rate for the full Dulles, Reagan National or BWI distance',
+      'Flat rate for the full Dulles, Reagan National or BWI distance',
       'Chauffeurs experienced with Salamander Resort, National Sporting Library and private-estate weddings',
       'Loudoun and Fauquier wine-country day trips in a sedan, SUV or Sprinter van',
       'Discreet service for horse-country residents and estate properties off unmarked gravel lanes',
-      'Sprinter vans and stretch limousines for weddings and multi-stop tasting-room days',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Sprinter vans for weddings and multi-stop tasting-room days',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
     ],
     sections: [
       {
         h2: 'Salamander Resort and Middleburg weddings',
         paragraphs: [
-          'Salamander Resort & Spa anchors a steady wedding calendar in and around Middleburg, alongside a handful of private estates and barns tucked off Route 50 and the back roads toward Upperville. Our chauffeurs confirm gate codes, driveway turning room and guest parking with the couple or planner ahead of time, the same way we do for any private-estate wedding, since a stretch limousine does not belong on a narrow gravel lane it has not been cleared for in advance.',
+          'Salamander Resort & Spa anchors a steady wedding calendar in and around Middleburg, alongside a handful of private estates and barns tucked off Route 50 and the back roads toward Upperville. Our chauffeurs confirm gate codes, driveway turning room and guest parking with the couple or planner ahead of time, the same way we do for any private-estate wedding, since a 13-passenger Sprinter does not belong on a narrow gravel lane it has not been cleared for in advance.',
           'Sprinter vans handle the out-of-town guest shuttle most Middleburg weddings need, typically running a loop from a Leesburg or Dulles-corridor hotel block to the venue and back.',
         ],
       },
@@ -129,16 +129,16 @@ export const MARYLAND_BATCH13 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Purcellville anchors western Loudoun County, where the Dulles corridor\'s office parks give way to orchards, breweries and a growing cluster of wineries along Routes 7 and 9. DCA Limos drives the town\'s residents, wedding parties and wine-country visitors in sedans, SUVs, Sprinter vans and stretch limousines, with chauffeurs who run the W&OD Trail-adjacent streets and the surrounding farm roads regularly.',
+      'Purcellville anchors western Loudoun County, where the Dulles corridor\'s office parks give way to orchards, breweries and a growing cluster of wineries along Routes 7 and 9. DCA Limos drives the town\'s residents, wedding parties and wine-country visitors in sedans, SUVs and Sprinter vans, with chauffeurs who run the W&OD Trail-adjacent streets and the surrounding farm roads regularly.',
       'Dulles is a comfortable 22 miles and 30 to 45 minutes away, the closer and far more common airport run for Purcellville. Reagan National runs longer, 42 miles and 55 to 80 minutes depending on Route 7 and Beltway traffic — we confirm a flat rate for either before you book.',
     ],
     highlights: [
       'Dulles International usually 30–45 minutes from any Purcellville address',
       'Western Loudoun wine-country day trips along Routes 7, 9 and the Snickersville Turnpike',
-      'Wedding transportation for Loudoun barn and vineyard venues, Sprinter vans and stretch limousines',
+      'Wedding transportation for Loudoun barn and vineyard venues, Sprinter vans',
       'Chauffeurs who know Purcellville\'s Main Street, the W&OD Trail and the surrounding farm roads',
       'Early-morning and late-night Dulles departures without a long trip downtown first',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -151,7 +151,7 @@ export const MARYLAND_BATCH13 = [
       {
         h2: 'Barn and vineyard weddings in western Loudoun',
         paragraphs: [
-          'Purcellville and the farm roads around it host a growing number of barn and vineyard weddings, and our Sprinter vans and stretch limousines handle both the wedding party and the out-of-town guest shuttles those venues typically need. We confirm venue access, parking and any gravel-road turning-room questions with the couple or planner ahead of the day.',
+          'Purcellville and the farm roads around it host a growing number of barn and vineyard weddings, and our Sprinter vans handle both the wedding party and the out-of-town guest shuttles those venues typically need. We confirm venue access, parking and any gravel-road turning-room questions with the couple or planner ahead of the day.',
           'A sedan or SUV covers a rehearsal dinner or welcome party the night before; the full fleet comes out for the wedding day itself.',
         ],
       },
@@ -174,7 +174,7 @@ export const MARYLAND_BATCH13 = [
       },
       {
         q: 'Can you handle a barn or vineyard wedding near Purcellville?',
-        a: 'Yes. Sprinter vans and stretch limousines are available, and we confirm venue access and parking with the couple or planner before the wedding day.',
+        a: 'Yes. Sprinter vans are available, and we confirm venue access and parking with the couple or planner before the wedding day.',
       },
       {
         q: 'Is Reagan National or BWI realistic from Purcellville?',
@@ -220,7 +220,7 @@ export const MARYLAND_BATCH13 = [
       'A short hop to Tysons, Vienna and Fairfax for dinners, offices and events',
       'Private-school and activity drop-off service for families without a second driver that morning',
       'Family-friendly SUVs with car seats available on request',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -305,7 +305,7 @@ export const MARYLAND_BATCH13 = [
       'Early-morning residential pickups with luggage help at the door',
       'Federal and contractor corporate accounts with monthly invoicing',
       'Family-friendly SUVs with car seats available on request',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -390,7 +390,7 @@ export const MARYLAND_BATCH13 = [
       'A short hop to and from Capitol Hill and Union Station for the same night out',
       'Group transportation in a Sprinter van for a bar crawl or private event along the strip',
       'Residential service for the H Street-adjacent blocks of Capitol Hill, Trinidad and Near Northeast',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -474,8 +474,8 @@ export const MARYLAND_BATCH13 = [
       'Pickup timed to a concert\'s encore or a graduation ceremony\'s actual end, not the printed schedule',
       'Sprinter vans for graduation families bringing flowers, gifts and multiple generations',
       'Easy pairing with a dinner stop in Foggy Bottom or the West End before or after the event',
-      'Stretch limousines for galas and formal evening events',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'First-class sedans and the Sprinter Executive for galas and formal evening events',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -488,7 +488,7 @@ export const MARYLAND_BATCH13 = [
       {
         h2: 'Concerts, galas and graduation season',
         paragraphs: [
-          'The hall\'s concert calendar runs year-round, and we track each performance\'s actual schedule rather than assuming a fixed curtain and encore time. Galas and formal fundraising events get the same stretch-limousine treatment we bring to any black-tie DC evening.',
+          'The hall\'s concert calendar runs year-round, and we track each performance\'s actual schedule rather than assuming a fixed curtain and encore time. Galas and formal fundraising events get the same first-class sedan and Sprinter Executive service we bring to any black-tie DC evening.',
           'Graduation season — typically late spring — is the hall\'s busiest stretch, and families booking a Sprinter van for the full extended family, flowers and all, should reserve as early as possible once a ceremony date is confirmed.',
         ],
       },
@@ -557,7 +557,7 @@ export const MARYLAND_BATCH13 = [
       'Sprinter vans for groups, corporate suites and visiting-team logistics',
       'A short, direct run from Reagan National via South Capitol Street and the Suitland Parkway',
       'Chauffeurs familiar with the St. Elizabeths East campus layout and parking',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -630,7 +630,7 @@ export const MARYLAND_BATCH13 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'The Hamilton Live sits in the basement music room below the Hamilton restaurant on 14th Street, a few blocks from Metro Center and Federal Triangle, pairing a full dinner-and-a-show evening in one downtown building. DCA Limos runs chauffeured sedans, limousines and SUVs to its entrance, through a stretch of downtown where curbside parking during an evening show is close to nonexistent.',
+      'The Hamilton Live sits in the basement music room below the Hamilton restaurant on 14th Street, a few blocks from Metro Center and Federal Triangle, pairing a full dinner-and-a-show evening in one downtown building. DCA Limos runs chauffeured sedans, SUVs and Sprinter vans to its entrance, through a stretch of downtown where curbside parking during an evening show is close to nonexistent.',
       'Most Hamilton Live evenings combine dinner upstairs with a show downstairs, and a single chauffeured booking covers the whole arc — a drop-off before dinner, a return pickup timed to the set\'s actual end rather than its scheduled one.',
     ],
     highlights: [
@@ -638,15 +638,15 @@ export const MARYLAND_BATCH13 = [
       'Pickup timed to a set\'s actual end, with flexibility for an encore or a longer-than-scheduled show',
       'A single booking covering dinner upstairs and the show downstairs',
       'Easy pairing with a walk to Penn Quarter or the National Mall before or after',
-      'Stretch limousines for date nights, anniversaries and small-group celebrations',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Premium sedans and Lincoln Navigators for date nights, anniversaries and small-group celebrations',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
     ],
     sections: [
       {
         h2: 'Dinner and a show, one reservation',
         paragraphs: [
           'The building\'s dual identity — restaurant above, music room below — is exactly what makes a single chauffeured booking useful here. We drop you at the entrance for dinner, hold the reservation open for a return pickup, and are waiting when the last song ends downstairs, rather than requiring two separate car bookings for one continuous evening out.',
-          'Couples and small groups treating the night as a full evening often choose a stretch limousine for the arc of the whole booking, from the dinner drop-off through the final pickup.',
+          'Couples and small groups treating the night as a full evening often keep a sedan or Lincoln Navigator on an hourly booking for the arc of the whole evening, from the dinner drop-off through the final pickup.',
         ],
       },
       {
@@ -716,7 +716,7 @@ export const MARYLAND_BATCH13 = [
     ],
     intro: [
       'Montgomery County\'s I-270 corridor, from Rockville and Gaithersburg up through Germantown and Frederick, is one of the country\'s densest concentrations of pharmaceutical and biotech employers — a mix of federal research campuses, global drug makers and a steady churn of venture-backed startups. DCA Limos runs corporate accounts for that specific mix of travel: visiting scientists and executives flying in for a single meeting, FDA submission teams working against a filing deadline, and board members moving between a Rockville headquarters and a downtown DC investor meeting in the same day.',
-      'This is a distinct kind of corporate account from a typical downtown law firm or consultancy — site visits to secure lab and manufacturing facilities, international visiting researchers unfamiliar with the area, and schedules built around regulatory deadlines rather than a fixed nine-to-five. We quote a flat, all-inclusive rate for every trip, with monthly invoicing available for companies with recurring travel.',
+      'This is a distinct kind of corporate account from a typical downtown law firm or consultancy — site visits to secure lab and manufacturing facilities, international visiting researchers unfamiliar with the area, and schedules built around regulatory deadlines rather than a fixed nine-to-five. We quote a flat rate for every trip, with monthly invoicing available for companies with recurring travel.',
     ],
     highlights: [
       'Corporate accounts with monthly invoicing for I-270 corridor pharma and biotech employers',
@@ -724,7 +724,7 @@ export const MARYLAND_BATCH13 = [
       'Chauffeurs comfortable with secure-campus visitor-vehicle check-in at research and manufacturing sites',
       'Hourly as-directed service for board visits, site tours and multi-stop investor days',
       'Discreet protocol for confidential due-diligence, licensing and acquisition-related travel',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -803,16 +803,16 @@ export const MARYLAND_BATCH13 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'A milestone birthday — 40th, 50th, 60th and beyond — tends to involve more planning than a typical night out: a surprise arrival to coordinate, an out-of-town venue, or a group of friends and family who all need to get home safely after a long celebration. DCA Limos handles the transportation side of that evening, from a single stretch limousine for the guest of honor to a Sprinter van shuttling the whole party between a dinner, a bar and home.',
+      'A milestone birthday — 40th, 50th, 60th and beyond — tends to involve more planning than a typical night out: a surprise arrival to coordinate, an out-of-town venue, or a group of friends and family who all need to get home safely after a long celebration. DCA Limos handles the transportation side of that evening, from a single first-class sedan for the guest of honor to a Sprinter Executive shuttling the whole party between a dinner, a bar and home.',
       'We also coordinate surprise-party logistics specifically — timing a pickup so the guest of honor arrives at exactly the right moment, without tipping off the surprise on the way there.',
     ],
     highlights: [
-      'Stretch limousines and sedans for the guest of honor\'s arrival',
+      'First-class sedans and Lincoln Navigators for the guest of honor\'s arrival',
       'Sprinter vans for the full party, including a safe ride home for everyone after a long celebration',
       'Surprise-party pickup timing coordinated in advance without tipping off the guest of honor',
       'Multi-stop evenings covering dinner, a bar or venue and the ride home on one booking',
       'Service across Washington DC, Maryland and Virginia with no distance surcharge within our coverage area',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
     ],
     sections: [
       {

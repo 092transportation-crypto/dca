@@ -25,7 +25,7 @@ export const MARYLAND_BATCH8 = [
     ],
     intro: [
       'Petworth has become one of Northwest DC\'s most sought-after rowhouse neighborhoods, its Georgia Avenue corridor filling in with restaurants and shops around the Petworth Metro station while the quiet streets east toward the Old Soldiers\' Home keep their historic character. DCA Limos serves Petworth daily: early airport departures, evening dinners along Georgia Avenue and Upshur Street, and weekend trips for residents who would rather not search for street parking after dark.',
-      'Every ride is driven by a licensed, background-checked chauffeur in a sedan, SUV, Sprinter van or stretch limousine, with a flat rate or hourly price confirmed before you book, so there is no guessing at the curb.',
+      'Every ride is driven by a licensed, background-checked chauffeur in a sedan, SUV or Sprinter van, with a flat rate or hourly price confirmed before you book, so there is no guessing at the curb.',
     ],
     highlights: [
       'Airport car service to Reagan National, Dulles and BWI with real-time flight tracking',
@@ -33,7 +33,7 @@ export const MARYLAND_BATCH8 = [
       'Chauffeurs who know the Old Soldiers\' Home (Armed Forces Retirement Home) grounds and Rock Creek Church Cemetery routes',
       'Evenings out without circling for parking on narrow rowhouse blocks',
       'Flat rates confirmed before you book and 24/7 dispatch',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Corporate accounts with monthly invoicing for Petworth and Upper Northwest professionals',
     ],
     sections: [
@@ -61,14 +61,14 @@ export const MARYLAND_BATCH8 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'groups heading out for the evening' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special nights out' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'groups heading out for the evening' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Petworth to DCA cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Petworth to DCA, Dulles or BWI?',
@@ -113,7 +113,7 @@ export const MARYLAND_BATCH8 = [
     ],
     intro: [
       'NoMa — North of Massachusetts Avenue — has gone from rail yards and warehouses to one of DC\'s fastest-growing office and residential districts in a little over a decade, anchored by the NoMa-Gallaudet Metro station, Union Market a few blocks east, and a skyline of new high-rises packed with law firms, trade associations and tech offices. DCA Limos serves NoMa daily, from early-morning airport departures to corporate roadshows and evening trips to Union Market.',
-      'Because NoMa sits directly beside Union Station, we also handle a steady volume of rail-to-car connections — travelers arriving on Amtrak or MARC who need a chauffeur waiting rather than a taxi line. Every ride is a flat rate or hourly price confirmed before you book, in a sedan, SUV, Sprinter van or stretch limousine.',
+      'Because NoMa sits directly beside Union Station, we also handle a steady volume of rail-to-car connections — travelers arriving on Amtrak or MARC who need a chauffeur waiting rather than a taxi line. Every ride is a flat rate or hourly price confirmed before you book, in a sedan, SUV or Sprinter van.',
     ],
     highlights: [
       'Airport car service to Reagan National, Dulles and BWI with real-time flight tracking',
@@ -121,7 +121,7 @@ export const MARYLAND_BATCH8 = [
       'Pickups at the NoMa-Gallaudet Metro station and the office towers along First Street and M Street NE',
       'Evening trips to Union Market and the surrounding warehouse-district restaurants',
       'Corporate accounts with monthly invoicing for NoMa law firms, associations and tech offices',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Flat rates confirmed before you book and 24/7 dispatch',
     ],
     sections: [
@@ -149,14 +149,14 @@ export const MARYLAND_BATCH8 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'corporate roadshows and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'corporate roadshows and groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from NoMa to DCA cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from NoMa to DCA, Dulles or BWI?',
@@ -201,7 +201,7 @@ export const MARYLAND_BATCH8 = [
     ],
     intro: [
       'Cleveland Park and neighboring Woodley Park sit along upper Connecticut Avenue in one of Washington\'s most established residential corridors, home to the Smithsonian\'s National Zoo, the Art Deco Park and Shop district, and the Omni Shoreham and Marriott Wardman Park hotels. DCA Limos serves the area daily: airport transfers for residents and hotel guests, family trips to the Zoo, and embassy and diplomatic travel along nearby Massachusetts Avenue.',
-      'Every ride is driven by a licensed, background-checked chauffeur in a sedan, SUV, Sprinter van or stretch limousine, with a flat rate or hourly price confirmed before you book.',
+      'Every ride is driven by a licensed, background-checked chauffeur in a sedan, SUV or Sprinter van, with a flat rate or hourly price confirmed before you book.',
     ],
     highlights: [
       'Airport car service to Reagan National, Dulles and BWI with real-time flight tracking',
@@ -209,7 +209,7 @@ export const MARYLAND_BATCH8 = [
       'Embassy and diplomatic transportation along nearby Massachusetts Avenue\'s Embassy Row',
       'Chauffeurs who know Connecticut Avenue, Rock Creek Park\'s side roads and the Van Ness corridor',
       'Family-friendly SUVs and Sprinter vans for Zoo trips and school groups',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Flat rates confirmed before you book and 24/7 dispatch',
     ],
     sections: [
@@ -237,14 +237,14 @@ export const MARYLAND_BATCH8 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'diplomatic and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families heading to the Zoo' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'school groups and conference parties' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'embassy events and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'school groups and conference parties' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Cleveland Park to DCA cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Cleveland Park to DCA, Dulles or BWI?',
@@ -290,7 +290,7 @@ export const MARYLAND_BATCH8 = [
     ],
     intro: [
       'Brookland, in Northeast DC, built its identity around Catholic University and the cluster of seminaries and religious institutions that earned it the nickname "Little Rome," and it has added a genuine arts district in recent years with the Brookland Artspace Lofts, the Monroe Street Market and a growing row of galleries and studios. DCA Limos serves Brookland daily: airport transfers, university move-ins and commencements, and trips to the neighborhood\'s markets and studios.',
-      'Every ride is driven by a licensed, background-checked chauffeur in a sedan, SUV, Sprinter van or stretch limousine, with a flat rate or hourly price confirmed before you book.',
+      'Every ride is driven by a licensed, background-checked chauffeur in a sedan, SUV or Sprinter van, with a flat rate or hourly price confirmed before you book.',
     ],
     highlights: [
       'Airport car service to Reagan National, Dulles and BWI with real-time flight tracking',
@@ -298,7 +298,7 @@ export const MARYLAND_BATCH8 = [
       'Pickups at Monroe Street Market, the Brookland-CUA Metro station and the neighborhood\'s gallery row',
       'Chauffeurs who know the Rhode Island Avenue and Michigan Avenue corridors well',
       'Group Sprinter vans for university and seminary visitor transportation',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Flat rates confirmed before you book and 24/7 dispatch',
     ],
     sections: [
@@ -326,14 +326,14 @@ export const MARYLAND_BATCH8 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'university family weekends and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'commencement celebrations and events' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'university family weekends and groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Brookland to DCA cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Brookland to DCA, Dulles or BWI?',
@@ -382,10 +382,10 @@ export const MARYLAND_BATCH8 = [
     ],
     highlights: [
       'Reagan National and BWI are nearly tied for travel time from Beltsville — we quote both so you can choose',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know the USDA Beltsville Agricultural Research Center campus and the National Wildlife Visitor Center',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Corporate accounts with monthly invoicing for Beltsville research staff and Route 1 corridor employers',
       'Group Sprinter vans for agricultural conference and visiting-scientist transportation',
     ],
@@ -415,9 +415,9 @@ export const MARYLAND_BATCH8 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'research delegations and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'research delegations and groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -426,7 +426,7 @@ export const MARYLAND_BATCH8 = [
       },
       {
         q: 'How much does a car service from Beltsville to the airport cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle, pickup address and chosen airport. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle, pickup address and chosen airport. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'Can you pick up at the USDA Beltsville Agricultural Research Center or the National Wildlife Visitor Center?',
@@ -471,10 +471,10 @@ export const MARYLAND_BATCH8 = [
     ],
     highlights: [
       'Reagan National transfers in as little as 25–35 minutes — the most direct airport option from Largo',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know Largo Town Center, Prince George\'s Community College and the Capital Region Medical Center',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Non-emergency medical transportation support for Capital Region Medical Center appointments and discharges',
       'Corporate accounts with monthly invoicing for Largo-area employers and county government staff',
     ],
@@ -503,14 +503,14 @@ export const MARYLAND_BATCH8 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and medical appointments' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'community and campus groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'community and campus groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Largo to Reagan National cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Largo to DCA, BWI or Dulles?',
@@ -561,9 +561,9 @@ export const MARYLAND_BATCH8 = [
     highlights: [
       'Airport transfers to Reagan National, BWI and Dulles with real-time flight tracking',
       'Experience with Joint Base Andrews visitor and family travel, including base-access coordination',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Chauffeurs who know Rosecroft Raceway, the Surratt House Museum and the Route 5/Branch Avenue corridor',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       '45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Corporate and military-family accounts with monthly invoicing available',
     ],
@@ -593,14 +593,14 @@ export const MARYLAND_BATCH8 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'military families and groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'family groups and event outings' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'family groups and event outings' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Clinton to DCA cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Clinton to DCA, BWI or Dulles?',
@@ -649,10 +649,10 @@ export const MARYLAND_BATCH8 = [
     ],
     highlights: [
       'Reagan National transfers in as little as 25–35 minutes, one of the shortest runs in southern Prince George\'s County',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know Fort Washington Park, the Potomac riverfront communities and National Harbor',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Regular connections to National Harbor\'s hotels, MGM National Harbor and The Capital Wheel',
       'Corporate accounts with monthly invoicing for Fort Washington-area employers',
     ],
@@ -673,7 +673,7 @@ export const MARYLAND_BATCH8 = [
       {
         h2: 'National Harbor, Mount Vernon views and riverfront travel',
         paragraphs: [
-          'A chauffeur to National Harbor means skipping the development\'s internal traffic and valet lines on a busy weekend night, and our sedans and SUVs handle that short hop regularly. For larger groups visiting Fort Washington Park or touring the Potomac riverfront, Sprinter vans and stretch limousines coordinate multi-stop itineraries without separate bookings for each vehicle.',
+          'A chauffeur to National Harbor means skipping the development\'s internal traffic and valet lines on a busy weekend night, and our sedans and SUVs handle that short hop regularly. For larger groups visiting Fort Washington Park or touring the Potomac riverfront, Sprinter vans coordinate multi-stop itineraries without separate bookings for each vehicle.',
         ],
       },
     ],
@@ -681,14 +681,14 @@ export const MARYLAND_BATCH8 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'National Harbor group outings' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'National Harbor group outings' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Fort Washington to DCA cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Fort Washington to DCA, BWI or Dulles?',
@@ -739,8 +739,8 @@ export const MARYLAND_BATCH8 = [
       'Airport car service to Reagan National, Dulles and BWI with real-time flight tracking',
       'Pickups along historic Antique Row on Howard Avenue and at the Kensington MARC station',
       'Transportation for visitors to the Washington D.C. Temple and nearby Rock Creek Park trailheads',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Flat quotes with no surge pricing, confirmed before you book',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       '45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Corporate accounts with monthly invoicing for Kensington-area professionals',
     ],
@@ -761,7 +761,7 @@ export const MARYLAND_BATCH8 = [
       {
         h2: 'MARC commuters, Antique Row and temple visitors',
         paragraphs: [
-          'Commuters using the Kensington MARC station keep steady accounts with us for last-mile trips on either end of the Brunswick Line, and we coordinate pickup timing against the actual train rather than a fixed schedule. For Antique Row shopping trips or visits to the Washington D.C. Temple, sedans and SUVs handle the short, precise hops this small town calls for, while Sprinter vans and stretch limousines take on larger family or event groups.',
+          'Commuters using the Kensington MARC station keep steady accounts with us for last-mile trips on either end of the Brunswick Line, and we coordinate pickup timing against the actual train rather than a fixed schedule. For Antique Row shopping trips or visits to the Washington D.C. Temple, sedans and SUVs handle the short, precise hops this small town calls for, while Sprinter vans take on larger family or event groups.',
         ],
       },
     ],
@@ -769,14 +769,14 @@ export const MARYLAND_BATCH8 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'family and event groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'family and event groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Kensington to DCA cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Kensington to DCA, Dulles or BWI?',
@@ -827,8 +827,8 @@ export const MARYLAND_BATCH8 = [
       'Airport car service to Reagan National, Dulles and BWI with real-time flight tracking',
       'Pickups at Westfield Wheaton, the Wheaton Metro station and the Georgia Avenue restaurant corridor',
       'Family trips to Brookside Gardens and Wheaton Regional Park',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Flat quotes with no surge pricing, confirmed before you book',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       '45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Corporate accounts with monthly invoicing for Wheaton-area businesses',
     ],
@@ -858,14 +858,14 @@ export const MARYLAND_BATCH8 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'family outings and group events' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'family outings and group events' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Wheaton to DCA cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Wheaton to DCA, Dulles or BWI?',
@@ -914,10 +914,10 @@ export const MARYLAND_BATCH8 = [
     ],
     highlights: [
       'Reagan National and BWI are nearly tied from Burtonsville — we quote both so you can choose',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know the Route 29 corridor, the ICC (MD-200) interchange and the Fairland area',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Corporate accounts with monthly invoicing for Burtonsville-area professionals',
       'Group Sprinter vans for family and community event transportation',
     ],
@@ -939,7 +939,7 @@ export const MARYLAND_BATCH8 = [
       {
         h2: 'Community events and corporate travel',
         paragraphs: [
-          'Burtonsville\'s newer subdivisions bring a steady calendar of family events, graduations and community gatherings, and our Sprinter vans and stretch limousines handle larger group bookings without separate reservations for each vehicle. Corporate clients along the Route 29 corridor keep standing accounts with monthly invoicing for recurring airport transfers and roadshows.',
+          'Burtonsville\'s newer subdivisions bring a steady calendar of family events, graduations and community gatherings, and our Sprinter vans handle larger group bookings without separate reservations for each vehicle. Corporate clients along the Route 29 corridor keep standing accounts with monthly invoicing for recurring airport transfers and roadshows.',
           'The farmland that once defined this stretch of eastern Montgomery County is giving way to new housing developments year over year, and our chauffeurs update their knowledge of the area\'s newer streets and cul-de-sacs as fast as the subdivisions themselves get built out, so a pickup address that did not exist a year ago is rarely a surprise.',
         ],
       },
@@ -948,9 +948,9 @@ export const MARYLAND_BATCH8 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'community and family events' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'community and family events' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -959,7 +959,7 @@ export const MARYLAND_BATCH8 = [
       },
       {
         q: 'How much does a car service from Burtonsville to the airport cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle, pickup address and chosen airport. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle, pickup address and chosen airport. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Burtonsville to Dulles?',
@@ -1005,9 +1005,9 @@ export const MARYLAND_BATCH8 = [
     highlights: [
       'Airport car service to Reagan National and Dulles with real-time flight tracking',
       'Chauffeurs who plan around I-95\'s notorious rush-hour backups between Dale City and the Beltway',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Pickups along Dale Boulevard and in the Montclair community',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       '45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Corporate accounts with monthly invoicing for Dale City commuters and local employers',
     ],
@@ -1028,7 +1028,7 @@ export const MARYLAND_BATCH8 = [
       {
         h2: 'Commuter travel and Montclair community events',
         paragraphs: [
-          'Dale City\'s workforce commutes heavily into Washington, Arlington and the Pentagon-area employment centers, and corporate accounts with monthly invoicing are common among residents who use us for recurring airport business travel. The Montclair community\'s golf course and lake also host weddings and private events throughout the year, and Sprinter vans or stretch limousines handle guest transportation for those without each guest needing their own car.',
+          'Dale City\'s workforce commutes heavily into Washington, Arlington and the Pentagon-area employment centers, and corporate accounts with monthly invoicing are common among residents who use us for recurring airport business travel. The Montclair community\'s golf course and lake also host weddings and private events throughout the year, and Sprinter Executive vans handle guest transportation for those without each guest needing their own car.',
         ],
       },
     ],
@@ -1036,14 +1036,14 @@ export const MARYLAND_BATCH8 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and commuters' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'community events and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'community events and groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Dale City to DCA cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Dale City to DCA, Dulles or BWI?',
@@ -1093,9 +1093,9 @@ export const MARYLAND_BATCH8 = [
     highlights: [
       'Airport car service to Reagan National and Dulles with real-time flight tracking',
       'Experience with Marine Corps Base Quantico visitor and family travel',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Chauffeurs who know Prince William Forest Park and the historic Dumfries town center',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       '45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Corporate and military-family accounts with monthly invoicing available',
     ],
@@ -1125,14 +1125,14 @@ export const MARYLAND_BATCH8 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'military families and groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'Quantico family events and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'graduations and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'Quantico family events and groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Dumfries to DCA cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Dumfries to DCA or Dulles?',
@@ -1184,7 +1184,7 @@ export const MARYLAND_BATCH8 = [
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs experienced with I-95\'s southern Virginia commuter corridor and its predictable rush-hour patterns',
       'Corporate accounts with monthly invoicing for Stafford commuters working in DC and Northern Virginia',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Experience with Quantico-area and defense-contractor travel originating in Stafford County',
       'No surge pricing on long drives, regardless of traffic or time of day',
     ],
@@ -1205,7 +1205,7 @@ export const MARYLAND_BATCH8 = [
       {
         h2: 'Long-distance corporate and commuter travel',
         paragraphs: [
-          'Stafford residents who commute into DC, the Pentagon or Northern Virginia defense and government contracting offices make up a large share of our regular Stafford business, and corporate accounts with monthly invoicing suit employers reimbursing frequent long-distance travel. For a trip this long, a Mercedes Sprinter van or stretch limousine also works well for group travel to a wedding, conference or event further north, keeping everyone on one schedule for the full drive.',
+          'Stafford residents who commute into DC, the Pentagon or Northern Virginia defense and government contracting offices make up a large share of our regular Stafford business, and corporate accounts with monthly invoicing suit employers reimbursing frequent long-distance travel. For a trip this long, a Mercedes Sprinter van or Lincoln Navigator also works well for group travel to a wedding, conference or event further north, keeping everyone on one schedule for the full drive.',
         ],
       },
     ],
@@ -1213,14 +1213,14 @@ export const MARYLAND_BATCH8 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and long commutes' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'group travel on long drives north' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'group travel on long drives north' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Stafford to DCA cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address, confirmed before you book — the price does not change if I-95 traffic runs long. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address, confirmed before you book — the price does not change if I-95 traffic runs long. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Stafford to DCA or Dulles?',
@@ -1270,9 +1270,9 @@ export const MARYLAND_BATCH8 = [
     highlights: [
       'Group transportation for concerts and events at Jiffy Lube Live — skip the amphitheater\'s parking-lot exit lines',
       'Dulles is the closest major airport from Gainesville, just 35–45 minutes away',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Chauffeurs who know Virginia Gateway, Lake Manassas and the Route 29/I-66 interchange',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       '45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Corporate accounts with monthly invoicing for Gainesville-area employers',
     ],
@@ -1293,7 +1293,7 @@ export const MARYLAND_BATCH8 = [
       {
         h2: 'Jiffy Lube Live concerts and local events',
         paragraphs: [
-          'For a concert at Jiffy Lube Live, a Sprinter van or stretch limousine lets a full group travel together and skip both the parking search beforehand and the exit-lot gridlock afterward — we recommend booking concert transportation several weeks ahead for popular summer shows, since demand for Gainesville pickups spikes on announcement dates. For everyday travel, sedans and SUVs handle corporate and family trips around Virginia Gateway and the Lake Manassas community just as reliably.',
+          'For a concert at Jiffy Lube Live, a Sprinter van lets a full group travel together and skip both the parking search beforehand and the exit-lot gridlock afterward — we recommend booking concert transportation several weeks ahead for popular summer shows, since demand for Gainesville pickups spikes on announcement dates. For everyday travel, sedans and SUVs handle corporate and family trips around Virginia Gateway and the Lake Manassas community just as reliably.',
         ],
       },
     ],
@@ -1301,9 +1301,9 @@ export const MARYLAND_BATCH8 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'Jiffy Lube Live concert groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'concert nights and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'Jiffy Lube Live concert groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -1312,7 +1312,7 @@ export const MARYLAND_BATCH8 = [
       },
       {
         q: 'How much does a car service from Gainesville to Dulles cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Gainesville to Dulles or DCA?',

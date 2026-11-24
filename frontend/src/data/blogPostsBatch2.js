@@ -65,17 +65,17 @@ export const BLOG_POSTS_BATCH2 = [
       'A month-by-month planning timeline for booking Washington DC wedding transportation — from the first inquiry to the getaway car.',
     excerpt:
       'Wedding transportation is easy to leave until the final weeks and hard to fix once you have. Here is the timeline that keeps DC and Northern Virginia weddings simple.',
-    image: '/images/blog/scenario-wedding-1.webp',
+    image: '/images/wedding-service.webp',
     author: 'DCA Limos Team',
     authorBio: 'The DCA Limos dispatch and chauffeur team, writing from day-to-day experience on these routes.',
     date: 'September 22, 2026',
     readTime: '7 min read',
     category: 'Wedding Planning',
     content: `
-      <p class="lead">Of every wedding vendor, transportation is the one most often booked late — and the one where waiting costs the most, since Sprinter vans, limousines and multi-vehicle bookings for popular DC-area Saturdays are the first vehicles to sell out. This timeline runs from the first inquiry through the getaway car.</p>
+      <p class="lead">Of every wedding vendor, transportation is the one most often booked late — and the one where waiting costs the most, since Sprinter Executives, Navigators and multi-vehicle bookings for popular DC-area Saturdays are the first vehicles to sell out. This timeline runs from the first inquiry through the getaway car.</p>
 
       <h2>9–12 Months Out: Reserve the Date</h2>
-      <p>As soon as the venue and date are set, request a quote for wedding transportation. You do not need a finished itinerary yet — the goal is to reserve the vehicles you expect to need before that Saturday's calendar fills. Sprinter vans, limousines and multi-vehicle wedding bookings should be reserved as far ahead as possible.</p>
+      <p>As soon as the venue and date are set, request a quote for wedding transportation. You do not need a finished itinerary yet — the goal is to reserve the vehicles you expect to need before that Saturday's calendar fills. Sprinter vans, SUVs and multi-vehicle wedding bookings should be reserved as far ahead as possible.</p>
 
       <h2>3–6 Months Out: Build the Itinerary</h2>
       <p>With ceremony and reception venues, hair-and-makeup location, and photography schedule confirmed, work out the sequence: getting-ready pickup, transfer to the ceremony, any photo stops, transfer to the reception, and the getaway car time. Share this with dispatch so the vehicle count and hourly block can be finalized.</p>
@@ -96,7 +96,7 @@ export const BLOG_POSTS_BATCH2 = [
       <p>Spring weddings near the Tidal Basin or Georgetown waterfront should budget extra time in late March and April, when cherry-blossom crowds slow Rock Creek Parkway and the roads around the Jefferson Memorial. Fall weekends bring their own congestion around Nationals Park and Audi Field on game days, which can affect a Navy Yard or Capitol Riverfront venue's approach roads. None of this changes the plan — it just means your chauffeur builds a slightly larger buffer into the drive time for that specific weekend, confirmed once the venue and date are locked in rather than guessed at months out.</p>
     `,
     faqs: [
-      { q: 'How far ahead should we book DC wedding transportation?', a: 'As early as you can once the date and venue are set — 9 to 12 months out is ideal for peak Saturdays, since Sprinter vans, limousines and multi-vehicle bookings sell out first.' },
+      { q: 'How far ahead should we book DC wedding transportation?', a: 'As early as you can once the date and venue are set — 9 to 12 months out is ideal for peak Saturdays, since Sprinter vans and multi-vehicle bookings sell out first.' },
       { q: 'Do we need a finished itinerary to get a quote?', a: 'No. An early quote is based on the date, venue and expected vehicle needs; the detailed itinerary comes together closer to the wedding.' },
       { q: 'Can the same vehicle serve as both the arrival car and the getaway car?', a: 'Yes, that is common, though some couples prefer a dedicated departure vehicle — either works, and dispatch will confirm which fits your timeline.' },
       { q: 'How does guest shuttle service work for a hotel block?', a: 'A shuttle vehicle runs a loop between the hotel block and the venue, timed around your RSVPs and confirmed 4 to 6 weeks before the wedding.' },

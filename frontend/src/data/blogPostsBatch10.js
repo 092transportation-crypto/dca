@@ -106,9 +106,9 @@ export const BLOG_POSTS_BATCH10 = [
 
       <h2>Vehicle choices by group size</h2>
       <ul>
-        <li><strong>Immediate family (4–6 people):</strong> an executive SUV like a Lincoln Navigator or Suburban comfortably fits the family with room for formal attire.</li>
-        <li><strong>Friend group (8–14 teens):</strong> a Sprinter van is the standard choice, with room for the whole group plus a chaperone.</li>
-        <li><strong>A grand entrance for the honoree:</strong> some families add a stretch limousine just for the honoree's arrival at the reception, separate from the friend group's van.</li>
+        <li><strong>Immediate family (4–6 people):</strong> an executive SUV like a Lincoln Navigator (up to 6) or Suburban (up to 5) comfortably fits the family with room for formal attire.</li>
+        <li><strong>Friend group (8–12 teens):</strong> a Sprinter van is the standard choice, with room for the whole group plus a chaperone.</li>
+        <li><strong>A grand entrance for the honoree:</strong> some families add a First Class sedan or a Lincoln Navigator just for the honoree's arrival at the reception, separate from the friend group's van.</li>
       </ul>
 
       <h2>Out-of-town grandparents and relatives</h2>
@@ -126,7 +126,7 @@ export const BLOG_POSTS_BATCH10 = [
     faqs: [
       {
         q: 'What vehicle is best for a bar or bat mitzvah friend group?',
-        a: 'A 14-passenger Sprinter van is the standard choice, with enough room for the honoree\'s friend group and a chaperone if the family wants one along.',
+        a: 'A 13-passenger Sprinter van is the standard choice, with enough room for the honoree\'s friend group and a chaperone if the family wants one along.',
       },
       {
         q: 'Can you plan pickup times around Shabbat observance?',
@@ -141,8 +141,8 @@ export const BLOG_POSTS_BATCH10 = [
         a: 'As soon as your date is confirmed. Spring and fall Saturdays overlap with wedding and prom season and can book out months ahead, especially for Sprinter vans.',
       },
       {
-        q: 'Can we add a stretch limousine just for the honoree\'s entrance?',
-        a: 'Yes. Many families book a Sprinter van for the friend group and a separate stretch limousine just for the honoree\'s arrival at the reception.',
+        q: 'Can we add a separate vehicle just for the honoree\'s entrance?',
+        a: 'Yes. We do not run stretch limousines, but many families book a Sprinter Executive for the friend group and a First Class sedan or Lincoln Navigator just for the honoree\'s arrival at the reception.',
       },
     ],
   },
@@ -470,9 +470,9 @@ export const BLOG_POSTS_BATCH10 = [
     title: 'Tipping Etiquette for Limo & Car Service in DC, MD & VA',
     metaTitle: 'Limo & Car Service Tipping Etiquette | DMV',
     metaDesc:
-      'How much to tip a chauffeur in DC, Maryland or Virginia — airport rides, weddings, corporate accounts and when gratuity is already included.',
+      'How much to tip a chauffeur in DC, Maryland or Virginia, and how gratuity works on DCA Limos bookings: a 20% gratuity is added to the rate on every ride.',
     excerpt:
-      'Gratuity norms for a limo or car service aren\'t always obvious, especially when some bookings already include it and others don\'t. Here\'s the practical breakdown.',
+      'Gratuity norms for car service aren\'t always obvious, and every company handles it differently. Here\'s how ours works, plus general tipping etiquette for the DMV.',
     image: '/images/blog/scenario-corporate-1.webp',
     author: 'Michael Chen',
     authorBio: 'Transportation industry analyst and frequent business traveler with over 15 years of experience in executive travel logistics.',
@@ -480,51 +480,52 @@ export const BLOG_POSTS_BATCH10 = [
     readTime: '6 min read',
     category: 'Travel Tips',
     content: `
-      <p class="lead">Tipping a chauffeur isn't quite like tipping a rideshare driver, a restaurant server, or a hotel valet — the norms differ by booking type, and whether gratuity is already built into your rate is something worth confirming before the ride rather than guessing at the curb. Here is the practical breakdown for DC, Maryland and Virginia car service.</p>
+      <p class="lead">Tipping a chauffeur isn't quite like tipping a rideshare driver, a restaurant server, or a hotel valet, and every car service company handles gratuity a little differently. At DCA Limos the answer is simple: a 20% gratuity is added to the quoted rate on every booking, and your written quote shows the full total before you confirm. Here is how that works in practice, plus the general etiquette for DC, Maryland and Virginia car service.</p>
 
-      <h2>The general guideline</h2>
-      <p>For a standard point-to-point or airport transfer where gratuity is not already included, 15–20% of the fare is the typical range, similar to restaurant service — more for exceptional help with luggage, a particularly smooth ride under difficult conditions, or a chauffeur who went out of their way to accommodate a schedule change.</p>
-
-      <h2>When gratuity is already included</h2>
+      <h2>Our policy: 20% gratuity added to the rate</h2>
+      <p>Every DCA Limos booking, whether it is an airport transfer, an hourly as-directed booking, a wedding, a prom or a corporate account trip, carries a 20% gratuity added to the rate. It is not a separate decision you have to make at the curb, and it is not handled differently by booking type. Your written quote lists it alongside the base rate, so the total you approve is the total you pay.</p>
       <ul>
-        <li><strong>Wedding and special-event bookings:</strong> gratuity is frequently built into the quoted rate for Sprinter vans, limousines and multi-vehicle wedding-day bookings — confirm this when you book rather than assuming either way.</li>
-        <li><strong>Corporate accounts:</strong> many standing corporate accounts include gratuity in the negotiated rate so individual travelers don't need to handle cash tipping on a business trip.</li>
-        <li><strong>Hourly as-directed bookings:</strong> some, but not all, hourly bookings fold gratuity into the rate — again, worth confirming at booking rather than at drop-off.</li>
+        <li><strong>Airport transfers:</strong> the 20% gratuity is part of your quoted total, so there is nothing to calculate when you reach the curb.</li>
+        <li><strong>Weddings, proms and special events:</strong> the same 20% applies to Sprinter, SUV and multi-vehicle wedding-day bookings, and it shows on the written quote before you pay a deposit.</li>
+        <li><strong>Corporate accounts and hourly bookings:</strong> the 20% gratuity is added to the rate and appears on the invoice, so individual travelers on a business trip do not need to handle cash.</li>
       </ul>
-      <p>Our policy: your written quote states clearly whether gratuity is included, so there's no ambiguity standing at the curb with bags in hand. See our <a href="/blog/how-to-read-a-limo-contract-dc-va-md">guide to reading a limo contract</a> for what else to check in a written quote.</p>
+      <p>See our <a href="/blog/how-to-read-a-limo-contract-dc-va-md">guide to reading a limo contract</a> for what else to check in a written quote.</p>
 
-      <h2>Cash, card or added to the invoice</h2>
-      <p>If gratuity is not included, you can tip in cash directly to your chauffeur, or ask to have it added to your final card charge or corporate invoice. Corporate account travelers whose company handles billing should check with their travel coordinator on which method the company prefers for consistency across trips.</p>
+      <h2>Can I tip more than that?</h2>
+      <p>Yes, if you want to. Because the 20% gratuity is already part of your total, anything extra is entirely at your discretion. Some riders hand their chauffeur a little more in cash for exceptional help with luggage, a particularly smooth ride under difficult conditions, or a chauffeur who went out of their way to accommodate a schedule change, but it is never expected.</p>
+
+      <h2>General etiquette with other services</h2>
+      <p>Other companies set their own policies. Some build a gratuity into the rate, some suggest one separately, and rideshare apps prompt for a tip after the ride, where 15–20% is a common range. When you compare quotes from different services, check whether gratuity is already in the number you are looking at, so you are comparing like with like.</p>
 
       <h2>Holiday season tipping</h2>
-      <p>Many regular car service clients add a modest extra gratuity for their regular chauffeur around the winter holidays, similar to a holiday tip for other service providers you see repeatedly throughout the year — entirely optional, but a common practice among standing corporate and personal accounts.</p>
+      <p>Many regular car service clients add a modest extra tip for their regular chauffeur around the winter holidays, similar to a holiday tip for other service providers you see repeatedly throughout the year. With us that is entirely optional and on top of the standard 20% gratuity, but it is a common practice among standing corporate and personal accounts.</p>
 
       <h2>Airport transfers specifically</h2>
-      <p>For a standard flight-tracked airport pickup, the same 15–20% guideline applies if gratuity isn't already included in your fare, regardless of whether the flight landed on time or late — the wait time itself is already covered under our complimentary wait-time policy, so a delay alone isn't typically a reason to adjust the tip either direction. See our <a href="/blog/dca-airport-car-service-vs-uber-2026">car service vs. Uber comparison</a> for more on how our flat-rate pricing already accounts for these variables.</p>
+      <p>For a standard flight-tracked airport pickup, the 20% gratuity on your quote applies whether the flight landed on time or late. The wait time itself is already covered under our complimentary wait-time policy, so a delay does not change what you owe. See our <a href="/blog/dca-airport-car-service-vs-uber-2026">car service vs. Uber comparison</a> for more on how our flat-rate pricing already accounts for these variables.</p>
 
-      <h2>When in doubt, just ask</h2>
-      <p>If you're ever unsure whether gratuity is included in a specific booking, ask before the ride rather than after — our dispatch team and your written quote will both have a clear answer. Call (877) 609-1919 or <a href="/booking">request a quote</a> with any billing questions before you book.</p>
+      <h2>Questions before you book</h2>
+      <p>If you want to see exactly how the 20% gratuity applies to a specific trip, ask for a written quote: it shows the base rate, the gratuity and the full total before you confirm. Call (877) 609-1919 or <a href="/booking">request a quote</a> with any billing questions before you book.</p>
     `,
     faqs: [
       {
-        q: 'How much should I tip a chauffeur if gratuity isn\'t included?',
-        a: 'The typical range is 15–20% of the fare, similar to restaurant service, more for exceptional help or difficult conditions.',
+        q: 'How does gratuity work on a DCA Limos booking?',
+        a: 'A 20% gratuity is added to the quoted rate on every booking, and your written quote shows the full total before you confirm.',
       },
       {
-        q: 'Is gratuity included in wedding and special-event bookings?',
-        a: 'Often, yes, but it varies — confirm this when you book, since some wedding-day quotes build gratuity into the rate and others do not.',
+        q: 'Is gratuity handled differently for weddings and special events?',
+        a: 'No. The same 20% gratuity is added to the rate for weddings, proms, hourly bookings, corporate accounts and airport transfers alike, and it appears on your quote before you pay a deposit.',
       },
       {
-        q: 'How do I know if gratuity is already included in my fare?',
-        a: 'Your written quote states clearly whether gratuity is included. Ask our dispatch team before the ride if it isn\'t clear.',
+        q: 'Do I need to tip the chauffeur on top of that?',
+        a: 'No, it is not expected. Because the 20% gratuity is already added to your total, any extra tip is entirely at your discretion.',
       },
       {
-        q: 'Can I add gratuity to my card charge instead of tipping cash?',
-        a: 'Yes. You can tip your chauffeur directly in cash or ask to have gratuity added to your final card charge or corporate invoice.',
+        q: 'Can I give an extra tip in cash or on my card?',
+        a: 'Yes. If you want to recognize exceptional service, you can hand your chauffeur cash directly or ask to have an extra amount added to your card charge or corporate invoice.',
       },
       {
-        q: 'Does a flight delay affect how much I should tip for an airport pickup?',
-        a: 'Not typically. Wait time for a delayed flight is already covered under our complimentary wait-time policy, so a delay alone isn\'t usually a reason to adjust the tip.',
+        q: 'Does a flight delay change what I pay for an airport pickup?',
+        a: 'Not typically. Wait time for a delayed flight is covered under our complimentary wait-time policy, and the 20% gratuity on your quote stays the same.',
       },
     ],
   },
@@ -611,7 +612,7 @@ export const BLOG_POSTS_BATCH10 = [
       <p class="lead">A Topgolf outing has become one of the go-to choices for DC-area companies planning a team event or a client-entertainment afternoon — more interactive than a restaurant private room, casual enough to loosen up a group, and structured enough that it doesn't need much planning beyond reserving bays. The transportation piece, though, is worth thinking through separately, because a corporate outing usually means a bigger group than any single car holds, and it usually means drinks.</p>
 
       <h2>Why group size is the first planning question</h2>
-      <p>A department outing of fifteen or twenty people obviously doesn't fit in two sedans without splitting the group and losing the point of doing this together in the first place. A 14-passenger Sprinter van is the standard answer — one reservation gets the whole team to the venue at the same time and keeps the afternoon feeling like a group event rather than a logistics project.</p>
+      <p>A department outing of fifteen or twenty people obviously doesn't fit in two sedans without splitting the group and losing the point of doing this together in the first place. A 13-passenger Sprinter van is the standard answer — one reservation gets the whole team to the venue at the same time and keeps the afternoon feeling like a group event rather than a logistics project.</p>
 
       <h2>The liability question nobody wants to ask out loud</h2>
       <ul>
@@ -635,7 +636,7 @@ export const BLOG_POSTS_BATCH10 = [
     faqs: [
       {
         q: 'What vehicle works best for a Topgolf team outing?',
-        a: 'A 14-passenger Sprinter van is the standard choice for a department-sized group, keeping everyone together for both the arrival and the return trip.',
+        a: 'A 13-passenger Sprinter van is the standard choice for a department-sized group, keeping everyone together for both the arrival and the return trip.',
       },
       {
         q: 'Do you schedule the return pickup around our actual bay time?',

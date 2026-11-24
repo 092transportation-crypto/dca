@@ -18,9 +18,9 @@ const VEHICLES = [
   { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
   { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'executive and VIP travel' },
   { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-  { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-  { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties, corporate teams and groups' },
-  { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings, prom and special occasions' },
+  { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+  { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties, corporate teams and groups' },
+  { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
 ];
 
 export const MARYLAND_BATCH12 = [
@@ -47,12 +47,12 @@ export const MARYLAND_BATCH12 = [
       'The trip to DCA is a genuine 62 miles and 80 to 95 minutes via MD-5 and the Beltway, long enough that most travelers book it the night before rather than trying to arrange a ride same-day. We quote one flat rate for the full distance, confirmed before you book, with no surge pricing for the length of the trip.',
     ],
     highlights: [
-      'Flat, all-inclusive rate for the full Southern Maryland distance — confirmed before you book',
+      'Flat rate for the full Southern Maryland distance — confirmed before you book',
       'Chauffeurs who run Route 5, Route 235 and Route 4 regularly, not occasionally',
       'Historic Town Square and county-courthouse pickups without guesswork on parking',
       'Service to Patuxent River Naval Air Station employees and visiting contractors nearby',
-      'Wedding and event transportation with Sprinter vans and stretch limousines',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Wedding and event transportation with Sprinter vans',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -72,7 +72,7 @@ export const MARYLAND_BATCH12 = [
       {
         h2: 'Weddings, events and booking',
         paragraphs: [
-          'Historic Town Square and the county\'s waterfront event spaces along the Potomac and Patuxent Rivers host a steady calendar of weddings and private events, and our Sprinter vans and stretch limousines handle the long-distance guest shuttles that a Southern Maryland wedding usually needs.',
+          'Historic Town Square and the county\'s waterfront event spaces along the Potomac and Patuxent Rivers host a steady calendar of weddings and private events, and our Sprinter vans handle the long-distance guest shuttles that a Southern Maryland wedding usually needs.',
           'Call (877) 609-1919 or request a quote online — we confirm the flat rate for your specific Leonardtown address before you book.',
         ],
       },
@@ -85,7 +85,7 @@ export const MARYLAND_BATCH12 = [
       },
       {
         q: 'How much does a car service from Leonardtown to Reagan National cost?',
-        a: 'We confirm one flat, all-inclusive rate based on your exact pickup address before you book — call (877) 609-1919 or request a quote online.',
+        a: 'We confirm one flat rate based on your exact pickup address before you book — call (877) 609-1919 or request a quote online.',
       },
       {
         q: 'Can you handle transportation for Patuxent River NAS contractors or visitors?',
@@ -93,7 +93,7 @@ export const MARYLAND_BATCH12 = [
       },
       {
         q: 'Do you provide wedding transportation in Leonardtown?',
-        a: 'Yes. Sprinter vans and stretch limousines are available for Leonardtown-area weddings, including long-distance guest shuttles from out-of-town hotels.',
+        a: 'Yes. Sprinter vans are available for Leonardtown-area weddings, including long-distance guest shuttles from out-of-town hotels.',
       },
       {
         q: 'Is Leonardtown car service available 24/7?',
@@ -131,11 +131,11 @@ export const MARYLAND_BATCH12 = [
     ],
     highlights: [
       'Experience with Patuxent River NAS-connected travel: contractors, engineers and visiting personnel',
-      'Flat, all-inclusive rate for the full distance to DCA, BWI or Dulles — confirmed before you book',
+      'Flat rate for the full distance to DCA, BWI or Dulles — confirmed before you book',
       'Chauffeurs who know Three Notch Road (MD-235) and the surrounding St. Mary\'s County grid',
       'Corporate accounts with monthly invoicing for firms with recurring base-connected travel',
       'Family and PCS-move airport transfers coordinated around moving schedules',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -168,7 +168,7 @@ export const MARYLAND_BATCH12 = [
       },
       {
         q: 'How much does it cost to get from Lexington Park to Reagan National?',
-        a: 'We confirm one flat, all-inclusive rate for the roughly 68-mile trip before you book — call (877) 609-1919 or request a quote online.',
+        a: 'We confirm one flat rate for the roughly 68-mile trip before you book — call (877) 609-1919 or request a quote online.',
       },
       {
         q: 'Can you help with a PCS-move or relocation pickup?',
@@ -213,12 +213,12 @@ export const MARYLAND_BATCH12 = [
       'We run the 45-mile trip to Reagan National in about 60 to 75 minutes via Route 4 and the Beltway, flight-tracked with complimentary wait time, in a flat-rate sedan, SUV or Sprinter van confirmed before you book.',
     ],
     highlights: [
-      'Flat, all-inclusive rate for Calvert County trips — confirmed before you book, no surge pricing',
+      'Flat rate for Calvert County trips — confirmed before you book, no surge pricing',
       'Chauffeurs who run the Route 2/4 corridor between Prince Frederick, Dunkirk and Solomons regularly',
       'Real-time flight tracking with complimentary wait time on every airport transfer',
       'Wedding and event transportation for Chesapeake Bay-area venues',
       'Corporate accounts with monthly invoicing for Calvert County businesses',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -232,7 +232,7 @@ export const MARYLAND_BATCH12 = [
       {
         h2: 'Weddings and Chesapeake Bay events',
         paragraphs: [
-          'Calvert County\'s Chesapeake Bay waterfront draws a steady calendar of weddings and private events, and a Sprinter van or stretch limousine handles both the wedding party and a guest shuttle from hotels closer to DC for out-of-town guests.',
+          'Calvert County\'s Chesapeake Bay waterfront draws a steady calendar of weddings and private events, and a Sprinter van handles both the wedding party and a guest shuttle from hotels closer to DC for out-of-town guests.',
           'Our Chesapeake Bay events transportation page covers broader regional event logistics beyond Prince Frederick itself.',
         ],
       },
@@ -248,7 +248,7 @@ export const MARYLAND_BATCH12 = [
     faqs: [
       {
         q: 'How much does a car service from Prince Frederick to Reagan National cost?',
-        a: 'We confirm one flat, all-inclusive rate for the roughly 45-mile trip based on your exact address — call (877) 609-1919 or request a quote online.',
+        a: 'We confirm one flat rate for the roughly 45-mile trip based on your exact address — call (877) 609-1919 or request a quote online.',
       },
       {
         q: 'Do you serve the rest of Calvert County, not just Prince Frederick itself?',
@@ -256,7 +256,7 @@ export const MARYLAND_BATCH12 = [
       },
       {
         q: 'Can you handle wedding transportation for a Chesapeake Bay venue?',
-        a: 'Yes. Sprinter vans and stretch limousines are available, including guest shuttles from hotels closer to DC for out-of-town guests.',
+        a: 'Yes. Sprinter vans are available, including guest shuttles from hotels closer to DC for out-of-town guests.',
       },
       {
         q: 'Do you offer corporate accounts for Calvert County businesses?',
@@ -302,7 +302,7 @@ export const MARYLAND_BATCH12 = [
       'Corporate accounts with monthly invoicing for defense contractors with recurring program travel',
       'Sedans and SUVs for individual engineers and program staff; Sprinter vans for visiting teams',
       'Experience with Southern Maryland\'s Three Notch Road corridor and surrounding St. Mary\'s County roads',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -387,9 +387,9 @@ export const MARYLAND_BATCH12 = [
       'Fast Dulles transfers in as little as 15–20 minutes',
       'Experience with Data Center Alley visitor and campus-access procedures',
       'Daily service to One Loudoun and the Ashburn/Loudoun Gateway Silver Line corridor',
-      'Flat, all-inclusive rate confirmed before you book — no surge pricing',
+      'Flat rate confirmed before you book — no surge pricing',
       'Corporate accounts with monthly invoicing for Ashburn-based employers',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -471,9 +471,9 @@ export const MARYLAND_BATCH12 = [
       'Historic Downtown Manassas pickups and drop-offs without parking guesswork',
       'Daily executive sedan service for Prince William County employers',
       'Flat-rate transfers to both Dulles and Reagan National, confirmed before you book',
-      'Wedding and event transportation with Sprinter vans and stretch limousines',
+      'Wedding and event transportation with Sprinter vans',
       'Chauffeurs who know Route 28, I-66 and the Prince William Parkway corridor',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -514,7 +514,7 @@ export const MARYLAND_BATCH12 = [
       },
       {
         q: 'Can you handle wedding transportation in Manassas?',
-        a: 'Yes, with Sprinter vans and stretch limousines for the wedding party and guest shuttles.',
+        a: 'Yes, with Sprinter vans for the wedding party and guest shuttles.',
       },
       {
         q: 'Is Manassas car service available 24/7?',
@@ -551,12 +551,12 @@ export const MARYLAND_BATCH12 = [
       'Reagan National is the most common airport choice at 55 miles and 65 to 85 minutes, though we run Dulles and BWI transfers just as reliably for travelers whose flights land elsewhere.',
     ],
     highlights: [
-      'Flat, all-inclusive rate for the full I-95 corridor trip — confirmed before you book',
+      'Flat rate for the full I-95 corridor trip — confirmed before you book',
       'Historic Downtown Fredericksburg pickups near the Rappahannock riverfront',
       'Chauffeurs who plan around I-95\'s unpredictable rush-hour and holiday-weekend backups',
       'Corporate accounts with monthly invoicing for I-95 corridor businesses',
-      'Wedding and event transportation with Sprinter vans and stretch limousines',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Wedding and event transportation with Sprinter vans',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -585,7 +585,7 @@ export const MARYLAND_BATCH12 = [
     faqs: [
       {
         q: 'How much does a car service from Fredericksburg to Reagan National cost?',
-        a: 'We confirm one flat, all-inclusive rate for the roughly 55-mile trip based on your exact address — call (877) 609-1919 or request a quote online.',
+        a: 'We confirm one flat rate for the roughly 55-mile trip based on your exact address — call (877) 609-1919 or request a quote online.',
       },
       {
         q: 'Do you plan around I-95 traffic?',
@@ -639,7 +639,7 @@ export const MARYLAND_BATCH12 = [
       'Family travel coordination for relocating service members and visiting relatives',
       'Corporate accounts with monthly invoicing for contractors with recurring base-connected travel',
       'Sedans and SUVs for individual and family travel; Sprinter vans for larger groups',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -722,10 +722,10 @@ export const MARYLAND_BATCH12 = [
     highlights: [
       'Fast Reagan National transfers in as little as 15–25 minutes',
       'Chauffeurs comfortable with Columbia Heights\' dense residential side streets',
-      'Flat, all-inclusive rate confirmed before you book — no surge pricing',
+      'Flat rate confirmed before you book — no surge pricing',
       'Service to 14th Street\'s restaurant and nightlife corridor',
       'Real-time flight tracking with complimentary wait time on airport transfers',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -805,10 +805,10 @@ export const MARYLAND_BATCH12 = [
     highlights: [
       'Fast Reagan National transfers in as little as 15–25 minutes',
       'Chauffeurs familiar with Mount Pleasant\'s one-way streets and limited parking',
-      'Flat, all-inclusive rate confirmed before you book — no surge pricing',
+      'Flat rate confirmed before you book — no surge pricing',
       'Real-time flight tracking with complimentary wait time on airport transfers',
       'Service to nearby Rock Creek Park and Adams Morgan for dinner or nightlife plans',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -886,12 +886,12 @@ export const MARYLAND_BATCH12 = [
       'Reagan National runs about 9 miles and 20 to 30 minutes from here via Rock Creek Parkway or 16th Street, and we cover the trip with the same flat-rate, flight-tracked service we run across the rest of upper Northwest DC and Montgomery County.',
     ],
     highlights: [
-      'Flat, all-inclusive rate for trips to Reagan National, Dulles or BWI — confirmed before you book',
+      'Flat rate for trips to Reagan National, Dulles or BWI — confirmed before you book',
       'Service to the Friendship Heights shopping district and Red Line Metro station',
       'Chauffeurs who know Wisconsin Avenue and Western Avenue traffic patterns on both sides of the DC/MD line',
       'Real-time flight tracking with complimentary wait time on airport transfers',
       'Service to nearby Chevy Chase and Bethesda for dinner or shopping plans',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -977,7 +977,7 @@ export const MARYLAND_BATCH12 = [
       'Daily executive sedan service for the surrounding contractor and agency campus corridor',
       'Corporate accounts with monthly invoicing and itemized, campus-coded trip detail',
       'Sprinter vans for visiting technical teams, auditors and conference delegations',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -1061,7 +1061,7 @@ export const MARYLAND_BATCH12 = [
       'Family and relocation travel coordination for service members and visiting relatives',
       'Fast Reagan National transfers in as little as 20–30 minutes',
       'Corporate accounts with monthly invoicing for contractors with recurring base-connected travel',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -1147,7 +1147,7 @@ export const MARYLAND_BATCH12 = [
       'Minutes from BWI for a practical stay-and-fly or fly-and-stay combination',
       'Group transportation for bachelor/bachelorette and birthday party outings',
       'Sprinter vans for groups attending concerts or events at the adjacent venues',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -1230,7 +1230,7 @@ export const MARYLAND_BATCH12 = [
       'Pickup timed around your visit length, not a fixed hourly window',
       'Easy pairing with Baltimore\'s Inner Harbor for a full day out',
       'Chauffeurs who know Druid Hill Park\'s internal roads and seasonal traffic patterns',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -1313,7 +1313,7 @@ export const MARYLAND_BATCH12 = [
       'Scheduled return pickup timed to when your group is actually ready to leave',
       'Door-to-door service from your pickup address to the park entrance',
       'Corporate accounts available for company-organized group outings',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -1346,7 +1346,7 @@ export const MARYLAND_BATCH12 = [
       },
       {
         q: 'Can a Sprinter van fit our whole family or group?',
-        a: 'Yes, our 14-passenger Sprinter vans are the standard choice for this trip.',
+        a: 'Yes, our 13-passenger Sprinter vans are the standard choice for this trip.',
       },
       {
         q: 'Do you schedule the return pickup around when we actually leave the park?',
@@ -1396,7 +1396,7 @@ export const MARYLAND_BATCH12 = [
       'Sprinter vans for conference delegations and trade-event exhibitor teams',
       'Experience with Federal Triangle\'s security screening and street-closure patterns',
       'Corporate accounts with monthly invoicing for firms with recurring conference travel here',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -1479,7 +1479,7 @@ export const MARYLAND_BATCH12 = [
       'Date-night and group dinner transportation with flexible return pickup timing',
       'Well positioned for both Reagan National and Dulles airport transfers',
       'Sprinter vans for larger dinner groups and corporate outings',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -1565,7 +1565,7 @@ export const MARYLAND_BATCH12 = [
       'Short-notice booking for fast-moving startup schedules',
       'Airport transfers to Dulles, Reagan National and BWI with flight tracking',
       'Corporate accounts with monthly invoicing once travel volume justifies it',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -1648,7 +1648,7 @@ export const MARYLAND_BATCH12 = [
       'Chauffeurs who wait curbside at each listing rather than circling the block',
       'Coverage across DC, Montgomery and Fairfax County neighborhoods and beyond',
       'Airport transfers for out-of-area or relocating buyers flying in to view homes',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -1731,7 +1731,7 @@ export const MARYLAND_BATCH12 = [
       'Experience with Capitol Hill and downtown DC security-perimeter changes',
       'Airport transfers for visiting network and affiliate crews covering a specific story',
       'Corporate accounts with monthly invoicing for bureaus with recurring travel',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -1800,7 +1800,7 @@ export const MARYLAND_BATCH12 = [
     h1: 'Columbia, MD Wedding Limo Service',
     metaTitle: 'Columbia MD Wedding Limo Service | DCA Limos',
     metaDescription:
-      'Wedding limo service in Columbia, MD — Lake Kittamaqundi photo stops, downtown event spaces & stretch limos. Call (877) 609-1919.',
+      'Wedding limo service in Columbia, MD — Lake Kittamaqundi photo stops, downtown event spaces & Sprinter vans. Call (877) 609-1919.',
     stats: [
       { label: 'To BWI', value: '14 mi · 20–30 minutes' },
       { label: 'To Reagan (DCA)', value: '28 mi · 40–55 minutes' },
@@ -1808,22 +1808,22 @@ export const MARYLAND_BATCH12 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Columbia\'s planned-community design, built around Lake Kittamaqundi and Symphony Woods in the town center, gives wedding parties a genuinely scenic photo backdrop without leaving Howard County, and a growing cluster of downtown event spaces near the lake hosts receptions year-round. DCA Limos drives Columbia weddings in a stretch limousine or Sprinter van, with chauffeurs who know the town center\'s circular road layout well enough to stage efficiently between stops.',
+      'Columbia\'s planned-community design, built around Lake Kittamaqundi and Symphony Woods in the town center, gives wedding parties a genuinely scenic photo backdrop without leaving Howard County, and a growing cluster of downtown event spaces near the lake hosts receptions year-round. DCA Limos drives Columbia weddings in a Sprinter van, with chauffeurs who know the town center\'s circular road layout well enough to stage efficiently between stops.',
       'Columbia\'s road network was designed around village centers rather than a traditional grid, which can confuse a driver unfamiliar with the area — our chauffeurs plan the day\'s route in advance rather than relying on GPS alone for last-minute turns.',
     ],
     highlights: [
       'Lake Kittamaqundi and Symphony Woods photo-stop planning built into the day\'s route',
       'Experience with downtown Columbia\'s village-center road layout',
-      'Stretch limousine for the couple and wedding party; Sprinter van for guest shuttles',
+      'Sprinter Executive for the couple and wedding party; Sprinter van for guest shuttles',
       'Guest shuttle service from Baltimore- and DC-area hotel blocks',
       'Rate confirmed before you book; wedding bookings cancel free up to 12 hours before',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
     ],
     sections: [
       {
         h2: 'Lake Kittamaqundi and downtown event spaces',
         paragraphs: [
-          'Columbia\'s town center has grown a real cluster of event spaces near the lake, and a limousine timetable here usually includes a dedicated photo stop at Lake Kittamaqundi or Symphony Woods between ceremony and reception.',
+          'Columbia\'s town center has grown a real cluster of event spaces near the lake, and a wedding-day timetable here usually includes a dedicated photo stop at Lake Kittamaqundi or Symphony Woods between ceremony and reception.',
           'Our chauffeurs plan that stop into the day\'s schedule in advance so it does not eat into reception time.',
         ],
       },
@@ -1883,7 +1883,7 @@ export const MARYLAND_BATCH12 = [
     h1: 'Frederick, MD Wedding Limo Service',
     metaTitle: 'Frederick MD Wedding Limo Service | DCA Limos',
     metaDescription:
-      'Wedding limo service in Frederick, MD — historic downtown, Carroll Creek photo stops & stretch limos. Flat rates, 24/7. (877) 609-1919.',
+      'Wedding limo service in Frederick, MD — historic downtown, Carroll Creek photo stops & Sprinter vans. Flat rates, 24/7. (877) 609-1919.',
     stats: [
       { label: 'To Reagan (DCA)', value: '50 mi · 65–80 minutes' },
       { label: 'To BWI', value: '48 mi · 60–75 minutes' },
@@ -1891,22 +1891,22 @@ export const MARYLAND_BATCH12 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Frederick\'s historic downtown — the clustered church spires, Carroll Creek Linear Park and the restored 1800s storefronts along Market Street — gives wedding parties one of the most photogenic small-city backdrops in Maryland, and a steady base of downtown event spaces and hotel ballrooms host receptions throughout the year. DCA Limos drives Frederick weddings in a stretch limousine or Sprinter van, with chauffeurs who know the historic district\'s one-way streets and limited parking.',
+      'Frederick\'s historic downtown — the clustered church spires, Carroll Creek Linear Park and the restored 1800s storefronts along Market Street — gives wedding parties one of the most photogenic small-city backdrops in Maryland, and a steady base of downtown event spaces and hotel ballrooms host receptions throughout the year. DCA Limos drives Frederick weddings in a Sprinter van, with chauffeurs who know the historic district\'s one-way streets and limited parking.',
       'Carroll Creek Linear Park, which runs through the center of downtown, is a popular photo-stop location, and our chauffeurs build a brief stop there into the day\'s schedule without disrupting the rest of the timeline.',
     ],
     highlights: [
       'Historic downtown Frederick and Carroll Creek Linear Park photo-stop planning',
       'Experience with Market Street\'s one-way grid and limited historic-district parking',
-      'Stretch limousine for the couple and wedding party; Sprinter van for guest shuttles',
+      'Sprinter Executive for the couple and wedding party; Sprinter van for guest shuttles',
       'Guest shuttle service from Frederick-area hotel blocks for out-of-town guests',
       'Rate confirmed before you book; wedding bookings cancel free up to 12 hours before',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
     ],
     sections: [
       {
         h2: 'Historic downtown and Carroll Creek',
         paragraphs: [
-          'Frederick\'s historic district is one of the best-preserved downtowns in the state, and a wedding-day limousine route built around it usually includes a brief photo stop along Carroll Creek Linear Park or near the church spires on Church Street.',
+          'Frederick\'s historic district is one of the best-preserved downtowns in the state, and a wedding-day route built around it usually includes a brief photo stop along Carroll Creek Linear Park or near the church spires on Church Street.',
           'Our chauffeurs plan staging around Market Street\'s one-way grid and limited street parking, which tightens further on weekends when downtown restaurants are busy.',
           'Frederick\'s downtown also hosts a busy weekend festival and farmers-market calendar that periodically closes sections of Market and Patrick Streets, and a wedding date that happens to land on a festival weekend needs a staging plan worked out well in advance rather than discovered the morning of. We confirm the downtown events calendar against your wedding date as part of planning the day\'s route.',
         ],
@@ -1932,7 +1932,7 @@ export const MARYLAND_BATCH12 = [
         a: 'Yes. We build a brief photo stop there into the day\'s schedule in advance.',
       },
       {
-        q: 'Can a limousine navigate Frederick\'s historic Market Street district?',
+        q: 'Can a Sprinter van navigate Frederick\'s historic Market Street district?',
         a: 'Yes, with planning. Our chauffeurs know the one-way grid and where parking is realistically available on a wedding day.',
       },
       {
@@ -1983,7 +1983,7 @@ export const MARYLAND_BATCH12 = [
       'Client-dinner and entertainment transportation along Old Town\'s restaurant row',
       'Corporate accounts with monthly invoicing and a dedicated dispatch contact',
       'Sprinter vans for visiting teams, offsites and conference delegations',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -2050,7 +2050,7 @@ export const MARYLAND_BATCH12 = [
     h1: 'Silver Spring, MD Wedding Limo Service',
     metaTitle: 'Silver Spring MD Wedding Limo Service | DCA Limos',
     metaDescription:
-      'Wedding limo service in Silver Spring, MD — downtown hotel ballrooms, arts-district venues & stretch limos. (877) 609-1919.',
+      'Wedding limo service in Silver Spring, MD — downtown hotel ballrooms, arts-district venues & Sprinter vans. (877) 609-1919.',
     stats: [
       { label: 'To Reagan (DCA)', value: '13 mi · 25–35 minutes' },
       { label: 'To Dulles (IAD)', value: '32 mi · 45–60 minutes' },
@@ -2058,16 +2058,16 @@ export const MARYLAND_BATCH12 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Downtown Silver Spring\'s hotel ballrooms and event spaces, clustered near the AFI Silver Theatre and Fillmore Silver Spring arts district, host a steady calendar of wedding receptions for couples who want a walkable, Metro-accessible setting without leaving Montgomery County. DCA Limos drives Silver Spring weddings in a stretch limousine or Sprinter van, with chauffeurs who know downtown\'s one-way streets and the parking-garage access most venues rely on.',
+      'Downtown Silver Spring\'s hotel ballrooms and event spaces, clustered near the AFI Silver Theatre and Fillmore Silver Spring arts district, host a steady calendar of wedding receptions for couples who want a walkable, Metro-accessible setting without leaving Montgomery County. DCA Limos drives Silver Spring weddings in a Sprinter van, with chauffeurs who know downtown\'s one-way streets and the parking-garage access most venues rely on.',
       'Because downtown Silver Spring is dense and walkable, a wedding party often moves between a getting-ready hotel, a nearby ceremony location and a reception venue all within a few blocks — a schedule our chauffeurs plan efficiently rather than treating each stop as a separate drive across town.',
     ],
     highlights: [
       'Downtown Silver Spring hotel ballroom and event-space wedding logistics',
       'Experience with the arts-district area\'s one-way streets and parking-garage access',
-      'Stretch limousine for the couple and wedding party; Sprinter van for guest shuttles',
+      'Sprinter Executive for the couple and wedding party; Sprinter van for guest shuttles',
       'Guest shuttle service from nearby hotel blocks for out-of-town guests',
       'Rate confirmed before you book; wedding bookings cancel free up to 12 hours before',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -2144,11 +2144,11 @@ export const MARYLAND_BATCH12 = [
       { label: 'Booking', value: '24 / 7' },
     ],
     intro: [
-      'A micro-wedding or elopement does not need the same scale of transportation as a 150-guest wedding, but it still deserves the same reliability and polish — a sedan or SUV for the couple, rather than a full stretch-limo booking sized for a wedding party that is not there. DCA Limos runs right-sized transportation for small ceremonies across DC, Maryland and Northern Virginia, from a courthouse elopement to a 20-guest backyard or park ceremony.',
+      'A micro-wedding or elopement does not need the same scale of transportation as a 150-guest wedding, but it still deserves the same reliability and polish — a sedan or SUV for the couple, rather than a 13-seat Sprinter sized for a wedding party that is not there. DCA Limos runs right-sized transportation for small ceremonies across DC, Maryland and Northern Virginia, from a courthouse elopement to a 20-guest backyard or park ceremony.',
       'Many micro-weddings happen with little advance notice compared to a traditional wedding, and we can usually accommodate a booking on shorter lead time than a full wedding package typically requires.',
     ],
     highlights: [
-      'Right-sized sedans and SUVs for a couple or small wedding party, not an oversized stretch limo',
+      'Right-sized sedans and SUVs for a couple or small wedding party, not an oversized van',
       'Shorter lead-time booking than a traditional full-scale wedding reservation',
       'Courthouse, park and small-venue ceremony transportation across our coverage area',
       'An executive sedan or SUV with photo-ready presentation for the couple\'s arrival',
@@ -2159,7 +2159,7 @@ export const MARYLAND_BATCH12 = [
       {
         h2: 'Transportation scaled to a small ceremony',
         paragraphs: [
-          'A micro-wedding or elopement usually means a couple, maybe a witness or two, and sometimes a handful of close family — a scale that a well-presented sedan or SUV serves better than a stretch limousine built for a full wedding party.',
+          'A micro-wedding or elopement usually means a couple, maybe a witness or two, and sometimes a handful of close family — a scale that a well-presented sedan or SUV serves better than a Sprinter built for a full wedding party.',
           'Courthouse ceremonies, small park weddings and intimate venue elopements are all common bookings, and the same hourly, as-directed structure applies regardless of the ceremony\'s size.',
         ],
       },
@@ -2180,7 +2180,7 @@ export const MARYLAND_BATCH12 = [
     vehicles: [...VEHICLES],
     faqs: [
       {
-        q: 'Do we need to book a full stretch limousine for a small ceremony?',
+        q: 'Do we need to book a large vehicle for a small ceremony?',
         a: 'No. A sedan or SUV is the more common and more cost-effective choice for a micro-wedding or elopement, scaled to a couple or a small party.',
       },
       {
@@ -2235,7 +2235,7 @@ export const MARYLAND_BATCH12 = [
       'Executive SUVs with easy entry for family members who may have mobility needs',
       'Coordination around religious observance timing when requested',
       'Flat-rate or hourly booking depending on whether the day involves multiple stops',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -2319,7 +2319,7 @@ export const MARYLAND_BATCH12 = [
       'Chauffeur assistance folding, stowing and retrieving a manual wheelchair or walker',
       'Wheelchair-accessible vehicle coordination through our network with advance notice',
       'Patient, unhurried service for travelers who need extra time boarding or exiting',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -2399,12 +2399,12 @@ export const MARYLAND_BATCH12 = [
       'At 25 to 35 minutes, this is one of the more reliable corporate airport connections in our network — close enough for a tight meeting schedule, far enough that a flat, confirmed rate matters more than guessing at a metered fare.',
     ],
     highlights: [
-      'Flat, all-inclusive rate confirmed before you book — no surge pricing',
+      'Flat rate confirmed before you book — no surge pricing',
       'Real-time flight tracking with 45 minutes of free wait time on domestic arrivals',
       'Chauffeur waiting at Dulles baggage claim with a name sign',
       'Daily service to Tysons Corner, Tysons Galleria and the office towers along Route 7',
       'Sprinter vans for visiting teams and conference delegations',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -2433,7 +2433,7 @@ export const MARYLAND_BATCH12 = [
     faqs: [
       {
         q: 'How much does a car service from Dulles to Tysons cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and drop-off address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and drop-off address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Dulles to Tysons?',
@@ -2482,12 +2482,12 @@ export const MARYLAND_BATCH12 = [
       'BWI is the closest major airport to Columbia by a wide margin, and this is one of the more frequent routes our Howard County chauffeurs run, whether for a business traveler, a visiting family or a wedding guest flying in for a Columbia-area event.',
     ],
     highlights: [
-      'Flat, all-inclusive rate confirmed before you book — no surge pricing',
+      'Flat rate confirmed before you book — no surge pricing',
       'Real-time flight tracking with 45 minutes of free wait time on domestic arrivals',
       'Chauffeur waiting at BWI baggage claim with a name sign',
       'Service to downtown Columbia, Lake Kittamaqundi and surrounding village centers',
       'Wedding guest shuttle coordination for Columbia-area events',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 13-passenger Sprinters',
     ],
     sections: [
       {
@@ -2518,7 +2518,7 @@ export const MARYLAND_BATCH12 = [
     faqs: [
       {
         q: 'How much does a car service from BWI to Columbia cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and drop-off address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and drop-off address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from BWI to Columbia?',

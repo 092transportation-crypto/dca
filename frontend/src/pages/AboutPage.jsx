@@ -89,7 +89,7 @@ const AboutPage = () => {
               <div>
                 <img 
                   src="/images/executive-sedan.webp"
-                  alt="DCA Limos executive sedan used for airport transportation and corporate car service in Washington DC, Maryland and Virginia"
+                  alt="Black Mercedes-Benz S-Class sedan parked at dusk"
                   className="w-full h-64 sm:h-80 md:h-[400px] object-cover rounded-xl sm:rounded-2xl shadow-xl"
                 />
               </div>
@@ -163,7 +163,7 @@ const AboutPage = () => {
             {[
               { title: 'Veteran Chauffeurs', desc: 'Average 10+ years professional driving experience. Background-checked, drug-tested, and professionally trained.' },
               { title: 'Premium Fleet', desc: 'Late-model luxury vehicles maintained to manufacturer specifications. Detailed before every service.' },
-              { title: 'Transparent Pricing', desc: 'No hidden fees, no surprises. All-inclusive quotes with upfront pricing and flexible payment options.' },
+              { title: 'Transparent Pricing', desc: 'No hidden fees, no surprises. Itemized quotes with upfront pricing and flexible payment options.' },
               { title: '24/7 Concierge Support', desc: 'Round-the-clock customer service for bookings, modifications, and assistance whenever you need us.' },
               { title: 'Real-Time Flight Tracking', desc: 'Advanced monitoring ensures we adjust for delays automatically—no extra charges for wait time.' },
               { title: 'Satisfaction Guaranteed', desc: 'We stand behind our service. If we don\'t meet your expectations, we\'ll make it right—guaranteed.' },

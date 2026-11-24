@@ -51,7 +51,7 @@ export const ROUTE_PAGES_BATCH3 = [
     faqs: [
       {
         q: 'How much does a car service from DCA to New York City cost?',
-        a: 'We quote one flat, all-inclusive rate covering the chauffeur, tolls and fuel for the full 225-mile trip. Call (877) 609-1919 or book online for an exact quote based on your vehicle and exact Manhattan address.',
+        a: 'We quote one flat rate covering the chauffeur, tolls and fuel for the full 225-mile trip. Call (877) 609-1919 or book online for an exact quote based on your vehicle and exact Manhattan address.',
       },
       {
         q: 'How long does the drive from DCA to New York City take?',

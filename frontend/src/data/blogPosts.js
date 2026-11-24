@@ -83,7 +83,7 @@ export const BLOG_POSTS = [
       },
       {
         q: 'Does a flat rate really include everything?',
-        a: 'Yes. Our published flat rate includes tolls, fuel, the chauffeur, and flight tracking with complimentary wait time. There is no surge, no overnight surcharge, and no meter. Gratuity is optional.',
+        a: 'Yes. Our published flat rate includes tolls, fuel, the chauffeur, and flight tracking with complimentary wait time. There is no surge, no overnight surcharge, and no meter. A 20% gratuity is added to the rate and shown on your quote.',
       },
       {
         q: 'When should I just take an Uber from DCA?',
@@ -109,7 +109,7 @@ export const BLOG_POSTS = [
     content: `
       <p class="lead">Search "black car service DCA" and you will get dozens of results, all promising luxury, professionalism, and 24/7 availability. The truth is they vary enormously. Here is how to tell the genuinely good ones apart — based on what actually matters once you are standing at Reagan National baggage claim hoping your ride exists.</p>
 
-      <h2>1. Flat-rate, all-inclusive pricing</h2>
+      <h2>1. Flat-rate, up-front pricing</h2>
       <p>The single biggest tell. The best DCA black car services quote one flat rate that includes tolls, fuel, the chauffeur, and flight-tracking wait time — and that rate does not move with time of day or demand. Be skeptical of any "estimate" that can balloon, or any service that adds overnight, holiday, or surge premiums. If a company cannot tell you your exact price before you book, keep looking.</p>
 
       <h2>2. Real flight tracking</h2>
@@ -148,7 +148,7 @@ export const BLOG_POSTS = [
       },
       {
         q: 'How much does black car service from DCA cost?',
-        a: 'It varies by route and vehicle, but the best services quote one flat, all-inclusive rate up front. For example, DCA to Arlington starts around $55 and DCA to Washington DC around $65 — including tolls, fuel, and flight-tracking wait time, with no surge.',
+        a: 'It varies by route and vehicle, but the best services quote one flat rate up front. For example, DCA to Arlington starts around $55 and DCA to Washington DC around $65 — including tolls, fuel, and flight-tracking wait time, with no surge.',
       },
       {
         q: 'Where does a black car pick up at DCA Airport?',
@@ -192,7 +192,7 @@ export const BLOG_POSTS = [
       <h3>Rideshare (Uber/Lyft)</h3>
       <p>Rideshare picks up at designated zones — not at baggage claim — so plan for a walk and a wait. Pricing is competitive off-peak but surges sharply when flights bank together, during rush hour, and in bad weather. See our full <a href="/blog/dca-airport-car-service-vs-uber-2026">DCA car service vs Uber comparison</a> for the detailed math.</p>
       <h3>Professional car service</h3>
-      <p>A pre-arranged chauffeur meets you at baggage claim, tracks your flight, and delivers a flat, all-inclusive rate with a guaranteed late-model vehicle. It is the most predictable option, especially for early flights, groups, and business travel.</p>
+      <p>A pre-arranged chauffeur meets you at baggage claim, tracks your flight, and delivers a flat rate with a guaranteed late-model vehicle. It is the most predictable option, especially for early flights, groups, and business travel.</p>
 
       <h2>Tips for early-morning DCA departures</h2>
       <ol>
@@ -249,7 +249,7 @@ export const BLOG_POSTS = [
       <p class="lead">The drive from Reagan National to downtown Washington, DC is barely three miles — yet it is exactly the trip where pricing surprises hurt most. Surge fares, taxi meters that climb in traffic, and unpredictable wait times can turn a 12-minute ride into a frustrating, overpriced one. A flat rate fixes all of that.</p>
 
       <h2>What "flat rate" actually means</h2>
-      <p>A flat rate is one all-inclusive price, agreed before your trip, that does not change based on:</p>
+      <p>A flat rate is one flat price, agreed before your trip, that does not change based on:</p>
       <ul>
         <li><strong>Time of day</strong> — 5 a.m. and 5 p.m. cost the same.</li>
         <li><strong>Traffic</strong> — sitting on the GW Parkway does not run up a meter.</li>
@@ -364,7 +364,7 @@ export const BLOG_POSTS = [
     title: 'DCA Airport to Annapolis Chauffeur Service: The Complete Guide',
     metaTitle: 'DCA to Annapolis Chauffeur Service | DCA Limos',
     metaDesc:
-      'Flat-rate chauffeur service from DCA Airport to Annapolis — $145 all-inclusive with flight tracking. Naval Academy, City Dock, Eastport. Call (877) 609-1919.',
+      'Flat-rate chauffeur service from DCA Airport to Annapolis — $145 flat with flight tracking. Naval Academy, City Dock, Eastport. Call (877) 609-1919.',
     excerpt:
       'Everything about the DCA-to-Annapolis transfer — the flat $145 rate, the US-50 route, Naval Academy and downtown drop-offs, and why a chauffeur beats rideshare on this trip.',
     image: '/images/blog/landmark-annapolis-1.webp',
@@ -443,7 +443,7 @@ export const BLOG_POSTS = [
       <p class="lead">"How much does a limo from DCA cost?" is the question our dispatch team answers more than any other — usually from travelers who have been burned by a vague estimate or a surging app. So here are the real numbers for 2026: our actual flat rates, what they include, and how to think about vehicle classes so you pay for exactly what you need and nothing more.</p>
 
       <h2>2026 flat rates from Reagan National, by destination</h2>
-      <p>Every rate below is all-inclusive — tolls, fuel, the chauffeur, and flight-tracking wait time — in a luxury sedan, with no surge at any hour:</p>
+      <p>Every rate below covers tolls, fuel, the chauffeur and flight-tracking wait time in a luxury sedan, with no surge at any hour; a 20% gratuity is added:</p>
       <ul>
         <li><strong>DCA to Arlington</strong> — from $55</li>
         <li><strong>DCA to Washington DC</strong> — from $65</li>
@@ -456,8 +456,8 @@ export const BLOG_POSTS = [
       </ul>
       <p>You can confirm any of these on our route pages — for example <a href="/dca-to-washington-dc">DCA to Washington DC</a> or <a href="/dca-to-baltimore">DCA to Baltimore</a> — or <a href="/booking">get an exact quote for your address here</a>.</p>
 
-      <h2>What "all-inclusive" actually covers</h2>
-      <p>The flat rate is the whole price. It includes the professional chauffeur, a late-model vehicle, all tolls (including the Dulles Toll Road on Dulles runs), fuel, and complimentary wait time tied to your actual landing via flight tracking. There is no overnight surcharge, no holiday multiplier, no per-bag fee, and no meter. The only thing not included is gratuity, which is entirely optional.</p>
+      <h2>What the flat rate actually covers</h2>
+      <p>The flat rate includes the professional chauffeur, a late-model vehicle, all tolls (including the Dulles Toll Road on Dulles runs), fuel, and complimentary wait time tied to your actual landing via flight tracking. There is no overnight surcharge, no holiday multiplier, no per-bag fee, and no meter. A 20% gratuity is added to the rate, and your written quote shows the full total before you confirm.</p>
 
       <h2>Sedan vs. SUV vs. Sprinter: choosing the right class</h2>
       <p><strong>Luxury sedan</strong> — the rates above. Ideal for one to three travelers with standard luggage; think Mercedes E-Class and S-Class comfort with a quiet cabin for calls.</p>
@@ -488,15 +488,15 @@ export const BLOG_POSTS = [
     faqs: [
       {
         q: 'How much is a limo from Reagan National to downtown DC?',
-        a: 'A flat $65 in a luxury sedan, all-inclusive — tolls, fuel, chauffeur, and flight-tracking wait time. Premium SUVs run modestly higher. The rate never surges regardless of time of day, weather, or demand.',
+        a: 'A flat $65 in a luxury sedan — tolls, fuel, chauffeur, and flight-tracking wait time. Premium SUVs run modestly higher. The rate never surges regardless of time of day, weather, or demand.',
       },
       {
         q: 'What is included in a DCA flat rate?',
-        a: 'Everything except optional gratuity: the professional chauffeur, a late-model vehicle, all tolls, fuel, and complimentary wait time tied to your tracked flight. There are no overnight, holiday, or per-bag surcharges.',
+        a: 'The professional chauffeur, a late-model vehicle, all tolls, fuel, and complimentary wait time tied to your tracked flight. A 20% gratuity is added to the rate, and there are no overnight, holiday, or per-bag surcharges.',
       },
       {
         q: 'How much more does an SUV cost than a sedan from DCA?',
-        a: 'Typically $30 to $60 above the sedan rate on the same route, for a Lincoln Navigator or Chevrolet Suburban seating up to six with full luggage. Sprinter vans for 7–13 passengers are quoted flat by route.',
+        a: 'Typically $30 to $60 above the sedan rate on the same route, for a Lincoln Navigator seating up to six or a Chevrolet Suburban seating up to five, with full luggage. Sprinter vans for 7–13 passengers are quoted flat by route.',
       },
       {
         q: 'Is hourly chauffeur service cheaper than multiple transfers?',
@@ -547,7 +547,7 @@ export const BLOG_POSTS = [
       <p>Reagan National's two terminals have separate baggage claims and different walking routes to ground transportation. A rideshare driver idling in a distant zone does not care which one you land at — you do the walking either way. A meet-and-greet chauffeur stages for your specific terminal and carousel, which is exactly the kind of local operational knowledge that makes the service feel effortless. For the full airport layout, see our <a href="/blog/reagan-national-airport-transportation-guide">Reagan National ground transportation guide</a>.</p>
 
       <h2>What it costs</h2>
-      <p>Meet-and-greet is included with our standard DCA pickups — it is how we believe an airport transfer should work, not a premium add-on. You pay the same flat, all-inclusive route rate (for example, from $65 to downtown DC), covering the chauffeur, vehicle, tolls, fuel, and flight-tracked wait time. No surge, no hidden "inside pickup" fee.</p>
+      <p>Meet-and-greet is included with our standard DCA pickups — it is how we believe an airport transfer should work, not a premium add-on. You pay the same flat route rate (for example, from $65 to downtown DC), covering the chauffeur, vehicle, tolls, fuel, and flight-tracked wait time. No surge, no hidden "inside pickup" fee.</p>
 
       <h2>Meet-and-greet in reverse: departures</h2>
       <p>The same philosophy applies when you fly out. Your chauffeur arrives ahead of schedule, loads the luggage, and drops you at the correct terminal door for your airline — not just "the airport." Because we time departures against live traffic and DCA's security patterns, you are not guessing at when to leave; we have already done the math and added a buffer. For travelers connecting between airports, we run the same door-to-door handling on inter-airport transfers like DCA to Dulles and DCA to BWI, tracking flights on both ends.</p>
@@ -684,7 +684,7 @@ export const BLOG_POSTS = [
       <p>The classic DC corporate day — land at DCA, a Hill meeting, a K Street lunch, a Tysons headquarters visit, dinner in Georgetown — is a poor fit for point-to-point transfers. Hourly service assigns one chauffeur and one vehicle to your day: they stage outside each stop, the schedule flexes when meetings run long, and materials stay in the car between stops. For three or more stops it is usually cheaper than separate transfers, and it removes every wait in between. Investor roadshows, board days, and site visits all run on this model.</p>
 
       <h2>The routes corporate travelers actually run</h2>
-      <p>Beyond downtown, the corporate map from DCA is predictable: <a href="/dca-to-tysons">Tysons Corner</a> for consulting and defense headquarters, <a href="/dca-to-bethesda">Bethesda and Rockville</a> for biotech and NIH-adjacent firms, Reston and Herndon for the tech and data-center corridor, and <a href="/dca-to-baltimore">Baltimore</a> for the firms splitting the corridor. Every route is a flat, all-inclusive rate — the same at 5 a.m. as at 5 p.m. — which is exactly what a travel budget wants.</p>
+      <p>Beyond downtown, the corporate map from DCA is predictable: <a href="/dca-to-tysons">Tysons Corner</a> for consulting and defense headquarters, <a href="/dca-to-bethesda">Bethesda and Rockville</a> for biotech and NIH-adjacent firms, Reston and Herndon for the tech and data-center corridor, and <a href="/dca-to-baltimore">Baltimore</a> for the firms splitting the corridor. Every route is a flat rate — the same at 5 a.m. as at 5 p.m. — which is exactly what a travel budget wants.</p>
 
       <h2>Cost control without corner-cutting</h2>
       <ol>
@@ -767,7 +767,7 @@ export const BLOG_POSTS = [
     faqs: [
       {
         q: 'What makes a car service at Reagan National "the best"?',
-        a: 'Seven things: automatic flight tracking, genuinely flat all-inclusive rates, baggage-claim meet-and-greet, professional background-checked chauffeurs, a late-model executive fleet, flat-rate coverage of the whole region, and 24/7 live phone support. Any company missing one of these will eventually miss a pickup.',
+        a: 'Seven things: automatic flight tracking, genuinely flat rates, baggage-claim meet-and-greet, professional background-checked chauffeurs, a late-model executive fleet, flat-rate coverage of the whole region, and 24/7 live phone support. Any company missing one of these will eventually miss a pickup.',
       },
       {
         q: 'How much does a good car service from DCA cost?',
@@ -1110,7 +1110,7 @@ export const BLOG_POSTS = [
       </ul>
 
       <h2>Groups, families, and serious luggage</h2>
-      <p>The per-person math changes completely with company. A family of five headed to Fairfax needs an UberXL that may or may not appear with usable trunk space; a visiting project team headed to Reston needs two or three separate rideshares that will not arrive together. One Suburban or 14-passenger Sprinter solves both — everyone and everything in one vehicle, one flat rate split several ways, one arrival time. For golf trips, college move-ins, and consulting teams on a Monday-morning fly-in, the group vehicle is not a luxury upgrade; it is simply cheaper and better per seat than the alternatives.</p>
+      <p>The per-person math changes completely with company. A family of five headed to Fairfax needs an UberXL that may or may not appear with usable trunk space; a visiting project team headed to Reston needs two or three separate rideshares that will not arrive together. One Suburban or 13-passenger Sprinter solves both — everyone and everything in one vehicle, one flat rate split several ways, one arrival time. For golf trips, college move-ins, and consulting teams on a Monday-morning fly-in, the group vehicle is not a luxury upgrade; it is simply cheaper and better per seat than the alternatives.</p>
 
       <h2>Don't forget the return leg</h2>
       <p>Getting out to Virginia is half the trip. The morning you fly home, the same corridor runs in reverse against inbound rush-hour traffic — and a 7 a.m. departure from Ashburn to DCA is a very different proposition than the Saturday drive out. Book the round trip together: your return pickup time gets calculated against your flight with honest traffic assumptions, the chauffeur monitors your departure for changes, and the whole journey lives on one confirmation instead of a morning-of scramble in a hotel lobby.</p>
@@ -1164,26 +1164,26 @@ export const BLOG_POSTS = [
       <h2>The three layers most weddings combine</h2>
       <ul>
         <li><strong>The couple's car:</strong> a chauffeured S-Class or Navigator for the ceremony arrival and the send-off — elegant in photos, kind to a wedding gown, and driven by a professional who has done this before.</li>
-        <li><strong>The wedding-party vehicle:</strong> a 14-passenger Mercedes Sprinter that keeps the whole party together between prep, photos, and ceremony — one vehicle, one schedule, zero lost groomsmen.</li>
+        <li><strong>The wedding-party vehicle:</strong> a 13-passenger Mercedes Sprinter that keeps the whole party together between prep, photos, and ceremony — one vehicle, one schedule, zero lost groomsmen.</li>
         <li><strong>Guest shuttles:</strong> looped runs between host hotels and the venue, timed to the ceremony and staggered at the end of the night so the 9 p.m. leavers and the last-dance crowd both get home gracefully.</li>
       </ul>
       <p>Not every wedding needs all three — but naming them separately prevents the classic mistake of booking a beautiful getaway car and leaving eighty guests to solve wine-country parking alone.</p>
 
       <h2>Region-specific realities</h2>
-      <p>DC weddings have quirks that generic advice misses. Georgetown and Old Town Alexandria have tight, permit-sensitive curbs where a stretch limousine simply cannot stage — a sedan-plus-Sprinter plan works better. Loudoun and Fauquier wine-country venues sit on gravel lanes at real distance from hotels, which makes guest shuttles nearly mandatory and adds positioning time to every quote. Downtown hotel weddings collide with event traffic and street closures — motorcades, marathons, state visits — which is why a company that drives this city daily builds routes with alternates already loaded. And summer formalwear in DC humidity means climate-controlled vehicles idling and ready, not arriving on the dot.</p>
+      <p>DC weddings have quirks that generic advice misses. Georgetown and Old Town Alexandria have tight, permit-sensitive curbs where staging takes planning — a sedan-plus-Sprinter plan works best. Loudoun and Fauquier wine-country venues sit on gravel lanes at real distance from hotels, which makes guest shuttles nearly mandatory and adds positioning time to every quote. Downtown hotel weddings collide with event traffic and street closures — motorcades, marathons, state visits — which is why a company that drives this city daily builds routes with alternates already loaded. And summer formalwear in DC humidity means climate-controlled vehicles idling and ready, not arriving on the dot.</p>
 
       <h2>When to book</h2>
-      <p>Peak season here runs April through June and September through November, and Saturdays in those windows sell out first. Reserve transportation six to nine months ahead for peak dates — twelve for holiday weekends — and note that spring prom season competes for the same Sprinters and limousines. Booking early locks both the vehicles and the price.</p>
+      <p>Peak season here runs April through June and September through November, and Saturdays in those windows sell out first. Reserve transportation six to nine months ahead for peak dates — twelve for holiday weekends — and note that spring prom season competes for the same Sprinters and SUVs. Booking early locks both the vehicles and the price.</p>
 
       <h2>What it costs</h2>
-      <p>Expect the couple's chauffeured car for the day's key moves to run a few hundred dollars; Sprinters and shuttles book hourly with minimums, and wine-country distance adds positioning cost. The number that matters is the all-inclusive written quote — fuel, tolls, gratuity policy, and overtime rates stated plainly. That is how <a href="/services">all of our event pricing</a> works, and anything vaguer is a red flag.</p>
+      <p>Expect the couple's chauffeured car for the day's key moves to run a few hundred dollars; Sprinters and shuttles book hourly with minimums, and wine-country distance adds positioning cost. The number that matters is the all-inclusive written quote — fuel, tolls, the 20% gratuity, and overtime rates stated plainly. That is how <a href="/services">all of our event pricing</a> works, and anything vaguer is a red flag.</p>
 
       <h2>Six questions that protect your day</h2>
       <ul>
         <li>Are you a licensed carrier with commercial liability insurance — and can you show proof?</li>
         <li>Who exactly drives, and how are chauffeurs vetted?</li>
         <li>What is the backup plan if a vehicle fails on the day?</li>
-        <li>Is the quote all-inclusive, with overtime terms in writing?</li>
+        <li>Does the quote list tolls, gratuity and overtime terms in writing?</li>
         <li>Will your lead chauffeur do a route walk-through with our planner the week of?</li>
         <li>Have you driven our specific venue before?</li>
       </ul>
@@ -1201,7 +1201,7 @@ export const BLOG_POSTS = [
     faqs: [
       {
         q: 'How far ahead should we book wedding transportation in the DC area?',
-        a: 'Six to nine months for peak-season Saturdays — April through June and September through November — and up to twelve months for holiday weekends. Sprinters and limousines are the first vehicles to sell out because prom season and other weddings compete for them.',
+        a: 'Six to nine months for peak-season Saturdays — April through June and September through November — and up to twelve months for holiday weekends. Sprinters and Navigators are the first vehicles to sell out because prom season and other weddings compete for them.',
       },
       {
         q: 'Do we need guest shuttles for a wine-country wedding?',
@@ -1209,11 +1209,11 @@ export const BLOG_POSTS = [
       },
       {
         q: 'What vehicles work best for a DC wedding party?',
-        a: 'A 14-passenger Mercedes Sprinter for the wedding party is the modern standard, paired with a chauffeured S-Class or Navigator for the couple. In tight-curb neighborhoods like Georgetown and Old Town, that combination stages far better than a stretch limousine.',
+        a: 'A 13-passenger Mercedes Sprinter for the wedding party is the modern standard, paired with a chauffeured S-Class or Navigator for the couple. In tight-curb neighborhoods like Georgetown and Old Town, that combination stages easily even on tight curbs — and since we do not run stretch limousines, it is how we plan every wedding.',
       },
       {
         q: 'What does wedding transportation cost in the DC region?',
-        a: 'Typically a few hundred dollars for the couple\'s chauffeured car and hourly-minimum pricing for Sprinters and guest shuttles, with wine-country distance adding positioning cost. Insist on a flat, all-inclusive written quote with overtime terms spelled out.',
+        a: 'Typically a few hundred dollars for the couple\'s chauffeured car and hourly-minimum pricing for Sprinters and guest shuttles, with wine-country distance adding positioning cost. Insist on a flat written quote with overtime terms spelled out.',
       },
     ],
   },
@@ -1303,7 +1303,7 @@ export const BLOG_POSTS = [
       <p class="lead">"How much is a car service from DCA?" deserves a better answer than a quote form. We have already published <a href="/blog/reagan-national-airport-limo-cost-2026">route-by-route flat rates from Reagan National</a>; this guide is the companion piece — the anatomy of the price itself. What actually drives the number, how each vehicle class prices, which extras are legitimate, and how to tell a fair 2026 quote from a teaser rate that grows on the receipt.</p>
 
       <h2>First, what "limo" means at DCA in 2026</h2>
-      <p>Nobody is booking a stretch limousine to Terminal 2. When travelers search "DCA limo cost," they mean chauffeured black car service — a professional driver in a late-model luxury sedan, SUV, or Sprinter van, booked in advance at a fixed price. That is the product DCA Limos runs every day, and the pricing below describes that market.</p>
+      <p>Nobody needs a stretch limousine at Terminal 2, and we do not run them. When travelers search "DCA limo cost," they mean chauffeured black car service — a professional driver in a late-model luxury sedan, SUV, or Sprinter van, booked in advance at a fixed price. That is the product DCA Limos runs every day, and the pricing below describes that market.</p>
 
       <h2>The four inputs that set every quote</h2>
       <p><strong>Distance and drive time.</strong> Reagan National sits three miles from downtown — the shortest airport-to-city run in America — so nearby trips price modestly while runs to Baltimore, Annapolis, or western Loudoun scale with the miles and the hour behind the wheel.</p>
@@ -1318,7 +1318,7 @@ export const BLOG_POSTS = [
         <li><strong>Full-size SUV (Navigator, Suburban):</strong> add roughly $30–$60 to the sedan rate. The right call for four-plus travelers, ski gear, or a week of family luggage.</li>
         <li><strong>Mercedes Sprinter:</strong> regional transfers generally start around $250–$350. Divided among ten passengers, it is routinely the cheapest per-person vehicle on the curb.</li>
       </ul>
-      <p>For the specific number on your route, the <a href="/booking">instant quote page</a> beats any table — every rate is flat, all-inclusive, and locked at booking.</p>
+      <p>For the specific number on your route, the <a href="/booking">instant quote page</a> beats any table — every rate is flat, and locked at booking.</p>
 
       <h2>Point-to-point vs. hourly: two different products</h2>
       <p>Airport transfers price as flat point-to-point trips. But if your day involves multiple stops — a roadshow, a site tour, an evening with three venues — hourly service is the better instrument: the car and chauffeur stay with you, typically at $85–$115 per hour for a sedan and $115–$150 for an SUV with two-to-three-hour minimums. One committed vehicle replaces a chain of separate bookings, and the math frequently favors it by the third stop.</p>
@@ -1327,7 +1327,7 @@ export const BLOG_POSTS = [
       <p>Legitimate paid extras: an inside-terminal <a href="/blog/dca-airport-meet-and-greet-service">meet-and-greet</a> with a name sign (typically $25–$50), professionally installed child seats, and additional stops en route. Things that should never carry a fee: flight tracking, normal arrival wait time (45 minutes domestic is the professional standard), early-morning or late-night pickups, and paying by card. A company that charges for a 4:30 a.m. departure is telling you how it thinks.</p>
 
       <h2>Tipping and payment</h2>
-      <p>Gratuity of 15–20 percent is customary and can be added at booking so the trip itself is cashless. Expect a card guarantee with the charge at or after service, and a written confirmation showing the all-in total before pickup. For companies moving multiple travelers, <a href="/blog/corporate-car-service-washington-dc">corporate accounts</a> replace per-trip cards with monthly invoicing at negotiated rates.</p>
+      <p>With DCA Limos, a 20% gratuity is added to the quoted rate, so the trip itself is cashless. Your card is charged once the reservation and rate are confirmed, and you receive a written confirmation showing the full total, gratuity and all, before pickup. For companies moving multiple travelers, <a href="/blog/corporate-car-service-washington-dc">corporate accounts</a> replace per-trip cards with monthly invoicing at negotiated rates.</p>
 
       <h2>How the price compares to the alternatives</h2>
       <p>Rideshare from DCA runs $20–$35 to downtown in perfect conditions and $75-plus when surge hits the evening arrival banks — the full comparison lives in our <a href="/blog/dca-airport-car-service-vs-uber-2026">car service vs. Uber breakdown</a>. A taxi meters around $20–$30 downtown before tip. The chauffeured flat rate buys what neither offers: a committed vehicle, a vetted professional, and a price that was true before you landed.</p>
@@ -1345,7 +1345,7 @@ export const BLOG_POSTS = [
       </ul>
 
       <h2>The bottom line</h2>
-      <p>DCA car service in 2026 costs less than most travelers guess — the three-mile airport keeps nearby flat rates modest — and the price you are really paying for is certainty: the car that exists at 4:45 a.m., the rate that ignores the weather, the chauffeur who tracked your delay. Get your exact all-inclusive number in under a minute at the <a href="/booking">booking page</a> or call DCA Limos at (877) 609-1919 — dispatch answers 24/7.</p>
+      <p>DCA car service in 2026 costs less than most travelers guess — the three-mile airport keeps nearby flat rates modest — and the price you are really paying for is certainty: the car that exists at 4:45 a.m., the rate that ignores the weather, the chauffeur who tracked your delay. Get your exact total in under a minute at the <a href="/booking">booking page</a> or call DCA Limos at (877) 609-1919 — dispatch answers 24/7.</p>
     `,
     faqs: [
       {
@@ -1366,7 +1366,7 @@ export const BLOG_POSTS = [
       },
       {
         q: 'Do I tip a DCA chauffeur, and how much?',
-        a: 'Gratuity of 15–20 percent is customary. Most travelers add it at booking so the trip itself is completely cashless, and corporate accounts can fold it into monthly invoicing.',
+        a: 'A 20% gratuity is added to the quoted rate on every DCA Limos booking, so there is nothing to work out at the curb and the trip stays cashless. Corporate accounts see it on the monthly invoice, and anything extra is at your discretion.',
       },
     ],
   },
@@ -1426,7 +1426,7 @@ export const BLOG_POSTS = [
       <p>Whatever you choose inbound, decide your <em>return</em> to DCA in advance. The trip that misses flights is rarely the arrival — it is the 6 a.m. departure gambled on morning-of availability. A round-trip booking locks both legs at one flat rate and turns the <a href="/blog/dca-airport-early-morning-flights">earliest departure banks</a> into a non-event.</p>
 
       <h2>The bottom line</h2>
-      <p>DCA-to-DC is the rare route where every option works and the best one depends entirely on the trip. Use Metro when you are light and loose, apps when stakes are low — and when the trip matters, book the car that is committed before you land. Get a flat all-inclusive quote at the <a href="/booking">booking page</a> or call DCA Limos at (877) 609-1919, any hour, any day.</p>
+      <p>DCA-to-DC is the rare route where every option works and the best one depends entirely on the trip. Use Metro when you are light and loose, apps when stakes are low — and when the trip matters, book the car that is committed before you land. Get a flat quote at the <a href="/booking">booking page</a> or call DCA Limos at (877) 609-1919, any hour, any day.</p>
     `,
     faqs: [
       {
@@ -1470,7 +1470,7 @@ export const BLOG_POSTS = [
       <p class="lead">Reagan National is Northern Virginia's airport — it sits <em>in</em> Arlington — yet booking a car service into NoVA raises more practical questions than the short DC hop: What should Tysons cost versus Ashburn? How does the Pentagon corridor work? When does the trip stop being rideshare-sized? We have already <a href="/blog/dca-to-virginia-car-service-guide">compared Metro, rideshare, and chauffeur by corridor</a>; this is the companion service guide — prices, pickup logistics, and booking practice for travelers headed into Virginia.</p>
 
       <h2>What DCA car service costs across Northern Virginia</h2>
-      <p>Representative 2026 flat rates for a chauffeured luxury sedan, all-inclusive:</p>
+      <p>Representative 2026 flat rates for a chauffeured luxury sedan, before the 20% gratuity:</p>
       <ul>
         <li><strong>Arlington — Crystal City, Rosslyn, Ballston:</strong> roughly $65–$90. Minutes from the terminal.</li>
         <li><strong>Alexandria and Old Town:</strong> roughly $70–$95 down the George Washington Parkway.</li>
@@ -1568,7 +1568,7 @@ export const BLOG_POSTS = [
       <p>Once the account exists, the daily mechanics should be friction-free. Executive assistants and travel coordinators book by phone, email, or portal — whichever fits their workflow — and both the traveler and the booker receive confirmations with the chauffeur's details before pickup. Changes are a message, not a renegotiation: a meeting that runs long, a flight swapped to the earlier departure, a second passenger added at the curb. Dispatch absorbs it and reconfirms. For recurring patterns — the CFO's Monday DCA departure, the weekly Tysons client visit — standing reservations remove even the booking step. The test of a good corporate provider is not the brochure; it is how little anyone at your company has to think about ground transportation ninety days in.</p>
 
       <h2>Billing that finance departments actually like</h2>
-      <p>The quiet reason companies switch: the receipts. Rideshare reimbursement means hundreds of variable receipts, surge-priced outliers, and expense-report friction. Corporate car service means one monthly invoice, every trip a predictable flat line item tagged by department or matter number, gratuity handled inside the rate if you choose. Your controller reconciles it in minutes, and travel spend becomes a number you can forecast rather than a scatter plot.</p>
+      <p>The quiet reason companies switch: the receipts. Rideshare reimbursement means hundreds of variable receipts, surge-priced outliers, and expense-report friction. Corporate car service means one monthly invoice, every trip a predictable flat line item tagged by department or matter number, the 20% gratuity shown on each line. Your controller reconciles it in minutes, and travel spend becomes a number you can forecast rather than a scatter plot.</p>
 
       <h2>What it costs, honestly</h2>
       <p>Corporate pricing starts from the same flat-rate structure we publish for everyone — <a href="/blog/how-much-does-dca-airport-limo-cost">the 2026 rates</a> — with negotiated discounts scaling on volume and route consistency. The real financial case is rarely the per-trip rate anyway: it is the missed-meeting risk retired, the coordinator hours recovered, and the surge exposure eliminated across a year of travel.</p>
@@ -1668,7 +1668,7 @@ export const BLOG_POSTS = [
       },
       {
         q: 'How much is a car service from each airport into DC?',
-        a: 'In 2026, chauffeured sedans run about $75–$100 flat from DCA into the District and roughly $110–$150 from Dulles, both all-inclusive with flight tracking and wait time. Call (877) 609-1919 for exact quotes on either airport.',
+        a: 'In 2026, chauffeured sedans run about $75–$100 flat from DCA into the District and roughly $110–$150 from Dulles, both flat rates that include flight tracking and wait time, with a 20% gratuity added. Call (877) 609-1919 for exact quotes on either airport.',
       },
       {
         q: 'Does Metro serve both DCA and Dulles?',

@@ -2,7 +2,7 @@
 title: "Best Limo Service for Groups in the DC Area: Choosing the Right Vehicle"
 slug: "best-limo-service-for-groups-dc"
 date: "September 28, 2026"
-metaDescription: "Traveling with a group in DC, Maryland or Virginia? Compare Sprinter vans, SUVs and stretch limos to find the right fit and fair per-person pricing."
+metaDescription: "Traveling with a group in DC, Maryland or Virginia? Compare Sprinter vans and SUVs to find the right fit and fair per-person pricing."
 image: "/images/mercedes-sprinter.webp"
 url: "https://dcalimos.com/blog/best-limo-service-for-groups-dc"
 ---
@@ -18,11 +18,11 @@ A single rideshare works fine for one to three people. Beyond that, you're eithe
 
 - **4-5 passengers:** A Lincoln Navigator or Chevrolet Suburban comfortably seats the group with room for luggage — see the [fleet page](/fleet) for exact capacities.
 
-- **6-10 passengers:** A Mercedes Sprinter van is the standard choice, offering forward-facing seating and real luggage space rather than a cramped third row.
+- **6-13 passengers:** A Mercedes Sprinter Shuttle is the standard choice, seating up to 13 with forward-facing seating and real luggage space rather than a cramped third row.
 
-- **10-14 passengers:** A larger Sprinter configuration keeps a bigger group together in one vehicle instead of splitting into two.
+- **More than 13 passengers:** A second vehicle, coordinated on the same schedule, keeps a bigger group moving together without overloading one van.
 
-- **Celebration groups:** A stretch limousine suits proms, anniversaries and milestone events where the vehicle itself is part of the occasion, though it typically seats fewer people comfortably than a Sprinter.
+- **Celebration groups:** The Sprinter Executive, with an upgraded cabin, mood lighting and luxury amenities for up to 13, suits proms, weddings and milestone events where the ride itself is part of the occasion. (We don't operate stretch limousines.)
 
 ## The Per-Person Cost Math
 
@@ -48,7 +48,7 @@ Groups often need more than a single point-to-point trip — an airport pickup, 
 
 ## Booking Timeline for Group Trips
 
-Group vehicles — Sprinter vans and limousines especially — are the first to sell out during busy periods: wedding season weekends, major DC event weekends, and the holiday travel stretch. Book as early as your group's dates are confirmed, particularly for a Saturday during spring or fall.
+Group vehicles — Sprinter vans and Navigators especially — are the first to sell out during busy periods: wedding season weekends, major DC event weekends, and the holiday travel stretch. Book as early as your group's dates are confirmed, particularly for a Saturday during spring or fall.
 
 ## Group Travel for School and University Trips
 
@@ -72,7 +72,7 @@ A family reunion or milestone celebration bringing relatives from several cities
 
 ## Prom and Graduation Group Travel
 
-Prom season and graduation weekends bring a distinct group travel pattern — typically a stretch limousine or Sprinter van booked for a set block of hours covering photos, dinner and the event itself. Parents booking on behalf of a group of students should confirm the chauffeur's policy around supervision expectations and any venue drop-off restrictions in advance, since these events often involve multiple stops within a tight evening window.
+Prom season and graduation weekends bring a distinct group travel pattern — typically a Sprinter van booked for a set block of hours covering photos, dinner and the event itself. Parents booking on behalf of a group of students should confirm the chauffeur's policy around supervision expectations and any venue drop-off restrictions in advance, since these events often involve multiple stops within a tight evening window.
 
 ## Planning for No-Shows and Headcount Changes
 
@@ -114,7 +114,7 @@ Often, yes. Splitting a group across two or three rideshare vehicles multiplies 
 
 **How far ahead should I book a group vehicle?**
 
-As early as possible, especially for weekend trips during wedding season or major DC event weekends — Sprinter vans and limousines are the first vehicles to sell out during busy periods.
+As early as possible, especially for weekend trips during wedding season or major DC event weekends — Sprinter vans and Lincoln Navigators are the first vehicles to sell out during busy periods.
 
 ## Related Pages
 

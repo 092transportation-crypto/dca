@@ -20,11 +20,11 @@ Unlike a single-city wedding market, DMV weddings routinely span jurisdictions i
 
 - **SUV (Navigator or Suburban)** — a small wedding party or immediate family group with room for dresses and garment bags.
 
-- **Mercedes Sprinter van** — the most popular choice for a full wedding party of six to fourteen, especially for the getting-ready-to-ceremony leg.
+- **Mercedes Sprinter Executive** — the most popular choice for a full wedding party of up to 13, with an upgraded cabin, mood lighting and luxury amenities, especially for the getting-ready-to-ceremony leg.
 
-- **Stretch limousine** — the classic choice for the couple's grand entrance or getaway, especially for a reception at a National Harbor or Annapolis waterfront venue.
+- **First Class sedan (BMW 7 Series or Mercedes S-Class)** — the couple's grand entrance or getaway car, especially for a reception at a National Harbor or Annapolis waterfront venue. We don't operate stretch limousines, so this or a Lincoln Navigator is what we recommend for the couple.
 
-Many couples book more than one vehicle class — a Sprinter for the wedding party and a separate luxury sedan or limousine reserved just for the couple. See the full [wedding limo service page](/limo/wedding-limo-service) for package options and pricing by vehicle.
+Many couples book more than one vehicle class — a Sprinter Executive for the wedding party and a separate First Class sedan or Navigator reserved just for the couple. See the full [wedding limo service page](/limo/wedding-limo-service) for package options and pricing by vehicle.
 
 ## Building the Day-Of Timeline
 
@@ -36,7 +36,7 @@ For weddings with a hotel block, a Sprinter van shuttle between the hotel and ve
 
 ## Booking Timeline: When to Reserve
 
-Wedding transportation is one of the vendors most often booked too late — and the one where waiting costs the most, since Sprinter vans, limousines and multi-vehicle bookings for a popular DC-area Saturday are the first vehicles to sell out. The practical timeline:
+Wedding transportation is one of the vendors most often booked too late — and the one where waiting costs the most, since Sprinter Executives, Navigators and multi-vehicle bookings for a popular DC-area Saturday are the first vehicles to sell out. The practical timeline:
 
 - **9-12 months out:** Request a quote as soon as the venue and date are confirmed, even without a finished itinerary.
 
@@ -48,7 +48,7 @@ Wedding transportation is one of the vendors most often booked too late — and 
 
 ## Pricing and What's Included
 
-Wedding transportation is typically priced as an hourly block rather than a single flat-rate trip, since the day involves multiple stops and waiting between legs. A quote should include the chauffeur, fuel, tolls and the full block of hours requested — ask specifically what happens if the day runs long, since receptions rarely end exactly on schedule. Note also that Sprinter vans, limousines and special-event bookings carry a longer free-cancellation window (typically 12 hours before pickup) than a standard sedan trip, reflecting how far in advance those vehicles are held for you.
+Wedding transportation is typically priced as an hourly block rather than a single flat-rate trip, since the day involves multiple stops and waiting between legs. A quote should include the chauffeur, fuel, tolls and the full block of hours requested, and show the gratuity (with us, a 20% gratuity added to the rate) in the total — ask specifically what happens if the day runs long, since receptions rarely end exactly on schedule. Note also that Sprinter vans and special-event bookings carry a longer free-cancellation window (typically 12 hours before pickup) than a standard sedan trip, reflecting how far in advance those vehicles are held for you.
 
 ## Airport Transfers for Out-of-Town Guests
 
@@ -82,7 +82,7 @@ Multi-day wedding weekends — a welcome party Friday, the ceremony Saturday, a 
 
 ## Insurance and Liability Considerations
 
-Many DC-area wedding venues require proof of insurance from transportation vendors before allowing vehicles on the property, particularly for larger vehicles like Sprinter vans or limousines staging on private grounds. Confirm your transportation provider can furnish a certificate of insurance if your venue requires one — this is a standard request for a licensed commercial carrier, but worth asking about early rather than discovering the requirement the week of the wedding.
+Many DC-area wedding venues require proof of insurance from transportation vendors before allowing vehicles on the property, particularly for larger vehicles like Sprinter vans staging on private grounds. Confirm your transportation provider can furnish a certificate of insurance if your venue requires one — this is a standard request for a licensed commercial carrier, but worth asking about early rather than discovering the requirement the week of the wedding.
 
 ## Coordinating With Your Wedding Planner
 
@@ -108,11 +108,11 @@ Whether your wedding is a single-venue Georgetown ceremony or a full Chesapeake 
 
 **How far in advance should we book wedding transportation?**
 
-Request a quote 9-12 months ahead if possible, as soon as your venue and date are confirmed. Popular DC-area Saturdays during spring and fall wedding season book Sprinter vans and limousines first.
+Request a quote 9-12 months ahead if possible, as soon as your venue and date are confirmed. Popular DC-area Saturdays during spring and fall wedding season book Sprinter vans and Lincoln Navigators first.
 
 **What vehicle is best for a wedding party?**
 
-A Mercedes Sprinter van is the most popular choice for a full wedding party of six to fourteen. Many couples also book a separate luxury sedan or stretch limousine just for the couple.
+The Mercedes Sprinter Executive is the most popular choice for a full wedding party, seating up to 13 in an upgraded cabin. Many couples also book a separate First Class sedan or Lincoln Navigator just for the couple.
 
 **Is wedding transportation priced differently from a standard airport transfer?**
 

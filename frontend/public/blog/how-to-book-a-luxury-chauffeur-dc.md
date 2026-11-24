@@ -22,17 +22,17 @@ Match the vehicle to the trip, not just the occasion:
 
 - **Luxury sedan (S-Class, 7 Series)** — client-facing pickups, board-level travel.
 
-- **SUV** — extra luggage or up to five passengers.
+- **SUV** — extra luggage or up to five passengers (six in a Lincoln Navigator).
 
-- **Sprinter van** — groups of six or more traveling together.
+- **Sprinter Shuttle** — groups of up to 13 traveling together.
 
-- **Stretch limousine** — celebrations, proms, milestone events.
+- **Sprinter Executive** — celebrations, proms, weddings and milestone events, with an upgraded cabin for up to 13. (We don't operate stretch limousines.)
 
 The full [fleet page](/fleet) lists capacity, photos and pricing for each class so you can compare before requesting a quote.
 
 ## Step 3: Get a Firm, Written Quote
 
-A legitimate luxury chauffeur service quotes a flat, all-inclusive price before you book — not an estimate that can change after the fact. Confirm the quote includes tolls, fuel and the chauffeur's time, and get it in writing (email or text confirmation) rather than relying on a verbal number. If a provider can't give you a firm price before booking, that's a signal to look elsewhere.
+A legitimate luxury chauffeur service quotes a firm, flat price before you book — not an estimate that can change after the fact. Confirm the quote includes tolls, fuel and the chauffeur's time and shows how gratuity is handled (ours adds a 20% gratuity to the rate, listed in the total), and get it in writing (email or text confirmation) rather than relying on a verbal number. If a provider can't give you a firm price before booking, that's a signal to look elsewhere.
 
 ## Step 4: Specify Flight Details for Airport Trips
 
@@ -44,7 +44,7 @@ Curbside pickup means your chauffeur waits at the arrivals curb closest to your 
 
 ## Step 6: Confirm the Cancellation Policy
 
-Ask directly: sedan and SUV reservations typically cancel free of charge up to a few hours before pickup, while Sprinter vans, limousines and event bookings usually require more notice — often 12 hours — reflecting how far ahead those vehicles are held. Knowing this upfront avoids a surprise if your plans shift.
+Ask directly: sedan and SUV reservations typically cancel free of charge up to a few hours before pickup, while Sprinter vans and event bookings usually require more notice — often 12 hours — reflecting how far ahead those vehicles are held. Knowing this upfront avoids a surprise if your plans shift.
 
 ## Step 7: Confirm Payment Timing
 
@@ -66,7 +66,7 @@ Expect a confirmation message the day before or morning of your trip with the ch
 
 - Not confirming the cancellation window before booking a wedding or event vehicle.
 
-- Waiting until the last minute for a Sprinter van or limousine during a busy season.
+- Waiting until the last minute for a Sprinter van or Lincoln Navigator during a busy season.
 
 ## Booking for Someone Else
 
@@ -128,7 +128,7 @@ Point-to-point suits a single trip between two fixed addresses. Hourly booking s
 
 **When is the best time to book to guarantee my preferred vehicle?**
 
-24-48 hours ahead for a standard sedan or SUV trip. For a Sprinter van, limousine, or during a busy season like wedding season or the winter holidays, book as far ahead as possible.
+24-48 hours ahead for a standard sedan or SUV trip. For a Sprinter van, a wedding or prom booking, or during a busy season like wedding season or the winter holidays, book as far ahead as possible.
 
 ## Related Pages
 

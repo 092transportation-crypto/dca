@@ -52,7 +52,7 @@ Beyond single events, a few recurring seasonal patterns are worth building into 
 
 ## Changing or Canceling a Reservation
 
-Plans shift, and it's worth knowing the flexibility built into a reservation before you need it. Sedan and SUV bookings typically allow free changes or cancellation up to a few hours before pickup, while Sprinter vans, limousines and event bookings need more notice — often 12 hours — since those vehicles are held specifically for your date well in advance. None of this should discourage booking early: adjusting a confirmed reservation is simple, while conjuring an available vehicle on short notice during a busy week is not.
+Plans shift, and it's worth knowing the flexibility built into a reservation before you need it. Sedan and SUV bookings typically allow free changes or cancellation up to a few hours before pickup, while Sprinter vans and event bookings need more notice — often 12 hours — since those vehicles are held specifically for your date well in advance. None of this should discourage booking early: adjusting a confirmed reservation is simple, while conjuring an available vehicle on short notice during a busy week is not.
 
 ## Booking Around Flight Changes and Cancellations
 
@@ -90,7 +90,7 @@ Whatever your timeline, get a flat-rate quote and lock your vehicle class before
 
 **When should I book wedding transportation?**
 
-Reserve Sprinter vans, limousines and multi-vehicle wedding bookings 9 to 12 months ahead if possible. Popular Saturdays during spring and fall wedding season book out fastest.
+Reserve Sprinter Executives and multi-vehicle wedding bookings 9 to 12 months ahead if possible. Popular Saturdays during spring and fall wedding season book out fastest.
 
 **Does booking earlier make the price cheaper?**
 

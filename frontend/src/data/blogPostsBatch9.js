@@ -48,7 +48,7 @@ export const BLOG_POSTS_BATCH9 = [
       <p>Off-peak, a short Arlington rideshare trip can undercut a flat-rate sedan by a few dollars. During the 7–9 a.m. and 4–7 p.m. windows when Crystal City's offices empty out, or whenever a Metro disruption pushes commuters toward rideshare apps, surge pricing routinely erases that gap and then some — on a trip short enough that a $10 difference becomes a 30–50% swing in the final price. For a one-off leisure trip with flexible timing, rideshare remains a reasonable call. For a business trip where the fare needs to show up on an expense report at a known number, a flat rate removes the guesswork.</p>
 
       <h2>The bottom line</h2>
-      <p>Budget roughly $55 and up for a sedan to Crystal City or Pentagon City, and $65–$75 to Rosslyn, Ballston or Clarendon — all flat, all-inclusive and confirmed before you land. <a href="/booking">Get an exact quote</a> for your Arlington address or call (877) 609-1919, available 24/7.</p>
+      <p>Budget roughly $55 and up for a sedan to Crystal City or Pentagon City, and $65–$75 to Rosslyn, Ballston or Clarendon — all flat rates, with tolls and fuel included and the 20% gratuity added to the rate, confirmed in writing before you land. <a href="/booking">Get an exact quote</a> for your Arlington address or call (877) 609-1919, available 24/7.</p>
     `,
     faqs: [
       {
@@ -278,7 +278,7 @@ export const BLOG_POSTS_BATCH9 = [
       'A step-by-step booking timeline for a Maryland wedding limo — from your first call to the day-of pickup, including deposits and contract review.',
     excerpt:
       "Choosing the vehicle is the easy part. Here is the actual step-by-step process for booking a Maryland wedding limo — when to call, what to put in writing, and what happens on the day.",
-    image: '/images/blog/scenario-wedding-1.webp',
+    image: '/images/wedding-service.webp',
     author: 'Sarah Williams',
     authorBio: 'Executive travel consultant specializing in ground transportation for corporate and government clients across the DMV.',
     date: 'March 31, 2026',
@@ -288,13 +288,13 @@ export const BLOG_POSTS_BATCH9 = [
       <p class="lead">Most Maryland wedding limo guides focus on which vehicle to pick. That matters, and our <a href="/limo/wedding-limo-service">wedding limo service page</a> and <a href="/annapolis-wedding-limo-service">Annapolis wedding limo page</a> cover the vehicle side in depth. What trips up far more couples is the booking process itself — when to actually make the call, what needs to be in writing, and what the day-of logistics look like once the contract is signed. Here is that process, step by step.</p>
 
       <h2>Step 1: Book as soon as the date and venue are locked (9–12 months out)</h2>
-      <p>Wedding transportation in Maryland sells out on peak Saturdays in spring and fall before almost anything else in the fleet, because the vehicles that handle weddings best — Sprinter vans and stretch limousines — are a limited pool shared across every other wedding, prom and special event booked that same weekend. The moment your venue and date are confirmed, that is the moment to call, even before you have finalized a guest list or a florist.</p>
+      <p>Wedding transportation in Maryland sells out on peak Saturdays in spring and fall before almost anything else in the fleet, because the vehicles that handle weddings best — Sprinter vans — are a limited pool shared across every other wedding, prom and special event booked that same weekend. The moment your venue and date are confirmed, that is the moment to call, even before you have finalized a guest list or a florist.</p>
 
       <h2>Step 2: Share the real logistics, not just the date</h2>
       <p>A useful first call covers more than "we need a limo." Tell your coordinator the ceremony and reception venues (and whether they are the same location), the approximate number of people who need transportation versus just the couple, whether there is a separate bridal party group, and the general timeline — getting-ready location, ceremony time, photo window, reception start. This is what turns a vague quote into an accurate one, and it is also what lets your coordinator flag a problem early, like a venue with a gravel lot that limits which vehicle can actually access it.</p>
 
       <h2>Step 3: Get the quote and the contract in writing — and read the cancellation terms</h2>
-      <p>A legitimate Maryland wedding transportation company puts the vehicle, the hourly block or flat rate, the deposit amount, and the cancellation policy in a written contract before taking a deposit. Read the cancellation section specifically: our own policy allows free cancellation up to 12 hours before pickup for Sprinter vans, limousines and special-event bookings, and you should know your provider's equivalent before you sign, not after a family emergency forces a date change.</p>
+      <p>A legitimate Maryland wedding transportation company puts the vehicle, the hourly block or flat rate, the deposit amount, and the cancellation policy in a written contract before taking a deposit. Read the cancellation section specifically: our own policy allows free cancellation up to 12 hours before pickup for Sprinter vans and special-event bookings, and you should know your provider's equivalent before you sign, not after a family emergency forces a date change.</p>
 
       <h2>Step 4: Confirm the deposit and the final headcount deadline</h2>
       <p>Most wedding transportation deposits run a percentage of the total booking, with the balance due closer to the date once final guest and vehicle counts are locked. Put the exact deposit amount, the balance due date, and any added fees for extra stops or overtime in writing at this stage — this is the single most common source of day-of surprises when it is left verbal.</p>
@@ -303,7 +303,7 @@ export const BLOG_POSTS_BATCH9 = [
       <p>Roughly two to three weeks before the wedding, a good transportation company reconfirms the full day-of schedule directly with you or your planner: pickup times and addresses for the getting-ready location(s), the ceremony venue, the photo location if different, and the reception. This is also when to flag any last-minute changes — a new photo location, an added pickup stop for out-of-town family — while there is still time to adjust the plan.</p>
 
       <h2>Step 6: The day-of handoff</h2>
-      <p>On the wedding day itself, your chauffeur should arrive early, confirm the schedule with whoever is coordinating (you, a parent, or your planner), and then simply execute it — no renegotiating logistics in the middle of getting ready. A Sprinter van typically handles the bridal party between locations while a stretch limousine or luxury sedan is reserved for the couple, and multi-vehicle weddings are staged so every car arrives and leaves on the same clock.</p>
+      <p>On the wedding day itself, your chauffeur should arrive early, confirm the schedule with whoever is coordinating (you, a parent, or your planner), and then simply execute it — no renegotiating logistics in the middle of getting ready. A Sprinter Executive typically handles the bridal party between locations while a First Class sedan or Lincoln Navigator is reserved for the couple, and multi-vehicle weddings are staged so every car arrives and leaves on the same clock.</p>
 
       <h2>A quick timeline checklist</h2>
       <ul>
@@ -318,7 +318,7 @@ export const BLOG_POSTS_BATCH9 = [
     faqs: [
       {
         q: 'How far in advance should I book a Maryland wedding limo?',
-        a: 'As soon as your date and venue are confirmed — ideally 9 to 12 months out. Peak Saturday dates in spring and fall sell out the Sprinter vans and limousines wedding parties need first.',
+        a: 'As soon as your date and venue are confirmed — ideally 9 to 12 months out. Peak Saturday dates in spring and fall sell out the Sprinter vans and Navigators wedding parties need first.',
       },
       {
         q: 'What should be in writing before I pay a deposit?',
@@ -330,11 +330,11 @@ export const BLOG_POSTS_BATCH9 = [
       },
       {
         q: 'What is your cancellation policy for wedding bookings?',
-        a: 'Sprinter van, limousine and special-event wedding bookings cancel free of charge up to 12 hours before the scheduled pickup time.',
+        a: 'Sprinter van and special-event wedding bookings cancel free of charge up to 12 hours before the scheduled pickup time.',
       },
       {
         q: 'Can you coordinate multiple vehicles for a bridal party and the couple separately?',
-        a: 'Yes. Multi-vehicle weddings are booked as a single coordinated reservation so a Sprinter van for the bridal party and a limousine or sedan for the couple arrive and depart on the same schedule.',
+        a: 'Yes. Multi-vehicle weddings are booked as a single coordinated reservation so a Sprinter van for the bridal party and a sedan or SUV for the couple arrive and depart on the same schedule.',
       },
     ],
   },
@@ -486,24 +486,23 @@ export const BLOG_POSTS_BATCH9 = [
     readTime: '8 min read',
     category: 'Occasions',
     content: `
-      <p class="lead">Our <a href="/limo/prom-limo-service">prom limo service page</a> and <a href="/blog/stretch-limo-vs-sprinter-van-vs-suv-prom-dmv">stretch limo vs. Sprinter van comparison</a> cover vehicle choice in detail. What most prom planning guides skip is the question every group chat eventually gets to: what does this actually cost each person? Here is a real 2026 pricing breakdown for Maryland prom season, by vehicle and group size.</p>
+      <p class="lead">Our <a href="/limo/prom-limo-service">prom limo service page</a> and <a href="/blog/stretch-limo-vs-sprinter-van-vs-suv-prom-dmv">Sprinter van vs. SUV prom comparison</a> cover vehicle choice in detail. What most prom planning guides skip is the question every group chat eventually gets to: what does this actually cost each person? Here is a real 2026 pricing breakdown for Maryland prom season, by vehicle and group size.</p>
 
       <h2>How prom limo pricing actually works</h2>
       <p>Prom transportation is booked hourly, not as a flat point-to-point fare, because the night typically includes multiple stops — pickup, dinner, photos, the prom venue, and often an after-party. Maryland prom bookings generally run a minimum of 4 to 6 hours, and the hourly rate scales with vehicle size and capacity rather than distance traveled.</p>
 
       <h2>Typical hourly rates by vehicle</h2>
       <ul>
-        <li><strong>Stretch limousine (up to 8 passengers):</strong> generally $120–$160 per hour, with a 4–5 hour minimum on prom weekends.</li>
-        <li><strong>Premium SUV — Navigator or Suburban (up to 6 passengers):</strong> generally $110–$150 per hour.</li>
-        <li><strong>Mercedes Sprinter van (up to 14 passengers):</strong> generally $160–$210 per hour — the best per-person value for larger groups.</li>
+        <li><strong>SUV — Navigator (up to 6 passengers) or Suburban (up to 5):</strong> generally $110–$150 per hour.</li>
+        <li><strong>Mercedes Sprinter van (up to 13 passengers):</strong> generally $160–$210 per hour — the best per-person value for larger groups.</li>
       </ul>
-      <p>Peak Maryland prom Saturdays in April and May carry the highest demand of the year for these vehicles, and rates (along with availability) tighten the closer you book to the date.</p>
+      <p>We do not operate stretch limousines; for prom, the Sprinter Executive, with its upgraded cabin and mood lighting, is the vehicle most groups choose. Peak Maryland prom Saturdays in April and May carry the highest demand of the year for these vehicles, and rates (along with availability) tighten the closer you book to the date.</p>
 
       <h2>The per-person math, worked out</h2>
-      <p>A stretch limousine at $140/hour for a 5-hour night runs $700 total. Split eight ways, that is $87.50 per person. A Sprinter van at $185/hour for the same 5 hours runs $925 total — but split across 14 passengers, that is $66 per person, noticeably cheaper per head despite the higher total, because the per-person cost drops as the group grows into the van's capacity. The practical lesson: a smaller group of six splitting a limousine pays meaningfully more per person than a larger group of twelve to fourteen filling a Sprinter van.</p>
+      <p>A Lincoln Navigator at $120/hour for a 5-hour night runs $600 total. Split six ways, that is $100 per person. A Sprinter van at $185/hour for the same 5 hours runs $925 total — but split across 13 passengers, that is about $71 per person, noticeably cheaper per head despite the higher total, because the per-person cost drops as the group grows into the van's capacity. The practical lesson: a smaller group of six splitting an SUV pays meaningfully more per person than a larger group of twelve to thirteen filling a Sprinter van.</p>
 
       <h2>What is included in the hourly rate</h2>
-      <p>The quoted hourly rate includes the vehicle, fuel, and a licensed, background-checked chauffeur for the full confirmed block — there is no separate driver fee or fuel surcharge added at the end of the night. Standard amenities (bottled water, interior lighting for photos) are included; a few companies charge extra for decoration or a specific arrival request, so confirm that up front if your group wants anything beyond the standard package.</p>
+      <p>The quoted hourly rate includes the vehicle, fuel, and a licensed, background-checked chauffeur for the full confirmed block — there is no separate driver fee or fuel surcharge added at the end of the night. A 20% gratuity is added to the rate, and your written quote shows the full total before you confirm. Standard amenities (bottled water, interior lighting for photos) are included; a few companies charge extra for decoration or a specific arrival request, so confirm that up front if your group wants anything beyond the standard package.</p>
 
       <h2>Where groups actually save money</h2>
       <ul>
@@ -526,8 +525,8 @@ export const BLOG_POSTS_BATCH9 = [
         a: 'It depends heavily on vehicle and group size, but typically ranges from about $65 to $90 per person for a well-filled group, with larger Sprinter van groups generally landing at the lower end of that range.',
       },
       {
-        q: 'Is a Sprinter van cheaper per person than a stretch limousine for prom?',
-        a: 'Usually, once the group is large enough to fill most of its 14-passenger capacity. A smaller group splitting a limousine often pays more per head than a larger group filling a van, even though the van\'s total hourly rate is higher.',
+        q: 'Is a Sprinter van cheaper per person than an SUV for prom?',
+        a: 'Usually, once the group is large enough to fill most of its 13-passenger capacity. A smaller group splitting an SUV often pays more per head than a larger group filling a van, even though the van\'s total hourly rate is higher.',
       },
       {
         q: 'How many hours should we book for prom night?',
@@ -633,20 +632,20 @@ export const BLOG_POSTS_BATCH9 = [
       <p>Navigators and Suburbans see heavier demand relative to their numbers in the fleet, since they serve both airport families with luggage and smaller corporate groups. A few days' lead time meaningfully improves your odds of getting your specific requested vehicle rather than a comparable substitute, particularly on weekends.</p>
 
       <h2>Sprinter vans: book weeks ahead, not days</h2>
-      <p>Sprinter vans are the vehicle most likely to be fully booked on any given weekend, because they serve the highest-value, least-flexible use cases: wedding parties, corporate roadshows, and large family or group airport transfers. A single Sprinter van can only be in one place at a time, and there are meaningfully fewer of them in any fleet than sedans. If your trip needs a 14-passenger van — a family reunion airport pickup, a bachelorette party, a corporate team — two to four weeks of lead time is the realistic minimum during busy seasons, not an overcautious buffer.</p>
+      <p>Sprinter vans are the vehicle most likely to be fully booked on any given weekend, because they serve the highest-value, least-flexible use cases: wedding parties, corporate roadshows, and large family or group airport transfers. A single Sprinter van can only be in one place at a time, and there are meaningfully fewer of them in any fleet than sedans. If your trip needs a 13-passenger van — a family reunion airport pickup, a bachelorette party, a corporate team — two to four weeks of lead time is the realistic minimum during busy seasons, not an overcautious buffer.</p>
 
-      <h2>Stretch limousines: similar scarcity, tied to event season</h2>
-      <p>Limousines face the same scarcity logic as Sprinter vans but concentrated even more tightly around wedding and prom season weekends. A limousine booked for a specific Saturday in April or May competes directly with every other wedding and prom happening that same weekend across the region — book two to three months out for peak-season Saturdays specifically, even though a Tuesday booking the same month might be available on much shorter notice.</p>
+      <h2>Sprinter Executive for weddings and proms: tied to event season</h2>
+      <p>The Sprinter Executive, the upgraded-cabin Sprinter most couples and prom groups ask for (we do not operate stretch limousines), faces the same scarcity logic as any Sprinter but concentrated even more tightly around wedding and prom season weekends. A Sprinter Executive booked for a specific Saturday in April or May competes directly with every other wedding and prom happening that same weekend across the region — book two to three months out for peak-season Saturdays specifically, even though a Tuesday booking the same month might be available on much shorter notice.</p>
 
       <h2>Multi-vehicle fleets: the longest lead time of all</h2>
-      <p>A wedding or corporate event needing three or more coordinated vehicles — say, a limousine for the couple and two Sprinter vans for guests — is booking against the combined scarcity of every vehicle type involved simultaneously, on the same date, at the same time. This is the booking category that most benefits from locking in as soon as the date is set, often nine to twelve months ahead for a wedding, since the probability of all required vehicles being available drops the closer you get to a popular date.</p>
+      <p>A wedding or corporate event needing three or more coordinated vehicles — say, a First Class sedan for the couple and two Sprinter vans for guests — is booking against the combined scarcity of every vehicle type involved simultaneously, on the same date, at the same time. This is the booking category that most benefits from locking in as soon as the date is set, often nine to twelve months ahead for a wedding, since the probability of all required vehicles being available drops the closer you get to a popular date.</p>
 
       <h2>A simple lead-time guide by vehicle</h2>
       <ul>
         <li><strong>Sedan or standard SUV, solo/couple trip:</strong> same-day to a few days ahead is usually workable outside major surge weeks.</li>
         <li><strong>Premium SUV:</strong> a few days to a week ahead for your specific vehicle preference.</li>
         <li><strong>Sprinter van:</strong> 2–4 weeks ahead during busy seasons; book earlier for a specific weekend.</li>
-        <li><strong>Stretch limousine:</strong> 2–3 months ahead for peak wedding/prom-season Saturdays.</li>
+        <li><strong>Sprinter Executive for a wedding or prom:</strong> 2–3 months ahead for peak wedding/prom-season Saturdays.</li>
         <li><strong>Multi-vehicle fleet (wedding, large corporate event):</strong> 9–12 months ahead once the date is confirmed.</li>
       </ul>
       <p>Not sure which category your trip falls into? Tell us the vehicle and date and we will give you an honest read on availability. <a href="/booking">Request a quote</a> or call (877) 609-1919.</p>
@@ -661,8 +660,8 @@ export const BLOG_POSTS_BATCH9 = [
         a: 'There are far fewer Sprinter vans in any fleet relative to demand, and each one can only serve one group at a time. They also serve high-value, date-fixed occasions like weddings and corporate roadshows that book early, so availability tightens faster.',
       },
       {
-        q: 'How far ahead should I book a limousine for a specific Saturday?',
-        a: 'For a peak wedding or prom-season Saturday in spring or fall, two to three months ahead is a safer window than for a random weekday, which may have availability on much shorter notice.',
+        q: 'How far ahead should I book a wedding or prom vehicle for a specific Saturday?',
+        a: 'We do not run stretch limousines, so most couples and prom groups book our Sprinter Executive. For a peak wedding or prom-season Saturday in spring or fall, two to three months ahead is a safer window than for a random weekday, which may have availability on much shorter notice.',
       },
       {
         q: 'What if my event needs multiple vehicle types on the same date?',

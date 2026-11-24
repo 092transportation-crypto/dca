@@ -26,10 +26,10 @@ export const MARYLAND_BATCH5 = [
     ],
     highlights: [
       'Dulles transfers in as little as 12–20 minutes — the fastest airport connection in the area',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know Historic Downtown Herndon, the W&OD Trail, Worldgate Centre and the Herndon Silver Line Metro station',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Corporate accounts with monthly invoicing for Dulles-corridor technology and government-contracting employers',
       'Early-morning and late-night availability built around IAD\'s flight schedule',
     ],
@@ -59,14 +59,14 @@ export const MARYLAND_BATCH5 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'tech-corridor teams and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'tech-corridor teams and groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Herndon to Dulles Airport cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Because Herndon is so close to IAD, it is typically one of our most economical airport transfers. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Because Herndon is so close to IAD, it is typically one of our most economical airport transfers. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Herndon to Dulles, DCA or BWI?',
@@ -111,15 +111,15 @@ export const MARYLAND_BATCH5 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Clarendon is Arlington\'s nightlife and shopping heart — Wilson Boulevard\'s restaurant row, Market Common, and a Metro stop that makes it one of the busiest corners of the Rosslyn-Ballston corridor. DCA Limos runs chauffeured sedans, SUVs and stretch limousines through Clarendon every night of the week, for date nights, group outings and the airport run the next morning.',
+      'Clarendon is Arlington\'s nightlife and shopping heart — Wilson Boulevard\'s restaurant row, Market Common, and a Metro stop that makes it one of the busiest corners of the Rosslyn-Ballston corridor. DCA Limos runs chauffeured sedans, SUVs and Sprinter vans through Clarendon every night of the week, for date nights, group outings and the airport run the next morning.',
       'Reagan National is just 5 miles from Clarendon — about 12 to 20 minutes via Wilson Boulevard and the GW Parkway — making it one of the fastest airport connections anywhere in Northern Virginia. We cover Dulles (22 miles) and BWI (40 miles) just as often, with every airport trip flight-tracked and complimentary wait time included.',
     ],
     highlights: [
       'Reagan National 12–20 minutes away — one of the fastest DCA connections in Arlington',
-      'Flat, all-inclusive quotes with no surge pricing, even on the busiest Wilson Blvd nights',
+      'Flat quotes with no surge pricing, even on the busiest Wilson Blvd nights',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know Market Common Clarendon, the Clarendon Metro station and Wilson Blvd\'s restaurant and bar row',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Group transportation for bar crawls, birthdays and bachelor/bachelorette nights without a designated driver',
       'Corporate accounts with monthly invoicing for Clarendon and Courthouse-area employers',
     ],
@@ -141,7 +141,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: 'Nights out, group travel and corporate trips',
         paragraphs: [
-          'Clarendon\'s nightlife scene keeps our evening calendar full — bachelor and bachelorette parties, birthday crawls along Wilson Boulevard, and client dinners that end with a 10 p.m. pickup instead of a surge-priced rideshare. Sprinter vans keep groups of up to 14 together for a bar crawl, and corporate clients headquartered along the Rosslyn-Ballston corridor keep standing accounts for roadshows and visiting staff.',
+          'Clarendon\'s nightlife scene keeps our evening calendar full — bachelor and bachelorette parties, birthday crawls along Wilson Boulevard, and client dinners that end with a 10 p.m. pickup instead of a surge-priced rideshare. Sprinter vans keep groups of up to 13 together for a bar crawl, and corporate clients headquartered along the Rosslyn-Ballston corridor keep standing accounts for roadshows and visiting staff.',
         ],
       },
     ],
@@ -149,14 +149,14 @@ export const MARYLAND_BATCH5 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'date nights and solo travel' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'small groups heading out for the night' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'bar crawls and group nights out' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'birthdays and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'bar crawls and group nights out' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Clarendon to Reagan National cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. There is no surge pricing, even on busy Wilson Blvd nights. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. There is no surge pricing, even on busy Wilson Blvd nights. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Clarendon to DCA, Dulles or BWI?',
@@ -164,7 +164,7 @@ export const MARYLAND_BATCH5 = [
       },
       {
         q: 'Can you handle a group night out in Clarendon?',
-        a: 'Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, which is ideal for bar crawls, bachelor/bachelorette parties and birthday celebrations along Wilson Boulevard.',
+        a: 'Yes. Sprinter vans seat up to 13, which is ideal for bar crawls, bachelor/bachelorette parties and birthday celebrations along Wilson Boulevard.',
       },
       {
         q: 'Do you offer meet and greet for arrivals coming back to Clarendon?',
@@ -206,10 +206,10 @@ export const MARYLAND_BATCH5 = [
     ],
     highlights: [
       'Reagan National just 5–10 minutes away — the shortest airport transfer we offer in Northern Virginia',
-      'Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay',
+      'Flat quotes with no surge pricing — the price you approve is the price you pay',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know the Fashion Centre at Pentagon City, Pentagon security protocols and National Landing\'s hotel corridor',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Corporate and government accounts with monthly invoicing for Pentagon-adjacent contractors and agencies',
       'Hotel transfers for the Ritz-Carlton, Residence Inn and other Pentagon City properties',
     ],
@@ -239,14 +239,14 @@ export const MARYLAND_BATCH5 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'government and business travel' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and shopping trips with bags' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'hotel groups and corporate teams' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'hotel groups and corporate teams' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Pentagon City to Reagan National cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Because the airport is so close, it is typically one of our most economical transfers. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Because the airport is so close, it is typically one of our most economical transfers. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Pentagon City to DCA, Dulles or BWI?',
@@ -296,10 +296,10 @@ export const MARYLAND_BATCH5 = [
     ],
     highlights: [
       'Dulles transfers in as little as 12–18 minutes — right outside the airport\'s back gate',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know the Smithsonian Udvar-Hazy Center, the Dulles Expo Center and Chantilly\'s hotel corridor',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Expo and conference group transportation for Dulles Expo Center events',
       'Corporate accounts with monthly invoicing for Dulles-adjacent businesses and government contractors',
     ],
@@ -328,14 +328,14 @@ export const MARYLAND_BATCH5 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families visiting Udvar-Hazy with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'expo groups and conference attendees' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'expo groups and conference attendees' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Chantilly to Dulles Airport cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Because Chantilly is right next to IAD, it is typically one of our most economical transfers. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Because Chantilly is right next to IAD, it is typically one of our most economical transfers. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Chantilly to Dulles, DCA or BWI?',
@@ -385,10 +385,10 @@ export const MARYLAND_BATCH5 = [
     ],
     highlights: [
       'Dulles transfers in as little as 12–18 minutes from Sterling\'s data-center corridor',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know One Loudoun, Dulles Town Center and the Route 28 / Route 7 technology corridor',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Corporate accounts with monthly invoicing for data-center and technology employers along Route 28',
       'Evening group transportation for One Loudoun dining and entertainment',
       'Regular pickups inside Loudoun County\'s "Data Center Alley" corporate campuses',
@@ -410,7 +410,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: 'Technology-corridor corporate travel and nights out',
         paragraphs: [
-          'Sterling\'s data-center and technology employers keep our corporate calendar full with roadshows, client visits and recurring executive transfers to Dulles. Sprinter vans handle team travel for conferences, while sedans cover single-executive airport runs with monthly invoicing available. On weekends, our SUVs and limousines run groups to and from One Loudoun\'s restaurants, movie theater and entertainment district.',
+          'Sterling\'s data-center and technology employers keep our corporate calendar full with roadshows, client visits and recurring executive transfers to Dulles. Sprinter vans handle team travel for conferences, while sedans cover single-executive airport runs with monthly invoicing available. On weekends, our SUVs and Sprinter vans run groups to and from One Loudoun\'s restaurants, movie theater and entertainment district.',
           'Loudoun County markets this stretch of Route 28 and the surrounding substations as "Data Center Alley," reportedly carrying a significant share of the world\'s internet traffic through the server farms that back up against Sterling\'s office parks — which means our corporate accounts here skew heavily toward cloud infrastructure, networking and managed-services firms rather than the government-contracting mix more common closer to DC. Dulles Town Center, one of the area\'s original enclosed shopping malls, anchors the retail side of town along Nokes Boulevard and remains a popular meeting and pickup point for visitors unfamiliar with the surrounding business parks.',
         ],
       },
@@ -419,14 +419,14 @@ export const MARYLAND_BATCH5 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'technology-corridor teams and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'One Loudoun nights out and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'technology-corridor teams and groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Sterling to Dulles Airport cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Because Sterling is minutes from IAD, it is typically one of our most economical transfers. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Because Sterling is minutes from IAD, it is typically one of our most economical transfers. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Sterling to Dulles, DCA or BWI?',
@@ -471,15 +471,15 @@ export const MARYLAND_BATCH5 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Olney is one of upper Montgomery County\'s quieter, more residential towns, known for the Olney Theatre Center and a walkable downtown along Georgia Avenue — and until now, it has gone without a dedicated chauffeured car service. DCA Limos covers all of Olney with late-model Mercedes sedans, SUVs, Sprinter vans and stretch limousines, from theater nights to airport transfers.',
+      'Olney is one of upper Montgomery County\'s quieter, more residential towns, known for the Olney Theatre Center and a walkable downtown along Georgia Avenue — and until now, it has gone without a dedicated chauffeured car service. DCA Limos covers all of Olney with late-model Mercedes sedans, SUVs and Sprinter vans, from theater nights to airport transfers.',
       'Reagan National is about 25 miles from Olney — 40 to 55 minutes via Georgia Avenue and the ICC (MD-200) or the Beltway — while BWI is 35 miles (50–65 minutes) and Dulles is 38 miles (55–70 minutes). Every airport trip is flight-tracked with complimentary wait time built in.',
     ],
     highlights: [
       'Flat-rate transfers to Reagan National, BWI and Dulles from every Olney address',
-      'Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay',
+      'Flat quotes with no surge pricing — the price you approve is the price you pay',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know the Olney Theatre Center, downtown Olney and the ICC (MD-200) corridor',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Theater-night service with pre-show drop-off and post-curtain pickup',
       'Corporate accounts with monthly invoicing available for upper Montgomery County employers',
     ],
@@ -514,14 +514,14 @@ export const MARYLAND_BATCH5 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'theater nights and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'theater groups and family gatherings' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'theater groups and family gatherings' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Olney to Reagan National cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. There is no surge pricing. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. There is no surge pricing. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Olney to DCA, BWI or Dulles?',
@@ -533,7 +533,7 @@ export const MARYLAND_BATCH5 = [
       },
       {
         q: 'Can you handle a family or group event in Olney?',
-        a: 'Yes. Sprinter vans seat up to 14 and stretch limousines up to 8, and we coordinate multiple vehicles for larger events.',
+        a: 'Yes. Sprinter vans seat up to 13, and we coordinate multiple vehicles for larger events.',
       },
       {
         q: 'Is DCA Limos available in Olney overnight and on holidays?',
@@ -568,15 +568,15 @@ export const MARYLAND_BATCH5 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Takoma Park sits right on the Washington DC line, a walkable, artsy community built around Old Town Takoma and the Takoma Metro station on the Red Line. DCA Limos covers all of Takoma Park with chauffeured sedans, SUVs, Sprinter vans and stretch limousines, from airport runs to the short hop into downtown DC.',
+      'Takoma Park sits right on the Washington DC line, a walkable, artsy community built around Old Town Takoma and the Takoma Metro station on the Red Line. DCA Limos covers all of Takoma Park with chauffeured sedans, SUVs and Sprinter vans, from airport runs to the short hop into downtown DC.',
       'Reagan National is about 9 miles from Takoma Park — 20 to 30 minutes via 16th Street or New Hampshire Avenue and the GW Parkway — while BWI and Dulles are each roughly 30 miles (40–55 minutes). Every airport trip is flight-tracked with complimentary wait time included.',
     ],
     highlights: [
       'Reagan National 20–30 minutes away, with easy access into downtown DC',
-      'Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay',
+      'Flat quotes with no surge pricing — the price you approve is the price you pay',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know Old Town Takoma, the Takoma Metro station and the Sligo Creek and New Hampshire Avenue corridors',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Farmers market and community-event drop-off coordinated around Old Town Takoma\'s weekend schedule',
       'Corporate accounts with monthly invoicing available for nearby employers',
     ],
@@ -606,14 +606,14 @@ export const MARYLAND_BATCH5 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo travelers and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'family gatherings and community events' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'family gatherings and community events' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Takoma Park to Reagan National cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. There is no surge pricing. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. There is no surge pricing. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Takoma Park to DCA, BWI or Dulles?',
@@ -663,10 +663,10 @@ export const MARYLAND_BATCH5 = [
     ],
     highlights: [
       'BWI just 30–40 minutes away — often the fastest airport option from College Park',
-      'Flat, all-inclusive quotes with no surge pricing — the price you approve is the price you pay',
+      'Flat quotes with no surge pricing — the price you approve is the price you pay',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know the University of Maryland campus, the Route 1 corridor and NASA Goddard',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Parent-move-in, graduation and campus-visit service built around the UMD academic calendar',
       'Corporate accounts with monthly invoicing for NASA Goddard contractors and Route 1 employers',
     ],
@@ -695,14 +695,14 @@ export const MARYLAND_BATCH5 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and faculty travel' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'move-in day and family visits with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'graduation groups and campus tours' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'formals and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'graduation groups and campus tours' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from College Park to BWI or Reagan National cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. There is no surge pricing, even on graduation weekend. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. There is no surge pricing, even on graduation weekend. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from College Park to BWI, DCA or Dulles?',
@@ -777,7 +777,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: 'Flat rates and group vehicles for any show',
         paragraphs: [
-          'Every Capital One Hall transfer is quoted as one flat, all-inclusive rate — fuel, tolls and chauffeur included, with no surge pricing when demand spikes at curtain call. Sedans suit couples and solo theatergoers, SUVs carry groups of five, and Sprinter vans keep larger parties of up to 13 together for corporate outings or group ticket packages.',
+          'Every Capital One Hall transfer is quoted as one flat rate — fuel, tolls and chauffeur included, with no surge pricing when demand spikes at curtain call. Sedans suit couples and solo theatergoers, SUVs carry groups of five, and Sprinter vans keep larger parties of up to 13 together for corporate outings or group ticket packages.',
         ],
       },
       {
@@ -791,14 +791,14 @@ export const MARYLAND_BATCH5 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'couples and solo theatergoers' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'small groups heading to a show' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'families and date nights with dinner stops' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'corporate outings and group ticket packages' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'anniversaries and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'families and date nights with dinner stops' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'corporate outings and group ticket packages' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does transportation to Capital One Hall cost?',
-        a: 'Pricing is a flat, all-inclusive rate based on your pickup location and vehicle — never a surge multiplier. Call (877) 609-1919 for an exact quote.',
+        a: 'Pricing is a flat rate based on your pickup location and vehicle — never a surge multiplier. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'Will my chauffeur wait during the show at Capital One Hall?',
@@ -870,7 +870,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: 'Flat rates and family-sized vehicles',
         paragraphs: [
-          'Every EagleBank Arena transfer is quoted as one flat, all-inclusive rate — fuel, tolls and chauffeur included, with no surge pricing when demand spikes at the final whistle. SUVs and Sprinter vans are especially popular for graduation weekend, when extended families travel together and need room for luggage, caps and gowns, and flowers.',
+          'Every EagleBank Arena transfer is quoted as one flat rate — fuel, tolls and chauffeur included, with no surge pricing when demand spikes at the final whistle. SUVs and Sprinter vans are especially popular for graduation weekend, when extended families travel together and need room for luggage, caps and gowns, and flowers.',
         ],
       },
       {
@@ -884,14 +884,14 @@ export const MARYLAND_BATCH5 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo alumni and faculty travel' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families attending graduation with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'extended families and game-night groups' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'graduation parties and alumni groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'graduation celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'extended families and game-night groups' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'graduation parties and alumni groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does transportation to EagleBank Arena cost?',
-        a: 'Pricing is a flat, all-inclusive rate based on your pickup location and vehicle — never a surge multiplier. Call (877) 609-1919 for an exact quote.',
+        a: 'Pricing is a flat rate based on your pickup location and vehicle — never a surge multiplier. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'Can you handle GMU commencement weekend?',
@@ -944,7 +944,7 @@ export const MARYLAND_BATCH5 = [
       'Discreet, professionally dressed chauffeurs in black sedans and SUVs',
       'Direct service from Reagan National, just 3 miles and 8–15 minutes away',
       'Multi-vehicle coordination for extended family and visiting delegations',
-      'Flat, all-inclusive pricing with no surge, confirmed before you book',
+      'Flat pricing with no surge, confirmed before you book',
     ],
     sections: [
       {
@@ -971,9 +971,9 @@ export const MARYLAND_BATCH5 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'immediate family and small groups' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'dignitaries and VIP guests' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'extended family with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'larger family groups' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'visiting delegations and large families' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'formal memorial transportation' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'larger family groups' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'visiting delegations and large families' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -1050,7 +1050,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: 'Flat rates for solo fans and group outings',
         paragraphs: [
-          'Every 9:30 Club transfer is one flat, all-inclusive rate — fuel, tolls and chauffeur included, with no surge pricing at encore time. A sedan covers a couple or solo fan, while SUVs and Sprinter vans keep larger friend groups, birthday parties or corporate outings together for one predictable price instead of splitting several surging rideshares.',
+          'Every 9:30 Club transfer is one flat rate — fuel, tolls and chauffeur included, with no surge pricing at encore time. A sedan covers a couple or solo fan, while SUVs and Sprinter vans keep larger friend groups, birthday parties or corporate outings together for one predictable price instead of splitting several surging rideshares.',
         ],
       },
       {
@@ -1064,14 +1064,14 @@ export const MARYLAND_BATCH5 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'couples and solo concertgoers' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'friend groups heading to a show' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'birthday parties and group nights out' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'corporate outings and larger groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'special-occasion nights out' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'birthday parties and group nights out' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'corporate outings and larger groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does transportation to the 9:30 Club cost?',
-        a: 'Pricing is a flat, all-inclusive rate based on your pickup location and vehicle — never a surge multiplier. Call (877) 609-1919 for an exact quote.',
+        a: 'Pricing is a flat rate based on your pickup location and vehicle — never a surge multiplier. Call (877) 609-1919 for an exact quote.',
       },
       {
         q: 'Is there parking at the 9:30 Club?',
@@ -1126,13 +1126,13 @@ export const MARYLAND_BATCH5 = [
       'Flat-rate pricing confirmed before you book — no surge for major events',
       'Direct service from Reagan National, just 7 miles and 18–28 minutes away',
       'Chauffeurs who know Cleveland Park, Wisconsin Avenue traffic and Cathedral event logistics',
-      'Sedans, SUVs, Sprinter vans and stretch limousines for wedding parties and tour groups',
+      'Sedans, SUVs and Sprinter vans for wedding parties and tour groups',
     ],
     sections: [
       {
         h2: 'Weddings and services at the Cathedral',
         paragraphs: [
-          'A wedding at the Washington National Cathedral is a once-in-a-lifetime event, and the transportation should match the occasion. Our chauffeurs coordinate with wedding parties on timing for the ceremony, photos on the Cathedral grounds and the Bishop\'s Garden, and the drive to the reception afterward — in a stretch limousine, a Sprinter van for the full bridal party, or a fleet of sedans for family.',
+          'A wedding at the Washington National Cathedral is a once-in-a-lifetime event, and the transportation should match the occasion. Our chauffeurs coordinate with wedding parties on timing for the ceremony, photos on the Cathedral grounds and the Bishop\'s Garden, and the drive to the reception afterward — in a First Class sedan or Lincoln Navigator for the couple, a Sprinter Executive for the full bridal party, or a fleet of sedans for family.',
           'Regular Sunday services, choral concerts and special observances also draw visitors from across the region, and a chauffeured drop-off avoids the parking crunch that major state events and holiday services routinely create.',
         ],
       },
@@ -1159,14 +1159,14 @@ export const MARYLAND_BATCH5 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'family and solo guests' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and dignitary travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'wedding party and family groups' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'extended family with luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'full bridal parties and tour groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'wedding-day transportation' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'extended family with luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'full bridal parties and tour groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'Can you coordinate wedding-day transportation at the Cathedral?',
-        a: 'Yes. We coordinate timing with wedding parties for the ceremony, photos on the Cathedral grounds, and the drive to the reception, in anything from a stretch limousine to a Sprinter van.',
+        a: 'Yes. We coordinate timing with wedding parties for the ceremony, photos on the Cathedral grounds, and the drive to the reception, in anything from a First Class sedan for the couple to a Sprinter Executive for the whole party.',
       },
       {
         q: 'Is there parking at the Washington National Cathedral?',
@@ -1240,7 +1240,7 @@ export const MARYLAND_BATCH5 = [
       {
         h2: 'Flat rates for any group size',
         paragraphs: [
-          'Every Union Station transfer is quoted as one flat, all-inclusive rate — fuel, tolls and chauffeur included, with no surge pricing even when trains and flights bunch up during peak travel periods. Sedans suit solo business travelers, SUVs handle families with luggage, and Sprinter vans keep larger groups together for one predictable fare.',
+          'Every Union Station transfer is quoted as one flat rate — fuel, tolls and chauffeur included, with no surge pricing even when trains and flights bunch up during peak travel periods. Sedans suit solo business travelers, SUVs handle families with luggage, and Sprinter vans keep larger groups together for one predictable fare.',
         ],
       },
       {
@@ -1254,9 +1254,9 @@ export const MARYLAND_BATCH5 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo business and Acela travelers' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families with luggage making a connection' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport-to-rail transfers with extra bags' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'groups traveling together by rail' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'special-occasion rail connections' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport-to-rail transfers with extra bags' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'groups traveling together by rail' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {

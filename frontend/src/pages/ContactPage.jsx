@@ -12,6 +12,35 @@ import FaqSection from '@/components/FaqSection';
 import { PAGE_FAQS } from '@/data/pageFaqs';
 import { setPageSeo } from '@/lib/seo';
 
+// Rendered in the FAQ section below and included in the page's FAQPage
+// schema (via <FaqSection extraSchemaFaqs>), so both always match.
+const CONTACT_FAQS = [
+  {
+    q: 'How far in advance should I book?',
+    a: 'We accept last-minute bookings when a vehicle is available, but we recommend booking at least 24-48 hours in advance to guarantee your vehicle. Book earlier still for peak travel periods and holidays.',
+  },
+  {
+    q: 'What if my flight is delayed?',
+    a: 'We monitor all flights in real-time using advanced tracking systems. Your chauffeur will automatically adjust pickup time based on actual arrival—no additional charges for reasonable delays.',
+  },
+  {
+    q: 'Are there any hidden fees?',
+    a: 'Absolutely not. Our pricing is completely transparent: the quote you receive includes all taxes, fees and fuel surcharges. A 20% gratuity is added to the rate, and the full total is shown before you confirm.',
+  },
+  {
+    q: 'What is your cancellation policy?',
+    a: 'Sedans and SUVs can be cancelled free of charge up to 3 hours before your scheduled pickup time. Sprinter vans and special-event bookings can be cancelled free of charge up to 12 hours before pickup. Cancellations inside those windows may incur a cancellation fee — contact us directly for specific circumstances.',
+  },
+  {
+    q: 'Do you offer corporate accounts?',
+    a: 'Yes! We offer comprehensive corporate account services with dedicated account managers, flexible billing options, detailed reporting, and preferential rates for regular clients.',
+  },
+  {
+    q: 'How do I pay for services?',
+    a: 'We accept all major credit cards, corporate accounts, and cash. Your card is charged once your reservation and rate are confirmed — never at the moment you submit a request.',
+  },
+];
+
 const ContactPage = () => {
   useEffect(() => {
     setPageSeo({
@@ -340,32 +369,7 @@ const ContactPage = () => {
             <h2 className="text-5xl font-bold mb-6 text-gray-900">Frequently Asked Questions</h2>
           </div>
           <div className="max-w-4xl mx-auto space-y-6">
-            {[
-              {
-                q: 'How far in advance should I book?',
-                a: 'While we accept last-minute bookings subject to availability, we recommend booking at least 24-48 hours in advance to guarantee vehicle availability, especially during peak travel periods and holidays.'
-              },
-              {
-                q: 'What if my flight is delayed?',
-                a: 'We monitor all flights in real-time using advanced tracking systems. Your chauffeur will automatically adjust pickup time based on actual arrival—no additional charges for reasonable delays.'
-              },
-              {
-                q: 'Are there any hidden fees?',
-                a: 'Absolutely not. Our pricing is completely transparent and all-inclusive. The quote you receive includes all taxes, fees, fuel surcharges, and gratuity unless otherwise specified.'
-              },
-              {
-                q: 'What is your cancellation policy?',
-                a: 'Sedans and SUVs can be cancelled free of charge up to 3 hours before your scheduled pickup time. Sprinter vans, limousines and special-event bookings can be cancelled free of charge up to 12 hours before pickup. Cancellations inside those windows may incur a cancellation fee — contact us directly for specific circumstances.'
-              },
-              {
-                q: 'Do you offer corporate accounts?',
-                a: 'Yes! We offer comprehensive corporate account services with dedicated account managers, flexible billing options, detailed reporting, and preferential rates for regular clients.'
-              },
-              {
-                q: 'How do I pay for services?',
-                a: 'We accept all major credit cards, corporate accounts, and cash. Payment can be processed during online booking, over the phone, or after service completion.'
-              }
-            ].map((faq, index) => (
+            {CONTACT_FAQS.map((faq, index) => (
               <Card key={index} className="border-2 hover:border-amber-500 transition-all">
                 <CardContent className="p-8">
                   <h3 className="text-xl font-bold mb-3 text-gray-900">{faq.q}</h3>
@@ -386,7 +390,7 @@ const ContactPage = () => {
           <Link to="/booking" className="text-amber-600 hover:underline font-semibold">book your ride online</Link>.
         </div>
       </div>
-      <FaqSection faqs={PAGE_FAQS['/contact']} />
+      <FaqSection faqs={PAGE_FAQS['/contact']} extraSchemaFaqs={CONTACT_FAQS} />
     </div>
   );
 };

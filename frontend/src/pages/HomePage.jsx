@@ -6,39 +6,40 @@ import { Card, CardContent } from '@/components/ui/card';
 import { CheckCircle, Star, Phone, Car, Briefcase, PartyPopper, MapPin, Clock, ArrowRight } from 'lucide-react';
 import { ROUTE_PAGES } from '@/data/routePages';
 import Awards from '@/components/Awards';
+import { imageAlt } from '@/lib/imageAlt';
 
 const HOME_FAQS = [
   {
     q: 'How much does a car service from DCA cost?',
-    a: 'Every trip is a flat, all-inclusive rate based on your route and vehicle — tolls, fuel, and chauffeur included, with no surge and no meter. Request a free quote online or call (877) 609-1919 and we’ll confirm your exact price in writing before you book.',
+    a: 'Rides from Reagan National are priced as one flat fare for your route and vehicle class, and that fare already covers tolls, fuel and the chauffeur. Nothing is metered and nothing surges at rush hour. Ask for a quote online or at (877) 609-1919 and you get the exact price in writing before you commit.',
   },
   {
-    q: 'Where does my chauffeur meet me at Reagan National?',
-    a: 'Your chauffeur tracks your flight and meets you at baggage claim with a name sign, or curbside if you prefer. Wait time for delayed flights is built in at no charge.',
+    q: 'Where will my chauffeur be waiting at Reagan National?',
+    a: 'Your chauffeur follows your flight and waits in DCA baggage claim with a sign showing your name, or at the arrivals curb if you would rather walk straight out. Free waiting runs 45 minutes from a domestic touchdown and a full hour from an international one.',
   },
   {
     q: 'Is DCA car service available 24/7?',
-    a: 'Yes. We operate around the clock, every day of the year — 5 a.m. departures and midnight arrivals get the same reliable service.',
+    a: 'Yes. Dispatch runs every hour of every day, holidays included. A 5 a.m. ride to catch the first DCA departure gets the same care as a midnight pickup in Arlington or Alexandria.',
   },
   {
     q: 'How far in advance should I book a DCA pickup?',
-    a: 'We recommend booking at least 24 hours ahead to guarantee your vehicle. Same-day requests are welcome when availability allows — call (877) 609-1919.',
+    a: 'Booking 24 hours ahead is the surest way to lock in the vehicle you want. If your plans come together the same day, call (877) 609-1919 and we will book you whenever a car is free.',
   },
   {
     q: 'Do you track flights?',
-    a: 'Yes — every airport pickup includes real-time flight tracking with complimentary wait time: 45 minutes on domestic arrivals and 60 minutes on international arrivals. If your flight lands early or hours late, your chauffeur adjusts automatically, so there is never a need to call from the tarmac.',
+    a: 'Yes. Every airport pickup is matched to the live status of your flight, so whether you land early or hours behind schedule, your chauffeur\'s arrival shifts to suit. You get 45 free minutes of waiting on domestic flights and a full hour on international ones.',
   },
   {
     q: 'What is your cancellation policy?',
-    a: 'Sedans and SUVs can be cancelled free of charge up to 3 hours before your scheduled pickup time. Sprinter vans, limousines and special-event bookings can be cancelled free of charge up to 12 hours before pickup. Later cancellations may incur a fee.',
+    a: 'Sedan and SUV rides can be called off at no cost until 3 hours before the pickup time. For Sprinter vans and special-event reservations, the free-cancellation cutoff is 12 hours ahead. Inside those windows a cancellation fee may apply.',
   },
   {
     q: 'What vehicles do you offer?',
-    a: 'Late-model executive sedans, luxury SUVs like the Lincoln Navigator and Chevrolet Suburban, and Mercedes Sprinter vans for groups. Every vehicle is detailed before your trip and driven by a professional, background-checked chauffeur.',
+    a: 'Sedans for up to three passengers, the Chevrolet Suburban for five, the Lincoln Navigator for six and Mercedes Sprinter vans for groups of up to 13. Each one is cleaned before your ride and driven by a professional chauffeur who has passed a background check.',
   },
   {
     q: 'Do you serve BWI and Dulles too?',
-    a: 'Yes. Besides Reagan National, we run flat-rate transfers to and from BWI Marshall and Dulles International, plus inter-airport connections.',
+    a: 'Yes. Reagan National is our focus, but we also run flat-rate rides to and from BWI Marshall and Dulles International. Transfers between the three airports can be booked the same way.',
   },
 ];
 
@@ -66,21 +67,21 @@ const HomePage = () => {
   const services = [
     {
       title: 'Airport Transportation',
-      description: 'Reliable DCA, BWI & Dulles airport transfers with real-time flight tracking and professional meet-and-greet service. Your stress-free journey begins here.',
+      description: 'Flights in and out of Reagan National, Dulles and BWI, tracked live, with a chauffeur holding your name sign at baggage claim on request.',
       icon: <Car className="h-8 w-8" />,
       image: '/images/airport-curbside.webp',
       link: '/services'
     },
     {
       title: 'Corporate Car Service',
-      description: 'Executive transportation for business professionals in Washington DC, Maryland & Virginia. Impress clients and arrive on time, every time.',
+      description: 'Chauffeured rides to meetings downtown, on Capitol Hill and across Arlington and Alexandria, with on-time pickups that keep client visits on schedule.',
       icon: <Briefcase className="h-8 w-8" />,
       image: '/images/executive-sedan.webp',
       link: '/services'
     },
     {
       title: 'Wedding & Event Limo',
-      description: 'Make your special occasions unforgettable with our elegant limousine service. Perfect for weddings, proms, and celebrations.',
+      description: 'Wedding days, proms and big birthdays in DC and Northern Virginia, covered by Sprinter Executive vans, SUVs or sedans and timed around your photos and venues.',
       icon: <PartyPopper className="h-8 w-8" />,
       image: '/images/wedding-service.webp',
       link: '/services'
@@ -112,7 +113,7 @@ const HomePage = () => {
               <span className="text-amber-400">Flat Rates — No Surge, Ever</span>
             </h1>
             <p className="text-base sm:text-xl lg:text-2xl mb-6 sm:mb-8 text-gray-200 leading-relaxed max-w-2xl" data-testid="hero-subtitle">
-              24/7 luxury airport transportation, executive car service &amp; limousine rentals serving DCA, BWI, Dulles &amp; the entire DMV area. Professional chauffeurs, Mercedes fleet, best rates guaranteed.
+              Chauffeured rides around the clock from Reagan National to Georgetown, Capitol Hill, Arlington, Alexandria and Bethesda, plus Dulles, BWI and the wider DMV. Licensed chauffeurs, a Mercedes-led fleet and a flat rate quoted before you ride.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <Button 
@@ -173,7 +174,7 @@ const HomePage = () => {
             <span className="text-amber-600 font-semibold text-xs sm:text-sm uppercase tracking-wider mb-2 sm:mb-3 block">Flat-Rate Pricing</span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-gray-900 px-4">Get Your Free Quote</h2>
             <p className="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto px-4 mb-8">
-              Every trip is a flat, all-inclusive rate tailored to your route and vehicle — tolls, fuel,
+              Every trip is a flat rate tailored to your route and vehicle — tolls, fuel,
               and chauffeur included. No surge, no meter, no hidden fees. Call now or request your quote
               online and we&apos;ll confirm your exact price in writing within 15 minutes.
             </p>
@@ -240,7 +241,7 @@ const HomePage = () => {
             <span className="text-amber-600 font-semibold text-xs sm:text-sm uppercase tracking-wider mb-2 sm:mb-3 block">Our Services</span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-gray-900 px-4">Comprehensive Transportation Solutions</h2>
             <p className="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
-              From executive airport transfers to elegant event transportation, we deliver exceptional service tailored to your specific needs.
+              One company for the whole trip: Reagan National arrivals, meetings across the District and Northern Virginia, and the big nights in between.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
@@ -249,7 +250,7 @@ const HomePage = () => {
                 <div className="relative h-48 sm:h-64 overflow-hidden">
                   <img 
                     src={service.image} 
-                    alt={`${service.title} — DCA Limos chauffeur service in Washington DC, Maryland and Virginia`}
+                    alt={imageAlt(service.image, service.title)}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
@@ -286,16 +287,16 @@ const HomePage = () => {
             <span className="text-amber-400 font-semibold text-xs sm:text-sm uppercase tracking-wider mb-2 sm:mb-3 block">Why Choose Us</span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 px-4">Why Choose DCA Limos</h2>
             <p className="text-base sm:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed px-4">
-              Professional <Link to="/services" className="text-amber-400 hover:underline">transportation services</Link> in the Washington DC metropolitan area. <Link to="/about" className="text-amber-400 hover:underline">Learn more about us</Link>.
+              Chauffeured <Link to="/services" className="text-amber-400 hover:underline">transportation services</Link> built around Reagan National, Washington DC, Arlington and Alexandria. <Link to="/about" className="text-amber-400 hover:underline">Learn more about us</Link>.
             </p>
           </div>
           <ul className="max-w-3xl mx-auto space-y-4 sm:space-y-5" data-testid="why-choose-list">
             {[
-              { title: 'Flat-rate pricing with no surge', text: 'The rate you book is the rate you pay — tolls, fuel, and chauffeur included, in any weather and at any hour.' },
-              { title: 'Licensed & insured Maryland carrier', text: 'Fully licensed for commercial transportation with comprehensive insurance on every vehicle.' },
-              { title: 'Flight tracking on every airport pickup', text: 'We watch your flight and adjust your pickup automatically — delays never cost you a ride or a fee.' },
-              { title: 'Professional, background-checked chauffeurs', text: 'Trained drivers who know DCA, the District, and the Beltway — and treat your time as the priority.' },
-              { title: '24/7 availability across the DMV', text: 'Early departures, red-eye arrivals, weekends, and holidays — professional DMV transportation, around the clock.' },
+              { title: 'Flat-rate pricing with no surge', text: 'Your quote already covers tolls, fuel and the chauffeur, and it holds in a snowstorm, at rush hour or at 2 a.m.' },
+              { title: 'Licensed & insured Maryland carrier', text: 'Licensed by the Maryland Public Service Commission for commercial passenger service, with every vehicle commercially insured.' },
+              { title: 'Flight tracking on every airport pickup', text: 'Your pickup follows the real arrival time of your flight, so a late landing never leaves you stranded or adds a charge.' },
+              { title: 'Professional, background-checked chauffeurs', text: 'Trained drivers who know the Reagan National terminals, the George Washington Parkway and the streets of Arlington and Alexandria.' },
+              { title: '24/7 availability across the DMV', text: 'First-flight departures, late arrivals, weekends and holidays are all covered, with dispatch open around the clock.' },
             ].map((item, index) => (
               <li key={index} className="flex items-start gap-4 bg-white/5 border border-amber-500/20 rounded-xl p-4 sm:p-5" data-testid={`feature-${index}`}>
                 <CheckCircle className="h-6 w-6 text-amber-400 flex-shrink-0 mt-0.5" />
@@ -319,7 +320,7 @@ const HomePage = () => {
             <span className="text-amber-600 font-semibold text-xs sm:text-sm uppercase tracking-wider mb-2 sm:mb-3 block">Service Coverage</span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 text-gray-900 px-4">Areas We Serve</h2>
             <p className="text-base sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">
-              DCA Limo Service proudly provides 24/7 premium transportation throughout the Washington DC metropolitan area and Anne Arundel County, Maryland.
+              From Reagan National we cover the District, from Georgetown to Capitol Hill, plus Arlington, Alexandria and the rest of Northern Virginia around the clock, along with Bethesda, Anne Arundel County and much of Maryland.
             </p>
           </div>
 
@@ -514,7 +515,7 @@ const HomePage = () => {
           <div className="max-w-6xl mx-auto mt-10 sm:mt-14 bg-gradient-to-br from-amber-50 to-white rounded-xl p-6 sm:p-10 border border-amber-200" data-testid="internal-links-cluster">
             <h3 className="text-xl sm:text-2xl font-bold mb-4 text-gray-900 text-center">Explore DCA Limos</h3>
             <p className="text-center text-gray-600 mb-6 max-w-3xl mx-auto text-sm sm:text-base">
-              From <Link to="/services" className="text-amber-600 hover:underline font-semibold">airport transfers</Link> and <Link to="/services" className="text-amber-600 hover:underline font-semibold">corporate car service</Link> to <Link to="/services" className="text-amber-600 hover:underline font-semibold">wedding limousines</Link> across Maryland — explore our <Link to="/fleet" className="text-amber-600 hover:underline font-semibold">luxury fleet</Link>, read travel tips on the <Link to="/blog" className="text-amber-600 hover:underline font-semibold">DCA Limos blog</Link>, <Link to="/about" className="text-amber-600 hover:underline font-semibold">learn about our company</Link>, or <Link to="/booking" className="text-amber-600 hover:underline font-semibold">book your Maryland ride online</Link>.
+              From <Link to="/services" className="text-amber-600 hover:underline font-semibold">airport transfers</Link> and <Link to="/services" className="text-amber-600 hover:underline font-semibold">corporate car service</Link> to <Link to="/services" className="text-amber-600 hover:underline font-semibold">wedding transportation</Link> across Maryland — explore our <Link to="/fleet" className="text-amber-600 hover:underline font-semibold">luxury fleet</Link>, read travel tips on the <Link to="/blog" className="text-amber-600 hover:underline font-semibold">DCA Limos blog</Link>, <Link to="/about" className="text-amber-600 hover:underline font-semibold">learn about our company</Link>, or <Link to="/booking" className="text-amber-600 hover:underline font-semibold">book your Maryland ride online</Link>.
             </p>
             <div className="flex flex-wrap justify-center gap-2 sm:gap-3 mt-6">
               {[

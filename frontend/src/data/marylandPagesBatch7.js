@@ -28,10 +28,10 @@ export const MARYLAND_BATCH7 = [
     ],
     highlights: [
       'BWI transfers in as little as 30–40 minutes — the closest major airport to Owings Mills',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know Metro Centre at Owings Mills, Mill Station, Stevenson University and the I-795/I-695 interchange',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Corporate accounts with monthly invoicing for Owings Mills-area employers and the McCormick & Company corridor nearby',
       'Baltimore Metro SubwayLink last-mile service for commuters and visitors using the Owings Mills station',
     ],
@@ -54,7 +54,7 @@ export const MARYLAND_BATCH7 = [
         h2: 'Corporate travel, Stevenson University and events',
         paragraphs: [
           'Our Owings Mills calendar fills with corporate travel for employers along the Reisterstown Road and I-795 corridor, campus visits and family weekends at Stevenson University, and evenings out at Metro Centre\'s restaurants and entertainment venues. Corporate clients keep standing accounts for roadshows and recurring airport transfers, with monthly invoicing available.',
-          'For weddings and group events, Sprinter vans and stretch limousines handle bridal parties and family groups moving between area venues, and we coordinate multiple vehicles for larger parties without you having to manage separate bookings.',
+          'For weddings and group events, Sprinter vans handle bridal parties and family groups moving between area venues, and we coordinate multiple vehicles for larger parties without you having to manage separate bookings.',
         ],
       },
     ],
@@ -62,14 +62,14 @@ export const MARYLAND_BATCH7 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties and groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Owings Mills to BWI cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically one of our most economical airport runs given how close Owings Mills sits to BWI. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address — typically one of our most economical airport runs given how close Owings Mills sits to BWI. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Owings Mills to BWI, DCA or Dulles?',
@@ -118,10 +118,10 @@ export const MARYLAND_BATCH7 = [
     ],
     highlights: [
       'BWI transfers in as little as 18–25 minutes — one of the shortest airport runs in our Maryland coverage area',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know UMBC\'s campus, historic Frederick Road and Patapsco Valley State Park',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'UMBC commencement, family weekend and conference transportation, including group Sprinter van runs',
       'Corporate accounts with monthly invoicing for Catonsville and southwest Baltimore County employers',
     ],
@@ -152,14 +152,14 @@ export const MARYLAND_BATCH7 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'UMBC groups and families' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'UMBC groups and families' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Catonsville to BWI cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically our most economical airport run given how close Catonsville sits to BWI. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address — typically our most economical airport run given how close Catonsville sits to BWI. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Catonsville to BWI, DCA or Dulles?',
@@ -203,15 +203,15 @@ export const MARYLAND_BATCH7 = [
       { label: 'Service', value: '24 / 7 · 365' },
     ],
     intro: [
-      'Pikesville sits just northwest of the Baltimore Beltway along Reisterstown Road, home to one of the largest Jewish communities in Maryland and a steady calendar of synagogue events, bar and bat mitzvahs, and weddings that DCA Limos coordinates with Sprinter vans and stretch limousines. We also run daily sedans and SUVs for commuters and travelers heading to BWI, Reagan National and Dulles.',
+      'Pikesville sits just northwest of the Baltimore Beltway along Reisterstown Road, home to one of the largest Jewish communities in Maryland and a steady calendar of synagogue events, bar and bat mitzvahs, and weddings that DCA Limos coordinates with Sprinter vans. We also run daily sedans and SUVs for commuters and travelers heading to BWI, Reagan National and Dulles.',
       'The Quarry Lake mixed-use development and the shops and restaurants along Reisterstown Road and Painters Mill Road are regular pickup points, and our chauffeurs know the Beltway\'s I-695/I-795 interchange well enough to route around it during the evening rush. BWI is 18 miles away — about 25 to 35 minutes — making it the fastest airport option for most Pikesville trips.',
     ],
     highlights: [
       'BWI transfers in as little as 25–35 minutes, the closest major airport to Pikesville',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs experienced with synagogue-to-venue bar and bat mitzvah logistics across the Pikesville Jewish community',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Chauffeurs who know Quarry Lake, Reisterstown Road and the Suburban Club corridor',
       'Corporate accounts with monthly invoicing for Pikesville and Baltimore County employers',
     ],
@@ -220,7 +220,7 @@ export const MARYLAND_BATCH7 = [
         h2: 'A chauffeur who actually knows Pikesville',
         paragraphs: [
           'Pikesville\'s Reisterstown Road corridor carries synagogues, kosher markets and restaurants, and residential streets that fill up fast on a Friday evening or Saturday for Shabbat observance. Our chauffeurs plan arrival and wait times around religious observance when asked, and know the Quarry Lake development\'s mixed residential and retail layout as well as the quieter streets around the Suburban Club.',
-          'We are a regular presence at bar and bat mitzvah events, moving a synagogue party to a reception venue in a Sprinter van or stretch limousine, and coordinating return trips so nobody is left arranging a ride at the end of the night.',
+          'We are a regular presence at bar and bat mitzvah events, moving a synagogue party to a reception venue in a Sprinter van, and coordinating return trips so nobody is left arranging a ride at the end of the night.',
         ],
       },
       {
@@ -233,7 +233,7 @@ export const MARYLAND_BATCH7 = [
       {
         h2: 'Simchas, corporate travel and nights out',
         paragraphs: [
-          'Beyond airport transfers, our Pikesville calendar is built around simchas — bar and bat mitzvahs, weddings and family celebrations — alongside corporate travel for Baltimore County businesses along Reisterstown Road and Painters Mill Road. Sprinter vans and stretch limousines handle the celebration side, while sedans and SUVs cover daily executive transfers, with monthly invoicing available for standing corporate accounts.',
+          'Beyond airport transfers, our Pikesville calendar is built around simchas — bar and bat mitzvahs, weddings and family celebrations — alongside corporate travel for Baltimore County businesses along Reisterstown Road and Painters Mill Road. Sprinter vans handle the celebration side, while sedans and SUVs cover daily executive transfers, with monthly invoicing available for standing corporate accounts.',
           'For dinner or a show farther into Baltimore, an hourly chauffeur means the night ends whenever your group is ready, without anyone worrying about the drive home on the Beltway.',
         ],
       },
@@ -242,14 +242,14 @@ export const MARYLAND_BATCH7 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'bar and bat mitzvah parties and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'simchas, weddings and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'bar and bat mitzvah parties and groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Pikesville to BWI cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically one of our more economical airport runs given how close Pikesville sits to BWI. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address — typically one of our more economical airport runs given how close Pikesville sits to BWI. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Pikesville to BWI, DCA or Dulles?',
@@ -257,7 +257,7 @@ export const MARYLAND_BATCH7 = [
       },
       {
         q: 'Can you coordinate a bar or bat mitzvah in Pikesville?',
-        a: 'Yes. We regularly run Sprinter vans and stretch limousines between Pikesville-area synagogues and reception venues, and can plan arrival and wait times around religious observance.',
+        a: 'Yes. We regularly run Sprinter vans between Pikesville-area synagogues and reception venues, and can plan arrival and wait times around religious observance.',
       },
       {
         q: 'Do you know the Quarry Lake and Reisterstown Road area?',
@@ -298,10 +298,10 @@ export const MARYLAND_BATCH7 = [
     ],
     highlights: [
       'Harford County Circuit Court and government travel, booked with discretion',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know historic Main Street Bel Air, the Harford County courthouse and the I-95 corridor',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Wedding and event coordination for Harford County venues and equestrian properties',
       'Corporate accounts with monthly invoicing for Bel Air and Harford County employers',
     ],
@@ -310,7 +310,7 @@ export const MARYLAND_BATCH7 = [
         h2: 'A chauffeur who actually knows Bel Air',
         paragraphs: [
           'Bel Air\'s compact downtown centers on Main Street and the Harford County Courthouse, with shops, restaurants and county government offices sharing a few walkable blocks that fill with on-street parking fast on a weekday morning. Our chauffeurs know where to stage near the courthouse for a legal appointment without blocking Main Street, and they handle a steady stream of attorneys, litigants and county employees who would rather not deal with downtown parking themselves.',
-          'Beyond downtown, Harford County\'s horse farms and event venues bring a regular wedding and celebration calendar to Bel Air, and our Sprinter vans and stretch limousines are familiar with the gravel drives and loading areas that come with a rural Maryland wedding venue.',
+          'Beyond downtown, Harford County\'s horse farms and event venues bring a regular wedding and celebration calendar to Bel Air, and our Sprinter vans are familiar with the gravel drives and loading areas that come with a rural Maryland wedding venue.',
         ],
       },
       {
@@ -324,7 +324,7 @@ export const MARYLAND_BATCH7 = [
         h2: 'Courthouse travel, weddings and corporate commuting',
         paragraphs: [
           'Our Bel Air calendar mixes Harford County Circuit Court and government appointments with weddings at the county\'s farms and historic venues, and corporate travel for employers along the I-95 corridor and in downtown Bel Air itself. Corporate clients keep standing accounts for recurring commutes and roadshows, with monthly invoicing available.',
-          'For a wedding or milestone celebration, Sprinter vans and stretch limousines handle bridal parties and guest shuttles between a Harford County venue and area hotels, and we coordinate multiple vehicles for larger events as a single itinerary rather than separate bookings.',
+          'For a wedding or milestone celebration, Sprinter vans handle bridal parties and guest shuttles between a Harford County venue and area hotels, and we coordinate multiple vehicles for larger events as a single itinerary rather than separate bookings.',
         ],
       },
     ],
@@ -332,14 +332,14 @@ export const MARYLAND_BATCH7 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties and groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Bel Air to BWI cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Bel Air to BWI, DCA or Dulles?',
@@ -351,7 +351,7 @@ export const MARYLAND_BATCH7 = [
       },
       {
         q: 'Do you serve weddings at Harford County farms and event venues?',
-        a: 'Yes. Sprinter vans and stretch limousines are familiar with rural Harford County venues, including gravel drives and informal loading areas.',
+        a: 'Yes. Sprinter vans are familiar with rural Harford County venues, including gravel drives and informal loading areas.',
       },
       {
         q: 'Is DCA Limos available in Bel Air overnight and on holidays?',
@@ -388,10 +388,10 @@ export const MARYLAND_BATCH7 = [
     ],
     highlights: [
       'BWI transfers in as little as 12–18 minutes — among the shortest airport runs in our entire coverage area',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know Arundel Mills Mall, Live! Casino & Hotel and Troy Hill Park',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Corporate accounts with monthly invoicing for Elkridge\'s warehouse, logistics and distribution employers',
       'Last-minute and same-day availability given our proximity to BWI',
     ],
@@ -414,7 +414,7 @@ export const MARYLAND_BATCH7 = [
         h2: 'Corporate logistics travel and group outings',
         paragraphs: [
           'Elkridge\'s warehouse and distribution corridor keeps a steady corporate client base with us, moving executives and visiting staff between facilities, BWI and downtown Baltimore meetings, with monthly invoicing available for standing accounts. Sprinter vans handle group outings to Arundel Mills and Live! Casino, keeping a family or office group together for the whole trip rather than splitting across multiple cars.',
-          'For a wedding or celebration anywhere in the Howard County or Anne Arundel County area, our stretch limousines and Sprinter vans coordinate as a single itinerary with dispatch managing the timing.',
+          'For a wedding or celebration anywhere in the Howard County or Anne Arundel County area, our Sprinter Executive vans, Navigators and sedans coordinate as a single itinerary with dispatch managing the timing.',
         ],
       },
     ],
@@ -422,14 +422,14 @@ export const MARYLAND_BATCH7 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'group outings and corporate teams' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'group outings and corporate teams' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Elkridge to BWI cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically one of our most economical airport runs anywhere in our coverage area given how close Elkridge sits to BWI. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address — typically one of our most economical airport runs anywhere in our coverage area given how close Elkridge sits to BWI. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Elkridge to BWI, DCA or Dulles?',
@@ -478,10 +478,10 @@ export const MARYLAND_BATCH7 = [
     ],
     highlights: [
       'Flat-rate quotes to Dulles, Reagan National and BWI — we help you pick the faster route for your flight',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know Lake Marion, the Montgomery Village Golf Club and the I-270 biotech corridor',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Corporate accounts with monthly invoicing for Montgomery Village and Gaithersburg-area employers',
       'Wedding and event coordination for area clubs and banquet venues',
     ],
@@ -503,7 +503,7 @@ export const MARYLAND_BATCH7 = [
       {
         h2: 'I-270 corridor commuting and weddings',
         paragraphs: [
-          'Montgomery Village sits close enough to the I-270 biotech and technology corridor that we run daily executive transfers for Gaithersburg and Rockville-area employers, with monthly invoicing available for standing corporate accounts. Sprinter vans and stretch limousines handle weddings and celebrations at area clubs and banquet venues, with a chauffeur who has staged there before.',
+          'Montgomery Village sits close enough to the I-270 biotech and technology corridor that we run daily executive transfers for Gaithersburg and Rockville-area employers, with monthly invoicing available for standing corporate accounts. Sprinter vans handle weddings and celebrations at area clubs and banquet venues, with a chauffeur who has staged there before.',
           'For a family outing or night out anywhere in Montgomery County, an hourly booking keeps one vehicle and chauffeur with your group for the whole evening.',
         ],
       },
@@ -512,9 +512,9 @@ export const MARYLAND_BATCH7 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties and groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -523,7 +523,7 @@ export const MARYLAND_BATCH7 = [
       },
       {
         q: 'How much does a car service from Montgomery Village to the airport cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle, pickup address and chosen airport. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle, pickup address and chosen airport. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'Do you serve the Montgomery Village Golf Club and community centers?',
@@ -568,10 +568,10 @@ export const MARYLAND_BATCH7 = [
     ],
     highlights: [
       'DCA transfers in as little as 25–35 minutes — the closest major airport to Burke',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know Burke Lake Park, the VRE Burke Centre station and the Fairfax County Parkway',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Last-mile connections for VRE and Metro commuters heading into DC or Northern Virginia employment centers',
       'Corporate accounts with monthly invoicing for Burke and Fairfax County employers',
     ],
@@ -602,14 +602,14 @@ export const MARYLAND_BATCH7 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'family groups and commuters' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'family groups and commuters' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Burke to Reagan National cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Burke to DCA, Dulles or BWI?',
@@ -658,10 +658,10 @@ export const MARYLAND_BATCH7 = [
     ],
     highlights: [
       'Dulles transfers in as little as 20–30 minutes — the fastest airport connection from Centreville',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know Bull Run Regional Park, historic Centreville and the Route 28/I-66 interchange',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Corporate accounts with monthly invoicing for Centreville and Route 28 corridor employers',
       'Seasonal transportation for Bull Run Festival of Lights and other park events',
     ],
@@ -684,7 +684,7 @@ export const MARYLAND_BATCH7 = [
         h2: 'Route 28 corridor commuting and park events',
         paragraphs: [
           'Centreville\'s position along Route 28 puts it close to the Dulles-area technology and retail corridor, and our corporate clients there keep standing accounts for roadshows and recurring commutes, with monthly invoicing available. We also run seasonal transportation for Bull Run Regional Park events, including the winter Festival of Lights, when a chauffeured drive-through beats circling for parking.',
-          'For a wedding or family celebration anywhere in the Centreville or Manassas area, Sprinter vans and stretch limousines handle groups as a single coordinated booking.',
+          'For a wedding or family celebration anywhere in the Centreville or Manassas area, Sprinter vans handle groups as a single coordinated booking.',
         ],
       },
     ],
@@ -692,14 +692,14 @@ export const MARYLAND_BATCH7 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'family groups and corporate teams' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'family groups and corporate teams' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Centreville to Dulles cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically one of our more economical airport runs given how close Centreville sits to Dulles. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address — typically one of our more economical airport runs given how close Centreville sits to Dulles. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Centreville to Dulles, DCA or BWI?',
@@ -745,14 +745,14 @@ export const MARYLAND_BATCH7 = [
     ],
     intro: [
       'Great Falls is one of the most affluent communities in the DC metro area, a horse-country enclave of large estates along the Potomac River and Georgetown Pike, anchored by Great Falls Park\'s dramatic river gorge. DCA Limos runs discreet, professional chauffeur service through Great Falls daily, from private estate pickups to airport transfers and evenings in downtown DC.',
-      'Dulles International is the closest airport at 13 miles — about 20 to 30 minutes via Georgetown Pike and the Dulles Toll Road — while Reagan National is a close second at 20 miles. Every trip is quoted as one flat, all-inclusive rate with a chauffeur who understands the privacy and discretion this community expects.',
+      'Dulles International is the closest airport at 13 miles — about 20 to 30 minutes via Georgetown Pike and the Dulles Toll Road — while Reagan National is a close second at 20 miles. Every trip is quoted as one flat rate with a chauffeur who understands the privacy and discretion this community expects.',
     ],
     highlights: [
       'Dulles transfers in as little as 20–30 minutes — the fastest airport connection from Great Falls',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Discreet, professional chauffeurs experienced with private estate and gated-community pickups',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Chauffeurs who know Great Falls Park, Georgetown Pike and the area\'s winding, unmarked private lanes',
       'Corporate accounts with monthly invoicing for Great Falls and Tysons-area executives',
     ],
@@ -774,7 +774,7 @@ export const MARYLAND_BATCH7 = [
       {
         h2: 'Executive travel and private events',
         paragraphs: [
-          'Great Falls residents who commute to Tysons, downtown DC or Dulles-corridor offices rely on us for daily executive transfers, with monthly invoicing available for standing corporate accounts. We also handle private events on Great Falls estates — weddings, galas and family celebrations — with Sprinter vans and stretch limousines staged discreetly off the main road until needed.',
+          'Great Falls residents who commute to Tysons, downtown DC or Dulles-corridor offices rely on us for daily executive transfers, with monthly invoicing available for standing corporate accounts. We also handle private events on Great Falls estates — weddings, galas and family celebrations — with Sprinter vans staged discreetly off the main road until needed.',
           'For an evening in downtown DC or Tysons, an hourly chauffeur means the car and driver wait for your schedule rather than the other way around.',
         ],
       },
@@ -783,14 +783,14 @@ export const MARYLAND_BATCH7 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'private events and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings and private celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'private events and groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Great Falls to Dulles cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Great Falls to Dulles, DCA or BWI?',
@@ -802,7 +802,7 @@ export const MARYLAND_BATCH7 = [
       },
       {
         q: 'Do you handle private events on Great Falls estates?',
-        a: 'Yes. We stage Sprinter vans and stretch limousines discreetly for weddings, galas and family celebrations on private property.',
+        a: 'Yes. We stage Sprinter vans discreetly for weddings, galas and family celebrations on private property.',
       },
       {
         q: 'Is DCA Limos available in Great Falls overnight and on holidays?',
@@ -839,10 +839,10 @@ export const MARYLAND_BATCH7 = [
     ],
     highlights: [
       'Dulles transfers in as little as 25–35 minutes, the closest major airport to Haymarket',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Concert-night transportation to Jiffy Lube Live that avoids the venue\'s single-exit post-show gridlock',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Chauffeurs who know Virginia Gateway, historic Haymarket and the I-66/Route 15 interchange',
       'Corporate accounts with monthly invoicing for Haymarket and Prince William County employers',
     ],
@@ -864,7 +864,7 @@ export const MARYLAND_BATCH7 = [
       {
         h2: 'Concert nights, corporate travel and weddings',
         paragraphs: [
-          'Jiffy Lube Live concert nights are a specialty for us: a flat-rate car waiting at a pre-arranged spot beats fighting the amphitheater\'s parking lots and single exit, especially for a group splitting the cost across several friends. We also run corporate travel for Haymarket and Gainesville-area employers along the I-66 corridor, with monthly invoicing available, and Sprinter vans and stretch limousines for weddings at the area\'s growing roster of event venues.',
+          'Jiffy Lube Live concert nights are a specialty for us: a flat-rate car waiting at a pre-arranged spot beats fighting the amphitheater\'s parking lots and single exit, especially for a group splitting the cost across several friends. We also run corporate travel for Haymarket and Gainesville-area employers along the I-66 corridor, with monthly invoicing available, and Sprinter vans for weddings at the area\'s growing roster of event venues.',
           'Call ahead for concert-night bookings during peak summer months, when Jiffy Lube Live\'s calendar fills and vehicles near the venue book up first.',
         ],
       },
@@ -873,14 +873,14 @@ export const MARYLAND_BATCH7 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'concert groups and wedding parties' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'concert groups and wedding parties' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Haymarket to Dulles cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically one of our more economical airport runs given how close Haymarket sits to Dulles. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address — typically one of our more economical airport runs given how close Haymarket sits to Dulles. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'Do you provide transportation to Jiffy Lube Live concerts?',
@@ -930,10 +930,10 @@ export const MARYLAND_BATCH7 = [
     ],
     highlights: [
       'Dulles transfers in as little as 35–45 minutes, the closest major airport to Warrenton',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Chauffeurs who know historic downtown Warrenton, the Fauquier County courthouse and the surrounding horse-country estates',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Wedding and event coordination for farm, vineyard and equestrian-estate venues across Fauquier County',
       'Corporate accounts with monthly invoicing for Warrenton-area employers and the Vint Hill technology park',
     ],
@@ -955,7 +955,7 @@ export const MARYLAND_BATCH7 = [
       {
         h2: 'Horse-country weddings and courthouse travel',
         paragraphs: [
-          'Fauquier County\'s farms, vineyards and hunt clubs make Warrenton a genuine wedding destination, and our Sprinter vans and stretch limousines are comfortable with the gravel drives, barn venues and informal loading areas that come with a horse-country wedding. We coordinate bridal party transport, guest shuttles between a farm venue and Warrenton-area hotels, and return trips at the end of the night as a single planned itinerary.',
+          'Fauquier County\'s farms, vineyards and hunt clubs make Warrenton a genuine wedding destination, and our Sprinter vans are comfortable with the gravel drives, barn venues and informal loading areas that come with a horse-country wedding. We coordinate bridal party transport, guest shuttles between a farm venue and Warrenton-area hotels, and return trips at the end of the night as a single planned itinerary.',
           'For courthouse appointments, corporate travel to Vint Hill, or simply getting into DC or Dulles without driving two hours round-trip yourself, a reserved sedan or SUV with a flat rate confirmed in advance removes the guesswork from a long-distance trip.',
         ],
       },
@@ -964,14 +964,14 @@ export const MARYLAND_BATCH7 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'wedding parties and groups' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'wedding parties and groups' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Warrenton to Dulles cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'How long is the ride from Warrenton to Dulles, DCA or BWI?',
@@ -979,7 +979,7 @@ export const MARYLAND_BATCH7 = [
       },
       {
         q: 'Can you handle a wedding at a Fauquier County farm or vineyard?',
-        a: 'Yes. Our Sprinter vans and stretch limousines are comfortable with gravel drives and barn or farm venues throughout horse country.',
+        a: 'Yes. Our Sprinter vans are comfortable with gravel drives and barn or farm venues throughout horse country.',
       },
       {
         q: 'Do you serve the Fauquier County courthouse and Vint Hill?',
@@ -1020,10 +1020,10 @@ export const MARYLAND_BATCH7 = [
     ],
     highlights: [
       'DCA transfers in as little as 20–30 minutes — the closest major airport to Lorton',
-      'Flat, all-inclusive quotes with no surge pricing, confirmed before you book',
+      'Flat quotes with no surge pricing, confirmed before you book',
       'Flight tracking with 45 minutes of free wait time on domestic arrivals and 60 minutes on international',
       'Regular drop-offs and pickups at the Amtrak Auto Train station for travelers heading south',
-      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs, 14-passenger Sprinters and stretch limos',
+      'Mercedes E-Class and BMW 7 Series sedans, Navigator and Suburban SUVs and 13-passenger Sprinters',
       'Chauffeurs who know the Workhouse Arts Center, Gunston Hall and Pohick Bay Regional Park',
       'Corporate accounts with monthly invoicing for Lorton and southern Fairfax County employers',
     ],
@@ -1046,7 +1046,7 @@ export const MARYLAND_BATCH7 = [
         h2: 'Auto Train travel, history and corporate accounts',
         paragraphs: [
           'Our Lorton business splits fairly evenly between Auto Train station runs, visits to the Workhouse Arts Center and nearby historic sites including George Washington\'s Mount Vernon just up the parkway, and corporate travel for southern Fairfax County employers, with monthly invoicing available for standing accounts.',
-          'For a family group heading to Pohick Bay Regional Park or a wedding at one of the area\'s event venues, Sprinter vans and stretch limousines keep everyone moving together on one coordinated schedule.',
+          'For a family group heading to Pohick Bay Regional Park or a wedding at one of the area\'s event venues, Sprinter vans keep everyone moving together on one coordinated schedule.',
         ],
       },
     ],
@@ -1054,14 +1054,14 @@ export const MARYLAND_BATCH7 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'Auto Train trips and heavy luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'family groups and corporate teams' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'weddings and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'Auto Train trips and heavy luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'family groups and corporate teams' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
         q: 'How much does a car service from Lorton to Reagan National cost?',
-        a: 'We quote one flat, all-inclusive rate based on your vehicle and pickup address — typically one of our more economical airport runs given how close Lorton sits to DCA. Call (877) 609-1919 or request a free quote online.',
+        a: 'We quote one flat rate based on your vehicle and pickup address — typically one of our more economical airport runs given how close Lorton sits to DCA. Call (877) 609-1919 or request a free quote online.',
       },
       {
         q: 'Do you provide rides to the Amtrak Auto Train station in Lorton?',
@@ -1107,7 +1107,7 @@ export const MARYLAND_BATCH7 = [
     ],
     intro: [
       'Shaw sits just north of the Washington Convention Center, a historically African American neighborhood that has become one of DC\'s busiest restaurant and nightlife corridors without losing its row-house character. DCA Limos serves Shaw daily: airport transfers, Convention Center event travel, dinner reservations along 9th and 14th Streets, and late-night pickups for a neighborhood where street parking disappears fast.',
-      'Every trip is driven by a licensed, background-checked chauffeur in a sedan, SUV, Sprinter van or stretch limousine, with a flat rate or hourly price confirmed before you book.',
+      'Every trip is driven by a licensed, background-checked chauffeur in a sedan, SUV or Sprinter van, with a flat rate or hourly price confirmed before you book.',
     ],
     highlights: [
       'Airport car service to Reagan National, Dulles and BWI from any Shaw address',
@@ -1143,9 +1143,9 @@ export const MARYLAND_BATCH7 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'conference groups and families' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'nights out and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'conference groups and families' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -1166,7 +1166,7 @@ export const MARYLAND_BATCH7 = [
       },
       {
         q: 'What is the cancellation policy?',
-        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans, limousines and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
+        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
       },
     ],
     related: [
@@ -1195,7 +1195,7 @@ export const MARYLAND_BATCH7 = [
     ],
     intro: [
       'U Street was DC\'s "Black Broadway" in the early 20th century, home to Duke Ellington and a jazz and theater scene that still echoes in landmarks like the Lincoln Theatre and Ben\'s Chili Bowl, and today it is one of the busiest nightlife corridors in the city, anchored by the 9:30 Club. DCA Limos serves U Street daily: airport transfers, concert-night transportation, dinner reservations and late pickups along a strip where parking is scarce and rideshare surges hit hard.',
-      'Every trip is driven by a licensed, background-checked chauffeur in a sedan, SUV, Sprinter van or stretch limousine, with a flat rate or hourly price confirmed before you book.',
+      'Every trip is driven by a licensed, background-checked chauffeur in a sedan, SUV or Sprinter van, with a flat rate or hourly price confirmed before you book.',
     ],
     highlights: [
       'Concert-night transportation to the 9:30 Club, timed to doors and set times',
@@ -1231,9 +1231,9 @@ export const MARYLAND_BATCH7 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'concert groups and parties' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'nights out and celebrations' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'concert groups and parties' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -1254,7 +1254,7 @@ export const MARYLAND_BATCH7 = [
       },
       {
         q: 'What is the cancellation policy?',
-        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans, limousines and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
+        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
       },
     ],
     related: [
@@ -1284,7 +1284,7 @@ export const MARYLAND_BATCH7 = [
     ],
     intro: [
       'Tenleytown sits on the highest natural point in Washington, DC, a residential and commercial node along upper Wisconsin Avenue anchored by American University and the Tenleytown-AU Metro station. DCA Limos serves Tenleytown daily: airport transfers, university family and move-in travel, and trips down Wisconsin Avenue to Georgetown or across to the National Cathedral neighborhood.',
-      'Every trip is driven by a licensed, background-checked chauffeur in a sedan, SUV, Sprinter van or stretch limousine, with a flat rate or hourly price confirmed before you book.',
+      'Every trip is driven by a licensed, background-checked chauffeur in a sedan, SUV or Sprinter van, with a flat rate or hourly price confirmed before you book.',
     ],
     highlights: [
       'American University campus travel, including move-in, family weekend and commencement',
@@ -1320,9 +1320,9 @@ export const MARYLAND_BATCH7 = [
       { name: 'Mercedes-Benz E-Class', cls: 'Business sedan', seats: 3, best: 'solo executives and couples' },
       { name: 'BMW 7 Series', cls: 'First-class sedan', seats: 3, best: 'VIP and executive travel' },
       { name: 'Lincoln Navigator', cls: 'Premium SUV', seats: 6, best: 'families and small groups with luggage' },
-      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 6, best: 'airport runs with extra luggage' },
-      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 14, best: 'university groups and families' },
-      { name: 'Stretch limousine', cls: 'Limousine', seats: 8, best: 'celebrations and special occasions' },
+      { name: 'Chevrolet Suburban', cls: 'Luxury SUV', seats: 5, best: 'airport runs with extra luggage' },
+      { name: 'Mercedes Sprinter van', cls: 'Executive van', seats: 13, best: 'university groups and families' },
+      { name: 'Lincoln Nautilus', cls: 'Midsize SUV', seats: 3, best: 'couples and small families with extra bags' },
     ],
     faqs: [
       {
@@ -1343,7 +1343,7 @@ export const MARYLAND_BATCH7 = [
       },
       {
         q: 'What is the cancellation policy?',
-        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans, limousines and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
+        a: 'Sedans and SUVs cancel free up to 3 hours before pickup; Sprinter vans and special-event bookings up to 12 hours. Call (877) 609-1919 to change a booking.',
       },
     ],
     related: [

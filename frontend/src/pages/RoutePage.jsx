@@ -50,20 +50,8 @@ const RoutePage = ({ slug: slugProp }) => {
           serviceType: 'Airport car service',
           areaServed: data.destination,
           url: canonicalHref,
-          provider: {
-            '@type': 'LocalBusiness',
-            name: 'DCA Limos',
-            telephone: '+1-877-609-1919',
-            url: 'https://dcalimos.com',
-            address: {
-              '@type': 'PostalAddress',
-              streetAddress: '9836 Lyon Ave',
-              addressLocality: 'Laurel',
-              addressRegion: 'MD',
-              postalCode: '20723',
-              addressCountry: 'US',
-            },
-          },
+          // Points at the full LocalBusiness block in public/index.html.
+          provider: { '@id': 'https://dcalimos.com/#organization' },
         },
         {
           '@type': 'BreadcrumbList',
@@ -282,7 +270,7 @@ const RoutePage = ({ slug: slugProp }) => {
             Book your <span className="text-amber-400">DCA to {data.destination}</span> ride today
           </h2>
           <p className="text-base sm:text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Flight tracked, professionally chauffeured, and guaranteed — free cancellation up to 3 hours before pickup for sedans and SUVs (12 hours for Sprinter vans, limousines and special events). Contact us for a free, exact quote.
+            Flight tracked, professionally chauffeured, and guaranteed — free cancellation up to 3 hours before pickup for sedans and SUVs (12 hours for Sprinter vans and special events). Contact us for a free, exact quote.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link to="/booking">

@@ -20,7 +20,7 @@ DCA separates rideshare pickup (often a satellite lot requiring a shuttle or a w
 
 ## Flat-Rate Pricing vs. Metered or Surge Pricing
 
-The single biggest difference between a professional limo service and a taxi or rideshare is how the price is set. A licensed DCA limo service quotes one flat, all-inclusive rate before you ever get in the car — tolls, fuel and the chauffeur's time are built in, and the price does not move because your flight lands during rush hour or a Metro outage sends ride-hail demand through the roof. That predictability matters most exactly when you need it most: 5 a.m. departures, Friday evening arrivals, and the days around cherry blossom season or a Capitol Hill event when downtown traffic and ride-hail demand both spike together.
+The single biggest difference between a professional limo service and a taxi or rideshare is how the price is set. A licensed DCA limo service quotes one flat rate before you ever get in the car — tolls, fuel and the chauffeur's time are built in, any gratuity is shown up front (ours is a 20% gratuity added to the rate), and the price does not move because your flight lands during rush hour or a Metro outage sends ride-hail demand through the roof. That predictability matters most exactly when you need it most: 5 a.m. departures, Friday evening arrivals, and the days around cherry blossom season or a Capitol Hill event when downtown traffic and ride-hail demand both spike together.
 
 ## Choosing the Right Vehicle
 
@@ -30,11 +30,11 @@ DCA limo fleets typically span several classes, and picking the right one change
 
 - **Luxury sedan** (Mercedes S-Class, BMW 7 Series) — client pickups, board members, or anyone who wants the top-tier cabin.
 
-- **SUV** (Lincoln Navigator, Chevrolet Suburban) — extra luggage, three to five passengers, or families.
+- **SUV** (Lincoln Navigator, Chevrolet Suburban) — extra luggage, up to five or six passengers, or families.
 
-- **Mercedes Sprinter van** — six to fourteen passengers, ideal for group arrivals or a wedding party landing together.
+- **Mercedes Sprinter Shuttle** — up to 13 passengers, ideal for group arrivals or a wedding party landing together.
 
-- **Stretch limousine** — proms, anniversaries and celebration transfers where the vehicle is part of the occasion.
+- **Mercedes Sprinter Executive** — up to 13 passengers in an upgraded cabin with mood lighting and luxury amenities, for proms, weddings and celebration transfers where the ride is part of the occasion. (We don't operate stretch limousines.)
 
 See the full [fleet lineup](/fleet) for photos, capacities and per-vehicle pricing before you book.
 
@@ -52,7 +52,7 @@ Outbound from DCA, pickup timing is calculated backward from your flight, factor
 
 ## Who Actually Needs a Limo vs. a Standard Car Service
 
-Not every DCA trip needs a stretch limousine — most travelers are better served by an executive sedan or SUV at a lower price point. Reserve the limousine or Sprinter class specifically for group travel, weddings, proms and celebration transfers where the vehicle itself is part of the event. For a routine airport-to-hotel or airport-to-office run, the standard sedan and SUV classes deliver the same flat-rate reliability at a more efficient price.
+Not every DCA trip needs a big vehicle — most travelers are better served by an executive sedan or SUV at a lower price point. Reserve the Sprinter classes specifically for group travel, weddings, proms and celebration transfers where the vehicle itself is part of the event. For a routine airport-to-hotel or airport-to-office run, the standard sedan and SUV classes deliver the same flat-rate reliability at a more efficient price.
 
 ## Getting an Exact Quote
 
@@ -80,7 +80,7 @@ A business traveler's priority is almost always punctuality and discretion — a
 
 ## Why "Limo Service" Covers More Than Limousines
 
-The term "limo service" is a holdover from an era when a stretch limousine was the default luxury vehicle, but in practice it now covers the full range of professional chauffeured transportation — sedans, SUVs and Sprinter vans included. Most DCA "limo service" bookings today are executive sedans and SUVs, not stretch limousines at all; the stretch limousine remains available specifically for events where the vehicle itself is part of the occasion, like a wedding or milestone celebration.
+The term "limo service" is a holdover from an era when a stretch limousine was the default luxury vehicle, but in practice it now covers the full range of professional chauffeured transportation — sedans, SUVs and Sprinter vans included. Most DCA "limo service" bookings today are executive sedans and SUVs. DCA Limos doesn't run stretch limousines at all; for a wedding or milestone celebration where the vehicle is part of the occasion, the Sprinter Executive or a Lincoln Navigator fills that role.
 
 ## The Bottom Line
 
@@ -94,7 +94,7 @@ Licensed commercial vehicles stage at a dedicated ground-transportation curb clo
 
 **How much does a DCA airport limo cost?**
 
-It depends on vehicle class and distance, but every fare is quoted as one flat, all-inclusive rate before you book — no meter, no surge. Compare vehicle classes on the fleet page and confirm your exact price in writing before your trip.
+It depends on vehicle class and distance, but every fare is quoted as one flat rate before you book, with the 20% gratuity added to the rate and shown in the total — no meter, no surge. Compare vehicle classes on the fleet page and confirm your exact price in writing before your trip.
 
 **How far in advance should I book a DCA limo?**
 

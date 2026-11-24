@@ -20,9 +20,9 @@ const POOL = [
     topic: /cancel/i,
     q: () => 'What is the cancellation policy?',
     a: [
-      'Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings cancel free of charge up to 12 hours before pickup.',
-      'Plans change — cancel a sedan or SUV booking at no cost any time up to 3 hours before pickup. Sprinter vans, limousines and special-event reservations have a longer 12-hour free-cancellation window.',
-      'For sedans and SUVs, cancel free up to 3 hours ahead of your pickup time. Larger vehicles — Sprinter vans, limousines, and anything booked for a special event — can be cancelled free up to 12 hours out.',
+      'Sedan and SUV reservations cancel free of charge up to 3 hours before pickup. Sprinter vans and special-event bookings cancel free of charge up to 12 hours before pickup.',
+      'Plans change — cancel a sedan or SUV booking at no cost any time up to 3 hours before pickup. Sprinter vans and special-event reservations have a longer 12-hour free-cancellation window.',
+      'For sedans and SUVs, cancel free up to 3 hours ahead of your pickup time. Larger vehicles — Sprinter vans and anything booked for a special event — can be cancelled free up to 12 hours out.',
     ],
   },
   {
@@ -30,7 +30,7 @@ const POOL = [
     q: () => 'Can you provide child car seats?',
     a: [
       'Yes. Infant, convertible and booster seats are available on request — tell us the child\'s age when you book and the seat is installed before the vehicle arrives.',
-      'Yes — just let us know your child\'s age when you reserve, and we\'ll bring the right infant, convertible or booster seat, already installed before your chauffeur arrives.',
+      'Yes — just let us know your child\'s age when you reserve. We\'ll bring the right infant, convertible or booster seat, already installed before your chauffeur arrives.',
       'We carry infant, convertible and booster seats and install whichever one fits your child before the car shows up. Mention the child\'s age in your booking request and we\'ll take care of the rest.',
     ],
   },
@@ -38,18 +38,18 @@ const POOL = [
     topic: /delay|late|flight track/i,
     q: () => 'What happens if my flight is delayed?',
     a: [
-      'Every airport pickup is flight-tracked, so your chauffeur is dispatched against the actual arrival time rather than the schedule. You never need to call from the tarmac.',
+      'Every airport pickup is flight-tracked, so your chauffeur is dispatched against the actual arrival time rather than the schedule. There is no need to phone us with a new landing time.',
       'Nothing on your end — we track your flight and adjust the pickup time automatically to match when you actually land, not the original schedule. No need to call us from the runway.',
-      'We monitor your flight status in real time, so a delay simply shifts your chauffeur\'s dispatch to match your real arrival — you don\'t have to call ahead to reschedule.',
+      'We monitor your flight status in real time, so a delay simply shifts your chauffeur\'s dispatch to match your real arrival. You don\'t have to call ahead to reschedule.',
     ],
   },
   {
     topic: /pay|charge|card|price|cost|rate/i,
     q: () => 'When is my card charged?',
     a: [
-      'Your flat rate is confirmed before you book, and your card is charged only after the reservation and the rate are confirmed with you — never at the time of the online request.',
-      'You see and confirm the flat rate before booking; the card on file isn\'t charged until that reservation and rate are locked in with you, not the moment you submit the request online.',
-      'The flat rate is agreed on before you book, and billing only happens once your reservation and price are confirmed — submitting the online request itself doesn\'t trigger a charge.',
+      'Your flat rate is confirmed before you book. Your card is charged once the reservation and the rate are confirmed with you — never at the time of the online request.',
+      'You see and confirm the flat rate before booking. The card on file isn\'t charged until that reservation and rate are locked in with you, not the moment you submit the request online.',
+      'The flat rate is agreed on before you book, and billing only happens once your reservation and price are confirmed. Submitting the online request itself doesn\'t trigger a charge.',
     ],
   },
 ];

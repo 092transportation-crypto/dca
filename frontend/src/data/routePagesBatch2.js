@@ -56,7 +56,7 @@ export const ROUTE_PAGES_BATCH2 = [
     faqs: [
       {
         q: 'How much does a car service from DCA to Ashburn cost?',
-        a: 'We quote one flat, all-inclusive rate including tolls, fuel and the chauffeur. Final pricing depends on vehicle type and your exact Ashburn address. Call (877) 609-1919 or book online for an exact quote.',
+        a: 'We quote one flat rate including tolls, fuel and the chauffeur. Final pricing depends on vehicle type and your exact Ashburn address. Call (877) 609-1919 or book online for an exact quote.',
       },
       {
         q: 'How long does it take to get from DCA to Ashburn?',
@@ -125,7 +125,7 @@ export const ROUTE_PAGES_BATCH2 = [
     faqs: [
       {
         q: 'How much does a car service from DCA to Manassas cost?',
-        a: 'We quote one flat, all-inclusive rate including tolls, fuel and the chauffeur. Final pricing depends on vehicle type and your exact Manassas address. Call (877) 609-1919 or book online for an exact quote.',
+        a: 'We quote one flat rate including tolls, fuel and the chauffeur. Final pricing depends on vehicle type and your exact Manassas address. Call (877) 609-1919 or book online for an exact quote.',
       },
       {
         q: 'How long does it take to get from DCA to Manassas?',
@@ -179,7 +179,7 @@ export const ROUTE_PAGES_BATCH2 = [
         paragraphs: [
           'As Loudoun County\'s seat, Leesburg mixes a genuinely historic core — brick storefronts and the county courthouse dating to the 18th and 19th centuries — with newer draws like the Leesburg Premium Outlets and the general-aviation Leesburg Executive Airport just outside town. Route 15 and Route 7 both run through the center of town, so our chauffeurs plan drop-offs around the Market Street and King Street intersection rather than fighting through it at the wrong hour.',
           'Loudoun markets itself as "DC\'s Wine Country," with dozens of wineries scattered across the rolling hills west and south of Leesburg, and the town functions as the natural staging point for a day of tastings. A single chauffeured vehicle for the whole outing means no one in the group has to stay sober behind the wheel, and the flat rate covers the full loop of stops rather than a series of separate rideshare fares between wineries.',
-          'Morven Park and Oatlands Historic House, two large historic estates just outside town, add another option for a slower, grounds-and-gardens day rather than a wine-focused one, and both host weddings that bring our Sprinter vans and stretch limousines out to Leesburg on a regular basis. Whatever the occasion, a DCA flight on one end of the day and a Leesburg address on the other is a combination we plan for routinely.',
+          'Morven Park and Oatlands Historic House, two large historic estates just outside town, add another option for a slower, grounds-and-gardens day rather than a wine-focused one, and both host weddings that bring our Sprinter vans out to Leesburg on a regular basis. Whatever the occasion, a DCA flight on one end of the day and a Leesburg address on the other is a combination we plan for routinely.',
         ],
       },
     ],
@@ -193,7 +193,7 @@ export const ROUTE_PAGES_BATCH2 = [
     faqs: [
       {
         q: 'How much does a car service from DCA to Leesburg cost?',
-        a: 'We quote one flat, all-inclusive rate including tolls, fuel and the chauffeur. Because the trip is nearly 40 miles, a locked-in flat rate is especially valuable here. Call (877) 609-1919 or book online for an exact quote.',
+        a: 'We quote one flat rate including tolls, fuel and the chauffeur. Because the trip is nearly 40 miles, a locked-in flat rate is especially valuable here. Call (877) 609-1919 or book online for an exact quote.',
       },
       {
         q: 'How long does it take to get from DCA to Leesburg?',
@@ -260,7 +260,7 @@ export const ROUTE_PAGES_BATCH2 = [
     faqs: [
       {
         q: 'How much does a car service from DCA to Vienna cost?',
-        a: 'We quote one flat, all-inclusive rate including tolls, fuel and the chauffeur. Final pricing depends on vehicle type and your exact Vienna address. Call (877) 609-1919 or book online for an exact quote.',
+        a: 'We quote one flat rate including tolls, fuel and the chauffeur. Final pricing depends on vehicle type and your exact Vienna address. Call (877) 609-1919 or book online for an exact quote.',
       },
       {
         q: 'How long does it take to get from DCA to Vienna?',
@@ -333,7 +333,7 @@ export const ROUTE_PAGES_BATCH2 = [
     faqs: [
       {
         q: 'How much does a car service from DCA to Gaithersburg cost?',
-        a: 'We quote one flat, all-inclusive rate including tolls, fuel and the chauffeur. Final pricing depends on vehicle type and your exact Gaithersburg address. Call (877) 609-1919 or book online for an exact quote.',
+        a: 'We quote one flat rate including tolls, fuel and the chauffeur. Final pricing depends on vehicle type and your exact Gaithersburg address. Call (877) 609-1919 or book online for an exact quote.',
       },
       {
         q: 'How long does it take to get from DCA to Gaithersburg?',
@@ -406,7 +406,7 @@ export const ROUTE_PAGES_BATCH2 = [
     faqs: [
       {
         q: 'How much does a car service from DCA to Potomac cost?',
-        a: 'We quote one flat, all-inclusive rate including tolls, fuel and the chauffeur. Final pricing depends on vehicle type and your exact Potomac address. Call (877) 609-1919 or book online for an exact quote.',
+        a: 'We quote one flat rate including tolls, fuel and the chauffeur. Final pricing depends on vehicle type and your exact Potomac address. Call (877) 609-1919 or book online for an exact quote.',
       },
       {
         q: 'How long does it take to get from DCA to Potomac?',

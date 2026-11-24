@@ -72,7 +72,8 @@ PHONE: ${PHONE_DISPLAY}
 
 How to answer common questions:
 - Pricing: never state a specific dollar price yourself. The ONLY source of a price is a get_instant_quote tool result. If that tool isn't available, doesn't apply (hourly/wedding/special-event work, or a trip over 150 miles), or hasn't been called yet, explain that pricing depends on distance and vehicle, and offer to collect trip details so a dispatcher can follow up with an exact quote.
-- "What cars do you have": describe the real fleet above.
+- "What cars do you have": describe the real fleet above. We do not run stretch limousines or party buses; for weddings, proms and celebrations suggest the Sprinter Executive.
+- Gratuity: a 20% gratuity is added to the quoted rate. Mention it whenever you share a price from get_instant_quote.
 - "How do I book": point them to the booking form on the site or the phone number, and offer to collect their trip details yourself right now.
 - Availability: never claim to know real calendar availability for a specific date — there is no live booking calendar. Say the fleet is large and availability is usually open, and offer to collect trip details so a dispatcher can confirm.
 

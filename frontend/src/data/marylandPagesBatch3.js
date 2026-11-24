@@ -28,7 +28,7 @@ export const MARYLAND_BATCH3 = [
       }
     ],
     "intro": [
-      "Reagan National sits inside Arlington County, which makes Arlington the shortest airport run we drive and one of the busiest. DCA Limos covers the whole county: the Rosslyn–Ballston corridor, Clarendon and Courthouse, Crystal City and Pentagon City, Shirlington, Columbia Pike and the quiet residential streets north of Langston Boulevard. Sedans, SUVs, Sprinter vans and stretch limousines are all available, each with a licensed, background-checked chauffeur.",
+      "Reagan National sits inside Arlington County, which makes Arlington the shortest airport run we drive and one of the busiest. DCA Limos covers the whole county: the Rosslyn–Ballston corridor, Clarendon and Courthouse, Crystal City and Pentagon City, Shirlington, Columbia Pike and the quiet residential streets north of Langston Boulevard. Sedans, SUVs and Sprinter vans are all available, each with a licensed, background-checked chauffeur.",
       "A short trip still deserves planning. The few miles between Ballston and the terminal can take ten minutes before dawn or twice that when I-395 and Route 110 stack up behind the Pentagon. We schedule each pickup against live traffic, track every inbound flight and confirm a flat-rate or hourly price before you book, so the only thing left for you to do is walk out the door."
     ],
     "highlights": [
@@ -58,7 +58,7 @@ export const MARYLAND_BATCH3 = [
         "h2": "Corporate, government and evening travel",
         "paragraphs": [
           "Much of our Arlington work is business travel: consultants and contractors moving between Ballston, Rosslyn and downtown Washington, teams visiting the technology and defense offices around National Landing, and delegations headed to Capitol Hill for the day. An hourly booking keeps one chauffeur and one vehicle with you across every stop.",
-          "Evenings are just as common. Dinner in Clarendon, a show at the Kennedy Center across the Roosevelt Bridge, a wedding at a Rosslyn rooftop or a hotel ballroom in Crystal City — a Sprinter or stretch limousine keeps the group together, and nobody has to find parking on Wilson Boulevard on a Saturday night."
+          "Evenings are just as common. Dinner in Clarendon, a show at the Kennedy Center across the Roosevelt Bridge, a wedding at a Rosslyn rooftop or a hotel ballroom in Crystal City — a Sprinter Executive keeps the group together, and nobody has to find parking on Wilson Boulevard on a Saturday night."
         ]
       }
     ],
@@ -84,20 +84,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -119,7 +119,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "What is your cancellation policy for Arlington reservations?",
-        "a": "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings can be cancelled free up to 12 hours before pickup."
+        "a": "Sedan and SUV reservations can be cancelled free of charge up to 3 hours before pickup. Sprinter vans and special-event bookings can be cancelled free up to 12 hours before pickup."
       }
     ],
     "related": [
@@ -212,7 +212,7 @@ export const MARYLAND_BATCH3 = [
       "Old Town pickups planned around narrow streets, cobblestones and limited curb space near the waterfront",
       "Wedding and event transportation for historic venues, hotels and riverfront restaurants",
       "Mount Vernon, National Harbor and Washington sightseeing by the hour",
-      "Sedans and SUVs for airport runs; Sprinter vans and stretch limousines for groups"
+      "Sedans and SUVs for airport runs; Sprinter vans for groups"
     ],
     "sections": [
       {
@@ -232,7 +232,7 @@ export const MARYLAND_BATCH3 = [
       {
         "h2": "Weddings, dinners and days out",
         "paragraphs": [
-          "Alexandria's historic houses, hotels and riverfront spaces host weddings most weekends of the year. We move wedding parties between getting-ready suites, ceremonies and receptions in Sprinter vans, and provide a sedan or limousine for the couple at the end of the night.",
+          "Alexandria's historic houses, hotels and riverfront spaces host weddings most weekends of the year. We move wedding parties between getting-ready suites, ceremonies and receptions in Sprinter vans, and provide a First Class sedan or Lincoln Navigator for the couple at the end of the night.",
           "Visitors often book by the hour: George Washington's Mount Vernon is a scenic run south on the parkway, National Harbor is just across the Wilson Bridge, and the monuments are a short drive north. One chauffeur stays with you all day, which suits families with older relatives or small children far better than stringing together separate rides."
         ]
       }
@@ -259,20 +259,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -438,20 +438,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -469,7 +469,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "Do you transport corporate groups?",
-        "a": "Yes. SUVs seat up to six and Mercedes Sprinter vans carry up to 14. For larger groups we schedule multiple vehicles to arrive together and assign one dispatcher to the whole movement."
+        "a": "Yes. SUVs seat up to six and Mercedes Sprinter vans carry up to 13. For larger groups we schedule multiple vehicles to arrive together and assign one dispatcher to the whole movement."
       },
       {
         "q": "How do I book a Tysons car service?",
@@ -605,20 +605,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -640,7 +640,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "What if my plans change?",
-        "a": "Sedan and SUV reservations can be cancelled without charge up to 3 hours before pickup. Sprinter vans, limousines and special-event bookings require 12 hours. Changes to times and addresses are handled by dispatch at any hour."
+        "a": "Sedan and SUV reservations can be cancelled without charge up to 3 hours before pickup. Sprinter vans and special-event bookings require 12 hours. Changes to times and addresses are handled by dispatch at any hour."
       }
     ],
     "related": [
@@ -768,20 +768,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -799,7 +799,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "Can you take a group from Reston to Loudoun wineries?",
-        "a": "Yes. A Mercedes Sprinter van carries up to 14 passengers and is booked by the hour. Give us your list of wineries and we will plan a sensible route and timing."
+        "a": "Yes. A Mercedes Sprinter van carries up to 13 passengers and is booked by the hour. Give us your list of wineries and we will plan a sensible route and timing."
       },
       {
         "q": "How do I reserve a car in Reston?",
@@ -879,7 +879,7 @@ export const MARYLAND_BATCH3 = [
       }
     ],
     "intro": [
-      "Fairfax means two things to the people who live here: the independent City of Fairfax, with its old courthouse square and Main Street, and the wider central Fairfax County area around it — George Mason University, Fair Oaks, Fair Lakes and the Fairfax County Government Center. DCA Limos serves all of it with chauffeured sedans, SUVs, Sprinter vans and stretch limousines.",
+      "Fairfax means two things to the people who live here: the independent City of Fairfax, with its old courthouse square and Main Street, and the wider central Fairfax County area around it — George Mason University, Fair Oaks, Fair Lakes and the Fairfax County Government Center. DCA Limos serves all of it with chauffeured sedans, SUVs and Sprinter vans.",
       "Fairfax is a genuine two-airport town. Dulles is typically 25–40 minutes by way of Route 50 or the Fairfax County Parkway, and Reagan National 30–55 minutes along I-66, depending on traffic. We quote each trip as a flat rate before you book, follow your flight in real time and send a chauffeur who knows how I-66 behaves at the hour you are traveling."
     ],
     "highlights": [
@@ -887,7 +887,7 @@ export const MARYLAND_BATCH3 = [
       "George Mason University service for visiting faculty, families, commencement and arena events",
       "Court, county-government and business travel around the Government Center and the courthouse complex",
       "Flight tracking with complimentary airport wait time and optional meet and greet",
-      "Sprinter vans and limousines for weddings, proms and group nights out",
+      "Sprinter Executive vans for weddings, proms and group nights out",
       "Flat-rate or hourly pricing confirmed before you book"
     ],
     "sections": [
@@ -935,20 +935,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -965,8 +965,8 @@ export const MARYLAND_BATCH3 = [
         "a": "Yes. We regularly drive families and guests to campus and to EagleBank Arena. For commencement and other busy days we agree a drop-off and pickup point away from the heaviest traffic."
       },
       {
-        "q": "Can I book a limousine for a prom or wedding in Fairfax?",
-        "a": "Yes. Stretch limousines seat up to 8 and Sprinter vans up to 14. These vehicles and special-event bookings can be cancelled free up to 12 hours before pickup, and we recommend reserving early for spring weekends."
+        "q": "Which vehicle should we book for a prom or wedding in Fairfax?",
+        "a": "We don't run stretch limousines, so most prom and wedding groups book the Sprinter Executive, which seats up to 13 with an upgraded cabin and mood lighting; a Lincoln Navigator suits up to six. Sprinter and special-event bookings can be cancelled free up to 12 hours before pickup, and we recommend reserving early for spring weekends."
       },
       {
         "q": "How do I get a quote?",
@@ -1106,20 +1106,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -1137,7 +1137,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "How much notice do you need?",
-        "a": "Advance reservations are best, particularly for early flights and for vans or limousines, but dispatch operates 24/7 and will accommodate short-notice requests whenever a vehicle is available."
+        "a": "Advance reservations are best, particularly for early flights and for Sprinter vans, but dispatch operates 24/7 and will accommodate short-notice requests whenever a vehicle is available."
       },
       {
         "q": "How do I book?",
@@ -1218,7 +1218,7 @@ export const MARYLAND_BATCH3 = [
       "Medical appointment transportation near Gallows Road, with the chauffeur waiting on an hourly basis",
       "Evenings at the Mosaic District, in Arlington or in downtown Washington with a ride home arranged",
       "Flight tracking, complimentary airport wait time and optional meet and greet",
-      "Sedans, SUVs, Sprinter vans and stretch limousines from one dispatch desk"
+      "Sedans, SUVs and Sprinter vans from one dispatch desk"
     ],
     "sections": [
       {
@@ -1239,7 +1239,7 @@ export const MARYLAND_BATCH3 = [
         "h2": "Appointments, evenings and events",
         "paragraphs": [
           "Hourly service is popular with Falls Church clients who need a car to wait: a parent with a specialist appointment in Merrifield, an executive with back-to-back meetings in Tysons and Arlington, a couple going to dinner at the Mosaic District and then on to a late show in Washington. One chauffeur handles the whole outing and you never stand on a curb refreshing an app.",
-          "For larger occasions — weddings, milestone birthdays, school dances — we provide Sprinter vans for up to 14 and stretch limousines for up to 8, and coordinate multiple vehicles when the guest list calls for it. Special-event bookings can be cancelled free of charge up to 12 hours before pickup."
+          "For larger occasions — weddings, milestone birthdays, school dances — we provide Sprinter Executive vans for up to 13 and Lincoln Navigators for up to 6, and coordinate multiple vehicles when the guest list calls for it. Special-event bookings can be cancelled free of charge up to 12 hours before pickup."
         ]
       }
     ],
@@ -1265,20 +1265,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -1368,7 +1368,7 @@ export const MARYLAND_BATCH3 = [
       }
     ],
     "intro": [
-      "Leesburg is the seat of Loudoun County and the point where suburban Northern Virginia gives way to horse farms, stone walls and vineyards. Its historic downtown around King and Market Streets is full of restaurants and shops, and the countryside beyond it is one of the region's favorite places for weddings and weekend outings. DCA Limos serves Leesburg, Lansdowne, Ashburn and the surrounding county with chauffeured cars, SUVs, vans and limousines.",
+      "Leesburg is the seat of Loudoun County and the point where suburban Northern Virginia gives way to horse farms, stone walls and vineyards. Its historic downtown around King and Market Streets is full of restaurants and shops, and the countryside beyond it is one of the region's favorite places for weddings and weekend outings. DCA Limos serves Leesburg, Lansdowne, Ashburn and the surrounding county with chauffeured sedans, SUVs and Sprinter vans.",
       "Dulles International is the local airport, usually 20–35 minutes away by the Dulles Greenway or Route 7 and Route 28. Reagan National and downtown Washington are a longer ride — commonly 50–85 minutes or more depending on traffic — which is precisely when it is pleasant to have someone else driving."
     ],
     "highlights": [
@@ -1398,7 +1398,7 @@ export const MARYLAND_BATCH3 = [
         "h2": "Wine country, weddings and weekends",
         "paragraphs": [
           "Loudoun County is home to dozens of wineries, along with breweries, cideries and farm markets scattered along back roads north, west and south of Leesburg. A tasting day is the classic case for a chauffeur: nobody has to be the designated driver, and the narrow gravel approaches are someone else's concern. We suggest three or four stops for an unhurried day and can collect your group anywhere in the Washington area.",
-          "The same countryside hosts weddings nearly every weekend in season at estates, barns, vineyards and resorts. We shuttle guests from Leesburg and Lansdowne hotels in Sprinter vans, provide a limousine or sedan for the couple and keep a dispatcher on the timeline so the last shuttle leaves when the last guest is ready."
+          "The same countryside hosts weddings nearly every weekend in season at estates, barns, vineyards and resorts. We shuttle guests from Leesburg and Lansdowne hotels in Sprinter vans, provide a Lincoln Navigator or First Class sedan for the couple and keep a dispatcher on the timeline so the last shuttle leaves when the last guest is ready."
         ]
       }
     ],
@@ -1424,20 +1424,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -1451,11 +1451,11 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "Can you drive our group on a Loudoun winery tour?",
-        "a": "Yes. Book an SUV for up to six or a Sprinter van for up to 14 by the hour. Wineries often have their own rules for groups and reservations, so please confirm those directly with each one; we will handle the route and timing."
+        "a": "Yes. Book an SUV for up to six or a Sprinter van for up to 13 by the hour. Wineries often have their own rules for groups and reservations, so please confirm those directly with each one; we will handle the route and timing."
       },
       {
         "q": "Do you provide wedding shuttles in Loudoun County?",
-        "a": "Yes. We run guest shuttles between hotels and venues and provide vehicles for the couple and wedding party. Sprinter, limousine and special-event bookings can be cancelled free up to 12 hours before pickup."
+        "a": "Yes. We run guest shuttles between hotels and venues and provide vehicles for the couple and wedding party. Sprinter and special-event bookings can be cancelled free up to 12 hours before pickup."
       },
       {
         "q": "How do I book a car in Leesburg?",
@@ -1583,20 +1583,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -1752,20 +1752,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -1787,7 +1787,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "Can you bring a group?",
-        "a": "Yes. SUVs seat up to six, Sprinter vans up to 14 and stretch limousines up to 8. Sprinter, limousine and special-event bookings can be cancelled free up to 12 hours before pickup; sedans and SUVs up to 3 hours before."
+        "a": "Yes. SUVs seat up to six and Sprinter vans up to 13. Sprinter and special-event bookings can be cancelled free up to 12 hours before pickup; sedans and SUVs up to 3 hours before."
       }
     ],
     "related": [
@@ -1915,20 +1915,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -1946,7 +1946,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "Can you take a group of friends?",
-        "a": "Yes. Navigator and Suburban SUVs seat up to six and Mercedes Sprinter vans up to 14. We can collect from more than one address on the way in."
+        "a": "Yes. Navigator SUVs seat up to six, Suburbans up to five and Mercedes Sprinter vans up to 13. We can collect from more than one address on the way in."
       },
       {
         "q": "How do I book transportation to The Anthem?",
@@ -2078,20 +2078,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -2113,7 +2113,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "What if the show is cancelled or we change our minds?",
-        "a": "Sedan and SUV reservations can be cancelled free up to 3 hours before pickup, and Sprinter vans, limousines and special-event bookings up to 12 hours before."
+        "a": "Sedan and SUV reservations can be cancelled free up to 3 hours before pickup, and Sprinter vans and special-event bookings up to 12 hours before."
       }
     ],
     "related": [
@@ -2210,7 +2210,7 @@ export const MARYLAND_BATCH3 = [
       {
         "h2": "Group and corporate programs",
         "paragraphs": [
-          "For companies bringing a team, we build a simple transportation plan: arrivals grouped by flight time, a van loop between the hotel and the hall at the start and end of each day, a car reserved for the executive who has meetings elsewhere in the city, and transportation to the client dinner. Sprinter vans carry up to 14 and we coordinate several for larger parties.",
+          "For companies bringing a team, we build a simple transportation plan: arrivals grouped by flight time, a van loop between the hotel and the hall at the start and end of each day, a car reserved for the executive who has meetings elsewhere in the city, and transportation to the client dinner. Sprinter vans carry up to 13 and we coordinate several for larger parties.",
           "Planners get a single point of contact at dispatch and a written schedule in advance. Changes are inevitable during a convention, and our desk is staffed 24/7 to absorb them."
         ]
       },
@@ -2243,20 +2243,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -2278,7 +2278,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "What is the cancellation policy for convention bookings?",
-        "a": "Individual sedan and SUV transfers can be cancelled free up to 3 hours before pickup. Sprinter vans, limousines and special-event programs require 12 hours."
+        "a": "Individual sedan and SUV transfers can be cancelled free up to 3 hours before pickup. Sprinter vans and special-event programs require 12 hours."
       }
     ],
     "related": [
@@ -2384,7 +2384,7 @@ export const MARYLAND_BATCH3 = [
       {
         "h2": "Groups, youth clubs and corporate hosts",
         "paragraphs": [
-          "Soccer is a group outing more often than not. A Sprinter van carries up to 14 supporters together, which suits youth teams attending with coaches, office parties and birthday groups. For larger numbers we run multiple vehicles that arrive together. Corporate hosts often book sedans or SUVs for clients with collection from downtown hotels or directly from Reagan National, which is only minutes away."
+          "Soccer is a group outing more often than not. A Sprinter van carries up to 13 supporters together, which suits youth teams attending with coaches, office parties and birthday groups. For larger numbers we run multiple vehicles that arrive together. Corporate hosts often book sedans or SUVs for clients with collection from downtown hotels or directly from Reagan National, which is only minutes away."
         ]
       }
     ],
@@ -2410,20 +2410,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -2445,7 +2445,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "Can you take a youth team or large group?",
-        "a": "Yes. Sprinter vans seat up to 14 and we can coordinate several. Car seats are available on request for younger children. Sprinter and special-event bookings can be cancelled free up to 12 hours before pickup."
+        "a": "Yes. Sprinter vans seat up to 13 and we can coordinate several. Car seats are available on request for younger children. Sprinter and special-event bookings can be cancelled free up to 12 hours before pickup."
       }
     ],
     "related": [
@@ -2500,7 +2500,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "label": "Fleet",
-        "value": "Sedans · SUVs · Sprinters · Limos"
+        "value": "Sedans · SUVs · Sprinters"
       },
       {
         "label": "Pricing",
@@ -2573,20 +2573,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -2669,7 +2669,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "label": "Fleet",
-        "value": "Sedans · SUVs · Sprinters · Limos"
+        "value": "Sedans · SUVs · Sprinters"
       },
       {
         "label": "Pricing",
@@ -2681,12 +2681,12 @@ export const MARYLAND_BATCH3 = [
       }
     ],
     "intro": [
-      "An anniversary deserves an evening in which neither of you has to think about directions, parking or who is driving home. DCA Limos provides chauffeured sedans, SUVs and stretch limousines for anniversary celebrations across Washington DC, Northern Virginia and Maryland, from a quiet dinner for two to a surprise party with the whole family.",
+      "An anniversary deserves an evening in which neither of you has to think about directions, parking or who is driving home. DCA Limos provides chauffeured sedans, SUVs and Sprinter vans for anniversary celebrations across Washington DC, Northern Virginia and Maryland, from a quiet dinner for two to a surprise party with the whole family.",
       "Tell us what you have in mind and we will shape the transportation around it: the pickup at home, the restaurant, perhaps a performance or a walk by the water, a drive past the monuments after dark and the ride back. Evenings are usually booked hourly so the car is yours throughout, and the rate is confirmed before you book."
     ],
     "highlights": [
       "A chauffeur who stays with you all evening, so there is no waiting for a ride between stops",
-      "Executive sedans for an understated night out, or a stretch limousine for a sense of occasion",
+      "Executive sedans for an understated night out, or a Lincoln Navigator or Sprinter Executive for a sense of occasion",
       "Evening plans built around Georgetown, The Wharf, the Kennedy Center and Old Town Alexandria",
       "Full-day Virginia wine country outings for couples or groups of friends",
       "Sprinter vans for milestone anniversaries celebrated with family",
@@ -2746,26 +2746,26 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
       {
-        "q": "Should we choose a sedan or a limousine for an anniversary?",
-        "a": "It depends on the mood. A BMW 7 Series or Mercedes E-Class is elegant and discreet for a dinner for two. A stretch limousine seats up to 8 and makes more of a statement, especially for milestone years or when family is joining."
+        "q": "Should we choose a sedan or an SUV for an anniversary?",
+        "a": "It depends on the mood. A BMW 7 Series or Mercedes E-Class is elegant and discreet for a dinner for two. We don't run stretch limousines; a Lincoln Navigator makes more of a statement for milestone years, and a Sprinter Executive with mood lighting works when family is joining."
       },
       {
         "q": "How is an anniversary evening priced?",
@@ -2777,11 +2777,11 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "How far ahead should we book?",
-        "a": "A week or two is comfortable for most dates. Limousines and Sprinter vans on Friday and Saturday evenings, and dates around Valentine's Day and New Year's Eve, are requested early, so reserve as soon as your plans are set."
+        "a": "A week or two is comfortable for most dates. Navigators and Sprinter vans on Friday and Saturday evenings, and dates around Valentine's Day and New Year's Eve, are requested early, so reserve as soon as your plans are set."
       },
       {
         "q": "What is the cancellation policy?",
-        "a": "Sedans and SUVs can be cancelled free up to 3 hours before pickup. Limousines, Sprinter vans and special-event bookings can be cancelled free up to 12 hours before pickup."
+        "a": "Sedans and SUVs can be cancelled free up to 3 hours before pickup. Sprinter vans and special-event bookings can be cancelled free up to 12 hours before pickup."
       }
     ],
     "related": [
@@ -2842,7 +2842,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "label": "Fleet",
-        "value": "Sedans · SUVs · Sprinters · Limos"
+        "value": "Sedans · SUVs · Sprinters"
       },
       {
         "label": "Pricing",
@@ -2854,15 +2854,15 @@ export const MARYLAND_BATCH3 = [
       }
     ],
     "intro": [
-      "Commencement brings whole families to Washington at once: parents, grandparents, siblings and friends, often from several cities, all needing to be in the same place at an early hour on a day when campus roads are closed and parking is scarce. DCA Limos keeps the family together and on time with chauffeured SUVs, Sprinter vans and limousines for graduation weekend.",
+      "Commencement brings whole families to Washington at once: parents, grandparents, siblings and friends, often from several cities, all needing to be in the same place at an early hour on a day when campus roads are closed and parking is scarce. DCA Limos keeps the family together and on time with chauffeured sedans, SUVs and Sprinter vans for graduation weekend.",
       "We serve ceremonies at Georgetown University, the George Washington University, American University, Howard University, The Catholic University of America, George Mason University in Fairfax and the University of Maryland in College Park, along with law, medical and graduate school ceremonies, high school graduations and the celebration dinners that follow."
     ],
     "highlights": [
-      "Sprinter vans for up to 14 so the whole family travels in one vehicle",
+      "Sprinter vans for up to 13 so the whole family travels in one vehicle",
       "Drop-off as close to the ceremony as campus closures allow, which matters for older relatives",
       "Airport and Union Station pickups for arriving family, with flight tracking and complimentary wait time",
       "Hourly service covering the ceremony, photographs, the department reception and dinner",
-      "Stretch limousines for graduates celebrating with friends",
+      "Sprinter Executive vans for graduates celebrating with friends",
       "Flat-rate or hourly pricing confirmed before you book"
     ],
     "sections": [
@@ -2876,7 +2876,7 @@ export const MARYLAND_BATCH3 = [
       {
         "h2": "Why families choose a Sprinter",
         "paragraphs": [
-          "A graduation party is rarely two people. With a Sprinter van, grandparents do not have to walk from a remote garage, nobody is separated in a convoy of rideshares, and gowns, flowers, cameras and gifts ride along without being crushed. The chauffeur drops everyone together, moves the vehicle away from campus congestion and returns when you call. For parties larger than 14 we coordinate additional vehicles to arrive together."
+          "A graduation party is rarely two people. With a Sprinter van, grandparents do not have to walk from a remote garage, nobody is separated in a convoy of rideshares, and gowns, flowers, cameras and gifts ride along without being crushed. The chauffeur drops everyone together, moves the vehicle away from campus congestion and returns when you call. For parties larger than 13 we coordinate additional vehicles to arrive together."
         ]
       },
       {
@@ -2889,7 +2889,7 @@ export const MARYLAND_BATCH3 = [
       {
         "h2": "Book early for May",
         "paragraphs": [
-          "Most area universities hold commencement within the same few weeks of late spring, overlapping with prom and wedding season, and vans and limousines are reserved well ahead. We recommend booking as soon as the school confirms its date and your family's travel is set. Dispatch is available 24/7 if plans change, and Sprinter, limousine and special-event reservations can be cancelled free up to 12 hours before pickup."
+          "Most area universities hold commencement within the same few weeks of late spring, overlapping with prom and wedding season, and Sprinter vans and large SUVs are reserved well ahead. We recommend booking as soon as the school confirms its date and your family's travel is set. Dispatch is available 24/7 if plans change, and Sprinter and special-event reservations can be cancelled free up to 12 hours before pickup."
         ]
       }
     ],
@@ -2915,20 +2915,20 @@ export const MARYLAND_BATCH3 = [
       {
         "name": "Chevrolet Suburban",
         "cls": "Luxury SUV",
-        "seats": 6,
+        "seats": 5,
         "best": "airport runs with beach or golf luggage"
       },
       {
         "name": "Mercedes Sprinter van",
         "cls": "Executive van",
-        "seats": 14,
+        "seats": 13,
         "best": "wedding parties, corporate teams and groups"
       },
       {
-        "name": "Stretch limousine",
-        "cls": "Limousine",
-        "seats": 8,
-        "best": "proms, weddings and celebrations"
+        "name": "Lincoln Nautilus",
+        "cls": "Midsize SUV",
+        "seats": 3,
+        "best": "couples and small families with extra bags"
       }
     ],
     "faqs": [
@@ -2938,7 +2938,7 @@ export const MARYLAND_BATCH3 = [
       },
       {
         "q": "What vehicle is best for a family of eight to twelve?",
-        "a": "A Mercedes Sprinter van, which seats up to 14 with room for bags and gifts. Families of up to six are comfortable in a Lincoln Navigator or Suburban, and graduates celebrating with friends often choose a stretch limousine for up to 8."
+        "a": "A Mercedes Sprinter van, which seats up to 13 with room for bags and gifts. Families of up to six are comfortable in a Lincoln Navigator, or up to five in a Suburban, and graduates celebrating with friends often choose a Sprinter Executive for up to 13."
       },
       {
         "q": "Do you cover graduations outside the District?",

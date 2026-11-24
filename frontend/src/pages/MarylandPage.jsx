@@ -41,14 +41,24 @@ const MarylandPage = ({ slug: slugProp, page: pageProp }) => {
       '@graph': [
         {
           '@type': 'LocalBusiness',
-          '@id': `${SITE_URL}/#business`,
+          // Same @id as the LocalBusiness in public/index.html, so crawlers merge
+          // the two into one business instead of seeing a second one.
+          '@id': `${SITE_URL}/#organization`,
           name: 'DCA Limos',
           telephone: '+1-877-609-1919',
           url: SITE_URL,
           priceRange: '$$',
+          image: `${SITE_URL}/dca-limos-logo.png`,
+          logo: `${SITE_URL}/dca-limos-logo.png`,
           address: { '@type': 'PostalAddress', streetAddress: '9836 Lyon Ave', addressLocality: 'Laurel', addressRegion: 'MD', postalCode: '20723', addressCountry: 'US' },
+          geo: { '@type': 'GeoCoordinates', latitude: 39.1115, longitude: -76.8517 },
           areaServed: data.schema.areaServed.map((a) => ({ '@type': 'Place', name: a })),
           openingHours: 'Mo-Su 00:00-23:59',
+          sameAs: [
+            'https://www.facebook.com/profile.php?id=61587066539463',
+            'https://www.instagram.com/dcalimos',
+            'https://tiktok.com/@dca.limos',
+          ],
         },
         {
           '@type': 'Service',
@@ -57,7 +67,7 @@ const MarylandPage = ({ slug: slugProp, page: pageProp }) => {
           url: canonicalHref,
           description: data.metaDescription,
           areaServed: data.schema.areaServed.map((a) => ({ '@type': 'Place', name: a })),
-          provider: { '@id': `${SITE_URL}/#business` },
+          provider: { '@id': `${SITE_URL}/#organization` },
         },
         {
           '@type': 'FAQPage',
@@ -219,7 +229,7 @@ const MarylandPage = ({ slug: slugProp, page: pageProp }) => {
                   </a>
                   <div className="mt-6 pt-6 border-t border-gray-200 space-y-2 text-sm text-gray-600">
                     <div className="flex items-center gap-2"><Clock className="h-4 w-4 text-amber-600" /> 24/7 service · 365 days</div>
-                    <div className="flex items-center gap-2"><Car className="h-4 w-4 text-amber-600" /> Sedans · SUVs · Sprinters · Limos</div>
+                    <div className="flex items-center gap-2"><Car className="h-4 w-4 text-amber-600" /> Sedans · SUVs · Sprinters</div>
                     <div className="flex items-center gap-2"><CheckCircle2 className="h-4 w-4 text-amber-600" /> Flat rate · no surge</div>
                   </div>
                 </CardContent>
@@ -292,7 +302,7 @@ const MarylandPage = ({ slug: slugProp, page: pageProp }) => {
             Book <span className="text-amber-400">{data.name}</span> today
           </h2>
           <p className="text-base sm:text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Professionally chauffeured and guaranteed — free cancellation up to 3 hours before pickup for sedans and SUVs (12 hours for Sprinter vans, limousines and special events). Call {PHONE_DISPLAY} for a free, exact quote.
+            Professionally chauffeured and guaranteed — free cancellation up to 3 hours before pickup for sedans and SUVs (12 hours for Sprinter vans and special events). Call {PHONE_DISPLAY} for a free, exact quote.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link to="/booking">

@@ -3,19 +3,21 @@ import { setJsonLd } from '@/lib/seo';
 
 // FAQ block + FAQPage JSON-LD for pages that don't build their own.
 // `faqs` is [{ q, a }]. Render at most one per page (one FAQPage per URL).
-const FaqSection = ({ faqs, heading = 'Frequently Asked Questions' }) => {
+// `extraSchemaFaqs` are FAQs the page renders visibly elsewhere; they are
+// added to the same FAQPage so the schema covers every visible question.
+const FaqSection = ({ faqs, heading = 'Frequently Asked Questions', extraSchemaFaqs }) => {
   useEffect(() => {
     if (!faqs || !faqs.length) return undefined;
     return setJsonLd('page-faq-jsonld', {
       '@context': 'https://schema.org',
       '@type': 'FAQPage',
-      mainEntity: faqs.map((f) => ({
+      mainEntity: [...(extraSchemaFaqs || []), ...faqs].map((f) => ({
         '@type': 'Question',
         name: f.q,
         acceptedAnswer: { '@type': 'Answer', text: f.a },
       })),
     });
-  }, [faqs]);
+  }, [faqs, extraSchemaFaqs]);
 
   if (!faqs || !faqs.length) return null;
   return (

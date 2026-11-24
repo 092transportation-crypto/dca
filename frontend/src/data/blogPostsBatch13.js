@@ -344,7 +344,7 @@ export const BLOG_POSTS_BATCH13 = [
       <p class="lead">Washington's formal ball season, anchored by the National Debutante Cotillion & Christmas Ball and a calendar of similar formal presentations at downtown hotel ballrooms through the winter, runs on a level of protocol that most events in our coverage area do not — specific arrival times, an escort's own schedule, and a presentation moment that needs to happen exactly on cue in front of a ballroom full of family and guests.</p>
 
       <h2>Gowns, trains and a car built for them</h2>
-      <p>A formal gown with a full train needs more room to enter and exit a vehicle gracefully than a typical evening dress, and a sedan or stretch limousine with the right door clearance and seat depth makes a meaningful difference in how the arrival actually looks compared with an awkward climb out of a low rideshare sedan. We confirm gown details in advance when they are likely to affect the vehicle choice.</p>
+      <p>A formal gown with a full train needs more room to enter and exit a vehicle gracefully than a typical evening dress, and a First Class sedan or a Lincoln Navigator with the right door clearance and seat depth makes a meaningful difference in how the arrival actually looks compared with an awkward climb out of a low rideshare sedan. We confirm gown details in advance when they are likely to affect the vehicle choice.</p>
 
       <h2>Escorts, families and a coordinated arrival</h2>
       <p>A debutante\'s escort often travels separately before the event converges at the ballroom, and families frequently need a second vehicle for parents and siblings arriving on their own schedule. We coordinate multiple vehicles as one event booking, timed to arrive in the right order rather than each car showing up independently.</p>
@@ -359,11 +359,11 @@ export const BLOG_POSTS_BATCH13 = [
       <p>Call (877) 609-1919 or <a href="/booking">request a quote online</a> — tell us your event, the number of vehicles needed and any gown or timing details, and we will confirm a flat rate before your event.</p>
     `,
     faqs: [
-      { q: 'Can you accommodate a formal gown with a long train?', a: 'Yes. A sedan or stretch limousine with the right door clearance and seat depth makes entering and exiting far easier than a typical rideshare sedan — tell us about the gown in advance.' },
+      { q: 'Can you accommodate a formal gown with a long train?', a: 'Yes. A First Class sedan or Lincoln Navigator with the right door clearance and seat depth makes entering and exiting far easier than a typical rideshare sedan — tell us about the gown in advance.' },
       { q: 'Can you coordinate separate vehicles for an escort and the debutante\'s family?', a: 'Yes. We coordinate multiple vehicles as one event booking, timed to arrive in the right order for the presentation.' },
       { q: 'Do your chauffeurs know the downtown hotel ballrooms that host these events?', a: 'Yes. We know each venue\'s porte-cochère and valet arrangement well enough to time arrivals around the usual queue.' },
       { q: 'Is pickup available for a late-night finish?', a: 'Yes. Formal balls routinely run past midnight, and we stage the chauffeur nearby and reachable for the actual end of the evening.' },
-      { q: 'How far ahead should we book for ball season?', a: 'As early as possible — stretch limousines in particular sell out for the season\'s biggest, best-known events.' },
+      { q: 'How far ahead should we book for ball season?', a: 'As early as possible — First Class sedans and Sprinter Executives in particular sell out for the season\'s biggest, best-known events.' },
     ],
   },
   {
@@ -426,7 +426,7 @@ export const BLOG_POSTS_BATCH13 = [
       <p class="lead">A kids\' birthday party built around a special arrival, a multi-stop celebration, or simply getting a group of excited children and their parents between an activity venue and a party location safely is a different planning problem from our adult-focused milestone-birthday service — younger passengers, car seats, shorter attention spans and, often, a surprise element aimed at a child rather than an adult.</p>
 
       <h2>A special arrival for the birthday child</h2>
-      <p>Some families book a stretch limousine or a decorated SUV specifically so the birthday child arrives at their own party in style, an increasingly popular request for a milestone like a fifth, tenth or thirteenth birthday. We confirm the arrival timing with the parent organizing the surprise so the birthday child is met with exactly the reaction the family is hoping for.</p>
+      <p>Some families book a Sprinter Executive or a decorated SUV specifically so the birthday child arrives at their own party in style, an increasingly popular request for a milestone like a fifth, tenth or thirteenth birthday. We confirm the arrival timing with the parent organizing the surprise so the birthday child is met with exactly the reaction the family is hoping for.</p>
 
       <h2>Car seats, boosters and the right vehicle for young guests</h2>
       <p>Younger party guests being transported between an activity venue and a party location need the correct restraint under DC, Maryland or Virginia law depending on the trip, and we confirm ages in advance so the right infant, convertible or booster seats are installed before the vehicle arrives — including multiples when a group of young children is riding together.</p>

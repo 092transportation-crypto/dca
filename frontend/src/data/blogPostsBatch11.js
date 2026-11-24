@@ -43,19 +43,19 @@ export const BLOG_POSTS_BATCH11 = [
       <p>"Black car" originally described a specific type of vehicle — a black sedan, historically something like a Lincoln Town Car — used for professional, chauffeured transportation as opposed to a taxi or rideshare. Today the term has broadened to mean any professional chauffeured sedan or SUV service, regardless of the vehicle's actual color, and is most often used for airport transfers and point-to-point corporate travel. See our <a href="/dca-airport-black-car-service">DCA airport black car service page</a> for how that specific use case works.</p>
 
       <h2>Limo (limousine) service</h2>
-      <p>"Limo" is often used loosely to mean any chauffeured car, but technically it refers to a stretch limousine — the extended-wheelbase vehicle associated with weddings, prom and special occasions. Most companies, including ours, use "limo service" in marketing as a catch-all term, but if you actually want a stretch limousine, it is worth specifying that directly when you book rather than assuming "limo" automatically means the long vehicle. Our <a href="/limo/wedding-limo-service">wedding limo service page</a> covers when a true stretch limousine makes sense versus a Sprinter van.</p>
+      <p>"Limo" is often used loosely to mean any chauffeured car, but technically it refers to a stretch limousine — the extended-wheelbase vehicle associated with weddings, prom and special occasions. Most companies, including ours, use "limo service" in marketing as a catch-all term for chauffeured transportation. To be clear about our own fleet: DCA Limos does not operate stretch limousines. Our "limo service" means chauffeured sedans, SUVs and Mercedes Sprinters, and for weddings and proms the Sprinter Executive, with its upgraded cabin and mood lighting, is the vehicle we recommend. Our <a href="/limo/wedding-limo-service">wedding limo service page</a> covers how that works for a wedding day.</p>
 
       <h2>Town car</h2>
-      <p>A "town car" refers specifically to a sedan-class vehicle — historically the Lincoln Town Car model, which gave the term its name, though the term now gets used generically for any professional sedan. It is the vehicle class most people picture for a standard airport transfer or business trip, as opposed to an SUV or a stretch limousine.</p>
+      <p>A "town car" refers specifically to a sedan-class vehicle — historically the Lincoln Town Car model, which gave the term its name, though the term now gets used generically for any professional sedan. It is the vehicle class most people picture for a standard airport transfer or business trip, as opposed to an SUV or a van.</p>
 
       <h2>Livery</h2>
-      <p>"Livery" is the most formal and least commonly used of these terms in everyday conversation, but it shows up constantly in licensing and regulatory language. A livery vehicle is any vehicle operated commercially to transport passengers for hire, under a jurisdiction's specific licensing requirements — the category that covers everything from a sedan to a stretch limousine to a Sprinter van. Our page on <a href="/blog/dc-va-md-carrier-licensing-explained">what DC, Virginia & Maryland carrier licensing means for consumers</a> goes deeper into this regulatory side.</p>
+      <p>"Livery" is the most formal and least commonly used of these terms in everyday conversation, but it shows up constantly in licensing and regulatory language. A livery vehicle is any vehicle operated commercially to transport passengers for hire, under a jurisdiction's specific licensing requirements — the category that covers everything from a sedan to an SUV to a Sprinter van. Our page on <a href="/blog/dc-va-md-carrier-licensing-explained">what DC, Virginia & Maryland carrier licensing means for consumers</a> goes deeper into this regulatory side.</p>
 
       <h2>Why the terminology confusion matters when you book</h2>
-      <p>If you search "limo service near me" expecting a stretch limousine and a sedan shows up, or you search "black car" and get quoted a price for an SUV, the mismatch usually comes down to a company using these terms interchangeably rather than any attempt to mislead you. The safest approach is to specify the actual vehicle type — sedan, SUV, stretch limousine or Sprinter van — rather than relying on any single umbrella term, and to confirm it when you book. See our <a href="/blog/sedan-vs-suv-vs-sprinter-van-which-to-choose">sedan vs. SUV vs. Sprinter van guide</a> for help choosing the right one.</p>
+      <p>If you search "limo service near me" expecting a stretch limousine and a sedan or Sprinter shows up, or you search "black car" and get quoted a price for an SUV, the mismatch usually comes down to a company using these terms interchangeably rather than any attempt to mislead you. The safest approach is to specify the actual vehicle type — sedan, SUV or Sprinter van — rather than relying on any single umbrella term, and to confirm it when you book. See our <a href="/blog/sedan-vs-suv-vs-sprinter-van-which-to-choose">sedan vs. SUV vs. Sprinter van guide</a> for help choosing the right one.</p>
 
       <h2>The bottom line</h2>
-      <p>These terms overlap enough that most companies, including DCA Limos, use them loosely in marketing. When you book, specify the vehicle class directly — sedan, SUV, stretch limousine or van — and you will get exactly what you expect regardless of which umbrella term brought you to the page. Call (877) 609-1919 or <a href="/booking">request a quote online</a> and we will confirm the exact vehicle before you book.</p>
+      <p>These terms overlap enough that most companies, including DCA Limos, use them loosely in marketing. When you book, specify the vehicle class directly — sedan, SUV or Sprinter van — and you will get exactly what you expect regardless of which umbrella term brought you to the page. Call (877) 609-1919 or <a href="/booking">request a quote online</a> and we will confirm the exact vehicle before you book.</p>
     `,
     faqs: [
       {
@@ -64,15 +64,15 @@ export const BLOG_POSTS_BATCH11 = [
       },
       {
         q: 'Does "limo service" always mean a stretch limousine?',
-        a: 'Not necessarily. Many companies, including ours, use "limo service" as a catch-all marketing term. If you specifically want a stretch limousine, say so when you book.',
+        a: 'Not necessarily. Many companies, including ours, use "limo service" as a catch-all marketing term. DCA Limos does not operate stretch limousines; our fleet is sedans, SUVs and Mercedes Sprinters, with the Sprinter Executive as our pick for weddings and proms.',
       },
       {
         q: 'What is the difference between a town car and a livery vehicle?',
-        a: 'A town car refers to a specific sedan vehicle class. "Livery" is a broader regulatory term covering any vehicle licensed to transport passengers commercially, including sedans, SUVs, limousines and vans.',
+        a: 'A town car refers to a specific sedan vehicle class. "Livery" is a broader regulatory term covering any vehicle licensed to transport passengers commercially, including sedans, SUVs and vans.',
       },
       {
         q: 'How do I make sure I book the right vehicle type?',
-        a: 'Specify the actual vehicle class — sedan, SUV, stretch limousine or Sprinter van — when you request a quote, rather than relying on a single umbrella term.',
+        a: 'Specify the actual vehicle class — sedan, SUV or Sprinter van — when you request a quote, rather than relying on a single umbrella term.',
       },
       {
         q: 'Does the vehicle terminology affect the price?',
@@ -228,10 +228,10 @@ export const BLOG_POSTS_BATCH11 = [
       <p>For an airport arrival, your chauffeur tracks your flight and is waiting at baggage claim with a name sign, not circling the terminal curb waiting for a text. For a non-airport pickup, your chauffeur arrives at the scheduled time (with a 15-minute grace window if you are running slightly behind) and waits curbside, generally in business attire, ready to help with luggage or bags.</p>
 
       <h2>During the ride</h2>
-      <p>The vehicle is a late-model sedan, SUV, Sprinter van or stretch limousine depending on what you booked — clean, professionally maintained, and driven by a licensed, background-checked chauffeur. You are welcome to work, make calls or simply relax; there is no small talk expectation unless you want conversation.</p>
+      <p>The vehicle is a late-model sedan, SUV or Mercedes Sprinter depending on what you booked — clean, professionally maintained, and driven by a licensed, background-checked chauffeur. You are welcome to work, make calls or simply relax; there is no small talk expectation unless you want conversation.</p>
 
       <h2>At drop-off and tipping</h2>
-      <p>Your chauffeur helps with bags at drop-off. Tipping is customary but not automatically added to every booking the way some services bundle it in — see our <a href="/tipping-your-dca-limo-driver-gratuity-guide">tipping and gratuity guide</a> for typical amounts if you are unsure.</p>
+      <p>Your chauffeur helps with bags at drop-off. There is nothing to work out at the curb: a 20% gratuity is added to the rate on every booking and is already in the total on your written quote, so any extra tip is purely your choice. Our <a href="/tipping-your-dca-limo-driver-gratuity-guide">tipping and gratuity guide</a> explains how it works.</p>
 
       <h2>If anything changes</h2>
       <p>Flight delays, a change of pickup address, or a need to extend wait time are all things dispatch can handle in real time — you are not locked into the original plan the way a rideshare booking can feel.</p>
@@ -253,8 +253,8 @@ export const BLOG_POSTS_BATCH11 = [
         a: 'Your chauffeur waits at baggage claim with a name sign and tracks your flight, so you do not need to search a pickup lot or text for a location.',
       },
       {
-        q: 'Is tipping included automatically?',
-        a: "No, it is customary but not automatically bundled into every booking. See our tipping guide for typical amounts if you're unsure.",
+        q: 'Do I need to tip the chauffeur?',
+        a: "No. A 20% gratuity is added to the rate on every booking and shown in the total on your quote before you confirm. Anything extra is at your discretion.",
       },
       {
         q: 'Can I change my pickup time or address after booking?',
@@ -416,8 +416,8 @@ export const BLOG_POSTS_BATCH11 = [
       <h2>A rough sense of what to expect</h2>
       <p>Exact pricing depends on your specific date, hours and stops, so we do not publish a fixed day-rate — a quote confirmed before you book reflects your actual itinerary rather than a generic average that may not match your situation. As a general pattern, a half-day wedding guest-shuttle booking typically runs less than a full 10-hour corporate offsite day with multiple stops, simply because of total hours and mileage.</p>
 
-      <h2>Comparing to a stretch limousine or multiple sedans</h2>
-      <p>For a group of 8–14 people, a single Sprinter van is usually more cost-effective than booking two or three separate sedans for the same group, since you are paying for one vehicle and one chauffeur rather than several. See our <a href="/blog/sedan-vs-suv-vs-sprinter-van-which-to-choose">sedan vs. SUV vs. Sprinter van guide</a> for the full comparison by group size.</p>
+      <h2>Comparing to multiple sedans or SUVs</h2>
+      <p>For a group of 8–13 people, a single Sprinter van is usually more cost-effective than booking two or three separate sedans for the same group, since you are paying for one vehicle and one chauffeur rather than several. See our <a href="/blog/sedan-vs-suv-vs-sprinter-van-which-to-choose">sedan vs. SUV vs. Sprinter van guide</a> for the full comparison by group size.</p>
 
       <h2>Getting an exact quote</h2>
       <p>Tell us your date, total hours needed, number of stops and group size, and we will confirm an exact flat or hourly rate before you book — no surprise charges added after the fact.</p>
@@ -436,7 +436,7 @@ export const BLOG_POSTS_BATCH11 = [
       },
       {
         q: 'Is a Sprinter van cheaper than booking multiple sedans for the same group?',
-        a: 'Usually, yes, for a group of 8–14 people — one vehicle and one chauffeur typically costs less than several separate sedans.',
+        a: 'Usually, yes, for a group of 8–13 people — one vehicle and one chauffeur typically costs less than several separate sedans.',
       },
       {
         q: 'Can I get an exact quote before booking?',
@@ -524,7 +524,7 @@ export const BLOG_POSTS_BATCH11 = [
     readTime: '6 min read',
     category: 'Planning Guides',
     content: `
-      <p class="lead">A group too large for one vehicle — a wedding party split between a limousine and a Sprinter van, a large family needing two SUVs, a corporate delegation arriving across several flights — introduces a coordination problem that a single-vehicle booking never has: making sure every car arrives at the right place, at the right time, without one group waiting on another.</p>
+      <p class="lead">A group too large for one vehicle — a wedding party split between a Lincoln Navigator and a Sprinter van, a large family needing two SUVs, a corporate delegation arriving across several flights — introduces a coordination problem that a single-vehicle booking never has: making sure every car arrives at the right place, at the right time, without one group waiting on another.</p>
 
       <h2>Decide the split before you book, not after</h2>
       <p>The most common source of confusion in a multi-vehicle booking is deciding who rides in which vehicle after the cars have already arrived. Work out the split in advance — which family members or wedding-party members go in which vehicle, and in what order they need to be picked up or dropped off — and share that plan with dispatch when you book, not on the day itself.</p>
@@ -536,7 +536,7 @@ export const BLOG_POSTS_BATCH11 = [
       <p>With multiple vehicles involved, having one person — a wedding planner, an office manager, a family member — as the single point of contact with dispatch avoids the confusion of several people independently calling with slightly different versions of the plan. That person confirms the final schedule once, and dispatch coordinates every vehicle against it.</p>
 
       <h2>What this looks like for a wedding</h2>
-      <p>A typical split is a stretch limousine for the couple and immediate wedding party, with a Sprinter van handling a guest shuttle on a separate, often repeating schedule between a hotel block and the venue. These two vehicles run on related but distinct timelines, and our <a href="/blog/how-many-limos-for-wedding-party">guide to how many limos you actually need</a> covers how to figure out the right split for your specific group size.</p>
+      <p>A typical split is a First Class sedan or Lincoln Navigator for the couple, a Sprinter Executive for the wedding party, and often a Sprinter Shuttle running guests on a separate, repeating schedule between a hotel block and the venue. These vehicles run on related but distinct timelines, and our <a href="/blog/how-many-limos-for-wedding-party">guide to how many limos you actually need</a> covers how to figure out the right split for your specific group size.</p>
 
       <h2>What this looks like for a family or corporate group</h2>
       <p>A large family or corporate delegation arriving on several flights usually needs vehicles staggered to each flight's actual landing time, confirmed through flight tracking the same way a single pickup would be — just multiplied across however many flights are involved. See our <a href="/blog/family-reunion-sprinter-van-airport-transportation">family reunion Sprinter van guide</a> for how we handle staggered arrivals for a large group.</p>
