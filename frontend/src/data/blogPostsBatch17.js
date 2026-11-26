@@ -5304,4 +5304,87 @@ export const BLOG_POSTS_BATCH17 = [
       { q: 'Do you operate on New Year\'s Day?', a: 'Yes. Dispatch runs 24 hours a day, every day of the year, including New Year\'s Day.' },
     ],
   },
+  // Added 2026-11-26 (Thanksgiving Day): one live (not scheduled) season-long
+  // holiday travel planner. The other holiday posts each cover one moment
+  // (Thanksgiving week, hosting guests, house parties, NYE, the January
+  // return); this one maps the whole Thanksgiving-to-New-Year's stretch and
+  // links out to them. Service facts copied from BookingPage, ContactPage,
+  // FleetPage and pageFaqs; no statistics, prices or wait-time figures.
+  {
+    slug: 'dca-holiday-travel-guide-thanksgiving-to-new-years',
+    relatedRoutes: ['dca-to-washington-dc', 'dca-to-arlington', 'dca-to-alexandria'],
+    relatedLinks: [
+      { label: 'DCA Airport Parking vs. Car Service', to: '/blog/dca-airport-parking-cost-vs-car-service' },
+      { label: 'New Year\'s Eve Car Service in DC', to: '/blog/new-years-eve-car-service-dc' },
+      { label: 'Book Your Holiday Ride', to: '/booking' },
+    ],
+    title: 'DCA Holiday Travel Guide: Reagan National Tips for Thanksgiving to New Year\'s',
+    metaTitle: 'DCA Holiday Travel Guide: Thanksgiving to New Year\'s | DCA Limos',
+    metaDesc:
+      'Plan Reagan National (DCA) holiday travel, Thanksgiving to New Year\'s: when to leave for the airport, peak days, parking vs. car service and safe NYE rides.',
+    excerpt:
+      'The holidays at Reagan National are not one rush but several, spread over five weeks. Here is a season-long plan for airport timing, parking, party nights and a safe ride home on New Year\'s Eve.',
+    image: '/images/airport-curbside.webp',
+    author: 'Michael Chen',
+    authorBio: 'Transportation industry analyst and frequent DC-area business traveler with 15+ years in executive travel logistics.',
+    date: 'November 26, 2026',
+    readTime: '6 min read',
+    category: 'Seasonal Guides',
+    content: `
+      <p class="lead">It is Thanksgiving Day, which means the holiday travel season at Reagan National has officially started, and it will not really let up until the first weekend of January. Most guides treat each holiday as a separate event. In practice, the five weeks from Thanksgiving to New Year's work better as one plan: a few days that are genuinely hard, many days that are only a little busier than usual, and a calendar full of evenings when nobody in your group should be driving. This guide walks through the whole stretch so you can decide once, early, how each trip will work.</p>
+
+      <h2>Know Where the Peaks Fall</h2>
+      <p>Holiday traffic at DCA comes in waves rather than one long surge. The heaviest days follow a familiar pattern every year:</p>
+      <ul>
+        <li><strong>The days just before Thanksgiving</strong>, when much of the region leaves town at once. That wave has passed for this year.</li>
+        <li><strong>The Sunday after Thanksgiving</strong>, when travelers come home at the same time and both the departures level and the arrivals curb are crowded. This year that is Sunday, November 29, and the Monday after is often busy too.</li>
+        <li><strong>The days leading up to Christmas</strong>, when schools let out and families start their trips. Christmas Day 2026 falls on a Friday, so the days before that weekend will carry most of the outbound travel.</li>
+        <li><strong>The days around New Year's</strong>, with departures for New Year's Eve plans followed by a return wave once the holiday weekend ends.</li>
+      </ul>
+      <p>The weeks in between, from early December until schools close, are often closer to normal for flying, although evenings fill up with parties, concerts and dinners. If your dates are flexible, moving a flight off a peak day is the simplest way to make the whole trip calmer.</p>
+
+      <h2>When to Leave for the Airport</h2>
+      <p>There is no single correct departure time, because it depends on your airline, whether you are checking bags and how far you are coming from. A few rules hold all season:</p>
+      <ul>
+        <li><strong>Add time on peak days, not every day.</strong> On the days listed above, assume both the roads and the security lines will be slower than usual and leave earlier than you would on an ordinary trip. TSA recommends arriving early during the holidays, and that advice matters most on those days.</li>
+        <li><strong>Check your airline's app before you leave home.</strong> Holiday schedules change, and a delay posted in the morning may change when you need to set out.</li>
+        <li><strong>Count the bags and the gifts.</strong> Checking luggage, dropping off a car seat or traveling with older relatives all take extra minutes at the counter. Our tips on <a href="/blog/flying-with-christmas-gifts-dca-tsa-wrapping-rules">flying with Christmas gifts</a> cover packing presents for the security line.</li>
+        <li><strong>Watch the weather in other cities, too.</strong> A storm somewhere else in the country can delay a flight out of DC on a clear day. Our <a href="/blog/dca-winter-weather-flight-delay-playbook">winter weather playbook</a> explains how pickups are handled when flights move.</li>
+      </ul>
+
+      <h2>Parking at DCA vs. a Car Service</h2>
+      <p>Driving yourself and parking can be the right call for a short trip on a quiet day. During the holidays, the case for it gets weaker. Airport garages can fill on peak days, and a car left for a week over Christmas adds up in parking fees. Coming home late at night to a cold car, or to one under snow, is a poor end to a trip. There is also the drive in on the busiest mornings, when finding a space can take longer than you planned.</p>
+      <p>A car service turns those variables into a fixed plan. Every DCA Limos trip is quoted upfront, with taxes included and a 20% gratuity added to the rate and shown before you confirm. For pickups, we track your flight, and airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from actual touchdown. For a side-by-side look at the costs, read our <a href="/blog/dca-airport-parking-cost-vs-car-service">parking vs. car service breakdown</a>.</p>
+      <p>Size the vehicle for the luggage as well as the people. From our <a href="/fleet">fleet</a>, a sedan seats up to 3, a Chevrolet Suburban up to 5, a Lincoln Navigator up to 6 and a Mercedes Sprinter van up to 13 for a family traveling together.</p>
+
+      <h2>Getting to and From Holiday Parties</h2>
+      <p>December is party season across DC, Maryland and Virginia: office parties downtown, open houses in the suburbs, dinners with friends who have flown in for the holidays. Getting there is rarely the problem. Getting home is, especially on Friday and Saturday nights when everyone is leaving at the same hour and it has been dark since late afternoon.</p>
+      <ul>
+        <li><strong>Decide how everyone gets home before the evening starts</strong>, not at the door at midnight.</li>
+        <li><strong>Book a round trip</strong> so the ride home is already arranged. Non-airport pickups include 15 minutes of complimentary waiting time, so text your chauffeur when you are close to leaving.</li>
+        <li><strong>For several stops in one night</strong>, such as dinner, a party and a second party, an <a href="/washington-dc-hourly-chauffeur-service">hourly chauffeur</a> stays with you for the evening.</li>
+      </ul>
+      <p>If you are the host, our guide to <a href="/blog/hosting-holiday-party-at-home-guest-rides-dc-md-va">getting guests home from a house party</a> has ideas for planning rides, and office managers can start with the <a href="/blog/corporate-holiday-party-transportation-guide">corporate holiday party guide</a>.</p>
+
+      <h2>New Year's Eve: Plan the Ride Home First</h2>
+      <p>New Year's Eve is the one night of the season when the trip home deserves more planning than the trip out. Never drink and drive, and do not leave the question of how you will get home until after midnight, when the whole region is trying to leave at once.</p>
+      <ul>
+        <li><strong>Book early.</strong> New Year's Eve is a single night with fixed demand, and the larger vehicles are usually the first to be reserved.</li>
+        <li><strong>Agree on a pickup time and a meeting point.</strong> Pick a corner or an entrance near your venue, ideally a short walk from the busiest blocks, and make sure everyone in the group knows it.</li>
+        <li><strong>Keep the group together.</strong> If you are out with friends, a single SUV or Sprinter van means nobody is left trying to find their own way home.</li>
+        <li><strong>Pick one person to stay in touch with the chauffeur</strong>, with a charged phone.</li>
+      </ul>
+      <p>Our <a href="/blog/new-years-eve-car-service-dc">New Year's Eve car service guide</a> goes into more detail. And if you are flying out once the holiday is over, the <a href="/blog/after-new-years-return-flights-dca-early-january-guide">early-January return guide</a> covers the last rush of the season.</p>
+
+      <h2>Book Your Holiday Rides Now</h2>
+      <p>The easiest way to handle the season is to book the key trips in one sitting while your flight details are in front of you: the airport run, the ride home from the big party and the New Year's Eve pickup. Sedans and SUVs can be cancelled free of charge up to 3 hours before pickup, and Sprinter vans and special events up to 12 hours before, so plans can change. <a href="/booking">Book online</a> or call (877) 609-1919; we are available 24/7.</p>
+    `,
+    faqs: [
+      { q: 'What are the busiest days to fly out of DCA during the holidays?', a: 'The days just before Thanksgiving, the Sunday after Thanksgiving, the days leading up to Christmas and the days around New Year\'s. Leave extra time for the drive and for security on those days.' },
+      { q: 'Is it better to park at Reagan National or book a car service over the holidays?', a: 'For a short trip on a quiet day, parking can work. Over the holidays, garages can fill on peak days and long trips add up in parking fees, so a car service with an upfront quote is often simpler.' },
+      { q: 'How much waiting time is included on a holiday airport pickup?', a: 'Airport pickups include 45 minutes of complimentary waiting time on domestic arrivals and 60 minutes on international arrivals, timed from actual touchdown. Other pickups include 15 minutes.' },
+      { q: 'Is gratuity included in the quote?', a: 'A 20% gratuity is added to the quoted rate and shown before you confirm, along with taxes, so you see the full total up front.' },
+      { q: 'When should I book a New Year\'s Eve ride?', a: 'As early as you can. Agree on a pickup time and meeting point in advance, and keep your group in one vehicle so everyone gets home safely.' },
+    ],
+  },
 ];
