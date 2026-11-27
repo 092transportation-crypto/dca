@@ -211,6 +211,8 @@ const Footer = () => {
             <div>
               <p className="text-xs sm:text-sm text-gray-400">
                 © {new Date().getFullYear()} DCA Limo. All Rights Reserved.
+                <span className="text-gray-600 mx-2">•</span>
+                <Link to="/privacy-policy" className="text-gray-400 hover:text-amber-400 transition-colors" data-testid="footer-privacy-policy">Privacy Policy</Link>
               </p>
             </div>
             <div className="flex flex-wrap justify-center md:justify-end gap-3 sm:gap-6 text-xs sm:text-sm">

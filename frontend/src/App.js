@@ -23,6 +23,7 @@ import EventRoute from "@/pages/EventRoute";
 import { MARYLAND_PAGES } from "@/data/marylandPages";
 import { GUIDES } from "@/data/guides";
 import ServiceAreasPage from "@/pages/ServiceAreasPage";
+import PrivacyPolicyPage from "@/pages/PrivacyPolicyPage";
 import SiteBreadcrumbs from "@/components/SiteBreadcrumbs";
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
           <Route path="/blog/:slug" element={<BlogPostPage />} />
           <Route path="/booking" element={<BookingPage />} />
           <Route path="/service-areas" element={<ServiceAreasPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
           {GUIDES.map((g) => (
             <Route key={g.slug} path={`/${g.slug}`} element={<BlogPostPage guideSlug={g.slug} />} />
           ))}

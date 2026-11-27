@@ -106,6 +106,7 @@ const STATIC_DEFAULTS = {
   "/blog": ["weekly", "0.6"],
   "/booking": ["weekly", "0.95"],
   "/service-areas": ["monthly", "0.8"],
+  "/privacy-policy": ["yearly", "0.3"],
 };
 
 function collectRoutes() {

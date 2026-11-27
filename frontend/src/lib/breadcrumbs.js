@@ -15,6 +15,7 @@ const STATIC = {
   '/blog': 'Blog',
   '/booking': 'Book a Ride',
   '/service-areas': 'Service Areas',
+  '/privacy-policy': 'Privacy Policy',
 };
 const HOME = { label: 'Home', to: '/' };
 const AREAS = { label: 'Service Areas', to: '/service-areas' };
